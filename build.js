@@ -12,9 +12,9 @@ const SITE = {
   nameEn: "Seedha Matlab",
   tagline: "घोटाले, बैंकिंग अधिकार और उपभोक्ता नियम — सीधी भाषा में, स्रोत के साथ।",
   eyebrow: "सूचना डेस्क · भारत",
-  instagram: "https://instagram.com/seedhamatlab",
+  instagram: "",
   x: "https://x.com/seedhamatlab",
-  whatsapp: "", // WhatsApp Channel ka link yahan daalein
+  whatsapp: "https://whatsapp.com/channel/0029Vb9DXQb3gvWW4lRkkq3r",
 };
 
 const CATS = {
@@ -237,7 +237,6 @@ function foot() {
     <div>
       <h4>कहाँ मिलेंगे</h4>
       <div class="links">
-        <a href="${esc(SITE.instagram)}" target="_blank" rel="noopener">Instagram <span class="handle">@seedhamatlab</span></a>
         ${wa}
         <a href="${esc(SITE.x)}" target="_blank" rel="noopener">X <span class="handle">@seedhamatlab</span></a>
       </div>
