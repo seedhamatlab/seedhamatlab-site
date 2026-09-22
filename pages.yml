@@ -1,0 +1,100 @@
+# Pages CMS config for seedhamatlab.com
+# Isse app.pagescms.org par login karke posts edit ki jaati hain.
+
+media:
+  input: assets/uploads
+  output: /uploads
+
+content:
+  - name: posts
+    label: पोस्ट
+    type: file
+    path: data/posts.json
+    fields:
+      - name: updated
+        label: आख़िरी अपडेट
+        type: date
+        options:
+          format: yyyy-MM-dd
+
+      - name: posts
+        label: पोस्ट सूची
+        type: object
+        list:
+          min: 1
+        fields:
+          - name: title
+            label: शीर्षक
+            type: string
+            required: true
+
+          - name: id
+            label: URL नाम (slug)
+            type: string
+            required: true
+            description: "सिर्फ़ अंग्रेज़ी अक्षर, अंक और डैश। जैसे: digital-arrest. Post ka pata banega seedhamatlab.com/p/digital-arrest/ — ek baar bana dene ke baad badla nahi jaana chahiye."
+
+          - name: cat
+            label: श्रेणी
+            type: select
+            required: true
+            options:
+              values:
+                - { value: scam, label: "साइबर स्कैम" }
+                - { value: bank, label: "बैंकिंग / RBI" }
+                - { value: consumer, label: "उपभोक्ता अधिकार" }
+                - { value: insurance, label: "बीमा / IRDAI" }
+                - { value: epfo, label: "EPFO / सैलरी" }
+
+          - name: date
+            label: तारीख़
+            type: date
+            required: true
+            options:
+              format: yyyy-MM-dd
+
+          - name: severity
+            label: तेवर
+            type: select
+            options:
+              values:
+                - { value: info, label: "जानकारी" }
+                - { value: right, label: "आपका अधिकार" }
+                - { value: alert, label: "अलर्ट" }
+
+          - name: pinned
+            label: सबसे ऊपर पिन करें
+            type: boolean
+            description: "एक समय पर सिर्फ़ एक पोस्ट पिन रखें।"
+
+          - name: summary
+            label: सार
+            type: text
+            required: true
+            description: "दो-तीन लाइन। यही Google और WhatsApp preview में दिखता है।"
+
+          - name: body
+            label: मुख्य लेख
+            type: text
+            required: true
+            description: "## उपशीर्षक · - बुलेट · **मोटा** · [लिंक](https://...)"
+
+          - name: tags
+            label: टैग
+            type: string
+            list: true
+
+          - name: sources
+            label: स्रोत
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: नाम
+                type: string
+              - name: url
+                label: लिंक
+                type: string
+
+settings:
+  merge_mode: auto
