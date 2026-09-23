@@ -15,6 +15,7 @@ const SITE = {
   instagram: "", // Instagram handle abhi nahi hai — link yahan daalein tabhi footer me dikhega
   x: "https://x.com/seedhamatlab",
   whatsapp: "https://whatsapp.com/channel/0029Vb9DXQb3gvWW4lRkkq3r",
+  email: "seedhamatlab@gmail.com",
   // Cloudflare Web Analytics "automatic setup" se chalu hai — Cloudflare khud beacon
   // lagata hai. ISE KHAALI HI RAHNE DIJIYE, warna gintee do baar hogi.
   cfAnalytics: "",
@@ -125,6 +126,22 @@ button{font:inherit;color:inherit}
 .skip:focus{left:18px;top:8px;background:var(--surface);border:1px solid var(--line);padding:6px 10px;border-radius:3px;z-index:10}
 
 .masthead{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding-block:26px 14px}
+.header-actions{display:flex;align-items:center;gap:10px}
+.contact-top{font-size:13px;color:#195eae;font-weight:700;text-decoration:none}
+.menu-toggle{border:1px solid #bacbdc;background:#fff;border-radius:10px;padding:7px 11px;cursor:pointer;color:#195eae;font-size:19px;line-height:1.1}
+.menu-toggle span{font-size:12px;vertical-align:middle;margin-left:3px}
+.site-menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;background:#edf6ff;border:1px solid #c9ddeb;border-radius:12px;padding:12px;margin:0 0 14px}
+.site-menu a{display:block;background:#fff;border-radius:8px;padding:9px 12px;text-decoration:none;color:#174a82;font-weight:600}
+.site-menu a:hover,.site-menu a:focus-visible{background:#dcecff}
+.brand-en{display:block;color:#195eae;font:700 12px var(--sans);letter-spacing:.06em;margin-top:3px}
+.landing{padding:22px 0 26px}
+.landing-label{color:#0e5e57;font-size:12px;letter-spacing:.1em;font-weight:700}
+.landing h2{font-size:clamp(23px,5vw,38px);line-height:1.32;margin:5px 0 14px;max-width:24ch}
+.landing-links{display:flex;flex-wrap:wrap;gap:9px;margin:15px 0 0}
+.landing-links a{background:#195eae;color:white;border-radius:9px;padding:9px 14px;text-decoration:none;font-weight:600;font-size:14px}
+.landing-links a:nth-child(2){background:#e4f3f2;color:#0e5e57}
+.articles-title{font-size:24px;line-height:1.35;margin:20px 0 5px}
+@media(max-width:550px){.masthead{align-items:center}.contact-top{display:none}.stamp{display:none}.wordmark{font-size:29px}.mark{width:44px;height:44px}}
 .brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit}
 .mark{flex:none;width:48px;height:48px;border-radius:50%;display:block}
 .hero{margin:6px 0 4px;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:#1767bf}
@@ -228,6 +245,8 @@ footer p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.62}
 .links a:hover{text-decoration:underline;text-underline-offset:3px}
 .links .handle{font-family:var(--mono);font-size:12px;color:var(--ink-3)}
 .fine{margin-top:24px;padding-top:14px;border-top:1px solid var(--line-soft);font-size:12.5px;color:var(--ink-3)}
+.copyright{display:flex;align-items:center;gap:9px;margin-top:17px;color:var(--ink-2);font-size:12px}
+.copyright img{border-radius:50%;width:27px;height:27px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 `;
 
@@ -270,10 +289,14 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
     <span>
       <span class="eyebrow">${esc(SITE.eyebrow)}</span>
       ${home ? `<h1 class="wordmark">${esc(SITE.name)}</h1>` : `<p class="wordmark">${esc(SITE.name)}</p>`}
+      <span class="brand-en">SEEDHA MATLAB</span>
     </span>
   </a>
-  <div class="stamp"><b>स्रोत</b>सहित</div>
+  <div class="header-actions"><a class="contact-top" href="mailto:${esc(SITE.email)}">Contact</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Menu खोलें">☰ <span>Menu</span></button></div>
 </header>
+<nav id="site-menu" class="site-menu" aria-label="मुख्य menu" hidden>
+  <a href="/">Home</a><a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/about/">About</a><a href="/#contact">Contact</a>
+</nav>
 <hr class="rule">
 <hr class="rule-thin">
 <div class="kicker">
@@ -292,7 +315,7 @@ function foot() {
     ? `<a href="${esc(SITE.instagram)}" target="_blank" rel="noopener">Instagram <span class="handle">@seedhamatlab</span></a>`
     : "";
   return `
-<footer>
+<footer id="contact">
   <div class="fgrid">
     <div>
       <h4>यह डेस्क क्या है</h4>
@@ -301,6 +324,7 @@ function foot() {
     <div>
       <h4>कहाँ मिलेंगे</h4>
       <div class="links">
+        <a href="mailto:${esc(SITE.email)}">Contact <span class="handle">${esc(SITE.email)}</span></a>
         ${ig}
         ${wa}
         <a href="${esc(SITE.x)}" target="_blank" rel="noopener">X <span class="handle">@seedhamatlab</span></a>
@@ -325,8 +349,10 @@ function foot() {
     </div>
   </div>
   <p class="fine">यह सामान्य जानकारी है, कानूनी या वित्तीय सलाह नहीं। अपने मामले में आधिकारिक स्रोत या पेशेवर से पुष्टि करें।</p>
+  <div class="copyright"><img src="/logo.jpg" alt="Seedha Matlab logo" width="27" height="27"><span>© ${new Date().getFullYear()} Seedha Matlab · स्वतंत्र जन-जागरूकता सामग्री</span></div>
 </footer>
 </div>
+<script>(function(){var b=document.querySelector('.menu-toggle'),m=document.getElementById('site-menu');b.addEventListener('click',function(){var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));b.setAttribute('aria-label',open?'Menu खोलें':'Menu बंद करें');m.hidden=open;});})();</script>
 ${SITE.cfAnalytics ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${esc(SITE.cfAnalytics)}"}'></script>` : ""}
 </body>
 </html>`;
@@ -416,8 +442,15 @@ function renderIndex(posts) {
     home: true,
   }) + `
 <main id="main">
+  <section class="landing" aria-label="Seedha Matlab introduction">
+    <span class="landing-label">VERIFIED HELP · सीधी बात</span>
+    <h2>संदिग्ध message आया? पहले जाँचें, फिर action लें।</h2>
+    <p>Scam alert, official source और अगला सही कदम—एक जगह, आसान Hindi + English में।</p>
+    <div class="landing-links"><a href="/how-to-check/">Message कैसे verify करें →</a><a href="#articles">Latest articles देखें ↓</a></div>
+  </section>
   <a class="promise" href="/how-to-check/">${esc(SITE.tagline)}<span class="promise-more">कैसे verify करें? Step-by-step guide खोलें →</span></a>
   <a class="asklink" href="/faq/"><b>कोई सवाल है?</b> — सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब यहाँ देखिए →</a>
+  <h2 class="articles-title" id="articles">Latest articles / नए लेख</h2>
   <div class="controls">
     <div class="search">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
