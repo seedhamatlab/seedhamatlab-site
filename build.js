@@ -12,9 +12,12 @@ const SITE = {
   nameEn: "Seedha Matlab",
   tagline: "घोटाले, बैंकिंग अधिकार और उपभोक्ता नियम — सीधी भाषा में, स्रोत के साथ।",
   eyebrow: "सूचना डेस्क · भारत",
-  instagram: "",
+  instagram: "", // Instagram handle abhi nahi hai — link yahan daalein tabhi footer me dikhega
   x: "https://x.com/seedhamatlab",
   whatsapp: "https://whatsapp.com/channel/0029Vb9DXQb3gvWW4lRkkq3r",
+  // Cloudflare Web Analytics "automatic setup" se chalu hai — Cloudflare khud beacon
+  // lagata hai. ISE KHAALI HI RAHNE DIJIYE, warna gintee do baar hogi.
+  cfAnalytics: "",
 };
 
 const CATS = {
@@ -71,6 +74,10 @@ function renderBody(text) {
   return html;
 }
 
+/* WhatsApp par bhejne ka link — shirshak + pata, dono encoded */
+const waShare = (title, url) =>
+  `https://wa.me/?text=${encodeURIComponent(`${plain(title)}\n\n${url}`)}`;
+
 const catName = (c) => (CATS[c] ? CATS[c].name : c);
 const catColor = (c) => (CATS[c] ? `var(${CATS[c].v})` : "var(--ink-3)");
 
@@ -106,8 +113,22 @@ button{font:inherit;color:inherit}
 .skip:focus{left:18px;top:8px;background:var(--surface);border:1px solid var(--line);padding:6px 10px;border-radius:3px;z-index:10}
 
 .masthead{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding-block:26px 14px}
+.brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit}
+.mark{flex:none;width:48px;height:48px;border-radius:50%;display:block}
+.hero{margin:6px 0 4px;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:#0d1b2a}
+.hero img{display:block;width:100%;height:auto}
+.asklink{display:flex;align-items:center;gap:9px;margin:16px 0 0;padding:13px 15px;border:1px solid var(--line);border-left:3px solid var(--accent,#2ec4b6);border-radius:4px;background:var(--surface);text-decoration:none;color:var(--ink);font-size:14.5px;line-height:1.55}
+.asklink b{font-weight:600}
+.qa{margin-top:10px}
+.qa details{border-bottom:1px solid var(--line-soft);padding:13px 0}
+.qa summary{cursor:pointer;font-size:16px;font-weight:600;line-height:1.5;list-style:none}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::before{content:"स ";font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-right:7px}
+.qa details[open] summary{color:var(--stamp)}
+.qa .ans{padding-top:9px;font-size:15px;color:var(--ink-2);line-height:1.72}
+.verline{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:14px;padding-top:10px;border-top:1px solid var(--line-soft);line-height:1.7}
 .brand{text-decoration:none;display:block}
-.eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
+.eyebrow{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
 .wordmark{font-family:var(--serif);font-size:clamp(30px,8.5vw,42px);line-height:1.08;letter-spacing:-.01em;margin:0;font-weight:400}
 .stamp{flex:none;transform:rotate(-7deg);border:1.5px solid var(--stamp);color:var(--stamp);border-radius:3px;padding:5px 9px 4px;text-align:center;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;line-height:1.5;opacity:.9;margin-top:6px}
 .stamp b{display:block;font-size:11px;letter-spacing:.06em;font-weight:500}
@@ -177,7 +198,7 @@ footer p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.62}
 
 /* ---------------------------------------------------------------- chrome */
 
-function head({ title, desc, canonical, type = "website", published }) {
+function head({ title, desc, canonical, type = "website", published, home = false }) {
   const t = esc(title);
   const d = esc(plain(desc));
   return `<!doctype html>
@@ -198,6 +219,8 @@ function head({ title, desc, canonical, type = "website", published }) {
 <meta name="twitter:card" content="summary_large_image">
 ${published ? `<meta property="article:published_time" content="${esc(published)}">` : ""}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/logo.jpg">
+<link rel="alternate" type="application/rss+xml" title="${esc(SITE.name)}" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&family=Mukta:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -208,8 +231,11 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
 <div class="wrap">
 <header class="masthead">
   <a class="brand" href="/">
-    <div class="eyebrow">${esc(SITE.eyebrow)}</div>
-    <p class="wordmark">${esc(SITE.name)}</p>
+    <img class="mark" src="/logo.jpg" alt="" width="48" height="48">
+    <span>
+      <span class="eyebrow">${esc(SITE.eyebrow)}</span>
+      ${home ? `<h1 class="wordmark">${esc(SITE.name)}</h1>` : `<p class="wordmark">${esc(SITE.name)}</p>`}
+    </span>
   </a>
   <div class="stamp"><b>स्रोत</b>सहित</div>
 </header>
@@ -225,7 +251,10 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
 
 function foot() {
   const wa = SITE.whatsapp
-    ? `<a href="${esc(SITE.whatsapp)}" target="_blank" rel="noopener">WhatsApp Channel <span class="handle">रोज़ के अलर्ट</span></a>`
+    ? `<a href="${esc(SITE.whatsapp)}" target="_blank" rel="noopener">WhatsApp Channel <span class="handle">जाँचे हुए अलर्ट</span></a>`
+    : "";
+  const ig = SITE.instagram
+    ? `<a href="${esc(SITE.instagram)}" target="_blank" rel="noopener">Instagram <span class="handle">@seedhamatlab</span></a>`
     : "";
   return `
 <footer>
@@ -237,8 +266,18 @@ function foot() {
     <div>
       <h4>कहाँ मिलेंगे</h4>
       <div class="links">
+        ${ig}
         ${wa}
         <a href="${esc(SITE.x)}" target="_blank" rel="noopener">X <span class="handle">@seedhamatlab</span></a>
+      </div>
+    </div>
+    <div>
+      <h4>इस डेस्क के बारे में</h4>
+      <div class="links">
+        <a href="/faq/">सवाल-जवाब</a>
+        <a href="/about/">हमारे बारे में</a>
+        <a href="/source-policy/">स्रोत नीति</a>
+        <a href="/feed.xml">RSS फ़ीड <span class="handle">बिना ऐप के जुड़िए</span></a>
       </div>
     </div>
     <div>
@@ -253,6 +292,7 @@ function foot() {
   <p class="fine">यह सामान्य जानकारी है, कानूनी या वित्तीय सलाह नहीं। अपने मामले में आधिकारिक स्रोत या पेशेवर से पुष्टि करें।</p>
 </footer>
 </div>
+${SITE.cfAnalytics ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${esc(SITE.cfAnalytics)}"}'></script>` : ""}
 </body>
 </html>`;
 }
@@ -326,8 +366,11 @@ function renderIndex(posts) {
     title: `${SITE.name} — ${SITE.nameEn}`,
     desc: SITE.tagline,
     canonical: SITE.url + "/",
+    home: true,
   }) + `
 <main id="main">
+  <div class="hero"><img src="/banner.jpg" alt="${esc(SITE.name)} — ${esc(plain(SITE.tagline))}" width="1600" height="535"></div>
+  <a class="asklink" href="/faq/"><b>कोई सवाल है?</b> — सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब यहाँ देखिए →</a>
   <div class="controls">
     <div class="search">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
@@ -387,12 +430,224 @@ function renderPost(p, all) {
     </header>
     <div class="prose">${renderBody(p.body)}</div>
     ${sources ? `<div class="sources"><h3>स्रोत — खुद जाँचिए</h3>${sources}</div>` : ""}
+    <p class="verline">स्रोत: ${esc((p.sources || []).map((s) => s.label).join(" · ") || "—")}<br>
+    प्रकाशित: ${fmtDateLine(p.date)}${p.verified && p.verified !== p.date ? ` · आख़िरी जाँच: ${fmtDateLine(p.verified)}` : ""}<br>
+    नियम बाद में बदल सकते हैं — ऊपर दिया स्रोत खोलकर ताज़ा स्थिति देख लीजिए।</p>
     ${tags ? `<div class="tagrow">${tags}</div>` : ""}
-    <div class="postfoot"><a class="btn" href="/">और पोस्ट पढ़ें</a></div>
+    <div class="postfoot">
+      <a class="btn" href="${esc(waShare(p.title, url))}" target="_blank" rel="noopener">WhatsApp पर भेजें</a>
+      <a class="btn" href="/">और पोस्ट पढ़ें</a>
+    </div>
   </article>
   ${others.length ? `<div class="more"><div class="listhead">इसे भी पढ़ें</div>${others.map(entryHTML).join("\n")}</div>` : ""}
 </main>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
+}
+
+function renderPage({ slug, title, desc, body }) {
+  return head({
+    title: `${title} — ${SITE.name}`,
+    desc,
+    canonical: `${SITE.url}/${slug}/`,
+  }) + `
+<main id="main">
+  <a class="back" href="/">← सारे पोस्ट</a>
+  <article>
+    <header>
+      <h1>${esc(title)}</h1>
+      <p class="standfirst">${esc(desc)}</p>
+    </header>
+    <div class="prose">${renderBody(body)}</div>
+    <div class="postfoot"><a class="btn" href="/">सारे पोस्ट देखें</a></div>
+  </article>
+</main>` + foot();
+}
+
+const ABOUT = {
+  slug: "about",
+  title: "हमारे बारे में",
+  desc: "सीधा मतलब एक सूचना डेस्क है — घोटाले, बैंकिंग अधिकार और उपभोक्ता नियम सीधी भाषा में, हर बात के स्रोत के साथ।",
+  body: `## यह डेस्क क्या करता है
+
+रोज़ नए नियम आते हैं, नए घोटाले आते हैं। ज़्यादातर लोगों तक वे या तो पहुँचते ही नहीं, या इतनी भारी भाषा में पहुँचते हैं कि काम के नहीं रहते। यह डेस्क वही दूरी पाटता है — **नियम और चेतावनियाँ, सीधी भाषा में, हर बात के स्रोत के साथ।**
+
+हम पाँच विषयों पर लिखते हैं:
+
+- **साइबर स्कैम** — कैसे होता है, और बचने का असली तरीका क्या है
+- **बैंकिंग / RBI** — आपके खाते पर आपके अधिकार
+- **उपभोक्ता अधिकार** — सामान या सेवा खराब निकले तो
+- **बीमा / IRDAI** — पॉलिसी से जुड़े नियम
+- **EPFO / सैलरी** — नौकरीपेशा लोगों के अधिकार
+
+## यह डेस्क क्या नहीं करता
+
+- **डर नहीं बेचता।** घबराहट फैलाकर क्लिक बटोरना आसान है, पर उससे किसी का बचाव नहीं होता।
+- **सलाहकार नहीं है।** यहाँ जो है वह सामान्य जानकारी है — कानूनी या वित्तीय सलाह नहीं। अपने मामले में आधिकारिक स्रोत या पेशेवर से पुष्टि कीजिए।
+- **कुछ बेचता नहीं।** कोई विज्ञापन नहीं, कोई प्रायोजित पोस्ट नहीं, किसी बैंक या बीमा कंपनी का कोई रेफरल लिंक नहीं।
+
+## नाम क्यों नहीं
+
+यह डेस्क बिना नाम के चलता है, और यह जान-बूझकर है। मक़सद यह है कि आप बात को उसके **स्रोत** से परखें, लिखने वाले के नाम या पद से नहीं। इसीलिए हर पोस्ट के नीचे सरकारी लिंक रहता है — ताकि आप हम पर भरोसा किए बिना भी खुद जाँच सकें।
+
+यहाँ किसी संस्था की अंदरूनी जानकारी नहीं आती। जो कुछ लिखा जाता है, वह सार्वजनिक रूप से उपलब्ध आधिकारिक दस्तावेज़ों से आता है। पूरा तरीका [स्रोत नीति](/source-policy/) में दर्ज है।
+
+## कुछ कहना हो
+
+WhatsApp Channel और X के लिंक नीचे फ़ुटर में हैं। कोई तथ्य गलत लगे तो ज़रूर बताइए — सुधार की नीति भी स्रोत नीति वाले पन्ने पर लिखी है।`,
+};
+
+const SOURCE_POLICY = {
+  slug: "source-policy",
+  title: "स्रोत नीति",
+  desc: "हर पोस्ट के नीचे आधिकारिक स्रोत का लिंक क्यों रहता है, कौन से स्रोत इस्तेमाल होते हैं, और गलती होने पर क्या किया जाता है।",
+  body: `## बुनियादी नियम
+
+**हर पोस्ट के नीचे कम से कम एक आधिकारिक स्रोत का लिंक रहेगा।** अगर किसी बात का स्रोत नहीं मिलता, तो वह बात यहाँ नहीं लिखी जाती — चाहे वह कितनी भी सही लगती हो।
+
+यही इस डेस्क की पूरी बात है। आपको हम पर भरोसा करने की ज़रूरत नहीं — लिंक खोलिए और खुद देख लीजिए।
+
+## कौन से स्रोत
+
+पहली पसंद हमेशा मूल दस्तावेज़ होता है — सर्कुलर, अधिसूचना, मास्टर डायरेक्शन, या विभाग का अपना पोर्टल:
+
+- **RBI** — बैंकिंग नियम, ग्राहक संरक्षण, शिकायत व्यवस्था
+- **IRDAI** — बीमा से जुड़े नियम
+- **EPFO** — PF, पेंशन, नामांकन
+- **I4C / cybercrime.gov.in** — साइबर अपराध और हेल्पलाइन 1930
+- **राष्ट्रीय उपभोक्ता हेल्पलाइन (1915) और e-Jagriti** — उपभोक्ता शिकायत और आयोग में दाखिला
+- संसद, मंत्रालय और न्यायालय के दस्तावेज़, जहाँ लागू हों
+
+समाचार रिपोर्ट को स्रोत नहीं माना जाता। अगर कोई खबर किसी नियम की बात करती है, तो हम उस नियम का मूल दस्तावेज़ ढूँढते हैं और उसी को लिंक करते हैं।
+
+## क्या यहाँ कभी नहीं आएगा
+
+- किसी बैंक, कंपनी या संस्था की **अंदरूनी या गोपनीय जानकारी**
+- किसी **व्यक्ति या ग्राहक** से जुड़ी कोई जानकारी
+- अफ़वाह, "सुना है", या फ़ॉरवर्ड मैसेज — बिना मूल दस्तावेज़ के
+- कोई विज्ञापन, प्रायोजित सामग्री या रेफरल लिंक
+
+## नियम बदलते रहते हैं
+
+हर पोस्ट पर तारीख़ दर्ज है। नियम उसके बाद बदल सकता है — इसलिए अपने मामले में हमेशा स्रोत वाला लिंक खोलकर ताज़ा स्थिति देख लीजिए। यहाँ जो है वह सामान्य जानकारी है, कानूनी या वित्तीय सलाह नहीं।
+
+## गलती हो जाए तो
+
+गलती हो सकती है। अगर कोई तथ्य गलत मिले, तो:
+
+- सुधार **उसी पोस्ट में** किया जाएगा, चुपचाप हटाया नहीं जाएगा
+- अगर बात का मतलब ही बदल जाता हो, तो पोस्ट में साफ़ लिखा जाएगा कि क्या सुधरा
+- बताने के लिए WhatsApp Channel या X — दोनों के लिंक नीचे फ़ुटर में हैं
+
+भरोसा इसी से बनता है कि गलती मानी जाए, छुपाई न जाए।`,
+};
+
+const PAGES = [ABOUT, SOURCE_POLICY];
+
+/* ------------------------------------------------------------- सवाल-जवाब */
+
+const FAQ = [
+  {
+    q: "फ़ोन पर कोई कहे कि आप “डिजिटल अरेस्ट” में हैं — क्या करूँ?",
+    a: "कॉल काट दीजिए। भारत के किसी भी कानून में “डिजिटल अरेस्ट” नाम की कोई चीज़ नहीं है, और कोई भी जाँच एजेंसी वीडियो कॉल पर गिरफ़्तार नहीं करती। पैसा भेज चुके हों तो तुरंत **1930** पर कॉल कीजिए और **cybercrime.gov.in** पर शिकायत दर्ज कीजिए। पूरा तरीका [इस पोस्ट](/p/digital-arrest/) में है।",
+  },
+  {
+    q: "खाते से बिना बताए पैसा कट गया — कितनी देर में बैंक को बताना चाहिए?",
+    a: "जितनी जल्दी हो सके — देरी का सीधा असर आपकी देनदारी पर पड़ता है। RBI के ग्राहक-देनदारी नियम में समय-सीमा के हिसाब से देनदारी तय होती है, और कुछ स्थितियों में **तीन कार्यदिवस** के भीतर सूचित करने पर ग्राहक की देनदारी शून्य होती है। बैंक को लिखित में सूचित कीजिए और पावती लीजिए। शर्तें और अपवाद [इस पोस्ट](/p/golden-hour-3-din/) में दर्ज हैं।",
+  },
+  {
+    q: "बीमा पॉलिसी गलत बताकर बेच दी गई — वापस हो सकती है?",
+    a: "हाँ, **फ्री-लुक अवधि** में। IRDAI के मास्टर सर्कुलर के बाद यह अवधि सभी पॉलिसियों के लिए **30 दिन** है। इस दौरान पॉलिसी लौटाकर प्रीमियम वापस लिया जा सकता है (कुछ कटौतियों के साथ)। [विस्तार से](/p/free-look-30-din/)।",
+  },
+  {
+    q: "EPF में नॉमिनेशन नहीं भरा है तो क्या होगा?",
+    a: "पैसा डूबता नहीं, पर परिवार के दावे में अतिरिक्त कागज़ और देरी लग सकती है — उत्तराधिकार प्रमाणपत्र जैसी माँग आ सकती है। **e-nomination** सदस्य पोर्टल पर खुद लगभग 10 मिनट में हो जाता है। [तरीका यहाँ](/p/epf-e-nomination/)।",
+  },
+  {
+    q: "सामान या सेवा खराब निकली — शिकायत कहाँ करूँ?",
+    a: "पहले **राष्ट्रीय उपभोक्ता हेल्पलाइन 1915** पर। बात न बने तो उपभोक्ता आयोग में ऑनलाइन — अब यह **e-Jagriti** पोर्टल से होता है, जो उपभोक्ता मामले मंत्रालय का मंच है। वकील और अदालत के चक्कर ज़रूरी नहीं। [पूरा तरीका](/p/consumer-1915/)।",
+  },
+  {
+    q: "WhatsApp पर आया कोई मैसेज या लिंक असली है या नकली — कैसे पहचानूँ?",
+    a: "तीन बातें लगभग हमेशा काम करती हैं: **जल्दबाज़ी** (“24 घंटे में खाता बंद”), **डर या लालच**, और **लिंक पर जाकर जानकारी माँगना**। कोई भी सरकारी विभाग या बैंक OTP, PIN या पूरा कार्ड नंबर नहीं माँगता। शक हो तो मैसेज के लिंक पर मत जाइए — संस्था का आधिकारिक पता खुद टाइप करके खोलिए।",
+  },
+  {
+    q: "यह डेस्क कौन चलाता है?",
+    a: "यह डेस्क बिना नाम के चलता है — ताकि आप बात को उसके **स्रोत** से परखें, लिखने वाले के नाम से नहीं। इसीलिए हर पोस्ट के नीचे सरकारी लिंक रहता है। वजह और तरीका [हमारे बारे में](/about/) और [स्रोत नीति](/source-policy/) में लिखा है।",
+  },
+  {
+    q: "मेरा सवाल यहाँ नहीं है — कहाँ पूछूँ?",
+    a: "WhatsApp Channel या X पर भेजिए (लिंक नीचे फ़ुटर में हैं)। जो सवाल बार-बार आते हैं, वे इसी पन्ने पर स्रोत के साथ जोड़ दिए जाते हैं। ध्यान रहे — यहाँ सामान्य जानकारी मिलती है, किसी एक केस की कानूनी या वित्तीय सलाह नहीं।",
+  },
+];
+
+function renderFAQ() {
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    inLanguage: "hi-IN",
+    mainEntity: FAQ.map((f) => ({
+      "@type": "Question",
+      name: plain(f.q),
+      acceptedAnswer: { "@type": "Answer", text: plain(f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*/g, "")) },
+    })),
+  };
+  const items = FAQ.map((f) =>
+    `    <details>
+      <summary>${esc(f.q)}</summary>
+      <div class="ans">${inline(esc(f.a))}</div>
+    </details>`
+  ).join("\n");
+
+  const ask = SITE.whatsapp
+    ? `<a class="asklink" href="${esc(SITE.whatsapp)}" target="_blank" rel="noopener"><b>अपना सवाल भेजिए</b> — WhatsApp Channel पर। बार-बार आने वाले सवाल यहाँ स्रोत के साथ जुड़ते रहते हैं।</a>`
+    : "";
+
+  return head({
+    title: `सवाल-जवाब — ${SITE.name}`,
+    desc: "घोटाले, बैंकिंग अधिकार, बीमा, EPFO और उपभोक्ता शिकायत पर सबसे ज़्यादा पूछे जाने वाले सवालों के सीधे जवाब — स्रोत के साथ।",
+    canonical: `${SITE.url}/faq/`,
+  }) + `
+<main id="main">
+  <a class="back" href="/">← सारे पोस्ट</a>
+  <article>
+    <header>
+      <h1>सवाल-जवाब</h1>
+      <p class="standfirst">जो सवाल सबसे ज़्यादा आते हैं, उनके सीधे जवाब। हर जवाब उसी पोस्ट से जुड़ा है जहाँ स्रोत दर्ज है।</p>
+    </header>
+    <div class="qa">
+${items}
+    </div>
+    ${ask}
+  </article>
+</main>
+<script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
+}
+
+function renderFeed(posts) {
+  const items = posts.slice(0, 20).map((p) => {
+    const url = `${SITE.url}/p/${encodeURIComponent(p.id)}/`;
+    return `  <item>
+    <title>${esc(plain(p.title))}</title>
+    <link>${url}</link>
+    <guid isPermaLink="true">${url}</guid>
+    <pubDate>${new Date(`${p.date}T06:00:00+05:30`).toUTCString()}</pubDate>
+    <category>${esc(catName(p.cat))}</category>
+    <description>${esc(plain(p.summary))}</description>
+  </item>`;
+  }).join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>${esc(SITE.name)} — ${esc(SITE.nameEn)}</title>
+  <link>${SITE.url}/</link>
+  <atom:link href="${SITE.url}/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>${esc(plain(SITE.tagline))}</description>
+  <language>hi</language>
+${items}
+</channel>
+</rss>
+`;
 }
 
 function render404() {
@@ -439,23 +694,32 @@ function main() {
   write("index.html", renderIndex(posts));
   write("404.html", render404());
   posts.forEach((p) => write(path.join("p", p.id, "index.html"), renderPost(p, posts)));
+  PAGES.forEach((pg) => write(path.join(pg.slug, "index.html"), renderPage(pg)));
+  write(path.join("faq", "index.html"), renderFAQ());
 
+  write("feed.xml", renderFeed(posts));
   write("favicon.svg", FAVICON);
   write("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE.url}/sitemap.xml\n`);
 
-  const urls = [`${SITE.url}/`, ...posts.map((p) => `${SITE.url}/p/${encodeURIComponent(p.id)}/`)];
   const lastmod = posts.map((p) => p.date).sort().pop() || raw.updated || "";
+  const urls = [
+    { loc: `${SITE.url}/`, lastmod },
+    ...posts.map((p) => ({ loc: `${SITE.url}/p/${encodeURIComponent(p.id)}/`, lastmod: p.date })),
+    { loc: `${SITE.url}/faq/`, lastmod },
+    ...PAGES.map((pg) => ({ loc: `${SITE.url}/${pg.slug}/`, lastmod })),
+  ];
   write("sitemap.xml",
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-    urls.map((u, i) =>
-      `  <url><loc>${u}</loc>${i === 0 ? `<lastmod>${lastmod}</lastmod>` : `<lastmod>${posts[i - 1].date}</lastmod>`}</url>`
-    ).join("\n") + `\n</urlset>\n`);
+    urls.map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join("\n") +
+    `\n</urlset>\n`);
 
-  const og = path.join(__dirname, "assets", "og.png");
-  if (fs.existsSync(og)) {
-    fs.mkdirSync(path.join(__dirname, "dist"), { recursive: true });
-    fs.copyFileSync(og, path.join(__dirname, "dist", "og.png"));
-  }
+  // Tasveerein assets/ me ho ya repo ki jad me — dono jagah se utha li jaati hain.
+  fs.mkdirSync(path.join(__dirname, "dist"), { recursive: true });
+  ["og.png", "logo.jpg", "banner.jpg"].forEach((f) => {
+    const src = [path.join(__dirname, "assets", f), path.join(__dirname, f)]
+      .find((c) => fs.existsSync(c));
+    if (src) fs.copyFileSync(src, path.join(__dirname, "dist", f));
+  });
 
   console.log(`बन गया: ${posts.length} पोस्ट + होम + 404 → dist/`);
 }
