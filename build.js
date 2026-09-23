@@ -266,7 +266,7 @@ footer p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.62}
 
 /* ---------------------------------------------------------------- chrome */
 
-function head({ title, desc, canonical, type = "website", published, home = false }) {
+function head({ title, desc, canonical, type = "website", published, home = false, ogImage = `${SITE.url}/og.png` }) {
   const t = esc(title);
   const d = esc(plain(desc));
   return `<!doctype html>
@@ -282,9 +282,12 @@ function head({ title, desc, canonical, type = "website", published, home = fals
 <meta property="og:title" content="${t}">
 <meta property="og:description" content="${d}">
 <meta property="og:url" content="${esc(canonical)}">
-<meta property="og:image" content="${SITE.url}/og.png">
+<meta property="og:image" content="${esc(ogImage)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:locale" content="hi_IN">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${esc(ogImage)}">
 ${published ? `<meta property="article:published_time" content="${esc(published)}">` : ""}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/logo.jpg">
@@ -515,6 +518,7 @@ function renderPost(p, all) {
     canonical: url,
     type: "article",
     published: p.date,
+    ogImage: `${SITE.url}/post-og/${encodeURIComponent(p.id)}.png`,
   }) + `
 <main id="main">
   <a class="back" href="/">← सारे पोस्ट</a>
@@ -878,12 +882,18 @@ function write(rel, content) {
 function main() {
   const raw = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "posts.json"), "utf8"));
   const posts = sorted((raw.posts || []).filter((p) => p && p.id && p.title));
+  const ogCards = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "post-og.json"), "utf8"));
+  for (const p of posts) {
+    if (!ogCards[p.id]) throw new Error(`Missing share preview: ${p.id}`);
+  }
 
   fs.rmSync(path.join(__dirname, "dist"), { recursive: true, force: true });
 
   write("index.html", renderIndex(posts));
   write("404.html", render404());
   posts.forEach((p) => write(path.join("p", p.id, "index.html"), renderPost(p, posts)));
+  fs.mkdirSync(path.join(__dirname, "dist", "post-og"), { recursive: true });
+  posts.forEach((p) => fs.writeFileSync(path.join(__dirname, "dist", "post-og", `${p.id}.png`), Buffer.from(ogCards[p.id], "base64")));
   PAGES.forEach((pg) => write(path.join(pg.slug, "index.html"), renderPage(pg)));
   write(path.join("faq", "index.html"), renderFAQ());
 
