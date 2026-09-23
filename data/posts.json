@@ -147,6 +147,298 @@
         }
       ],
       "verified": "2026-09-23"
+    },
+    {
+      "id": "fake-customer-care",
+      "title": "Search में मिला customer-care number असली है? पहले ये check करें",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "customer care",
+        "search ad",
+        "screen sharing",
+        "helpline"
+      ],
+      "summary": "Search result या ad में दिखा नंबर official होने का सबूत नहीं। CERT-In कहता है: customer-care number कंपनी की अपनी website से लें और किसी अनजान व्यक्ति को screen-sharing access न दें।",
+      "body": "## Situation\n\nआपने किसी service की help के लिए search किया। ऊपर दिखे number पर call करने पर कोई screen share या remote-access app install करने को कहता है। यह बड़ा red flag है। CERT-In ने ऐसे screen-sharing fraud और search-engine customer-care numbers से सावधान किया है।\n\n## सीधा मतलब\n\nSearch result का नंबर verification नहीं है। कंपनी की **official website या app** खुद खोलकर वहाँ दर्ज contact number मिलाएँ। कोई support agent OTP, UPI PIN या screen देखने की permission माँगे तो बातचीत रोक दें।\n\n## अभी क्या करें\n\n- Call काटें; app install या screen share न करें।\n- Official website/app से number निकालकर खुद call करें।\n- अगर access दिया या पैसा कटा है, bank को तुरंत सूचित करें; financial cyber fraud को **1930** या **cybercrime.gov.in** पर report करें।\n\n**Source check:** CERT-In advisory CIAD-2020-0003; 23 Sep 2026. यह पुरानी advisory में दर्ज, आज भी उपयोगी scam pattern है; कोई नया incident होने का दावा नहीं।",
+      "sources": [
+        {
+          "label": "CERT-In — Fraudulent Activity Using Screen Sharing Apps (30 Jan 2020)",
+          "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2020-0003&pageid=PUBVLNOTES02"
+        },
+        {
+          "label": "I4C — National Cyber Crime Reporting Portal",
+          "url": "https://cybercrime.gov.in"
+        }
+      ],
+      "verified": "2026-09-23"
+    },
+    {
+      "id": "electricity-kyc-apk",
+      "title": "“बिजली KYC update” वाला WhatsApp APK मिला? Install रोकें",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "electricity KYC",
+        "APK",
+        "WhatsApp",
+        "Chakshu"
+      ],
+      "summary": "DoT ने बिजली KYC के नाम पर SMS/WhatsApp और malicious APK का scam pattern दर्ज किया है। Bill या connection की स्थिति message के link से नहीं, अपने provider के official channel से check करें।",
+      "body": "## Situation\n\nMessage कहता है कि बिजली KYC update नहीं हुआ तो connection बंद हो जाएगा। साथ में APK file या link आता है। DoT ने इस pattern में malicious APK से device पर नियंत्रण लेने की कोशिश दर्ज की है।\n\n## सीधा मतलब\n\nMessage पर आया APK **install न करें**। भेजने वाले का logo या नाम वास्तविक होने का सबूत नहीं है। Bill और connection status अपने बिजली provider की official site/app या bill पर दिए contact से verify करें।\n\n## अभी क्या करें\n\n- APK न खोलें; OTP, PIN या screen access न दें।\n- Provider के official channel पर अपनी स्थिति check करें।\n- केवल संदिग्ध communication है तो **Sanchar Saathi के Chakshu** पर report करें। अगर पैसा गया है तो bank को तुरंत बताएं और **1930**/cybercrime.gov.in पर शिकायत करें।\n\n**Source check:** DoT/PIB advisory 17 Jun 2024; 23 Sep 2026 को दोबारा जाँच। यह pattern advisory है, किसी नए local outage का दावा नहीं।",
+      "sources": [
+        {
+          "label": "DoT via PIB — Electricity KYC Update Scam (17 Jun 2024)",
+          "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2025970&lang=2&reg=48"
+        },
+        {
+          "label": "DoT — Sanchar Saathi Chakshu",
+          "url": "https://sancharsaathi.gov.in/sfc"
+        },
+        {
+          "label": "I4C — Financial cyber fraud report",
+          "url": "https://cybercrime.gov.in"
+        }
+      ],
+      "verified": "2026-09-23"
+    },
+    {
+      "id": "upi-pin-refund",
+      "title": "“Refund receive करने के लिए UPI PIN डालें” — सच क्या है?",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "UPI PIN",
+        "refund",
+        "QR code",
+        "NPCI"
+      ],
+      "summary": "NPCI के मुताबिक QR scan और UPI PIN डालना payment के लिए है, पैसा receive करने के लिए नहीं। Refund के बहाने PIN माँगा जाए तो रुकें और app में amount व payee देखें।",
+      "body": "## Situation\n\nकोई कहता है कि refund, prize या pending payment लेने के लिए QR scan करके UPI PIN डालना होगा। यह पैसे निकलवाने का सामान्य जाल है।\n\n## Verified verdict\n\nNPCI की fraud-awareness जानकारी साफ़ कहती है कि **QR scan और UPI PIN पैसा देने के लिए हैं; पैसा पाने के लिए नहीं**। PIN केवल अपने UPI app के verified payment flow में डालें और उससे पहले amount/payee पढ़ें।\n\n## अभी क्या करें\n\n- Refund पाने के लिए आए QR/link पर PIN न डालें।\n- रकम आने की पुष्टि अपने bank/UPI app की transaction history में करें, screenshot पर नहीं।\n- PIN डालकर पैसा चला गया हो तो तुरंत bank को बताएं और **1930** या **cybercrime.gov.in** पर report करें।\n\n**Source check:** NPCI Fraud Awareness; 23 Sep 2026.",
+      "sources": [
+        {
+          "label": "NPCI — Fraud Awareness",
+          "url": "https://www.npci.org.in/fraud-awareness"
+        },
+        {
+          "label": "I4C — National Cyber Crime Reporting Portal",
+          "url": "https://cybercrime.gov.in"
+        }
+      ],
+      "verified": "2026-09-23"
+    },
+    {
+      "id": "boss-whatsapp-payment",
+      "title": "Boss के WhatsApp से urgent payment message? अलग call पर confirm करें",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "boss scam",
+        "WhatsApp",
+        "impersonation",
+        "linked devices"
+      ],
+      "summary": "I4C ने boss/CEO impersonation में compromised WhatsApp account से payment instruction भेजे जाने का pattern बताया है। परिचित account से आए message को भी अलग call पर confirm करें।",
+      "body": "## Situation\n\nBoss या परिचित के WhatsApp से अचानक urgent transfer का instruction आए। Message उनकी असली chat से भी आ सकता है: I4C ने device और WhatsApp Web session takeover का pattern दर्ज किया है।\n\n## सीधा मतलब\n\nकेवल contact name या पुरानी chat देखकर payment approve न करें। पहले उसी व्यक्ति के **पहले से ज्ञात number** पर अलग call या सामने मिलकर confirm करें। Unknown ZIP/EXE attachment न चलाएँ।\n\n## अभी क्या करें\n\n- Payment रोककर दूसरे रास्ते से पहचान और account details confirm करें।\n- अपने WhatsApp की **Settings > Linked devices** में अनजान sessions जाँचें।\n- Fraud हो चुका हो तो bank को तुरंत सूचित करें और **1930**/cybercrime.gov.in पर report करें।\n\n**Source check:** I4C/Ministry of Home Affairs release 22 Jun 2026; verified 23 Sep 2026.",
+      "sources": [
+        {
+          "label": "I4C / Ministry of Home Affairs via PIB — Boss Scam advisory (22 Jun 2026)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276809&lang=2&reg=48"
+        },
+        {
+          "label": "I4C — Financial cyber fraud report",
+          "url": "https://cybercrime.gov.in"
+        }
+      ],
+      "verified": "2026-09-23"
+    },
+    {
+      "id": "task-job-scam",
+      "title": "“Video like करो, commission लो”—job या task scam कैसे पहचानें?",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "task",
+        "job",
+        "WhatsApp",
+        "commission"
+      ],
+      "summary": "I4C ने ऐसे task-based job fraud का तरीका बताया है: शुरू में थोड़ा commission, फिर ज़्यादा कमाई खोलने के नाम पर जमा रकम। Job के लिए अपना पैसा लगाना पड़े तो रुकें।",
+      "body": "## पहचानें\n\nUnknown WhatsApp/Telegram contact घर बैठे video like या map rating करने पर कमाई का offer देता है। पहले एक छोटा task और commission दिख सकता है। फिर ज्यादा tasks या withdrawal के लिए “top-up”, “investment” या fee माँगी जाती है। I4C ने यह pattern 2023 की advisory में दर्ज किया था।\n\n## Verdict\n\nपहले मिले छोटे payment को पूरे offer की सच्चाई का प्रमाण न मानें। बिना जाँच के किसी unknown UPI account में पैसा न डालें। App में receiver का नाम देखें; केवल brand का logo भरोसे का आधार नहीं है।\n\n## अभी क्या करें\n\n- Payment या top-up माँगने पर रुकें; WhatsApp group के दबाव में transfer न करें।\n- Offer का नाम, payment request और बातचीत के screenshots रखें।\n- पैसा चला गया हो तो अपने bank को तुरंत बताएं और 1930/cybercrime.gov.in पर report करें। केवल suspicious handle/link हो तो I4C Report Suspect में report कर सकते हैं।\n\n**Source checked:** 23 Sep 2026. यह सामान्य decision guide है; किसी ताज़ा घटना या guaranteed outcome का दावा नहीं।",
+      "sources": [
+        {
+          "label": "I4C / MHA — Task-based part-time job fraud advisory (6 Dec 2023)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1982936&lang=2&reg=48"
+        },
+        {
+          "label": "I4C — National Cyber Crime Reporting Portal",
+          "url": "https://cybercrime.gov.in"
+        }
+      ],
+      "verified": "2026-09-23"
+    },
+    {
+      "id": "trai-sim-threat",
+      "title": "“TRAI आपकी SIM बंद करेगा”—ऐसी call आए तो क्या करें?",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "TRAI",
+        "SIM",
+        "disconnect",
+        "fake",
+        "call"
+      ],
+      "summary": "TRAI ने साफ किया है कि उसके नाम से number disconnect करने की धमकी वाले call/message पर भरोसा न करें। अपने mobile operator से अलग official route पर जाँचें।",
+      "body": "## Situation\n\nकॉलर खुद को TRAI officer बताता है, कहता है कि आपके number से गैरकानूनी काम हुआ और कुछ मिनट में SIM बंद होगी। फिर कोई link, fake notice या “पुलिस” से जोड़ने का डर दिखाया जा सकता है। TRAI ने ऐसे impersonation का public warning जारी किया है।\n\n## Verdict\n\nTRAI के अनुसार वह ग्राहकों को mobile number disconnection का message/notice भेजकर बात नहीं करता और इस काम के लिए किसी third party को अधिकृत नहीं किया है। Caller ID, logo या notice देखकर ही भरोसा न करें।\n\n## अभी क्या करें\n\n- Call काटें; OTP, Aadhaar या banking details न दें।\n- SIM की स्थिति अपने telecom operator के official app/store/customer-care से खुद जाँचें।\n- Call/message को DoT के Sanchar Saathi Chakshu पर report करें। पैसा गया है तो bank और 1930/cybercrime.gov.in पर तुरंत शिकायत करें।\n\n**Source checked:** 23 Sep 2026. यह सामान्य decision guide है; किसी ताज़ा घटना या guaranteed outcome का दावा नहीं।",
+      "sources": [
+        {
+          "label": "TRAI / DoT via PIB — Frauds in the Name of TRAI (6 Jun 2024)",
+          "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2023273&lang=2&reg=48"
+        },
+        {
+          "label": "DoT — Chakshu",
+          "url": "https://sancharsaathi.gov.in/sfc/"
+        },
+        {
+          "label": "I4C — National Cyber Crime Reporting Portal",
+          "url": "https://cybercrime.gov.in"
+        }
+      ],
+      "verified": "2026-09-23"
+    },
+    {
+      "id": "fake-echallan",
+      "title": "WhatsApp पर “traffic e-challan” link आया? पहले खुद check करें",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "e",
+        "challan",
+        "traffic",
+        "SMS",
+        "fake",
+        "link"
+      ],
+      "summary": "Fake e-challan के नाम पर आए link से भुगतान शुरू न करें। Ministry का official eChallan portal खुद खोलकर challan details देखें; अनजान APK या payment link से बचें।",
+      "body": "## Situation\n\nSMS या WhatsApp पर traffic fine की जल्दी payment माँगी जाती है। Message में सरकारी लोगो, गाड़ी नंबर या short link हो सकता है। सरकार ने fake e-challan scams पर सार्वजनिक जवाब दिया है। किसी एक message को बिना जाँचे असली या नकली घोषित नहीं किया जा सकता।\n\n## Verdict\n\nMessage के link की जगह अपने browser में **echallan.parivahan.gov.in** खुद लिखें। वहाँ challan/vehicle details जाँचें। Portal पर रिकॉर्ड न मिले या mismatch हो तो message के link पर payment न करें।\n\n## अभी क्या करें\n\n- APK download न करें; SMS में आए payment page पर card/UPI details न डालें।\n- Official eChallan portal से status जाँचें या संबंधित traffic office से पुष्टि करें।\n- पैसा जा चुका हो तो bank को तुरंत बताएं और 1930/cybercrime.gov.in पर report करें।\n\n**Source checked:** 23 Sep 2026. यह सामान्य decision guide है; किसी ताज़ा घटना या guaranteed outcome का दावा नहीं।",
+      "sources": [
+        {
+          "label": "MoRTH — Official eChallan portal",
+          "url": "https://echallan.parivahan.gov.in/"
+        },
+        {
+          "label": "MHA via PIB — Fake e-challan scams, 12 Aug 2026",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2298330&lang=1&reg=1"
+        },
+        {
+          "label": "I4C — National Cyber Crime Reporting Portal",
+          "url": "https://cybercrime.gov.in"
+        }
+      ],
+      "verified": "2026-09-23"
+    },
+    {
+      "id": "report-suspect",
+      "title": "पैसा नहीं गया, लेकिन WhatsApp link संदिग्ध है—कहाँ report करें?",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "report",
+        "suspect",
+        "I4C",
+        "WhatsApp",
+        "URL"
+      ],
+      "summary": "I4C का Report Suspect tool संदिग्ध URL, WhatsApp number, phone number, email और SMS sender जैसे identifiers की reporting के लिए है। यह fraud victim की मुख्य शिकायत का विकल्प नहीं है।",
+      "body": "## दो अलग रास्ते\n\n**केवल suspicious attempt:** I4C के National Cyber Crime Reporting Portal में “Report Suspect” खोलें। वहाँ suspicious website URL, WhatsApp/Telegram handle, phone number, email या SMS identifier जैसी जानकारी दी जा सकती है। Portal बताता है कि इन reports का इस्तेमाल analysis और monitoring में होता है।\n\n**पैसा कट गया / crime हो चुका है:** अपने bank को तुरंत inform करें; 1930 पर call करें या cybercrime.gov.in पर formal complaint दर्ज करें। “Report Suspect” भेजना victim complaint के बराबर नहीं है।\n\n## क्या साथ रखें\n\nMessage का screenshot, link का मूल address, sender number और समय सुरक्षित रखें। अनजान link खोलकर “verify” करने या सबूत के लिए app install करने की जरूरत नहीं।\n\n## Privacy check\n\nPublic posts या हमारे X replies में अपना number, OTP, bank detail या screenshot का निजी हिस्सा साझा न करें। Complaint हमेशा official portal पर ही दर्ज करें।\n\n**Source checked:** 23 Sep 2026. यह सामान्य decision guide है; किसी ताज़ा घटना या guaranteed outcome का दावा नहीं।",
+      "sources": [
+        {
+          "label": "I4C — Report Suspect",
+          "url": "https://cybercrime.gov.in/Webform/cyber_suspect.aspx"
+        },
+        {
+          "label": "I4C — National Cyber Crime Reporting Portal",
+          "url": "https://cybercrime.gov.in"
+        }
+      ],
+      "verified": "2026-09-23"
+    },
+    {
+      "id": "screen-share-containment",
+      "title": "Screen-sharing access दे दी? अभी क्या बंद करें, किसे बताएं",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "screen",
+        "sharing",
+        "remote",
+        "access",
+        "fraud"
+      ],
+      "summary": "CERT-In के अनुसार remote screen access के जरिए धोखेबाज़ फोन की activity देख सकते हैं। गलती पता चलते ही session रोकें, banking access सुरक्षित करें और नुकसान हो तो तुरंत report करें।",
+      "body": "## Situation\n\nकथित customer care ने screen-sharing या remote-support app खुलवाई थी। Access अभी active हो सकती है; app बंद कर देना और permission हटाना तुरंत जरूरी है। CERT-In ने ऐसे fraud की चेतावनी दी है।\n\n## अभी तीन कदम\n\n- **Access रोकें:** call और sharing session समाप्त करें; app की screen-sharing/accessibility permissions हटाएं और अनजान remote-support app uninstall करें। तरीका phone के model के हिसाब से बदलता है।\n- **Accounts सुरक्षित करें:** bank के official helpline/app से तुरंत बात करें; जरूरत हो तो card/UPI access block करवाएं। भरोसेमंद दूसरे device से banking और email passwords बदलने पर विचार करें। कोई OTP/PIN caller को न दें।\n- **Report + proof:** transaction हुई हो तो 1930 या cybercrime.gov.in पर तुरंत शिकायत करें। App का नाम, call log, transaction reference और screenshots सँभालकर रखें।\n\n## याद रखें\n\nApp हटाने से यह साबित नहीं होता कि पहले की access या fraud का असर खत्म हो गया। Bank के official support से आगे की सुरक्षा जाँच कराएं; पैसे वापस मिलने का वादा कोई नहीं कर सकता।\n\n**Source checked:** 23 Sep 2026. यह सामान्य decision guide है; किसी ताज़ा घटना या guaranteed outcome का दावा नहीं।",
+      "sources": [
+        {
+          "label": "CERT-In — Fraudulent Activity Using Screen Sharing Apps (30 Jan 2020)",
+          "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2020-0003&pageid=PUBVLNOTES02"
+        },
+        {
+          "label": "I4C — National Cyber Crime Reporting Portal",
+          "url": "https://cybercrime.gov.in"
+        }
+      ],
+      "verified": "2026-09-23"
+    },
+    {
+      "id": "sim-connections-check",
+      "title": "आपके नाम पर कितनी SIM हैं? Sanchar Saathi से check करें",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "SIM",
+        "connections",
+        "Sanchar",
+        "Saathi",
+        "TAFCOP"
+      ],
+      "summary": "DoT का Sanchar Saathi आपके नाम पर जारी mobile connections देखने और अनजान/अनावश्यक connection report करने की सुविधा देता है। किसी SMS link की जगह official portal खुद खोलें।",
+      "body": "## कब उपयोगी है\n\nकिसी unknown number के बारे में call आए, या शक हो कि आपके नाम पर बिना जानकारी SIM जारी हुई है। Sanchar Saathi की “Know Mobile Connections in Your Name” सुविधा इस जाँच के लिए है। यह scam detection का self-service step है; हर unknown number को अपने आप fraud न मानें।\n\n## कैसे check करें\n\n- Browser में **sancharsaathi.gov.in** खुद खोलें और “Know Mobile Connections in Your Name” चुनें।\n- अपने mobile number से portal की verification प्रक्रिया पूरी करके connections की सूची देखें। OTP सिर्फ उसी official site में भरें; किसी caller को न बताएं।\n- जो connection आपका नहीं है या जरूरी नहीं है, portal पर उपलब्ध reporting/disconnection request option इस्तेमाल करें। Request की पावती रखें।\n\n## कब अलग complaint करें\n\nयदि किसी ने आपके नाम या number का इस्तेमाल करके financial fraud किया है, तो उसके लिए bank और 1930/cybercrime.gov.in पर अलग से तुरंत report करें।\n\n**Source checked:** 23 Sep 2026. यह सामान्य decision guide है; किसी ताज़ा घटना या guaranteed outcome का दावा नहीं।",
+      "sources": [
+        {
+          "label": "DoT — Sanchar Saathi official portal",
+          "url": "https://sancharsaathi.gov.in/"
+        },
+        {
+          "label": "DoT — Know Mobile Connections in Your Name",
+          "url": "https://tafcop.sancharsaathi.gov.in/telecomUser/"
+        },
+        {
+          "label": "I4C — National Cyber Crime Reporting Portal",
+          "url": "https://cybercrime.gov.in"
+        }
+      ],
+      "verified": "2026-09-23"
     }
   ]
 }
