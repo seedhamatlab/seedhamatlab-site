@@ -31,6 +31,7 @@ const CATS = {
 const SEV = { alert: "अलर्ट", right: "आपका अधिकार", info: "जानकारी" };
 // Small, article-specific decision cards. These are typographic illustrations, not evidence.
 const CARDS = {
+  "online-fraud-kya-kare": { label: "EMERGENCY GUIDE", icon: "!", headline: "Fraud ho gaya?", points: ["Bank को तुरंत बताएं", "1930 पर report करें", "UTR और proof रखें"] },
   "digital-arrest": { label: "SCAM ALERT", icon: "✦", headline: "Video call पर arrest?", points: ["Call काटें", "पैसे या OTP न दें", "1930 पर report करें"] },
   "golden-hour-3-din": { label: "QUICK ACTION", icon: "↗", headline: "पैसे कटे? अभी ये करें", points: ["Bank को तुरंत बताएं", "Complaint number रखें", "Cyber fraud: 1930"] },
   "free-look-30-din": { label: "KNOW YOUR RIGHT", icon: "✓", headline: "Life policy: 30-day free look", points: ["1 साल+ की policy", "Document मिलने से गिनें", "Company को लिखित request"] },
@@ -469,7 +470,7 @@ function renderIndex(posts) {
   </section>
   <nav class="quickpaths" aria-label="कहाँ से शुरू करें">
     <a href="/how-to-check/"><strong>संदिग्ध message मिला?</strong><span>Link, call या offer को check करने का तरीका</span></a>
-    <a href="/p/golden-hour-3-din/"><strong>पैसा कट गया?</strong><span>Bank और cyber fraud reporting के अगले कदम</span></a>
+    <a href="/p/online-fraud-kya-kare/"><strong>पैसा कट गया?</strong><span>Bank और cyber fraud reporting के अगले कदम</span></a>
     <a href="#articles"><strong>Articles देखें</strong><span>Search और category से अपना सवाल चुनें</span></a>
   </nav>
   <a class="promise" href="/how-to-check/">${esc(SITE.tagline)}<span class="promise-more">कैसे verify करें? Step-by-step guide खोलें →</span></a>

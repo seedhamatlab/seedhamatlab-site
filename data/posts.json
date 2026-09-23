@@ -2,6 +2,47 @@
   "updated": "2026-09-23",
   "posts": [
     {
+      "id": "online-fraud-kya-kare",
+      "title": "Online fraud हो गया, पैसा कट गया? अभी क्या करें",
+      "cat": "scam",
+      "date": "2026-09-23",
+      "verified": "2026-09-23",
+      "pinned": true,
+      "severity": "alert",
+      "tags": [
+        "fraud ho gaya kya kare",
+        "online fraud",
+        "UPI fraud",
+        "1930",
+        "cybercrime",
+        "पैसा कट गया"
+      ],
+      "summary": "पैसा कटते ही अपने bank को आधिकारिक नंबर या app से बताएं और शिकायत नंबर लें। साइबर financial fraud में 1930 पर तुरंत call करें या cybercrime.gov.in पर report करें। Transaction ID/UTR और सबूत संभालें।",
+      "body": "## सीधा जवाब\n\nऑनलाइन fraud में पैसे चले गए हैं तो इंतज़ार न करें। अपने bank को आधिकारिक app, website या कार्ड के पीछे दिए नंबर से तुरंत सूचना दें और **शिकायत नंबर** लिख लें। साइबर financial fraud को **1930** पर तुरंत बताएं या [National Cyber Crime Reporting Portal](https://cybercrime.gov.in/) पर शिकायत दर्ज करें।\n\n## अभी ये 3 काम करें\n\n1. **Bank को तुरंत बताएं।** कहें कि कौन-सा transaction आपकी अनुमति के बिना हुआ या किस तरह धोखे से payment कराई गई। ज़रूरत हो तो card, UPI, net banking या संबंधित access सुरक्षित/ब्लॉक कराने का अनुरोध करें। शिकायत नंबर और सूचना देने का समय संभालें।\n2. **1930 पर call करें।** साथ में cybercrime.gov.in पर **Financial Fraud** की शिकायत दर्ज करें। Bank को बताना और cybercrime शिकायत करना—दोनों ज़रूरी रास्ते हैं। कोई व्यक्ति refund के नाम पर फिर PIN/OTP माँगे तो न दें।\n3. **सबूत एक जगह रखें।** Transaction ID/UTR, रकम, तारीख और समय, bank/wallet का नाम, SMS, चैट, scammer का नंबर/UPI ID और शिकायत की पावती सुरक्षित रखें। Portal इन्हीं लेनदेन विवरण और संबंधित evidence को माँगता है।\n\n## अगर UPI PIN या OTP आपने खुद डाला था?\n\nफिर भी **तुरंत bank और 1930 को report करें**। Bank को सच-सच बताएं कि transaction कैसे हुआ। RBI के unauthorized electronic transaction नियम में ग्राहक की देनदारी घटना की वजह और सूचना देने के समय पर निर्भर करती है; हर fraud में **automatic refund या zero liability** नहीं मिलती।\n\n## शिकायत का status कैसे देखें?\n\n[Cybercrime portal के Track your Complaint](https://cybercrime.gov.in/Webform/chkackstatus.aspx) पर acknowledgement number से status देख सकते हैं। Bank की अलग शिकायत का status उसी bank के official channel से पूछें। **1930 पर report करने से पैसा वापस आने की गारंटी नहीं है**, लेकिन जल्दी सूचना देना ज़रूरी है।\n\n## परिवार को भेजने लायक छोटा संदेश\n\n“Online fraud में पैसा कटे तो तुरंत अपने bank के official नंबर/app पर शिकायत करें और शिकायत नंबर लें। साइबर financial fraud के लिए 1930 पर call करें या cybercrime.gov.in पर report करें। UTR, SMS और chat सुरक्षित रखें। Refund के नाम पर OTP/UPI PIN किसी को न दें।”",
+      "sources": [
+        {
+          "label": "National Cyber Crime Reporting Portal — financial fraud reporting",
+          "url": "https://cybercrime.gov.in/"
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — 1930 helpline",
+          "url": "https://cybercrime.gov.in/Webform/Crime_NodalGrivanceList.aspx"
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — complaint information checklist",
+          "url": "https://cybercrime.gov.in/Webform/Crime_AuthoLogin.aspx"
+        },
+        {
+          "label": "RBI — Customer Protection: Limiting Liability in Unauthorised Electronic Banking Transactions",
+          "url": "https://www.rbi.org.in/commonman/English/Scripts/Notification.aspx?Id=2336"
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — track complaint",
+          "url": "https://cybercrime.gov.in/Webform/chkackstatus.aspx"
+        }
+      ]
+    },
+    {
       "id": "digital-arrest",
       "title": "\"डिजिटल अरेस्ट\" नाम की कोई चीज़ कानून में है ही नहीं",
       "cat": "scam",
