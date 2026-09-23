@@ -114,6 +114,7 @@ const CSS = `
 }
 /* Warm light canvas; category colours make scanning the page easier. */
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
 body{background:linear-gradient(150deg,#fff8e8 0,#edf8f7 48%,#f5f1fc 100%) fixed;color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.72;margin:0}
 .wrap{max-width:920px;margin:0 auto;padding-inline:18px;padding-block:0 48px}
@@ -128,8 +129,10 @@ button{font:inherit;color:inherit}
 .mark{flex:none;width:48px;height:48px;border-radius:50%;display:block}
 .hero{margin:6px 0 4px;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:#1767bf}
 .hero img{display:block;width:100%;height:auto}
-.promise{padding:26px 24px;margin:8px 0 6px;border:1px solid #b5ded9;border-radius:16px;background:linear-gradient(115deg,#d9f5ed,#eef9e4 62%,#fff1d8);box-shadow:0 12px 34px rgba(14,94,87,.08);font-family:var(--sans);font-weight:700;font-size:clamp(20px,4.4vw,30px);line-height:1.48}
+.promise{display:block;padding:26px 24px;margin:8px 0 6px;border:1px solid #b5ded9;border-radius:16px;background:linear-gradient(115deg,#d9f5ed,#eef9e4 62%,#fff1d8);box-shadow:0 12px 34px rgba(14,94,87,.08);font-family:var(--sans);font-weight:700;font-size:clamp(20px,4.4vw,30px);line-height:1.48;text-decoration:none}
 .promise:before{content:"SEEDHA MATLAB  /  VERIFIED HELP";display:block;color:#0e5e57;font:700 11px var(--sans);letter-spacing:.13em;margin-bottom:12px}
+.promise .promise-more{display:block;margin-top:14px;font-size:14px;font-weight:600;color:#0e5e57}
+.promise:hover{border-color:#0e5e57}
 .visual{position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;min-height:170px;padding:17px 18px;border-radius:13px;background:linear-gradient(135deg,#185ab6 0%,#247ace 67%,#2d9ec5 100%);color:#fff;isolation:isolate}
 .visual:after{content:"";position:absolute;right:-45px;top:-55px;width:190px;height:190px;border-radius:50%;border:24px solid rgba(255,255,255,.09);z-index:-1}
 .visual[data-cat="bank"]{background:linear-gradient(135deg,#2150b6,#5789e4)}
@@ -342,7 +345,7 @@ function infoVisual(p, feature = false) {
 }
 
 function entryHTML(p) {
-  const hay = esc([p.title, p.summary, (p.tags || []).join(" "), catName(p.cat)].join(" ").toLowerCase());
+  const hay = esc([p.title, p.summary, p.body, (p.tags || []).join(" "), catName(p.cat)].join(" ").toLowerCase());
   const href = `/p/${encodeURIComponent(p.id)}/`;
   if (p.pinned) {
     return `<a class="entry pinned" href="${href}" data-cat="${esc(p.cat)}" data-text="${hay}">
@@ -413,7 +416,7 @@ function renderIndex(posts) {
     home: true,
   }) + `
 <main id="main">
-  <p class="promise">${esc(SITE.tagline)}</p>
+  <a class="promise" href="/how-to-check/">${esc(SITE.tagline)}<span class="promise-more">कैसे verify करें? Step-by-step guide खोलें →</span></a>
   <a class="asklink" href="/faq/"><b>कोई सवाल है?</b> — सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब यहाँ देखिए →</a>
   <div class="controls">
     <div class="search">
@@ -582,7 +585,32 @@ const SOURCE_POLICY = {
 भरोसा इसी से बनता है कि गलती मानी जाए, छुपाई न जाए।`,
 };
 
-const PAGES = [ABOUT, SOURCE_POLICY];
+const HOW_TO_CHECK = {
+  slug: "how-to-check",
+  title: "संदिग्ध message या link मिला? ऐसे check करें",
+  desc: "किस पर भरोसा करें, कौन-सा link न खोलें और fraud होने पर कहाँ report करें—एक सरल decision guide।",
+  body: `## 1. रुकें और पहचानें
+
+Message में account बंद होने का डर, refund का लालच, तुरंत payment की माँग या APK install करने को कहा गया है? Link खोलकर सत्यापन शुरू न करें। Number, logo या पुरानी chat अपने आप प्रमाण नहीं हैं। उदाहरण: [बिजली KYC APK](/p/electricity-kyc-apk/) और [boss का payment message](/p/boss-whatsapp-payment/)।
+
+## 2. दूसरे रास्ते से verify करें
+
+जिस संस्था का नाम लिया गया है, उसकी **official website या app** खुद खोलें। Customer-care number वहीं से लें; search में ऊपर दिखा ad प्रमाण नहीं है। व्यक्ति के नाम से payment instruction आया हो तो पहले से ज्ञात number पर **अलग call** करके पुष्टि करें। [Fake customer care की guide](/p/fake-customer-care/)।
+
+## 3. अपने अगले कदम का रास्ता चुनें
+
+- **सिर्फ संदिग्ध call/message:** Sanchar Saathi के [Chakshu](https://sancharsaathi.gov.in/sfc/) या I4C के [Report Suspect](https://cybercrime.gov.in/Webform/cyber_suspect.aspx) में उपयुक्त जानकारी report करें। [इन रास्तों का फर्क](/p/report-suspect/)।
+- **पैसा कट गया या cybercrime हुआ:** अपने bank को official helpline/app से तुरंत बताएं; [1930 या cybercrime.gov.in](https://cybercrime.gov.in) पर शिकायत करें। कोई recovery की guarantee नहीं है।
+- **Screen-sharing access दी थी:** Sharing बंद करें, permissions हटाएँ और bank से account की सुरक्षा जाँच कराएँ। [तुरंत करने वाले कदम](/p/screen-share-containment/)।
+
+## और जानें
+
+[UPI refund में PIN का नियम](/p/upi-pin-refund/) · [अक्सर पूछे सवाल](/faq/) · [हमारी source policy](/source-policy/)।
+
+स्रोत: [CERT-In screen-sharing advisory](https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2020-0003&pageid=PUBVLNOTES02), [I4C National Cyber Crime Reporting Portal](https://cybercrime.gov.in), [DoT Chakshu](https://sancharsaathi.gov.in/sfc/)। आख़िरी जाँच: 23 सितम्बर 2026।`,
+};
+
+const PAGES = [ABOUT, SOURCE_POLICY, HOW_TO_CHECK];
 
 /* ------------------------------------------------------------- सवाल-जवाब */
 
