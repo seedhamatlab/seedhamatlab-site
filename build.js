@@ -10,7 +10,7 @@ const SITE = {
   url: "https://seedhamatlab.com",
   name: "सीधा मतलब",
   nameEn: "Seedha Matlab",
-  tagline: "घोटाले, बैंकिंग अधिकार और उपभोक्ता नियम — सीधी भाषा में, स्रोत के साथ।",
+  tagline: "WhatsApp पर आए संदिग्ध message, link और offer का verified सच—और तुरंत क्या करना है।",
   eyebrow: "सूचना डेस्क · भारत",
   instagram: "", // Instagram handle abhi nahi hai — link yahan daalein tabhi footer me dikhega
   x: "https://x.com/seedhamatlab",
@@ -52,8 +52,8 @@ function fmtDateStack(iso) {
 
 function inline(s) {
   let out = esc(s);
-  out = out.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
-    '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  out = out.replace(/\[([^\]]+)\]\(((?:https?:\/\/|\/)[^\s)]+)\)/g,
+    (_match, label, href) => `<a href="${href}"${href.startsWith('/') ? '' : ' target="_blank" rel="noopener"'}>${label}</a>`);
   out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
   return out;
 }
@@ -117,6 +117,7 @@ button{font:inherit;color:inherit}
 .mark{flex:none;width:48px;height:48px;border-radius:50%;display:block}
 .hero{margin:6px 0 4px;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:#0d1b2a}
 .hero img{display:block;width:100%;height:auto}
+.promise{padding:18px 17px;margin:8px 0 6px;border-left:3px solid var(--verify);background:var(--surface);font-family:var(--serif);font-size:clamp(18px,4.4vw,23px);line-height:1.55}
 .asklink{display:flex;align-items:center;gap:9px;margin:16px 0 0;padding:13px 15px;border:1px solid var(--line);border-left:3px solid var(--accent,#2ec4b6);border-radius:4px;background:var(--surface);text-decoration:none;color:var(--ink);font-size:14.5px;line-height:1.55}
 .asklink b{font-weight:600}
 .qa{margin-top:10px}
@@ -242,7 +243,7 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
 <hr class="rule">
 <hr class="rule-thin">
 <div class="kicker">
-  <span>घोटाले · बैंकिंग अधिकार · उपभोक्ता · बीमा · EPFO</span>
+  <span>संदिग्ध मैसेज · लिंक · कॉल · ऑफ़र</span>
   <span class="dot">—</span>
   <span>हर बात का स्रोत नीचे दर्ज</span>
 </div>
@@ -369,13 +370,13 @@ function renderIndex(posts) {
     home: true,
   }) + `
 <main id="main">
-  <div class="hero"><img src="/banner.jpg" alt="${esc(SITE.name)} — ${esc(plain(SITE.tagline))}" width="1600" height="535"></div>
+  <p class="promise">${esc(SITE.tagline)}</p>
   <a class="asklink" href="/faq/"><b>कोई सवाल है?</b> — सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब यहाँ देखिए →</a>
   <div class="controls">
     <div class="search">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       <label for="q" class="skip">खोजें</label>
-      <input id="q" type="search" placeholder="खोजें — जैसे OTP, पेंशन, बीमा" autocomplete="off">
+      <input id="q" type="search" placeholder="खोजें — जैसे OTP, फर्ज़ी लिंक, कॉल" autocomplete="off">
     </div>
     <div class="cats">${chips}</div>
   </div>
@@ -466,18 +467,14 @@ function renderPage({ slug, title, desc, body }) {
 const ABOUT = {
   slug: "about",
   title: "हमारे बारे में",
-  desc: "सीधा मतलब एक सूचना डेस्क है — घोटाले, बैंकिंग अधिकार और उपभोक्ता नियम सीधी भाषा में, हर बात के स्रोत के साथ।",
+  desc: "WhatsApp पर आए संदिग्ध message, link और offer का verified सच—और तुरंत क्या करना है।",
   body: `## यह डेस्क क्या करता है
 
-रोज़ नए नियम आते हैं, नए घोटाले आते हैं। ज़्यादातर लोगों तक वे या तो पहुँचते ही नहीं, या इतनी भारी भाषा में पहुँचते हैं कि काम के नहीं रहते। यह डेस्क वही दूरी पाटता है — **नियम और चेतावनियाँ, सीधी भाषा में, हर बात के स्रोत के साथ।**
+अभी हमारा मुख्य काम है संदिग्ध WhatsApp/SMS संदेश, लिंक, कॉल और ऑफ़र की जाँच आसान बनाना। हर लेख में साफ़ verdict, तुरंत करने वाला कदम और आधिकारिक स्रोत मिलेगा।
 
-हम पाँच विषयों पर लिखते हैं:
+पुराने लेखों में बैंकिंग अधिकार, उपभोक्ता, बीमा और EPFO से जुड़ी जानकारी भी है। इस शुरुआती दौर में हमारा नया content मुख्यतः scam alert और धोखाधड़ी के बाद तुरंत उठाए जाने वाले कदमों पर होगा।
 
-- **साइबर स्कैम** — कैसे होता है, और बचने का असली तरीका क्या है
-- **बैंकिंग / RBI** — आपके खाते पर आपके अधिकार
-- **उपभोक्ता अधिकार** — सामान या सेवा खराब निकले तो
-- **बीमा / IRDAI** — पॉलिसी से जुड़े नियम
-- **EPFO / सैलरी** — नौकरीपेशा लोगों के अधिकार
+**साइबर स्कैम** — संदिग्ध बात की पहचान, स्रोत से जाँच और अगला सुरक्षित कदम।
 
 ## यह डेस्क क्या नहीं करता
 
@@ -493,7 +490,7 @@ const ABOUT = {
 
 ## कुछ कहना हो
 
-WhatsApp Channel और X के लिंक नीचे फ़ुटर में हैं। कोई तथ्य गलत लगे तो ज़रूर बताइए — सुधार की नीति भी स्रोत नीति वाले पन्ने पर लिखी है।`,
+कोई तथ्य गलत लगे तो X पर @seedhamatlab को सार्वजनिक reply में बताइए। निजी जानकारी साझा न करें। सुधार की नीति भी स्रोत नीति वाले पन्ने पर लिखी है।`,
 };
 
 const SOURCE_POLICY = {
@@ -536,7 +533,7 @@ const SOURCE_POLICY = {
 
 - सुधार **उसी पोस्ट में** किया जाएगा, चुपचाप हटाया नहीं जाएगा
 - अगर बात का मतलब ही बदल जाता हो, तो पोस्ट में साफ़ लिखा जाएगा कि क्या सुधरा
-- बताने के लिए WhatsApp Channel या X — दोनों के लिंक नीचे फ़ुटर में हैं
+- बताने के लिए X पर @seedhamatlab को सार्वजनिक reply दें; निजी जानकारी साझा न करें
 
 भरोसा इसी से बनता है कि गलती मानी जाए, छुपाई न जाए।`,
 };
@@ -556,7 +553,7 @@ const FAQ = [
   },
   {
     q: "बीमा पॉलिसी गलत बताकर बेच दी गई — वापस हो सकती है?",
-    a: "हाँ, **फ्री-लुक अवधि** में। IRDAI के मास्टर सर्कुलर के बाद यह अवधि सभी पॉलिसियों के लिए **30 दिन** है। इस दौरान पॉलिसी लौटाकर प्रीमियम वापस लिया जा सकता है (कुछ कटौतियों के साथ)। [विस्तार से](/p/free-look-30-din/)।",
+    a: "एक साल या उससे लंबी **जीवन बीमा पॉलिसी** पर दस्तावेज़ मिलने के बाद **30 दिन** का फ्री-लुक समय है। शर्तें मंज़ूर न हों तो रद्द करने का अनुरोध किया जा सकता है; तय कटौतियाँ लागू होती हैं। [विस्तार से](/p/free-look-30-din/)।",
   },
   {
     q: "EPF में नॉमिनेशन नहीं भरा है तो क्या होगा?",
@@ -576,7 +573,7 @@ const FAQ = [
   },
   {
     q: "मेरा सवाल यहाँ नहीं है — कहाँ पूछूँ?",
-    a: "WhatsApp Channel या X पर भेजिए (लिंक नीचे फ़ुटर में हैं)। जो सवाल बार-बार आते हैं, वे इसी पन्ने पर स्रोत के साथ जोड़ दिए जाते हैं। ध्यान रहे — यहाँ सामान्य जानकारी मिलती है, किसी एक केस की कानूनी या वित्तीय सलाह नहीं।",
+    a: "X पर @seedhamatlab को सार्वजनिक reply में सवाल या सुधार बताइए। निजी जानकारी, मोबाइल नंबर या दस्तावेज़ न भेजें। यहाँ सामान्य जानकारी मिलती है, व्यक्तिगत कानूनी या वित्तीय सलाह नहीं।",
   },
 ];
 
@@ -594,13 +591,11 @@ function renderFAQ() {
   const items = FAQ.map((f) =>
     `    <details>
       <summary>${esc(f.q)}</summary>
-      <div class="ans">${inline(esc(f.a))}</div>
+      <div class="ans">${inline(f.a)}</div>
     </details>`
   ).join("\n");
 
-  const ask = SITE.whatsapp
-    ? `<a class="asklink" href="${esc(SITE.whatsapp)}" target="_blank" rel="noopener"><b>अपना सवाल भेजिए</b> — WhatsApp Channel पर। बार-बार आने वाले सवाल यहाँ स्रोत के साथ जुड़ते रहते हैं।</a>`
-    : "";
+  const ask = `<a class="asklink" href="${esc(SITE.x)}" target="_blank" rel="noopener"><b>सुधार बताना है?</b> — X पर @seedhamatlab को सार्वजनिक reply में बताइए। निजी जानकारी साझा न करें।</a>`;
 
   return head({
     title: `सवाल-जवाब — ${SITE.name}`,
