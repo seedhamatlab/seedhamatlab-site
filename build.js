@@ -290,10 +290,10 @@ function head({ title, desc, canonical, type = "website", published, home = fals
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${esc(ogImage)}">
 ${published ? `<meta property="article:published_time" content="${esc(published)}">` : ""}
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/icons/sm-192.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
 <meta name="theme-color" content="#15202B">
-<link rel="apple-touch-icon" href="/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/icons/sm-192.png">
 <link rel="alternate" type="application/rss+xml" title="${esc(SITE.name)}" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -305,7 +305,7 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
 <div class="wrap">
 <header class="masthead">
   <a class="brand" href="/">
-    <img class="mark" src="/logo.jpg" alt="" width="48" height="48">
+    <img class="mark" src="/brand-logo.png" alt="" width="48" height="48">
     <span>
       <span class="eyebrow">${esc(SITE.eyebrow)}</span>
       ${home ? `<h1 class="wordmark">${esc(SITE.name)}</h1>` : `<p class="wordmark">${esc(SITE.name)}</p>`}
@@ -369,7 +369,7 @@ function foot() {
     </div>
   </div>
   <p class="fine">यह सामान्य जानकारी है, कानूनी या वित्तीय सलाह नहीं। अपने मामले में आधिकारिक स्रोत या पेशेवर से पुष्टि करें।</p>
-  <div class="copyright"><img src="/logo.jpg" alt="Seedha Matlab logo" width="27" height="27"><span>© ${new Date().getFullYear()} Seedha Matlab · स्वतंत्र जन-जागरूकता सामग्री</span></div>
+  <div class="copyright"><img src="/brand-logo.png" alt="Seedha Matlab logo" width="27" height="27"><span>© ${new Date().getFullYear()} Seedha Matlab · स्वतंत्र जन-जागरूकता सामग्री</span></div>
 </footer>
 </div>
 <script>(function(){var b=document.querySelector('.menu-toggle'),m=document.getElementById('site-menu');b.addEventListener('click',function(){var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));b.setAttribute('aria-label',open?'Menu खोलें':'Menu बंद करें');m.hidden=open;});})();</script>
@@ -901,7 +901,6 @@ function main() {
   write(path.join("faq", "index.html"), renderFAQ());
 
   write("feed.xml", renderFeed(posts));
-  write("favicon.svg", FAVICON);
   write("manifest.webmanifest", JSON.stringify({
     id: "/",
     name: "सीधा मतलब — Seedha Matlab",
@@ -914,9 +913,9 @@ function main() {
     background_color: "#EDEFE9",
     theme_color: "#15202B",
     icons: [
-      { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
-      { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
-      { src: "/icons/icon-maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
+      { src: "/icons/sm-192.png", sizes: "192x192", type: "image/png" },
+      { src: "/icons/sm-512.png", sizes: "512x512", type: "image/png" },
+      { src: "/icons/sm-maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
     ],
   }));
   write("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE.url}/sitemap.xml\n`);
@@ -935,12 +934,12 @@ function main() {
 
   // Tasveerein assets/ me ho ya repo ki jad me — dono jagah se utha li jaati hain.
   fs.mkdirSync(path.join(__dirname, "dist"), { recursive: true });
-  ["og.png", "logo.jpg", "banner.jpg"].forEach((f) => {
+  ["og.png", "logo.jpg", "banner.jpg", "brand-logo.png"].forEach((f) => {
     const src = [path.join(__dirname, "assets", f), path.join(__dirname, f)]
       .find((c) => fs.existsSync(c));
     if (src) fs.copyFileSync(src, path.join(__dirname, "dist", f));
   });
-  for (const f of ["icon-192.png", "icon-512.png", "icon-maskable-512.png"]) {
+  for (const f of ["sm-192.png", "sm-512.png", "sm-maskable-512.png"]) {
     const src = path.join(__dirname, "icons", f);
     if (!fs.existsSync(src)) throw new Error(`Missing PWA icon: ${src}`);
     fs.mkdirSync(path.join(__dirname, "dist", "icons"), { recursive: true });

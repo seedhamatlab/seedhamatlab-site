@@ -23,6 +23,7 @@ COPY={
 }
 font='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 bold='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+brand_logo=Image.open(root/'assets/brand-logo.png').convert('RGBA').resize((70,70),Image.Resampling.LANCZOS)
 F=lambda size,heavy=False:ImageFont.truetype(bold if heavy else font,size)
 colors={'scam':(22,100,184),'bank':(49,85,167),'insurance':(91,74,154),'consumer':(30,116,155),'epfo':(15,104,127)}
 def fit(draw,s,xmax,size=62):
@@ -34,8 +35,7 @@ for p in posts:
  im=Image.new('RGB',(1200,630),(247,250,255));d=ImageDraw.Draw(im)
  d.rectangle((0,0,1200,22),fill=bg)
  d.rounded_rectangle((56,55,1144,574),radius=30,fill=(255,255,255),outline=(210,224,240),width=2)
- d.rounded_rectangle((86,82,156,152),radius=18,fill=(21,50,83))
- d.text((96,98),'SM',font=F(32,True),fill='white')
+ im.paste(brand_logo,(86,82),brand_logo)
  d.text((173,89),'SEEDHA MATLAB',font=F(26,True),fill=(24,52,83))
  d.text((175,122),'VERIFIED HELP',font=F(15,True),fill=bg)
  d.rounded_rectangle((87,181,320,224),radius=18,fill=(231,240,251))
