@@ -52,7 +52,7 @@ content:
             required: true
             options:
               format: yyyy-MM-dd
-
+          - { name: verified, label: "आख़िरी जाँच की तारीख़", type: date, options: { format: yyyy-MM-dd }, description: "जिस दिन स्रोत दोबारा खोलकर जाँचा कि नियम अब भी वही है। पोस्ट के नीचे दिखती है।" }
           - name: severity
             label: तेवर
             type: select
