@@ -28,6 +28,24 @@ const CATS = {
   epfo: { name: "EPFO / सैलरी", v: "--c-epfo" },
 };
 const SEV = { alert: "अलर्ट", right: "आपका अधिकार", info: "जानकारी" };
+// Small, article-specific decision cards. These are typographic illustrations, not evidence.
+const CARDS = {
+  "digital-arrest": { label: "SCAM ALERT", icon: "✦", headline: "Video call पर arrest?", points: ["Call काटें", "पैसे या OTP न दें", "1930 पर report करें"] },
+  "golden-hour-3-din": { label: "QUICK ACTION", icon: "↗", headline: "पैसे कटे? अभी ये करें", points: ["Bank को तुरंत बताएं", "Complaint number रखें", "Cyber fraud: 1930"] },
+  "free-look-30-din": { label: "KNOW YOUR RIGHT", icon: "✓", headline: "Life policy: 30-day free look", points: ["1 साल+ की policy", "Document मिलने से गिनें", "Company को लिखित request"] },
+  "epf-e-nomination": { label: "FAMILY CHECK", icon: "◎", headline: "EPF nominee check करें", points: ["Official member portal", "Details verify करें", "e-nomination पूरा करें"] },
+  "consumer-1915": { label: "CONSUMER HELP", icon: "→", headline: "Product में problem?", points: ["Seller से लिखित बात", "Proof संभालकर रखें", "NCH: 1915"] },
+  "fake-customer-care": { label: "NUMBER CHECK", icon: "☎", headline: "Search वाला helpline?", points: ["Ad number पर भरोसा नहीं", "Official site से number", "Screen share कभी नहीं"] },
+  "electricity-kyc-apk": { label: "LINK ALERT", icon: "⚡", headline: "बिजली KYC का APK?", points: ["APK install न करें", "Bill official route से check", "Suspicious message report"] },
+  "upi-pin-refund": { label: "UPI SAFETY", icon: "₹", headline: "Refund लेने को PIN?", points: ["Receive ≠ PIN", "QR scan से payment", "App में amount देखें"] },
+  "boss-whatsapp-payment": { label: "VERIFY FIRST", icon: "↗", headline: "Boss ने payment कहा?", points: ["अलग से call करें", "Attachment न चलाएं", "Linked devices check"] },
+  "task-job-scam": { label: "JOB SCAM", icon: "✦", headline: "Task के लिए पैसे?", points: ["Job offer verify", "Top-up न करें", "Chat proof रखें"] },
+  "trai-sim-threat": { label: "CALL ALERT", icon: "☎", headline: "TRAI SIM बंद करेगा?", points: ["Call काटें", "Operator से check", "Chakshu report"] },
+  "fake-echallan": { label: "LINK CHECK", icon: "→", headline: "E-challan SMS आया?", points: ["Link पर न जाएं", "Official portal खोलें", "Payment से पहले verify"] },
+  "report-suspect": { label: "REPORT GUIDE", icon: "✓", headline: "सिर्फ suspect message?", points: ["URL / number note", "I4C Report Suspect", "पैसा गया तो 1930"] },
+  "screen-share-containment": { label: "ACT NOW", icon: "!", headline: "Screen access दे दी?", points: ["Session बंद करें", "Bank को बताएं", "Access हटाकर जांचें"] },
+  "sim-connections-check": { label: "SELF CHECK", icon: "◎", headline: "आपके नाम पर कितनी SIM?", points: ["Sanchar Saathi खोलें", "Connections देखें", "Unknown number report"] },
+};
 const MONTHS = ["जन", "फ़र", "मार्च", "अप्रैल", "मई", "जून", "जुल", "अग", "सित", "अक्तू", "नव", "दिस"];
 
 /* ---------------------------------------------------------------- utils */
@@ -92,20 +110,13 @@ const CSS = `
   --serif:"Tiro Devanagari Hindi",Georgia,"Noto Serif Devanagari",serif;
   --sans:"Mukta","Noto Sans Devanagari",system-ui,-apple-system,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
-  color-scheme:light dark;
+  color-scheme:light;
 }
-@media (prefers-color-scheme:dark){
-  :root{
-    --paper:#11161A;--surface:#181E23;--ink:#E7EAE3;--ink-2:#A5AFA7;--ink-3:#7E8A83;
-    --line:#2B333A;--line-soft:#232A30;--stamp:#E07A66;--verify:#5FBBAA;
-    --c-scam:#E07A66;--c-bank:#7FA6E8;--c-consumer:#D19A54;--c-insurance:#AE8FE0;--c-epfo:#5FBBAA;
-    --shadow:0 1px 0 rgba(0,0,0,.3);
-  }
-}
+/* Warm light canvas; category colours make scanning the page easier. */
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.72;margin:0}
-.wrap{max-width:720px;margin:0 auto;padding-inline:18px;padding-block:0 48px}
+body{background:linear-gradient(150deg,#fff8e8 0,#edf8f7 48%,#f5f1fc 100%) fixed;color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.72;margin:0}
+.wrap{max-width:920px;margin:0 auto;padding-inline:18px;padding-block:0 48px}
 a{color:inherit}
 button{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--verify);outline-offset:2px;border-radius:2px}
@@ -115,9 +126,28 @@ button{font:inherit;color:inherit}
 .masthead{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding-block:26px 14px}
 .brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit}
 .mark{flex:none;width:48px;height:48px;border-radius:50%;display:block}
-.hero{margin:6px 0 4px;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:#0d1b2a}
+.hero{margin:6px 0 4px;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:#1767bf}
 .hero img{display:block;width:100%;height:auto}
-.promise{padding:18px 17px;margin:8px 0 6px;border-left:3px solid var(--verify);background:var(--surface);font-family:var(--serif);font-size:clamp(18px,4.4vw,23px);line-height:1.55}
+.promise{padding:26px 24px;margin:8px 0 6px;border:1px solid #b5ded9;border-radius:16px;background:linear-gradient(115deg,#d9f5ed,#eef9e4 62%,#fff1d8);box-shadow:0 12px 34px rgba(14,94,87,.08);font-family:var(--sans);font-weight:700;font-size:clamp(20px,4.4vw,30px);line-height:1.48}
+.promise:before{content:"SEEDHA MATLAB  /  VERIFIED HELP";display:block;color:#0e5e57;font:700 11px var(--sans);letter-spacing:.13em;margin-bottom:12px}
+.visual{position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;min-height:170px;padding:17px 18px;border-radius:13px;background:linear-gradient(135deg,#185ab6 0%,#247ace 67%,#2d9ec5 100%);color:#fff;isolation:isolate}
+.visual:after{content:"";position:absolute;right:-45px;top:-55px;width:190px;height:190px;border-radius:50%;border:24px solid rgba(255,255,255,.09);z-index:-1}
+.visual[data-cat="bank"]{background:linear-gradient(135deg,#2150b6,#5789e4)}
+.visual[data-cat="insurance"]{background:linear-gradient(135deg,#365cbd,#827bd8)}
+.visual[data-cat="consumer"]{background:linear-gradient(135deg,#205fae,#468cce)}
+.visual[data-cat="epfo"]{background:linear-gradient(135deg,#1d67ad,#3297b4)}
+.visual .v-top{display:flex;align-items:center;justify-content:space-between;font-size:10px;font-weight:700;letter-spacing:.13em}
+.visual .v-icon{display:grid;place-items:center;width:32px;height:32px;border:1px solid rgba(255,255,255,.55);border-radius:50%;font-size:20px;line-height:1}
+.visual strong{display:block;font-size:clamp(17px,3vw,26px);line-height:1.3;max-width:30ch}
+.visual ul{display:flex;gap:6px;flex-wrap:wrap;padding:0;margin:9px 0 0;list-style:none}
+.visual li{padding:4px 8px;border-radius:6px;background:rgba(255,255,255,.16);font-size:12px;line-height:1.4}
+.visual small{display:block;margin-top:9px;opacity:.83;font-size:10px}
+.entry .visual{min-height:150px;margin-bottom:13px}
+.entry:not(.pinned){grid-template-columns:54px minmax(0,1fr)}
+.entry:not(.pinned) .visual{grid-column:1/-1}
+.visual-feature{margin:20px 0 22px;min-height:230px;padding:22px 24px}
+.visual-feature strong{font-size:clamp(23px,4vw,33px)}
+.visual-feature li{font-size:14px}
 .asklink{display:flex;align-items:center;gap:9px;margin:16px 0 0;padding:13px 15px;border:1px solid var(--line);border-left:3px solid var(--accent,#2ec4b6);border-radius:4px;background:var(--surface);text-decoration:none;color:var(--ink);font-size:14.5px;line-height:1.55}
 .asklink b{font-weight:600}
 .qa{margin-top:10px}
@@ -146,10 +176,10 @@ button{font:inherit;color:inherit}
 .cats::-webkit-scrollbar{display:none}
 .chip{flex:none;background:transparent;border:1px solid var(--line);border-radius:999px;padding:4px 12px 5px;font-size:13.5px;cursor:pointer;color:var(--ink-2);white-space:nowrap;transition:background .15s,border-color .15s,color .15s}
 .chip:hover{border-color:var(--ink-3)}
-.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.chip[aria-pressed="true"]{background:#195eae;border-color:#195eae;color:#fff}
 
 .listhead{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);padding-block:14px 6px;border-top:1px solid var(--line)}
-.entry{display:grid;grid-template-columns:54px 1fr;gap:0 14px;padding-block:18px;border-top:1px solid var(--line-soft);text-decoration:none}
+.entry{display:grid;grid-template-columns:54px 1fr;gap:0 14px;padding:18px;background:var(--surface);border:1px solid var(--line-soft);border-radius:16px;text-decoration:none;margin:0 0 14px;box-shadow:0 8px 22px rgba(21,32,43,.045)}
 .entry:first-of-type{border-top:0}
 .meta{font-family:var(--mono);font-size:11px;color:var(--ink-3);padding-top:6px;line-height:1.5}
 .meta .cdot{display:block;width:7px;height:7px;border-radius:50%;margin-bottom:6px;background:var(--ink-3)}
@@ -157,7 +187,7 @@ button{font:inherit;color:inherit}
 .entry:hover h2{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
 .entry p{margin:0;color:var(--ink-2);font-size:14.5px;line-height:1.62}
 .catname{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase}
-.entry.pinned{grid-template-columns:1fr;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--stamp);border-radius:0 3px 3px 0;padding:16px 16px 18px;margin-bottom:6px;box-shadow:var(--shadow)}
+.entry.pinned{grid-template-columns:1fr;border:1px solid #e7bcb4;border-radius:16px;padding:18px;margin-bottom:16px}
 .alertlabel{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--stamp);margin-bottom:5px;display:block}
 .empty{padding:34px 0;color:var(--ink-3);font-size:15px;border-top:1px solid var(--line-soft)}
 
@@ -167,7 +197,8 @@ article header{border-top:1px solid var(--line);padding-top:20px}
 .postmeta{font-family:var(--mono);font-size:11px;letter-spacing:.07em;color:var(--ink-3);display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
 article h1{font-family:var(--serif);font-weight:400;font-size:clamp(25px,6.4vw,33px);line-height:1.3;margin:0 0 12px;text-wrap:balance}
 .standfirst{font-size:17px;line-height:1.66;color:var(--ink-2);margin:0 0 4px}
-.prose{max-width:62ch}
+.prose{max-width:72ch}
+@media(min-width:700px){.listings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.listings .entry{margin:0}.listings .entry.pinned{grid-column:1/-1}.listings .entry.pinned .visual{min-height:210px}}
 .prose h2{font-family:var(--sans);font-weight:600;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);margin:30px 0 6px}
 .prose p{margin:0 0 14px}
 .prose ul{margin:0 0 16px;padding-left:19px}
@@ -300,11 +331,22 @@ ${SITE.cfAnalytics ? `<script defer src="https://static.cloudflareinsights.com/b
 
 /* ---------------------------------------------------------------- pages */
 
+function infoVisual(p, feature = false) {
+  const c = CARDS[p.id];
+  if (!c) return "";
+  return `<div class="visual${feature ? " visual-feature" : ""}" data-cat="${esc(p.cat)}" role="img" aria-label="${esc(`${c.headline}: ${c.points.join(', ')}`)}">
+    <div class="v-top"><span>${esc(c.label)}</span><span class="v-icon" aria-hidden="true">${esc(c.icon)}</span></div>
+    <div><strong>${esc(c.headline)}</strong><ul>${c.points.map((point) => `<li>${esc(point)}</li>`).join("")}</ul></div>
+    <small>Seedha Matlab · ${esc((p.sources || [])[0]?.label.split(" — ")[0] || "Official source")} · checked ${esc(p.verified || p.date)}</small>
+  </div>`;
+}
+
 function entryHTML(p) {
   const hay = esc([p.title, p.summary, (p.tags || []).join(" "), catName(p.cat)].join(" ").toLowerCase());
   const href = `/p/${encodeURIComponent(p.id)}/`;
   if (p.pinned) {
     return `<a class="entry pinned" href="${href}" data-cat="${esc(p.cat)}" data-text="${hay}">
+  ${infoVisual(p)}
   <div>
     <span class="alertlabel">ताज़ा ${esc(SEV[p.severity] || "जानकारी")} · ${fmtDateLine(p.date)}</span>
     <h2>${esc(p.title)}</h2>
@@ -313,6 +355,7 @@ function entryHTML(p) {
 </a>`;
   }
   return `<a class="entry" href="${href}" data-cat="${esc(p.cat)}" data-text="${hay}">
+  ${infoVisual(p)}
   <div class="meta"><i class="cdot" style="background:${catColor(p.cat)}"></i>${fmtDateStack(p.date)}</div>
   <div>
     <div class="catname" style="color:${catColor(p.cat)}">${esc(catName(p.cat))}</div>
@@ -381,7 +424,7 @@ function renderIndex(posts) {
     <div class="cats">${chips}</div>
   </div>
   <div class="listhead" id="listhead">ताज़ा पोस्ट</div>
-  ${posts.map(entryHTML).join("\n")}
+  <div class="listings">${posts.map(entryHTML).join("\n")}</div>
   <div class="empty" id="empty" hidden>इस खोज में कुछ नहीं मिला। कोई और शब्द आज़माइए या श्रेणी बदलिए।</div>
 </main>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
@@ -429,6 +472,7 @@ function renderPost(p, all) {
       <h1>${esc(p.title)}</h1>
       <p class="standfirst">${esc(p.summary)}</p>
     </header>
+    ${infoVisual(p, true)}
     <div class="prose">${renderBody(p.body)}</div>
     ${sources ? `<div class="sources"><h3>स्रोत — खुद जाँचिए</h3>${sources}</div>` : ""}
     <p class="verline">स्रोत: ${esc((p.sources || []).map((s) => s.label).join(" · ") || "—")}<br>
@@ -566,6 +610,70 @@ const FAQ = [
   {
     q: "WhatsApp पर आया कोई मैसेज या लिंक असली है या नकली — कैसे पहचानूँ?",
     a: "तीन बातें लगभग हमेशा काम करती हैं: **जल्दबाज़ी** (“24 घंटे में खाता बंद”), **डर या लालच**, और **लिंक पर जाकर जानकारी माँगना**। कोई भी सरकारी विभाग या बैंक OTP, PIN या पूरा कार्ड नंबर नहीं माँगता। शक हो तो मैसेज के लिंक पर मत जाइए — संस्था का आधिकारिक पता खुद टाइप करके खोलिए।",
+  },
+  {
+    q: "Google/Search में दिखा customer-care number dial करूँ?",
+    a: "पहले कंपनी की **official website या app** पर वही number check करें। CERT-In ने search results के customer-support numbers और अनजान screen-sharing apps से सावधान किया है। [Decision guide](/p/fake-customer-care/)। स्रोत: CERT-In advisory CIAD-2020-0003; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "Customer care वाला screen-sharing app install करवाना चाहता है — क्या करूँ?",
+    a: "Call काट दें और remote-access permission न दें। CERT-In के अनुसार ऐसी access से device की activity देखी जा सकती है। अगर पहले ही access दे चुके हैं, app/permission हटाकर अपने bank को official channel से तुरंत बताएं; पैसा गया हो तो **1930** पर report करें। [पूरी बात](/p/fake-customer-care/)। स्रोत: CERT-In, I4C; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "Refund receive करने के लिए UPI PIN डालना पड़ेगा?",
+    a: "**नहीं।** NPCI के अनुसार QR scan और UPI PIN payment **करने** के लिए हैं, पैसा receive करने के लिए नहीं। PIN माँगने वाला refund flow रोकें और अपने UPI app में amount/payee देखें। [समझें](/p/upi-pin-refund/)। स्रोत: NPCI Fraud Awareness; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "किसी ने payment का screenshot भेजा है — पैसे आ गए मान लूँ?",
+    a: "Screenshot से पुष्टि न करें। अपने **bank/UPI app की transaction history** में credit देखकर ही सामान या सेवा दें। अगर सामने वाला ‘पहले QR scan करके PIN डालें’ कहे, रुकें। [UPI guide](/p/upi-pin-refund/)। स्रोत: NPCI Fraud Awareness; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "बिजली KYC update के नाम पर APK आया है — खोलूँ?",
+    a: "**मत खोलिए।** DoT ने electricity KYC के नाम पर SMS/WhatsApp से malicious APK भेजने का pattern दर्ज किया है। Bill या connection अपने provider की official site/app से जाँचें। [क्या करें](/p/electricity-kyc-apk/)। स्रोत: DoT/PIB, 17 Jun 2024; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "संदिग्ध WhatsApp/SMS message report कहाँ करूँ अगर पैसा नहीं गया?",
+    a: "DoT के **[Sanchar Saathi Chakshu](https://sancharsaathi.gov.in/sfc)** पर suspected fraud communication report कर सकते हैं। अगर पैसा चला गया या cybercrime हुआ है तो **1930** या [cybercrime.gov.in](https://cybercrime.gov.in) पर तत्काल शिकायत करें। स्रोत: DoT, I4C; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "1930 पर call करने से पैसे वापस आना पक्का है?",
+    a: "**नहीं**, recovery की guarantee नहीं है। यह financial cyber fraud की तत्काल reporting का official रास्ता है। साथ में bank को भी तुरंत बताएं, complaint number और transaction proof संभालें। स्रोत: [I4C portal](https://cybercrime.gov.in); जाँच 23 Sep 2026।",
+  },
+  {
+    q: "Boss/रिश्तेदार के असली WhatsApp से urgent payment कहें तो?",
+    a: "फिर भी **पहले से ज्ञात number पर अलग call** करके पुष्टि करें। I4C ने WhatsApp session takeover और boss impersonation का pattern बताया है। अनजान ZIP/EXE attachment न खोलें। [पूरी guide](/p/boss-whatsapp-payment/)। स्रोत: I4C/PIB, 22 Jun 2026; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "WhatsApp Web में अनजान linked device दिखे तो?",
+    a: "WhatsApp में **Settings > Linked devices** खोलकर अनजान session log out करें; उस account से आए payment instructions की अलग से पुष्टि करें। I4C ने linked sessions नियमित जाँचने को कहा है। [संदर्भ](/p/boss-whatsapp-payment/)। स्रोत: I4C/PIB, 22 Jun 2026; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "Bank की शिकायत पर RBI CMS कब जा सकता हूँ?",
+    a: "Bank का जवाब संतोषजनक न हो, या **30 दिन** में जवाब न मिले, तो पात्रता के अनुसार [RBI CMS](https://cms.rbi.org.in) पर शिकायत कर सकते हैं। बैंक में की गई पहली शिकायत और जवाब का record रखें। [समझें](/p/golden-hour-3-din/)। स्रोत: RBI Integrated Ombudsman FAQ; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "Video like करने के बाद पैसे deposit करने को कहें तो?",
+    a: "रुकें। I4C की advisory के अनुसार task scam में शुरुआती commission के बाद ज़्यादा कमाई के नाम पर पैसा जमा करवाया जाता है। Unknown account में transfer न करें। [Task scam guide](/p/task-job-scam/)। स्रोत: I4C/MHA, 6 Dec 2023; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "TRAI के नाम पर SIM बंद करने की धमकी मिले तो?",
+    a: "Call काटकर अपने telecom operator के **official channel** से जाँचें। TRAI ने कहा है कि उसके नाम पर number disconnect करने की ऐसी धमकी संभावित fraud है। [विस्तार से](/p/trai-sim-threat/)। स्रोत: TRAI/DoT, 6 Jun 2024; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "Traffic e-challan का SMS आया—कहाँ जाँचूँ?",
+    a: "SMS के link पर भुगतान न करें। Browser में [official eChallan portal](https://echallan.parivahan.gov.in/) खुद खोलकर challan details देखें। Mismatch होने पर संबंधित traffic office से पुष्टि करें। [Guide](/p/fake-echallan/)। स्रोत: MoRTH और MHA; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "संदिग्ध URL report कर दिया—क्या fraud complaint भी दर्ज हो गई?",
+    a: "**नहीं।** I4C का [Report Suspect](https://cybercrime.gov.in/Webform/cyber_suspect.aspx) suspected URL/number जैसे identifiers दर्ज करता है। पैसा गया या crime हुआ तो bank को बताएं और 1930/cybercrime.gov.in पर victim complaint करें। [दोनों रास्ते](/p/report-suspect/)। स्रोत: I4C portal; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "Screen share app install कर ली थी—क्या सिर्फ uninstall काफ़ी है?",
+    a: "Access/session बंद करें और permissions हटाएं; **सिर्फ uninstall को पूरी सुरक्षा न मानें**। Bank को official route से बताएं, account activity जाँचें और पैसा कटा हो तो 1930 पर report करें। [Action guide](/p/screen-share-containment/)। स्रोत: CERT-In, I4C; जाँच 23 Sep 2026।",
+  },
+  {
+    q: "मेरे नाम पर कितनी SIM हैं, कहाँ दिखेंगी?",
+    a: "DoT के [Sanchar Saathi](https://sancharsaathi.gov.in/) में **Know Mobile Connections in Your Name** खोलें। Official site पर verification के बाद connections देखें और जो आपका नहीं है उसे portal के जरिए report करें। [Step-by-step](/p/sim-connections-check/)। स्रोत: DoT; जाँच 23 Sep 2026।",
   },
   {
     q: "यह डेस्क कौन चलाता है?",
