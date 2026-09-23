@@ -290,7 +290,9 @@ function head({ title, desc, canonical, type = "website", published, home = fals
 <meta name="twitter:image" content="${esc(ogImage)}">
 ${published ? `<meta property="article:published_time" content="${esc(published)}">` : ""}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/logo.jpg">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#15202B">
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
 <link rel="alternate" type="application/rss+xml" title="${esc(SITE.name)}" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -899,6 +901,23 @@ function main() {
 
   write("feed.xml", renderFeed(posts));
   write("favicon.svg", FAVICON);
+  write("manifest.webmanifest", JSON.stringify({
+    id: "/",
+    name: "सीधा मतलब — Seedha Matlab",
+    short_name: "सीधा मतलब",
+    description: SITE.tagline,
+    lang: "hi",
+    start_url: "/",
+    scope: "/",
+    display: "standalone",
+    background_color: "#EDEFE9",
+    theme_color: "#15202B",
+    icons: [
+      { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+      { src: "/icons/icon-maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
+    ],
+  }));
   write("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE.url}/sitemap.xml\n`);
 
   const lastmod = posts.map((p) => p.date).sort().pop() || raw.updated || "";
@@ -920,6 +939,12 @@ function main() {
       .find((c) => fs.existsSync(c));
     if (src) fs.copyFileSync(src, path.join(__dirname, "dist", f));
   });
+  for (const f of ["icon-192.png", "icon-512.png", "icon-maskable-512.png"]) {
+    const src = path.join(__dirname, "icons", f);
+    if (!fs.existsSync(src)) throw new Error(`Missing PWA icon: ${src}`);
+    fs.mkdirSync(path.join(__dirname, "dist", "icons"), { recursive: true });
+    fs.copyFileSync(src, path.join(__dirname, "dist", "icons", f));
+  }
 
   console.log(`बन गया: ${posts.length} पोस्ट + होम + 404 → dist/`);
 }
