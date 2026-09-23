@@ -140,6 +140,20 @@ button{font:inherit;color:inherit}
 .landing-links{display:flex;flex-wrap:wrap;gap:9px;margin:15px 0 0}
 .landing-links a{background:#195eae;color:white;border-radius:9px;padding:9px 14px;text-decoration:none;font-weight:600;font-size:14px}
 .landing-links a:nth-child(2){background:#e4f3f2;color:#0e5e57}
+.quickpaths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:15px 0 20px}
+.quickpaths a{display:block;padding:16px;border:1px solid #c8d9e7;background:#fff;border-radius:12px;text-decoration:none;color:#174a82;line-height:1.5}
+.quickpaths strong{display:block;font-size:16px}
+.quickpaths span{display:block;color:var(--ink-2);font-size:13px;margin-top:5px}
+.quickpaths a:hover{border-color:#195eae;background:#eff7ff}
+.quickpaths a:nth-child(2){border-color:#e7c5be;background:#fff8f4}
+.quickpaths a:nth-child(2) strong{color:#983e2c}
+@media(max-width:610px){.quickpaths{grid-template-columns:1fr}.quickpaths a{padding:12px 15px}}
+.answerbox{margin:18px 0;padding:17px 20px;border-left:4px solid #195eae;background:#eef6ff;border-radius:0 12px 12px 0}
+.answerbox h2{margin:0 0 5px;font-size:16px;color:#174a82}
+.answerbox p{margin:0 0 9px;font-size:15px;line-height:1.55}
+.answerbox ul{margin:0;padding-left:20px;font-size:15px}
+.answerbox li{margin-bottom:3px}
+.copy-status{font-size:13px;color:#0e5e57;align-self:center}
 .articles-title{font-size:24px;line-height:1.35;margin:20px 0 5px}
 @media(max-width:550px){.masthead{align-items:center}.contact-top{display:none}.stamp{display:none}.wordmark{font-size:29px}.mark{width:44px;height:44px}}
 .brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit}
@@ -448,6 +462,11 @@ function renderIndex(posts) {
     <p>Scam alert, official source और अगला सही कदम—एक जगह, आसान Hindi + English में।</p>
     <div class="landing-links"><a href="/how-to-check/">Message कैसे verify करें →</a><a href="#articles">Latest articles देखें ↓</a></div>
   </section>
+  <nav class="quickpaths" aria-label="कहाँ से शुरू करें">
+    <a href="/how-to-check/"><strong>संदिग्ध message मिला?</strong><span>Link, call या offer को check करने का तरीका</span></a>
+    <a href="/p/golden-hour-3-din/"><strong>पैसा कट गया?</strong><span>Bank और cyber fraud reporting के अगले कदम</span></a>
+    <a href="#articles"><strong>Articles देखें</strong><span>Search और category से अपना सवाल चुनें</span></a>
+  </nav>
   <a class="promise" href="/how-to-check/">${esc(SITE.tagline)}<span class="promise-more">कैसे verify करें? Step-by-step guide खोलें →</span></a>
   <a class="asklink" href="/faq/"><b>कोई सवाल है?</b> — सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब यहाँ देखिए →</a>
   <h2 class="articles-title" id="articles">Latest articles / नए लेख</h2>
@@ -469,6 +488,7 @@ function renderIndex(posts) {
 
 function renderPost(p, all) {
   const url = `${SITE.url}/p/${encodeURIComponent(p.id)}/`;
+  const points = CARDS[p.id]?.points || [];
   const sources = (p.sources || []).map(
     (s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>`
   ).join("");
@@ -506,8 +526,11 @@ function renderPost(p, all) {
         <span>${esc(SEV[p.severity] || "जानकारी")}</span>
       </div>
       <h1>${esc(p.title)}</h1>
-      <p class="standfirst">${esc(p.summary)}</p>
     </header>
+    <section class="answerbox" aria-label="सीधा जवाब और अभी क्या करें">
+      <h2>सीधा जवाब</h2><p>${esc(p.summary)}</p>
+      ${points.length ? `<h2>अभी क्या करें</h2><ul>${points.slice(0,3).map(point=>`<li>${esc(point)}</li>`).join("")}</ul>` : ""}
+    </section>
     ${infoVisual(p, true)}
     <div class="prose">${renderBody(p.body)}</div>
     ${sources ? `<div class="sources"><h3>स्रोत — खुद जाँचिए</h3>${sources}</div>` : ""}
@@ -517,11 +540,14 @@ function renderPost(p, all) {
     ${tags ? `<div class="tagrow">${tags}</div>` : ""}
     <div class="postfoot">
       <a class="btn" href="${esc(waShare(p.title, url))}" target="_blank" rel="noopener">WhatsApp पर भेजें</a>
+      <button class="btn copy-link" type="button" data-url="${esc(url)}">Link copy करें</button><span class="copy-status" role="status" aria-live="polite"></span>
+      <a class="btn" href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent(`Seedha Matlab correction: ${p.title}`)}">सुधार बताएं</a>
       <a class="btn" href="/">और पोस्ट पढ़ें</a>
     </div>
   </article>
   ${others.length ? `<div class="more"><div class="listhead">इसे भी पढ़ें</div>${others.map(entryHTML).join("\n")}</div>` : ""}
 </main>
+<script>(function(){var b=document.querySelector('.copy-link'),s=document.querySelector('.copy-status');if(!b)return;b.addEventListener('click',async function(){try{await navigator.clipboard.writeText(b.getAttribute('data-url'));s.textContent='Link copy हो गया';}catch(e){s.textContent='Copy नहीं हुआ—browser का Share विकल्प इस्तेमाल करें';}});})();</script>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
 }
 
