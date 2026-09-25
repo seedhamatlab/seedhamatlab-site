@@ -54,3 +54,7 @@ Node 18+ chahiye. Koi `npm install` nahi.
 ## Agar Pages CMS me dropdown khaali dikhe
 
 `.pages.yml` me `options:` ke neeche se `values:` line hataakar list ko seedhe `options:` ke neeche kar dein — Pages CMS ke version ke hisaab se dono me se ek chalta hai.
+
+## Topic hubs
+
+`/scam-safety/` aur `/paise-ke-adhikar/` — ye `build.js` ke `HUBS` array se bante hain. Naya post apni `cat` ke hisaab se apne aap sahi hub me aa jata hai; hub page me koi list hath se nahi likhni padti. Teesra hub tabhi banaiye jab us vishay par 5+ article ho jayein — warna page patla rehta hai aur SEO me nuksaan karta hai.
