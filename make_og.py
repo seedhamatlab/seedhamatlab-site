@@ -4,6 +4,7 @@ import json, base64, io, textwrap
 root=Path(__file__).parent
 posts=json.loads((root/'data/posts.json').read_text())['posts']
 COPY={
+'cibil-galat-entry':('Credit report mein galat entry?','30 din mein nipatara. Deri par Rs 100 roz.'),
 'online-fraud-kya-kare':('Online fraud ho gaya?','Bank ko batayein. 1930 par report karein.'),
 'digital-arrest':('Video call par arrest?','Call kaat dein. Alag se verify karein.'),
 'golden-hour-3-din':('Paise kat gaye?','Bank ko turant batayein.'),
