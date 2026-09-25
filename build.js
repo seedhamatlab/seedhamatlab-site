@@ -185,6 +185,10 @@ button{font:inherit;color:inherit}
 .visual-feature li{font-size:14px}
 .asklink{display:flex;align-items:center;gap:9px;margin:16px 0 0;padding:13px 15px;border:1px solid var(--line);border-left:3px solid var(--accent,#2ec4b6);border-radius:4px;background:var(--surface);text-decoration:none;color:var(--ink);font-size:14.5px;line-height:1.55}
 .asklink b{font-weight:600}
+.crumbs{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin:0 0 14px;display:flex;gap:7px;flex-wrap:wrap;align-items:baseline}
+.crumbs a{color:var(--ink-2);text-decoration:none}
+.crumbs a:hover{text-decoration:underline;text-underline-offset:3px}
+.hublinks{margin-top:30px;padding-top:6px;border-top:1px solid var(--line-soft)}
 .qa{margin-top:10px}
 .qa details{border-bottom:1px solid var(--line-soft);padding:13px 0}
 .qa summary{cursor:pointer;font-size:16px;font-weight:600;line-height:1.5;list-style:none}
@@ -353,6 +357,8 @@ function foot() {
     <div>
       <h4>इस डेस्क के बारे में</h4>
       <div class="links">
+        <a href="/scam-safety/">संदिग्ध message और स्कैम</a>
+        <a href="/paise-ke-adhikar/">पैसे पर आपके अधिकार</a>
         <a href="/faq/">सवाल-जवाब</a>
         <a href="/about/">हमारे बारे में</a>
         <a href="/source-policy/">स्रोत नीति</a>
@@ -496,6 +502,7 @@ function renderIndex(posts) {
 }
 
 function renderPost(p, all) {
+  const hub = hubOf(p.cat);
   const url = `${SITE.url}/p/${encodeURIComponent(p.id)}/`;
   const points = CARDS[p.id]?.points || [];
   const sources = (p.sources || []).map(
@@ -527,7 +534,7 @@ function renderPost(p, all) {
     ogImage: `${SITE.url}/post-og/${encodeURIComponent(p.id)}.png`,
   }) + `
 <main id="main">
-  <a class="back" href="/">← सारे पोस्ट</a>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> ${hub ? `<a href="/${hub.slug}/">${esc(hub.title)}</a> <span>›</span> ` : ""}<span>${esc(catName(p.cat))}</span></nav>
   <article>
     <header>
       <div class="postmeta">
@@ -552,6 +559,7 @@ function renderPost(p, all) {
       <a class="btn" href="${esc(waShare(p.title, url))}" target="_blank" rel="noopener">WhatsApp पर भेजें</a>
       <button class="btn copy-link" type="button" data-url="${esc(url)}">Link copy करें</button><span class="copy-status" role="status" aria-live="polite"></span>
       <a class="btn" href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent(`Seedha Matlab correction: ${p.title}`)}">सुधार बताएं</a>
+      ${hub ? `<a class="btn" href="/${hub.slug}/">${esc(hub.title)} के सारे लेख</a>` : ""}
       <a class="btn" href="/">और पोस्ट पढ़ें</a>
     </div>
   </article>
@@ -718,7 +726,7 @@ const PRIVACY = {
   slug: "privacy",
   title: "निजता नीति",
   desc: "यह साइट आपसे क्या नहीं माँगती, क्या अपने आप दर्ज होता है, और कौन-सी बाहरी सेवाएँ इस्तेमाल होती हैं।",
-  body: `_आख़िरी बदलाव: 25 सितम्बर 2026_
+  body: `**आख़िरी बदलाव:** 25 सितम्बर 2026
 
 ## सबसे पहले, छोटा जवाब
 
@@ -788,6 +796,83 @@ const DISCLAIMER = {
 };
 
 const PAGES = [ABOUT, SOURCE_POLICY, HOW_TO_CHECK, CONTACT, PRIVACY, DISCLAIMER];
+
+/* ------------------------------------------------------------------ hubs */
+
+const HUBS = [
+  {
+    slug: "scam-safety",
+    title: "संदिग्ध message और साइबर स्कैम",
+    desc: "WhatsApp/SMS पर आए संदिग्ध message, link, call और APK — पहचान, जाँच और fraud के बाद का पहला कदम। हर लेख में आधिकारिक स्रोत।",
+    lead: "यहाँ वे सारे लेख एक जगह हैं जो संदिग्ध संदेश पहचानने, उसे स्रोत से जाँचने और धोखाधड़ी हो जाने पर तुरंत उठाए जाने वाले कदमों पर हैं।",
+    cats: ["scam"],
+    first: ["online-fraud-kya-kare"],
+  },
+  {
+    slug: "paise-ke-adhikar",
+    title: "आपके पैसे पर आपके अधिकार",
+    desc: "बैंक, बीमा, EPFO और उपभोक्ता नियम — नुकसान होने पर आपका हक़ क्या है, समय-सीमा क्या है और शिकायत कहाँ होती है।",
+    lead: "नियम आपके पक्ष में तब काम करते हैं जब आप उन्हें समय पर इस्तेमाल करें। इन लेखों में हर बात के साथ समय-सीमा और आधिकारिक शिकायत का रास्ता दर्ज है।",
+    cats: ["bank", "insurance", "epfo", "consumer"],
+    first: [],
+  },
+];
+
+const hubOf = (cat) => HUBS.find((h) => h.cats.includes(cat));
+
+function hubPosts(hub, posts) {
+  const inHub = posts.filter((p) => hub.cats.includes(p.cat));
+  const lead = hub.first.map((id) => inHub.find((p) => p.id === id)).filter(Boolean);
+  const rest = inHub.filter((p) => !lead.includes(p));
+  return [...lead, ...rest];
+}
+
+function renderHub(hub, posts) {
+  const list = hubPosts(hub, posts);
+  const others = HUBS.filter((h) => h.slug !== hub.slug);
+  const crumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: SITE.name, item: `${SITE.url}/` },
+      { "@type": "ListItem", position: 2, name: plain(hub.title), item: `${SITE.url}/${hub.slug}/` },
+    ],
+  };
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: plain(hub.title),
+    description: plain(hub.desc),
+    url: `${SITE.url}/${hub.slug}/`,
+    inLanguage: "hi-IN",
+  };
+
+  return head({
+    title: `${plain(hub.title)} — ${SITE.name}`,
+    desc: hub.desc,
+    canonical: `${SITE.url}/${hub.slug}/`,
+  }) + `
+<main id="main">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> <span>${esc(hub.title)}</span></nav>
+  <article>
+    <header>
+      <h1>${esc(hub.title)}</h1>
+      <p class="standfirst">${esc(hub.lead)}</p>
+    </header>
+  </article>
+  <div class="listhead">${list.length} लेख</div>
+  ${list.map(entryHTML).join("\n")}
+  <div class="hublinks">
+    <div class="listhead">दूसरे विषय</div>
+    <div class="links">
+      ${others.map((h) => `<a href="/${h.slug}/">${esc(h.title)}</a>`).join("\n      ")}
+      <a href="/faq/">सवाल-जवाब</a>
+    </div>
+  </div>
+</main>
+<script type="application/ld+json">${JSON.stringify(crumbs)}</script>
+<script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
+}
 
 /* ------------------------------------------------------------- सवाल-जवाब */
 
@@ -1009,6 +1094,7 @@ function main() {
   fs.mkdirSync(path.join(__dirname, "dist", "post-og"), { recursive: true });
   posts.forEach((p) => fs.writeFileSync(path.join(__dirname, "dist", "post-og", `${p.id}.png`), Buffer.from(ogCards[p.id], "base64")));
   PAGES.forEach((pg) => write(path.join(pg.slug, "index.html"), renderPage(pg)));
+  HUBS.forEach((h) => write(path.join(h.slug, "index.html"), renderHub(h, posts)));
   write(path.join("faq", "index.html"), renderFAQ());
 
   write("feed.xml", renderFeed(posts));
@@ -1036,6 +1122,7 @@ function main() {
     { loc: `${SITE.url}/`, lastmod },
     ...posts.map((p) => ({ loc: `${SITE.url}/p/${encodeURIComponent(p.id)}/`, lastmod: p.date })),
     { loc: `${SITE.url}/faq/`, lastmod },
+    ...HUBS.map((h) => ({ loc: `${SITE.url}/${h.slug}/`, lastmod })),
     ...PAGES.map((pg) => ({ loc: `${SITE.url}/${pg.slug}/`, lastmod })),
   ];
   write("sitemap.xml",
