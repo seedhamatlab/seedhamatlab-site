@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "posts": [
     {
       "id": "online-fraud-kya-kare",
@@ -496,7 +496,39 @@
         "मुआवज़ा"
       ],
       "summary": "RBI के Credit Information Reporting निर्देश, 2025 के मुताबिक credit report की शिकायत 30 कैलेंडर दिन में निपटनी चाहिए। न निपटे तो हर बीते दिन का ₹100 मुआवज़ा बनता है — और वह रकम निपटारे के 5 कार्यदिवस के अंदर आपके बैंक खाते में आनी चाहिए।",
-      "body": "## Situation\n\nCredit report में ऐसा loan या credit card दिख रहा है जो आपने लिया ही नहीं, या चुकाया हुआ loan अब भी **default / DPD** दिखा रहा है। इसका सीधा असर नए loan, card और कई बार किराये या नौकरी की verification पर पड़ता है।\n\nये नियम किसी एक कंपनी तक सीमित नहीं हैं — **CIBIL, Experian, Equifax और CRIF High Mark**, चारों CIC पर लागू होते हैं।\n\n## Verified verdict\n\nRBI की **Master Direction — Credit Information Reporting Directions, 2025** (6 जनवरी 2025) में साफ़ लिखा है:\n\n- **साल में एक बार** (जनवरी–दिसंबर) हर CIC से **एक मुफ़्त full credit report**, credit score समेत — यह आपका हक़ है।\n- शिकायत **30 कैलेंडर दिन** में निपटनी चाहिए। गिनती उसी दिन से शुरू होती है जिस दिन आपने CI या CIC के पास शिकायत दर्ज की।\n- न निपटे तो **₹100 प्रति कैलेंडर दिन** मुआवज़ा बनता है। यह रकम lender और CIC के बीच उनकी ज़िम्मेदारी के अनुपात में बँटती है — आपको उससे कोई मतलब नहीं।\n- मुआवज़ा **निपटारे के 5 कार्यदिवस** के अंदर आपके **बैंक खाते** में आना चाहिए।\n- CIC को **SMS/email alert** भेजना है जब कोई Specified User आपकी report देखे।\n- Lender को भी alert भेजना है जब वह आपका **default/DPD** CIC को भेजे — जहाँ आपका मोबाइल नंबर या ईमेल उपलब्ध हो।\n- मुआवज़े से **गलत इनकार** हो तो **RBI Ombudsman (RB-IOS, 2021)** के पास जाया जा सकता है। जो lender अभी इस scheme में नहीं आते, उनके लिए RBI के Regional Office का **Consumer Education and Protection Cell (CEPC)**।\n\n## अभी क्या करें\n\n- अपनी **मुफ़्त full report** लीजिए और गलत entry का screenshot या PDF संभालकर रखिए — बाद में यही सबूत है।\n- शिकायत **CIC** के पास या उस **lender** के पास दर्ज कीजिए जिसने वह data भेजा है। **दर्ज करने की तारीख़ लिखकर रखिए** — 30 दिन की गिनती वहीं से है।\n- 30 दिन बीत जाएँ तो मुआवज़े की माँग **लिखित में** कीजिए, और शिकायत संख्या साथ रखिए।\n- गलत इनकार मिले तो **RB-IOS** पर शिकायत; lender उस scheme में न हो तो RBI Regional Office का **CEPC**।\n- Alert वाले SMS/email बंद मत कीजिए। Report कब देखी गई और default कब भेजा गया — सबसे पहला पता वही देते हैं।\n\n**Source check:** RBI Master Direction — Credit Information Reporting Directions, 2025 (6 January 2025); 25 Sep 2026.",
+      "body": "## Situation\n\nCredit report में ऐसा loan या credit card दिख रहा है जो आपने लिया ही नहीं, या चुकाया हुआ loan अब भी **default / DPD** दिखा रहा है। इसका सीधा असर नए loan, card और कई बार किराये या नौकरी की verification पर पड़ता है।\n\nये नियम किसी एक कंपनी तक सीमित नहीं हैं — **CIBIL, Experian, Equifax और CRIF High Mark**, चारों CIC पर लागू होते हैं।\n\n## Verified verdict\n\nRBI की **Master Direction — Credit Information Reporting Directions, 2025** (6 जनवरी 2025) में साफ़ लिखा है:\n\n- **साल में एक बार** (जनवरी–दिसंबर) हर CIC से **एक मुफ़्त full credit report**, credit score समेत — यह आपका हक़ है।\n- शिकायत **30 कैलेंडर दिन** में निपटनी चाहिए। गिनती उसी दिन से शुरू होती है जिस दिन आपने CI या CIC के पास शिकायत दर्ज की।\n- न निपटे तो **₹100 प्रति कैलेंडर दिन** मुआवज़ा बनता है। यह रकम lender और CIC के बीच उनकी ज़िम्मेदारी के अनुपात में बँटती है — आपको उससे कोई मतलब नहीं।\n- मुआवज़ा **निपटारे के 5 कार्यदिवस** के अंदर आपके **बैंक खाते** में आना चाहिए।\n- CIC को **SMS/email alert** भेजना है जब कोई Specified User आपकी report देखे।\n- Lender को भी alert भेजना है जब वह आपका **default/DPD** CIC को भेजे — जहाँ आपका मोबाइल नंबर या ईमेल उपलब्ध हो।\n- मुआवज़े से **गलत इनकार** हो तो **RBI Ombudsman** — अब **RB-IOS, 2026** (1 जुलाई 2026 से लागू, जिसने 2021 वाली scheme की जगह ली) के पास जाया जा सकता है। जो lender अभी इस scheme में नहीं आते, उनके लिए RBI के Regional Office का **Consumer Education and Protection Cell (CEPC)**।\n\n## अभी क्या करें\n\n- अपनी **मुफ़्त full report** लीजिए और गलत entry का screenshot या PDF संभालकर रखिए — बाद में यही सबूत है।\n- शिकायत **CIC** के पास या उस **lender** के पास दर्ज कीजिए जिसने वह data भेजा है। **दर्ज करने की तारीख़ लिखकर रखिए** — 30 दिन की गिनती वहीं से है।\n- 30 दिन बीत जाएँ तो मुआवज़े की माँग **लिखित में** कीजिए, और शिकायत संख्या साथ रखिए।\n- गलत इनकार मिले तो **RB-IOS** पर शिकायत; lender उस scheme में न हो तो RBI Regional Office का **CEPC**।\n- Alert वाले SMS/email बंद मत कीजिए। Report कब देखी गई और default कब भेजा गया — सबसे पहला पता वही देते हैं।\n\n**Source check:** RBI Master Direction — Credit Information Reporting Directions, 2025 (6 January 2025); 25 Sep 2026.",
+      "sources": [
+        {
+          "label": "RBI — Credit Information Reporting Directions, 2025",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12764"
+        },
+        {
+          "label": "RBI — Integrated Ombudsman Scheme, 2026 (FAQ)",
+          "url": "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/RBIOS01072026.pdf"
+        },
+        {
+          "label": "RBI — शिकायत पोर्टल (CMS / Ombudsman)",
+          "url": "https://cms.rbi.org.in"
+        }
+      ],
+      "verified": "2026-09-26"
+    },
+    {
+      "id": "credit-report-muft-kaise",
+      "title": "अपनी पूरी credit report मुफ़्त में कैसे देखें — साल में एक बार, हर bureau से",
+      "cat": "bank",
+      "date": "2026-09-26",
+      "pinned": false,
+      "severity": "right",
+      "tags": [
+        "credit report",
+        "CIBIL",
+        "credit score",
+        "RBI",
+        "मुफ़्त"
+      ],
+      "summary": "RBI के निर्देश के मुताबिक हर credit bureau को साल में एक बार आपको आपकी पूरी credit report, score समेत, मुफ़्त देनी है — और उसका लिंक अपने homepage पर ही दिखाना है। चार bureau हैं, यानी साल में चार मुफ़्त report।",
+      "body": "## Situation\n\nLoan या credit card से पहले, या जब कोई कहे कि \"आपका CIBIL ख़राब है\" — सबसे पहला काम अपनी report ख़ुद देखना है। बहुत सी वेबसाइट और app \"free credit score\" के नाम पर PAN और OTP माँगती हैं, और उसके बाद loan बेचने वाले फ़ोन शुरू हो जाते हैं। उसकी ज़रूरत नहीं। पूरी report मुफ़्त लेना आपका नियम-आधारित हक़ है।\n\n## Verified verdict\n\nRBI की **Master Direction — Credit Information Reporting Directions, 2025** में लिखा है:\n\n- हर CIC आपको **साल में एक बार** (जनवरी–दिसंबर के बीच, कभी भी) **एक मुफ़्त full credit report — FFCR**, **credit score समेत**, electronic रूप में देगा। पहचान की पुष्टि के बाद।\n- उस report में **वही पूरा ब्योरा** होगा जो lenders को दी जाने वाली सबसे विस्तृत report में होता है। छँटी हुई या आधी report नहीं।\n- CIC को इस मुफ़्त report का लिंक **अपनी website के homepage पर ही** दिखाना है — भीतर कहीं छिपाकर नहीं।\n- भारत में चार CIC काम करते हैं। हर एक से अलग-अलग एक मुफ़्त report बनती है, यानी साल में कुल **चार**। पंजीकृत नाम ये हैं — **TransUnion CIBIL Limited**, **Experian Credit Information Company of India Pvt. Ltd.**, **Equifax Credit Information Services Pvt. Ltd.**, और **CRIF Credit Information Services Pvt. Ltd.** (पहले CRIF High Mark)।\n- जब कोई Specified User (जैसे कोई बैंक) आपकी report देखे, तो CIC को आपको **SMS/email alert** भेजना है — जहाँ आपका मोबाइल नंबर या ईमेल उसके पास दर्ज हो।\n\n## जो नियम में नहीं लिखा\n\n\"अपनी report ख़ुद देखने से score गिरता है\" — यह बात RBI के इस निर्देश में **कहीं नहीं** है। हम इसे न दावे की तरह रखेंगे, न अफ़वाह की तरह। जो लिखा है सिर्फ़ वह यह कि **FFCR माँगना आपका हक़ है**।\n\n## अभी क्या करें\n\n- चारों की अपनी website से लीजिए, किसी बिचौलिए से नहीं। हमने 26 सितंबर 2026 को ये पते ख़ुद खोलकर जाँचे हैं:\n  - **CIBIL** — [cibil.com/freecibilscore](https://www.cibil.com/freecibilscore)\n  - **Experian** — [experian.in](https://www.experian.in)\n  - **CRIF** — [crifhighmark.com](https://www.crifhighmark.com)\n  - **Equifax** — [equifax.co.in](https://www.equifax.co.in) (Equifax के अपने form में यही पता दर्ज है)\n- नियम के मुताबिक मुफ़्त report का लिंक इनके **homepage पर ही** दिखना चाहिए। न दिखे तो वह अपने आप में शिकायत की बात है।\n- पता हमेशा ख़ुद टाइप कीजिए या यहीं से खोलिए। \"free CIBIL score\" search करने पर ऊपर जो विज्ञापन आते हैं, उनमें से कई bureau के नहीं, बिचौलियों के होते हैं।\n- साल में एक बार लीजिए — **जनवरी में सबसे अच्छा**, क्योंकि तब पूरा साल बचा रहता है और कोई गड़बड़ी जल्दी पकड़ में आती है।\n- PDF **डाउनलोड करके तारीख़ के साथ संभालिए**। आगे कोई गलत entry मिले तो पुरानी report ही सबसे मज़बूत सबूत बनती है।\n- अपना **मोबाइल नंबर और email हर lender के पास अपडेट** रखिए — alert वहीं आते हैं।\n- किसी app को PAN और OTP देने से पहले एक बार सोचिए: वही चीज़ CIC से **सीधे और मुफ़्त** मिल रही है।\n\n**Source check:** RBI Master Direction — Credit Information Reporting Directions, 2025 (6 January 2025); 26 Sep 2026.",
       "sources": [
         {
           "label": "RBI — Credit Information Reporting Directions, 2025",
@@ -507,7 +539,67 @@
           "url": "https://cms.rbi.org.in"
         }
       ],
-      "verified": "2026-09-25"
+      "verified": "2026-09-26"
+    },
+    {
+      "id": "credit-report-shikayat-kahan",
+      "title": "Credit report की शिकायत किसके पास करें — bank, bureau या RBI? सही क्रम यह है",
+      "cat": "bank",
+      "date": "2026-09-26",
+      "pinned": false,
+      "severity": "right",
+      "tags": [
+        "credit report",
+        "शिकायत",
+        "RBI Ombudsman",
+        "CIBIL",
+        "मुआवज़ा"
+      ],
+      "summary": "शिकायत bank के पास भी हो सकती है और bureau के पास भी — bank को 21 दिन, bureau को 30 दिन। 30 दिन से ऊपर गया तो ₹100 रोज़। RBI Ombudsman तक तभी, जब पहले उसी संस्था से शिकायत हो चुकी हो।",
+      "body": "## Situation\n\nReport में गलत entry दिख गई। अब सवाल यह है कि शिकायत **उस bank/NBFC** से करें जिसने वह data भेजा, या **bureau (CIC)** से, और RBI तक कब जाएँ। ग़लत दरवाज़ा खटखटाने में सिर्फ़ समय जाता है — और मुआवज़े की 30 दिन वाली घड़ी पहली शिकायत के दिन से ही चलती है।\n\n## Verified verdict\n\n**पहला कदम — bank या bureau, दोनों में से कोई भी**\n\n- शिकायत **CI (bank/NBFC)** के पास दर्ज हो या **CIC (bureau)** के पास — दोनों रास्ते खुले हैं।\n- **CI को 21 कैलेंडर दिन** में निपटाना है।\n- **CIC को 30 कैलेंडर दिन** में।\n- गड़बड़ी एक से ज़्यादा lender की हो, तो जिस CIC के पास आपने शिकायत की, **वही सब से समन्वय करके एक पूरा जवाब** देगा। आपको अलग-अलग जगह भागना नहीं है।\n- शिकायत ठुकराई जाए तो भी आपको **कार्रवाई की सूचना देना अनिवार्य** है, और **इनकार का कारण भी बताना** है।\n\n**मुआवज़ा**\n\n- पहली शिकायत दर्ज करने के दिन से **30 कैलेंडर दिन** में निपटारा न हो, तो **₹100 प्रति कैलेंडर दिन**।\n- शिकायत में अपना **bank account या UPI ID ज़रूर दीजिए** — मुआवज़ा वहीं आएगा, और सही ब्योरा देना आपकी ज़िम्मेदारी है।\n- रकम **निपटारे के 5 कार्यदिवस** के अंदर खाते में आनी चाहिए।\n- lender और CIC के बीच वह रकम उनकी ज़िम्मेदारी के अनुपात में बँटती है — **आपको उससे कोई मतलब नहीं**।\n\n**दूसरा कदम — RBI Ombudsman**\n\nअब **Reserve Bank – Integrated Ombudsman Scheme, 2026 (RB-IOS, 2026)** लागू है — **1 जुलाई 2026** से, जिसने 2021 वाली scheme की जगह ली। शर्तें:\n\n- पहले **उसी संस्था** (bank/NBFC या CIC) के पास शिकायत होनी चाहिए। सीधे Ombudsman नहीं।\n- **30 दिन** तक जवाब न आए, **या** जवाब आए पर संतोषजनक न हो — तब Ombudsman के पास जा सकते हैं।\n- उसके बाद **90 दिन** के अंदर शिकायत करनी होगी।\n- **कोई फ़ीस नहीं** — न शिकायत की, न निपटारे की।\n\n## अभी क्या करें\n\n- गलत entry का **screenshot या PDF** पहले सुरक्षित कर लीजिए।\n- शिकायत दर्ज कीजिए और **दर्ज करने की तारीख़ तथा शिकायत संख्या लिखकर रखिए** — 30 दिन की गिनती वहीं से है।\n- 30 दिन बीत जाएँ तो मुआवज़े की माँग **लिखित में** कीजिए, शिकायत संख्या के साथ।\n- जवाब न मिले या संतोषजनक न हो, तो **[cms.rbi.org.in](https://cms.rbi.org.in)** पर शिकायत — या ईमेल **crpc@rbi.org.in**, या डाक से: Centralised Receipt and Processing Centre, Reserve Bank of India, Central Vista, Sector 17, Chandigarh – 160017.\n- ध्यान रहे: 30 दिन पूरे होने या संस्था के आख़िरी जवाब के बाद **90 दिन की सीमा** है। उसे निकलने मत दीजिए।\n\n**Source check:** RBI Master Direction — Credit Information Reporting Directions, 2025; RBI — Integrated Ombudsman Scheme, 2026 (1 जुलाई 2026 से लागू); 26 Sep 2026.",
+      "sources": [
+        {
+          "label": "RBI — Credit Information Reporting Directions, 2025",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12764"
+        },
+        {
+          "label": "RBI — Integrated Ombudsman Scheme, 2026 (FAQ)",
+          "url": "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/RBIOS01072026.pdf"
+        },
+        {
+          "label": "RBI — शिकायत पोर्टल (CMS / Ombudsman)",
+          "url": "https://cms.rbi.org.in"
+        }
+      ],
+      "verified": "2026-09-26"
+    },
+    {
+      "id": "credit-report-kab-update",
+      "title": "Loan चुका दिया, report में कब दिखेगा? bank हर पखवाड़े data भेजते हैं",
+      "cat": "bank",
+      "date": "2026-09-26",
+      "pinned": false,
+      "severity": "info",
+      "tags": [
+        "credit report",
+        "CIBIL",
+        "update",
+        "RBI",
+        "DPD"
+      ],
+      "summary": "बैंक हर पखवाड़े — 15 तारीख़ और महीने के आख़िरी दिन — bureau को data भेजते हैं, और भेजने के लिए 7 दिन और मिलते हैं। इसीलिए चुकाया हुआ loan report में उसी दिन नहीं दिखता।",
+      "body": "## Situation\n\nLoan या credit card का बकाया चुका दिया, पर report में अब भी पुराना ही दिख रहा है। लोग घबराकर मान लेते हैं कि bank ने जानबूझकर नहीं बताया। ज़्यादातर मामलों में वजह सिर्फ़ **समय** होती है — और वह समय नियम में तय है।\n\n## Verified verdict\n\nRBI की **Master Direction — Credit Information Reporting Directions, 2025** में लिखा है:\n\n- bank/NBFC और bureau, दोनों को credit information **हर पखवाड़े अपडेट** रखनी है — यानी **महीने की 15 तारीख़** की स्थिति और **महीने के आख़िरी दिन** की स्थिति। (आपस में तय हो तो इससे जल्दी भी।)\n- उस पखवाड़े का data bureau तक भेजने के लिए bank को **7 कैलेंडर दिन** और मिलते हैं।\n\n**इसका सीधा मतलब:** अगर आपने 16 तारीख़ को भुगतान किया, तो वह महीने के आख़िरी दिन वाले पखवाड़े में गिना जाएगा, और bank को उसे भेजने के लिए 7 दिन और हैं। यानी **करीब तीन हफ़्ते तक report में पुरानी स्थिति दिखना सामान्य है**। इसमें कुछ ग़लत नहीं हो रहा।\n\n- साथ ही, जब bank आपका **default या DPD (days past due)** bureau को भेजे, तो उसे आपको **SMS/email alert** भेजना है — जहाँ आपका नंबर या ईमेल उसके पास हो।\n\n## जो नियम में नहीं लिखा\n\n\"data पहुँचने के बाद score कितने दिन में बदलेगा\" — यह RBI के निर्देश में तय नहीं है, यह हर bureau की अपनी गणना है। इसलिए हम कोई दिन नहीं गिनाएँगे। नियम सिर्फ़ यह तय करता है कि **data कब तक पहुँचना चाहिए**।\n\n## अभी क्या करें\n\n- भुगतान के बाद **तीन हफ़्ते तक इंतज़ार** कीजिए। उससे पहले शिकायत करने का कोई फ़ायदा नहीं।\n- भुगतान की **रसीद और closure/NOC letter** संभालकर रखिए। बाद में यही काम आता है।\n- तीन हफ़्ते बाद भी पुराना दिखे — **तब वह शिकायत का मामला है**, और तब 30 दिन तथा ₹100 रोज़ वाला नियम लागू होता है।\n- alert वाले SMS/email **बंद मत कीजिए**। आपका default bureau को कब भेजा गया, सबसे पहला पता वही देते हैं।\n\n**Source check:** RBI Master Direction — Credit Information Reporting Directions, 2025 (6 January 2025); 26 Sep 2026.",
+      "sources": [
+        {
+          "label": "RBI — Credit Information Reporting Directions, 2025",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12764"
+        },
+        {
+          "label": "RBI — शिकायत पोर्टल (CMS / Ombudsman)",
+          "url": "https://cms.rbi.org.in"
+        }
+      ],
+      "verified": "2026-09-26"
     }
   ]
 }
