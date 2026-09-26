@@ -109,6 +109,9 @@ const CSS = `
   --paper:#EDEFE9;--surface:#FBFBF7;--ink:#15202B;--ink-2:#4B5762;--ink-3:#77828B;
   --line:#D4D8CE;--line-soft:#E2E5DC;--stamp:#A62D1F;--verify:#0E5E57;
   --c-scam:#A62D1F;--c-bank:#1F4FA6;--c-consumer:#8A5514;--c-insurance:#5B3E8C;--c-epfo:#0E5E57;
+  --accent:#0E5E57;--accent-soft:#E7F1EF;
+  --band:#0E1116;--band-2:#171D25;--on-dark:#F4F5F2;--on-dark-2:#98A3AE;
+  --gold:#E9B949;--gold-ink:#1A1205;
   --shadow:0 1px 0 rgba(21,32,43,.05);
   --serif:"Tiro Devanagari Hindi",Georgia,"Noto Serif Devanagari",serif;
   --sans:"Mukta","Noto Sans Devanagari",system-ui,-apple-system,sans-serif;
@@ -119,7 +122,7 @@ const CSS = `
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
-body{background:linear-gradient(150deg,#fff8e8 0,#edf8f7 48%,#f5f1fc 100%) fixed;color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.72;margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.72;margin:0}
 .wrap{max-width:920px;margin:0 auto;padding-inline:18px;padding-block:0 48px}
 a{color:inherit}
 button{font:inherit;color:inherit}
@@ -127,65 +130,81 @@ button{font:inherit;color:inherit}
 .skip{position:absolute;left:-9999px}
 .skip:focus{left:18px;top:8px;background:var(--surface);border:1px solid var(--line);padding:6px 10px;border-radius:3px;z-index:10}
 
-.masthead{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding-block:26px 14px}
+/* ---- dark top band: masthead + hero ---- */
+.topband{background:var(--band);color:var(--on-dark)}
+.topband .wrap{padding-block:0}
+.topband .eyebrow{color:#76828D}
+.topband .wordmark{color:var(--on-dark)}
+.masthead{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:17px 14px}
 .header-actions{display:flex;align-items:center;gap:10px}
-.contact-top{font-size:13px;color:#195eae;font-weight:700;text-decoration:none}
-.menu-toggle{border:1px solid #bacbdc;background:#fff;border-radius:10px;padding:7px 11px;cursor:pointer;color:#195eae;font-size:19px;line-height:1.1}
-.menu-toggle span{font-size:12px;vertical-align:middle;margin-left:3px}
-.site-menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;background:#edf6ff;border:1px solid #c9ddeb;border-radius:12px;padding:12px;margin:0 0 14px}
-.site-menu a{display:block;background:#fff;border-radius:8px;padding:9px 12px;text-decoration:none;color:#174a82;font-weight:600}
-.site-menu a:hover,.site-menu a:focus-visible{background:#dcecff}
-.brand-en{display:block;color:#195eae;font:700 12px var(--sans);letter-spacing:.06em;margin-top:3px}
-.landing{padding:22px 0 26px}
-.landing-label{color:#0e5e57;font-size:12px;letter-spacing:.1em;font-weight:700}
-.landing h2{font-size:clamp(23px,5vw,38px);line-height:1.32;margin:5px 0 14px;max-width:24ch}
-.landing-links{display:flex;flex-wrap:wrap;gap:9px;margin:15px 0 0}
-.landing-links a{background:#195eae;color:white;border-radius:9px;padding:9px 14px;text-decoration:none;font-weight:600;font-size:14px}
-.landing-links a:nth-child(2){background:#e4f3f2;color:#0e5e57}
-.quickpaths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:15px 0 20px}
-.quickpaths a{display:block;padding:16px;border:1px solid #c8d9e7;background:#fff;border-radius:12px;text-decoration:none;color:#174a82;line-height:1.5}
-.quickpaths strong{display:block;font-size:16px}
-.quickpaths span{display:block;color:var(--ink-2);font-size:13px;margin-top:5px}
-.quickpaths a:hover{border-color:#195eae;background:#eff7ff}
-.quickpaths a:nth-child(2){border-color:#e7c5be;background:#fff8f4}
-.quickpaths a:nth-child(2) strong{color:#983e2c}
+.contact-top{font-size:13px;color:var(--gold);font-weight:600;text-decoration:none}
+.menu-toggle{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.06);border-radius:999px;padding:8px 14px;cursor:pointer;color:var(--on-dark);font-size:17px;line-height:1.1}
+.menu-toggle:hover{background:rgba(255,255,255,.13)}
+.menu-toggle span{font-size:12px;vertical-align:middle;margin-left:4px}
+.site-menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:12px;margin:0 0 16px}
+.site-menu a{display:block;background:rgba(255,255,255,.06);border-radius:11px;padding:10px 13px;text-decoration:none;color:var(--on-dark);font-weight:600;font-size:14.5px}
+.site-menu a:hover,.site-menu a:focus-visible{background:rgba(255,255,255,.15)}
+.bandpad{padding-bottom:18px}
+/* ---- hero ---- */
+.landing{padding:14px 0 44px}
+.landing-label{display:block;color:var(--on-dark-2);font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:500}
+.landing h2{font-family:var(--sans);font-size:clamp(33px,8.7vw,60px);line-height:1.09;margin:16px 0 20px;max-width:15ch;letter-spacing:-.032em;font-weight:800;text-wrap:balance}
+.landing h2 .l2{display:block;color:var(--on-dark-2)}
+.landing h2 .l3{display:block;color:var(--gold)}
+.landing p{color:var(--on-dark-2);font-size:16.5px;line-height:1.68;max-width:58ch;margin:0 0 24px}
+.herosearch{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);border-radius:999px;padding:7px 8px 7px 19px;max-width:580px}
+.herosearch:focus-within{border-color:rgba(233,185,73,.6)}
+.herosearch svg{flex:none;opacity:.5}
+.herosearch input{flex:1;min-width:0;border:0;background:transparent;color:var(--on-dark);font:inherit;font-size:15.5px;outline:none;padding:0}
+.herosearch input::placeholder{color:#76828D}
+.herosearch .go{flex:none;background:var(--gold);color:var(--gold-ink);border:0;border-radius:999px;padding:11px 22px;font-weight:700;font-size:14.5px;cursor:pointer;font-family:var(--sans)}
+.herosearch .go:hover{filter:brightness(1.07)}
+.popular{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:16px}
+.popular .plabel{font-size:12.5px;color:var(--on-dark-2);font-family:var(--mono);letter-spacing:.06em}
+.popular a{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:6px 14px;text-decoration:none;color:var(--on-dark);font-size:13.5px}
+.popular a:hover{background:rgba(255,255,255,.15)}
+.quickpaths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:26px 0 30px}
+.quickpaths a{display:block;padding:20px;border:1px solid var(--line-soft);background:var(--surface);border-radius:18px;text-decoration:none;color:var(--ink);line-height:1.5;transition:border-color .15s,transform .15s}
+.quickpaths strong{display:block;font-size:16.5px;font-weight:700;letter-spacing:-.01em}
+.quickpaths span{display:block;color:var(--ink-2);font-size:13px;margin-top:6px}
+.quickpaths a:hover{border-color:var(--accent);transform:translateY(-2px)}
 @media(max-width:610px){.quickpaths{grid-template-columns:1fr}.quickpaths a{padding:12px 15px}}
-.answerbox{margin:18px 0;padding:17px 20px;border-left:4px solid #195eae;background:#eef6ff;border-radius:0 12px 12px 0}
-.answerbox h2{margin:0 0 5px;font-size:16px;color:#174a82}
+.answerbox{margin:18px 0;padding:18px 20px;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 14px 14px 0}
+.answerbox h2{margin:0 0 5px;font-size:16px;color:var(--accent)}
 .answerbox p{margin:0 0 9px;font-size:15px;line-height:1.55}
 .answerbox ul{margin:0;padding-left:20px;font-size:15px}
 .answerbox li{margin-bottom:3px}
 .copy-status{font-size:13px;color:#0e5e57;align-self:center}
-.articles-title{font-size:24px;line-height:1.35;margin:20px 0 5px}
-@media(max-width:550px){.masthead{align-items:center}.contact-top{display:none}.stamp{display:none}.wordmark{font-size:29px}.mark{width:44px;height:44px}}
+.sectionlabel{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin:40px 0 9px}
+.articles-title{font-family:var(--sans);font-weight:800;font-size:clamp(25px,5.6vw,36px);line-height:1.18;margin:0 0 8px;letter-spacing:-.025em}
+@media(max-width:550px){.masthead{align-items:center}.contact-top{display:none}.stamp{display:none}.wordmark{font-size:27px}.mark{width:40px;height:40px}}
 .brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit}
-.mark{flex:none;width:48px;height:48px;border-radius:50%;display:block}
+.mark{flex:none;width:40px;height:40px;border-radius:50%;display:block}
 .hero{margin:6px 0 4px;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:#1767bf}
 .hero img{display:block;width:100%;height:auto}
-.promise{display:block;padding:26px 24px;margin:8px 0 6px;border:1px solid #b5ded9;border-radius:16px;background:linear-gradient(115deg,#d9f5ed,#eef9e4 62%,#fff1d8);box-shadow:0 12px 34px rgba(14,94,87,.08);font-family:var(--sans);font-weight:700;font-size:clamp(20px,4.4vw,30px);line-height:1.48;text-decoration:none}
-.promise:before{content:"SEEDHA MATLAB  /  VERIFIED HELP";display:block;color:#0e5e57;font:700 11px var(--sans);letter-spacing:.13em;margin-bottom:12px}
-.promise .promise-more{display:block;margin-top:14px;font-size:14px;font-weight:600;color:#0e5e57}
-.promise:hover{border-color:#0e5e57}
-.visual{position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;min-height:170px;padding:17px 18px;border-radius:13px;background:linear-gradient(135deg,#185ab6 0%,#247ace 67%,#2d9ec5 100%);color:#fff;isolation:isolate}
-.visual:after{content:"";position:absolute;right:-45px;top:-55px;width:190px;height:190px;border-radius:50%;border:24px solid rgba(255,255,255,.09);z-index:-1}
-.visual[data-cat="bank"]{background:linear-gradient(135deg,#2150b6,#5789e4)}
-.visual[data-cat="insurance"]{background:linear-gradient(135deg,#365cbd,#827bd8)}
-.visual[data-cat="consumer"]{background:linear-gradient(135deg,#205fae,#468cce)}
-.visual[data-cat="epfo"]{background:linear-gradient(135deg,#1d67ad,#3297b4)}
-.visual .v-top{display:flex;align-items:center;justify-content:space-between;font-size:10px;font-weight:700;letter-spacing:.13em}
-.visual .v-icon{display:grid;place-items:center;width:32px;height:32px;border:1px solid rgba(255,255,255,.55);border-radius:50%;font-size:20px;line-height:1}
-.visual strong{display:block;font-size:clamp(17px,3vw,26px);line-height:1.3;max-width:30ch}
-.visual ul{display:flex;gap:6px;flex-wrap:wrap;padding:0;margin:9px 0 0;list-style:none}
-.visual li{padding:4px 8px;border-radius:6px;background:rgba(255,255,255,.16);font-size:12px;line-height:1.4}
-.visual small{display:block;margin-top:9px;opacity:.83;font-size:10px}
+.promise{display:block;padding:24px;margin:0 0 12px;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:16px;background:var(--surface);font-family:var(--sans);font-weight:700;font-size:clamp(20px,4.4vw,30px);line-height:1.48;text-decoration:none}
+.promise:before{content:"SEEDHA MATLAB  /  VERIFIED HELP";display:block;color:var(--ink-3);font:500 11px var(--mono);letter-spacing:.14em;margin-bottom:12px}
+.promise .promise-more{display:block;margin-top:14px;font-size:14px;font-weight:600;color:var(--accent)}
+.promise:hover{border-color:var(--accent)}
+.visual{position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;min-height:170px;padding:18px 20px;border-radius:15px;background:linear-gradient(152deg,#0E1116 0%,#13262A 58%,#124038 100%);color:var(--on-dark);isolation:isolate}
+.visual:after{content:"";position:absolute;right:-45px;top:-55px;width:190px;height:190px;border-radius:50%;border:24px solid rgba(255,255,255,.055);z-index:-1}
+.visual[data-sev="alert"]{background:linear-gradient(152deg,#140E0D 0%,#2B1512 56%,#4A1C14 100%)}
+.visual .v-top{display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.16em;color:var(--gold)}
+.visual[data-sev="alert"] .v-top{color:#F0A08C}
+.visual .v-icon{display:grid;place-items:center;width:32px;height:32px;border:1px solid currentColor;border-radius:50%;font-size:18px;line-height:1;opacity:.85}
+.visual strong{display:block;font-family:var(--sans);font-weight:700;font-size:clamp(18px,3vw,27px);line-height:1.25;letter-spacing:-.02em;max-width:30ch}
+.visual ul{display:flex;gap:6px;flex-wrap:wrap;padding:0;margin:11px 0 0;list-style:none}
+.visual li{padding:5px 10px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.1);font-size:12px;line-height:1.4}
+.visual small{display:block;margin-top:11px;color:var(--on-dark-2);font-family:var(--mono);font-size:10px}
 .entry .visual{min-height:150px;margin-bottom:13px}
 .entry:not(.pinned){grid-template-columns:54px minmax(0,1fr)}
 .entry:not(.pinned) .visual{grid-column:1/-1}
 .visual-feature{margin:20px 0 22px;min-height:230px;padding:22px 24px}
 .visual-feature strong{font-size:clamp(23px,4vw,33px)}
 .visual-feature li{font-size:14px}
-.asklink{display:flex;align-items:center;gap:9px;margin:16px 0 0;padding:13px 15px;border:1px solid var(--line);border-left:3px solid var(--accent,#2ec4b6);border-radius:4px;background:var(--surface);text-decoration:none;color:var(--ink);font-size:14.5px;line-height:1.55}
-.asklink b{font-weight:600}
+.asklink{display:block;margin:16px 0 0;padding:15px 18px;border:1px solid var(--line-soft);border-left:3px solid var(--accent);border-radius:0 14px 14px 0;background:var(--surface);text-decoration:none;color:var(--ink);font-size:14.5px;line-height:1.6}
+.asklink b{font-weight:700}
+.asklink:hover{border-color:var(--accent)}
 .crumbs{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin:0 0 14px;display:flex;gap:7px;flex-wrap:wrap;align-items:baseline}
 .crumbs a{color:var(--ink-2);text-decoration:none}
 .crumbs a:hover{text-decoration:underline;text-underline-offset:3px}
@@ -200,7 +219,7 @@ button{font:inherit;color:inherit}
 .verline{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:14px;padding-top:10px;border-top:1px solid var(--line-soft);line-height:1.7}
 .brand{text-decoration:none;display:block}
 .eyebrow{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
-.wordmark{font-family:var(--serif);font-size:clamp(30px,8.5vw,42px);line-height:1.08;letter-spacing:-.01em;margin:0;font-weight:400}
+.wordmark{font-family:var(--serif);font-size:clamp(26px,6.4vw,34px);line-height:1.08;letter-spacing:-.01em;margin:0;font-weight:400}
 .stamp{flex:none;transform:rotate(-7deg);border:1.5px solid var(--stamp);color:var(--stamp);border-radius:3px;padding:5px 9px 4px;text-align:center;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;line-height:1.5;opacity:.9;margin-top:6px}
 .stamp b{display:block;font-size:11px;letter-spacing:.06em;font-weight:500}
 .rule{border:0;border-top:2px solid var(--ink);margin:0}
@@ -216,10 +235,11 @@ button{font:inherit;color:inherit}
 .cats::-webkit-scrollbar{display:none}
 .chip{flex:none;background:transparent;border:1px solid var(--line);border-radius:999px;padding:4px 12px 5px;font-size:13.5px;cursor:pointer;color:var(--ink-2);white-space:nowrap;transition:background .15s,border-color .15s,color .15s}
 .chip:hover{border-color:var(--ink-3)}
-.chip[aria-pressed="true"]{background:#195eae;border-color:#195eae;color:#fff}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
 
 .listhead{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);padding-block:14px 6px;border-top:1px solid var(--line)}
-.entry{display:grid;grid-template-columns:54px 1fr;gap:0 14px;padding:18px;background:var(--surface);border:1px solid var(--line-soft);border-radius:16px;text-decoration:none;margin:0 0 14px;box-shadow:0 8px 22px rgba(21,32,43,.045)}
+.entry{display:grid;grid-template-columns:54px 1fr;gap:0 14px;padding:18px;background:var(--surface);border:1px solid var(--line-soft);border-radius:20px;text-decoration:none;margin:0 0 14px;box-shadow:0 10px 26px rgba(21,32,43,.05);transition:transform .15s,box-shadow .15s}
+.entry:hover{transform:translateY(-2px);box-shadow:0 16px 34px rgba(21,32,43,.09)}
 .entry:first-of-type{border-top:0}
 .meta{font-family:var(--mono);font-size:11px;color:var(--ink-3);padding-top:6px;line-height:1.5}
 .meta .cdot{display:block;width:7px;height:7px;border-radius:50%;margin-bottom:6px;background:var(--ink-3)}
@@ -227,7 +247,7 @@ button{font:inherit;color:inherit}
 .entry:hover h2{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
 .entry p{margin:0;color:var(--ink-2);font-size:14.5px;line-height:1.62}
 .catname{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase}
-.entry.pinned{grid-template-columns:1fr;border:1px solid #e7bcb4;border-radius:16px;padding:18px;margin-bottom:16px}
+.entry.pinned{grid-template-columns:1fr;border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:16px}
 .alertlabel{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--stamp);margin-bottom:5px;display:block}
 .empty{padding:34px 0;color:var(--ink-3);font-size:15px;border-top:1px solid var(--line-soft)}
 
@@ -256,23 +276,25 @@ article h1{font-family:var(--serif);font-weight:400;font-size:clamp(25px,6.4vw,3
 .btn:hover{border-color:var(--ink-3)}
 .more{margin-top:34px;border-top:1px solid var(--line);padding-top:6px}
 
-footer{margin-top:44px;border-top:2px solid var(--ink);padding-top:20px}
-.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:22px}
-footer h4{font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin:0 0 7px;font-weight:500}
-footer p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.62}
-.links{display:flex;flex-direction:column;gap:5px}
-.links a{font-size:14px;color:var(--ink);text-decoration:none;display:flex;gap:8px;align-items:baseline}
+.footband{background:var(--band);color:var(--on-dark);margin-top:52px}
+.footband .wrap{padding-block:0 40px}
+footer{padding-top:38px}
+.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:26px}
+footer h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:0 0 9px;font-weight:500}
+footer p{margin:0;font-size:14px;color:var(--on-dark-2);line-height:1.66}
+.links{display:flex;flex-direction:column;gap:6px}
+.links a{font-size:14px;color:var(--on-dark);text-decoration:none;display:flex;gap:8px;align-items:baseline}
 .links a:hover{text-decoration:underline;text-underline-offset:3px}
-.links .handle{font-family:var(--mono);font-size:12px;color:var(--ink-3)}
-.fine{margin-top:24px;padding-top:14px;border-top:1px solid var(--line-soft);font-size:12.5px;color:var(--ink-3)}
-.copyright{display:flex;align-items:center;gap:9px;margin-top:17px;color:var(--ink-2);font-size:12px}
+.links .handle{font-family:var(--mono);font-size:12px;color:var(--on-dark-2)}
+.fine{margin-top:28px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12);font-size:12.5px;color:var(--on-dark-2)}
+.copyright{display:flex;align-items:center;gap:9px;margin-top:17px;color:var(--on-dark-2);font-size:12px}
 .copyright img{border-radius:50%;width:27px;height:27px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 `;
 
 /* ---------------------------------------------------------------- chrome */
 
-function head({ title, desc, canonical, type = "website", published, home = false, ogImage = `${SITE.url}/og.png` }) {
+function head({ title, desc, canonical, type = "website", published, home = false, hero = "", ogImage = `${SITE.url}/og.png` }) {
   const t = esc(title);
   const d = esc(plain(desc));
   return `<!doctype html>
@@ -297,24 +319,24 @@ function head({ title, desc, canonical, type = "website", published, home = fals
 ${published ? `<meta property="article:published_time" content="${esc(published)}">` : ""}
 <link rel="icon" href="/icons/sm-192.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
-<meta name="theme-color" content="#15202B">
+<meta name="theme-color" content="#0E1116">
 <link rel="apple-touch-icon" href="/icons/sm-192.png">
 <link rel="alternate" type="application/rss+xml" title="${esc(SITE.name)}" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&family=Mukta:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&family=Mukta:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>${CSS}</style>
 </head>
 <body>
 <a class="skip" href="#main">मुख्य सामग्री पर जाएँ</a>
-<div class="wrap">
+<div class="topband">
+<div class="wrap${hero ? "" : " bandpad"}">
 <header class="masthead">
   <a class="brand" href="/">
     <img class="mark" src="/brand-logo.png" alt="" width="48" height="48">
     <span>
       <span class="eyebrow">${esc(SITE.eyebrow)}</span>
       ${home ? `<h1 class="wordmark">${esc(SITE.name)}</h1>` : `<p class="wordmark">${esc(SITE.name)}</p>`}
-      <span class="brand-en">SEEDHA MATLAB</span>
     </span>
   </a>
   <div class="header-actions"><a class="contact-top" href="mailto:${esc(SITE.email)}">Contact</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Menu खोलें">☰ <span>Menu</span></button></div>
@@ -322,13 +344,10 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
 <nav id="site-menu" class="site-menu" aria-label="मुख्य menu" hidden>
   <a href="/">Home</a><a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/about/">About</a><a href="/#contact">Contact</a>
 </nav>
-<hr class="rule">
-<hr class="rule-thin">
-<div class="kicker">
-  <span>संदिग्ध मैसेज · लिंक · कॉल · ऑफ़र</span>
-  <span class="dot">—</span>
-  <span>हर बात का स्रोत नीचे दर्ज</span>
+${hero}
 </div>
+</div>
+<div class="wrap">
 `;
 }
 
@@ -340,6 +359,9 @@ function foot() {
     ? `<a href="${esc(SITE.instagram)}" target="_blank" rel="noopener">Instagram <span class="handle">@seedhamatlab</span></a>`
     : "";
   return `
+</div>
+<div class="footband">
+<div class="wrap">
 <footer id="contact">
   <div class="fgrid">
     <div>
@@ -382,6 +404,7 @@ function foot() {
   <div class="copyright"><img src="/brand-logo.png" alt="Seedha Matlab logo" width="27" height="27"><span>© ${new Date().getFullYear()} Seedha Matlab · स्वतंत्र जन-जागरूकता सामग्री</span></div>
 </footer>
 </div>
+</div>
 <script>(function(){var b=document.querySelector('.menu-toggle'),m=document.getElementById('site-menu');b.addEventListener('click',function(){var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));b.setAttribute('aria-label',open?'Menu खोलें':'Menu बंद करें');m.hidden=open;});})();</script>
 ${SITE.cfAnalytics ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${esc(SITE.cfAnalytics)}"}'></script>` : ""}
 </body>
@@ -393,7 +416,7 @@ ${SITE.cfAnalytics ? `<script defer src="https://static.cloudflareinsights.com/b
 function infoVisual(p, feature = false) {
   const c = CARDS[p.id];
   if (!c) return "";
-  return `<div class="visual${feature ? " visual-feature" : ""}" data-cat="${esc(p.cat)}" role="img" aria-label="${esc(`${c.headline}: ${c.points.join(', ')}`)}">
+  return `<div class="visual${feature ? " visual-feature" : ""}" data-cat="${esc(p.cat)}" data-sev="${esc(p.severity || "info")}" role="img" aria-label="${esc(`${c.headline}: ${c.points.join(', ')}`)}">
     <div class="v-top"><span>${esc(c.label)}</span><span class="v-icon" aria-hidden="true">${esc(c.icon)}</span></div>
     <div><strong>${esc(c.headline)}</strong><ul>${c.points.map((point) => `<li>${esc(point)}</li>`).join("")}</ul></div>
     <small>Seedha Matlab · ${esc((p.sources || [])[0]?.label.split(" — ")[0] || "Official source")} · checked ${esc(p.verified || p.date)}</small>
@@ -440,6 +463,13 @@ const LIST_JS = `
     head.textContent=(term||cat!=='all')?('खोज परिणाम — '+shown):'ताज़ा पोस्ट';
   }
   q.addEventListener('input',apply);
+  function jump(){var t=document.getElementById('articles');if(t)t.scrollIntoView({behavior:'smooth',block:'start'});}
+  var go=document.getElementById('gosearch');
+  if(go) go.addEventListener('click',function(){apply();jump();});
+  q.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();apply();jump();}});
+  [].slice.call(document.querySelectorAll('.popular a[data-q]')).forEach(function(a){
+    a.addEventListener('click',function(e){e.preventDefault();q.value=a.getAttribute('data-q');apply();jump();});
+  });
   chips.forEach(function(b){
     b.addEventListener('click',function(){
       cat=b.getAttribute('data-cat');
@@ -465,19 +495,34 @@ function renderIndex(posts) {
     inLanguage: "hi-IN",
   };
 
+  const hero = `
+  <section class="landing" aria-label="Seedha Matlab introduction">
+    <span class="landing-label">स्रोत के साथ · VERIFIED HELP</span>
+    <h2>पहले जाँचिए।<span class="l2">फिर कदम उठाइए।</span><span class="l3">पैसा बच जाएगा।</span></h2>
+    <p>संदिग्ध message, बैंक में कटा पैसा, बीमा या EPFO का अटका हक़ — हर जवाब के नीचे सरकारी स्रोत का लिंक, ताकि आप ख़ुद जाँच सकें।</p>
+    <div class="herosearch">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <label for="q" class="skip">खोजें</label>
+      <input id="q" type="search" placeholder="जैसे OTP, फ़र्ज़ी लिंक, CIBIL" autocomplete="off">
+      <button class="go" type="button" id="gosearch">खोजें</button>
+    </div>
+    <div class="popular">
+      <span class="plabel">अक्सर पूछा जाता है:</span>
+      <a href="#articles" data-q="CIBIL">CIBIL रिपोर्ट</a>
+      <a href="#articles" data-q="OTP">OTP</a>
+      <a href="#articles" data-q="डिजिटल अरेस्ट">डिजिटल अरेस्ट</a>
+      <a href="#articles" data-q="EPFO">EPFO</a>
+    </div>
+  </section>`;
+
   return head({
     title: `${SITE.name} — ${SITE.nameEn}`,
     desc: SITE.tagline,
     canonical: SITE.url + "/",
     home: true,
+    hero,
   }) + `
 <main id="main">
-  <section class="landing" aria-label="Seedha Matlab introduction">
-    <span class="landing-label">VERIFIED HELP · सीधी बात</span>
-    <h2>संदिग्ध message आया? पहले जाँचें, फिर action लें।</h2>
-    <p>Scam alert, official source और अगला सही कदम—एक जगह, आसान Hindi + English में।</p>
-    <div class="landing-links"><a href="/how-to-check/">Message कैसे verify करें →</a><a href="#articles">Latest articles देखें ↓</a></div>
-  </section>
   <nav class="quickpaths" aria-label="कहाँ से शुरू करें">
     <a href="/how-to-check/"><strong>संदिग्ध message मिला?</strong><span>Link, call या offer को check करने का तरीका</span></a>
     <a href="/p/online-fraud-kya-kare/"><strong>पैसा कट गया?</strong><span>Bank और cyber fraud reporting के अगले कदम</span></a>
@@ -485,13 +530,9 @@ function renderIndex(posts) {
   </nav>
   <a class="promise" href="/how-to-check/">${esc(SITE.tagline)}<span class="promise-more">कैसे verify करें? Step-by-step guide खोलें →</span></a>
   <a class="asklink" href="/faq/"><b>कोई सवाल है?</b> — सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब यहाँ देखिए →</a>
-  <h2 class="articles-title" id="articles">Latest articles / नए लेख</h2>
+  <span class="sectionlabel" id="articles">हर लेख के नीचे सरकारी स्रोत</span>
+  <h2 class="articles-title">इस समय लोग यही पूछ रहे हैं</h2>
   <div class="controls">
-    <div class="search">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-      <label for="q" class="skip">खोजें</label>
-      <input id="q" type="search" placeholder="खोजें — जैसे OTP, फर्ज़ी लिंक, कॉल" autocomplete="off">
-    </div>
     <div class="cats">${chips}</div>
   </div>
   <div class="listhead" id="listhead">ताज़ा पोस्ट</div>
