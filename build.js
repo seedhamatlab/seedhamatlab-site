@@ -109,6 +109,7 @@ const CSS = `
   --paper:#EDEFE9;--surface:#FBFBF7;--ink:#15202B;--ink-2:#4B5762;--ink-3:#77828B;
   --line:#D4D8CE;--line-soft:#E2E5DC;--stamp:#A62D1F;--verify:#0E5E57;
   --c-scam:#A62D1F;--c-bank:#1F4FA6;--c-consumer:#8A5514;--c-insurance:#5B3E8C;--c-epfo:#0E5E57;
+  --accent:#0E5E57;--accent-soft:#E7F1EF;
   --shadow:0 1px 0 rgba(21,32,43,.05);
   --serif:"Tiro Devanagari Hindi",Georgia,"Noto Serif Devanagari",serif;
   --sans:"Mukta","Noto Sans Devanagari",system-ui,-apple-system,sans-serif;
@@ -119,7 +120,7 @@ const CSS = `
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
-body{background:linear-gradient(150deg,#fff8e8 0,#edf8f7 48%,#f5f1fc 100%) fixed;color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.72;margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.72;margin:0}
 .wrap{max-width:920px;margin:0 auto;padding-inline:18px;padding-block:0 48px}
 a{color:inherit}
 button{font:inherit;color:inherit}
@@ -127,45 +128,43 @@ button{font:inherit;color:inherit}
 .skip{position:absolute;left:-9999px}
 .skip:focus{left:18px;top:8px;background:var(--surface);border:1px solid var(--line);padding:6px 10px;border-radius:3px;z-index:10}
 
-.masthead{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding-block:26px 14px}
+.masthead{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:18px 12px}
 .header-actions{display:flex;align-items:center;gap:10px}
-.contact-top{font-size:13px;color:#195eae;font-weight:700;text-decoration:none}
-.menu-toggle{border:1px solid #bacbdc;background:#fff;border-radius:10px;padding:7px 11px;cursor:pointer;color:#195eae;font-size:19px;line-height:1.1}
+.contact-top{font-size:13px;color:var(--accent);font-weight:600;text-decoration:none}
+.menu-toggle{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:7px 11px;cursor:pointer;color:var(--ink);font-size:19px;line-height:1.1}
 .menu-toggle span{font-size:12px;vertical-align:middle;margin-left:3px}
-.site-menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;background:#edf6ff;border:1px solid #c9ddeb;border-radius:12px;padding:12px;margin:0 0 14px}
-.site-menu a{display:block;background:#fff;border-radius:8px;padding:9px 12px;text-decoration:none;color:#174a82;font-weight:600}
-.site-menu a:hover,.site-menu a:focus-visible{background:#dcecff}
-.brand-en{display:block;color:#195eae;font:700 12px var(--sans);letter-spacing:.06em;margin-top:3px}
-.landing{padding:22px 0 26px}
-.landing-label{color:#0e5e57;font-size:12px;letter-spacing:.1em;font-weight:700}
-.landing h2{font-size:clamp(23px,5vw,38px);line-height:1.32;margin:5px 0 14px;max-width:24ch}
+.site-menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;background:var(--accent-soft);border:1px solid var(--line);border-radius:12px;padding:12px;margin:0 0 14px}
+.site-menu a{display:block;background:var(--surface);border-radius:10px;padding:9px 12px;text-decoration:none;color:var(--ink);font-weight:600}
+.site-menu a:hover,.site-menu a:focus-visible{background:#fff;border-color:var(--accent)}
+.landing{padding:30px 0 34px}
+.landing-label{display:block;color:var(--ink-3);font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+.landing h2{font-size:clamp(28px,6.4vw,46px);line-height:1.22;margin:10px 0 16px;max-width:19ch;letter-spacing:-.015em;font-weight:700;text-wrap:balance}
+.landing h2 .hl{display:block;color:var(--accent)}
 .landing-links{display:flex;flex-wrap:wrap;gap:9px;margin:15px 0 0}
-.landing-links a{background:#195eae;color:white;border-radius:9px;padding:9px 14px;text-decoration:none;font-weight:600;font-size:14px}
-.landing-links a:nth-child(2){background:#e4f3f2;color:#0e5e57}
-.quickpaths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:15px 0 20px}
-.quickpaths a{display:block;padding:16px;border:1px solid #c8d9e7;background:#fff;border-radius:12px;text-decoration:none;color:#174a82;line-height:1.5}
+.landing-links a{background:var(--accent);color:#fff;border-radius:10px;padding:11px 17px;text-decoration:none;font-weight:600;font-size:14.5px}
+.landing-links a:nth-child(2){background:transparent;color:var(--ink);border:1px solid var(--line)}
+.quickpaths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:4px 0 30px}
+.quickpaths a{display:block;padding:18px;border:1px solid var(--line);background:var(--surface);border-radius:16px;text-decoration:none;color:var(--ink);line-height:1.5}
 .quickpaths strong{display:block;font-size:16px}
 .quickpaths span{display:block;color:var(--ink-2);font-size:13px;margin-top:5px}
-.quickpaths a:hover{border-color:#195eae;background:#eff7ff}
-.quickpaths a:nth-child(2){border-color:#e7c5be;background:#fff8f4}
-.quickpaths a:nth-child(2) strong{color:#983e2c}
+.quickpaths a:hover{border-color:var(--accent)}
 @media(max-width:610px){.quickpaths{grid-template-columns:1fr}.quickpaths a{padding:12px 15px}}
-.answerbox{margin:18px 0;padding:17px 20px;border-left:4px solid #195eae;background:#eef6ff;border-radius:0 12px 12px 0}
-.answerbox h2{margin:0 0 5px;font-size:16px;color:#174a82}
+.answerbox{margin:18px 0;padding:18px 20px;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 14px 14px 0}
+.answerbox h2{margin:0 0 5px;font-size:16px;color:var(--accent)}
 .answerbox p{margin:0 0 9px;font-size:15px;line-height:1.55}
 .answerbox ul{margin:0;padding-left:20px;font-size:15px}
 .answerbox li{margin-bottom:3px}
 .copy-status{font-size:13px;color:#0e5e57;align-self:center}
-.articles-title{font-size:24px;line-height:1.35;margin:20px 0 5px}
+.articles-title{font-size:26px;line-height:1.3;margin:34px 0 6px;letter-spacing:-.01em}
 @media(max-width:550px){.masthead{align-items:center}.contact-top{display:none}.stamp{display:none}.wordmark{font-size:29px}.mark{width:44px;height:44px}}
 .brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit}
-.mark{flex:none;width:48px;height:48px;border-radius:50%;display:block}
+.mark{flex:none;width:40px;height:40px;border-radius:50%;display:block}
 .hero{margin:6px 0 4px;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:#1767bf}
 .hero img{display:block;width:100%;height:auto}
-.promise{display:block;padding:26px 24px;margin:8px 0 6px;border:1px solid #b5ded9;border-radius:16px;background:linear-gradient(115deg,#d9f5ed,#eef9e4 62%,#fff1d8);box-shadow:0 12px 34px rgba(14,94,87,.08);font-family:var(--sans);font-weight:700;font-size:clamp(20px,4.4vw,30px);line-height:1.48;text-decoration:none}
-.promise:before{content:"SEEDHA MATLAB  /  VERIFIED HELP";display:block;color:#0e5e57;font:700 11px var(--sans);letter-spacing:.13em;margin-bottom:12px}
-.promise .promise-more{display:block;margin-top:14px;font-size:14px;font-weight:600;color:#0e5e57}
-.promise:hover{border-color:#0e5e57}
+.promise{display:block;padding:24px;margin:0 0 12px;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:16px;background:var(--surface);font-family:var(--sans);font-weight:700;font-size:clamp(20px,4.4vw,30px);line-height:1.48;text-decoration:none}
+.promise:before{content:"SEEDHA MATLAB  /  VERIFIED HELP";display:block;color:var(--ink-3);font:500 11px var(--mono);letter-spacing:.14em;margin-bottom:12px}
+.promise .promise-more{display:block;margin-top:14px;font-size:14px;font-weight:600;color:var(--accent)}
+.promise:hover{border-color:var(--accent)}
 .visual{position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;min-height:170px;padding:17px 18px;border-radius:13px;background:linear-gradient(135deg,#185ab6 0%,#247ace 67%,#2d9ec5 100%);color:#fff;isolation:isolate}
 .visual:after{content:"";position:absolute;right:-45px;top:-55px;width:190px;height:190px;border-radius:50%;border:24px solid rgba(255,255,255,.09);z-index:-1}
 .visual[data-cat="bank"]{background:linear-gradient(135deg,#2150b6,#5789e4)}
@@ -200,7 +199,7 @@ button{font:inherit;color:inherit}
 .verline{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:14px;padding-top:10px;border-top:1px solid var(--line-soft);line-height:1.7}
 .brand{text-decoration:none;display:block}
 .eyebrow{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
-.wordmark{font-family:var(--serif);font-size:clamp(30px,8.5vw,42px);line-height:1.08;letter-spacing:-.01em;margin:0;font-weight:400}
+.wordmark{font-family:var(--serif);font-size:clamp(26px,6.4vw,34px);line-height:1.08;letter-spacing:-.01em;margin:0;font-weight:400}
 .stamp{flex:none;transform:rotate(-7deg);border:1.5px solid var(--stamp);color:var(--stamp);border-radius:3px;padding:5px 9px 4px;text-align:center;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;line-height:1.5;opacity:.9;margin-top:6px}
 .stamp b{display:block;font-size:11px;letter-spacing:.06em;font-weight:500}
 .rule{border:0;border-top:2px solid var(--ink);margin:0}
@@ -216,7 +215,7 @@ button{font:inherit;color:inherit}
 .cats::-webkit-scrollbar{display:none}
 .chip{flex:none;background:transparent;border:1px solid var(--line);border-radius:999px;padding:4px 12px 5px;font-size:13.5px;cursor:pointer;color:var(--ink-2);white-space:nowrap;transition:background .15s,border-color .15s,color .15s}
 .chip:hover{border-color:var(--ink-3)}
-.chip[aria-pressed="true"]{background:#195eae;border-color:#195eae;color:#fff}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
 
 .listhead{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);padding-block:14px 6px;border-top:1px solid var(--line)}
 .entry{display:grid;grid-template-columns:54px 1fr;gap:0 14px;padding:18px;background:var(--surface);border:1px solid var(--line-soft);border-radius:16px;text-decoration:none;margin:0 0 14px;box-shadow:0 8px 22px rgba(21,32,43,.045)}
@@ -227,7 +226,7 @@ button{font:inherit;color:inherit}
 .entry:hover h2{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
 .entry p{margin:0;color:var(--ink-2);font-size:14.5px;line-height:1.62}
 .catname{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase}
-.entry.pinned{grid-template-columns:1fr;border:1px solid #e7bcb4;border-radius:16px;padding:18px;margin-bottom:16px}
+.entry.pinned{grid-template-columns:1fr;border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:16px}
 .alertlabel{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--stamp);margin-bottom:5px;display:block}
 .empty{padding:34px 0;color:var(--ink-3);font-size:15px;border-top:1px solid var(--line-soft)}
 
@@ -314,7 +313,6 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
     <span>
       <span class="eyebrow">${esc(SITE.eyebrow)}</span>
       ${home ? `<h1 class="wordmark">${esc(SITE.name)}</h1>` : `<p class="wordmark">${esc(SITE.name)}</p>`}
-      <span class="brand-en">SEEDHA MATLAB</span>
     </span>
   </a>
   <div class="header-actions"><a class="contact-top" href="mailto:${esc(SITE.email)}">Contact</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Menu खोलें">☰ <span>Menu</span></button></div>
@@ -323,12 +321,6 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
   <a href="/">Home</a><a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/about/">About</a><a href="/#contact">Contact</a>
 </nav>
 <hr class="rule">
-<hr class="rule-thin">
-<div class="kicker">
-  <span>संदिग्ध मैसेज · लिंक · कॉल · ऑफ़र</span>
-  <span class="dot">—</span>
-  <span>हर बात का स्रोत नीचे दर्ज</span>
-</div>
 `;
 }
 
@@ -474,7 +466,7 @@ function renderIndex(posts) {
 <main id="main">
   <section class="landing" aria-label="Seedha Matlab introduction">
     <span class="landing-label">VERIFIED HELP · सीधी बात</span>
-    <h2>संदिग्ध message आया? पहले जाँचें, फिर action लें।</h2>
+    <h2>संदिग्ध message आया?<span class="hl">पहले जाँचें, फिर action लें।</span></h2>
     <p>Scam alert, official source और अगला सही कदम—एक जगह, आसान Hindi + English में।</p>
     <div class="landing-links"><a href="/how-to-check/">Message कैसे verify करें →</a><a href="#articles">Latest articles देखें ↓</a></div>
   </section>
