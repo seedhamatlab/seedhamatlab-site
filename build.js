@@ -498,7 +498,7 @@ function renderIndex(posts) {
   const hero = `
   <section class="landing" aria-label="Seedha Matlab introduction">
     <span class="landing-label">स्रोत के साथ · VERIFIED HELP</span>
-    <h2>पहले जाँचिए।<span class="l2">फिर कदम उठाइए।</span><span class="l3">पैसा बच जाएगा।</span></h2>
+    <h2>पहले जाँचिए।<span class="l3">फिर सही कदम उठाइए।</span></h2>
     <p>संदिग्ध message, बैंक में कटा पैसा, बीमा या EPFO का अटका हक़ — हर जवाब के नीचे सरकारी स्रोत का लिंक, ताकि आप ख़ुद जाँच सकें।</p>
     <div class="herosearch">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
