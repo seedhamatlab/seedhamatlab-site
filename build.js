@@ -1159,17 +1159,16 @@ function main() {
   }));
   write("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE.url}/sitemap.xml\n`);
 
-  const lastmod = posts.map((p) => p.date).sort().pop() || raw.updated || "";
   const urls = [
-    { loc: `${SITE.url}/`, lastmod },
+    { loc: `${SITE.url}/` },
     ...posts.map((p) => ({ loc: `${SITE.url}/p/${encodeURIComponent(p.id)}/`, lastmod: p.date })),
-    { loc: `${SITE.url}/faq/`, lastmod },
-    ...HUBS.map((h) => ({ loc: `${SITE.url}/${h.slug}/`, lastmod })),
-    ...PAGES.map((pg) => ({ loc: `${SITE.url}/${pg.slug}/`, lastmod })),
+    { loc: `${SITE.url}/faq/` },
+    ...HUBS.map((h) => ({ loc: `${SITE.url}/${h.slug}/` })),
+    ...PAGES.map((pg) => ({ loc: `${SITE.url}/${pg.slug}/` })),
   ];
   write("sitemap.xml",
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-    urls.map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join("\n") +
+    urls.map((u) => `  <url><loc>${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ""}</url>`).join("\n") +
     `\n</urlset>\n`);
 
   // Tasveerein assets/ me ho ya repo ki jad me — dono jagah se utha li jaati hain.
