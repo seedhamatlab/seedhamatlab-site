@@ -1,6 +1,43 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-10-04",
   "posts": [
+    {
+      "id": "call-par-otp",
+      "title": "“Bank से बोल रहा हूँ, OTP बताइए” — call पर OTP माँगा जाए तो क्या करें?",
+      "cat": "scam",
+      "date": "2026-10-04",
+      "verified": "2026-10-04",
+      "pinned": false,
+      "severity": "alert",
+      "tags": [
+        "OTP",
+        "call",
+        "bank",
+        "vishing",
+        "RBI",
+        "OTP माँगा"
+      ],
+      "summary": "RBI के मुताबिक bank और payment कंपनियाँ password, PIN, OTP या CVV कभी नहीं माँगतीं — bank अधिकारी बनकर भी कोई माँगे तो न दें। Call काटें और bank के official number पर खुद पुष्टि करें।",
+      "body": "## Situation\n\nCall आती है: “Bank से बोल रहा हूँ — KYC अधूरा है / card block हो जाएगा / refund आना है, अभी जो OTP आया वह बता दीजिए।” Caller के पास आपका नाम या card के कुछ अंक भी हो सकते हैं, इसलिए call असली लगती है।\n\n## Verified verdict\n\nRBI ने साफ़ कहा है कि **bank और payment system operator कभी password, PIN, OTP या CVV नहीं माँगते**। RBI की 2022 की चेतावनी और आगे जाती है: ये details **किसी को न दें — bank अधिकारी को भी नहीं, चाहे वह कितना भी असली लगे**। I4C के cybercrime portal का brochure भी यही कहता है कि कोई bank या उसका कर्मचारी call या email पर OTP नहीं माँगेगा।\n\nOTP का काम एक ही है: **आपके अपने शुरू किए लेनदेन को आप खुद पूरा करें।** जो OTP आपने माँगा ही नहीं, वह किसी और की कोशिश का संकेत है।\n\n## अभी क्या करें\n\n- OTP बताए बिना call काट दें। जल्दबाज़ी और डर इस जाल का हिस्सा है।\n- OTP वाला SMS पूरा पढ़ें — उसमें आम तौर पर लिखा होता है कि वह किस काम या रकम के लिए है।\n- पुष्टि करनी हो तो bank को card के पीछे या official website/app पर लिखे number से खुद call करें; caller के दिए number पर नहीं। [Customer-care number कैसे जाँचें](/p/fake-customer-care/)।\n- Caller के कहने पर कोई app install न करें और screen share न करें। [Screen access दे दी हो तो](/p/screen-share-containment/)।\n\n## OTP बता दिया हो तो\n\n- तुरंत bank को बताएं और card/account block करवाएं; complaint number रखें। देर न करें — [देरी का असर देनदारी पर पड़ता है](/p/golden-hour-3-din/)।\n- **1930** पर call करें या **cybercrime.gov.in** पर report करें। [पूरा क्रम यहाँ है](/p/online-fraud-kya-kare/)।\n- Net-banking password और UPI PIN बदल दें।\n\n**Source check:** RBI press release 2019-2020/2534 (22 Jun 2020); RBI press release 2021-2022/1630 (28 Jan 2022); I4C NCRP Financial Fraud brochure; 4 Oct 2026.",
+      "sources": [
+        {
+          "label": "RBI — Safe use of digital transactions (22 Jun 2020)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49986"
+        },
+        {
+          "label": "RBI — Consumer Awareness: Cyber Threats and Frauds (28 Jan 2022)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53185"
+        },
+        {
+          "label": "I4C / NCRP — Financial Fraud brochure",
+          "url": "https://cybercrime.gov.in/pdf/Financial%20Fraud%20Brochures%20final.pdf"
+        },
+        {
+          "label": "I4C — National Cyber Crime Reporting Portal",
+          "url": "https://cybercrime.gov.in"
+        }
+      ]
+    },
     {
       "id": "online-fraud-kya-kare",
       "title": "Online fraud हो गया, पैसा कट गया? अभी क्या करें",
