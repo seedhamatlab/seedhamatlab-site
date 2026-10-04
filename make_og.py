@@ -5,6 +5,7 @@ root=Path(__file__).parent
 posts=json.loads((root/'data/posts.json').read_text())['posts']
 # DejaVu me Devanagari nahi hai — isliye har post ka Latin/Hinglish copy yahan.
 COPY={
+'call-par-otp':('Call par OTP maanga?','Bank kabhi OTP nahi maangta. Call kaat dein.'),
 'credit-report-muft-kaise':('Poori report muft mein','Saal mein ek baar, har bureau se.'),
 'credit-report-shikayat-kahan':('Shikayat kiske paas?','Bank 21 din, bureau 30 din.'),
 'credit-report-kab-update':('Chuka diya, dikh nahi raha?','Bank har pakhwade data bhejte hain.'),
