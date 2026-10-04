@@ -14,6 +14,7 @@ const SITE = {
   eyebrow: "सूचना डेस्क · भारत",
   instagram: "", // Instagram handle abhi nahi hai — link yahan daalein tabhi footer me dikhega
   x: "https://x.com/seedhamatlab",
+  youtube: "https://www.youtube.com/@SeedhaMatlab",
   whatsapp: "https://whatsapp.com/channel/0029Vb9DXQb3gvWW4lRkkq3r",
   email: "seedhamatlab@gmail.com",
   // Cloudflare Web Analytics "automatic setup" se chalu hai — Cloudflare khud beacon
@@ -358,6 +359,9 @@ function foot() {
   const ig = SITE.instagram
     ? `<a href="${esc(SITE.instagram)}" target="_blank" rel="noopener">Instagram <span class="handle">@seedhamatlab</span></a>`
     : "";
+  const yt = SITE.youtube
+    ? `<a href="${esc(SITE.youtube)}" target="_blank" rel="noopener">YouTube <span class="handle">@SeedhaMatlab</span></a>`
+    : "";
   return `
 </div>
 <div class="footband">
@@ -375,6 +379,7 @@ function foot() {
         ${ig}
         ${wa}
         <a href="${esc(SITE.x)}" target="_blank" rel="noopener">X <span class="handle">@seedhamatlab</span></a>
+        ${yt}
       </div>
     </div>
     <div>
@@ -742,6 +747,8 @@ const CONTACT = {
 सार्वजनिक reply में तथ्य की गलती बताइए। यही सबसे तेज़ है।
 
 ${SITE.whatsapp ? `**WhatsApp Channel — [जुड़िए](${SITE.whatsapp})**\nनए alert सीधे मिलेंगे।` : ""}
+
+${SITE.youtube ? `**YouTube — [@SeedhaMatlab](${SITE.youtube})**\nछोटे वीडियो में स्कैम और नियमों की सीधी जानकारी।` : ""}
 
 ## किस बात के लिए लिखें
 
