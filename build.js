@@ -32,6 +32,7 @@ const CATS = {
 const SEV = { alert: "अलर्ट", right: "आपका अधिकार", info: "जानकारी" };
 // Small, article-specific decision cards. These are typographic illustrations, not evidence.
 const CARDS = {
+  "call-par-otp": { label: "CALL ALERT", icon: "☎", headline: "Call पर OTP माँगा?", points: ["OTP न बताएं", "Call काटें", "Official number पर पुष्टि"] },
   "cibil-galat-entry": { label: "KNOW YOUR RIGHT", icon: "✓", headline: "Report में गलत entry?", points: ["30 दिन में निपटारा", "देरी पर ₹100 रोज़", "फिर RBI Ombudsman"] },
   "online-fraud-kya-kare": { label: "EMERGENCY GUIDE", icon: "!", headline: "Fraud ho gaya?", points: ["Bank को तुरंत बताएं", "1930 पर report करें", "UTR और proof रखें"] },
   "digital-arrest": { label: "SCAM ALERT", icon: "✦", headline: "Video call पर arrest?", points: ["Call काटें", "पैसे या OTP न दें", "1930 पर report करें"] },
