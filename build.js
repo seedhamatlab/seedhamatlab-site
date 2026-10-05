@@ -377,10 +377,11 @@ function foot() {
       <h4>कहाँ मिलेंगे</h4>
       <div class="links">
         <a href="mailto:${esc(SITE.email)}">Contact <span class="handle">${esc(SITE.email)}</span></a>
-        ${ig}
-        ${wa}
+        <a href="${esc(SITE.url)}/">Website <span class="handle">seedhamatlab.com</span></a>
         <a href="${esc(SITE.x)}" target="_blank" rel="noopener">X <span class="handle">@seedhamatlab</span></a>
         ${yt}
+        ${wa}
+        ${ig}
       </div>
     </div>
     <div>
