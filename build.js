@@ -14,7 +14,7 @@ const SITE = {
   eyebrow: "सूचना डेस्क · भारत",
   instagram: "", // Instagram handle abhi nahi hai — link yahan daalein tabhi footer me dikhega
   x: "https://x.com/seedhamatlab",
-  youtube: "https://www.youtube.com/@SeedhaMatlab",
+  youtube: "https://www.youtube.com/@seedhamatlab",
   whatsapp: "https://whatsapp.com/channel/0029Vb9DXQb3gvWW4lRkkq3r",
   email: "seedhamatlab@gmail.com",
   // Cloudflare Web Analytics "automatic setup" se chalu hai — Cloudflare khud beacon
@@ -355,13 +355,13 @@ ${hero}
 
 function foot() {
   const wa = SITE.whatsapp
-    ? `<a href="${esc(SITE.whatsapp)}" target="_blank" rel="noopener">WhatsApp Channel <span class="handle">जाँचे हुए अलर्ट</span></a>`
+    ? `<a href="${esc(SITE.whatsapp)}" target="_blank" rel="noopener">WhatsApp <span class="handle">Seedha Matlab</span></a>`
     : "";
   const ig = SITE.instagram
     ? `<a href="${esc(SITE.instagram)}" target="_blank" rel="noopener">Instagram <span class="handle">@seedhamatlab</span></a>`
     : "";
   const yt = SITE.youtube
-    ? `<a href="${esc(SITE.youtube)}" target="_blank" rel="noopener">YouTube <span class="handle">@SeedhaMatlab</span></a>`
+    ? `<a href="${esc(SITE.youtube)}" target="_blank" rel="noopener">YouTube <span class="handle">@seedhamatlab</span></a>`
     : "";
   return `
 </div>
@@ -750,7 +750,7 @@ const CONTACT = {
 
 ${SITE.whatsapp ? `**WhatsApp Channel — [जुड़िए](${SITE.whatsapp})**\nनए alert सीधे मिलेंगे।` : ""}
 
-${SITE.youtube ? `**YouTube — [@SeedhaMatlab](${SITE.youtube})**\nछोटे वीडियो में स्कैम और नियमों की सीधी जानकारी।` : ""}
+${SITE.youtube ? `**YouTube — [@seedhamatlab](${SITE.youtube})**\nछोटे वीडियो में स्कैम और नियमों की सीधी जानकारी।` : ""}
 
 ## किस बात के लिए लिखें
 
