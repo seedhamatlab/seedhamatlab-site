@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "posts": [
     {
       "id": "call-par-otp",
@@ -267,7 +267,7 @@
         "Chakshu"
       ],
       "summary": "DoT ने बिजली KYC के नाम पर SMS/WhatsApp और malicious APK का scam pattern दर्ज किया है। Bill या connection की स्थिति message के link से नहीं, अपने provider के official channel से check करें।",
-      "body": "## Situation\n\nMessage कहता है कि बिजली KYC update नहीं हुआ तो connection बंद हो जाएगा। साथ में APK file या link आता है। DoT ने इस pattern में malicious APK से device पर नियंत्रण लेने की कोशिश दर्ज की है।\n\n## सीधा मतलब\n\nMessage पर आया APK **install न करें**। भेजने वाले का logo या नाम वास्तविक होने का सबूत नहीं है। Bill और connection status अपने बिजली provider की official site/app या bill पर दिए contact से verify करें।\n\n## अभी क्या करें\n\n- APK न खोलें; OTP, PIN या screen access न दें।\n- Provider के official channel पर अपनी स्थिति check करें।\n- केवल संदिग्ध communication है तो **Sanchar Saathi के Chakshu** पर report करें। अगर पैसा गया है तो bank को तुरंत बताएं और **1930**/cybercrime.gov.in पर शिकायत करें।\n\n**Source check:** DoT/PIB advisory 17 Jun 2024; 23 Sep 2026 को दोबारा जाँच। यह pattern advisory है, किसी नए local outage का दावा नहीं।",
+      "body": "## Situation\n\nMessage कहता है कि बिजली KYC update नहीं हुआ तो connection बंद हो जाएगा। साथ में APK file या link आता है। DoT ने इस pattern में malicious APK से device पर नियंत्रण लेने की कोशिश दर्ज की है।\n\n## सीधा मतलब\n\nMessage पर आया APK **install न करें**। भेजने वाले का logo या नाम वास्तविक होने का सबूत नहीं है। Bill और connection status अपने बिजली provider की official site/app या bill पर दिए contact से verify करें।\n\n## अभी क्या करें\n\n- APK न खोलें; OTP, PIN या screen access न दें।\n- Provider के official channel पर अपनी स्थिति check करें।\n- केवल संदिग्ध communication है तो **Sanchar Saathi के Chakshu** पर report करें। अगर पैसा गया है तो bank को तुरंत बताएं और **1930**/cybercrime.gov.in पर शिकायत करें।\n\n**Source check:** DoT/PIB advisory 17 Jun 2024; 5 Oct 2026 को दोबारा जाँच। यह pattern advisory है, किसी नए local outage का दावा नहीं।",
       "sources": [
         {
           "label": "DoT via PIB — Electricity KYC Update Scam (17 Jun 2024)",
@@ -282,7 +282,7 @@
           "url": "https://cybercrime.gov.in"
         }
       ],
-      "verified": "2026-09-23"
+      "verified": "2026-10-05"
     },
     {
       "id": "upi-pin-refund",
