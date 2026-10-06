@@ -67,6 +67,12 @@ function fmtDateLine(iso) {
   if (p.length !== 3) return "";
   return `${p[2]} ${MONTHS[parseInt(p[1], 10) - 1] || ""} ${p[0]}`;
 }
+const MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+function fmtDateEn(iso) {
+  const p = String(iso || "").split("-");
+  if (p.length !== 3) return "";
+  return `${parseInt(p[2], 10)} ${MONTHS_EN[parseInt(p[1], 10) - 1] || ""} ${p[0]}`;
+}
 function fmtDateStack(iso) {
   const p = String(iso || "").split("-");
   if (p.length !== 3) return "";
@@ -78,6 +84,9 @@ function inline(s) {
   out = out.replace(/\[([^\]]+)\]\(((?:https?:\/\/|\/)[^\s)]+)\)/g,
     (_match, label, href) => `<a href="${href}"${href.startsWith('/') ? '' : ' target="_blank" rel="noopener"'}>${label}</a>`);
   out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  // [^1] -> srot ka number; *...* -> italic (sirf jab shabd se sata ho, taaki *99# jaise code na bigdein)
+  out = out.replace(/\[\^(\d+)\]/g, '<sup class="ref"><a href="#src-$1">[$1]</a></sup>');
+  out = out.replace(/(^|[\s(>—])\*(?=\S)([^*]+?)(?<=\S)\*(?=[\s.,;:!?)<।—]|$)/g, "$1<em>$2</em>");
   return out;
 }
 
@@ -291,6 +300,89 @@ footer p{margin:0;font-size:14px;color:var(--on-dark-2);line-height:1.66}
 .fine{margin-top:28px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12);font-size:12.5px;color:var(--on-dark-2)}
 .copyright{display:flex;align-items:center;gap:9px;margin-top:17px;color:var(--on-dark-2);font-size:12px}
 .copyright img{border-radius:50%;width:27px;height:27px}
+/* ---- shabdkosh (dhancha 2): post page ---- */
+.topband{overflow:hidden}
+.arthero{position:relative;isolation:isolate;border-top:1px solid rgba(255,255,255,.08);padding:2px 0 26px}
+.arthero:after{content:"";position:absolute;right:-78px;top:-64px;width:230px;height:230px;border-radius:50%;border:26px solid rgba(255,255,255,.045);z-index:-1}
+.arthero .crumbs{color:#76828D;margin:14px 0 13px}
+.arthero .crumbs a{color:var(--on-dark-2)}
+.kindrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.kind{font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.1em;color:var(--gold);border:1px solid rgba(233,185,73,.55);border-radius:999px;padding:3px 11px}
+.verified{font-size:12.5px;font-weight:600;background:rgba(94,230,220,.12);color:#7FE6DC;border-radius:999px;padding:3px 11px}
+.arthero h1{font-family:var(--sans);font-weight:800;font-size:clamp(27px,6.6vw,40px);line-height:1.2;letter-spacing:-.02em;margin:15px 0 16px;max-width:26ch;text-wrap:balance}
+.one{background:rgba(255,255,255,.06);border-left:3px solid var(--gold);border-radius:0 14px 14px 0;padding:13px 17px;max-width:68ch}
+.one .l{display:block;font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.14em;color:var(--gold);margin-bottom:4px}
+.one p{margin:0;font-size:17px;line-height:1.6;font-weight:500;color:var(--on-dark)}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0 4px}
+@media(min-width:700px){.facts{grid-template-columns:repeat(4,minmax(0,1fr))}.facts.steps{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:699px){.facts.steps{grid-template-columns:1fr}}
+.fact{background:var(--surface);border:1px solid var(--line-soft);border-radius:14px;padding:12px 14px}
+.fact .k{display:block;font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.12em;color:var(--ink-3);text-transform:uppercase}
+.fact .v{display:block;font-size:23px;font-weight:800;line-height:1.2;letter-spacing:-.01em;margin-top:4px}
+.fact .s{display:block;font-size:13px;color:var(--ink-2);line-height:1.4;margin-top:3px}
+.fact.g{background:var(--accent-soft);border-color:#BFDAD6}
+.fact.g .v{color:var(--accent)}
+.facts.steps .fact .v{font-size:17px;font-weight:700;line-height:1.35}
+.toc{display:flex;gap:7px;flex-wrap:wrap;margin:16px 0 2px}
+.toc a{font-size:13.5px;border:1px solid var(--line);border-radius:999px;padding:3px 12px 4px;color:var(--ink-2);background:var(--surface);text-decoration:none}
+.toc a:hover{border-color:var(--accent);color:var(--accent)}
+.prose.wk h2{display:flex;align-items:center;gap:10px;font-family:var(--sans);font-weight:800;font-size:21px;line-height:1.3;letter-spacing:-.01em;text-transform:none;color:var(--ink);margin:30px 0 9px;scroll-margin-top:12px}
+.prose.wk h2 i{flex:none;font-style:normal;font-family:var(--mono);font-size:11.5px;font-weight:500;color:#fff;background:var(--accent);border-radius:6px;padding:2px 8px;line-height:1.5}
+.prose.wk em{font-style:italic}
+sup.ref{font-size:11px;font-weight:700;line-height:0}
+sup.ref a{color:var(--verify);text-decoration:none}
+.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;gap:4px;background:var(--surface);border:1px solid var(--line-soft);border-radius:16px;padding:14px 10px;margin:10px 0 14px;text-align:center}
+.node{border-radius:12px;padding:10px 4px;font-size:14px;font-weight:700;line-height:1.3}
+.node small{display:block;font-weight:400;color:var(--ink-2);font-size:11.5px;margin-top:2px}
+.n1{background:#EEF1FB;border:1px solid #CFD6F0}.n2{background:#FDF3DC;border:1px solid #EBD69B}.n3{background:var(--accent-soft);border:1px solid #BFDAD6}
+.arr{font-size:11.5px;color:var(--ink-2);line-height:1.3;min-width:60px}
+.arr b{display:block;font-size:14px;color:var(--ink)}
+.arr span{display:block;font-size:18px;color:var(--ink-3);line-height:1}
+.calc{background:var(--band);color:var(--on-dark);border-radius:16px;padding:15px 16px 13px;margin:10px 0 14px}
+.calc .l{display:block;font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.14em;color:var(--gold);margin-bottom:9px}
+.calc .in{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:12px;padding:8px 13px;font-size:20px;font-weight:700;cursor:text}
+.calc .in:focus-within{border-color:rgba(233,185,73,.7)}
+.calc .in input{flex:1;min-width:0;width:100%;border:0;background:transparent;color:var(--on-dark);font:inherit;outline:none;padding:0}
+.calc .in .hint{flex:none;color:var(--on-dark-2);font-weight:400;font-size:13px}
+.calc .out{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.calc .o{background:rgba(255,255,255,.05);border-radius:12px;padding:9px 13px}
+.calc .o small{display:block;color:var(--on-dark-2);font-size:12.5px}
+.calc .o b{font-size:22px;font-weight:800}
+.calc .o.y b{color:var(--gold)}
+.calc .cnote{margin:9px 0 0;font-size:13.5px;color:#7FE6DC;min-height:1.6em}
+.calc .cfine{margin:4px 0 0;font-size:12.5px;line-height:1.55;color:var(--on-dark-2)}
+.mf{border-radius:14px;overflow:hidden;border:1px solid var(--line-soft);margin:0 0 11px;background:var(--surface)}
+.mf .m{background:#FBEDEA;color:#7A2418;padding:10px 15px;font-size:15.5px;line-height:1.55}
+.mf .f{padding:10px 15px;font-size:15.5px;line-height:1.6}
+.mf b.l{display:block;font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.12em;margin-bottom:2px}
+.mf .f b.l{color:var(--accent)}
+.rightbox{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 14px 14px 0;padding:13px 17px;margin:0 0 14px;font-size:16.5px;font-weight:500;line-height:1.65}
+.qlist .q{border-bottom:1px solid var(--line-soft);padding:11px 0}
+.qlist .q:first-child{padding-top:2px}
+.qlist .q b{display:block;font-size:16.5px;font-weight:700;line-height:1.5}
+.qlist .q span{display:block;font-size:15.5px;color:var(--ink-2);line-height:1.65;margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin:4px 0 10px}
+.chips a,.chips span{border:1px solid var(--line);border-radius:999px;padding:4px 13px;font-size:14px;color:var(--accent);background:var(--surface);text-decoration:none}
+.chips .soon{border-style:dashed;color:var(--ink-3)}
+.srclist{border-left:3px solid var(--verify);background:var(--surface);border-radius:0 6px 6px 0;margin:0 0 14px;padding:13px 16px 13px 44px;font-size:14.5px;counter-reset:src;list-style:none}
+.srclist li{position:relative;margin-bottom:7px;counter-increment:src}
+.srclist li:last-child{margin-bottom:0}
+.srclist li:before{content:"[" counter(src) "]";position:absolute;left:-30px;font-weight:700;color:var(--verify);font-size:13px}
+.srclist a{color:var(--ink);text-underline-offset:3px}
+.srclist li:target{background:var(--accent-soft)}
+.postfoot .btn{border-radius:999px;padding:8px 15px}
+.btn.wa{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.arthero h1.term{font-size:clamp(46px,13vw,66px);line-height:1.05;margin:13px 0 4px;max-width:none}
+.arthero h1.term.idx{font-size:clamp(32px,8.5vw,48px);line-height:1.15;margin-bottom:8px}
+.arthero .full{color:var(--on-dark-2);font-size:16px;margin:0 0 16px}
+.arthero h1.idx + .full{margin-bottom:4px}
+.fullart{font-size:15px;color:var(--ink-2)}
+.termlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:22px 0 8px}
+.termcard{display:block;background:var(--surface);border:1px solid var(--line-soft);border-radius:16px;padding:15px 17px;text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s}
+.termcard:hover{border-color:var(--accent);transform:translateY(-2px)}
+.termcard .k{display:block;font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.12em;color:var(--ink-3)}
+.termcard strong{display:block;font-size:25px;font-weight:800;line-height:1.25;margin-top:3px}
+.termcard .s{display:block;font-size:14px;color:var(--ink-2);line-height:1.55;margin-top:4px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 `;
 
@@ -550,16 +642,133 @@ function renderIndex(posts) {
 <script>${LIST_JS}</script>` + foot();
 }
 
+/* ---- shabdkosh (dhancha 2) : post page ---- */
+
+const inr = (n) => {
+  const r = Math.round(n * 100) / 100;
+  const whole = Number.isInteger(r);
+  return "₹" + r.toLocaleString("en-IN", { minimumFractionDigits: whole ? 0 : 2, maximumFractionDigits: 2 });
+};
+
+// Har calculator ka niyam yahin likha hai; panne ka JS isi ko padhta hai.
+const CALCS = {
+  "upi-mdr": {
+    label: "MDR CALCULATOR",
+    start: 17700,
+    free: 2000,      // is rakam tak MDR shunya
+    rate: 0.004,     // 0.4%
+    capFrom: 75000,  // is rakam se upar tay seema
+    cap: 300,
+    payLabel: "आप देंगे",
+    feeLabel: "दुकानदार का MDR",
+    notes: { free: "₹2,000 तक MDR शून्य", rate: "0.4% की दर से", cap: "अधिकतम सीमा ₹300 लागू" },
+    fine: "यह आम दुकान (P2M) का हिसाब है। छोटे दुकानदार (P2PM) पर MDR शून्य है, और रेलवे, बीमा, petrol pump जैसी श्रेणियों में दर अलग है।",
+  },
+};
+
+function calcFee(c, a) {
+  if (a <= c.free) return { fee: 0, note: c.notes.free };
+  if (a >= c.capFrom) return { fee: c.cap, note: c.notes.cap };
+  return { fee: Math.round(a * c.rate * 100) / 100, note: c.notes.rate };
+}
+
+function blockHTML(p, spec) {
+  const [name, arg] = spec.split(/\s+/);
+  const need = (v, what) => { if (!v || (Array.isArray(v) && !v.length)) throw new Error(`Post ${p.id}: "::${spec}" ke liye "${what}" nahi mila`); return v; };
+
+  if (name === "flow") {
+    const f = need(p.flow, "flow");
+    if (!f.nodes || f.nodes.length !== 3 || !f.arrows || f.arrows.length !== 2) throw new Error(`Post ${p.id}: flow me 3 nodes aur 2 arrows chahiye`);
+    const node = (n, i) => `<div class="node n${i + 1}">${esc(n.t)}<small>${esc(n.s || "")}</small></div>`;
+    const arr = (a) => `<div class="arr"><b>${esc(a.b)}</b><span aria-hidden="true">→</span>${esc(a.s || "")}</div>`;
+    return `<div class="flow" role="img" aria-label="${esc(f.nodes.map((n) => n.t).join(" → "))}">${node(f.nodes[0], 0)}${arr(f.arrows[0])}${node(f.nodes[1], 1)}${arr(f.arrows[1])}${node(f.nodes[2], 2)}</div>`;
+  }
+
+  if (name === "calc") {
+    const c = CALCS[arg];
+    if (!c) throw new Error(`Post ${p.id}: calculator "${arg}" nahi mila`);
+    const r = calcFee(c, c.start);
+    return `<div class="calc" data-calc='${esc(JSON.stringify({ free: c.free, rate: c.rate, capFrom: c.capFrom, cap: c.cap, notes: c.notes }))}'>
+      <span class="l">${esc(c.label)}</span>
+      <label class="in"><span aria-hidden="true">₹</span><input type="text" inputmode="numeric" autocomplete="off" maxlength="12" value="${c.start.toLocaleString("en-IN")}" aria-label="बिल की रक़म रुपये में"><span class="hint">बिल की रक़म डालिए</span></label>
+      <div class="out" aria-live="polite">
+        <div class="o"><small>${esc(c.payLabel)}</small><b data-o="pay">${inr(c.start)}</b></div>
+        <div class="o y"><small>${esc(c.feeLabel)}</small><b data-o="fee">${inr(r.fee)}</b></div>
+      </div>
+      <p class="cnote" data-o="note">${esc(r.note)}</p>
+      <p class="cfine">${esc(c.fine)}</p>
+    </div>`;
+  }
+
+  if (name === "myths") {
+    return need(p.myths, "myths").map((m) =>
+      `<div class="mf"><div class="m"><b class="l">✕ ग़लतफ़हमी</b>${inline(m.m)}</div><div class="f"><b class="l">✓ सच</b>${inline(m.f)}</div></div>`).join("");
+  }
+
+  if (name === "faq") {
+    return `<div class="qlist">${need(p.faq, "faq").map((f) =>
+      `<div class="q"><b>${esc(f.q)}</b><span>${inline(f.a)}</span></div>`).join("")}</div>`;
+  }
+
+  if (name === "related") {
+    return `<div class="chips">${need(p.related, "related").map((r) =>
+      r.href ? `<a href="${esc(r.href)}">${esc(r.t)}</a>` : `<span class="soon">${esc(r.t)} · जल्द</span>`).join("")}</div>`;
+  }
+
+  throw new Error(`Post ${p.id}: anjaan block "::${spec}"`);
+}
+
+function renderBodyWiki(p) {
+  const lines = String(p.body || "").split("\n");
+  let html = "", list = null, para = [], n = 0;
+  const toc = [];
+  const flushPara = () => { if (para.length) { html += `<p>${inline(para.join(" "))}</p>`; para = []; } };
+  const flushList = () => { if (list) { html += `<ul>${list}</ul>`; list = null; } };
+  const flush = () => { flushPara(); flushList(); };
+  for (const raw of lines) {
+    const ln = raw.trim();
+    if (!ln) { flush(); continue; }
+    if (ln.startsWith("## ")) {
+      flush();
+      // "## Shirshak | chhota naam" -> patti me chhota naam; "| -" -> patti me nahi
+      const [t, short] = ln.slice(3).split("|").map((x) => x.trim());
+      n += 1;
+      if (short !== "-") toc.push({ id: `s${n}`, t: short || t });
+      html += `<h2 id="s${n}"><i aria-hidden="true">${n}</i><span>${esc(t)}</span></h2>`;
+    }
+    else if (ln.startsWith("::")) { flush(); html += blockHTML(p, ln.slice(2).trim()); }
+    else if (ln.startsWith("> ")) { flush(); html += `<div class="rightbox">${inline(ln.slice(2))}</div>`; }
+    else if (ln.startsWith("- ")) { flushPara(); list = (list || "") + `<li>${inline(ln.slice(2))}</li>`; }
+    else { flushList(); para.push(ln); }
+  }
+  flush();
+  return { html, toc, n };
+}
+
+const CALC_JS = `(function(){var boxes=document.querySelectorAll('.calc[data-calc]');[].forEach.call(boxes,function(box){var c=JSON.parse(box.getAttribute('data-calc')),inp=box.querySelector('input'),pay=box.querySelector('[data-o=pay]'),fee=box.querySelector('[data-o=fee]'),note=box.querySelector('[data-o=note]');function f(n){var r=Math.round(n*100)/100,w=r===Math.floor(r);return '₹'+r.toLocaleString('en-IN',{minimumFractionDigits:w?0:2,maximumFractionDigits:2});}function run(){var d=inp.value.replace(/[^0-9]/g,'').slice(0,9),a=d?parseInt(d,10):0;inp.value=d?a.toLocaleString('en-IN'):'';var m,t;if(a<=c.free){m=0;t=c.notes.free;}else if(a>=c.capFrom){m=c.cap;t=c.notes.cap;}else{m=Math.round(a*c.rate*100)/100;t=c.notes.rate;}pay.textContent=f(a);fee.textContent=f(m);note.textContent=d?t:'';}inp.addEventListener('input',run);});})();`;
+
 function renderPost(p, all) {
   const hub = hubOf(p.cat);
   const url = `${SITE.url}/p/${encodeURIComponent(p.id)}/`;
   const points = CARDS[p.id]?.points || [];
-  const sources = (p.sources || []).map(
-    (s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>`
-  ).join("");
+  const srcs = p.sources || [];
   const tags = (p.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
   const related = all.filter((o) => o.id !== p.id && o.cat === p.cat).slice(0, 3);
   const others = (related.length ? related : all.filter((o) => o.id !== p.id).slice(0, 3));
+  const checked = p.verified || p.date;
+
+  const body = renderBodyWiki(p);
+  const srcNo = body.n + 1;
+  const toc = body.toc.concat(srcs.length ? [{ id: "src", t: "स्रोत" }] : []);
+  const tocHTML = toc.length >= 3
+    ? `<nav class="toc" aria-label="इस पन्ने में">${toc.map((s) => `<a href="#${s.id}">${esc(s.t.split(" — ")[0])}</a>`).join("")}</nav>`
+    : "";
+
+  const tiles = (p.facts && p.facts.length)
+    ? `<div class="facts">${p.facts.map((f) => `<div class="fact${f.good ? " g" : ""}"><span class="k">${esc(f.k)}</span><span class="v">${esc(f.v)}</span><span class="s">${esc(f.s || "")}</span></div>`).join("")}</div>`
+    : (points.length
+      ? `<div class="facts steps" aria-label="अभी क्या करें">${points.slice(0, 3).map((pt, i) => `<div class="fact${i === 0 ? " g" : ""}"><span class="k">अभी क्या करें · ${i + 1}</span><span class="v">${esc(pt)}</span></div>`).join("")}</div>`
+      : "");
 
   const ld = {
     "@context": "https://schema.org",
@@ -567,12 +776,20 @@ function renderPost(p, all) {
     headline: plain(p.title),
     description: plain(p.summary),
     datePublished: p.date,
+    dateModified: checked,
     inLanguage: "hi-IN",
     articleSection: catName(p.cat),
     mainEntityOfPage: url,
     publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
     author: { "@type": "Organization", name: SITE.name },
   };
+
+  const hero = `<header class="arthero">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> ${hub ? `<a href="/${hub.slug}/">${esc(hub.title)}</a> <span>›</span> ` : ""}<span>${esc(catName(p.cat))}</span></nav>
+  <div class="kindrow"><span class="kind">${esc(catName(p.cat))} · ${esc(SEV[p.severity] || "जानकारी")}</span><span class="verified">✓ स्रोत से जाँचा · ${fmtDateEn(checked)}</span></div>
+  <h1>${esc(p.title)}</h1>
+  <div class="one"><span class="l">एक लाइन में</span><p>${esc(p.one || p.summary)}</p></div>
+</header>`;
 
   return head({
     title: `${plain(p.title)} — ${SITE.name}`,
@@ -581,41 +798,122 @@ function renderPost(p, all) {
     type: "article",
     published: p.date,
     ogImage: `${SITE.url}/post-og/${encodeURIComponent(p.id)}.png`,
+    hero,
   }) + `
 <main id="main">
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> ${hub ? `<a href="/${hub.slug}/">${esc(hub.title)}</a> <span>›</span> ` : ""}<span>${esc(catName(p.cat))}</span></nav>
   <article>
-    <header>
-      <div class="postmeta">
-        <span style="color:${catColor(p.cat)}">${esc(catName(p.cat))}</span><span>·</span>
-        <span>${fmtDateLine(p.date)}</span><span>·</span>
-        <span>${esc(SEV[p.severity] || "जानकारी")}</span>
-      </div>
-      <h1>${esc(p.title)}</h1>
-    </header>
-    <section class="answerbox" aria-label="सीधा जवाब और अभी क्या करें">
-      <h2>सीधा जवाब</h2><p>${esc(p.summary)}</p>
-      ${points.length ? `<h2>अभी क्या करें</h2><ul>${points.slice(0,3).map(point=>`<li>${esc(point)}</li>`).join("")}</ul>` : ""}
-    </section>
-    ${infoVisual(p, true)}
-    <div class="prose">${renderBody(p.body)}</div>
-    ${sources ? `<div class="sources"><h3>स्रोत — खुद जाँचिए</h3>${sources}</div>` : ""}
-    <p class="verline">स्रोत: ${esc((p.sources || []).map((s) => s.label).join(" · ") || "—")}<br>
-    प्रकाशित: ${fmtDateLine(p.date)}${p.verified && p.verified !== p.date ? ` · आख़िरी जाँच: ${fmtDateLine(p.verified)}` : ""}<br>
-    नियम बाद में बदल सकते हैं — ऊपर दिया स्रोत खोलकर ताज़ा स्थिति देख लीजिए।</p>
+    ${tiles}
+    ${tocHTML}
+    <div class="prose wk">${body.html}
+    ${srcs.length ? `<h2 id="src"><i aria-hidden="true">${srcNo}</i><span>स्रोत — खुद जाँचिए</span></h2>
+    <ol class="srclist">${srcs.map((s, i) => `<li id="src-${i + 1}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a></li>`).join("")}</ol>` : ""}
+    </div>
     ${tags ? `<div class="tagrow">${tags}</div>` : ""}
     <div class="postfoot">
-      <a class="btn" href="${esc(waShare(p.title, url))}" target="_blank" rel="noopener">WhatsApp पर भेजें</a>
+      <a class="btn wa" href="${esc(waShare(p.title, url))}" target="_blank" rel="noopener">WhatsApp पर भेजें</a>
       <button class="btn copy-link" type="button" data-url="${esc(url)}">Link copy करें</button><span class="copy-status" role="status" aria-live="polite"></span>
-      <a class="btn" href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent(`Seedha Matlab correction: ${p.title}`)}">सुधार बताएं</a>
+      <a class="btn" href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent(`Seedha Matlab correction: ${p.title}`)}">ग़लती दिखी? सुधार बताएं</a>
       ${hub ? `<a class="btn" href="/${hub.slug}/">${esc(hub.title)} के सारे लेख</a>` : ""}
       <a class="btn" href="/">और पोस्ट पढ़ें</a>
     </div>
+    <p class="verline">प्रकाशित: ${fmtDateLine(p.date)}${checked !== p.date ? ` · आख़िरी जाँच: ${fmtDateLine(checked)}` : ""}<br>
+    नियम बाद में बदल सकते हैं — ऊपर दिया स्रोत खोलकर ताज़ा स्थिति देख लीजिए।<br>
+    यह सामान्य जानकारी है, कानूनी या वित्तीय सलाह नहीं।</p>
   </article>
   ${others.length ? `<div class="more"><div class="listhead">इसे भी पढ़ें</div>${others.map(entryHTML).join("\n")}</div>` : ""}
 </main>
 <script>(function(){var b=document.querySelector('.copy-link'),s=document.querySelector('.copy-status');if(!b)return;b.addEventListener('click',async function(){try{await navigator.clipboard.writeText(b.getAttribute('data-url'));s.textContent='Link copy हो गया';}catch(e){s.textContent='Copy नहीं हुआ—browser का Share विकल्प इस्तेमाल करें';}});})();</script>
+${body.html.includes('class="calc"') ? `<script>${CALC_JS}</script>` : ""}
 <script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
+}
+
+/* ---- shabdkosh: shabd ke panne (data/terms.json) ---- */
+
+function termParts(t) {
+  const body = renderBodyWiki(t);
+  const srcs = t.sources || [];
+  const toc = body.toc.concat(srcs.length ? [{ id: "src", t: "स्रोत" }] : []);
+  return { body, srcs, toc, srcNo: body.n + 1 };
+}
+
+function renderTerm(t, posts) {
+  const url = `${SITE.url}/shabdkosh/${encodeURIComponent(t.id)}/`;
+  const { body, srcs, toc, srcNo } = termParts(t);
+  const art = t.article ? posts.find((p) => p.id === t.article) : null;
+  if (t.article && !art) throw new Error(`Term ${t.id}: lekh "${t.article}" nahi mila`);
+  const checked = t.verified || t.created;
+  const shareTitle = `${t.term} का मतलब: ${t.one}`;
+
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    name: t.term,
+    alternateName: t.fullEn || undefined,
+    description: plain(t.one),
+    url,
+    inLanguage: "hi-IN",
+    inDefinedTermSet: `${SITE.url}/shabdkosh/`,
+  };
+
+  const hero = `<header class="arthero">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> <a href="/shabdkosh/">शब्दकोश</a> <span>›</span> <span>${esc(t.group)}</span> <span>›</span> <span>${esc(t.term)}</span></nav>
+  <div class="kindrow"><span class="kind">शब्द · ${esc(t.group)}</span><span class="verified">✓ स्रोत से जाँचा · ${fmtDateEn(checked)}</span></div>
+  <h1 class="term">${esc(t.term)}</h1>
+  <p class="full">${esc(t.full)}</p>
+  <div class="one"><span class="l">एक लाइन में</span><p>${esc(t.one)}</p></div>
+</header>`;
+
+  return head({
+    title: `${t.term} का मतलब क्या है? ${t.fullEn ? t.fullEn + " — " : ""}${SITE.name}`,
+    desc: t.one,
+    canonical: url,
+    type: "article",
+    published: t.created,
+    hero,
+  }) + `
+<main id="main">
+  <article>
+    <div class="facts">${(t.facts || []).map((f) => `<div class="fact${f.good ? " g" : ""}"><span class="k">${esc(f.k)}</span><span class="v">${esc(f.v)}</span><span class="s">${esc(f.s || "")}</span></div>`).join("")}</div>
+    <nav class="toc" aria-label="इस पन्ने में">${toc.map((s) => `<a href="#${s.id}">${esc(s.t)}</a>`).join("")}</nav>
+    <div class="prose wk">${body.html}
+    ${art ? `<p class="fullart">पूरा लेख: <a href="/p/${encodeURIComponent(art.id)}/">${esc(t.articleLabel || art.title)}</a></p>` : ""}
+    <h2 id="src"><i aria-hidden="true">${srcNo}</i><span>स्रोत</span></h2>
+    <ol class="srclist">${srcs.map((s, i) => `<li id="src-${i + 1}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a></li>`).join("")}</ol>
+    </div>
+    <div class="postfoot">
+      <a class="btn wa" href="${esc(waShare(shareTitle, url))}" target="_blank" rel="noopener">WhatsApp पर भेजें</a>
+      <button class="btn copy-link" type="button" data-url="${esc(url)}">Link copy करें</button><span class="copy-status" role="status" aria-live="polite"></span>
+      <a class="btn" href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent(`Seedha Matlab correction: ${t.term}`)}">ग़लती दिखी? सुधार बताएं</a>
+    </div>
+    <p class="verline">पन्ना बना: ${fmtDateLine(t.created)} · आख़िरी जाँच: ${fmtDateLine(checked)}<br>
+    यह सामान्य जानकारी है, कानूनी या वित्तीय सलाह नहीं।</p>
+  </article>
+</main>
+<script>(function(){var b=document.querySelector('.copy-link'),s=document.querySelector('.copy-status');if(!b)return;b.addEventListener('click',async function(){try{await navigator.clipboard.writeText(b.getAttribute('data-url'));s.textContent='Link copy हो गया';}catch(e){s.textContent='Copy नहीं हुआ—browser का Share विकल्प इस्तेमाल करें';}});})();</script>
+${body.html.includes('class="calc"') ? `<script>${CALC_JS}</script>` : ""}
+<script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
+}
+
+function renderTermIndex(terms) {
+  const url = `${SITE.url}/shabdkosh/`;
+  const hero = `<header class="arthero">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> <span>शब्दकोश</span></nav>
+  <h1 class="term idx">पैसे का शब्दकोश</h1>
+  <p class="full">पैसे से जुड़े शब्द, सीधी भाषा में। हर पन्ने के नीचे सरकारी स्रोत।</p>
+</header>`;
+  return head({
+    title: `पैसे का शब्दकोश — ${SITE.name}`,
+    desc: "पैसे से जुड़े शब्द, सीधी भाषा में। हर पन्ने के नीचे सरकारी स्रोत।",
+    canonical: url,
+    hero,
+  }) + `
+<main id="main">
+  <div class="termlist">${terms.map((t) => `<a class="termcard" href="/shabdkosh/${encodeURIComponent(t.id)}/">
+    <span class="k">शब्द · ${esc(t.group)}</span>
+    <strong>${esc(t.term)}</strong>
+    <span class="s">${esc(t.one)}</span>
+  </a>`).join("")}</div>
+</main>` + foot();
 }
 
 function renderPage({ slug, title, desc, body }) {
@@ -1148,6 +1446,12 @@ function main() {
   HUBS.forEach((h) => write(path.join(h.slug, "index.html"), renderHub(h, posts)));
   write(path.join("faq", "index.html"), renderFAQ());
 
+  // Shabdkosh: data/terms.json ho to shabd ke panne bante hain.
+  const termsFile = path.join(__dirname, "data", "terms.json");
+  const terms = fs.existsSync(termsFile) ? (JSON.parse(fs.readFileSync(termsFile, "utf8")).terms || []) : [];
+  terms.forEach((t) => write(path.join("shabdkosh", t.id, "index.html"), renderTerm(t, posts)));
+  if (terms.length) write(path.join("shabdkosh", "index.html"), renderTermIndex(terms));
+
   write("feed.xml", renderFeed(posts));
   write("manifest.webmanifest", JSON.stringify({
     id: "/",
@@ -1172,6 +1476,8 @@ function main() {
     { loc: `${SITE.url}/` },
     ...posts.map((p) => ({ loc: `${SITE.url}/p/${encodeURIComponent(p.id)}/`, lastmod: p.date })),
     { loc: `${SITE.url}/faq/` },
+    ...(terms.length ? [{ loc: `${SITE.url}/shabdkosh/` }] : []),
+    ...terms.map((t) => ({ loc: `${SITE.url}/shabdkosh/${encodeURIComponent(t.id)}/`, lastmod: t.verified || t.created })),
     ...HUBS.map((h) => ({ loc: `${SITE.url}/${h.slug}/` })),
     ...PAGES.map((pg) => ({ loc: `${SITE.url}/${pg.slug}/` })),
   ];
