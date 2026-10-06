@@ -727,17 +727,260 @@
           ]
         },
         {
-          "label": "National Cyber Crime Reporting Portal — FAQ",
+          "label": "National Cyber Crime Reporting Portal — FAQ (सवाल ऊपर से गिने गए हैं)",
           "url": "https://cybercrime.gov.in/Webform/FAQ.aspx",
           "used": [
             {
-              "ref": "\"Can I check the status of my complaint?\"",
+              "ref": "सवाल 13",
               "c": "acknowledgement number से portal पर शिकायत का status देखा जा सकता है"
             }
           ]
         }
       ],
       "body": "## मतलब\n\n1930 गृह मंत्रालय की toll-free helpline है। यह पैसे की ऑनलाइन ठगी तुरंत बताने के लिए है, और cybercrime.gov.in पर शिकायत दर्ज करने में मदद भी इसी पर मिलती है।[^1] पहले यह नंबर 155260 था।[^1]\n\nCall आपके राज्य की पुलिस उठाती है।[^2] शिकायत जिस system पर चढ़ती है, उसका नाम CFCFRMS है (Citizen Financial Cyber Fraud Reporting and Management System)। यह गृह मंत्रालय के I4C के तहत चलता है।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ऑनलाइन ठगी में पैसा कट गया है:** तुरंत 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^4]\n- **देर मत कीजिए:** पैसा तभी रोका जा सकता है जब तक वह digital system से बाहर न निकला हो।[^2]\n- **पैसा नहीं गया, सिर्फ़ संदिग्ध link या number मिला है:** उसका रास्ता अलग है। [कहाँ report करें, यहाँ देखिए](/p/report-suspect/)।\n\n## कैसे काम करता है\n\n::flow\n\n- आप 1930 पर call करते हैं। Call आपके राज्य की पुलिस का operator उठाता है।[^2]\n- Operator ठगी वाले लेनदेन का ब्योरा और आपकी बुनियादी जानकारी लेकर system पर ticket बनाता है।\n- Ticket आपके bank तक, और उस bank या wallet तक जाता है जहाँ पैसा गया है।\n- रक़म वहाँ अभी बची है, तो bank उसे रोक देता है। आगे किसी और bank में जा चुकी है, तो ticket उस bank को चला जाता है।\n- आपको SMS से शिकायत का acknowledgement number मिलता है।\n\n30 जून 2026 तक इस system से 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा बचाए गए हैं।[^3]\n\n## call पर क्या बताना होता है | क्या बताना है\n\ncybercrime.gov.in के दस्तावेज़ के मुताबिक helpline पर यह जानकारी देनी होती है:[^4]\n\n- आपका mobile number\n- जिस bank, wallet या merchant से पैसा कटा, उसका नाम\n- खाता संख्या, wallet ID, merchant ID या UPI ID, जिससे पैसा कटा\n- Transaction ID\n- Transaction की तारीख़\n- ठगी card की जानकारी से हुई है, तो debit या credit card का number\n- Transaction का screenshot या ठगी से जुड़ी कोई तस्वीर, अगर हो\n\nइस सूची में OTP, UPI PIN या CVV नहीं है।\n\n## call के बाद क्या करना है | call के बाद\n\n- SMS या mail से एक Log-in ID या acknowledgement number मिलेगा। उसी से **24 घंटे के अंदर** cybercrime.gov.in पर शिकायत पूरी कीजिए। दस्तावेज़ में लिखा है: *\"This is mandatory.\"*[^4]\n- इसके बाद पुलिस अधिकारी मामले को जाँचकर bank या wallet को रक़म रोकने के लिए कहता है।[^4]\n- अपने bank को भी अलग से बताइए। दोनों अलग रास्ते हैं। [पूरा क्रम यहाँ है](/p/online-fraud-kya-kare/)।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> 1930 toll-free है। Call का कोई शुल्क नहीं लगता।[^1]\n\n- शिकायत के बाद आपको acknowledgement number मिलता है। उससे आप portal पर अपनी शिकायत का status देख सकते हैं।[^6]\n- गृह मंत्रालय ने इस system के लिए एक SOP जारी किया है। ठगी की रक़म जल्दी लौटाने के लिए Money Restoration Module, और खाता freeze या lien की शिकायतों के लिए Grievance Redressal Module, अप्रैल 2026 से चालू हैं।[^3]\n\n## अभी क्या करें\n\n- 1930 अपने phone में save कर लीजिए, और घर के बड़ों के phone में भी।\n- ठगी हो जाए तो क्रम याद रखिए: bank को बताइए, 1930 पर call कीजिए, 24 घंटे के अंदर portal पर शिकायत पूरी कीजिए।\n- कोई OTP, UPI PIN या CVV माँगे, तो मत दीजिए।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "cybercrime-gov-in",
+      "term": "cybercrime.gov.in",
+      "aliases": [
+        "NCRP",
+        "National Cyber Crime Reporting Portal",
+        "National Cybercrime Reporting Portal"
+      ],
+      "full": "National Cyber Crime Reporting Portal (NCRP) · राष्ट्रीय साइबर अपराध रिपोर्टिंग पोर्टल",
+      "fullEn": "National Cyber Crime Reporting Portal",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-06",
+      "verified": "2026-10-06",
+      "history": [
+        {
+          "d": "2026-10-06",
+          "t": "पन्ना बना। गृह मंत्रालय की तीन press release (9 मार्च 2021, 5 अगस्त 2025, 28 जुलाई 2026) और portal के अपने पन्नों से जाँचा।"
+        }
+      ],
+      "one": "cybercrime.gov.in गृह मंत्रालय का portal है, जहाँ हर तरह के साइबर अपराध की शिकायत ऑनलाइन दर्ज की जा सकती है।",
+      "facts": [
+        {
+          "k": "क्या दर्ज होता है",
+          "v": "हर साइबर अपराध",
+          "s": "पैसे की ठगी, hacking, social media पर अपराध और बाक़ी",
+          "good": true
+        },
+        {
+          "k": "किसका",
+          "v": "गृह मंत्रालय",
+          "s": "पूरा नाम: National Cyber Crime Reporting Portal"
+        },
+        {
+          "k": "कब से",
+          "v": "30 Aug 2019",
+          "s": "हर तरह के साइबर अपराध के लिए"
+        },
+        {
+          "k": "कार्रवाई",
+          "v": "राज्य की पुलिस",
+          "s": "जिस राज्य को आप शिकायत में चुनते हैं"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप",
+            "s": "शिकायत दर्ज करते हैं"
+          },
+          {
+            "t": "Portal",
+            "s": "acknowledgement number देता है"
+          },
+          {
+            "t": "राज्य की पुलिस",
+            "s": "कार्रवाई और FIR"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "शिकायत",
+            "s": "ब्योरा और सबूत"
+          },
+          {
+            "b": "आगे जाती है",
+            "s": "चुने हुए राज्य को"
+          }
+        ],
+        "note": "शिकायत उसी राज्य या केंद्र-शासित प्रदेश की पुलिस के पास जाती है, जिसे आप शिकायत में चुनते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"यह portal सिर्फ़ पैसे की ठगी के लिए है।\"",
+          "f": "नहीं। यहाँ हर तरह के साइबर अपराध की शिकायत दर्ज होती है, जैसे hacking, ransomware और social media पर अपराध।[^4]"
+        },
+        {
+          "m": "\"Portal पर शिकायत डाल दी, यानी FIR हो गई।\"",
+          "f": "नहीं। शिकायत और FIR अलग हैं। शिकायत को FIR में बदलना और आगे की कार्रवाई राज्य की पुलिस करती है।[^3]"
+        },
+        {
+          "m": "\"कोई भी शिकायत बिना नाम बताए हो सकती है।\"",
+          "f": "नहीं। बिना नाम की शिकायत सिर्फ़ महिलाओं और बच्चों से जुड़े कुछ अपराधों में हो सकती है। बाक़ी शिकायतों के लिए नाम और mobile number से register करना होता है।[^4]"
+        },
+        {
+          "m": "\"I4C के अफ़सर के नाम से mail आया है, तो असली ही होगा।\"",
+          "f": "ज़रूरी नहीं। Portal ने ख़ुद चेतावनी दी है कि I4C के CEO, Intelligence Bureau और Delhi Police के अफ़सरों के नाम से नक़ली mail भेजे जा रहे हैं।[^6]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "NCRP क्या है?",
+          "a": "National Cyber Crime Reporting Portal का छोटा नाम। यही cybercrime.gov.in है।"
+        },
+        {
+          "q": "शिकायत दर्ज करने के लिए क्या चाहिए?",
+          "a": "आपका नाम और चालू भारतीय mobile number। उस पर OTP आता है, जो 30 मिनट तक चलता है।"
+        },
+        {
+          "q": "शिकायत का status कैसे देखें?",
+          "a": "शिकायत के बाद मिले acknowledgement number से portal पर status देखा जा सकता है।"
+        },
+        {
+          "q": "शिकायत वापस ली जा सकती है?",
+          "a": "महिलाओं और बच्चों वाली श्रेणी की शिकायत वापस नहीं ली जा सकती। बाक़ी साइबर अपराध की शिकायत FIR में बदलने से पहले वापस ली जा सकती है।"
+        },
+        {
+          "q": "1930 और cybercrime.gov.in में क्या फ़र्क़ है?",
+          "a": "1930 phone की helpline है, पैसे की ठगी तुरंत बताने के लिए। cybercrime.gov.in portal है, जहाँ हर तरह के साइबर अपराध की शिकायत दर्ज होती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "1930"
+        },
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "CFCFRMS"
+        },
+        {
+          "t": "OTP"
+        }
+      ],
+      "article": "online-fraud-kya-kare",
+      "articleLabel": "Online fraud हो गया, पैसा कट गया? अभी क्या करें",
+      "sources": [
+        {
+          "label": "गृह मंत्रालय (PIB) — Cyber Crime Mitigation Centre, लोकसभा में लिखित उत्तर, 28 जुलाई 2026 (Release ID 2290366)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290366",
+          "issued": "2026-07-28",
+          "used": [
+            {
+              "ref": "NCRP वाला बिंदु",
+              "c": "portal I4C का हिस्सा है; हर तरह के साइबर अपराध की report के लिए; महिलाओं और बच्चों के ख़िलाफ़ अपराध पर ख़ास ध्यान"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — Performance of Cyber Crime Prevention Scheme, लोकसभा में लिखित उत्तर, 5 अगस्त 2025 (Release ID 2152495)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2152495",
+          "issued": "2025-08-05",
+          "used": [
+            {
+              "ref": "portal वाला बिंदु",
+              "c": "portal 20 सितंबर 2018 को शुरू हुआ; 30 अगस्त 2019 से नए रूप में, हर तरह के साइबर अपराध के लिए"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — National Cyber Crime Reporting Portal, लोकसभा में लिखित उत्तर, 9 मार्च 2021 (Release ID 1703509)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1703509",
+          "issued": "2021-03-09",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "शिकायत को FIR में बदलना और आगे की कार्रवाई राज्य / केंद्र-शासित प्रदेश की पुलिस करती है"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — FAQ (सवाल ऊपर से गिने गए हैं)",
+          "url": "https://cybercrime.gov.in/Webform/FAQ.aspx",
+          "used": [
+            {
+              "ref": "सवाल 4",
+              "c": "कौन-से अपराध report हो सकते हैं"
+            },
+            {
+              "ref": "सवाल 5",
+              "c": "नाम और भारतीय mobile number से register करना; OTP 30 मिनट चलता है; बिना नाम की शिकायत किन मामलों में"
+            },
+            {
+              "ref": "सवाल 8",
+              "c": "सबूत की सूची; सबूत सँभालकर रखना"
+            },
+            {
+              "ref": "सवाल 9",
+              "c": "झूठी जानकारी देने पर कानूनी कार्रवाई हो सकती है"
+            },
+            {
+              "ref": "सवाल 11",
+              "c": "शिकायत चुने हुए राज्य की पुलिस के पास जाती है"
+            },
+            {
+              "ref": "सवाल 12",
+              "c": "SMS और e-mail से reference number मिलता है"
+            },
+            {
+              "ref": "सवाल 13",
+              "c": "acknowledgement number से status देखा जा सकता है"
+            },
+            {
+              "ref": "सवाल 14",
+              "c": "कौन-सी शिकायत वापस ली जा सकती है"
+            },
+            {
+              "ref": "सवाल 16–17",
+              "c": "ठगने वाला विदेशी हो, या शिकायत करने वाला भारत का नागरिक न हो, तब भी शिकायत हो सकती है"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — Citizen Financial Cyber Frauds Reporting and Management System: Steps for reporting of financial cyber frauds (दस्तावेज़ पर तारीख़ नहीं है)",
+          "url": "https://cybercrime.gov.in/UploadMedia/instructions_citizenreportingcyberfrauds.pdf",
+          "used": [
+            {
+              "ref": "बिंदु i",
+              "c": "पैसे की ठगी में 1930 पर call या portal पर report"
+            },
+            {
+              "ref": "बिंदु iv",
+              "c": "call के बाद 24 घंटे के अंदर portal पर शिकायत पूरी करना ज़रूरी"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — पहला पन्ना (Last Updated: 31/08/2026)",
+          "url": "https://cybercrime.gov.in/",
+          "used": [
+            {
+              "ref": "ऊपर के तीन button",
+              "c": "तीन रास्ते: Women/Children Related Crime, Financial Fraud, Other Cyber Crime"
+            },
+            {
+              "ref": "What's new",
+              "c": "Report Suspect की सुविधा; नक़ली mail की चेतावनी"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — Contact Us (राज्यवार Nodal / Grievance Officer)",
+          "url": "https://cybercrime.gov.in/Webform/Crime_NodalGrivanceList.aspx",
+          "used": [
+            {
+              "ref": "Note",
+              "c": "जवाब ठीक न मिले तो राज्य के Nodal Officer या Grievance Officer से संपर्क"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\ncybercrime.gov.in गृह मंत्रालय का portal है। इसका पूरा नाम National Cyber Crime Reporting Portal है, छोटा नाम NCRP। यहाँ आम लोग हर तरह के साइबर अपराध की शिकायत ऑनलाइन दर्ज कर सकते हैं। महिलाओं और बच्चों के ख़िलाफ़ साइबर अपराध पर इसका ख़ास ध्यान है। यह I4C का हिस्सा है।[^1]\n\nयह portal 20 सितंबर 2018 को शुरू हुआ था। तब यहाँ सिर्फ़ बच्चों के यौन शोषण और यौन हिंसा से जुड़ी ऑनलाइन सामग्री की report होती थी। 30 अगस्त 2019 से यहाँ हर तरह के साइबर अपराध की शिकायत दर्ज होती है।[^2]\n\nPortal का पता: [https://cybercrime.gov.in](https://cybercrime.gov.in)\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ऑनलाइन ठगी में पैसा कट गया है:** 1930 पर call कीजिए या इसी portal पर report कीजिए। Call की है, तो 24 घंटे के अंदर शिकायत यहीं पूरी करनी होती है।[^5]\n- **कोई और साइबर अपराध हुआ है** (जैसे hacking, ransomware, social media पर अपराध): शिकायत इसी portal पर दर्ज होती है।[^4]\n- **पैसा नहीं गया, सिर्फ़ संदिग्ध link या number मिला है:** portal पर इसके लिए \"Report Suspect\" की अलग सुविधा है।[^6] [कैसे करें, यहाँ देखिए](/p/report-suspect/)।\n\n## कैसे काम करता है\n\n::flow\n\n- Portal पर तीन रास्ते दिखते हैं: Women/Children Related Crime, Financial Fraud और Other Cyber Crime।[^6]\n- शिकायत के लिए अपने नाम और भारतीय mobile number से register करना होता है। Mobile पर OTP आता है, जो 30 मिनट तक चलता है।[^4]\n- फिर अपराध की श्रेणी चुनकर ब्योरा और सबूत देने होते हैं।\n- शिकायत जमा होने पर SMS और e-mail से एक reference number मिलता है।\n- शिकायत उस राज्य की पुलिस के पास जाती है, जिसे आपने चुना।\n- शिकायत को FIR में बदलना और आगे की कार्रवाई उसी राज्य की पुलिस करती है।[^3]\n\n## सबूत में क्या रखें | सबूत\n\nPortal के FAQ में सबूत की यह सूची दी गई है:[^4]\n\n- Bank statement\n- Online money transfer की रसीद\n- Credit card की रसीद\n- Email की copy\n- Webpage का URL\n- Chat का पूरा ब्योरा\n- संदिग्ध mobile number का screenshot\n- Video और तस्वीरें\n- डाक या courier से कुछ आया हो, तो उसका लिफ़ाफ़ा\n- कोई brochure या pamphlet\n- मामले से जुड़ा कोई और दस्तावेज़\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> अपनी शिकायत का status आप ख़ुद देख सकते हैं: acknowledgement number से, portal पर।[^4]\n\n- \"Report & Track\" से शिकायत की है और जवाब ठीक नहीं मिला, तो अपने राज्य के Nodal Officer या Grievance Officer से संपर्क कर सकते हैं। उनकी सूची portal के Contact Us पन्ने पर है।[^7]\n- ठगने वाला विदेशी व्यक्ति या कंपनी हो, तब भी शिकायत दर्ज की जा सकती है। आप भारत के नागरिक नहीं हैं, तब भी।[^4]\n\n## अभी क्या करें\n\n- Portal का पता ख़ुद type कीजिए: cybercrime.gov.in। किसी message या mail में आए link से मत खोलिए।\n- सबूत मत मिटाइए। Chat, email, screenshot और transaction की रसीद सँभालकर रखिए।[^4]\n- शिकायत में सही जानकारी दीजिए। FAQ के मुताबिक झूठी जानकारी देने पर कानूनी कार्रवाई हो सकती है।[^4]\n- शिकायत के बाद मिला acknowledgement number सँभालकर रखिए।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
