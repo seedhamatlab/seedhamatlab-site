@@ -383,6 +383,22 @@ sup.ref a{color:var(--verify);text-decoration:none}
 .termcard .k{display:block;font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.12em;color:var(--ink-3)}
 .termcard strong{display:block;font-size:25px;font-weight:800;line-height:1.25;margin-top:3px}
 .termcard .s{display:block;font-size:14px;color:var(--ink-2);line-height:1.55;margin-top:4px}
+.histlist{list-style:none;margin:0 0 14px;padding:0;border-left:2px solid var(--line);font-size:15px}
+.histlist li{position:relative;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;padding:3px 0 9px 16px}
+.histlist li:before{content:"";position:absolute;left:-5px;top:11px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.histlist time{flex:none;font-family:var(--mono);font-size:12px;color:var(--ink-3);min-width:92px}
+.histlist span{flex:1;min-width:180px;color:var(--ink-2)}
+.arthero .herosearch{margin-top:16px}
+.azbar{display:flex;flex-wrap:wrap;gap:5px;margin:20px 0 4px}
+.azbar a,.azbar span{display:grid;place-items:center;min-width:31px;height:31px;border-radius:8px;font-family:var(--mono);font-size:13px;text-decoration:none}
+.azbar a{background:var(--accent);color:#fff;font-weight:500}
+.azbar span{background:var(--surface);color:var(--line);border:1px solid var(--line-soft)}
+.azcount{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin:10px 0 0}
+.azletter{font-family:var(--sans);font-weight:800;font-size:22px;line-height:1;color:var(--accent);margin:22px 0 0;padding-bottom:7px;border-bottom:1px solid var(--line);scroll-margin-top:12px}
+.azgroup .termlist{margin:12px 0 4px}
+.empty a{color:var(--verify)}
+.prose a.tl,.mf a.tl,.qlist a.tl,.rightbox a.tl{color:#1F4FA6;text-decoration:none;border-bottom:1px solid rgba(31,79,166,.35)}
+.prose a.tl:hover,.prose a.tl:focus-visible{background:#EEF1FB;border-bottom-color:#1F4FA6}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 `;
 
@@ -672,7 +688,43 @@ function calcFee(c, a) {
   return { fee: Math.round(a * c.rate * 100) / 100, note: c.notes.rate };
 }
 
-function blockHTML(p, spec) {
+// Neele link: jis shabd ka apna panna hai, wo lekh ke beech me apne aap link ban jata hai.
+// Har hisse me pehli baar, apne hi panne par nahi, aur quote ya doosre link ke andar nahi.
+let TERM_LINKS = { re: null, map: {} };
+function setTermLinks(terms) {
+  const map = {};
+  terms.forEach((t) => [t.term].concat(t.aliases || []).forEach((name) => {
+    const k = String(name || "").trim().toLowerCase();
+    if (k) map[k] = { id: t.id, href: `/shabdkosh/${encodeURIComponent(t.id)}/`, one: t.one };
+  }));
+  const names = Object.keys(map).sort((a, b) => b.length - a.length)
+    .map((n) => esc(n).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const edge = "A-Za-z0-9\u0900-\u097F";
+  TERM_LINKS = { map, re: names.length ? new RegExp(`(?<![${edge}])(${names.join("|")})(?![${edge}])`, "gi") : null };
+}
+function termLink(name) {
+  return TERM_LINKS.map[String(name || "").trim().toLowerCase()] || null;
+}
+function autolink(html, ctx) {
+  if (!TERM_LINKS.re) return html;
+  let skip = 0;
+  return html.split(/(<[^>]+>)/).map((part) => {
+    if (part.startsWith("<")) {
+      if (/^<(a|em|sup)\b/i.test(part)) skip += 1;
+      else if (/^<\/(a|em|sup)>/i.test(part)) skip = Math.max(0, skip - 1);
+      return part;
+    }
+    if (skip) return part;
+    return part.replace(TERM_LINKS.re, (m) => {
+      const hit = TERM_LINKS.map[m.toLowerCase()];
+      if (!hit || hit.id === ctx.self || ctx.seen.has(hit.id)) return m;
+      ctx.seen.add(hit.id);
+      return `<a class="tl" href="${hit.href}" title="${esc(hit.one)}">${m}</a>`;
+    });
+  }).join("");
+}
+
+function blockHTML(p, spec, il = inline) {
   const [name, arg] = spec.split(/\s+/);
   const need = (v, what) => { if (!v || (Array.isArray(v) && !v.length)) throw new Error(`Post ${p.id}: "::${spec}" ke liye "${what}" nahi mila`); return v; };
 
@@ -702,27 +754,32 @@ function blockHTML(p, spec) {
 
   if (name === "myths") {
     return need(p.myths, "myths").map((m) =>
-      `<div class="mf"><div class="m"><b class="l">✕ ग़लतफ़हमी</b>${inline(m.m)}</div><div class="f"><b class="l">✓ सच</b>${inline(m.f)}</div></div>`).join("");
+      `<div class="mf"><div class="m"><b class="l">✕ ग़लतफ़हमी</b>${inline(m.m)}</div><div class="f"><b class="l">✓ सच</b>${il(m.f)}</div></div>`).join("");
   }
 
   if (name === "faq") {
     return `<div class="qlist">${need(p.faq, "faq").map((f) =>
-      `<div class="q"><b>${esc(f.q)}</b><span>${inline(f.a)}</span></div>`).join("")}</div>`;
+      `<div class="q"><b>${esc(f.q)}</b><span>${il(f.a)}</span></div>`).join("")}</div>`;
   }
 
   if (name === "related") {
-    return `<div class="chips">${need(p.related, "related").map((r) =>
-      r.href ? `<a href="${esc(r.href)}">${esc(r.t)}</a>` : `<span class="soon">${esc(r.t)} · जल्द</span>`).join("")}</div>`;
+    // Jis jude shabd ka panna ban chuka hai, wo apne aap link ban jata hai; baaki par "जल्द".
+    return `<div class="chips">${need(p.related, "related").map((r) => {
+      const href = r.href || (termLink(r.t) || {}).href;
+      return href ? `<a href="${esc(href)}">${esc(r.t)}</a>` : `<span class="soon">${esc(r.t)} · जल्द</span>`;
+    }).join("")}</div>`;
   }
 
   throw new Error(`Post ${p.id}: anjaan block "::${spec}"`);
 }
 
-function renderBodyWiki(p) {
+function renderBodyWiki(p, self = null) {
   const lines = String(p.body || "").split("\n");
   let html = "", list = null, para = [], n = 0;
   const toc = [];
-  const flushPara = () => { if (para.length) { html += `<p>${inline(para.join(" "))}</p>`; para = []; } };
+  const ctx = { self, seen: new Set() };
+  const il = (s) => autolink(inline(s), ctx);
+  const flushPara = () => { if (para.length) { html += `<p>${il(para.join(" "))}</p>`; para = []; } };
   const flushList = () => { if (list) { html += `<ul>${list}</ul>`; list = null; } };
   const flush = () => { flushPara(); flushList(); };
   for (const raw of lines) {
@@ -733,16 +790,28 @@ function renderBodyWiki(p) {
       // "## Shirshak | chhota naam" -> patti me chhota naam; "| -" -> patti me nahi
       const [t, short] = ln.slice(3).split("|").map((x) => x.trim());
       n += 1;
+      ctx.seen = new Set();
       if (short !== "-") toc.push({ id: `s${n}`, t: short || t });
       html += `<h2 id="s${n}"><i aria-hidden="true">${n}</i><span>${esc(t)}</span></h2>`;
     }
-    else if (ln.startsWith("::")) { flush(); html += blockHTML(p, ln.slice(2).trim()); }
-    else if (ln.startsWith("> ")) { flush(); html += `<div class="rightbox">${inline(ln.slice(2))}</div>`; }
-    else if (ln.startsWith("- ")) { flushPara(); list = (list || "") + `<li>${inline(ln.slice(2))}</li>`; }
+    else if (ln.startsWith("::")) { flush(); html += blockHTML(p, ln.slice(2).trim(), il); }
+    else if (ln.startsWith("> ")) { flush(); html += `<div class="rightbox">${il(ln.slice(2))}</div>`; }
+    else if (ln.startsWith("- ")) { flushPara(); list = (list || "") + `<li>${il(ln.slice(2))}</li>`; }
     else { flushList(); para.push(ln); }
   }
   flush();
   return { html, toc, n };
+}
+
+// Sudhar ka itihaas: tareekh ke saath, sabse naya upar.
+function historyHTML(no, rows) {
+  const items = rows.filter((r) => r && r.d && r.t)
+    .map((r, i) => ({ r, i }))
+    .sort((a, b) => String(b.r.d).localeCompare(String(a.r.d)) || b.i - a.i)
+    .map((x) => x.r);
+  if (!items.length) return "";
+  return `<h2 id="hist"><i aria-hidden="true">${no}</i><span>सुधार का इतिहास</span></h2>
+    <ul class="histlist">${items.map((r) => `<li><time datetime="${esc(r.d)}">${fmtDateLine(r.d)}</time><span>${inline(r.t)}</span></li>`).join("")}</ul>`;
 }
 
 const CALC_JS = `(function(){var boxes=document.querySelectorAll('.calc[data-calc]');[].forEach.call(boxes,function(box){var c=JSON.parse(box.getAttribute('data-calc')),inp=box.querySelector('input'),pay=box.querySelector('[data-o=pay]'),fee=box.querySelector('[data-o=fee]'),note=box.querySelector('[data-o=note]');function f(n){var r=Math.round(n*100)/100,w=r===Math.floor(r);return '₹'+r.toLocaleString('en-IN',{minimumFractionDigits:w?0:2,maximumFractionDigits:2});}function run(){var d=inp.value.replace(/[^0-9]/g,'').slice(0,9),a=d?parseInt(d,10):0;inp.value=d?a.toLocaleString('en-IN'):'';var m,t;if(a<=c.free){m=0;t=c.notes.free;}else if(a>=c.capFrom){m=c.cap;t=c.notes.cap;}else{m=Math.round(a*c.rate*100)/100;t=c.notes.rate;}pay.textContent=f(a);fee.textContent=f(m);note.textContent=d?t:'';}inp.addEventListener('input',run);});})();`;
@@ -807,6 +876,7 @@ function renderPost(p, all) {
     <div class="prose wk">${body.html}
     ${srcs.length ? `<h2 id="src"><i aria-hidden="true">${srcNo}</i><span>स्रोत — खुद जाँचिए</span></h2>
     <ol class="srclist">${srcs.map((s, i) => `<li id="src-${i + 1}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a></li>`).join("")}</ol>` : ""}
+    ${historyHTML(srcNo + (srcs.length ? 1 : 0), [{ d: p.date, t: "प्रकाशित" }].concat(checked !== p.date ? [{ d: checked, t: "स्रोत से आख़िरी जाँच" }] : [], p.history || []))}
     </div>
     ${tags ? `<div class="tagrow">${tags}</div>` : ""}
     <div class="postfoot">
@@ -830,7 +900,7 @@ ${body.html.includes('class="calc"') ? `<script>${CALC_JS}</script>` : ""}
 /* ---- shabdkosh: shabd ke panne (data/terms.json) ---- */
 
 function termParts(t) {
-  const body = renderBodyWiki(t);
+  const body = renderBodyWiki(t, t.id);
   const srcs = t.sources || [];
   const toc = body.toc.concat(srcs.length ? [{ id: "src", t: "स्रोत" }] : []);
   return { body, srcs, toc, srcNo: body.n + 1 };
@@ -879,6 +949,7 @@ function renderTerm(t, posts) {
     ${art ? `<p class="fullart">पूरा लेख: <a href="/p/${encodeURIComponent(art.id)}/">${esc(t.articleLabel || art.title)}</a></p>` : ""}
     <h2 id="src"><i aria-hidden="true">${srcNo}</i><span>स्रोत</span></h2>
     <ol class="srclist">${srcs.map((s, i) => `<li id="src-${i + 1}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a></li>`).join("")}</ol>
+    ${historyHTML(srcNo + 1, (t.history && t.history.length) ? t.history : [{ d: t.created, t: "पन्ना बना" }])}
     </div>
     <div class="postfoot">
       <a class="btn wa" href="${esc(waShare(shareTitle, url))}" target="_blank" rel="noopener">WhatsApp पर भेजें</a>
@@ -894,12 +965,32 @@ ${body.html.includes('class="calc"') ? `<script>${CALC_JS}</script>` : ""}
 <script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
 }
 
+const TERM_LIST_JS = `(function(){var q=document.getElementById('tq');if(!q)return;var cards=[].slice.call(document.querySelectorAll('.termcard')),groups=[].slice.call(document.querySelectorAll('.azgroup')),empty=document.getElementById('tempty'),count=document.getElementById('tcount'),bar=document.querySelector('.azbar');function run(){var v=q.value.trim().toLowerCase(),n=0;cards.forEach(function(c){var ok=!v||c.getAttribute('data-text').indexOf(v)>-1;c.hidden=!ok;if(ok)n++;});groups.forEach(function(g){g.hidden=!g.querySelector('.termcard:not([hidden])');});empty.hidden=n>0;bar.hidden=!!v;count.textContent=v?('नतीजे: '+n):('कुल शब्द: '+cards.length);}q.addEventListener('input',run);})();`;
+
 function renderTermIndex(terms) {
   const url = `${SITE.url}/shabdkosh/`;
+  const key = (t) => String(t.sort || t.term).trim();
+  const letterOf = (t) => { const c = key(t).charAt(0).toUpperCase(); return /[A-Z]/.test(c) ? c : "अ"; };
+  const list = terms.slice().sort((a, b) => key(a).localeCompare(key(b), "en", { sensitivity: "base" }));
+  const groups = {};
+  list.forEach((t) => { const L = letterOf(t); (groups[L] = groups[L] || []).push(t); });
+  const AZ = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+  const idOf = (L) => (L === "अ" ? "az-hi" : `az-${L}`);
+  const bar = AZ.concat(groups["अ"] ? ["अ"] : []).map((L) => groups[L] ? `<a href="#${idOf(L)}">${L}</a>` : `<span aria-hidden="true">${L}</span>`).join("");
+  const card = (t) => `<a class="termcard" href="/shabdkosh/${encodeURIComponent(t.id)}/" data-text="${esc([t.term, t.full, t.fullEn, t.one, (t.aliases || []).join(" ")].join(" ").toLowerCase())}">
+    <span class="k">शब्द · ${esc(t.group)}</span>
+    <strong>${esc(t.term)}</strong>
+    <span class="s">${esc(t.one)}</span>
+  </a>`;
   const hero = `<header class="arthero">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> <span>शब्दकोश</span></nav>
   <h1 class="term idx">पैसे का शब्दकोश</h1>
   <p class="full">पैसे से जुड़े शब्द, सीधी भाषा में। हर पन्ने के नीचे सरकारी स्रोत।</p>
+  <div class="herosearch" role="search">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <label for="tq" class="skip">शब्द खोजिए</label>
+    <input id="tq" type="search" placeholder="शब्द खोजिए, जैसे MDR" autocomplete="off">
+  </div>
 </header>`;
   return head({
     title: `पैसे का शब्दकोश — ${SITE.name}`,
@@ -908,14 +999,16 @@ function renderTermIndex(terms) {
     hero,
   }) + `
 <main id="main">
-  <div class="termlist">${terms.map((t) => `<a class="termcard" href="/shabdkosh/${encodeURIComponent(t.id)}/">
-    <span class="k">शब्द · ${esc(t.group)}</span>
-    <strong>${esc(t.term)}</strong>
-    <span class="s">${esc(t.one)}</span>
-  </a>`).join("")}</div>
-</main>` + foot();
+  <nav class="azbar" aria-label="A से Z">${bar}</nav>
+  <p class="azcount" id="tcount" role="status" aria-live="polite">कुल शब्द: ${list.length}</p>
+  ${AZ.concat(["अ"]).filter((L) => groups[L]).map((L) => `<section class="azgroup" id="${idOf(L)}" aria-label="${L}">
+    <h2 class="azletter">${L}</h2>
+    <div class="termlist">${groups[L].map(card).join("")}</div>
+  </section>`).join("")}
+  <p class="empty" id="tempty" hidden>यह शब्द अभी शब्दकोश में नहीं है। <a href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent("Seedha Matlab: yeh shabd jodiye")}">कौन-सा शब्द चाहिए, बताइए</a></p>
+</main>
+<script>${TERM_LIST_JS}</script>` + foot();
 }
-
 function renderPage({ slug, title, desc, body }) {
   return head({
     title: `${title} — ${SITE.name}`,
@@ -1435,6 +1528,11 @@ function main() {
     if (!ogCards[p.id]) throw new Error(`Missing share preview: ${p.id}`);
   }
 
+  // Shabdkosh: data/terms.json ke shabd. Pehle padhte hain taaki lekhon me neele link ban saken.
+  const termsFile = path.join(__dirname, "data", "terms.json");
+  const terms = fs.existsSync(termsFile) ? (JSON.parse(fs.readFileSync(termsFile, "utf8")).terms || []) : [];
+  setTermLinks(terms);
+
   fs.rmSync(path.join(__dirname, "dist"), { recursive: true, force: true });
 
   write("index.html", renderIndex(posts));
@@ -1445,10 +1543,6 @@ function main() {
   PAGES.forEach((pg) => write(path.join(pg.slug, "index.html"), renderPage(pg)));
   HUBS.forEach((h) => write(path.join(h.slug, "index.html"), renderHub(h, posts)));
   write(path.join("faq", "index.html"), renderFAQ());
-
-  // Shabdkosh: data/terms.json ho to shabd ke panne bante hain.
-  const termsFile = path.join(__dirname, "data", "terms.json");
-  const terms = fs.existsSync(termsFile) ? (JSON.parse(fs.readFileSync(termsFile, "utf8")).terms || []) : [];
   terms.forEach((t) => write(path.join("shabdkosh", t.id, "index.html"), renderTerm(t, posts)));
   if (terms.length) write(path.join("shabdkosh", "index.html"), renderTermIndex(terms));
 
