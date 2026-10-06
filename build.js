@@ -399,6 +399,8 @@ sup.ref a{color:var(--verify);text-decoration:none}
 .empty a{color:var(--verify)}
 .prose a.tl,.mf a.tl,.qlist a.tl,.rightbox a.tl{color:#1F4FA6;text-decoration:none;border-bottom:1px solid rgba(31,79,166,.35)}
 .prose a.tl:hover,.prose a.tl:focus-visible{background:#EEF1FB;border-bottom-color:#1F4FA6}
+.brand{min-width:0}
+.wordmark{font-size:clamp(17px,5.2vw,32px);white-space:nowrap}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 `;
 
@@ -415,7 +417,7 @@ function head({ title, desc, canonical, type = "website", published, home = fals
 <title>${t}</title>
 <meta name="description" content="${d}">
 <link rel="canonical" href="${esc(canonical)}">
-<meta property="og:site_name" content="${esc(SITE.name)}">
+<meta property="og:site_name" content="${esc(SITE.name)} | ${esc(SITE.nameEn)}">
 <meta property="og:type" content="${type}">
 <meta property="og:title" content="${t}">
 <meta property="og:description" content="${d}">
@@ -446,13 +448,13 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
     <img class="mark" src="/brand-logo.png" alt="" width="48" height="48">
     <span>
       <span class="eyebrow">${esc(SITE.eyebrow)}</span>
-      ${home ? `<h1 class="wordmark">${esc(SITE.name)}</h1>` : `<p class="wordmark">${esc(SITE.name)}</p>`}
+      ${home ? `<h1 class="wordmark">${esc(SITE.name)} | ${esc(SITE.nameEn)}</h1>` : `<p class="wordmark">${esc(SITE.name)} | ${esc(SITE.nameEn)}</p>`}
     </span>
   </a>
   <div class="header-actions"><a class="contact-top" href="mailto:${esc(SITE.email)}">Contact</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Menu खोलें">☰ <span>Menu</span></button></div>
 </header>
 <nav id="site-menu" class="site-menu" aria-label="मुख्य menu" hidden>
-  <a href="/">Home</a><a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/about/">About</a><a href="/#contact">Contact</a>
+  <a href="/">Home</a>${TERM_LINKS.re ? `<a href="/shabdkosh/">शब्दकोश</a>` : ""}<a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/about/">About</a><a href="/#contact">Contact</a>
 </nav>
 ${hero}
 </div>
@@ -498,6 +500,7 @@ function foot() {
         <a href="/scam-safety/">संदिग्ध message और स्कैम</a>
         <a href="/paise-ke-adhikar/">पैसे पर आपके अधिकार</a>
         <a href="/faq/">सवाल-जवाब</a>
+        ${TERM_LINKS.re ? `<a href="/shabdkosh/">पैसे का शब्दकोश</a>` : ""}
         <a href="/about/">हमारे बारे में</a>
         <a href="/source-policy/">स्रोत नीति</a>
         <a href="/contact/">संपर्क</a>
@@ -631,7 +634,7 @@ function renderIndex(posts) {
   </section>`;
 
   return head({
-    title: `${SITE.name} — ${SITE.nameEn}`,
+    title: `${SITE.name} | ${SITE.nameEn}`,
     desc: SITE.tagline,
     canonical: SITE.url + "/",
     home: true,
@@ -645,6 +648,7 @@ function renderIndex(posts) {
   </nav>
   <a class="promise" href="/how-to-check/">${esc(SITE.tagline)}<span class="promise-more">कैसे verify करें? Step-by-step guide खोलें →</span></a>
   <a class="asklink" href="/faq/"><b>कोई सवाल है?</b> — सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब यहाँ देखिए →</a>
+  ${TERM_LINKS.re ? `<a class="asklink" href="/shabdkosh/"><b>पैसे का शब्दकोश</b> — पैसे से जुड़े शब्दों का सीधा मतलब यहाँ देखिए →</a>` : ""}
   <span class="sectionlabel" id="articles">हर लेख के नीचे सरकारी स्रोत</span>
   <h2 class="articles-title">इस समय लोग यही पूछ रहे हैं</h2>
   <div class="controls">
@@ -1474,7 +1478,7 @@ function renderFeed(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>${esc(SITE.name)} — ${esc(SITE.nameEn)}</title>
+  <title>${esc(SITE.name)} | ${esc(SITE.nameEn)}</title>
   <link>${SITE.url}/</link>
   <atom:link href="${SITE.url}/feed.xml" rel="self" type="application/rss+xml"/>
   <description>${esc(plain(SITE.tagline))}</description>
@@ -1549,7 +1553,7 @@ function main() {
   write("feed.xml", renderFeed(posts));
   write("manifest.webmanifest", JSON.stringify({
     id: "/",
-    name: "सीधा मतलब — Seedha Matlab",
+    name: "सीधा मतलब | Seedha Matlab",
     short_name: "सीधा मतलब",
     description: SITE.tagline,
     lang: "hi",
