@@ -374,6 +374,7 @@ sup.ref a{color:var(--verify);text-decoration:none}
 .btn.wa{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
 .arthero h1.term{font-size:clamp(46px,13vw,66px);line-height:1.05;margin:13px 0 4px;max-width:none}
 .arthero h1.term.idx{font-size:clamp(32px,8.5vw,48px);line-height:1.15;margin-bottom:8px}
+.arthero h1.term.long{font-size:clamp(29px,8.2vw,48px);line-height:1.15;margin-bottom:8px;overflow-wrap:anywhere}
 .arthero .full{color:var(--on-dark-2);font-size:16px;margin:0 0 16px}
 .arthero h1.idx + .full{margin-bottom:4px}
 .fullart{font-size:15px;color:var(--ink-2)}
@@ -381,7 +382,7 @@ sup.ref a{color:var(--verify);text-decoration:none}
 .termcard{display:block;background:var(--surface);border:1px solid var(--line-soft);border-radius:16px;padding:15px 17px;text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s}
 .termcard:hover{border-color:var(--accent);transform:translateY(-2px)}
 .termcard .k{display:block;font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.12em;color:var(--ink-3)}
-.termcard strong{display:block;font-size:25px;font-weight:800;line-height:1.25;margin-top:3px}
+.termcard strong{display:block;font-size:25px;font-weight:800;line-height:1.25;margin-top:3px;overflow-wrap:anywhere}
 .termcard .s{display:block;font-size:14px;color:var(--ink-2);line-height:1.55;margin-top:4px}
 .histlist{list-style:none;margin:0 0 14px;padding:0;border-left:2px solid var(--line);font-size:15px}
 .histlist li{position:relative;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;padding:3px 0 9px 16px}
@@ -948,7 +949,7 @@ function renderTerm(t, posts) {
   const hero = `<header class="arthero">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> <a href="/shabdkosh/">शब्दकोश</a> <span>›</span> <span>${esc(t.group)}</span> <span>›</span> <span>${esc(t.term)}</span></nav>
   <div class="kindrow"><span class="kind">शब्द · ${esc(t.group)}</span><span class="verified">✓ स्रोत से जाँचा · ${fmtDateEn(checked)}</span></div>
-  <h1 class="term">${esc(t.term)}</h1>
+  <h1 class="term${String(t.term).length > 10 ? " long" : ""}">${esc(t.term)}</h1>
   <p class="full">${esc(t.full)}</p>
   <div class="one"><span class="l">एक लाइन में</span><p>${esc(t.one)}</p></div>
 </header>`;
