@@ -401,6 +401,14 @@ sup.ref a{color:var(--verify);text-decoration:none}
 .prose a.tl:hover,.prose a.tl:focus-visible{background:#EEF1FB;border-bottom-color:#1F4FA6}
 .brand{min-width:0}
 .wordmark{font-size:clamp(17px,5.2vw,32px);white-space:nowrap}
+.flownote{font-size:13.5px;color:var(--ink-2);margin:-6px 0 14px}
+.srcmeta{display:block;font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:4px}
+.srcusedh{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--verify);margin:10px 0 4px}
+.srcused{list-style:none;margin:0;padding:0;font-size:13.5px;line-height:1.5}
+.srcused li{display:grid;grid-template-columns:74px minmax(0,1fr);gap:8px;padding:5px 0;border-top:1px solid var(--line-soft);margin:0;counter-increment:none}
+.srcused li:before{content:none}
+.srcused b{font-family:var(--mono);font-size:11.5px;font-weight:500;color:var(--verify)}
+.srcused span{color:var(--ink-2)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 `;
 
@@ -693,7 +701,7 @@ function calcFee(c, a) {
 }
 
 // Neele link: jis shabd ka apna panna hai, wo lekh ke beech me apne aap link ban jata hai.
-// Har hisse me pehli baar, apne hi panne par nahi, aur quote ya doosre link ke andar nahi.
+// Ek panne me ek shabd sirf pehli baar, apne hi panne par nahi, aur quote ya doosre link ke andar nahi.
 let TERM_LINKS = { re: null, map: {} };
 function setTermLinks(terms) {
   const map = {};
@@ -737,7 +745,7 @@ function blockHTML(p, spec, il = inline) {
     if (!f.nodes || f.nodes.length !== 3 || !f.arrows || f.arrows.length !== 2) throw new Error(`Post ${p.id}: flow me 3 nodes aur 2 arrows chahiye`);
     const node = (n, i) => `<div class="node n${i + 1}">${esc(n.t)}<small>${esc(n.s || "")}</small></div>`;
     const arr = (a) => `<div class="arr"><b>${esc(a.b)}</b><span aria-hidden="true">→</span>${esc(a.s || "")}</div>`;
-    return `<div class="flow" role="img" aria-label="${esc(f.nodes.map((n) => n.t).join(" → "))}">${node(f.nodes[0], 0)}${arr(f.arrows[0])}${node(f.nodes[1], 1)}${arr(f.arrows[1])}${node(f.nodes[2], 2)}</div>`;
+    return `<div class="flow" role="img" aria-label="${esc(f.nodes.map((n) => n.t).join(" → "))}">${node(f.nodes[0], 0)}${arr(f.arrows[0])}${node(f.nodes[1], 1)}${arr(f.arrows[1])}${node(f.nodes[2], 2)}</div>${f.note ? `<p class="flownote">${esc(f.note)}</p>` : ""}`;
   }
 
   if (name === "calc") {
@@ -794,7 +802,6 @@ function renderBodyWiki(p, self = null) {
       // "## Shirshak | chhota naam" -> patti me chhota naam; "| -" -> patti me nahi
       const [t, short] = ln.slice(3).split("|").map((x) => x.trim());
       n += 1;
-      ctx.seen = new Set();
       if (short !== "-") toc.push({ id: `s${n}`, t: short || t });
       html += `<h2 id="s${n}"><i aria-hidden="true">${n}</i><span>${esc(t)}</span></h2>`;
     }
@@ -805,6 +812,15 @@ function renderBodyWiki(p, self = null) {
   }
   flush();
   return { html, toc, n };
+}
+
+// Srot: dastavez, tareekh, aur kaun si baat dastavez ke kis hisse se li gayi (srot -> daava).
+function sourcesHTML(srcs) {
+  return `<ol class="srclist">${srcs.map((s, i) => {
+    const dates = [s.issued ? `जारी: ${fmtDateLine(s.issued)}` : "", s.effective ? `लागू: ${fmtDateLine(s.effective)}` : ""].filter(Boolean).join(" · ");
+    const used = (s.used || []).map((u) => `<li><b>${esc(u.ref)}</b><span>${esc(u.c)}</span></li>`).join("");
+    return `<li id="src-${i + 1}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>${dates ? `<span class="srcmeta">${dates}</span>` : ""}${used ? `<span class="srcusedh">किस बात के लिए, दस्तावेज़ का कौन-सा हिस्सा</span><ul class="srcused">${used}</ul>` : ""}</li>`;
+  }).join("")}</ol>`;
 }
 
 // Sudhar ka itihaas: tareekh ke saath, sabse naya upar.
@@ -879,7 +895,7 @@ function renderPost(p, all) {
     ${tocHTML}
     <div class="prose wk">${body.html}
     ${srcs.length ? `<h2 id="src"><i aria-hidden="true">${srcNo}</i><span>स्रोत — खुद जाँचिए</span></h2>
-    <ol class="srclist">${srcs.map((s, i) => `<li id="src-${i + 1}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a></li>`).join("")}</ol>` : ""}
+    ${sourcesHTML(srcs)}` : ""}
     ${historyHTML(srcNo + (srcs.length ? 1 : 0), [{ d: p.date, t: "प्रकाशित" }].concat(checked !== p.date ? [{ d: checked, t: "स्रोत से आख़िरी जाँच" }] : [], p.history || []))}
     </div>
     ${tags ? `<div class="tagrow">${tags}</div>` : ""}
@@ -952,7 +968,7 @@ function renderTerm(t, posts) {
     <div class="prose wk">${body.html}
     ${art ? `<p class="fullart">पूरा लेख: <a href="/p/${encodeURIComponent(art.id)}/">${esc(t.articleLabel || art.title)}</a></p>` : ""}
     <h2 id="src"><i aria-hidden="true">${srcNo}</i><span>स्रोत</span></h2>
-    <ol class="srclist">${srcs.map((s, i) => `<li id="src-${i + 1}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a></li>`).join("")}</ol>
+    ${sourcesHTML(srcs)}
     ${historyHTML(srcNo + 1, (t.history && t.history.length) ? t.history : [{ d: t.created, t: "पन्ना बना" }])}
     </div>
     <div class="postfoot">
