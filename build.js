@@ -990,13 +990,13 @@ const TERM_LIST_JS = `(function(){var q=document.getElementById('tq');if(!q)retu
 function renderTermIndex(terms) {
   const url = `${SITE.url}/shabdkosh/`;
   const key = (t) => String(t.sort || t.term).trim();
-  const letterOf = (t) => { const c = key(t).charAt(0).toUpperCase(); return /[A-Z]/.test(c) ? c : "अ"; };
+  const letterOf = (t) => { const c = key(t).charAt(0).toUpperCase(); return /[A-Z]/.test(c) ? c : /[0-9]/.test(c) ? "0–9" : "अ"; };
   const list = terms.slice().sort((a, b) => key(a).localeCompare(key(b), "en", { sensitivity: "base" }));
   const groups = {};
   list.forEach((t) => { const L = letterOf(t); (groups[L] = groups[L] || []).push(t); });
   const AZ = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-  const idOf = (L) => (L === "अ" ? "az-hi" : `az-${L}`);
-  const bar = AZ.concat(groups["अ"] ? ["अ"] : []).map((L) => groups[L] ? `<a href="#${idOf(L)}">${L}</a>` : `<span aria-hidden="true">${L}</span>`).join("");
+  const idOf = (L) => (L === "अ" ? "az-hi" : L === "0–9" ? "az-09" : `az-${L}`);
+  const bar = (groups["0–9"] ? ["0–9"] : []).concat(AZ, groups["अ"] ? ["अ"] : []).map((L) => groups[L] ? `<a href="#${idOf(L)}">${L}</a>` : `<span aria-hidden="true">${L}</span>`).join("");
   const card = (t) => `<a class="termcard" href="/shabdkosh/${encodeURIComponent(t.id)}/" data-text="${esc([t.term, t.full, t.fullEn, t.one, (t.aliases || []).join(" ")].join(" ").toLowerCase())}">
     <span class="k">शब्द · ${esc(t.group)}</span>
     <strong>${esc(t.term)}</strong>
@@ -1021,7 +1021,7 @@ function renderTermIndex(terms) {
 <main id="main">
   <nav class="azbar" aria-label="A से Z">${bar}</nav>
   <p class="azcount" id="tcount" role="status" aria-live="polite">कुल शब्द: ${list.length}</p>
-  ${AZ.concat(["अ"]).filter((L) => groups[L]).map((L) => `<section class="azgroup" id="${idOf(L)}" aria-label="${L}">
+  ${["0–9"].concat(AZ, ["अ"]).filter((L) => groups[L]).map((L) => `<section class="azgroup" id="${idOf(L)}" aria-label="${L}">
     <h2 class="azletter">${L}</h2>
     <div class="termlist">${groups[L].map(card).join("")}</div>
   </section>`).join("")}
