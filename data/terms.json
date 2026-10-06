@@ -506,6 +506,238 @@
         }
       ],
       "body": "## मतलब\n\nP2M यानी Person-to-Merchant। जब कोई व्यक्ति UPI से किसी दुकानदार या व्यापारी को भुगतान करता है, तो वह P2M लेनदेन है। दोस्त या परिवार को पैसे भेजना P2M नहीं, P2P है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ग्राहक हैं:** दुकान पर UPI से भुगतान करने पर आपसे कोई शुल्क नहीं लगता। महीने में कितने भी भुगतान कीजिए, मुफ़्त भुगतानों की कोई गिनती तय नहीं है।[^1]\n- **दुकानदार हैं:** P2M श्रेणी में ₹2,000 से ऊपर के UPI भुगतान पर आपको MDR देना होगा। UPI QR से महीने में ₹1 लाख तक आता है, तो आप P2PM श्रेणी में हैं और MDR शून्य है।\n\n## कैसे काम करता है\n\n::flow\n\n- ₹2,000 तक के P2M भुगतान पर MDR नहीं।[^1]\n- ₹2,000 से ऊपर: 0.4% MDR, जो दुकानदार अपने bank को देता है।\n- ₹75,000 और उससे ऊपर: अधिकतम ₹300।\n- रेलवे, telecom, बीमा और petrol pump जैसी कुछ श्रेणियों में 0.4% की जगह ₹5 का तय शुल्क है (₹2,000 से ऊपर के भुगतान पर)।\n- AutoPay से अपने-आप कटने वाले भुगतानों पर तय MDR शुल्क नहीं लगता।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> P2M भुगतान में दुकानदार MDR आपसे नहीं वसूल सकता। आप सिर्फ़ लिखी हुई कीमत देंगे।[^1]\n\nUPI app भी आपसे platform fee या कोई और charge नहीं ले सकते।[^1]\n\n## अभी क्या करें\n\n- बिल में अलग से \"UPI charge\" जुड़ा दिखे तो मना कीजिए और बिल सँभालकर रखिए।\n- दुकानदार हैं तो अपने bank या payment app से लिखित में पूछ लीजिए कि आपकी श्रेणी P2M है या P2PM।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "1930",
+      "term": "1930",
+      "full": "साइबर ठगी की राष्ट्रीय helpline · toll-free",
+      "fullEn": "National Cybercrime Helpline",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-06",
+      "verified": "2026-10-06",
+      "history": [
+        {
+          "d": "2026-10-06",
+          "t": "पन्ना बना। गृह मंत्रालय की तीन press release (17 जून 2021, 6 अप्रैल 2022, 28 जुलाई 2026) और cybercrime.gov.in के दस्तावेज़ों से जाँचा।"
+        }
+      ],
+      "one": "1930 गृह मंत्रालय की toll-free helpline है। ऑनलाइन ठगी में पैसा कट जाए, तो तुरंत इसी नंबर पर call करके बताया जाता है।",
+      "facts": [
+        {
+          "k": "नंबर",
+          "v": "1930",
+          "s": "toll-free; पहले यह 155260 था",
+          "good": true
+        },
+        {
+          "k": "किसलिए",
+          "v": "पैसे की ठगी",
+          "s": "ऑनलाइन ठगी तुरंत बताने के लिए"
+        },
+        {
+          "k": "call के बाद",
+          "v": "24 घंटे",
+          "s": "में cybercrime.gov.in पर शिकायत पूरी करनी है"
+        },
+        {
+          "k": "अब तक बचा",
+          "v": "₹11,158 करोड़+",
+          "s": "32.80 लाख से ज़्यादा शिकायतों में (30 जून 2026 तक)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप",
+            "s": "1930 पर call"
+          },
+          {
+            "t": "राज्य की पुलिस",
+            "s": "ticket बनाती है"
+          },
+          {
+            "t": "bank / wallet",
+            "s": "रक़म बची हो तो रोकता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "call",
+            "s": "लेनदेन का ब्योरा"
+          },
+          {
+            "b": "ticket",
+            "s": "bank तक जाता है"
+          }
+        ],
+        "note": "यह क्रम गृह मंत्रालय की 17 जून 2021 की press release में बताया गया है।"
+      },
+      "myths": [
+        {
+          "m": "\"1930 पर call कर दी, तो पैसा पक्का वापस आ जाएगा।\"",
+          "f": "गारंटी नहीं है। Bank रक़म तभी रोक पाता है जब वह अभी खाते में बची हो।[^2] इसलिए देर मत कीजिए।"
+        },
+        {
+          "m": "\"1930 पर call कर दी, अब और कुछ नहीं करना।\"",
+          "f": "करना है। SMS या mail में मिले acknowledgement number से 24 घंटे के अंदर cybercrime.gov.in पर शिकायत पूरी करनी है।[^4]"
+        },
+        {
+          "m": "\"1930 सिर्फ़ bank खाते की ठगी के लिए है।\"",
+          "f": "नहीं। पैसा bank खाते, wallet, UPI या card, किसी से भी कटा हो, बताया जा सकता है।[^4]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "1930 और cybercrime.gov.in में क्या फ़र्क़ है?",
+          "a": "1930 phone की helpline है, पैसे की ठगी तुरंत बताने के लिए। cybercrime.gov.in सरकार का portal है, जहाँ हर तरह के साइबर अपराध की शिकायत दर्ज होती है। 1930 पर call के बाद भी शिकायत portal पर पूरी करनी होती है।"
+        },
+        {
+          "q": "1930 पर call के पैसे लगते हैं?",
+          "a": "नहीं। यह toll-free नंबर है।"
+        },
+        {
+          "q": "155260 क्या था?",
+          "a": "यही helpline पहले 155260 नंबर पर चलती थी। इसका soft launch 1 अप्रैल 2021 को हुआ था। अब नंबर 1930 है।"
+        },
+        {
+          "q": "शिकायत का status कैसे देखें?",
+          "a": "शिकायत के बाद मिले acknowledgement number से cybercrime.gov.in पर status देखा जा सकता है।"
+        },
+        {
+          "q": "शिकायत पर कार्रवाई कौन करता है?",
+          "a": "आपके राज्य या केंद्र-शासित प्रदेश की पुलिस।"
+        }
+      ],
+      "related": [
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "UPI"
+        }
+      ],
+      "article": "online-fraud-kya-kare",
+      "articleLabel": "Online fraud हो गया, पैसा कट गया? अभी क्या करें",
+      "sources": [
+        {
+          "label": "गृह मंत्रालय (PIB) — Cyber Frauds Helpline, राज्यसभा में लिखित उत्तर, 6 अप्रैल 2022 (Release ID 1814120)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1814120",
+          "issued": "2022-04-06",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "1930 toll-free helpline है; पहले नंबर 155260 था"
+            },
+            {
+              "ref": "पैरा 1",
+              "c": "पैसे की ठगी तुरंत report करने और cybercrime.gov.in पर शिकायत दर्ज करने में मदद के लिए"
+            },
+            {
+              "ref": "पैरा 1",
+              "c": "शिकायतों पर कार्रवाई राज्य / केंद्र-शासित प्रदेश की पुलिस करती है"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — National Helpline 155260 and Reporting Platform, press release, 17 जून 2021 (Release ID 1727990)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1727990",
+          "issued": "2021-06-17",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "helpline का soft launch 1 अप्रैल 2021 को हुआ"
+            },
+            {
+              "ref": "क्रम 1–2",
+              "c": "call राज्य की पुलिस उठाती है; operator ब्योरा लेकर ticket बनाता है"
+            },
+            {
+              "ref": "क्रम 3",
+              "c": "ticket आपके bank और उस bank या wallet तक जाता है जहाँ पैसा गया"
+            },
+            {
+              "ref": "क्रम 4",
+              "c": "SMS से acknowledgement number मिलता है"
+            },
+            {
+              "ref": "क्रम 6",
+              "c": "रक़म बची हो तो bank उसे रोक देता है; आगे जा चुकी हो तो ticket अगले bank को जाता है"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "पैसा तभी रोका जा सकता है जब तक वह digital system से बाहर न निकला हो"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — Cyber Crime Mitigation Centre, लोकसभा में लिखित उत्तर, 28 जुलाई 2026 (Release ID 2290366)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290366",
+          "issued": "2026-07-28",
+          "used": [
+            {
+              "ref": "CFCFRMS वाला बिंदु",
+              "c": "30 जून 2026 तक 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा बचाए गए"
+            },
+            {
+              "ref": "CFCFRMS वाला बिंदु",
+              "c": "CFCFRMS, I4C के तहत 2021 में शुरू हुआ; 1930 toll-free helpline है"
+            },
+            {
+              "ref": "SOP वाला पैरा",
+              "c": "NCRP-CFCFRMS का SOP; Money Restoration Module और Grievance Redressal Module अप्रैल 2026 से चालू"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — Citizen Financial Cyber Frauds Reporting and Management System: Steps for reporting of financial cyber frauds (दस्तावेज़ पर तारीख़ नहीं है)",
+          "url": "https://cybercrime.gov.in/UploadMedia/instructions_citizenreportingcyberfrauds.pdf",
+          "used": [
+            {
+              "ref": "बिंदु i",
+              "c": "ठगी का शिकार 1930 पर call कर सकता है या cybercrime.gov.in पर report कर सकता है"
+            },
+            {
+              "ref": "बिंदु iii",
+              "c": "helpline पर कौन-सी जानकारी देनी होती है (सूची)"
+            },
+            {
+              "ref": "बिंदु iv",
+              "c": "acknowledgement number से 24 घंटे के अंदर portal पर शिकायत पूरी करना ज़रूरी"
+            },
+            {
+              "ref": "बिंदु v",
+              "c": "पुलिस अधिकारी जाँचकर bank या wallet को रक़म रोकने के लिए कहता है"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — Contact Us (राज्यवार Nodal / Grievance Officer)",
+          "url": "https://cybercrime.gov.in/Webform/Crime_NodalGrivanceList.aspx",
+          "used": [
+            {
+              "ref": "ऊपर की पंक्ति",
+              "c": "नाम: \"National cybercrime helpline number 1930\""
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — FAQ",
+          "url": "https://cybercrime.gov.in/Webform/FAQ.aspx",
+          "used": [
+            {
+              "ref": "\"Can I check the status of my complaint?\"",
+              "c": "acknowledgement number से portal पर शिकायत का status देखा जा सकता है"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\n1930 गृह मंत्रालय की toll-free helpline है। यह पैसे की ऑनलाइन ठगी तुरंत बताने के लिए है, और cybercrime.gov.in पर शिकायत दर्ज करने में मदद भी इसी पर मिलती है।[^1] पहले यह नंबर 155260 था।[^1]\n\nCall आपके राज्य की पुलिस उठाती है।[^2] शिकायत जिस system पर चढ़ती है, उसका नाम CFCFRMS है (Citizen Financial Cyber Fraud Reporting and Management System)। यह गृह मंत्रालय के I4C के तहत चलता है।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ऑनलाइन ठगी में पैसा कट गया है:** तुरंत 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^4]\n- **देर मत कीजिए:** पैसा तभी रोका जा सकता है जब तक वह digital system से बाहर न निकला हो।[^2]\n- **पैसा नहीं गया, सिर्फ़ संदिग्ध link या number मिला है:** उसका रास्ता अलग है। [कहाँ report करें, यहाँ देखिए](/p/report-suspect/)।\n\n## कैसे काम करता है\n\n::flow\n\n- आप 1930 पर call करते हैं। Call आपके राज्य की पुलिस का operator उठाता है।[^2]\n- Operator ठगी वाले लेनदेन का ब्योरा और आपकी बुनियादी जानकारी लेकर system पर ticket बनाता है।\n- Ticket आपके bank तक, और उस bank या wallet तक जाता है जहाँ पैसा गया है।\n- रक़म वहाँ अभी बची है, तो bank उसे रोक देता है। आगे किसी और bank में जा चुकी है, तो ticket उस bank को चला जाता है।\n- आपको SMS से शिकायत का acknowledgement number मिलता है।\n\n30 जून 2026 तक इस system से 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा बचाए गए हैं।[^3]\n\n## call पर क्या बताना होता है | क्या बताना है\n\ncybercrime.gov.in के दस्तावेज़ के मुताबिक helpline पर यह जानकारी देनी होती है:[^4]\n\n- आपका mobile number\n- जिस bank, wallet या merchant से पैसा कटा, उसका नाम\n- खाता संख्या, wallet ID, merchant ID या UPI ID, जिससे पैसा कटा\n- Transaction ID\n- Transaction की तारीख़\n- ठगी card की जानकारी से हुई है, तो debit या credit card का number\n- Transaction का screenshot या ठगी से जुड़ी कोई तस्वीर, अगर हो\n\nइस सूची में OTP, UPI PIN या CVV नहीं है।\n\n## call के बाद क्या करना है | call के बाद\n\n- SMS या mail से एक Log-in ID या acknowledgement number मिलेगा। उसी से **24 घंटे के अंदर** cybercrime.gov.in पर शिकायत पूरी कीजिए। दस्तावेज़ में लिखा है: *\"This is mandatory.\"*[^4]\n- इसके बाद पुलिस अधिकारी मामले को जाँचकर bank या wallet को रक़म रोकने के लिए कहता है।[^4]\n- अपने bank को भी अलग से बताइए। दोनों अलग रास्ते हैं। [पूरा क्रम यहाँ है](/p/online-fraud-kya-kare/)।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> 1930 toll-free है। Call का कोई शुल्क नहीं लगता।[^1]\n\n- शिकायत के बाद आपको acknowledgement number मिलता है। उससे आप portal पर अपनी शिकायत का status देख सकते हैं।[^6]\n- गृह मंत्रालय ने इस system के लिए एक SOP जारी किया है। ठगी की रक़म जल्दी लौटाने के लिए Money Restoration Module, और खाता freeze या lien की शिकायतों के लिए Grievance Redressal Module, अप्रैल 2026 से चालू हैं।[^3]\n\n## अभी क्या करें\n\n- 1930 अपने phone में save कर लीजिए, और घर के बड़ों के phone में भी।\n- ठगी हो जाए तो क्रम याद रखिए: bank को बताइए, 1930 पर call कीजिए, 24 घंटे के अंदर portal पर शिकायत पूरी कीजिए।\n- कोई OTP, UPI PIN या CVV माँगे, तो मत दीजिए।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
