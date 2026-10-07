@@ -10331,6 +10331,242 @@
         }
       ],
       "body": "## मतलब\n\nRepo Rate वह ब्याज दर है, जिस पर RBI liquidity adjustment facility (LAF) में सरकारी और दूसरी मंज़ूर securities के बदले liquidity देता है।[^1]\n\nRBI Act, 1934 में \"Policy Rate\" का मतलब है: धारा 17(12AB) के repo लेन-देन की दर। उसी धारा के मुताबिक \"repo\" पैसे उधार लेने का वह तरीक़ा है, जिसमें securities बेची जाती हैं, इस समझौते के साथ कि उन्हें आगे की तय तारीख़ पर, तय कीमत पर वापस ख़रीदा जाएगा; उस कीमत में उधार ली गई रकम का ब्याज शामिल होता है।[^3]\n\n## अभी Repo Rate कितना है | अभी की दर\n\n- **7 अक्टूबर 2026 को:** 5.50%। Monetary Policy Committee (MPC) ने 5 से 7 अक्टूबर 2026 की बैठक में सर्वसम्मति से policy repo rate 25 basis points बढ़ाया।[^2]\n- **साथ की दरें:** SDF rate 5.25%; MSF rate और Bank Rate 5.75%।[^2]\n- **Stance:** MPC ने stance बदलकर \"calibrated tightening\" किया। Resolution के मुताबिक इसका संकेत सिर्फ़ इतना है कि मौजूदा हालात में निकट भविष्य में दर घटाने की गुंजाइश नहीं है, और आगे का क़दम दर बढ़ाना या रोकना ही हो सकता है, बदलते हालात और outlook के मुताबिक।[^2]\n- **ताज़ा दर कहाँ देखें:** RBI की website के home page पर \"Current Rates\" में।[^1]\n\n## Repo Rate कौन और कैसे तय करता है | कौन तय करता है\n\n::flow\n\n- **Inflation target:** RBI Act की धारा 45ZA के मुताबिक केंद्र सरकार, RBI से सलाह करके, हर पाँच साल में Consumer Price Index के आधार पर inflation target तय करती है।[^3] अभी यह 4 प्रतिशत है, ऊपरी सीमा 6 प्रतिशत और निचली सीमा 2 प्रतिशत के साथ; यह 1 अप्रैल 2026 से 31 मार्च 2031 तक के लिए है।[^1]\n- **MPC:** छह सदस्यों की committee: RBI के Governor (अध्यक्ष), monetary policy के प्रभारी Deputy Governor, RBI का एक अधिकारी, और केंद्र सरकार के नियुक्त किए हुए तीन सदस्य।[^3]\n- **MPC का काम:** वह Policy Rate तय करना, जो inflation target पाने के लिए ज़रूरी हो। MPC का फ़ैसला RBI पर बाध्यकारी है।[^3]\n- **बैठकें और vote:** MPC को साल में कम से कम चार बार मिलना है। Quorum चार सदस्यों का है। हर सदस्य का एक vote होता है; votes बराबर हों, तो Governor का दूसरा (casting) vote होता है।[^1]\n- **जानकारी सार्वजनिक:** हर बैठक के बाद resolution प्रकाशित होता है, और 14वें दिन बैठक के minutes।[^1]\n\n## बाक़ी दरें Repo Rate से कैसे जुड़ी हैं | बाक़ी दरें\n\n- **SDF rate:** policy repo rate से 25 basis points नीचे रखा जाता है। यह LAF corridor की निचली सीमा (floor) है।[^1]\n- **MSF rate:** policy repo rate से 25 basis points ऊपर रखा जाता है। यह corridor की ऊपरी सीमा (ceiling) है।[^1]\n- **Bank Rate:** इसे MSF rate से जोड़ा गया है; MSF rate बदलता है, तो यह अपने-आप बदल जाता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Floating दर वाले retail loan:** commercial banks के सभी floating rate personal या retail loans (housing, auto वग़ैरह), और MSME को दिए गए floating rate loans, किसी External Benchmark Rate से जुड़े होने चाहिए।[^4]\n- **External benchmark क्या हो सकता है:** RBI का policy Repo Rate; भारत सरकार के तीन महीने और छह महीने के Treasury Bill की yield, जो FBIL प्रकाशित करता है; या FBIL का प्रकाशित कोई और benchmark market interest rate।[^4]\n- **हर loan Repo Rate से नहीं जुड़ा:** आपका loan किस benchmark से जुड़ा है, यह loan contract की शर्तों में लिखा होता है। Bank एक loan category में एक ही external benchmark रख सकता है।[^4]\n- **आपकी दर कैसे बनती है:** benchmark में bank का spread जोड़कर।[^4]\n- **दर कब बदलती है:** external benchmark वाले loan की ब्याज दर कम से कम तीन महीने में एक बार reset होनी चाहिए। आपके loan का benchmark Repo Rate हो, तो Repo Rate बदलने के बाद आपकी दर अगले reset पर बदलती है।[^4]\n- **Spread:** bank spread ख़ुद तय करता है। पर credit risk premium तभी बदल सकता है, जब आपके credit assessment में बड़ा बदलाव आए, जैसा loan contract में तय हो। Spread के बाक़ी हिस्से तीन साल में एक बार बदले जा सकते हैं; ग्राहक को बनाए रखने के लिए bank इन्हें तीन साल से पहले घटा सकता है।[^4]\n- **Fixed और floating:** fixed rate loan की ब्याज दर पूरी अवधि के लिए तय रहती है; floating rate loan की दर अवधि के दौरान तय नहीं रहती। Bank हर तरह का advance fixed या floating दर पर दे सकता है।[^4]\n- **किन banks पर:** loan वाले ये नियम RBI के commercial banks के लिए बने निर्देशों के हैं।[^4]\n\n## पुराना loan MCLR या Base Rate पर हो | पुराना loan\n\n- **जारी रह सकता है:** MCLR, Base Rate या BPLR से जुड़े मौजूदा loan चुकाए जाने या renewal तक वैसे ही चल सकते हैं।[^4]\n- **बिना charge के बदलाव:** जिन borrowers को floating rate term loan बिना pre-payment charge के पहले चुकाने की छूट है, वे बिना किसी charge या fee के external benchmark पर जा सकते हैं; सिर्फ़ वाजिब administrative या legal ख़र्च लग सकता है।[^4]\n- **बाक़ी borrowers:** आपसी सहमति की शर्तों पर external benchmark पर जा सकते हैं।[^4]\n- **Foreclosure नहीं:** यह बदलाव मौजूदा loan का foreclosure नहीं माना जाता।[^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Commercial bank का floating rate personal या retail loan external benchmark से जुड़ा होना चाहिए, और उसकी ब्याज दर कम से कम तीन महीने में एक बार reset होनी चाहिए।[^4]\n\n- **Benchmark contract में:** जिस benchmark से आपकी दर तय होती है, वह loan contract की शर्तों का हिस्सा होना चाहिए।[^4]\n- **Credit risk premium:** यह तभी बदल सकता है, जब आपके credit assessment में बड़ा बदलाव आए, जैसा loan contract में तय हो।[^4]\n\n## अभी क्या करें\n\n- अपने loan के काग़ज़ में देखिए: दर fixed है या floating, और benchmark कौन-सा है।[^4]\n- Benchmark Repo Rate हो, तो bank से reset की तारीख़ पूछ लीजिए; reset कम से कम तीन महीने में एक बार होना चाहिए।[^4]\n- Loan MCLR, Base Rate या BPLR पर हो, तो bank से external benchmark पर जाने की शर्तें पूछिए।[^4]\n- ताज़ा Repo Rate RBI की website के home page पर \"Current Rates\" में देख लीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "survivorship-clause",
+      "term": "Survivorship Clause",
+      "aliases": [
+        "Either or Survivor",
+        "Former or Survivor",
+        "Anyone or Survivor",
+        "Latter or Survivor",
+        "Survivor",
+        "Survivors"
+      ],
+      "full": "Joint खाते का वह निर्देश, जिसके तहत एक खाताधारक की मृत्यु पर bank रकम बचे हुए खाताधारक को दे सकता है",
+      "fullEn": "Joint account instructions like Either or Survivor",
+      "group": "बैंकिंग",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक update) से जाँचा।"
+        }
+      ],
+      "one": "Survivorship clause joint खाते का वह निर्देश है, जैसे 'Either or Survivor' या 'Former or Survivor'। ऐसे खाते में एक खाताधारक की मृत्यु पर bank बकाया रकम बचे हुए खाताधारक (survivor) को दे सकता है, सिर्फ़ तीन काग़ज़ों पर। Survivor यह रकम मृतक के क़ानूनी वारिसों के trustee के तौर पर पाता है।",
+      "facts": [
+        {
+          "k": "Survivor से काग़ज़",
+          "v": "सिर्फ़ 3",
+          "s": "claim form, death certificate, OVD",
+          "good": true
+        },
+        {
+          "k": "Succession Certificate या bond",
+          "v": "नहीं लगता",
+          "s": "रकम चाहे जितनी हो"
+        },
+        {
+          "k": "दावा निपटाने की सीमा",
+          "v": "15 दिन",
+          "s": "calendar दिन; सारे काग़ज़ मिलने के बाद"
+        },
+        {
+          "k": "Survivor की हैसियत",
+          "v": "Trustee",
+          "s": "मृतक के क़ानूनी वारिसों के लिए"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Joint खाता",
+            "s": "survivorship clause के साथ खुला"
+          },
+          {
+            "t": "Bank",
+            "s": "पहचान और मृत्यु का सबूत जाँचता है"
+          },
+          {
+            "t": "Survivor को भुगतान",
+            "s": "वारिसों के trustee के तौर पर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "एक की मृत्यु",
+            "s": "survivor दावा देता है"
+          },
+          {
+            "b": "15 calendar दिन",
+            "s": "तीन काग़ज़ों पर"
+          }
+        ],
+        "note": "यह क्रम savings जैसे deposit खातों का है। Joint FD समय से पहले तोड़नी हो, तो नियम अलग हैं; नीचे देखिए।"
+      },
+      "myths": [
+        {
+          "m": "\"Survivor को रकम मिल गई, तो वह उसकी हो गई।\"",
+          "f": "ज़रूरी नहीं। RBI के निर्देशों के मुताबिक bank को survivor को लिखकर बताना है कि वह यह भुगतान मृतक के क़ानूनी वारिसों के trustee के तौर पर पा रहा है। इस भुगतान से उस हक़ या दावे पर असर नहीं पड़ता, जो किसी व्यक्ति का survivor के ख़िलाफ़ हो।[^1]"
+        },
+        {
+          "m": "\"'Either or Survivor' FD एक खाताधारक के न रहने पर survivor जब चाहे तोड़ सकता है।\"",
+          "f": "नहीं। पकने से पहले तोड़ने के लिए मृतक के क़ानूनी वारिसों की सहमति चाहिए। यह सहमति तभी नहीं लगती, जब सभी खाताधारकों ने मिलकर bank को इसका ख़ास joint mandate दे रखा हो। पकने पर survivor को भुगतान में कोई रुकावट नहीं है।[^1]"
+        },
+        {
+          "m": "\"Joint खाते में nominee है, तो एक खाताधारक के न रहने पर रकम nominee को मिलेगी।\"",
+          "f": "नहीं। Joint deposit खाते में, survivorship clause हो या न हो, nominee का हक़ सभी खाताधारकों की मृत्यु के बाद ही बनता है।[^1]"
+        },
+        {
+          "m": "\"बड़ी रकम हो, तो bank survivor से भी Succession Certificate माँगेगा।\"",
+          "f": "नहीं। Survivor को भुगतान करते समय bank Succession Certificate, Letter of Administration, Probate of Will जैसे काग़ज़, या indemnity bond या surety नहीं माँग सकता, रकम चाहे जितनी हो।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Survivorship clause का मतलब क्या है?",
+          "a": "RBI के निर्देशों के पैरा 4(1) के मुताबिक 'accounts with survivorship clause' वे joint deposit खाते हैं, जो 'either or survivor', 'anyone or survivor', 'former or survivor', 'latter or survivor' या ऐसे ही किसी और clause के साथ खोले गए हों।"
+        },
+        {
+          "q": "Survivor कौन होता है?",
+          "a": "Joint खाते का वह खाताधारक, जो दूसरे खाताधारक की मृत्यु के बाद बचा हो। RBI के निर्देशों में survivorship clause वाले खाते की बकाया रकम, खाताधारक की मृत्यु पर, survivor को दी जाती है।"
+        },
+        {
+          "q": "Survivor को रकम पाने के लिए कौन-से काग़ज़ देने हैं?",
+          "a": "पैरा 286 के मुताबिक तीन: claim form (निर्देशों के Annex V के मुताबिक), मृतक का death certificate, और survivor का Officially Valid Document, पहचान और पते के लिए।"
+        },
+        {
+          "q": "Bank को दावा कितने दिन में निपटाना है?",
+          "a": "पैरा 319 के मुताबिक सारे ज़रूरी काग़ज़ मिलने के 15 calendar दिन के भीतर। पैरा 321 के मुताबिक देरी bank की वजह से हो, तो उसे देरी के समय का ब्याज देना है, कम से कम Bank Rate + 4 प्रतिशत सालाना की दर से।"
+        },
+        {
+          "q": "क्या survivor रकम का मालिक बन जाता है?",
+          "a": "पैरा 284 के मुताबिक bank को survivor को लिखकर बताना है कि वह भुगतान मृतक के क़ानूनी वारिसों के trustee के तौर पर पा रहा है, और इस भुगतान से उस हक़ या दावे पर असर नहीं पड़ता, जो किसी व्यक्ति का survivor के ख़िलाफ़ हो।"
+        },
+        {
+          "q": "Joint खाते में nominee का हक़ कब बनता है?",
+          "a": "पैरा 285 के मुताबिक joint deposit खाते में, survivorship clause हो या न हो, nominee का हक़ सभी खाताधारकों की मृत्यु के बाद ही बनता है।"
+        },
+        {
+          "q": "'Either or Survivor' FD में पकने पर किसके दस्तख़त लगते हैं?",
+          "a": "पैरा 178 के मुताबिक पकने पर भुगतान के लिए दोनों खाताधारकों के दस्तख़त ज़रूरी नहीं। पकने से पहले भुगतान लेना हो, तो दोनों के दस्तख़त लग सकते हैं।"
+        },
+        {
+          "q": "'Former or Survivor' FD कैसे चलती है?",
+          "a": "पैरा 179 के मुताबिक दोनों खाताधारक जीवित हों, तो पकी हुई रकम सिर्फ़ 'Former' निकाल सकता है। 'Former' की मृत्यु पकने से पहले हो जाए, तो 'Survivor' पकने पर रकम निकाल सकता है। समय से पहले निकासी के लिए दोनों की सहमति चाहिए; एक की मृत्यु हो चुकी हो, तो बचे हुए खाताधारक और मृतक के क़ानूनी वारिसों की।"
+        },
+        {
+          "q": "FD समय से पहले तोड़ने का joint mandate कब दिया जा सकता है?",
+          "a": "पैरा 297 के मुताबिक FD रखते समय, या उसकी अवधि के दौरान बाद में कभी भी। यह mandate सभी खाताधारकों को मिलकर देना होता है।"
+        },
+        {
+          "q": "Joint खाते में survivorship clause न हो, तो?",
+          "a": "RBI के निर्देशों में ऐसे खाते 'without nominee / survivorship clause' वाले दावों में आते हैं। इनमें दावा क़ानूनी वारिस करते हैं, और काग़ज़ ज़्यादा लगते हैं।"
+        },
+        {
+          "q": "क्या यह locker पर भी लागू है?",
+          "a": "हाँ। पैरा 301 के मुताबिक locker survivorship clause के साथ joint किराये पर लिया गया हो, तो एक या ज़्यादा hirers की मृत्यु पर bank को उसी mandate के मुताबिक चलना है।"
+        },
+        {
+          "q": "ये नियम कब से और किन banks पर लागू हैं?",
+          "a": "मृतक ग्राहकों के दावे वाला हिस्सा 1 अप्रैल 2026 से लागू है। ये RBI के commercial banks के लिए बने निर्देश हैं; इनके पैरा 3 में Small Finance Banks, Payments Banks और Local Area Banks 'commercial banks' में नहीं गिने गए हैं। SCSS और PPF जैसी सरकारी बचत योजनाओं पर दावे का यह हिस्सा लागू नहीं है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "Legal Heir"
+        },
+        {
+          "t": "FD"
+        },
+        {
+          "t": "Locker"
+        },
+        {
+          "t": "Indemnity Bond"
+        },
+        {
+          "t": "Succession Certificate"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "ये निर्देश किन banks पर लागू हैं"
+            },
+            {
+              "ref": "पैरा 4(1)",
+              "c": "'accounts with survivorship clause' की परिभाषा"
+            },
+            {
+              "ref": "पैरा 178 और 179",
+              "c": "'Either or Survivor' और 'Former or Survivor' FD: पकने पर और पकने से पहले"
+            },
+            {
+              "ref": "पैरा 180 और 181",
+              "c": "समय से पहले निकासी का joint mandate; पकी FD की रकम joint savings खाते में"
+            },
+            {
+              "ref": "पैरा 282",
+              "c": "1 अप्रैल 2026 से लागू; SCSS, PPF जैसी योजनाओं पर नहीं"
+            },
+            {
+              "ref": "पैरा 284",
+              "c": "survivor को भुगतान से bank की देनदारी पूरी; तीन शर्तें; trustee"
+            },
+            {
+              "ref": "पैरा 285",
+              "c": "joint खाते में nominee का हक़ सभी की मृत्यु के बाद"
+            },
+            {
+              "ref": "पैरा 286",
+              "c": "तीन काग़ज़; Succession Certificate, bond या surety नहीं"
+            },
+            {
+              "ref": "पैरा 287 और 288",
+              "c": "survivorship clause के बिना: दावा क़ानूनी वारिसों का"
+            },
+            {
+              "ref": "पैरा 297",
+              "c": "joint FD समय से पहले: सहमति; joint mandate कब दिया जा सकता है"
+            },
+            {
+              "ref": "पैरा 300 और 301",
+              "c": "joint locker: nominee और survivor; survivorship clause का mandate"
+            },
+            {
+              "ref": "पैरा 304 और 306",
+              "c": "locker: survivor trustee के तौर पर; bond कब नहीं"
+            },
+            {
+              "ref": "पैरा 317",
+              "c": "किसी भी शाखा में दावा; पावती"
+            },
+            {
+              "ref": "पैरा 319 और 321",
+              "c": "15 calendar दिन; देरी का ब्याज"
+            },
+            {
+              "ref": "पैरा 325",
+              "c": "bank को survivorship clause के फ़ायदे बताने हैं"
+            },
+            {
+              "ref": "Annex V",
+              "c": "nominee / survivor का claim form"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSurvivorship clause joint खाते का वह निर्देश है, जो बताता है कि खाता कौन चलाएगा और एक खाताधारक के न रहने पर रकम किसे मिलेगी। RBI के निर्देशों में \"accounts with survivorship clause\" वे joint deposit खाते हैं, जो 'either or survivor', 'anyone or survivor', 'former or survivor', 'latter or survivor' या ऐसे ही किसी और clause के साथ खोले गए हों।[^1]\n\n\"Survivor\" यानी वह खाताधारक, जो दूसरे खाताधारक की मृत्यु के बाद बचा हो। ऐसे खाते में खाताधारक की मृत्यु पर बकाया रकम survivor को देने से bank की देनदारी पूरी मानी जाती है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **सिर्फ़ तीन काग़ज़:** survivor से bank को ये लेने हैं: claim form, मृतक का death certificate, और survivor का Officially Valid Document।[^1]\n- **अदालती काग़ज़ नहीं:** survivor को भुगतान करते समय bank Succession Certificate, Letter of Administration, Probate of Will जैसे काग़ज़ नहीं माँग सकता, रकम चाहे जितनी हो।[^1]\n- **Bond या surety नहीं:** bank survivor से या किसी तीसरे व्यक्ति से Indemnity Bond या surety भी नहीं माँग सकता।[^1]\n- **15 दिन:** खाताधारक की मृत्यु के बाद deposit खाते का दावा bank को सारे ज़रूरी काग़ज़ मिलने के 15 calendar दिन के भीतर निपटाना है। देरी bank की वजह से हो, तो उसे देरी के समय का ब्याज देना है, कम से कम Bank Rate + 4 प्रतिशत सालाना की दर से।[^1]\n- **किसी भी शाखा में:** दावा bank की किसी भी शाखा में दिया जा सकता है, और bank को उसकी पावती देनी है।[^1]\n- **Nominee का हक़ बाद में:** joint deposit खाते में, survivorship clause हो या न हो, Nominee का हक़ सभी खाताधारकों की मृत्यु के बाद ही बनता है।[^1]\n\n## Survivor को भुगतान कैसे होता है | भुगतान कैसे\n\n::flow\n\nSurvivor को किया गया भुगतान bank की देनदारी का पूरा और वैध निपटारा तब माना जाता है, जब ये तीन शर्तें पूरी हों:[^1]\n\n- **पहचान और मृत्यु का सबूत:** bank ने survivor की पहचान और खाताधारक की मृत्यु, दोनों की पुष्टि सही काग़ज़ी सबूत से की हो।[^1]\n- **अदालत की रोक न हो:** भुगतान की तारीख़ पर bank की जानकारी में कोई ऐसा court order न हो, जो survivor को रकम लेने से या bank को रकम देने से रोकता हो।[^1]\n- **Trustee के तौर पर:** bank ने survivor को लिखकर साफ़ बताया हो कि वह यह भुगतान मृतक के क़ानूनी वारिसों के trustee के तौर पर पा रहा है; यानी इस भुगतान से उस हक़ या दावे पर असर नहीं पड़ेगा, जो किसी व्यक्ति का survivor के ख़िलाफ़ हो।[^1]\n\n## Joint FD में survivorship clause | Joint FD\n\n- **'Either or Survivor', पकने पर:** भुगतान के लिए दोनों खाताधारकों के दस्तख़त ज़रूरी नहीं।[^1]\n- **'Either or Survivor', पकने से पहले:** दोनों के दस्तख़त लग सकते हैं। एक खाताधारक की मृत्यु पकने से पहले हो जाए, तो मृतक के क़ानूनी वारिसों की सहमति के बिना FD समय से पहले नहीं तोड़ी जा सकती। पकने पर survivor को भुगतान में इससे रुकावट नहीं आती।[^1]\n- **'Former or Survivor':** दोनों जीवित हों, तो पकी हुई रकम सिर्फ़ 'Former' निकाल सकता है। 'Former' की मृत्यु पकने से पहले हो जाए, तो 'Survivor' पकने पर रकम निकाल सकता है।[^1]\n- **Joint mandate:** सभी खाताधारकों ने मिलकर bank को इसका ख़ास mandate दे रखा हो, तो एक की मृत्यु पर survivor वारिसों की सहमति के बिना FD समय से पहले तोड़ सकता है। यह mandate FD रखते समय या बाद में कभी भी दिया जा सकता है।[^1]\n- **पकी FD की रकम:** FD और savings खाता, दोनों उन्हीं दो लोगों के नाम 'Either or Survivor' पर हों, तो पकी हुई FD की रकम उसी joint savings खाते में डाली जा सकती है; पहले खाताधारक के नाम अलग खाता खोलना ज़रूरी नहीं।[^1]\n\n## Locker और survivorship clause | Locker\n\n- **Mandate के मुताबिक:** Locker survivorship clause के साथ joint किराये पर लिया गया हो, तो एक या ज़्यादा hirers की मृत्यु पर bank को उसी mandate के मुताबिक चलना है।[^1]\n- **Joint दस्तख़त वाला locker:** locker joint दस्तख़त से चलता हो और hirers ने nominee रखा हो, तो एक hirer की मृत्यु पर bank nominee और survivor को साथ में पहुँच देता है।[^1]\n- **Trustee के तौर पर:** survivor को locker तक पहुँच और सामान निकालने की छूट भी मृतक के क़ानूनी वारिसों के trustee के तौर पर ही मिलती है।[^1]\n- **अदालती काग़ज़ या bond:** survivor से नहीं लगते, जब तक nomination में कोई discrepancy न हो।[^1]\n\n## Survivorship clause न हो, तो | Clause न हो\n\n- **दावा वारिसों का:** joint खाता survivorship clause के बिना हो और nominee भी न हो, तो दावा Legal Heir करते हैं, और काग़ज़ ज़्यादा लगते हैं।[^1]\n- **Bank की ज़िम्मेदारी:** bank को अपने ग्राहकों को nomination और survivorship clause के फ़ायदे बताते रहना है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Survivor को भुगतान करते समय bank Succession Certificate, Letter of Administration, Probate of Will जैसे काग़ज़, या indemnity bond या surety नहीं माँग सकता, रकम चाहे जितनी हो।[^1]\n\n- **15 calendar दिन:** सारे ज़रूरी काग़ज़ मिलने के बाद bank को दावा इतने दिन में निपटाना है।[^1]\n- **पावती:** दावा किसी भी शाखा में दिया जा सकता है, और bank को पावती देनी है।[^1]\n\n## अभी क्या करें\n\n- अपने joint खाते के काग़ज़ में देखिए कि खाता किस निर्देश पर चल रहा है: 'Either or Survivor', 'Former or Survivor', या joint दस्तख़त।[^1]\n- Joint FD हो, तो तय कर लीजिए कि survivor को समय से पहले तोड़ने का अधिकार देना है या नहीं; देना हो, तो सभी खाताधारक मिलकर bank को joint mandate दीजिए।[^1]\n- Joint खाते में nominee भी दर्ज कराइए; उसका हक़ सभी खाताधारकों के न रहने पर बनता है।[^1]\n- दावा देते समय claim form, death certificate और अपना OVD साथ रखिए, और पावती लीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
