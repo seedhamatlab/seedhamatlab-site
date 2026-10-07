@@ -4598,6 +4598,208 @@
         }
       ],
       "body": "## मतलब\n\nRBI की जागरूकता पुस्तिका BE(A)WARE के मुताबिक Vishing उन phone calls को कहते हैं, जिनमें call करने वाला bank, e-wallet कंपनी या telecom कंपनी की तरफ़ से बोलने का नाटक करता है। वह KYC update, खाता या SIM card unblock करने, या कटा हुआ पैसा वापस डालने जैसे बहाने से ग्राहक से गोपनीय जानकारी निकलवाता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **कोई असली संस्था यह जानकारी नहीं माँगती:** RBI के मुताबिक bank के अधिकारी, वित्तीय संस्थाएँ, RBI या कोई भी असली संस्था ग्राहक से username, password, card की जानकारी, CVV या OTP नहीं माँगती।[^1]\n- **किसी को मत बताइए:** यह जानकारी किसी को नहीं देनी है; परिवार के लोगों और दोस्तों को भी नहीं।[^1]\n- **उसे आपका नाम पता है, इससे वह असली नहीं हो जाता:** ठग भरोसा जीतने के लिए ग्राहक का नाम या जन्मतिथि जैसी कुछ जानकारी ख़ुद बता देते हैं।[^1]\n\n## Vishing कैसे होती है | कैसे होती है\n\n::flow\n\n- ठग phone call या social media के ज़रिए संपर्क करता है, और ख़ुद को banker, कंपनी का अधिकारी, बीमा agent या सरकारी अफ़सर बताता है।[^1]\n- भरोसा जीतने के लिए वह आपकी कुछ जानकारी बताता है, जैसे नाम या जन्मतिथि।[^1]\n- फिर वह कोई जल्दी या emergency बताता है: जैसे कोई अनधिकृत लेनदेन रोकना है, जुर्माने से बचने के लिए भुगतान करना है, या कोई आकर्षक छूट मिल रही है।[^1]\n- इसी बहाने वह आपसे password, OTP, PIN या CVV जैसी गोपनीय जानकारी निकलवा लेता है, और उसी से ठगी करता है।[^1]\n\n## phone से जुड़े मिलते-जुलते तरीक़े | मिलते-जुलते तरीक़े\n\nRBI की पुस्तिका में ये तरीक़े अलग से दर्ज हैं:[^1]\n\n- **SIM swap:** ठग telecom कंपनी का कर्मचारी बनकर, SIM को 3G से 4G में मुफ़्त upgrade करने जैसे offer के नाम पर आपकी पहचान की जानकारी लेता है। इसके बाद वह आपके number का duplicate SIM हासिल कर सकता है, और उस पर आए OTP से लेनदेन कर सकता है।\n- **Loan के नाम पर OTP:** ठग NBFC के नाम से loan या credit limit बढ़ाने का SMS भेजते हैं और एक mobile number पर call करने को कहते हैं। Call करने पर वे form भरवाकर जानकारी लेते हैं, और OTP या PIN बताने के लिए मना लेते हैं।\n- **Search से मिला नक़ली customer care number:** इसमें ग्राहक ख़ुद ठग को call कर बैठता है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Bank के अधिकारी, वित्तीय संस्थाएँ, RBI या कोई भी असली संस्था आपसे password, card की जानकारी, CVV या OTP नहीं माँगती।[^1]\n\n- ठगी की कोशिश वाली call की report आप Chakshu पर कर सकते हैं। Report करने वाले नागरिक की जानकारी गोपनीय रखी जाती है।[^2]\n\n## अभी क्या करें\n\n- Call पर कोई password, OTP, PIN या CVV माँगे, तो मत बताइए।[^1]\n- Bank या कंपनी से बात करनी हो, तो उसकी official website से number लेकर ख़ुद call कीजिए, या शाखा जाइए।[^1]\n- ठगी की कोशिश हुई, पर पैसा नहीं गया: Chakshu पर report कीजिए।[^2]\n- जानकारी दे दी या पैसा कट गया: card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए; फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n- Phone में काफ़ी देर तक network न आए, तो तुरंत अपनी mobile कंपनी से पूछिए कि कहीं आपके number का duplicate SIM तो जारी नहीं हुआ।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "cvv",
+      "term": "CVV",
+      "aliases": [
+        "Card Verification Value"
+      ],
+      "full": "Card Verification Value · card पर छपा 3 अंकों का number",
+      "fullEn": "Card Verification Value",
+      "group": "भुगतान",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI की जागरूकता पुस्तिका BE(A)WARE, RBI की press release (22 जून 2020) और RBI के tokenisation FAQ (11 मई 2023 को update) से जाँचा।"
+        }
+      ],
+      "one": "CVV आपके card पर छपा 3 अंकों का number है, जो ज़्यादातर online भुगतान पूरा करने के लिए ज़रूरी होता है। इसे कभी किसी को नहीं बताना है; bank भी इसे नहीं माँगता।",
+      "facts": [
+        {
+          "k": "कितने अंक",
+          "v": "3 अंक",
+          "s": "card पर छपा होता है"
+        },
+        {
+          "k": "कहाँ लगता है",
+          "v": "online भुगतान",
+          "s": "ज़्यादातर online लेनदेन पूरा करने के लिए ज़रूरी"
+        },
+        {
+          "k": "क्या bank CVV माँगता है",
+          "v": "नहीं",
+          "s": "RBI: bank और payment system operator कभी नहीं माँगते",
+          "good": true
+        },
+        {
+          "k": "card की जानकारी website पर save करें",
+          "v": "बचिए",
+          "s": "RBI की पुस्तिका की सलाह"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "जो आपके पास है",
+            "s": "card number, expiry date और CVV"
+          },
+          {
+            "t": "जो आप जानते हैं",
+            "s": "password, PIN या OTP"
+          },
+          {
+            "t": "पहचान",
+            "s": "दो अलग चीज़ें मिलाकर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "और",
+            "s": "दूसरी, अलग चीज़"
+          },
+          {
+            "b": "दोनों मिलाकर",
+            "s": "two-factor authentication"
+          }
+        ],
+        "note": "RBI की पुस्तिका के मुताबिक two-factor authentication में दो अलग चीज़ें मिलाकर user की पहचान होती है।"
+      },
+      "myths": [
+        {
+          "m": "\"Bank वाला CVV माँगे, तो बताना पड़ता है।\"",
+          "f": "नहीं। RBI के मुताबिक bank और payment system operator password, PIN, OTP या CVV number जैसी जानकारी कभी नहीं माँगते।[^2]"
+        },
+        {
+          "m": "\"CVV तो card पर ही छपा है, इसमें छिपाने जैसा क्या है।\"",
+          "f": "RBI की पुस्तिका के मुताबिक CVV गोपनीय है, और इसे कभी किसी को नहीं बताना है। यह ज़्यादातर online लेनदेन पूरा करने के लिए ज़रूरी होता है।[^1]"
+        },
+        {
+          "m": "\"घरवालों को card की जानकारी देने में कोई हर्ज नहीं।\"",
+          "f": "RBI की पुस्तिका कहती है कि PIN, password, card number और CVV दोस्तों और परिवार वालों से भी साझा नहीं करने हैं।[^1]"
+        },
+        {
+          "m": "\"हर website पर card save कर लेना ठीक है।\"",
+          "f": "RBI की पुस्तिका card की जानकारी website या device पर save करने से बचने की सलाह देती है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CVV का पूरा नाम क्या है?",
+          "a": "Card Verification Value।"
+        },
+        {
+          "q": "क्या हर online भुगतान में CVV लगता है?",
+          "a": "RBI की पुस्तिका के मुताबिक CVV 'ज़्यादातर' online लेनदेन पूरा करने के लिए ज़रूरी है। उसमें 'हर' लेनदेन नहीं लिखा है।"
+        },
+        {
+          "q": "Two-factor authentication क्या है?",
+          "a": "RBI की पुस्तिका के मुताबिक पहचान के तीन तरह के factor होते हैं: जो user जानता है (जैसे password या PIN), जो user के पास है (जैसे card number, expiry date और CVV), और जो user ख़ुद है (जैसे fingerprint)। Two-factor authentication में इनमें से दो अलग चीज़ें मिलाकर user की पहचान होती है।"
+        },
+        {
+          "q": "Tokenisation क्या है?",
+          "a": "RBI के मुताबिक इसमें card की असली जानकारी की जगह एक अलग code इस्तेमाल होता है, जिसे token कहते हैं। Tokenised card से हुआ लेनदेन ज़्यादा सुरक्षित माना जाता है, क्योंकि लेनदेन के दौरान card की असली जानकारी merchant के साथ साझा नहीं होती।"
+        },
+        {
+          "q": "Tokenisation के बाद card की जानकारी कहाँ रहती है?",
+          "a": "RBI के मुताबिक card की असली जानकारी और token, token service provider (card network या card issuer) के पास सुरक्षित रूप में रखे जाते हैं। Token माँगने वाला (token requestor) card number या card की कोई और जानकारी अपने पास नहीं रख सकता।"
+        },
+        {
+          "q": "CVV किसी को बता दिया, अब क्या करें?",
+          "a": "RBI की पुस्तिका के मुताबिक card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए: शाखा जाकर, या bank की website पर लिखे official customer care number पर call करके। फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "UPI PIN"
+        },
+        {
+          "t": "Vishing"
+        },
+        {
+          "t": "Fake Customer Care"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "article": "call-par-otp",
+      "articleLabel": "“Bank से बोल रहा हूँ, OTP बताइए” — call पर OTP माँगा जाए तो क्या करें?",
+      "sources": [
+        {
+          "label": "RBI — BE(A)WARE: A Booklet on Modus Operandi of Financial Fraudsters (पुस्तिका पर तारीख़ नहीं है; पन्ना संख्या पुस्तिका की है)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/BEAWARE07032022.pdf",
+          "used": [
+            {
+              "ref": "Glossary: CVV (पन्ना 32)",
+              "c": "Card Verification Value; card पर छपा 3 अंकों का number; ज़्यादातर online लेनदेन के लिए ज़रूरी; कभी किसी को नहीं बताना"
+            },
+            {
+              "ref": "Glossary: Card number (पन्ना 32)",
+              "c": "card number भुगतान के लिए merchant को देना होता है, और किसी को नहीं"
+            },
+            {
+              "ref": "Glossary: Two-factor authentication (पन्ना 32)",
+              "c": "पहचान के तीन तरह के factor; CVV 'जो user के पास है' में; दो अलग चीज़ें मिलाकर पहचान"
+            },
+            {
+              "ref": "Part C: General precautions (पन्ना 25)",
+              "c": "PIN, password, card number, CVV गोपनीय; card की जानकारी save करने से बचें; https और padlock"
+            },
+            {
+              "ref": "Part C: Debit / Credit cards (पन्ना 27–28)",
+              "c": "इस्तेमाल न हो तो card के online लेनदेन बंद करें; card नज़र से दूर न जाने दें"
+            },
+            {
+              "ref": "Part C: Actions after a fraud (पन्ना 27)",
+              "c": "card block, खाते से debit रुकवाना; 1930 या cybercrime.gov.in"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank sensitises members of public on safe use of digital transactions, press release 2019-2020/2534, 22 जून 2020",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49986",
+          "issued": "2020-06-22",
+          "used": [
+            {
+              "ref": "बिंदु (ii)",
+              "c": "Password, PIN, OTP, CVV, UPI-PIN किसी से साझा न करें"
+            },
+            {
+              "ref": "आख़िरी वाक्य",
+              "c": "bank और payment system operator password, PIN, OTP या CVV number कभी नहीं माँगते"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Frequently Asked Questions: Device based Tokenisation – Card Transactions (Updated as on May 11, 2023)",
+          "url": "https://www.rbi.org.in/Scripts/FAQView.aspx?Id=129",
+          "issued": "2023-05-11",
+          "used": [
+            {
+              "ref": "Q1, Q3",
+              "c": "token card की असली जानकारी की जगह एक अलग code; लेनदेन में असली जानकारी merchant से साझा नहीं होती"
+            },
+            {
+              "ref": "Q5, Q11",
+              "c": "ग्राहक से कोई शुल्क नहीं; tokenisation अनिवार्य नहीं"
+            },
+            {
+              "ref": "Q10",
+              "c": "card की असली जानकारी token service provider के पास; token requestor card number नहीं रख सकता"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCVV यानी Card Verification Value। RBI की जागरूकता पुस्तिका BE(A)WARE के मुताबिक यह card पर छपा 3 अंकों का number है, जो ज़्यादातर online लेनदेन पूरा करने के लिए ज़रूरी होता है। यह गोपनीय है, और इसे कभी किसी को नहीं बताना है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **CVV किसी को मत बताइए:** RBI ने कहा है कि Password, PIN, OTP, CVV और UPI-PIN किसी से साझा न करें।[^2]\n- **Bank भी नहीं माँगता:** RBI के मुताबिक bank और payment system operator password, PIN, OTP या CVV number जैसी जानकारी कभी नहीं माँगते।[^2]\n- **Card number भी सँभालकर:** RBI की पुस्तिका के मुताबिक card number भुगतान के लिए merchant को देना होता है; उसके अलावा किसी से साझा नहीं करना है।[^1]\n\n## CVV कहाँ काम आता है | कहाँ काम आता है\n\n::flow\n\n- RBI की पुस्तिका के मुताबिक पहचान के तीन तरह के factor होते हैं: जो user जानता है (जैसे password या PIN); जो user के पास है (जैसे card number, expiry date और card पर छपा CVV); और जो user ख़ुद है (जैसे fingerprint)।[^1]\n- Two-factor authentication में इनमें से दो अलग चीज़ें मिलाकर user की पहचान होती है, ताकि लेनदेन पूरा हो सके।[^1]\n- इस बँटवारे में CVV \"जो user के पास है\" वाले हिस्से में आता है।[^1]\n\n## Card की जानकारी कैसे बचाएँ | कैसे बचाएँ\n\nRBI की पुस्तिका की सलाह:[^1]\n\n- PIN, password, card number और CVV गोपनीय रखिए। इन्हें bank, वित्तीय संस्थाओं, दोस्तों और परिवार वालों से भी साझा मत कीजिए।\n- Card की जानकारी website, device या public laptop / desktop पर save करने से बचिए।\n- Online भुगतान से पहले देखिए कि payment gateway सुरक्षित है: URL https:// से शुरू हो और उसके साथ ताले (padlock) का निशान हो।\n- Card कुछ समय इस्तेमाल नहीं करना है, तो उसके online लेनदेन (देश के और विदेश के, दोनों) बंद कर दीजिए, और ज़रूरत पड़ने पर ही चालू कीजिए।\n- दुकान पर card swipe होते समय उसे अपनी नज़र से दूर मत जाने दीजिए।\n\n## Tokenisation: card की असली जानकारी दिए बिना भुगतान | Tokenisation\n\n- RBI के मुताबिक tokenisation में card की असली जानकारी की जगह एक अलग code इस्तेमाल होता है, जिसे token कहते हैं।[^3]\n- Tokenised card से हुआ लेनदेन ज़्यादा सुरक्षित माना जाता है, क्योंकि लेनदेन के दौरान card की असली जानकारी merchant के साथ साझा नहीं होती।[^3]\n- इसके लिए ग्राहक को कोई शुल्क नहीं देना होता। यह अनिवार्य भी नहीं है: card tokenise कराना या न कराना ग्राहक की मर्ज़ी है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Bank और payment system operator आपसे password, PIN, OTP या CVV number नहीं माँगते।[^2]\n\n- Card tokenise कराना आपकी मर्ज़ी है, और इसका कोई शुल्क नहीं है।[^3]\n\n## अभी क्या करें\n\n- CVV किसी call, message या email पर मत बताइए।[^2]\n- जिस card का इस्तेमाल अभी नहीं हो रहा, उसके online लेनदेन बंद कर दीजिए।[^1]\n- ठगी हो जाए, तो card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए; फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
