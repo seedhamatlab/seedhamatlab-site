@@ -303,7 +303,7 @@ footer p{margin:0;font-size:14px;color:var(--on-dark-2);line-height:1.66}
 /* ---- shabdkosh (dhancha 2): post page ---- */
 .topband{overflow:hidden}
 .arthero{position:relative;isolation:isolate;border-top:1px solid rgba(255,255,255,.08);padding:2px 0 26px}
-.arthero:after{content:"";position:absolute;right:-78px;top:-64px;width:230px;height:230px;border-radius:50%;border:26px solid rgba(255,255,255,.045);z-index:-1}
+.arthero:after{content:"";position:absolute;right:-78px;top:-64px;width:230px;height:230px;border-radius:50%;border:26px solid rgba(255,255,255,.045);z-index:-1;pointer-events:none}
 .arthero .crumbs{color:#76828D;margin:14px 0 13px}
 .arthero .crumbs a{color:var(--on-dark-2)}
 .kindrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
