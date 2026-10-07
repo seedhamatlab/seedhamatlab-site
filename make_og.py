@@ -8,7 +8,7 @@ COPY={
 'call-par-otp':('Call par OTP maanga?','Bank kabhi OTP nahi maangta. Call kaat dein.'),
 'credit-report-muft-kaise':('Poori report muft mein','Saal mein ek baar, har bureau se.'),
 'credit-report-shikayat-kahan':('Shikayat kiske paas?','Bank 21 din, bureau 30 din.'),
-'credit-report-kab-update':('Chuka diya, dikh nahi raha?','Bank har pakhwade data bhejte hain.'),
+'credit-report-kab-update':('Chuka diya, dikh nahi raha?','Bank ab mahine mein 4 baar data bhejte hain.'),
 'upi-mdr-15-october':('UPI mehenga ho jayega?','Grahak se ek paisa nahi. MDR dukandar par.'),
 'purana-khata-udgam':('Purani passbook ya FD?','10 saal baad bhi paisa aapka hai.'),
 'khata-freeze-cyber':('Khata freeze ho gaya?','Jo tay hai, aur jo ab tak tay nahi.'),
