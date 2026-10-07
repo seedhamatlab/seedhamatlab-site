@@ -1983,6 +1983,242 @@
         }
       ],
       "body": "## मतलब\n\nKYC यानी Know Your Customer। इस प्रक्रिया में bank, या RBI के नियमों में आने वाली कोई और संस्था, आपकी पहचान, पते, काम-धंधे और आर्थिक स्थिति की जानकारी लेती है और उसे जाँचती है।[^1]\n\nइसका मक़सद यह है कि संस्था को पता रहे कि वह किससे लेनदेन कर रही है, और उसकी सेवाओं का इस्तेमाल money laundering या आतंकवाद की funding जैसे कामों के लिए न हो।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **खाता खोलते समय KYC ज़रूरी है।** किसी भी तरह का खाता खोलने पर bank को KYC करना होता है।[^1]\n- **KYC एक बार का काम नहीं है।** Bank को आपका KYC record समय-समय पर update करना होता है। इसे कई बार re-KYC भी कहा जाता है।[^1]\n- **KYC के नाम पर ठगी होती है।** RBI ने चेताया है कि ठग call, SMS या email से निजी जानकारी और login की जानकारी निकलवाते हैं, या link भेजकर अनजान app install करवाते हैं।[^3]\n\n## KYC कब ज़रूरी होता है | कब\n\nRBI के FAQ में ये मौक़े गिनाए गए हैं:[^1]\n\n- किसी भी तरह का खाता खोलते समय।\n- जब bank में खाता न रखने वाला व्यक्ति (walk-in customer) ₹50,000 या उससे ज़्यादा का लेनदेन करे, चाहे एक बार में या आपस में जुड़े कई लेनदेन में।\n- जब walk-in customer कोई international money transfer करे।\n- जब bank को पहले ली गई पहचान की जानकारी के सही या पूरी होने पर शक हो।\n- जब bank अपने या किसी और के product बेचे; और credit card के बकाये का भुगतान, prepaid या travel card की बिक्री और reload, या कोई और product ₹50,000 से ज़्यादा का हो।\n\n## KYC update कैसे होता है | Update\n\n::flow\n\n- **कितने समय में:** KYC update कम से कम इतने समय में एक बार होना चाहिए: high-risk ग्राहक के लिए 2 साल, medium-risk के लिए 8 साल और low-risk के लिए 10 साल। Bank अपनी नीति में इससे जल्दी update, आपकी मौजूदगी, या सिर्फ़ खाते वाली शाखा में update जैसी शर्तें रख सकता है।[^1]\n- **आप किस श्रेणी में हैं:** यह bank तय करता है। Commercial bank यह श्रेणी ग्राहक को नहीं बताता।[^2]\n- **कुछ नहीं बदला:** आप self-declaration दे सकते हैं। यह bank में registered email या mobile number से, ATM से, net banking या mobile app से, या चिट्ठी से दिया जा सकता है।[^1]\n- **सिर्फ़ पता बदला:** नए पते का self-declaration इन्हीं तरीक़ों से दिया जा सकता है। Bank दो महीने के अंदर उस पते की पुष्टि करता है।[^1]\n- **दूसरी जानकारी बदली:** तब वही दस्तावेज़ देने होते हैं, जो खाता खोलते समय लगते हैं।[^1]\n- **दूसरे तरीक़े:** bank की शाखा में, Aadhaar OTP वाले e-KYC से, या V-CIP से।[^1]\n- **Bank के पास पुराने दस्तावेज़:** आपकी जानकारी न बदली हो, पर commercial bank के पास रखे दस्तावेज़ मौजूदा मानक के न हों, तो bank नए दस्तावेज़ माँग सकता है। दस्तावेज़ों की वैधता ख़त्म हो चुकी हो, तो KYC नए ग्राहक की तरह दोबारा होता है।[^2]\n- **रसीद:** जानकारी या self-declaration देने पर bank रसीद देता है, और record update होने पर आपको सूचना देता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Bank को KYC update की due date से पहले आपको सूचना देनी होती है, और due date के बाद reminder भी।[^1]\n\n- Commercial banks के लिए नियम: due date से पहले कम से कम तीन सूचनाएँ, और बाद में कम से कम तीन reminder। दोनों में कम से कम एक चिट्ठी से।[^2]\n- Low-risk व्यक्ति के खाते में commercial bank को KYC due होने के बाद एक साल तक (या 30 जून 2026 तक, जो बाद में हो) सारे लेनदेन चलने देने होते हैं।[^2]\n- KYC या KYC update की अर्ज़ी ख़ारिज करने का फ़ैसला automated नहीं हो सकता; उसे bank का अधिकृत अधिकारी देखता है।[^1] Commercial bank के अधिकारी को ख़ारिज करने की वजह दर्ज करनी होती है।[^2]\n- उसी bank की एक शाखा से दूसरी शाखा में खाता ले जाने पर नया KYC नहीं लगता, अगर पूरा KYC हो चुका है और update due नहीं है।[^1]\n- Commercial bank खाता खोलने के लिए ली गई जानकारी को गोपनीय रखता है। आपकी साफ़ इजाज़त के बिना वह इसे cross-selling या किसी और काम के लिए नहीं दे सकता।[^2]\n\n## अभी क्या करें\n\n- KYC update का कोई call, SMS या email आए, तो सीधे अपने bank से पुष्टि कीजिए। Bank का number सिर्फ़ उसकी official website या official स्रोत से लीजिए।[^3]\n- Login की जानकारी, card की जानकारी, PIN, password या OTP किसी को मत बताइए। KYC दस्तावेज़ या उनकी copy अनजान लोगों या संस्थाओं को मत दीजिए।[^3]\n- Mobile या email पर आए संदिग्ध या बिना जाँचे link पर click मत कीजिए।[^3]\n- ठगी हो जाए, तो तुरंत अपने bank को बताइए और cybercrime.gov.in पर या 1930 पर शिकायत कीजिए।[^3]\n- आपका कोई KYC दस्तावेज़ बदले (जैसे पता), तो 30 दिन के अंदर bank को नया दस्तावेज़ दीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "upi-pin",
+      "term": "UPI PIN",
+      "aliases": [
+        "UPI-PIN"
+      ],
+      "full": "UPI Personal Identification Number · UPI का गुप्त code",
+      "fullEn": "UPI Personal Identification Number",
+      "group": "भुगतान",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। NPCI के UPI FAQ, Fraud Awareness पन्ने और तीन circular (OC 226, OC 226A, OC 169A) से जाँचा।"
+        }
+      ],
+      "one": "UPI PIN 4 से 6 अंकों का गुप्त code है, जिसे डालकर आप UPI का भुगतान मंज़ूर करते हैं। पैसा पाने के लिए UPI PIN नहीं डालना पड़ता।",
+      "facts": [
+        {
+          "k": "कितने अंक",
+          "v": "4 से 6",
+          "s": "यह PIN आप ख़ुद बनाते हैं"
+        },
+        {
+          "k": "पैसा पाने के लिए",
+          "v": "PIN नहीं",
+          "s": "PIN सिर्फ़ भुगतान करने के लिए है",
+          "good": true
+        },
+        {
+          "k": "किसे बताएँ",
+          "v": "किसी को नहीं",
+          "s": "bank का customer support भी नहीं माँगता"
+        },
+        {
+          "k": "PIN की जगह biometric",
+          "v": "₹10,000 तक",
+          "s": "fingerprint या चेहरा; सिर्फ़ आपकी मर्ज़ी से"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप",
+            "s": "app में भुगतान शुरू करते हैं"
+          },
+          {
+            "t": "UPI PIN",
+            "s": "आप ख़ुद अपने phone में डालते हैं"
+          },
+          {
+            "t": "भुगतान",
+            "s": "आपके खाते से पैसा जाता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "फिर",
+            "s": "app PIN माँगता है"
+          },
+          {
+            "b": "सही PIN",
+            "s": "ग़लत हो तो भुगतान fail"
+          }
+        ],
+        "note": "UPI PIN डालने का मतलब है कि आप अपने खाते से भुगतान मंज़ूर कर रहे हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Cashback या इनाम पाने के लिए QR scan करके UPI PIN डालिए।\"",
+          "f": "नहीं। NPCI के मुताबिक QR code scan करना और UPI PIN डालना सिर्फ़ भुगतान करने के लिए है, पैसा पाने के लिए नहीं।[^2]"
+        },
+        {
+          "m": "\"Bank का customer care UPI PIN पूछ सकता है।\"",
+          "f": "नहीं। NPCI के FAQ के मुताबिक आपके bank का customer support UPI PIN कभी नहीं माँगता। UPI PIN किसी को न बताएँ।[^1]"
+        },
+        {
+          "m": "\"UPI PIN और bank का MPIN एक ही चीज़ है।\"",
+          "f": "नहीं। Bank का दिया हुआ MPIN और UPI PIN अलग-अलग हैं।[^1]"
+        },
+        {
+          "m": "\"Phone खो गया, तो कोई भी मेरे UPI से पैसा भेज देगा।\"",
+          "f": "NPCI के FAQ के मुताबिक लेनदेन मंज़ूर करने के लिए UPI PIN चाहिए, जो किसी और को पता नहीं होता। फिर भी phone खोते ही अपना mobile number block कराइए और अपने bank के customer support से संपर्क कीजिए।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "UPI PIN भूल जाएँ तो?",
+          "a": "अपने debit card की जानकारी (आख़िरी छह अंक और expiry date) से नया UPI PIN बनाया जा सकता है।"
+        },
+        {
+          "q": "ग़लत UPI PIN डाल दिया तो?",
+          "a": "वह लेनदेन fail हो जाएगा। कई बार ग़लत PIN डालने पर bank कुछ समय के लिए आपके खाते से UPI पर पैसा भेजना रोक सकता है। यह हर bank में अलग-अलग है।"
+        },
+        {
+          "q": "क्या हर UPI app के लिए अलग PIN बनाना पड़ता है?",
+          "a": "NPCI के FAQ के मुताबिक, किसी और UPI app में बनाया हुआ UPI PIN BHIM app में भी इस्तेमाल हो सकता है।"
+        },
+        {
+          "q": "Debit card के बिना UPI PIN बन सकता है?",
+          "a": "NPCI के circular में PIN बनाने के तरीक़ों में Aadhaar OTP का भी ज़िक्र है। 7 अक्टूबर 2025 के circular से UIDAI Face Authentication का विकल्प भी जोड़ा गया है। आपके bank और app में कौन-सा तरीक़ा चलता है, यह उन्हीं से पता चलेगा।"
+        },
+        {
+          "q": "क्या UPI app मेरा PIN save करता है?",
+          "a": "NPCI के FAQ के मुताबिक BHIM app आपका UPI PIN न store करता है, न पढ़ता है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "UPI Lite"
+        },
+        {
+          "t": "AutoPay"
+        },
+        {
+          "t": "NPCI"
+        }
+      ],
+      "article": "upi-pin-refund",
+      "articleLabel": "“Refund के लिए UPI PIN डालें” — सच क्या है?",
+      "sources": [
+        {
+          "label": "NPCI — UPI FAQ, Customers (43 सवाल; सवाल ऊपर से गिने गए हैं; पन्ने पर तारीख़ नहीं है)",
+          "url": "https://www.npci.org.in/faqs/upi",
+          "used": [
+            {
+              "ref": "सवाल 3",
+              "c": "UPI PIN क्या है; 4 से 6 अंक; पहली बार register करते समय बनता है; इसी से लेनदेन मंज़ूर होता है"
+            },
+            {
+              "ref": "सवाल 3",
+              "c": "किसी को न बताएँ; bank का customer support नहीं माँगता; MPIN अलग है; दूसरे app का PIN BHIM में चलता है; BHIM PIN store नहीं करता"
+            },
+            {
+              "ref": "सवाल 4",
+              "c": "ग़लत PIN पर लेनदेन fail; कई बार ग़लत डालने पर bank कुछ समय के लिए रोक सकता है"
+            },
+            {
+              "ref": "सवाल 6",
+              "c": "online दुकान पर: app में आई collect request पर UPI PIN डालने से भुगतान पूरा"
+            },
+            {
+              "ref": "सवाल 15, 32",
+              "c": "phone खो जाए: mobile number block कराएँ, bank से संपर्क करें; PIN के बिना लेनदेन नहीं"
+            },
+            {
+              "ref": "सवाल 23, 34",
+              "c": "debit card की जानकारी से PIN बनाना और नया PIN बनाना"
+            },
+            {
+              "ref": "सवाल 40",
+              "c": "AutoPay (mandate) में बिना PIN: ₹15,000 तक; mutual fund, credit card bill और insurance में ₹1 लाख तक"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — Fraud Awareness (पन्ने पर तारीख़ नहीं है)",
+          "url": "https://www.npci.org.in/fraud-awareness",
+          "used": [
+            {
+              "ref": "Fake Cash back links",
+              "c": "QR scan करना और UPI PIN डालना सिर्फ़ भुगतान के लिए है, पैसा पाने के लिए नहीं"
+            },
+            {
+              "ref": "QR Codes",
+              "c": "सामान बेचने वालों से ठगी: QR भेजकर बार-बार PIN डलवाना"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — circular NPCI/UPI/OC-226/2025-26, Introduction of Additional Authentication methods in UPI, 7 अक्टूबर 2025",
+          "url": "https://www.npci.org.in/uploads/UPI_OC_No_226_FY_2025_26_Introduction_of_Additional_Authentication_methods_in_UPI_42c3693399.pdf",
+          "issued": "2025-10-07",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "UPI PIN लेनदेन की जाँच का एक हिस्सा है (UPI Lite और mandate को छोड़कर); Aadhaar OTP या debit card की जानकारी, और bank के OTP से बनता है"
+            },
+            {
+              "ref": "पैरा 2",
+              "c": "नए तरीक़े optional हैं; पुराने तरीक़े चलते रहेंगे"
+            },
+            {
+              "ref": "बिंदु 1",
+              "c": "UIDAI Face Authentication से UPI PIN बनाना या reset करना"
+            },
+            {
+              "ref": "बिंदु 2",
+              "c": "PIN की जगह phone का biometric (fingerprint, चेहरा); शुरू में ₹5,000 तक"
+            },
+            {
+              "ref": "Guideline 2",
+              "c": "ग्राहक की साफ़ सहमति ज़रूरी; कभी भी बंद करने का विकल्प"
+            },
+            {
+              "ref": "Guideline 7",
+              "c": "UPI PIN बदलने या reset करने पर biometric तरीक़ा बंद, नई सहमति तक"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — circular NPCI/UPI/OC-226A/2026-27, Enhancement of Transaction Limit for On-Device Biometric Authentication in UPI, 3 जुलाई 2026",
+          "url": "https://www.npci.org.in/uploads/UPI_OC_226_A_Enhancement_of_Transaction_Limit_for_On_Device_Biometric_Authentication_in_UPI_735a88b16a.pdf",
+          "issued": "2026-07-03",
+          "effective": "2026-08-07",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "biometric से भुगतान की सीमा ₹5,000 से बढ़कर ₹10,000 प्रति लेनदेन"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — circular NPCI/UPI/OC No. 169 A/2024-25, Addendum to Enhancement in UPI LITE Limits, 27 फ़रवरी 2025",
+          "url": "https://www.npci.org.in/uploads/UPI_OC_No_169_A_FY_202425_Addendum_to_Enhancement_in_UPI_LITE_Limits_270c24bcbc.pdf",
+          "issued": "2025-02-27",
+          "used": [
+            {
+              "ref": "बिंदु 1",
+              "c": "UPI Lite: एक लेनदेन ₹1,000 तक; कुल सीमा ₹5,000"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nUPI PIN यानी UPI Personal Identification Number। यह 4 से 6 अंकों का code है, जो आप UPI app में पहली बार register करते समय ख़ुद बनाते हैं। लेनदेन मंज़ूर करने के लिए यही PIN डालना होता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **PIN डालना यानी भुगतान मंज़ूर करना।** UPI PIN डालने पर लेनदेन मंज़ूर होता है।[^1]\n- **पैसा पाने के लिए PIN नहीं लगता।** NPCI के मुताबिक QR code scan करना और UPI PIN डालना सिर्फ़ भुगतान करने के लिए है।[^2]\n- **PIN सिर्फ़ आपका है।** इसे किसी को न बताएँ। आपके bank का customer support भी इसे कभी नहीं माँगता।[^1]\n\n## UPI PIN से भुगतान कैसे होता है | भुगतान\n\n::flow\n\n- Online दुकान पर अपनी UPI ID डालने पर आपके UPI app में collect request आती है। वहाँ UPI PIN डालने पर भुगतान पूरा होता है।[^1]\n- ग़लत PIN डालने पर लेनदेन fail हो जाता है।[^1]\n\n## UPI PIN कैसे बनता है | बनाना\n\n- UPI PIN किसी भी UPI app में अपने debit card की जानकारी से बनाया जा सकता है।[^1]\n- NPCI के circular के मुताबिक UPI PIN बनाने में Aadhaar OTP या debit card की जानकारी, और bank का OTP इस्तेमाल होता है।[^3]\n- 7 अक्टूबर 2025 के circular से एक और विकल्प जोड़ा गया है: UIDAI Face Authentication से UPI PIN बनाना या reset करना। Bank और app इसे लागू कर सकते हैं, इसलिए यह हर जगह हो, ज़रूरी नहीं।[^3]\n\n## UPI PIN कब नहीं लगता | बिना PIN\n\nNPCI के मुताबिक UPI PIN से जाँच UPI Lite और mandate (AutoPay) की रक़म कटने पर लागू नहीं होती।[^3]\n\n- **UPI Lite:** एक लेनदेन ₹1,000 तक, और कुल सीमा ₹5,000।[^5]\n- **AutoPay (mandate):** बिना UPI PIN के ₹15,000 तक की रक़म कट सकती है। Mutual fund, credit card bill और insurance में यह सीमा ₹1 लाख है।[^1]\n- **Biometric:** जिस bank और app में यह सुविधा है, वहाँ आप चाहें, तो UPI PIN की जगह phone का fingerprint या चेहरा इस्तेमाल कर सकते हैं। यह ₹10,000 तक के लेनदेन के लिए है। 7 अगस्त 2026 से पहले यह सीमा ₹5,000 थी।[^3][^4]\n- UPI PIN बदलने या reset करने पर biometric वाला तरीक़ा बंद हो जाता है, जब तक आप नई सहमति न दें।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> UPI PIN की जगह biometric इस्तेमाल करना आपकी मर्ज़ी है। इसके लिए आपकी साफ़ सहमति ज़रूरी है, और आप इसे कभी भी बंद कर सकते हैं।[^3]\n\n- Biometric वाला तरीक़ा optional है। आप पहले की तरह UPI PIN इस्तेमाल करते रह सकते हैं।[^3]\n\n## अभी क्या करें\n\n- UPI PIN किसी को मत बताइए, चाहे वह ख़ुद को bank का कर्मचारी बताए।[^1]\n- कोई अनजान व्यक्ति link या QR code भेजकर कहे कि इनाम या पैसा पाने के लिए UPI PIN डालिए, तो PIN मत डालिए।[^2]\n- सामान बेचते समय ख़रीदार QR code भेजकर scan करने और PIN डालने को कहे, तो रुक जाइए। NPCI ने बताया है कि ठग पहले छोटी रक़म लौटाकर भरोसा बनाते हैं, फिर बड़ी रक़म के लिए दोबारा PIN डलवाते हैं।[^2]\n- Phone खो जाए, तो अपना mobile number block कराइए और अपने bank के customer support से संपर्क कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
