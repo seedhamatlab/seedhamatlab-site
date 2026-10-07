@@ -7545,6 +7545,218 @@
         }
       ],
       "body": "## मतलब\n\nQR का पूरा नाम Quick Response है। RBI की पुस्तिका के मुताबिक QR code एक तरह का दो-आयामी bar code है: सफ़ेद पृष्ठभूमि पर चौकोर जाली में बने काले चौकोर। Smartphone के camera जैसे imaging device इसे पढ़ सकते हैं।[^1]\n\nQR code में पैसा पाने वाले की जानकारी होती है। इसका इस्तेमाल दुकान पर mobile से भुगतान कराने के लिए होता है, जिसमें रकम ग्राहक के खाते से कटती है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Scan भुगतान के लिए है:** NPCI के मुताबिक QR code scan करना और UPI PIN डालना सिर्फ़ भुगतान करने के लिए है, पैसा पाने के लिए नहीं।[^3]\n- **पैसा पाने के लिए scan नहीं:** RBI के मुताबिक पैसा पाने वाले लेनदेन में barcode या QR code scan करने या MPIN डालने की ज़रूरत नहीं होती। कोई ऐसा करने को कहे, तो सावधान हो जाइए।[^4]\n- **ग्राहक के लिए मुफ़्त:** बाज़ार, ठेले या छोटी दुकान पर QR code scan करने का ग्राहक से कोई शुल्क नहीं लगता, रकम चाहे जो हो।[^6]\n- **Beneficiary जोड़ना ज़रूरी नहीं:** UPI में किसी QR code पर सीधे पैसा भेजा जा सकता है; पहले से beneficiary जोड़ना नहीं पड़ता।[^2]\n\n## QR code से भुगतान कैसे होता है | कैसे चलता है\n\n::flow\n\n- **Static QR:** हमेशा एक जैसा रहता है, और आम इस्तेमाल के लिए है।[^2]\n- **Dynamic QR:** हर लेनदेन के लिए अलग बनता है।[^2]\n- **Scan का फ़ायदा:** NPCI के मुताबिक QR code scan करने से भुगतान जल्दी और बिना ग़लती के होता है, क्योंकि ब्योरा हाथ से नहीं भरना पड़ता।[^2]\n- **किसके खाते में:** RBI के मुताबिक QR code में खाते की जानकारी होती है, ताकि पैसा एक तय खाते में जाए।[^1]\n\n## UPI QR और Bharat QR | UPI QR, Bharat QR\n\n- RBI ने QR code की व्यवस्था की समीक्षा के लिए Prof Deepak Phatak की अध्यक्षता में एक Committee बनाई थी।[^5]\n- उसकी सिफ़ारिशों और उन पर आई राय को देखने के बाद, 22 अक्टूबर 2020 को RBI ने तय किया कि दो interoperable QR code, UPI QR और Bharat QR, पहले की तरह चलते रहेंगे।[^5]\n- जो Payment System Operator अपने अलग (proprietary) QR code चलाते थे, उन्हें 31 मार्च 2022 तक interoperable QR code पर आना था।[^5]\n- RBI ने यह भी तय किया कि कोई Payment System Operator भुगतान के लिए नया proprietary QR code शुरू नहीं करेगा।[^5]\n\n## QR code से ठगी कैसे होती है | ठगी\n\n- **बहाने से scan करवाना:** RBI के मुताबिक ठग अलग-अलग बहानों से ग्राहकों से संपर्क करते हैं और उनके phone के app से QR code scan करवाते हैं। ऐसा QR code scan करके ग्राहक अनजाने में ठग को अपने खाते से पैसा निकालने की मंज़ूरी दे सकता है।[^1]\n- **इनाम या cashback का लालच:** NPCI के मुताबिक अनजान लोग link या QR code भेजकर UPI PIN डालने पर इनाम का वादा करते हैं।[^3]\n- **सामान बेचने वालों से ठगी:** ठग बिना मोलभाव के सामान ख़रीदने को तैयार हो जाता है और QR code भेजकर छोटी रकम के लिए UPI PIN डलवाता है। फिर वह रकम लौटा देता है, ताकि लेनदेन असली लगे।[^3]\n- **फिर बड़ी रकम:** इसके बाद वह दोबारा scan करवाकर बड़ी रकम निकलवाता है। पैसा कटने की बात कहने पर 'system error' बताकर कटी रकम की दुगनी रकम के लिए फिर scan करवाता है।[^3]\n- **PIN माँगा जाए, तो पैसा जा रहा है:** RBI के मुताबिक UPI या कोई और app लेनदेन पूरा करने के लिए PIN माँगे, तो इसका मतलब है कि आप पैसा भेज रहे हैं, पा नहीं रहे।[^1]\n- **RBI की चेतावनी:** RBI ने लोगों को unauthorized QR codes से सावधान रहने को कहा है।[^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> बाज़ार, ठेले या छोटी दुकान पर QR code scan करके भुगतान करना ग्राहक के लिए मुफ़्त है, रकम चाहे जो हो।[^6]\n\n- **छोटे दुकानदार:** जो छोटे दुकानदार UPI QR से महीने में ₹1 लाख तक सीधे अपने खाते में लेते हैं (P2PM श्रेणी), उन पर MDR शून्य है।[^6]\n- **QR बदलना ज़रूरी नहीं:** दुकानों पर लगे मौजूदा UPI QR code पहले की तरह चलते रहेंगे। दुकानदार को QR stand या soundbox बदलने, दोबारा register कराने या bank की शाखा जाने की ज़रूरत नहीं है।[^6]\n\n## अभी क्या करें\n\n- पैसा पाने के लिए कभी कोई QR code scan मत कीजिए।[^1]\n- किसी भी payment app से QR code scan करते समय सावधान रहिए।[^1]\n- कोई अनजान व्यक्ति link या QR code भेजकर इनाम के लिए UPI PIN डालने को कहे, तो मत डालिए।[^3]\n- सामान बेचते समय ख़रीदार QR code भेजकर scan करने और PIN डालने को कहे, तो रुक जाइए।[^3]\n- ठगी हो जाए, तो 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "sim-swap",
+      "term": "SIM Swap",
+      "aliases": [
+        "SIM cloning",
+        "SIM swapping"
+      ],
+      "full": "आपके mobile number का duplicate SIM निकलवाकर OTP हथियाने की ठगी · SIM cloning",
+      "fullEn": "Duplicate SIM fraud",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI की BE(A)WARE पुस्तिका, संचार मंत्रालय की 28 जून 2024 और 7 अगस्त 2025 की PIB release और Sanchar Saathi portal से जाँचा।"
+        }
+      ],
+      "one": "SIM swap वह ठगी है, जिसमें ठग आपके bank खाते से जुड़े mobile number का duplicate SIM हासिल कर लेता है। फिर उस SIM पर आए OTP से वह आपके खाते से लेनदेन करता है।",
+      "facts": [
+        {
+          "k": "ठग के हाथ क्या लगता है",
+          "v": "Duplicate SIM",
+          "s": "e-SIM भी हो सकता है"
+        },
+        {
+          "k": "निशाना",
+          "v": "आपका OTP",
+          "s": "जो bank से जुड़े number पर आता है"
+        },
+        {
+          "k": "पहला संकेत",
+          "v": "Network ग़ायब",
+          "s": "काफ़ी देर तक, आम जगह पर भी"
+        },
+        {
+          "k": "SIM बदलने के बाद",
+          "v": "7 दिन",
+          "s": "number port करने का code नहीं मिलता",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "नक़ली call",
+            "s": "mobile कंपनी का कर्मचारी बनकर"
+          },
+          {
+            "t": "Duplicate SIM",
+            "s": "आपके number का, ठग के पास"
+          },
+          {
+            "t": "आपका bank खाता",
+            "s": "बिना इजाज़त लेनदेन"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "पहचान की जानकारी",
+            "s": "किसी offer के बहाने"
+          },
+          {
+            "b": "OTP",
+            "s": "duplicate SIM पर आता है"
+          }
+        ],
+        "note": "Phone में काफ़ी देर तक network न आए, तो तुरंत अपनी mobile कंपनी से पूछिए।"
+      },
+      "myths": [
+        {
+          "m": "\"SIM मेरे phone में है, तो मेरा number कोई और नहीं चला सकता।\"",
+          "f": "ऐसा नहीं है। RBI के मुताबिक ठग ग्राहक के bank खाते से जुड़े mobile number का duplicate SIM हासिल कर सकते हैं, electronic-SIM भी।[^1]"
+        },
+        {
+          "m": "\"Mobile कंपनी से call आई है कि SIM मुफ़्त में upgrade होगा; जानकारी दे देनी चाहिए।\"",
+          "f": "नहीं। RBI के मुताबिक ठग mobile network का कर्मचारी बनकर, SIM को 3G से 4G में मुफ़्त upgrade करने या SIM पर और फ़ायदे देने जैसे offer के नाम पर निजी और पहचान की जानकारी लेते हैं। SIM से जुड़ी पहचान की जानकारी किसी को मत दीजिए।[^1]"
+        },
+        {
+          "m": "\"Network चला गया है; थोड़ी देर में अपने आप आ जाएगा।\"",
+          "f": "इंतज़ार मत कीजिए। RBI कहता है कि आम जगह पर काफ़ी देर तक phone में network न आए, तो तुरंत mobile operator से संपर्क कीजिए, ताकि पक्का हो कि आपके number का duplicate SIM जारी नहीं हो रहा या नहीं हुआ।[^1]"
+        },
+        {
+          "m": "\"SIM बदलते ही ठग number को दूसरी कंपनी में port करा लेगा।\"",
+          "f": "इस पर रोक है। 1 जुलाई 2024 से लागू TRAI के नियम के मुताबिक SIM swap / replacement की तारीख़ से 7 दिन पूरे होने से पहले माँगा गया Unique Porting Code (UPC) नहीं दिया जाता।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "SIM का पूरा नाम क्या है?",
+          "a": "Subscriber Identity Module।"
+        },
+        {
+          "q": "SIM swap और SIM cloning में क्या फ़र्क़ है?",
+          "a": "RBI की पुस्तिका दोनों को एक ही शीर्षक में रखती है: ठग या तो ग्राहक के SIM card तक पहुँच बना लेते हैं, या उसके number का duplicate SIM (electronic-SIM भी) हासिल कर लेते हैं।"
+        },
+        {
+          "q": "Duplicate SIM से ठग क्या करता है?",
+          "a": "RBI के मुताबिक ठग उस duplicate SIM पर आए OTP से बिना इजाज़त के लेनदेन करते हैं।"
+        },
+        {
+          "q": "ठग जानकारी कैसे निकलवाते हैं?",
+          "a": "RBI के मुताबिक वे आम तौर पर telephone या mobile network का कर्मचारी बनकर संपर्क करते हैं, और SIM को 3G से 4G में मुफ़्त upgrade करने या SIM पर और फ़ायदे देने जैसे offer के नाम पर निजी और पहचान की जानकारी माँगते हैं।"
+        },
+        {
+          "q": "कैसे पता चले कि मेरे साथ SIM swap हुआ है?",
+          "a": "RBI की पुस्तिका एक संकेत बताती है: आम जगह पर भी phone में काफ़ी देर तक network न आना। ऐसा हो, तो तुरंत mobile operator से पूछिए कि आपके number का duplicate SIM जारी तो नहीं हो रहा या नहीं हुआ।"
+        },
+        {
+          "q": "क्या SIM बदलवाना अपने आप में ठगी है?",
+          "a": "नहीं। TRAI और DoT 'SIM swap / replacement' शब्द SIM बदले जाने के लिए इस्तेमाल करते हैं। ठगी तब है, जब यह काम धोखे से कोई और करा ले; TRAI ने इसे 'fraudulent SIM swap / replacement' कहा है।"
+        },
+        {
+          "q": "UPC क्या है?",
+          "a": "Unique Porting Code। TRAI के Mobile Number Portability नियमों में number port कराने के लिए यह code माँगा जाता है। SIM swap / replacement के 7 दिन के भीतर माँगने पर यह नहीं दिया जाता।"
+        },
+        {
+          "q": "SIM बदलने की प्रक्रिया पर सरकार ने क्या किया है?",
+          "a": "राज्यसभा में 7 अगस्त 2025 को बताया गया कि DoT ने SIM swap / replacement के लिए एक मज़बूत KYC प्रक्रिया लागू की है।"
+        },
+        {
+          "q": "ऐसी call आए, तो कहाँ report करें?",
+          "a": "Sanchar Saathi portal की Chakshu सुविधा पर। यह ठगी के इरादे से आई संदिग्ध call, SMS या WhatsApp की report के लिए है। पैसा जा चुका हो, तो Chakshu नहीं: 1930 या cybercrime.gov.in।"
+        },
+        {
+          "q": "पैसा कट गया, तो क्या करें?",
+          "a": "RBI की पुस्तिका के मुताबिक card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए; Net banking और Mobile banking जैसे बाक़ी रास्ते भी जाँचिए। फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "Vishing"
+        },
+        {
+          "t": "Chakshu"
+        },
+        {
+          "t": "Sanchar Saathi"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "KYC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — BE(A)WARE: A Booklet on Modus Operandi of Financial Fraudsters (पुस्तिका पर तारीख़ नहीं है; पन्ना संख्या पुस्तिका की है)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/BEAWARE07032022.pdf",
+          "used": [
+            {
+              "ref": "Part A, 7 (पन्ना 9)",
+              "c": "SIM का पूरा नाम; SIM तक पहुँच या duplicate SIM (e-SIM भी); उस पर आए OTP से लेनदेन; mobile network का कर्मचारी बनकर, upgrade के offer के नाम पर जानकारी"
+            },
+            {
+              "ref": "Part A, 7: Precautions",
+              "c": "SIM की पहचान की जानकारी न देना; काफ़ी देर network न आए, तो mobile operator से तुरंत संपर्क"
+            },
+            {
+              "ref": "Part C (पन्ना 27)",
+              "c": "ठगी के बाद: card block, खाते से debit रुकवाना, बाक़ी banking रास्ते जाँचना; 1930 या cybercrime.gov.in"
+            }
+          ]
+        },
+        {
+          "label": "संचार मंत्रालय (PIB) — Telecommunication Mobile Number Portability (Ninth Amendment) Regulations, 2024 comes into force from July 01, press release, 28 जून 2024 (Release ID 2029389)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2029389",
+          "issued": "2024-06-28",
+          "effective": "2024-07-01",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "TRAI ने 14 मार्च 2024 को नियम जारी किए; 1 जुलाई 2024 से लागू"
+            },
+            {
+              "ref": "पैरा 2",
+              "c": "मक़सद: धोखे से कराए गए SIM swap / replacement से number port कराने पर रोक; 7 दिन के भीतर UPC नहीं"
+            }
+          ]
+        },
+        {
+          "label": "संचार मंत्रालय (PIB) — Telecom-Related Cyber Frauds and Safety Measures, राज्यसभा में लिखित उत्तर, 7 अगस्त 2025 (Release ID 2153524)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2153524",
+          "issued": "2025-08-07",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "SIM बेचने वाले Point of Sale का registration: biometric verification और पते की जाँच"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "SIM swap / replacement के लिए मज़बूत KYC प्रक्रिया"
+            }
+          ]
+        },
+        {
+          "label": "दूरसंचार विभाग (DoT) — Sanchar Saathi portal: पहला पन्ना, About और Frequently Asked Questions (Website Last Updated: 05-10-2026)",
+          "url": "https://sancharsaathi.gov.in/",
+          "used": [
+            {
+              "ref": "About: Chakshu",
+              "c": "ठगी के इरादे से आए call, SMS या WhatsApp की report; पैसों की ठगी के लिए नहीं, उसके लिए 1930 या cybercrime.gov.in"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI की पुस्तिका के मुताबिक SIM swap या SIM cloning में ठग ग्राहक के SIM (Subscriber Identity Module) card तक पहुँच बना लेते हैं, या ग्राहक के bank खाते से जुड़े mobile number का duplicate SIM हासिल कर लेते हैं। यह duplicate SIM electronic-SIM (e-SIM) भी हो सकता है।[^1]\n\nफिर ठग उस duplicate SIM पर आए OTP से बिना इजाज़त के लेनदेन करते हैं।[^1]\n\nTRAI और DoT 'SIM swap / replacement' शब्द SIM बदले जाने के लिए इस्तेमाल करते हैं। ठगी तब है, जब यह काम धोखे से कोई और करा ले; TRAI ने इसे 'fraudulent SIM swap / replacement' कहा है।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **निशाना आपका OTP है:** ठग duplicate SIM पर आए OTP से आपके खाते में बिना इजाज़त लेनदेन करते हैं।[^1]\n- **पहचान की जानकारी मत दीजिए:** SIM से जुड़ी अपनी पहचान की जानकारी किसी को मत दीजिए।[^1]\n- **Network पर नज़र रखिए:** आम जगह पर भी phone में काफ़ी देर तक network न आए, तो तुरंत mobile operator से संपर्क कीजिए।[^1]\n- **7 दिन की रोक:** SIM swap / replacement के 7 दिन के भीतर number port करने का code (UPC) नहीं मिलता। यह नियम 1 जुलाई 2024 से लागू है।[^2]\n\n## ठगी कैसे होती है | कैसे होती है\n\n::flow\n\n- ठग आम तौर पर telephone या mobile network का कर्मचारी बनकर संपर्क करता है।[^1]\n- बहाना किसी offer का होता है: जैसे SIM को 3G से 4G में मुफ़्त upgrade करना, या SIM पर और फ़ायदे देना।[^1]\n- इस बहाने वह ग्राहक की निजी और पहचान की जानकारी ले लेता है।[^1]\n- इसके बाद वह ग्राहक के number का duplicate SIM हासिल कर सकता है, और उस पर आए OTP से लेनदेन कर सकता है।[^1]\n\n## रोकथाम के नियम | नियम\n\n- **TRAI का नियम:** TRAI ने 14 मार्च 2024 को Telecommunication Mobile Number Portability (Ninth Amendment) Regulations, 2024 जारी किए, जो 1 जुलाई 2024 से लागू हैं।[^2]\n- **मक़सद:** धोखे से कराए गए SIM swap / replacement के ज़रिए mobile number port कराने पर रोक लगाना।[^2]\n- **क्या बदला:** SIM swap / replacement की तारीख़ से 7 दिन पूरे होने से पहले Unique Porting Code (UPC) माँगा जाए, तो वह नहीं दिया जाता।[^2]\n- **SIM बदलने की KYC:** राज्यसभा में 7 अगस्त 2025 को बताया गया कि DoT ने SIM swap / replacement के लिए एक मज़बूत KYC प्रक्रिया लागू की है।[^3]\n- **SIM बेचने वालों की जाँच:** DoT के निर्देशों के मुताबिक telecom कंपनियों को अपने Point of Sale, यानी ग्राहक जोड़ने और SIM देने वालों, को biometric verification और पते की जाँच के साथ register करना है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> ठगी के इरादे से आई संदिग्ध call, SMS या WhatsApp की report आप Sanchar Saathi portal की Chakshu सुविधा पर कर सकते हैं।[^4]\n\n- **पैसा जा चुका हो:** Chakshu इसके लिए नहीं है। 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^4]\n\n## अभी क्या करें\n\n- कोई mobile कंपनी का कर्मचारी बनकर SIM upgrade या offer के नाम पर जानकारी माँगे, तो मत दीजिए।[^1]\n- Phone में काफ़ी देर तक network न आए, तो तुरंत अपनी mobile कंपनी से पूछिए कि कहीं आपके number का duplicate SIM तो जारी नहीं हुआ।[^1]\n- ठगी की कोशिश हुई, पर पैसा नहीं गया: Chakshu पर report कीजिए।[^4]\n- पैसा कट गया: card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए; Net banking और Mobile banking जैसे बाक़ी रास्ते भी जाँचिए।[^1]\n- फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
