@@ -718,7 +718,7 @@ function setTermLinks(terms) {
   }));
   const names = Object.keys(map).sort((a, b) => b.length - a.length)
     .map((n) => esc(n).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-  const edge = "A-Za-z0-9\u0900-\u097F";
+  const edge = "A-Za-z0-9\u0900-\u0963\u0966-\u097F";
   TERM_LINKS = { map, re: names.length ? new RegExp(`(?<![${edge}])(${names.join("|")})(?![${edge}])`, "gi") : null };
 }
 function termLink(name) {
