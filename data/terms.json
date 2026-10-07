@@ -10074,6 +10074,263 @@
         }
       ],
       "body": "## मतलब\n\nBank Rate वह दर है, जिस पर RBI bills of exchange या दूसरे commercial papers ख़रीदने या rediscount करने को तैयार है।[^1] RBI Act, 1934 की धारा 49 के मुताबिक RBI को यह standard rate समय-समय पर सार्वजनिक करना है।[^4]\n\nRBI के मुताबिक Bank Rate उस penal दर का काम भी करता है, जो banks से तब ली जाती है, जब वे अपना reserve (cash reserve ratio और statutory liquidity ratio) पूरा नहीं रख पाते।[^1]\n\nRBI के commercial banks वाले निर्देशों में \"Bank Rate\" की परिभाषा है: वह दर, जो RBI, RBI Act की धारा 49 के तहत प्रकाशित करता है।[^5]\n\n## अभी Bank Rate कितना है | अभी की दर\n\n- **7 अक्टूबर 2026 से:** 5.75%। RBI ने इसे 5.50% से 25 basis points बढ़ाया, तुरंत असर से।[^3]\n- **क्यों बदला:** Monetary Policy Committee (MPC) ने 5 से 7 अक्टूबर 2026 की बैठक में policy repo rate 25 basis points बढ़ाकर 5.50% किया। इसके साथ MSF rate और Bank Rate 5.75% हो गए।[^2]\n- **ताज़ा दर कहाँ देखें:** RBI की website के home page पर \"Current Rates\" में। पुरानी तारीख़ों की दरें RBI की DBIE website के \"Key rates\" में मिलती हैं।[^1]\n\n## Bank Rate कैसे तय होता है | कैसे तय\n\n::flow\n\n- **Repo Rate:** वह ब्याज दर, जिस पर RBI liquidity adjustment facility (LAF) में सरकारी और दूसरी मंज़ूर securities के बदले liquidity देता है।[^1]\n- **Policy rate कौन तय करता है:** Monetary Policy Committee (MPC)।[^1]\n- **MSF rate:** Marginal Standing Facility की दर। यह वह penal दर है, जिस पर banks RBI से एक रात के लिए (overnight) उधार ले सकते हैं। यह policy repo rate से 25 basis points ऊपर रखी जाती है।[^1]\n- **Bank Rate:** इसे MSF rate से जोड़ा गया है। Policy repo rate के साथ MSF rate बदलता है, और MSF rate के साथ Bank Rate अपने-आप बदल जाता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **दावे में देरी का ब्याज:** खाताधारक की मृत्यु के बाद उसके deposit खाते का दावा bank को 15 calendar दिन के भीतर निपटाना है, सारे ज़रूरी काग़ज़ मिलने की तारीख़ से। देरी bank की वजह से हो, तो उसे देरी के समय का ब्याज देना है: कम से कम \"Bank Rate + 4 प्रतिशत सालाना\" की दर से, दावे में मिलने वाली रकम पर।[^5]\n- **किस दिन का Bank Rate:** उस तारीख़ का, जिस दिन bank को दावा करने वाले से सारे ज़रूरी काग़ज़ मिले। रकम भी उसी तारीख़ की गिनी जाती है।[^5]\n- **मिसाल:** सारे काग़ज़ उस दिन मिले हों, जब Bank Rate 5.75% था, तो देरी के ब्याज की दर कम से कम 9.75% सालाना बनती है (5.75 + 4)।[^3][^5]\n- **Locker के दावे में:** देरी का मुआवज़ा Bank Rate से नहीं जुड़ा है। वहाँ bank तय समय-सीमा न माने, तो उसे हर दिन की देरी के ₹5,000 देने हैं।[^5]\n- **किन banks पर:** देरी के ब्याज वाला यह नियम RBI के commercial banks के लिए बने निर्देशों का है।[^5]\n\n## Banks के लिए Bank Rate | Banks के लिए\n\n- **Reserve कम पड़े, तो:** RBI Act की धारा 42(3) के मुताबिक scheduled bank का RBI के पास रखा औसत daily balance किसी fortnight में तय न्यूनतम से कम रहे, तो कमी की रकम पर penal interest लगता है: bank rate से 3 प्रतिशत ऊपर। अगले fortnight भी कमी रहे, तो bank rate से 5 प्रतिशत ऊपर।[^4]\n- **7 अक्टूबर 2026 से penal दरें:** CRR और SLR की कमी पर Bank Rate + 3.0 प्रतिशत अंक (8.75%) या Bank Rate + 5.0 प्रतिशत अंक (10.75%); कौन-सी लगेगी, यह इस पर निर्भर है कि कमी कितने समय रही।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> खाताधारक की मृत्यु के बाद deposit खाते का दावा निपटाने में देरी bank की वजह से हो, तो bank को देरी के समय का ब्याज देना है: कम से कम Bank Rate + 4 प्रतिशत सालाना की दर से।[^5]\n\n- **देरी की वजह:** दावा 15 calendar दिन में न निपटे, तो bank को दावा करने वालों को देरी की वजह बतानी है।[^5]\n- **काग़ज़ मिलने की पुष्टि:** दावे के सारे ज़रूरी काग़ज़ जमा हो जाएँ, तो bank को इसकी पुष्टि देनी है।[^5]\n\n## अभी क्या करें\n\n- दावा देते समय bank से पावती लीजिए। सारे काग़ज़ जमा हो जाएँ, तो उसकी पुष्टि भी लीजिए और वह तारीख़ नोट कर लीजिए; देरी के ब्याज में रकम और Bank Rate उसी तारीख़ के गिने जाते हैं।[^5]\n- उस तारीख़ का Bank Rate देख लीजिए। ताज़ा दर RBI की website के \"Current Rates\" में, और पुरानी तारीख़ की दर DBIE website के \"Key rates\" में मिलती है।[^1]\n- 15 calendar दिन में दावा न निपटे, तो bank से देरी की वजह पूछिए; यह बताना bank की ज़िम्मेदारी है।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "repo-rate",
+      "term": "Repo Rate",
+      "aliases": [
+        "Policy Repo Rate",
+        "रेपो रेट"
+      ],
+      "full": "वह ब्याज दर, जिस पर RBI securities के बदले liquidity देता है",
+      "fullEn": "The RBI policy rate for lending against securities under the LAF",
+      "group": "बैंकिंग",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI के Monetary Policy overview, 7 अक्टूबर 2026 के MPC resolution, RBI Act, 1934 और Commercial Banks – Interest Rates on Advances Directions, 2025 से जाँचा। दर: 7 अक्टूबर 2026 को 5.50%।"
+        }
+      ],
+      "one": "Repo Rate वह ब्याज दर है, जिस पर RBI सरकारी और दूसरी मंज़ूर securities के बदले liquidity देता है। इसे Monetary Policy Committee (MPC) तय करती है। 7 अक्टूबर 2026 को यह 25 basis points बढ़कर 5.50% हुआ। Bank का floating दर वाला retail loan Repo Rate से जुड़ा हो, तो उसकी दर reset पर इसी के साथ बदलती है।",
+      "facts": [
+        {
+          "k": "अभी की दर",
+          "v": "5.50%",
+          "s": "7 अक्टूबर 2026 को 25 basis points बढ़ी"
+        },
+        {
+          "k": "कौन तय करता है",
+          "v": "MPC",
+          "s": "6 सदस्य; RBI Act की धारा 45ZB"
+        },
+        {
+          "k": "Inflation target",
+          "v": "4%",
+          "s": "CPI; 2% से 6% की सीमा; 31 मार्च 2031 तक"
+        },
+        {
+          "k": "Loan की दर का reset",
+          "v": "3 महीने में",
+          "s": "कम से कम एक बार, external benchmark वाले loan में",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Inflation target",
+            "s": "केंद्र सरकार तय करती है, RBI से सलाह करके"
+          },
+          {
+            "t": "MPC",
+            "s": "6 सदस्य; साल में कम से कम 4 बैठकें"
+          },
+          {
+            "t": "Repo Rate",
+            "s": "7 अक्टूबर 2026 को 5.50%"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Target पाने के लिए",
+            "s": "MPC दर तय करती है"
+          },
+          {
+            "b": "Resolution",
+            "s": "हर बैठक के बाद प्रकाशित"
+          }
+        ],
+        "note": "यह दर 7 अक्टूबर 2026 की है। ताज़ा दर RBI की website के home page पर \"Current Rates\" में देखिए।"
+      },
+      "myths": [
+        {
+          "m": "\"Repo Rate वह दर है, जिस पर bank मुझे loan देता है।\"",
+          "f": "नहीं। Repo Rate वह दर है, जिस पर RBI securities के बदले liquidity देता है।[^1] आपके floating दर वाले loan की दर benchmark में bank का spread जोड़कर बनती है।[^4]"
+        },
+        {
+          "m": "\"Repo Rate बदलते ही हर loan की दर बदल जाती है।\"",
+          "f": "नहीं। RBI के निर्देशों में fixed rate loan वह है, जिसकी दर पूरी अवधि के लिए तय रहती है। Floating दर वाला loan किस benchmark से जुड़ा है, यह loan contract में लिखा होता है, और external benchmark वाले loan की दर reset पर बदलती है, जो कम से कम तीन महीने में एक बार होता है।[^4]"
+        },
+        {
+          "m": "\"Repo Rate RBI के Governor अकेले तय करते हैं।\"",
+          "f": "नहीं। Policy Rate छह सदस्यों की Monetary Policy Committee तय करती है, और उसका फ़ैसला RBI पर बाध्यकारी है।[^3] हर सदस्य का एक vote होता है; votes बराबर हों, तो Governor का दूसरा (casting) vote होता है।[^1]"
+        },
+        {
+          "m": "\"Repo Rate और Bank Rate एक ही चीज़ हैं।\"",
+          "f": "नहीं। Bank Rate को RBI ने MSF rate से जोड़ा है, और MSF rate policy repo rate से 25 basis points ऊपर रखा जाता है।[^1] 7 अक्टूबर 2026 को Repo Rate 5.50% और Bank Rate 5.75% हुआ।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Repo Rate का मतलब क्या है?",
+          "a": "RBI के मुताबिक Repo Rate वह ब्याज दर है, जिस पर RBI liquidity adjustment facility (LAF) में सरकारी और दूसरी मंज़ूर securities के बदले liquidity देता है।"
+        },
+        {
+          "q": "अभी Repo Rate कितना है?",
+          "a": "7 अक्टूबर 2026 को Monetary Policy Committee ने इसे 25 basis points बढ़ाकर 5.50% किया। ताज़ा दर RBI की website के home page पर \"Current Rates\" में देखी जा सकती है।"
+        },
+        {
+          "q": "\"Repo\" शब्द का मतलब क्या है?",
+          "a": "RBI Act, 1934 की धारा 17(12AB) के मुताबिक \"repo\" पैसे उधार लेने का वह तरीक़ा है, जिसमें securities बेची जाती हैं, इस समझौते के साथ कि उन्हें आगे की तय तारीख़ पर, तय कीमत पर वापस ख़रीदा जाएगा। उस कीमत में उधार ली गई रकम का ब्याज शामिल होता है।"
+        },
+        {
+          "q": "Repo Rate कौन तय करता है?",
+          "a": "Monetary Policy Committee (MPC)। RBI Act की धारा 45ZB के मुताबिक MPC वह Policy Rate तय करती है, जो inflation target पाने के लिए ज़रूरी हो, और उसका फ़ैसला RBI पर बाध्यकारी है।"
+        },
+        {
+          "q": "MPC में कौन-कौन होता है?",
+          "a": "धारा 45ZB के मुताबिक छह सदस्य: RBI के Governor (अध्यक्ष), monetary policy के प्रभारी Deputy Governor, RBI का एक अधिकारी जिसे Central Board नामित करता है, और केंद्र सरकार के नियुक्त किए हुए तीन सदस्य।"
+        },
+        {
+          "q": "Inflation target क्या है?",
+          "a": "RBI के मुताबिक Consumer Price Index (CPI) की 4 प्रतिशत inflation, जिसकी ऊपरी सीमा 6 प्रतिशत और निचली सीमा 2 प्रतिशत है। केंद्र सरकार ने 25 मार्च 2026 की समीक्षा में इसे 1 अप्रैल 2026 से 31 मार्च 2031 तक के लिए बरक़रार रखा।"
+        },
+        {
+          "q": "Repo Rate बदलने से मेरे loan पर क्या असर पड़ता है?",
+          "a": "RBI के निर्देशों के मुताबिक floating दर वाले loan की दर benchmark में spread जोड़कर बनती है। आपके loan का benchmark Repo Rate हो, तो Repo Rate बदलने के बाद आपकी दर अगले reset पर बदलती है। पैरा 38 के मुताबिक यह reset कम से कम तीन महीने में एक बार होना चाहिए।"
+        },
+        {
+          "q": "क्या हर floating loan Repo Rate से जुड़ा होता है?",
+          "a": "नहीं। पैरा 25 के मुताबिक commercial banks के floating rate personal या retail loans और MSME को दिए floating rate loans किसी External Benchmark Rate से जुड़े होने चाहिए। पैरा 5(4) में external benchmark तीन तरह के हैं: RBI का policy Repo Rate; भारत सरकार के तीन महीने और छह महीने के Treasury Bill की yield; और FBIL का प्रकाशित कोई और benchmark market interest rate।"
+        },
+        {
+          "q": "Spread क्या bank जब चाहे बढ़ा सकता है?",
+          "a": "पैरा 33 के मुताबिक external benchmark पर spread bank ख़ुद तय करता है। पर credit risk premium तभी बदल सकता है, जब borrower के credit assessment में बड़ा बदलाव आए, जैसा loan contract में तय हो। Spread के बाक़ी हिस्से तीन साल में एक बार बदले जा सकते हैं; ग्राहक को बनाए रखने के लिए bank इन्हें तीन साल से पहले घटा सकता है।"
+        },
+        {
+          "q": "मेरा loan MCLR या Base Rate पर है। क्या मैं external benchmark पर जा सकता हूँ?",
+          "a": "पैरा 41 के मुताबिक MCLR, Base Rate या BPLR से जुड़े loan चुकाए जाने या renewal तक वैसे ही चल सकते हैं। जिन borrowers को floating rate term loan बिना pre-payment charge के पहले चुकाने की छूट है, वे बिना किसी charge या fee के external benchmark पर जा सकते हैं; सिर्फ़ वाजिब administrative या legal ख़र्च लग सकता है। बाक़ी borrowers आपसी सहमति की शर्तों पर जा सकते हैं।"
+        },
+        {
+          "q": "Repo Rate, SDF rate और MSF rate में क्या रिश्ता है?",
+          "a": "RBI के मुताबिक SDF rate policy repo rate से 25 basis points नीचे और MSF rate 25 basis points ऊपर रखा जाता है। MSF rate ऊपरी सीमा है, SDF rate निचली सीमा, और policy repo rate बीच में। 7 अक्टूबर 2026 को SDF rate 5.25%, Repo Rate 5.50% और MSF rate 5.75% हुआ।"
+        },
+        {
+          "q": "MPC की अगली बैठक कब है?",
+          "a": "7 अक्टूबर 2026 के resolution के मुताबिक अगली बैठक 2 से 4 दिसंबर 2026 को तय है। 5 से 7 अक्टूबर की बैठक के minutes 21 अक्टूबर 2026 को प्रकाशित होने हैं।"
+        },
+        {
+          "q": "Loan वाले ये नियम किन banks पर लागू हैं?",
+          "a": "ये RBI के commercial banks के लिए बने निर्देश हैं। इनके पैरा 3 में Small Finance Banks, Payment Banks और Local Area Banks 'commercial banks' में नहीं गिने गए हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Bank Rate"
+        },
+        {
+          "t": "Credit Score"
+        },
+        {
+          "t": "FD"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Monetary Policy: Overview (Last Updated On: Apr 02, 2026)",
+          "url": "https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=2752",
+          "used": [
+            {
+              "ref": "Framework",
+              "c": "inflation target 4% (CPI), सीमा 2% से 6%; 1 अप्रैल 2026 से 31 मार्च 2031 तक बरक़रार"
+            },
+            {
+              "ref": "MPC",
+              "c": "MPC policy repo rate तय करती है; साल में कम से कम चार बैठकें; quorum चार; हर सदस्य का एक vote; Governor का casting vote"
+            },
+            {
+              "ref": "Instruments",
+              "c": "Repo Rate, SDF rate, MSF rate, LAF corridor और Bank Rate क्या हैं; ताज़ा दरें \"Current Rates\" में"
+            },
+            {
+              "ref": "Process",
+              "c": "हर बैठक के बाद resolution; 14वें दिन minutes"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Monetary Policy Statement, 2026-27: Resolution of the Monetary Policy Committee, October 5 to 7, 2026 (press release 2026-2027/1264, 7 अक्टूबर 2026)",
+          "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+          "issued": "2026-10-07",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "MPC ने सर्वसम्मति से policy repo rate 25 bps बढ़ाकर 5.50% किया; SDF rate 5.25%; MSF rate और Bank Rate 5.75%; stance: calibrated tightening"
+            },
+            {
+              "ref": "पैरा 14",
+              "c": "stance का मतलब, resolution के शब्दों में"
+            },
+            {
+              "ref": "पैरा 17 और 18",
+              "c": "minutes 21 अक्टूबर 2026 को; अगली बैठक 2 से 4 दिसंबर 2026"
+            }
+          ]
+        },
+        {
+          "label": "India Code — The Reserve Bank of India Act, 1934 (Act No. 2 of 1934), पाठ \"As on the 23rd June, 2026\"",
+          "url": "https://indiacode.gov.in/act/3f9f5c4e-dce7-4144-b5ac-d2cc995b1761",
+          "used": [
+            {
+              "ref": "धारा 2(cccci)",
+              "c": "\"Policy Rate\" की परिभाषा"
+            },
+            {
+              "ref": "धारा 17(12AB)",
+              "c": "\"repo\" का मतलब"
+            },
+            {
+              "ref": "धारा 45ZA",
+              "c": "inflation target केंद्र सरकार तय करती है, RBI से सलाह करके, हर पाँच साल में"
+            },
+            {
+              "ref": "धारा 45ZB",
+              "c": "MPC के छह सदस्य; MPC Policy Rate तय करती है; फ़ैसला RBI पर बाध्यकारी"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Interest Rates on Advances) Directions, 2025, RBI/DOR/2025-26/161 (28 नवंबर 2025; सिर्फ़ commercial banks पर लागू)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/161MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "ये निर्देश किन banks पर लागू हैं"
+            },
+            {
+              "ref": "पैरा 5",
+              "c": "External benchmark rate, fixed rate loan और floating rate loan की परिभाषा"
+            },
+            {
+              "ref": "पैरा 6",
+              "c": "fixed या floating दर की छूट; दर = benchmark + spread; benchmark loan contract का हिस्सा"
+            },
+            {
+              "ref": "पैरा 25, 26 और 27",
+              "c": "floating retail और MSME loans external benchmark से; एक loan category में एक ही benchmark"
+            },
+            {
+              "ref": "पैरा 33",
+              "c": "external benchmark पर spread कब बदल सकता है"
+            },
+            {
+              "ref": "पैरा 38",
+              "c": "कम से कम तीन महीने में एक बार reset"
+            },
+            {
+              "ref": "पैरा 41",
+              "c": "MCLR / Base Rate / BPLR से external benchmark पर जाना"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRepo Rate वह ब्याज दर है, जिस पर RBI liquidity adjustment facility (LAF) में सरकारी और दूसरी मंज़ूर securities के बदले liquidity देता है।[^1]\n\nRBI Act, 1934 में \"Policy Rate\" का मतलब है: धारा 17(12AB) के repo लेन-देन की दर। उसी धारा के मुताबिक \"repo\" पैसे उधार लेने का वह तरीक़ा है, जिसमें securities बेची जाती हैं, इस समझौते के साथ कि उन्हें आगे की तय तारीख़ पर, तय कीमत पर वापस ख़रीदा जाएगा; उस कीमत में उधार ली गई रकम का ब्याज शामिल होता है।[^3]\n\n## अभी Repo Rate कितना है | अभी की दर\n\n- **7 अक्टूबर 2026 को:** 5.50%। Monetary Policy Committee (MPC) ने 5 से 7 अक्टूबर 2026 की बैठक में सर्वसम्मति से policy repo rate 25 basis points बढ़ाया।[^2]\n- **साथ की दरें:** SDF rate 5.25%; MSF rate और Bank Rate 5.75%।[^2]\n- **Stance:** MPC ने stance बदलकर \"calibrated tightening\" किया। Resolution के मुताबिक इसका संकेत सिर्फ़ इतना है कि मौजूदा हालात में निकट भविष्य में दर घटाने की गुंजाइश नहीं है, और आगे का क़दम दर बढ़ाना या रोकना ही हो सकता है, बदलते हालात और outlook के मुताबिक।[^2]\n- **ताज़ा दर कहाँ देखें:** RBI की website के home page पर \"Current Rates\" में।[^1]\n\n## Repo Rate कौन और कैसे तय करता है | कौन तय करता है\n\n::flow\n\n- **Inflation target:** RBI Act की धारा 45ZA के मुताबिक केंद्र सरकार, RBI से सलाह करके, हर पाँच साल में Consumer Price Index के आधार पर inflation target तय करती है।[^3] अभी यह 4 प्रतिशत है, ऊपरी सीमा 6 प्रतिशत और निचली सीमा 2 प्रतिशत के साथ; यह 1 अप्रैल 2026 से 31 मार्च 2031 तक के लिए है।[^1]\n- **MPC:** छह सदस्यों की committee: RBI के Governor (अध्यक्ष), monetary policy के प्रभारी Deputy Governor, RBI का एक अधिकारी, और केंद्र सरकार के नियुक्त किए हुए तीन सदस्य।[^3]\n- **MPC का काम:** वह Policy Rate तय करना, जो inflation target पाने के लिए ज़रूरी हो। MPC का फ़ैसला RBI पर बाध्यकारी है।[^3]\n- **बैठकें और vote:** MPC को साल में कम से कम चार बार मिलना है। Quorum चार सदस्यों का है। हर सदस्य का एक vote होता है; votes बराबर हों, तो Governor का दूसरा (casting) vote होता है।[^1]\n- **जानकारी सार्वजनिक:** हर बैठक के बाद resolution प्रकाशित होता है, और 14वें दिन बैठक के minutes।[^1]\n\n## बाक़ी दरें Repo Rate से कैसे जुड़ी हैं | बाक़ी दरें\n\n- **SDF rate:** policy repo rate से 25 basis points नीचे रखा जाता है। यह LAF corridor की निचली सीमा (floor) है।[^1]\n- **MSF rate:** policy repo rate से 25 basis points ऊपर रखा जाता है। यह corridor की ऊपरी सीमा (ceiling) है।[^1]\n- **Bank Rate:** इसे MSF rate से जोड़ा गया है; MSF rate बदलता है, तो यह अपने-आप बदल जाता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Floating दर वाले retail loan:** commercial banks के सभी floating rate personal या retail loans (housing, auto वग़ैरह), और MSME को दिए गए floating rate loans, किसी External Benchmark Rate से जुड़े होने चाहिए।[^4]\n- **External benchmark क्या हो सकता है:** RBI का policy Repo Rate; भारत सरकार के तीन महीने और छह महीने के Treasury Bill की yield, जो FBIL प्रकाशित करता है; या FBIL का प्रकाशित कोई और benchmark market interest rate।[^4]\n- **हर loan Repo Rate से नहीं जुड़ा:** आपका loan किस benchmark से जुड़ा है, यह loan contract की शर्तों में लिखा होता है। Bank एक loan category में एक ही external benchmark रख सकता है।[^4]\n- **आपकी दर कैसे बनती है:** benchmark में bank का spread जोड़कर।[^4]\n- **दर कब बदलती है:** external benchmark वाले loan की ब्याज दर कम से कम तीन महीने में एक बार reset होनी चाहिए। आपके loan का benchmark Repo Rate हो, तो Repo Rate बदलने के बाद आपकी दर अगले reset पर बदलती है।[^4]\n- **Spread:** bank spread ख़ुद तय करता है। पर credit risk premium तभी बदल सकता है, जब आपके credit assessment में बड़ा बदलाव आए, जैसा loan contract में तय हो। Spread के बाक़ी हिस्से तीन साल में एक बार बदले जा सकते हैं; ग्राहक को बनाए रखने के लिए bank इन्हें तीन साल से पहले घटा सकता है।[^4]\n- **Fixed और floating:** fixed rate loan की ब्याज दर पूरी अवधि के लिए तय रहती है; floating rate loan की दर अवधि के दौरान तय नहीं रहती। Bank हर तरह का advance fixed या floating दर पर दे सकता है।[^4]\n- **किन banks पर:** loan वाले ये नियम RBI के commercial banks के लिए बने निर्देशों के हैं।[^4]\n\n## पुराना loan MCLR या Base Rate पर हो | पुराना loan\n\n- **जारी रह सकता है:** MCLR, Base Rate या BPLR से जुड़े मौजूदा loan चुकाए जाने या renewal तक वैसे ही चल सकते हैं।[^4]\n- **बिना charge के बदलाव:** जिन borrowers को floating rate term loan बिना pre-payment charge के पहले चुकाने की छूट है, वे बिना किसी charge या fee के external benchmark पर जा सकते हैं; सिर्फ़ वाजिब administrative या legal ख़र्च लग सकता है।[^4]\n- **बाक़ी borrowers:** आपसी सहमति की शर्तों पर external benchmark पर जा सकते हैं।[^4]\n- **Foreclosure नहीं:** यह बदलाव मौजूदा loan का foreclosure नहीं माना जाता।[^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Commercial bank का floating rate personal या retail loan external benchmark से जुड़ा होना चाहिए, और उसकी ब्याज दर कम से कम तीन महीने में एक बार reset होनी चाहिए।[^4]\n\n- **Benchmark contract में:** जिस benchmark से आपकी दर तय होती है, वह loan contract की शर्तों का हिस्सा होना चाहिए।[^4]\n- **Credit risk premium:** यह तभी बदल सकता है, जब आपके credit assessment में बड़ा बदलाव आए, जैसा loan contract में तय हो।[^4]\n\n## अभी क्या करें\n\n- अपने loan के काग़ज़ में देखिए: दर fixed है या floating, और benchmark कौन-सा है।[^4]\n- Benchmark Repo Rate हो, तो bank से reset की तारीख़ पूछ लीजिए; reset कम से कम तीन महीने में एक बार होना चाहिए।[^4]\n- Loan MCLR, Base Rate या BPLR पर हो, तो bank से external benchmark पर जाने की शर्तें पूछिए।[^4]\n- ताज़ा Repo Rate RBI की website के home page पर \"Current Rates\" में देख लीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
