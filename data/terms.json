@@ -3156,6 +3156,230 @@
         }
       ],
       "body": "## मतलब\n\nAcquiring bank वह bank है, जो दुकानदार को digital भुगतान लेने की सुविधा देता है। RBI के एक चर्चा-पत्र के मुताबिक payment acquirer वे bank या non-bank संस्थाएँ हैं, जो payment instrument से भुगतान लेना संभव बनाती हैं और दुकानदार तक रक़म का settlement कराती हैं।[^1]\n\nदुकानदार को होने वाले भुगतान में तीन मुख्य सेवा देने वाले होते हैं: payment instrument जारी करने वाला (issuer), acquirer, और payment system चलाने वाला, जैसे card network या NPCI।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **दुकानदार हैं:** जो bank आपको digital भुगतान लेने की सुविधा देता है, वही आपका acquiring bank है। MDR आप इसी को देते हैं।[^2]\n- **ग्राहक हैं:** UPI में दुकानदार MDR आपसे नहीं वसूल सकता। आप सिर्फ़ लिखी हुई कीमत देते हैं।[^3]\n\n## Acquiring bank क्या करता है | काम\n\n- दुकानदार के लिए payment instrument से भुगतान लेना संभव बनाता है।[^1]\n- रक़म का settlement कराता है: सीधे दुकानदार को, या किसी intermediary (payment aggregator या payment gateway) को, जब दुकानदार उसके ज़रिए जुड़ा हो।[^1]\n- दुकानदार से MDR लेता है। यह रक़म भुगतान में सेवा देने वालों और intermediaries में बँटती है।[^1]\n- UPI में P2PM श्रेणी के दुकानदारों पर नज़र रखता है कि महीने में ₹1 लाख से ज़्यादा तो नहीं आ रहा। लगातार 3 महीने ₹1 लाख से ऊपर आए, तो दुकानदार की श्रेणी P2M हो जाती है।[^3]\n\n## MDR और acquiring bank | MDR\n\n::flow\n\n- RBI की glossary के मुताबिक MDR वह fees है, जो merchant अपने acquiring bank को digital भुगतान लेने के लिए देता है।[^2]\n- UPI में 15 अक्टूबर 2026 से ₹2,000 से ऊपर के P2M भुगतान पर 0.4% MDR है। NPCI का उदाहरण: ₹3,000 के भुगतान पर ₹12, जो दुकानदार अपने acquiring bank को देता है।[^3]\n- छोटे दुकानदारों को UPI से जोड़ने के लिए acquiring banks और payment aggregators को एक प्रस्तावित fund से मदद देने की बात है। इसका ढाँचा RBI से सलाह करके तय होना है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> UPI में दुकानदार MDR ग्राहक से नहीं वसूल सकता। ग्राहक सिर्फ़ लिखी हुई कीमत देता है।[^3]\n\n- P2PM श्रेणी के छोटे दुकानदार पर ₹2,000 से ऊपर का भुगतान आने पर भी MDR नहीं लगता।[^3]\n\n## अभी क्या करें\n\n- दुकानदार हैं, तो अपने acquiring bank से पूछ लीजिए कि आपका खाता P2PM श्रेणी में है या P2M में। यह श्रेणी वही देखता है।[^3]\n- ग्राहक हैं और बिल में UPI का charge अलग से जोड़ा जाए, तो याद रखिए: दुकानदार MDR आपसे नहीं वसूल सकता।[^3]\n- UPI भुगतान की शिकायत हो, तो अपने bank से कीजिए। NPCI भी शिकायत उसी bank को देता है, जहाँ शिकायत करने वाले का खाता है, और उसे सुलझाने की ज़िम्मेदारी उसी bank की है।[^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "cfcfrms",
+      "term": "CFCFRMS",
+      "full": "Citizen Financial Cyber Fraud Reporting and Management System · पैसों की साइबर ठगी की report का system",
+      "fullEn": "Citizen Financial Cyber Fraud Reporting and Management System",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। गृह मंत्रालय के press release (17 जून 2021), लोकसभा उत्तर (28 जुलाई 2026), cybercrime.gov.in के दस्तावेज़ और I4C के Public Notice (22 जनवरी 2026) से जाँचा।"
+        }
+      ],
+      "one": "CFCFRMS गृह मंत्रालय के I4C का वह system है, जिस पर पैसों की साइबर ठगी की शिकायत चढ़ती है, ताकि पुलिस और bank रक़म को ठगों के हाथ में जाने से रोक सकें। आप इस तक 1930 या cybercrime.gov.in से पहुँचते हैं।",
+      "facts": [
+        {
+          "k": "किसके तहत",
+          "v": "I4C",
+          "s": "गृह मंत्रालय; 2021 में शुरू"
+        },
+        {
+          "k": "30 जून 2026 तक बचाए गए",
+          "v": "₹11,158 करोड़",
+          "s": "से ज़्यादा, 32.80 लाख से ज़्यादा शिकायतों में"
+        },
+        {
+          "k": "शिकायत कैसे",
+          "v": "1930",
+          "s": "या cybercrime.gov.in पर",
+          "good": true
+        },
+        {
+          "k": "portal पर शिकायत पूरी करें",
+          "v": "24 घंटे में",
+          "s": "acknowledgement number से; यह ज़रूरी है"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप",
+            "s": "helpline पर call"
+          },
+          {
+            "t": "CFCFRMS",
+            "s": "पुलिस का operator ticket बनाता है"
+          },
+          {
+            "t": "Bank / wallet",
+            "s": "रक़म बची हो तो रोक देता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "शिकायत",
+            "s": "राज्य की पुलिस उठाती है"
+          },
+          {
+            "b": "Ticket",
+            "s": "आपके bank को, और जहाँ पैसा गया"
+          }
+        ],
+        "note": "रक़म आगे किसी और bank में जा चुकी हो, तो ticket उस bank को चला जाता है।"
+      },
+      "myths": [
+        {
+          "m": "\"1930 और CFCFRMS अलग-अलग हैं, दोनों जगह अलग शिकायत करनी होगी।\"",
+          "f": "नहीं। Helpline पर की गई शिकायत ही ticket बनकर CFCFRMS पर चढ़ती है।[^1] हाँ, call के बाद 24 घंटे के अंदर cybercrime.gov.in पर शिकायत पूरी करना ज़रूरी है।[^3]"
+        },
+        {
+          "m": "\"शिकायत कर दी, तो पैसा वापस आ ही जाएगा।\"",
+          "f": "ज़रूरी नहीं। रक़म तभी रोकी जा सकती है, जब तक ठग उसे digital system से बाहर न निकाल ले।[^1] इसलिए report तुरंत कीजिए।"
+        },
+        {
+          "m": "\"पैसा दूसरे bank में चला गया, तो अब कुछ नहीं हो सकता।\"",
+          "f": "ज़रूरी नहीं। रक़म किसी और bank में जा चुकी हो, तो ticket उस bank को चला जाता है। गृह मंत्रालय ने 2021 में बताया था कि कई बार पैसा पाँच अलग-अलग banks में घुमाए जाने के बाद भी ठगों तक पहुँचने से रोका गया।[^1]"
+        },
+        {
+          "m": "\"मेरा bank खाता I4C ने freeze किया है।\"",
+          "f": "नहीं। I4C के मुताबिक खाते पर lien लगाने या उसे freeze करने का फ़ैसला जाँच अधिकारी लेता है, या bank के अधिकारी RBI के नियमों के तहत लेते हैं। I4C यह काम नहीं करता।[^4]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CFCFRMS का पूरा नाम क्या है?",
+          "a": "Citizen Financial Cyber Fraud Reporting and Management System। cybercrime.gov.in के दस्तावेज़ में इसे 'Citizen Financial Cyber Frauds Reporting and Management System' लिखा गया है।"
+        },
+        {
+          "q": "CFCFRMS कब शुरू हुआ?",
+          "a": "गृह मंत्रालय के मुताबिक 2021 में। Helpline का soft launch 1 अप्रैल 2021 को हुआ था। 17 जून 2021 को गृह मंत्रालय ने बताया कि helpline और उसका reporting platform चालू कर दिया गया है।"
+        },
+        {
+          "q": "क्या CFCFRMS पर सीधे शिकायत कर सकते हैं?",
+          "a": "शिकायत के दो रास्ते हैं: 1930 पर call, या cybercrime.gov.in पर report। Call पर पुलिस का operator आपकी शिकायत का ticket CFCFRMS पर बनाता है।"
+        },
+        {
+          "q": "इससे अब तक कितना पैसा बचा है?",
+          "a": "गृह मंत्रालय के मुताबिक 30 जून 2026 तक 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा।"
+        },
+        {
+          "q": "क्या bank भी इस पर report कर सकता है?",
+          "a": "हाँ। cybercrime.gov.in के दस्तावेज़ के मुताबिक bank, financial intermediary या payment wallet भी 1930 या portal से पैसों की ठगी की report कर सकते हैं।"
+        },
+        {
+          "q": "शिकायत की जाँच कौन करता है?",
+          "a": "राज्य या केंद्र शासित प्रदेश की पुलिस। I4C जाँच एजेंसी नहीं है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "1930"
+        },
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "Suspect Registry"
+        }
+      ],
+      "article": "online-fraud-kya-kare",
+      "articleLabel": "Online fraud हो गया, पैसा कट गया? अभी क्या करें",
+      "sources": [
+        {
+          "label": "गृह मंत्रालय (PIB) — National Helpline 155260 and Reporting Platform, press release, 17 जून 2021 (Release ID 1727990)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1727990",
+          "issued": "2021-06-17",
+          "used": [
+            {
+              "ref": "पैरा 1, 2",
+              "c": "helpline और reporting platform चालू; soft launch 1 अप्रैल 2021 को; तब नंबर 155260"
+            },
+            {
+              "ref": "पैरा 3",
+              "c": "system I4C ने ख़ुद बनाया; पुलिस को banks और financial intermediaries से जोड़ता है"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "रक़म तभी रुक सकती है जब तक ठग उसे digital system से बाहर न निकाल ले"
+            },
+            {
+              "ref": "क्रम 1–6",
+              "c": "call राज्य की पुलिस उठाती है; operator ticket बनाता है; ticket bank, wallet, merchant को; SMS से acknowledgement number; bank ब्योरा जाँचकर रक़म रोकता है, या ticket अगले bank को"
+            },
+            {
+              "ref": "आख़िरी पैरा",
+              "c": "पैसा पाँच अलग banks में घुमाए जाने के बाद भी रोका गया"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — Cyber Crime Mitigation Centre, लोकसभा में लिखित उत्तर, 28 जुलाई 2026 (Release ID 2290366; बिंदु ऊपर से गिने गए हैं)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290366",
+          "issued": "2026-07-28",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "पुलिस राज्य का विषय है; अपराध की जाँच राज्यों और UT की एजेंसियाँ करती हैं"
+            },
+            {
+              "ref": "बिंदु 3",
+              "c": "CFCFRMS, I4C के तहत 2021 में शुरू; तुरंत report और रक़म ठगों तक जाने से रोकने के लिए; I4C चलाता है; 1930"
+            },
+            {
+              "ref": "बिंदु 3",
+              "c": "30 जून 2026 तक 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा बचाए गए"
+            },
+            {
+              "ref": "SOP वाला पैरा",
+              "c": "NCRP-CFCFRMS का SOP और उसका दायरा; Money Restoration Module और Grievance Redressal Module अप्रैल 2026 से चालू"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — Citizen Financial Cyber Frauds Reporting and Management System: Steps for reporting of financial cyber frauds (दस्तावेज़ पर तारीख़ नहीं है)",
+          "url": "https://cybercrime.gov.in/UploadMedia/instructions_citizenreportingcyberfrauds.pdf",
+          "used": [
+            {
+              "ref": "शीर्षक",
+              "c": "नाम: Citizen Financial Cyber Frauds Reporting and Management System"
+            },
+            {
+              "ref": "बिंदु i",
+              "c": "ठगी का शिकार 1930 पर call कर सकता है या cybercrime.gov.in पर report कर सकता है"
+            },
+            {
+              "ref": "बिंदु ii",
+              "c": "bank, financial intermediary या payment wallet भी इन्हीं रास्तों से report कर सकते हैं"
+            },
+            {
+              "ref": "बिंदु iv",
+              "c": "Log-in ID या acknowledgement number से 24 घंटे के अंदर portal पर शिकायत पूरी करना ज़रूरी"
+            },
+            {
+              "ref": "बिंदु v",
+              "c": "पुलिस अधिकारी जाँचकर bank, financial intermediary या wallet को रक़म रोकने के लिए कहता है"
+            },
+            {
+              "ref": "बिंदु vi",
+              "c": "हर मामले में पुलिस, bank, payment wallet या financial intermediary क़ानून के मुताबिक कार्रवाई करते हैं"
+            }
+          ]
+        },
+        {
+          "label": "I4C — Public Notice No. 22003/208/CPGRAMS/2025-I4C, 22 जनवरी 2026",
+          "url": "https://i4c.mha.gov.in/docs/Public%20Notice-CPGRAMS.pdf",
+          "issued": "2026-01-22",
+          "used": [
+            {
+              "ref": "पैरा 3(ii)",
+              "c": "I4C जाँच एजेंसी नहीं; जाँच राज्य/UT की पुलिस करती है"
+            },
+            {
+              "ref": "पैरा 3(iii)",
+              "c": "खाते पर lien या freeze I4C नहीं करता; फ़ैसला जाँच अधिकारी या bank अधिकारी का"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCFCFRMS यानी Citizen Financial Cyber Fraud Reporting and Management System। यह गृह मंत्रालय के I4C के तहत 2021 में शुरू हुआ, ताकि पैसों की ठगी की तुरंत report हो सके और रक़म ठगों के हाथ में जाने से रोकी जा सके।[^2]\n\nइसे I4C ने ख़ुद बनाया है। यह पुलिस को banks और financial intermediaries से जोड़ता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **आप इस तक दो रास्तों से पहुँचते हैं:** 1930 पर call करके, या cybercrime.gov.in पर report करके।[^3]\n- **देर मत कीजिए:** रक़म तभी रोकी जा सकती है, जब तक ठग उसे digital system से बाहर न निकाल ले।[^1]\n- **Call के बाद काम पूरा नहीं होता:** SMS या mail से मिले Log-in ID या acknowledgement number से 24 घंटे के अंदर cybercrime.gov.in पर शिकायत पूरी करना ज़रूरी है।[^3]\n\n## कैसे काम करता है\n\n::flow\n\nगृह मंत्रालय ने 17 जून 2021 को इसका क्रम बताया था। तब helpline का नंबर 155260 था;[^1] अब 1930 है।[^2]\n\n- ठगी का शिकार helpline पर call करता है। Call संबंधित राज्य की पुलिस उठाती है।\n- पुलिस का operator ठगी वाले लेनदेन का ब्योरा और call करने वाले की बुनियादी जानकारी लेकर CFCFRMS पर ticket बनाता है।\n- Ticket संबंधित bank, wallet या merchant तक जाता है: आपके bank तक, और उस bank या wallet तक जहाँ पैसा गया है।\n- आपको SMS से acknowledgement number मिलता है, और 24 घंटे के अंदर cybercrime.gov.in पर ठगी का पूरा ब्योरा देने को कहा जाता है।\n- Bank को ticket अपने dashboard पर दिखता है। वह अपने system में ब्योरा जाँचता है।\n- रक़म अभी बची है, तो bank उसे रोक देता है, यानी ठग उसे निकाल नहीं सकता। रक़म किसी और bank में जा चुकी है, तो ticket उस bank को चला जाता है। यही क्रम आगे के bank के साथ दोहराया जाता है।\n\n30 जून 2026 तक CFCFRMS से 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा बचाए गए हैं।[^2]\n\n## कौन क्या करता है | कौन क्या\n\n- **आप:** 1930 पर call करते हैं या cybercrime.gov.in पर report करते हैं, और फिर 24 घंटे के अंदर portal पर शिकायत पूरी करते हैं।[^3]\n- **Bank, financial intermediary या payment wallet:** ये भी इन्हीं रास्तों से पैसों की ठगी की report कर सकते हैं।[^3]\n- **पुलिस अधिकारी:** शिकायत मिलने पर मामले को जाँचता है, और जाँच के बाद संबंधित bank, financial intermediary या payment wallet को रक़म रोकने के लिए कहता है।[^3]\n- **I4C:** यह system चलाता है।[^2] वह ख़ुद जाँच एजेंसी नहीं है; जाँच राज्य या केंद्र शासित प्रदेश की पुलिस करती है।[^4]\n- **खाते पर lien या freeze:** I4C के मुताबिक यह फ़ैसला जाँच अधिकारी लेता है, या bank के अधिकारी RBI के नियमों के तहत लेते हैं; I4C नहीं।[^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> ठगी की रक़म जल्दी लौटाने के लिए Money Restoration Module, और खाता freeze या रक़म पर lien की शिकायतें समय पर सुनने के लिए Grievance Redressal Module, अप्रैल 2026 से चालू हैं।[^2]\n\n- गृह मंत्रालय ने NCRP-CFCFRMS के लिए एक SOP जारी किया है। इसमें शिकायत पर कार्रवाई, bank से तालमेल, शिकायत निवारण, lien हटाने और ठगी की रक़म सही दावेदार को लौटाने का ढाँचा तय किया गया है।[^2]\n- हर मामले में पुलिस, bank, payment wallet या financial intermediary क़ानून के मुताबिक कार्रवाई करते हैं।[^3]\n\n## अभी क्या करें\n\n- 1930 अपने phone में save कर लीजिए।\n- ठगी हो जाए, तो तुरंत 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^3]\n- Call के बाद मिला acknowledgement number सँभालकर रखिए, और 24 घंटे के अंदर portal पर शिकायत पूरी कीजिए।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
