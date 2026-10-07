@@ -391,6 +391,9 @@ sup.ref a{color:var(--verify);text-decoration:none}
 .termcard .k{display:block;font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.12em;color:var(--ink-3)}
 .termcard strong{display:block;font-size:25px;font-weight:800;line-height:1.25;margin-top:3px;overflow-wrap:anywhere}
 .termcard .s{display:block;font-size:14px;color:var(--ink-2);line-height:1.55;margin-top:4px}
+.xres .termlist{margin:10px 0 14px}
+.termcard.xp strong{font-size:18px;font-weight:700;line-height:1.4}
+.xmore{display:inline-block;margin:0 0 18px;font-size:14.5px;font-weight:700;color:var(--accent);text-underline-offset:3px}
 .histlist{list-style:none;margin:0 0 14px;padding:0;border-left:2px solid var(--line);font-size:15px}
 .histlist li{position:relative;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;padding:3px 0 9px 16px}
 .histlist li:before{content:"";position:absolute;left:-5px;top:11px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
@@ -560,7 +563,7 @@ function infoVisual(p, feature = false) {
 }
 
 function entryHTML(p) {
-  const hay = esc([p.title, p.summary, p.body, (p.tags || []).join(" "), catName(p.cat)].join(" ").toLowerCase());
+  const hay = esc(postHay(p));
   const href = `/p/${encodeURIComponent(p.id)}/`;
   if (p.pinned) {
     return `<a class="entry pinned" href="${href}" data-cat="${esc(p.cat)}" data-text="${hay}">
@@ -583,11 +586,87 @@ function entryHTML(p) {
 </a>`;
 }
 
+// ---- poori site ki khoj: home aur shabdkosh dono /search.json se ek-doosre ke natije dikhate hain ----
+const postHay = (p) => [p.title, p.summary, p.body, (p.tags || []).join(" "), catName(p.cat)].join(" ").toLowerCase();
+const termHay = (t) => [t.term, t.full, t.fullEn, t.one, (t.aliases || []).join(" ")].join(" ").toLowerCase();
+const XSEARCH_JS = `
+var SMX=(function(){
+  var data=null,state=0,cbs=[];
+  function fire(){var c=cbs;cbs=[];c.forEach(function(f){f();});}
+  function load(cb){
+    if(cb)cbs.push(cb);
+    if(state>1){fire();return;}
+    if(state===1)return;
+    state=1;
+    fetch('/search.json').then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(j){data=j;state=2;fire();}).catch(function(){state=3;fire();});
+  }
+  function find(v,kind){
+    if(!data||v.length<2)return [];
+    var out=[];
+    data.forEach(function(d,i){
+      if(d.k!==kind||d.x.indexOf(v)===-1)return;
+      var r=3;
+      (d.n||[]).forEach(function(n){var rr=n===v?0:n.indexOf(v)===0?1:n.indexOf(v)>-1?2:3;if(rr<r)r=rr;});
+      out.push([r,i,d]);
+    });
+    out.sort(function(a,b){return a[0]-b[0]||a[1]-b[1];});
+    return out.map(function(o){return o[2];});
+  }
+  function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e;}
+  function fill(box,v,kind,label,max,moreHref,moreText){
+    if(!box)return 0;
+    var res=find(v,kind);
+    box.textContent='';
+    if(!res.length){box.hidden=true;return 0;}
+    box.appendChild(el('div','listhead',label+' — '+res.length));
+    var list=el('div','termlist');
+    res.slice(0,max).forEach(function(d){
+      var a=el('a','termcard'+(d.k==='t'?'':' xp'));
+      a.href=d.u;
+      a.appendChild(el('span','k',d.g));
+      a.appendChild(el('strong','',d.t));
+      a.appendChild(el('span','s',d.s));
+      list.appendChild(a);
+    });
+    box.appendChild(list);
+    if(res.length>max&&moreHref){
+      var m=el('a','xmore',moreText.replace('#',res.length));
+      m.href=moreHref+encodeURIComponent(v);
+      box.appendChild(m);
+    }
+    box.hidden=false;
+    return res.length;
+  }
+  function fromUrl(){var m=/[?&]q=([^&]*)/.exec(location.search);if(!m)return '';try{return decodeURIComponent(m[1].replace(/\\+/g,' ')).trim();}catch(e){return '';}}
+  return {load:load,fill:fill,fromUrl:fromUrl,pending:function(){return state<2;}};
+})();
+`;
+
+function searchIndex(posts, terms) {
+  const md = (s) => plain(String(s || "").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/[*#>`]/g, " "));
+  const idx = [];
+  terms.forEach((t) => idx.push({
+    k: "t", u: `/shabdkosh/${encodeURIComponent(t.id)}/`, t: t.term, s: t.one, g: `शब्द · ${t.group}`,
+    n: [t.term].concat(t.aliases || []).map((n) => String(n).toLowerCase()), x: termHay(t),
+  }));
+  posts.forEach((p) => idx.push({
+    k: "p", u: `/p/${encodeURIComponent(p.id)}/`, t: p.title, s: p.summary, g: `लेख · ${catName(p.cat)}`, x: postHay(p),
+  }));
+  const page = (slug, title, desc, text) => idx.push({
+    k: "s", u: `/${slug}/`, t: title, s: desc, g: "पन्ना", x: [title, desc, md(text)].join(" ").toLowerCase(),
+  });
+  PAGES.forEach((pg) => page(pg.slug, pg.title, pg.desc, pg.body));
+  HUBS.forEach((h) => page(h.slug, h.title, h.desc, h.lead));
+  page("faq", "सवाल-जवाब", "जो सवाल सबसे ज़्यादा आते हैं, उनके सीधे जवाब।", FAQ.map((f) => `${f.q} ${f.a}`).join(" "));
+  return idx;
+}
+
 const LIST_JS = `
 (function(){
   var q=document.getElementById('q'), entries=[].slice.call(document.querySelectorAll('.entry'));
   var chips=[].slice.call(document.querySelectorAll('.chip')), empty=document.getElementById('empty');
   var head=document.getElementById('listhead'), cat='all';
+  var xt=document.getElementById('xterms'), xs=document.getElementById('xpages');
   function apply(){
     var term=(q.value||'').trim().toLowerCase(), shown=0;
     entries.forEach(function(el){
@@ -595,11 +674,16 @@ const LIST_JS = `
              (!term||el.getAttribute('data-text').indexOf(term)!==-1);
       el.hidden=!ok; if(ok) shown++;
     });
-    empty.hidden=shown>0;
-    head.textContent=(term||cat!=='all')?('खोज परिणाम — '+shown):'ताज़ा पोस्ट';
+    var tn=SMX.fill(xt,term,'t','शब्दकोश में',6,'/shabdkosh/?q=','शब्दकोश के सारे # नतीजे देखिए →');
+    var sn=SMX.fill(xs,term,'s','और पन्ने',20);
+    var wait=term.length>1&&SMX.pending();
+    empty.hidden=shown>0||tn+sn>0||wait;
+    head.textContent=term?('लेखों में — '+shown):(cat!=='all'?('खोज परिणाम — '+shown):'ताज़ा पोस्ट');
+    head.hidden=!!term&&shown===0&&(tn+sn>0||wait);
   }
-  q.addEventListener('input',apply);
-  function jump(){var t=document.getElementById('articles');if(t)t.scrollIntoView({behavior:'smooth',block:'start'});}
+  q.addEventListener('input',function(){if(SMX.pending())SMX.load(apply);apply();});
+  q.addEventListener('focus',function(){SMX.load(apply);});
+  function jump(){var t=document.getElementById((q.value||'').trim()?'sres':'articles');if(t)t.scrollIntoView({behavior:'smooth',block:'start'});}
   var go=document.getElementById('gosearch');
   if(go) go.addEventListener('click',function(){apply();jump();});
   q.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();apply();jump();}});
@@ -613,6 +697,8 @@ const LIST_JS = `
       apply();
     });
   });
+  var uq=SMX.fromUrl();
+  if(uq){q.value=uq;SMX.load(apply);apply();jump();}
 })();
 `;
 
@@ -672,12 +758,14 @@ function renderIndex(posts) {
   <div class="controls">
     <div class="cats">${chips}</div>
   </div>
+  <div id="sres"><div class="xres" id="xterms" hidden></div></div>
   <div class="listhead" id="listhead">ताज़ा पोस्ट</div>
   <div class="listings">${posts.map(entryHTML).join("\n")}</div>
+  <div class="xres" id="xpages" hidden></div>
   <div class="empty" id="empty" hidden>इस खोज में कुछ नहीं मिला। कोई और शब्द आज़माइए या श्रेणी बदलिए।</div>
 </main>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
-<script>${LIST_JS}</script>` + foot();
+<script>${XSEARCH_JS}${LIST_JS}</script>` + foot();
 }
 
 /* ---- shabdkosh (dhancha 2) : post page ---- */
@@ -995,7 +1083,7 @@ ${body.html.includes('class="calc"') ? `<script>${CALC_JS}</script>` : ""}
 <script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
 }
 
-const TERM_LIST_JS = `(function(){var q=document.getElementById('tq');if(!q)return;var cards=[].slice.call(document.querySelectorAll('.termcard')),groups=[].slice.call(document.querySelectorAll('.azgroup')),empty=document.getElementById('tempty'),count=document.getElementById('tcount'),bar=document.querySelector('.azbar');function run(){var v=q.value.trim().toLowerCase(),n=0;cards.forEach(function(c){var ok=!v||c.getAttribute('data-text').indexOf(v)>-1;c.hidden=!ok;if(ok)n++;});groups.forEach(function(g){g.hidden=!g.querySelector('.termcard:not([hidden])');});empty.hidden=n>0;bar.hidden=!!v;count.textContent=v?('नतीजे: '+n):('कुल शब्द: '+cards.length);}q.addEventListener('input',run);})();`;
+const TERM_LIST_JS = `(function(){var q=document.getElementById('tq');if(!q)return;var cards=[].slice.call(document.querySelectorAll('.termcard')),groups=[].slice.call(document.querySelectorAll('.azgroup')),empty=document.getElementById('tempty'),count=document.getElementById('tcount'),bar=document.querySelector('.azbar'),xp=document.getElementById('xposts'),xs=document.getElementById('xpages');function run(){var v=q.value.trim().toLowerCase(),n=0;cards.forEach(function(c){var ok=!v||c.getAttribute('data-text').indexOf(v)>-1;c.hidden=!ok;if(ok)n++;});groups.forEach(function(g){g.hidden=!g.querySelector('.termcard:not([hidden])');});empty.hidden=n>0;bar.hidden=!!v;count.textContent=v?('नतीजे: '+n):('कुल शब्द: '+cards.length);SMX.fill(xp,v,'p','लेखों में',6,'/?q=','सारे # लेख देखिए →');SMX.fill(xs,v,'s','और पन्ने',20);}q.addEventListener('input',function(){if(SMX.pending())SMX.load(run);run();});q.addEventListener('focus',function(){SMX.load(run);});var uq=SMX.fromUrl();if(uq){q.value=uq;SMX.load(run);run();}})();`;
 
 function renderTermIndex(terms) {
   const url = `${SITE.url}/shabdkosh/`;
@@ -1007,7 +1095,7 @@ function renderTermIndex(terms) {
   const AZ = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
   const idOf = (L) => (L === "अ" ? "az-hi" : L === "0–9" ? "az-09" : `az-${L}`);
   const bar = (groups["0–9"] ? ["0–9"] : []).concat(AZ, groups["अ"] ? ["अ"] : []).map((L) => groups[L] ? `<a href="#${idOf(L)}">${L}</a>` : `<span aria-hidden="true">${L}</span>`).join("");
-  const card = (t) => `<a class="termcard" href="/shabdkosh/${encodeURIComponent(t.id)}/" data-text="${esc([t.term, t.full, t.fullEn, t.one, (t.aliases || []).join(" ")].join(" ").toLowerCase())}">
+  const card = (t) => `<a class="termcard" href="/shabdkosh/${encodeURIComponent(t.id)}/" data-text="${esc(termHay(t))}">
     <span class="k">शब्द · ${esc(t.group)}</span>
     <strong>${esc(t.term)}</strong>
     <span class="s">${esc(t.one)}</span>
@@ -1036,8 +1124,10 @@ function renderTermIndex(terms) {
     <div class="termlist">${groups[L].map(card).join("")}</div>
   </section>`).join("")}
   <p class="empty" id="tempty" hidden>यह शब्द अभी शब्दकोश में नहीं है। <a href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent("Seedha Matlab: yeh shabd jodiye")}">कौन-सा शब्द चाहिए, बताइए</a></p>
+  <div class="xres" id="xposts" hidden></div>
+  <div class="xres" id="xpages" hidden></div>
 </main>
-<script>${TERM_LIST_JS}</script>` + foot();
+<script>${XSEARCH_JS}${TERM_LIST_JS}</script>` + foot();
 }
 function renderPage({ slug, title, desc, body }) {
   return head({
@@ -1577,6 +1667,7 @@ function main() {
   terms.forEach((t) => write(path.join("shabdkosh", t.id, "index.html"), renderTerm(t, posts)));
   if (terms.length) write(path.join("shabdkosh", "index.html"), renderTermIndex(terms));
 
+  write("search.json", JSON.stringify(searchIndex(posts, terms)));
   write("feed.xml", renderFeed(posts));
   write("manifest.webmanifest", JSON.stringify({
     id: "/",
