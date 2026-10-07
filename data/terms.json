@@ -11408,6 +11408,252 @@
         }
       ],
       "body": "## मतलब\n\nIndian Contract Act, 1872 के मुताबिक \"contract of guarantee\" किसी तीसरे व्यक्ति के चूकने पर उसका वादा निभाने, या उसकी देनदारी चुकाने का contract है। Guarantee देने वाले को \"surety\" कहते हैं; जिसकी चूक के लिए guarantee दी गई, उसे \"principal debtor\"; और जिसे guarantee दी गई, उसे \"creditor\"।[^1]\n\nGuarantee ज़बानी भी हो सकती है, और लिखित भी। Principal debtor के फ़ायदे के लिए किया गया कोई काम, या दिया गया कोई वादा, surety के लिए guarantee देने का काफ़ी consideration हो सकता है।[^1]\n\n## Surety बनने का मतलब | Surety बनना\n\n::flow\n\n- **देनदारी बराबर की:** surety की देनदारी उतनी ही होती है, जितनी principal debtor की, जब तक contract में कुछ और न लिखा हो।[^1]\n- **Continuing guarantee:** जो guarantee लेनदेन की एक पूरी कड़ी पर लागू हो, वह continuing guarantee है। Surety creditor को notice देकर इसे आगे के लेनदेन के लिए कभी भी वापस ले सकता है।[^1]\n- **Surety की मृत्यु:** continuing guarantee आगे के लेनदेन के लिए ख़त्म हो जाती है, जब तक contract में इसके उलट कुछ न हो।[^1]\n- **Co-sureties:** एक ही क़र्ज़ के दो या ज़्यादा surety हों, तो, कोई उलटा contract न हो, तो वे आपस में बराबर-बराबर हिस्सा देने के लिए ज़िम्मेदार हैं। Creditor एक को छोड़ दे, तो बाक़ी नहीं छूटते।[^1]\n\n## Surety कब छूट जाता है | कब छूटता है\n\n- **शर्तें बदली जाएँ:** surety की सहमति के बिना principal debtor और creditor के contract की शर्तें बदली जाएँ, तो बदलाव के बाद के लेनदेन के लिए surety छूट जाता है।[^1]\n- **Principal debtor को छोड़ दिया जाए:** creditor और principal debtor के किसी contract से principal debtor छूट जाए, या creditor के किसी काम या चूक का क़ानूनी नतीजा यही हो, तो surety भी छूट जाता है।[^1]\n- **समझौता या मोहलत:** creditor surety की सहमति के बिना principal debtor से समझौता करे, या उसे समय देने या उस पर मुक़दमा न करने का वादा करे, तो surety छूट जाता है।[^1]\n- **Creditor के काम से नुकसान:** creditor कोई ऐसा काम करे, जो surety के अधिकारों से मेल न खाता हो, या वह काम न करे, जो surety के प्रति उसका कर्तव्य था, और इससे surety का principal debtor के ख़िलाफ़ उपाय कमज़ोर पड़े, तो surety छूट जाता है।[^1]\n- **सिर्फ़ मुक़दमा न करना काफ़ी नहीं:** creditor का सिर्फ़ मुक़दमा न करना surety को नहीं छुड़ाता, जब तक guarantee में इसके उलट कुछ न लिखा हो।[^1]\n- **धोखे से ली गई guarantee:** creditor के ग़लत बयान से, या अहम बातों पर उसके चुप रहने से, ली गई guarantee अमान्य है।[^1]\n\n## चुकाने के बाद surety के अधिकार | चुकाने के बाद\n\n- **Creditor की जगह:** जितने के लिए वह ज़िम्मेदार था, वह सब चुकाने पर surety को वे सारे अधिकार मिल जाते हैं, जो creditor के principal debtor के ख़िलाफ़ थे।[^1]\n- **Security का फ़ायदा:** surety को हर उस security का फ़ायदा मिलता है, जो guarantee के समय creditor के पास principal debtor के ख़िलाफ़ थी, चाहे surety को उसका पता हो या नहीं। Creditor वह security खो दे, या surety की सहमति के बिना छोड़ दे, तो surety उस security की कीमत की हद तक छूट जाता है।[^1]\n- **Principal debtor से वसूली:** हर guarantee में principal debtor का यह वादा शामिल माना जाता है कि वह surety की भरपाई करेगा। Surety उससे वह रकम वसूल सकता है, जो उसने सही तौर पर चुकाई; ग़लत तौर पर चुकाई रकम नहीं।[^1]\n\n## Bank के दावे में surety | Bank के दावे में\n\n- **Nominee या survivor से नहीं:** मृतक के deposit खाते की रकम Nominee या survivor को देते समय bank उनसे या किसी तीसरे व्यक्ति से Indemnity Bond या surety नहीं माँग सकता, रकम चाहे जितनी हो।[^2]\n- **₹15 लाख की सीमा तक नहीं:** nominee न हो, दावा क़ानूनी वारिस करें और रकम threshold limit तक हो, तो तीसरे व्यक्ति का surety bond नहीं लिया जा सकता। यह सीमा ₹15 लाख है, या उससे ऊँची, जो bank तय करे।[^2]\n- **सीमा से ऊपर, कब:** दावा Succession Certificate पर निपटे, तो bond नहीं लगता। Legal Heir Certificate या affidavit पर निपटे, तो bank तीसरे व्यक्तियों से surety bond माँग सकता है। ये दावा न करने वाले क़ानूनी वारिस भी हो सकते हैं, पर bank को मंज़ूर और दावे की रकम के लायक़ होने चाहिए।[^2]\n- **वसीयत या विवाद वाले दावे:** इनमें भी तीसरे व्यक्ति का surety bond नहीं लिया जा सकता।[^2]\n- **Surety की जानकारी:** bank के format में surety से ये ब्योरे लिए जाते हैं: नाम, पता, पढ़ाई, उम्र, काम, आय, आश्रित, संपत्ति और निवेश, देनदारियाँ, दावा करने वालों से रिश्ता, और वह उन्हें कब से जानता है।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> ₹15 लाख की सीमा तक के दावे में, और nominee या survivor के दावे में, bank तीसरे व्यक्ति का surety bond नहीं ले सकता।[^2]\n\n- **सहमति के बिना बदलाव:** आपकी सहमति के बिना contract की शर्तें बदली जाएँ, तो बदलाव के बाद के लेनदेन के लिए आप surety नहीं रहते।[^1]\n- **चुकाया, तो वसूली:** surety के तौर पर सही तौर पर चुकाई गई रकम आप principal debtor से वसूल सकते हैं।[^1]\n\n## अभी क्या करें\n\n- Surety बनने से पहले contract पूरा पढ़िए; आपकी देनदारी principal debtor जितनी ही होती है, जब तक उसमें कुछ और न लिखा हो।[^1]\n- Continuing guarantee आगे के लिए ख़त्म करनी हो, तो creditor को notice दीजिए।[^1]\n- Bank ₹15 लाख की सीमा तक के दावे में, या nominee के दावे में, surety माँगे, तो बताइए कि RBI के निर्देशों में इसकी मनाही है।[^2]\n- सीमा से ऊपर के दावे में surety देना पड़े, तो ऐसा व्यक्ति चुनिए, जो bank को मंज़ूर हो और दावे की रकम के लायक़ हो।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "ckycr",
+      "term": "CKYCR",
+      "aliases": [
+        "Central KYC Records Registry",
+        "Central KYC Registry",
+        "CKYC",
+        "KYC Identifier",
+        "KYC Identifiers"
+      ],
+      "full": "वह केंद्रीय registry, जिसमें ग्राहकों के KYC record digital रूप में रखे जाते हैं",
+      "fullEn": "Central KYC Records Registry",
+      "group": "बैंकिंग",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI के Commercial Banks – Know Your Customer Directions, 2025 (1 अक्टूबर 2026 तक update) और RBI के KYC FAQs (9 जून 2025) से जाँचा।"
+        }
+      ],
+      "one": "CKYCR (Central KYC Records Registry) में ग्राहकों के KYC record digital रूप में रखे जाते हैं। Bank खाते का रिश्ता शुरू होने के 10 दिन के अंदर आपका record इसमें upload करता है, और CKYCR आपको एक KYC Identifier देता है। यह number और अपनी सहमति देने पर दूसरा bank आपका record यहीं से ले लेता है; चार हालात छोड़कर, वह वही दस्तावेज़ दोबारा नहीं माँग सकता।",
+      "facts": [
+        {
+          "k": "Bank record upload करता है",
+          "v": "10 दिन में",
+          "s": "खाते का रिश्ता शुरू होने के बाद"
+        },
+        {
+          "k": "CKYCR का काम करता है",
+          "v": "CERSAI",
+          "s": "26 नवंबर 2015 की Gazette अधिसूचना से"
+        },
+        {
+          "k": "जानकारी बदले, तो",
+          "v": "7 दिन में",
+          "s": "bank नई जानकारी CKYCR को भेजता है"
+        },
+        {
+          "k": "वही दस्तावेज़ दोबारा",
+          "v": "नहीं",
+          "s": "KYC Identifier से record मिल जाए, तो; चार अपवाद",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank",
+            "s": "KYC record upload करता है"
+          },
+          {
+            "t": "CKYCR",
+            "s": "KYC Identifier बनाता है"
+          },
+          {
+            "t": "दूसरा bank",
+            "s": "record online ले लेता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "10 दिन में",
+            "s": "रिश्ता शुरू होने के बाद"
+          },
+          {
+            "b": "Identifier + सहमति",
+            "s": "ग्राहक देता है"
+          }
+        ],
+        "note": "KYC Identifier बन जाए, तो bank को पक्का करना होता है कि वह ग्राहक को बता दिया जाए।"
+      },
+      "myths": [
+        {
+          "m": "\"CKYCR में record है, तो bank अब कभी कोई दस्तावेज़ नहीं माँग सकता।\"",
+          "f": "ग़लत। चार हालात में माँग सकता है: आपकी जानकारी बदल गई हो; record अधूरा हो या मौजूदा KYC नियमों के मुताबिक न हो; download हुए दस्तावेज़ों की वैधता ख़त्म हो चुकी हो; या bank को पहचान या पता जाँचने, enhanced due diligence करने या risk profile बनाने के लिए यह ज़रूरी लगे।[^1]"
+        },
+        {
+          "m": "\"KYC Identifier bank के काम की चीज़ है; ग्राहक को नहीं मिलता।\"",
+          "f": "ग़लत। CKYCR यह number बना दे, तो bank को पक्का करना होता है कि वह ग्राहक को बता दिया जाए। RBI के निर्देशों के मुताबिक ग्राहक इसे CKYCR Portal (www.ckycindia.in) पर भी देख सकता है।[^1]"
+        },
+        {
+          "m": "\"कोई भी संस्था मेरी मर्ज़ी के बिना CKYCR से मेरा record निकाल सकती है।\"",
+          "f": "नहीं। RBI के FAQs के मुताबिक KYC Identifier से CKYCR का record download करने के लिए संस्था को ग्राहक की साफ़ सहमति (explicit consent) लेनी होती है।[^2]"
+        },
+        {
+          "m": "\"KYC Identifier दे दिया, तो PAN भी नहीं देना पड़ेगा।\"",
+          "f": "ग़लत। खाता खोलते समय KYC Identifier, Aadhaar या Officially Valid Document की जगह दिया जा सकता है; PAN या Form 60 फिर भी देना होता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CKYCR का मतलब क्या है?",
+          "a": "CKYCR यानी Central KYC Records Registry। RBI के निर्देशों के पैरा 5 के मुताबिक यह ग्राहक के KYC record digital रूप में लेने, रखने, सुरक्षित रखने और निकालने का काम करने वाली entity है। इसकी परिभाषा Prevention of Money-Laundering (Maintenance of Records) Rules, 2005 के Rule 2(1) में है।"
+        },
+        {
+          "q": "CKYCR कौन चलाता है?",
+          "a": "निर्देशों के पैरा 65 के मुताबिक भारत सरकार ने 26 नवंबर 2015 की Gazette अधिसूचना (S.O. 3183(E)) से CERSAI (Central Registry of Securitisation Asset Reconstruction and Security Interest of India) को CKYCR का काम करने का अधिकार दिया है। CKYCR का 'live run' 15 जुलाई 2016 से, चरणों में, शुरू हुआ।"
+        },
+        {
+          "q": "KYC Identifier क्या है?",
+          "a": "पैरा 5 के मुताबिक यह वह अलग number या code है, जो CKYCR ग्राहक को देता है।"
+        },
+        {
+          "q": "अपना KYC Identifier कैसे मिलेगा?",
+          "a": "पैरा 5 के मुताबिक दो तरीक़े हैं। खाता खोलने की प्रक्रिया में CKYCR जब KYC Identifier बनाकर bank को देता है, तो bank उसे ग्राहक को बताता है। ग्राहक इसे CKYCR Portal (www.ckycindia.in) पर भी देख सकता है।"
+        },
+        {
+          "q": "Bank मेरा KYC record CKYCR पर कब upload करता है?",
+          "a": "पैरा 65 के मुताबिक खाते का रिश्ता (account-based relationship) शुरू होने के 10 दिन के अंदर। यह PML Rules के Rule 9(1A) के तहत है।"
+        },
+        {
+          "q": "KYC Identifier देने से क्या फ़ायदा है?",
+          "a": "RBI के FAQs के मुताबिक किसी संस्था में खाता खोलते समय ग्राहक अपना KYC Identifier और record download करने की सहमति दे सकता है। इससे दूसरी संस्था में खाता खोलते समय KYC दस्तावेज़ दोबारा देने की ज़रूरत टल सकती है।"
+        },
+        {
+          "q": "KYC Identifier और किस काम आता है?",
+          "a": "RBI के FAQs के मुताबिक खाता खोलने के अलावा यह KYC update में, और ग्राहक की पहचान की जाँच में भी इस्तेमाल हो सकता है।"
+        },
+        {
+          "q": "क्या KYC Identifier देने के बाद भी bank दस्तावेज़ माँग सकता है?",
+          "a": "पैरा 65 के मुताबिक चार हालात में: ग्राहक की जानकारी CKYCR के record से बदल गई हो; मिला हुआ record अधूरा हो या मौजूदा KYC नियमों के मुताबिक न हो; download हुए दस्तावेज़ों की वैधता की अवधि ख़त्म हो चुकी हो; या bank को पहचान या पता (मौजूदा पता समेत) जाँचने, enhanced due diligence करने या risk profile बनाने के लिए यह ज़रूरी लगे। इनके अलावा bank वही KYC record, जानकारी या पहचान का कोई और दस्तावेज़ नहीं माँग सकता।"
+        },
+        {
+          "q": "क्या KYC Identifier के साथ PAN भी देना होता है?",
+          "a": "हाँ। पैरा 23 के मुताबिक खाता खोलते समय KYC Identifier (record download करने की साफ़ सहमति के साथ), Aadhaar या Officially Valid Document की जगह दिया जा सकता है; इसके साथ PAN या Form 60 देना होता है।"
+        },
+        {
+          "q": "मेरी जानकारी बदल जाए, तो CKYCR में कैसे update होगी?",
+          "a": "पैरा 65 के मुताबिक bank को ग्राहक से नई या बदली हुई जानकारी मिले, तो वह सात दिन के अंदर, या केंद्र सरकार की तय की हुई अवधि में, उसे CKYCR को भेजता है। CKYCR record update करके उन सभी संस्थाओं को electronic सूचना देता है, जिनका उस ग्राहक से वास्ता रहा है।"
+        },
+        {
+          "q": "पुराने खातों का record भी CKYCR में जाता है?",
+          "a": "पैरा 65 के मुताबिक Scheduled Commercial Banks 1 जनवरी 2017 को या उसके बाद खुले सभी नए individual खातों का KYC data upload करते हैं। इससे पुराने खातों का data bank समय-समय के KYC update (periodic updation) के समय upload या update करता है, या उससे पहले, जब ग्राहक से updated KYC जानकारी मिले।"
+        },
+        {
+          "q": "CKYCR के record में पहचान और पते की जाँच की ज़िम्मेदारी किसकी है?",
+          "a": "पैरा 65 में 29 दिसंबर 2025 से जुड़े Explanation के मुताबिक उस संस्था की, जिसने ग्राहक का record CKYCR में आख़िरी बार upload या update किया। Record download करके उस पर भरोसा करने वाले bank को पहचान या पते की सच्चाई दोबारा जाँचनी नहीं होती, बशर्ते record current हो और PML Act, 2002 और PML Rules, 2005 के मुताबिक हो।"
+        },
+        {
+          "q": "ये नियम किन banks पर लागू हैं?",
+          "a": "ये RBI के commercial banks के लिए बने निर्देश हैं। इनके पैरा 3 में Small Finance Banks, Payment Banks और Local Area Banks 'commercial banks' में नहीं गिने गए हैं। RBI के FAQs 2016 के Master Direction on KYC पर लिखे गए हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "V-CIP"
+        },
+        {
+          "t": "Officially Valid Document"
+        },
+        {
+          "t": "Small Account"
+        },
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025, RBI/DOR/2025-26/169 (1 अक्टूबर 2026 तक updated; सिर्फ़ commercial banks पर लागू)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/169MD.pdf",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "ये निर्देश किन banks पर लागू हैं"
+            },
+            {
+              "ref": "पैरा 5",
+              "c": "CKYCR और KYC Identifier की परिभाषा; Identifier पाने के दो तरीक़े"
+            },
+            {
+              "ref": "पैरा 23",
+              "c": "KYC Identifier के साथ साफ़ सहमति; PAN या Form 60; record online लेना"
+            },
+            {
+              "ref": "पैरा 25(8)",
+              "c": "Aadhaar OTP वाले e-KYC से खुले खातों की जानकारी"
+            },
+            {
+              "ref": "पैरा 27(2)",
+              "c": "V-CIP में CKYCR का record; तीन working दिन"
+            },
+            {
+              "ref": "पैरा 44",
+              "c": "CKYCR से खुला खाता non-face-to-face; high-risk श्रेणी और ज़्यादा निगरानी"
+            },
+            {
+              "ref": "पैरा 65(1)",
+              "c": "CERSAI को CKYCR का काम; Gazette अधिसूचना"
+            },
+            {
+              "ref": "पैरा 65(2)",
+              "c": "10 दिन के अंदर upload; Rule 9(1A)"
+            },
+            {
+              "ref": "पैरा 65(5)",
+              "c": "live run; 1 जनवरी 2017 और 1 अप्रैल 2017"
+            },
+            {
+              "ref": "पैरा 65(6)",
+              "c": "legal entities के खाते: 1 अप्रैल 2021"
+            },
+            {
+              "ref": "पैरा 65(7)",
+              "c": "KYC Identifier ग्राहक को बताना"
+            },
+            {
+              "ref": "पैरा 65(8)",
+              "c": "पुराने खाते; सात दिन; CKYCR की electronic सूचना"
+            },
+            {
+              "ref": "पैरा 65(10)",
+              "c": "वही दस्तावेज़ दोबारा नहीं; चार अपवाद; जाँच की ज़िम्मेदारी (Explanation)"
+            }
+          ]
+        },
+        {
+          "label": "RBI — FAQs on Master Direction on KYC, 9 जून 2025 (37 सवाल; 2016 के Master Direction पर लिखे गए हैं)",
+          "url": "https://www.rbi.org.in/commonman/english/Scripts/FAQs.aspx?Id=3782",
+          "issued": "2025-06-09",
+          "used": [
+            {
+              "ref": "Q14",
+              "c": "KYC Identifier का फ़ायदा: दस्तावेज़ दोबारा देने की ज़रूरत टल सकती है"
+            },
+            {
+              "ref": "Q15",
+              "c": "KYC update और पहचान की जाँच में भी इस्तेमाल"
+            },
+            {
+              "ref": "Q16",
+              "c": "record download करने के लिए ग्राहक की साफ़ सहमति"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के निर्देशों के मुताबिक Central KYC Records Registry (CKYCR) ग्राहक के KYC record digital रूप में लेने, रखने, सुरक्षित रखने और निकालने का काम करने वाली entity है। इसकी परिभाषा Prevention of Money-Laundering (Maintenance of Records) Rules, 2005 के Rule 2(1) में है।[^1]\n\nभारत सरकार ने 26 नवंबर 2015 की Gazette अधिसूचना (S.O. 3183(E)) से CERSAI (Central Registry of Securitisation Asset Reconstruction and Security Interest of India) को CKYCR का काम करने का अधिकार दिया है। CKYCR का 'live run' 15 जुलाई 2016 से, चरणों में, नए individual खातों से शुरू हुआ।[^1]\n\n**KYC Identifier** वह अलग number या code है, जो CKYCR ग्राहक को देता है।[^1]\n\n## CKYCR कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n- **Upload:** bank ग्राहक का KYC record लेकर, खाते का रिश्ता शुरू होने के 10 दिन के अंदर, CKYCR पर upload करता है। यह PML Rules के Rule 9(1A) के तहत है।[^1]\n- **KYC Identifier:** CKYCR यह number बना दे, तो bank को पक्का करना होता है कि वह ग्राहक को बता दिया जाए।[^1]\n- **अगली बार:** खाता खोलने, KYC update या पहचान की जाँच के लिए bank ग्राहक से KYC Identifier माँगता है, या CKYCR में हो तो वहीं से निकालता है, और उसी से KYC record online ले लेता है।[^1]\n- **Identifier के साथ क्या:** खाता खोलते समय KYC Identifier, record download करने की साफ़ सहमति के साथ, Aadhaar या Officially Valid Document की जगह दिया जा सकता है। PAN या Form 60 फिर भी देना होता है।[^1]\n- **जानकारी बदले, तो:** bank को ग्राहक से नई या बदली हुई जानकारी मिले, तो वह सात दिन के अंदर, या केंद्र सरकार की तय की हुई अवधि में, उसे CKYCR को भेजता है। CKYCR record update करके उन सभी संस्थाओं को electronic सूचना देता है, जिनका उस ग्राहक से वास्ता रहा है। सूचना मिलने पर bank नया record लेकर अपना record update करता है।[^1]\n\n## किन खातों का record upload होता है | किनका record\n\n- **नए individual खाते:** Scheduled Commercial Banks 1 जनवरी 2017 को या उसके बाद खुले सभी नए individual खातों का KYC data upload करते हैं। बाक़ी regulated entities के लिए यह तारीख़ 1 अप्रैल 2017 थी।[^1]\n- **Legal entities के खाते:** bank 1 अप्रैल 2021 को या उसके बाद खुले खातों के KYC record upload करता है।[^1]\n- **इनसे पुराने खाते:** bank इनका KYC data समय-समय के KYC update (periodic updation) के समय upload या update करता है, या उससे पहले, जब ग्राहक से updated KYC जानकारी मिले।[^1]\n\n## दस्तावेज़ दोबारा कब माँगे जा सकते हैं | दस्तावेज़ दोबारा\n\nKYC Identifier से record मिल जाए, तो bank ग्राहक से वही KYC record या जानकारी, या पहचान का कोई और दस्तावेज़ या ब्योरा, नहीं माँग सकता। इसके चार अपवाद हैं:[^1]\n\n- **जानकारी बदल गई हो:** ग्राहक की जानकारी CKYCR के record से बदल गई हो।[^1]\n- **Record अधूरा हो:** मिला हुआ record या जानकारी अधूरी हो, या मौजूदा KYC नियमों के मुताबिक न हो।[^1]\n- **वैधता ख़त्म हो:** download हुए दस्तावेज़ों की वैधता की अवधि ख़त्म हो चुकी हो।[^1]\n- **Bank को ज़रूरी लगे:** ग्राहक की पहचान या पता (मौजूदा पता समेत) जाँचने, enhanced due diligence करने, या ग्राहक का risk profile बनाने के लिए।[^1]\n\n29 दिसंबर 2025 से निर्देशों में यह भी जुड़ा है: पहचान और पते की जाँच की ज़िम्मेदारी उस संस्था की है, जिसने ग्राहक का record CKYCR में आख़िरी बार upload या update किया। Record download करके उस पर भरोसा करने वाले bank को पहचान या पते की सच्चाई दोबारा जाँचनी नहीं होती, बशर्ते record current हो और PML Act, 2002 और PML Rules, 2005 के मुताबिक हो। बाक़ी customer due diligence की ज़िम्मेदारी उसी bank की रहती है।[^1]\n\n## CKYCR और कहाँ काम आता है | और कहाँ\n\n- **V-CIP में:** पहचान की जानकारी CKYCR से लिए गए KYC record से ली जा सकती है, ग्राहक के दिए KYC Identifier से। पूरी प्रक्रिया एक बार में पूरी न हो पाए, तो video वाला हिस्सा record लेने के तीन working दिन के अंदर होना चाहिए।[^1]\n- **दूर से खाता खोलने में:** bank के अधिकारी से मिले बिना, और V-CIP के बिना, CKYCR जैसे digital channel से खाता खुले, तो वह non-face-to-face गिना जाता है। ऐसे ग्राहक को bank high-risk श्रेणी में रखता है और खाते पर ज़्यादा निगरानी रखता है, जब तक पहचान आमने-सामने या V-CIP से न जाँच ली जाए।[^1]\n- **Aadhaar OTP वाले e-KYC के खाते:** ऐसे खाते की KYC जानकारी upload करते समय bank साफ़ बताता है कि खाता OTP वाले e-KYC से खुला है। दूसरी संस्थाएँ इस जानकारी के आधार पर खाता नहीं खोल सकतीं।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> KYC Identifier से record मिल जाए, तो bank वही KYC दस्तावेज़ दोबारा नहीं माँग सकता; इसके सिर्फ़ चार अपवाद हैं।[^1]\n\n- **अपना KYC Identifier जानना:** CKYCR यह number बना दे, तो bank को पक्का करना होता है कि वह आपको बता दिया जाए।[^1]\n- **आपकी सहमति:** KYC Identifier से आपका record download करने के लिए संस्था को आपकी साफ़ सहमति (explicit consent) लेनी होती है।[^2]\n\n## अभी क्या करें\n\n- अपने bank से अपना KYC Identifier पूछिए; यह बन जाए, तो bank को पक्का करना होता है कि वह ग्राहक को बता दिया जाए।[^1]\n- RBI के निर्देशों के मुताबिक ग्राहक अपना KYC Identifier CKYCR Portal (www.ckycindia.in) पर भी देख सकता है।[^1]\n- किसी दूसरे bank में खाता खोलते समय KYC Identifier और record download करने की सहमति दीजिए; इससे KYC दस्तावेज़ दोबारा देने की ज़रूरत टल सकती है।[^2]\n- PAN या Form 60 साथ रखिए; KYC Identifier देने पर भी यह देना होता है।[^1]\n- पता या कोई और जानकारी बदल गई हो, तो नए दस्तावेज़ साथ रखिए; ऐसे में bank इन्हें माँग सकता है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
