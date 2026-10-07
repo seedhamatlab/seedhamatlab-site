@@ -11654,6 +11654,278 @@
         }
       ],
       "body": "## मतलब\n\nRBI के निर्देशों के मुताबिक Central KYC Records Registry (CKYCR) ग्राहक के KYC record digital रूप में लेने, रखने, सुरक्षित रखने और निकालने का काम करने वाली entity है। इसकी परिभाषा Prevention of Money-Laundering (Maintenance of Records) Rules, 2005 के Rule 2(1) में है।[^1]\n\nभारत सरकार ने 26 नवंबर 2015 की Gazette अधिसूचना (S.O. 3183(E)) से CERSAI (Central Registry of Securitisation Asset Reconstruction and Security Interest of India) को CKYCR का काम करने का अधिकार दिया है। CKYCR का 'live run' 15 जुलाई 2016 से, चरणों में, नए individual खातों से शुरू हुआ।[^1]\n\n**KYC Identifier** वह अलग number या code है, जो CKYCR ग्राहक को देता है।[^1]\n\n## CKYCR कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n- **Upload:** bank ग्राहक का KYC record लेकर, खाते का रिश्ता शुरू होने के 10 दिन के अंदर, CKYCR पर upload करता है। यह PML Rules के Rule 9(1A) के तहत है।[^1]\n- **KYC Identifier:** CKYCR यह number बना दे, तो bank को पक्का करना होता है कि वह ग्राहक को बता दिया जाए।[^1]\n- **अगली बार:** खाता खोलने, KYC update या पहचान की जाँच के लिए bank ग्राहक से KYC Identifier माँगता है, या CKYCR में हो तो वहीं से निकालता है, और उसी से KYC record online ले लेता है।[^1]\n- **Identifier के साथ क्या:** खाता खोलते समय KYC Identifier, record download करने की साफ़ सहमति के साथ, Aadhaar या Officially Valid Document की जगह दिया जा सकता है। PAN या Form 60 फिर भी देना होता है।[^1]\n- **जानकारी बदले, तो:** bank को ग्राहक से नई या बदली हुई जानकारी मिले, तो वह सात दिन के अंदर, या केंद्र सरकार की तय की हुई अवधि में, उसे CKYCR को भेजता है। CKYCR record update करके उन सभी संस्थाओं को electronic सूचना देता है, जिनका उस ग्राहक से वास्ता रहा है। सूचना मिलने पर bank नया record लेकर अपना record update करता है।[^1]\n\n## किन खातों का record upload होता है | किनका record\n\n- **नए individual खाते:** Scheduled Commercial Banks 1 जनवरी 2017 को या उसके बाद खुले सभी नए individual खातों का KYC data upload करते हैं। बाक़ी regulated entities के लिए यह तारीख़ 1 अप्रैल 2017 थी।[^1]\n- **Legal entities के खाते:** bank 1 अप्रैल 2021 को या उसके बाद खुले खातों के KYC record upload करता है।[^1]\n- **इनसे पुराने खाते:** bank इनका KYC data समय-समय के KYC update (periodic updation) के समय upload या update करता है, या उससे पहले, जब ग्राहक से updated KYC जानकारी मिले।[^1]\n\n## दस्तावेज़ दोबारा कब माँगे जा सकते हैं | दस्तावेज़ दोबारा\n\nKYC Identifier से record मिल जाए, तो bank ग्राहक से वही KYC record या जानकारी, या पहचान का कोई और दस्तावेज़ या ब्योरा, नहीं माँग सकता। इसके चार अपवाद हैं:[^1]\n\n- **जानकारी बदल गई हो:** ग्राहक की जानकारी CKYCR के record से बदल गई हो।[^1]\n- **Record अधूरा हो:** मिला हुआ record या जानकारी अधूरी हो, या मौजूदा KYC नियमों के मुताबिक न हो।[^1]\n- **वैधता ख़त्म हो:** download हुए दस्तावेज़ों की वैधता की अवधि ख़त्म हो चुकी हो।[^1]\n- **Bank को ज़रूरी लगे:** ग्राहक की पहचान या पता (मौजूदा पता समेत) जाँचने, enhanced due diligence करने, या ग्राहक का risk profile बनाने के लिए।[^1]\n\n29 दिसंबर 2025 से निर्देशों में यह भी जुड़ा है: पहचान और पते की जाँच की ज़िम्मेदारी उस संस्था की है, जिसने ग्राहक का record CKYCR में आख़िरी बार upload या update किया। Record download करके उस पर भरोसा करने वाले bank को पहचान या पते की सच्चाई दोबारा जाँचनी नहीं होती, बशर्ते record current हो और PML Act, 2002 और PML Rules, 2005 के मुताबिक हो। बाक़ी customer due diligence की ज़िम्मेदारी उसी bank की रहती है।[^1]\n\n## CKYCR और कहाँ काम आता है | और कहाँ\n\n- **V-CIP में:** पहचान की जानकारी CKYCR से लिए गए KYC record से ली जा सकती है, ग्राहक के दिए KYC Identifier से। पूरी प्रक्रिया एक बार में पूरी न हो पाए, तो video वाला हिस्सा record लेने के तीन working दिन के अंदर होना चाहिए।[^1]\n- **दूर से खाता खोलने में:** bank के अधिकारी से मिले बिना, और V-CIP के बिना, CKYCR जैसे digital channel से खाता खुले, तो वह non-face-to-face गिना जाता है। ऐसे ग्राहक को bank high-risk श्रेणी में रखता है और खाते पर ज़्यादा निगरानी रखता है, जब तक पहचान आमने-सामने या V-CIP से न जाँच ली जाए।[^1]\n- **Aadhaar OTP वाले e-KYC के खाते:** ऐसे खाते की KYC जानकारी upload करते समय bank साफ़ बताता है कि खाता OTP वाले e-KYC से खुला है। दूसरी संस्थाएँ इस जानकारी के आधार पर खाता नहीं खोल सकतीं।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> KYC Identifier से record मिल जाए, तो bank वही KYC दस्तावेज़ दोबारा नहीं माँग सकता; इसके सिर्फ़ चार अपवाद हैं।[^1]\n\n- **अपना KYC Identifier जानना:** CKYCR यह number बना दे, तो bank को पक्का करना होता है कि वह आपको बता दिया जाए।[^1]\n- **आपकी सहमति:** KYC Identifier से आपका record download करने के लिए संस्था को आपकी साफ़ सहमति (explicit consent) लेनी होती है।[^2]\n\n## अभी क्या करें\n\n- अपने bank से अपना KYC Identifier पूछिए; यह बन जाए, तो bank को पक्का करना होता है कि वह ग्राहक को बता दिया जाए।[^1]\n- RBI के निर्देशों के मुताबिक ग्राहक अपना KYC Identifier CKYCR Portal (www.ckycindia.in) पर भी देख सकता है।[^1]\n- किसी दूसरे bank में खाता खोलते समय KYC Identifier और record download करने की सहमति दीजिए; इससे KYC दस्तावेज़ दोबारा देने की ज़रूरत टल सकती है।[^2]\n- PAN या Form 60 साथ रखिए; KYC Identifier देने पर भी यह देना होता है।[^1]\n- पता या कोई और जानकारी बदल गई हो, तो नए दस्तावेज़ साथ रखिए; ऐसे में bank इन्हें माँग सकता है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "death-certificate",
+      "term": "Death Certificate",
+      "aliases": [
+        "Death Certificates",
+        "मृत्यु प्रमाणपत्र",
+        "मृत्यु प्रमाण पत्र",
+        "मृत्यु प्रमाण-पत्र"
+      ],
+      "full": "मृत्यु के registration का प्रमाणपत्र, जो Registrar of Births and Deaths अपने register से देता है",
+      "fullEn": "The certificate of registration of a death",
+      "group": "बैंकिंग",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। Registration of Births and Deaths Act, 1969 (India Code, पाठ \"As on the 26th Sep, 2025\") और RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक update) से जाँचा।"
+        }
+      ],
+      "one": "Death Certificate मृत्यु के registration का प्रमाणपत्र है, जो उस इलाक़े का Registrar of Births and Deaths अपने register से देता है। मृत्यु की सूचना देने वाले को यह registration पूरा होने के सात दिन के अंदर, मुफ़्त मिलता है। मृतक के bank खाते या locker के दावे में इसकी copy लगती है, और original जाँच के लिए दिखाना होता है।",
+      "facts": [
+        {
+          "k": "सूचना देने वाले को certificate",
+          "v": "मुफ़्त",
+          "s": "registration पूरा होने के 7 दिन के अंदर",
+          "good": true
+        },
+        {
+          "k": "1 साल बाद registration",
+          "v": "Magistrate का आदेश",
+          "s": "जाँच और fee के बाद ही"
+        },
+        {
+          "k": "Certificate में मृत्यु की वजह",
+          "v": "नहीं होती",
+          "s": "register से जारी certificate में"
+        },
+        {
+          "k": "Bank के दावे में",
+          "v": "Copy + original",
+          "s": "copy लगती है; original जाँच के लिए"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "सूचना",
+            "s": "घर का मुखिया या अस्पताल देता है"
+          },
+          {
+            "t": "Registrar",
+            "s": "register में दर्ज करता है"
+          },
+          {
+            "t": "Death Certificate",
+            "s": "सूचना देने वाले को, मुफ़्त"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "तय समय में",
+            "s": "उस इलाक़े के Registrar को"
+          },
+          {
+            "b": "7 दिन के अंदर",
+            "s": "registration पूरा होने पर"
+          }
+        ],
+        "note": "सूचना देने का समय राज्य सरकार के नियमों में तय होता है। देर हो जाए, तब भी registration हो सकता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Death certificate के लिए हर बार fee देनी पड़ती है।\"",
+          "f": "नहीं। मृत्यु की सूचना देने वाले को Registrar, registration पूरा होने के सात दिन के अंदर, certificate मुफ़्त देता है। बाद में register से certificate लेने की fee राज्य सरकार के नियमों से तय होती है।[^1]"
+        },
+        {
+          "m": "\"एक साल निकल गया, तो अब मृत्यु का registration नहीं हो सकता।\"",
+          "f": "हो सकता है। एक साल के बाद registration District Magistrate, Sub-Divisional Magistrate, या District Magistrate के अधिकृत किए Executive Magistrate के आदेश पर होता है। वह मृत्यु के सही होने की जाँच करता है, और fee लगती है।[^1]"
+        },
+        {
+          "m": "\"Death certificate में मृत्यु की वजह लिखी होती है।\"",
+          "f": "नहीं। Act की धारा 17 के मुताबिक register से किसी भी व्यक्ति को जारी death certificate में मृत्यु की वजह का ब्योरा नहीं दिया जाता।[^1]"
+        },
+        {
+          "m": "\"खाताधारक लापता है, तो death certificate के बिना bank में दावा हो ही नहीं सकता।\"",
+          "f": "हो सकता है। तब death certificate की जगह अदालत के उस आदेश की copy लगती है, जिसमें खाताधारक की civil death घोषित हो। कुल रकम ₹1 लाख से कम हो (या bank की तय की हुई इससे ऊँची रकम से कम), तो FIR की copy और पुलिस की non-traceable report ली जाती है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Death Certificate क्या है?",
+          "a": "यह मृत्यु के registration का प्रमाणपत्र है, जो Registration of Births and Deaths Act, 1969 के तहत Registrar अपने register से देता है। Act की धारा 17 के मुताबिक Registrar या राज्य सरकार के अधिकृत किए अधिकारी का प्रमाणित certificate उस मृत्यु को साबित करने के लिए सबूत के तौर पर मान्य है।"
+        },
+        {
+          "q": "मृत्यु की सूचना Registrar को कौन देता है?",
+          "a": "धारा 8 के मुताबिक: घर में मृत्यु हो, तो घर या परिवार का मुखिया; वह घर में न हो, तो उसका सबसे क़रीबी रिश्तेदार, जो घर में मौजूद हो; और वह भी न हो, तो घर में मौजूद सबसे बड़ा वयस्क। अस्पताल, health centre या nursing home में मृत्यु हो, तो medical officer in charge या उसका अधिकृत किया व्यक्ति। Jail में jailor; और hostel, धर्मशाला या lodging-house जैसी जगह में उसका प्रभारी।"
+        },
+        {
+          "q": "सूचना कितने समय में देनी होती है?",
+          "a": "धारा 8 के मुताबिक नियमों में तय समय के अंदर। धारा 30 के मुताबिक ये नियम राज्य सरकार बनाती है, केंद्र सरकार की मंज़ूरी से।"
+        },
+        {
+          "q": "Registration कहाँ होता है?",
+          "a": "धारा 7 के मुताबिक राज्य सरकार हर local area के लिए Registrar नियुक्त करती है, जैसे municipality या panchayat का इलाक़ा। Registrar उन्हीं मृत्युओं की जानकारी दर्ज करता है, जो उसके इलाक़े में हुई हों, और यह काम बिना किसी fee के करता है।"
+        },
+        {
+          "q": "Death certificate कब और कितने में मिलता है?",
+          "a": "धारा 12 के मुताबिक registration पूरा होते ही, और सात दिन से ज़्यादा देर किए बिना, Registrar सूचना देने वाले को अपने दस्तख़त से certificate मुफ़्त देता है। यह electronic रूप में भी दिया जा सकता है।"
+        },
+        {
+          "q": "बाद में certificate चाहिए हो, तो?",
+          "a": "धारा 17 के मुताबिक कोई भी व्यक्ति Registrar से register में entry की खोज करवा सकता है और death certificate ले सकता है। इसकी fee और डाक-ख़र्च राज्य सरकार के नियमों से तय होते हैं।"
+        },
+        {
+          "q": "सूचना देने में देर हो गई, तो?",
+          "a": "धारा 13 के मुताबिक: तय समय निकल जाए, पर सूचना मृत्यु के 30 दिन के अंदर दी जाए, तो late fee देकर registration होता है। 30 दिन के बाद, पर एक साल के अंदर, District Registrar या नियमों में तय authority की लिखित इजाज़त, fee और self-attested दस्तावेज़ पर। एक साल के बाद, District Magistrate, Sub-Divisional Magistrate या District Magistrate के अधिकृत किए Executive Magistrate के आदेश पर, जाँच और fee के बाद।"
+        },
+        {
+          "q": "Register की entry में ग़लती हो, तो?",
+          "a": "धारा 15 के मुताबिक Registrar को यह साबित हो जाए कि entry ग़लत है, या धोखे से या ग़लत तरीक़े से की गई है, तो वह राज्य सरकार के नियमों के तहत उसे सुधार या रद्द कर सकता है। मूल entry बदली नहीं जाती; हाशिये में नई entry की जाती है, दस्तख़त और तारीख़ के साथ।"
+        },
+        {
+          "q": "Registrar registration या certificate से मना करे, तो?",
+          "a": "धारा 25A के मुताबिक Registrar के किसी काम या आदेश के ख़िलाफ़ District Registrar के पास, और District Registrar के ख़िलाफ़ Chief Registrar के पास, 30 दिन के अंदर अपील की जा सकती है; अपील का फ़ैसला 90 दिन के अंदर होना है। धारा 23 के मुताबिक बिना उचित कारण के registration से, या सूचना देने वाले को certificate देने से, मना करने या लापरवाही करने वाले Registrar पर ₹250 तक जुर्माना हो सकता है।"
+        },
+        {
+          "q": "मृत्यु की वजह का certificate क्या है?",
+          "a": "यह death certificate से अलग है। धारा 10 के मुताबिक मृत्यु किसी medical institution में हो, तो वह संस्था मृत्यु की वजह का certificate मुफ़्त बनाकर Registrar को देती है, और उसकी copy सबसे क़रीबी रिश्तेदार को। मृत्यु कहीं और हो और आख़िरी बीमारी में किसी medical practitioner ने इलाज किया हो, तो वह यह certificate मुफ़्त, सूचना देने वाले व्यक्ति को देता है, जो उसे Registrar को सौंपता है।"
+        },
+        {
+          "q": "सूचना न देने पर क्या जुर्माना है?",
+          "a": "धारा 23 के मुताबिक बिना उचित कारण के सूचना न देने पर, या जानबूझकर ग़लत जानकारी देने पर, ₹250 तक जुर्माना हो सकता है। अस्पताल, jail या hostel जैसी जगहों के ज़िम्मेदार व्यक्तियों के लिए यह हर मृत्यु पर ₹1,000 तक है।"
+        },
+        {
+          "q": "Bank के दावे में death certificate कैसे लगता है?",
+          "a": "RBI के निर्देशों के claim form (Annex V और VI) में death certificate का number, तारीख़ और जारी करने वाले authority का नाम भरना होता है। Copy साथ लगती है, और original जाँच के लिए दिखाना होता है।"
+        },
+        {
+          "q": "खाताधारक लापता हो, तो death certificate की जगह क्या लगता है?",
+          "a": "निर्देशों के पैरा 298 के मुताबिक nominee या क़ानूनी वारिसों को Bharatiya Sakshya Adhiniyam, 2023 की धारा 110 या 111 के तहत अदालत से आदेश लेना होता है, और death certificate की जगह civil death घोषित करने वाले उस आदेश की copy लगती है। कुल रकम, ब्याज समेत, ₹1 लाख से कम हो (या bank की तय की हुई इससे ऊँची रकम से कम), तो इनकी जगह FIR की copy और पुलिस की non-traceable report ली जाती है।"
+        },
+        {
+          "q": "मृत्यु भारत के बाहर हुई हो, तो?",
+          "a": "निर्देशों के पैरा 324 के मुताबिक bank मृत्यु के प्रमाण की वह original certified copy मानता है, जो उसी देश में इनमें से किसी एक तरीक़े से प्रमाणित हो: भारत में registered Scheduled Commercial Bank की विदेशी शाखा के authorised अधिकारी से; भारतीय banks से correspondent रिश्ता रखने वाले विदेशी bank की शाखा से; court magistrate, judge या notary public से; भारतीय दूतावास या Consulate General से; या Apostille से।"
+        },
+        {
+          "q": "RBI के ये नियम किन banks पर लागू हैं?",
+          "a": "ये RBI के commercial banks के लिए बने निर्देश हैं। इनके पैरा 3 में Small Finance Banks, Payments Banks और Local Area Banks 'commercial banks' में नहीं गिने गए हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "Legal Heir"
+        },
+        {
+          "t": "Survivorship Clause"
+        },
+        {
+          "t": "Succession Certificate"
+        },
+        {
+          "t": "Officially Valid Document"
+        },
+        {
+          "t": "Locker"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Registration of Births and Deaths Act, 1969 (Act No. 18 of 1969), पाठ \"As on the 26th Sep, 2025\"",
+          "url": "https://indiacode.gov.in/act/f8696654-4d13-4754-a060-1e5816bfeee6",
+          "used": [
+            {
+              "ref": "धारा 2",
+              "c": "\"death\" की परिभाषा"
+            },
+            {
+              "ref": "धारा 7",
+              "c": "Registrar की नियुक्ति; अपने इलाक़े की मृत्यु; बिना fee दर्ज करना"
+            },
+            {
+              "ref": "धारा 8",
+              "c": "सूचना कौन देता है; नियमों में तय समय"
+            },
+            {
+              "ref": "धारा 10",
+              "c": "मृत्यु की वजह का certificate, मुफ़्त"
+            },
+            {
+              "ref": "धारा 12",
+              "c": "सूचना देने वाले को सात दिन के अंदर, मुफ़्त certificate"
+            },
+            {
+              "ref": "धारा 13",
+              "c": "देर से registration: 30 दिन; एक साल; Magistrate का आदेश"
+            },
+            {
+              "ref": "धारा 15",
+              "c": "entry का सुधार या रद्द होना"
+            },
+            {
+              "ref": "धारा 17",
+              "c": "खोज और certificate; मृत्यु की वजह नहीं; सबूत के तौर पर मान्य"
+            },
+            {
+              "ref": "धारा 20",
+              "c": "भारत के बाहर भारतीय नागरिकों की मृत्यु"
+            },
+            {
+              "ref": "धारा 23",
+              "c": "जुर्माने: सूचना न देना; Registrar का मना करना"
+            },
+            {
+              "ref": "धारा 25A",
+              "c": "अपील: 30 दिन; फ़ैसला 90 दिन में"
+            },
+            {
+              "ref": "धारा 30",
+              "c": "नियम राज्य सरकार बनाती है"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "ये निर्देश किन banks पर लागू हैं"
+            },
+            {
+              "ref": "पैरा 286",
+              "c": "nominee या survivor से तीन काग़ज़; क़ानूनी काग़ज़ नहीं"
+            },
+            {
+              "ref": "पैरा 288",
+              "c": "क़ानूनी वारिसों के दावे के काग़ज़"
+            },
+            {
+              "ref": "पैरा 298",
+              "c": "लापता खाताधारक: अदालत का आदेश; FIR और non-traceable report"
+            },
+            {
+              "ref": "पैरा 303",
+              "c": "locker: nominee या survivor के दावे के काग़ज़"
+            },
+            {
+              "ref": "पैरा 309",
+              "c": "locker: क़ानूनी वारिसों के दावे के काग़ज़"
+            },
+            {
+              "ref": "पैरा 324",
+              "c": "भारत के बाहर हुई मृत्यु का प्रमाण"
+            },
+            {
+              "ref": "Annex V",
+              "c": "nominee या survivor का claim form: certificate का ब्योरा; copy और original"
+            },
+            {
+              "ref": "Annex VI",
+              "c": "बाक़ी दावों का claim form: certificate का ब्योरा; copy और original"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nDeath Certificate मृत्यु के registration का प्रमाणपत्र है। यह Registration of Births and Deaths Act, 1969 के तहत Registrar अपने register से देता है।[^1]\n\nAct में \"death\" का मतलब है: जीवित जन्म के बाद किसी भी समय जीवन के सारे लक्षणों का हमेशा के लिए ख़त्म हो जाना।[^1]\n\nRegistrar या राज्य सरकार के अधिकृत किए अधिकारी का प्रमाणित certificate उस मृत्यु को साबित करने के लिए सबूत के तौर पर मान्य है।[^1]\n\n## Death Certificate कैसे बनता है | कैसे बनता है\n\n::flow\n\n- **सूचना कौन देता है:** घर में मृत्यु हो, तो घर या परिवार का मुखिया; वह घर में न हो, तो उसका सबसे क़रीबी रिश्तेदार, जो घर में मौजूद हो; और वह भी न हो, तो घर में मौजूद सबसे बड़ा वयस्क। अस्पताल, health centre या nursing home में मृत्यु हो, तो medical officer in charge या उसका अधिकृत किया व्यक्ति।[^1]\n- **कितने समय में:** नियमों में तय समय के अंदर। ये नियम राज्य सरकार बनाती है, केंद्र सरकार की मंज़ूरी से।[^1]\n- **किस Registrar के पास:** राज्य सरकार हर local area के लिए Registrar नियुक्त करती है, जैसे municipality या panchayat का इलाक़ा। Registrar उन्हीं मृत्युओं की जानकारी दर्ज करता है, जो उसके इलाक़े में हुई हों, और यह काम बिना किसी fee के करता है।[^1]\n- **Certificate:** registration पूरा होते ही, और सात दिन से ज़्यादा देर किए बिना, Registrar सूचना देने वाले को अपने दस्तख़त से certificate मुफ़्त देता है। यह electronic रूप में भी दिया जा सकता है।[^1]\n- **बाद में certificate:** कोई भी व्यक्ति Registrar से register में entry की खोज करवा सकता है और death certificate ले सकता है। इसकी fee और डाक-ख़र्च राज्य सरकार के नियमों से तय होते हैं।[^1]\n- **मृत्यु की वजह:** register से किसी भी व्यक्ति को जारी death certificate में मृत्यु की वजह का ब्योरा नहीं दिया जाता।[^1]\n- **मृत्यु की वजह का certificate अलग है:** मृत्यु किसी medical institution में हो, तो वह संस्था यह certificate मुफ़्त बनाकर Registrar को देती है, और उसकी copy सबसे क़रीबी रिश्तेदार को।[^1]\n\n## सूचना देने में देर हो जाए | देर हो जाए\n\n- **30 दिन के अंदर:** तय समय निकल जाए, पर सूचना मृत्यु के 30 दिन के अंदर दी जाए, तो late fee देकर registration होता है।[^1]\n- **30 दिन के बाद, एक साल के अंदर:** registration District Registrar या नियमों में तय authority की लिखित इजाज़त पर ही होता है; fee और self-attested दस्तावेज़ देना होता है।[^1]\n- **एक साल के बाद:** registration District Magistrate, Sub-Divisional Magistrate, या District Magistrate के अधिकृत किए Executive Magistrate के आदेश पर ही होता है, जिसके इलाक़े में मृत्यु हुई हो। वह मृत्यु के सही होने की जाँच करता है, और fee लगती है।[^1]\n- **जुर्माना:** बिना उचित कारण के सूचना न देने पर ₹250 तक जुर्माना हो सकता है। अस्पताल, jail या hostel जैसी जगहों के ज़िम्मेदार व्यक्तियों के लिए यह हर मृत्यु पर ₹1,000 तक है।[^1]\n\n## ग़लती, इनकार और अपील | ग़लती और अपील\n\n- **Entry में ग़लती:** Registrar को यह साबित हो जाए कि entry ग़लत है, या धोखे से या ग़लत तरीक़े से की गई है, तो वह राज्य सरकार के नियमों के तहत उसे सुधार या रद्द कर सकता है। मूल entry बदली नहीं जाती; हाशिये में नई entry की जाती है, दस्तख़त और तारीख़ के साथ।[^1]\n- **अपील:** Registrar के किसी काम या आदेश के ख़िलाफ़ District Registrar के पास, और District Registrar के ख़िलाफ़ Chief Registrar के पास, 30 दिन के अंदर अपील की जा सकती है। अपील का फ़ैसला 90 दिन के अंदर होना है।[^1]\n- **Registrar की लापरवाही:** बिना उचित कारण के registration से, या सूचना देने वाले को certificate देने से, मना करने या लापरवाही करने वाले Registrar पर ₹250 तक जुर्माना हो सकता है।[^1]\n\n## Bank के दावे में death certificate | Bank के दावे में\n\n- **दावे के काग़ज़ों में:** Nominee या survivor से bank तीन काग़ज़ लेता है: claim form, death certificate और Officially Valid Document। Nominee न हो और दावा क़ानूनी वारिस करें, तब भी death certificate तय काग़ज़ों में है। Locker के दावों में भी यह लगता है।[^2]\n- **Copy और original:** RBI के निर्देशों के claim form में death certificate का number, तारीख़ और जारी करने वाले authority का नाम भरना होता है। Copy साथ लगती है, और original जाँच के लिए दिखाना होता है।[^2]\n- **खाताधारक लापता हो:** nominee या क़ानूनी वारिसों को अदालत से आदेश लेना होता है, और death certificate की जगह civil death घोषित करने वाले उस आदेश की copy लगती है। कुल रकम, ब्याज समेत, ₹1 लाख से कम हो (या bank की तय की हुई इससे ऊँची रकम से कम), तो इनकी जगह FIR की copy और पुलिस की non-traceable report ली जाती है।[^2]\n- **मृत्यु भारत के बाहर हुई हो:** bank मृत्यु के प्रमाण की वह original certified copy मानता है, जो उसी देश में इनमें से किसी एक तरीक़े से प्रमाणित हो: भारत में registered Scheduled Commercial Bank की विदेशी शाखा के authorised अधिकारी से; भारतीय banks से correspondent रिश्ता रखने वाले विदेशी bank की शाखा से; court magistrate, judge या notary public से; भारतीय दूतावास या Consulate General से; या Apostille से।[^2]\n- **विदेश में मृत्यु का registration:** भारत के बाहर भारतीय नागरिकों की मृत्यु की जो सूचना Indian Consulates में registration के नियमों के तहत Registrar General of India को मिलती है, वह दर्ज की जाती है, और यह registration इस Act के तहत हुआ माना जाता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> मृत्यु की सूचना देने वाले को death certificate registration पूरा होने के सात दिन के अंदर, मुफ़्त मिलना है।[^1]\n\n- **अपील का अधिकार:** Registrar के किसी काम या आदेश के ख़िलाफ़ 30 दिन के अंदर District Registrar के पास अपील की जा सकती है।[^1]\n- **Bank में:** nominee या survivor से bank claim form, death certificate और Officially Valid Document ही लेता है; Succession Certificate जैसे क़ानूनी काग़ज़ नहीं माँग सकता।[^2]\n\n## अभी क्या करें\n\n- मृत्यु घर में हुई हो, तो उस इलाक़े के Registrar को नियमों में तय समय के अंदर सूचना दीजिए; देर होने पर late fee, इजाज़त या Magistrate के आदेश की शर्तें लगती हैं।[^1]\n- मृत्यु अस्पताल में हुई हो, तो सूचना देना medical officer in charge की ज़िम्मेदारी है; मृत्यु की वजह के certificate की copy सबसे क़रीबी रिश्तेदार को मिलनी है।[^1]\n- Certificate में कोई ग़लती दिखे, तो Registrar से entry का सुधार करवाइए।[^1]\n- Bank के दावे में death certificate की copy लगाइए और original साथ ले जाइए; उसे जाँच के लिए दिखाना होता है।[^2]\n- Registrar registration या certificate से मना करे, तो 30 दिन के अंदर District Registrar के पास अपील कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
