@@ -10567,6 +10567,219 @@
         }
       ],
       "body": "## मतलब\n\nSurvivorship clause joint खाते का वह निर्देश है, जो बताता है कि खाता कौन चलाएगा और एक खाताधारक के न रहने पर रकम किसे मिलेगी। RBI के निर्देशों में \"accounts with survivorship clause\" वे joint deposit खाते हैं, जो 'either or survivor', 'anyone or survivor', 'former or survivor', 'latter or survivor' या ऐसे ही किसी और clause के साथ खोले गए हों।[^1]\n\n\"Survivor\" यानी वह खाताधारक, जो दूसरे खाताधारक की मृत्यु के बाद बचा हो। ऐसे खाते में खाताधारक की मृत्यु पर बकाया रकम survivor को देने से bank की देनदारी पूरी मानी जाती है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **सिर्फ़ तीन काग़ज़:** survivor से bank को ये लेने हैं: claim form, मृतक का death certificate, और survivor का Officially Valid Document।[^1]\n- **अदालती काग़ज़ नहीं:** survivor को भुगतान करते समय bank Succession Certificate, Letter of Administration, Probate of Will जैसे काग़ज़ नहीं माँग सकता, रकम चाहे जितनी हो।[^1]\n- **Bond या surety नहीं:** bank survivor से या किसी तीसरे व्यक्ति से Indemnity Bond या surety भी नहीं माँग सकता।[^1]\n- **15 दिन:** खाताधारक की मृत्यु के बाद deposit खाते का दावा bank को सारे ज़रूरी काग़ज़ मिलने के 15 calendar दिन के भीतर निपटाना है। देरी bank की वजह से हो, तो उसे देरी के समय का ब्याज देना है, कम से कम Bank Rate + 4 प्रतिशत सालाना की दर से।[^1]\n- **किसी भी शाखा में:** दावा bank की किसी भी शाखा में दिया जा सकता है, और bank को उसकी पावती देनी है।[^1]\n- **Nominee का हक़ बाद में:** joint deposit खाते में, survivorship clause हो या न हो, Nominee का हक़ सभी खाताधारकों की मृत्यु के बाद ही बनता है।[^1]\n\n## Survivor को भुगतान कैसे होता है | भुगतान कैसे\n\n::flow\n\nSurvivor को किया गया भुगतान bank की देनदारी का पूरा और वैध निपटारा तब माना जाता है, जब ये तीन शर्तें पूरी हों:[^1]\n\n- **पहचान और मृत्यु का सबूत:** bank ने survivor की पहचान और खाताधारक की मृत्यु, दोनों की पुष्टि सही काग़ज़ी सबूत से की हो।[^1]\n- **अदालत की रोक न हो:** भुगतान की तारीख़ पर bank की जानकारी में कोई ऐसा court order न हो, जो survivor को रकम लेने से या bank को रकम देने से रोकता हो।[^1]\n- **Trustee के तौर पर:** bank ने survivor को लिखकर साफ़ बताया हो कि वह यह भुगतान मृतक के क़ानूनी वारिसों के trustee के तौर पर पा रहा है; यानी इस भुगतान से उस हक़ या दावे पर असर नहीं पड़ेगा, जो किसी व्यक्ति का survivor के ख़िलाफ़ हो।[^1]\n\n## Joint FD में survivorship clause | Joint FD\n\n- **'Either or Survivor', पकने पर:** भुगतान के लिए दोनों खाताधारकों के दस्तख़त ज़रूरी नहीं।[^1]\n- **'Either or Survivor', पकने से पहले:** दोनों के दस्तख़त लग सकते हैं। एक खाताधारक की मृत्यु पकने से पहले हो जाए, तो मृतक के क़ानूनी वारिसों की सहमति के बिना FD समय से पहले नहीं तोड़ी जा सकती। पकने पर survivor को भुगतान में इससे रुकावट नहीं आती।[^1]\n- **'Former or Survivor':** दोनों जीवित हों, तो पकी हुई रकम सिर्फ़ 'Former' निकाल सकता है। 'Former' की मृत्यु पकने से पहले हो जाए, तो 'Survivor' पकने पर रकम निकाल सकता है।[^1]\n- **Joint mandate:** सभी खाताधारकों ने मिलकर bank को इसका ख़ास mandate दे रखा हो, तो एक की मृत्यु पर survivor वारिसों की सहमति के बिना FD समय से पहले तोड़ सकता है। यह mandate FD रखते समय या बाद में कभी भी दिया जा सकता है।[^1]\n- **पकी FD की रकम:** FD और savings खाता, दोनों उन्हीं दो लोगों के नाम 'Either or Survivor' पर हों, तो पकी हुई FD की रकम उसी joint savings खाते में डाली जा सकती है; पहले खाताधारक के नाम अलग खाता खोलना ज़रूरी नहीं।[^1]\n\n## Locker और survivorship clause | Locker\n\n- **Mandate के मुताबिक:** Locker survivorship clause के साथ joint किराये पर लिया गया हो, तो एक या ज़्यादा hirers की मृत्यु पर bank को उसी mandate के मुताबिक चलना है।[^1]\n- **Joint दस्तख़त वाला locker:** locker joint दस्तख़त से चलता हो और hirers ने nominee रखा हो, तो एक hirer की मृत्यु पर bank nominee और survivor को साथ में पहुँच देता है।[^1]\n- **Trustee के तौर पर:** survivor को locker तक पहुँच और सामान निकालने की छूट भी मृतक के क़ानूनी वारिसों के trustee के तौर पर ही मिलती है।[^1]\n- **अदालती काग़ज़ या bond:** survivor से नहीं लगते, जब तक nomination में कोई discrepancy न हो।[^1]\n\n## Survivorship clause न हो, तो | Clause न हो\n\n- **दावा वारिसों का:** joint खाता survivorship clause के बिना हो और nominee भी न हो, तो दावा Legal Heir करते हैं, और काग़ज़ ज़्यादा लगते हैं।[^1]\n- **Bank की ज़िम्मेदारी:** bank को अपने ग्राहकों को nomination और survivorship clause के फ़ायदे बताते रहना है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Survivor को भुगतान करते समय bank Succession Certificate, Letter of Administration, Probate of Will जैसे काग़ज़, या indemnity bond या surety नहीं माँग सकता, रकम चाहे जितनी हो।[^1]\n\n- **15 calendar दिन:** सारे ज़रूरी काग़ज़ मिलने के बाद bank को दावा इतने दिन में निपटाना है।[^1]\n- **पावती:** दावा किसी भी शाखा में दिया जा सकता है, और bank को पावती देनी है।[^1]\n\n## अभी क्या करें\n\n- अपने joint खाते के काग़ज़ में देखिए कि खाता किस निर्देश पर चल रहा है: 'Either or Survivor', 'Former or Survivor', या joint दस्तख़त।[^1]\n- Joint FD हो, तो तय कर लीजिए कि survivor को समय से पहले तोड़ने का अधिकार देना है या नहीं; देना हो, तो सभी खाताधारक मिलकर bank को joint mandate दीजिए।[^1]\n- Joint खाते में nominee भी दर्ज कराइए; उसका हक़ सभी खाताधारकों के न रहने पर बनता है।[^1]\n- दावा देते समय claim form, death certificate और अपना OVD साथ रखिए, और पावती लीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "v-cip",
+      "term": "V-CIP",
+      "aliases": [
+        "Video based Customer Identification Process",
+        "Video-based Customer Identification Process",
+        "Video KYC",
+        "Video-KYC"
+      ],
+      "full": "Video based Customer Identification Process: live video पर bank के अधिकारी से पहचान की जाँच",
+      "fullEn": "Video based Customer Identification Process, the RBI method for KYC on a live video call",
+      "group": "बैंकिंग",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI के Commercial Banks – Know Your Customer Directions, 2025 और Commercial Banks – Responsible Business Conduct Directions, 2025 (दोनों 1 अक्टूबर 2026 तक update) से जाँचा।"
+        }
+      ],
+      "one": "V-CIP, यानी Video based Customer Identification Process: bank का authorised अधिकारी live video पर आपकी पहचान जाँचता है, आपकी सहमति से। RBI के निर्देशों में तय मानकों पर हुआ V-CIP आमने-सामने की पहचान के बराबर माना जाता है। इसमें पलक झपकाने या मुस्कुराने जैसे ख़ास हाव-भाव ज़रूरी नहीं हैं।",
+      "facts": [
+        {
+          "k": "दर्जा",
+          "v": "शाखा के बराबर",
+          "s": "तय मानकों पर हो, तो आमने-सामने की पहचान जैसा",
+          "good": true
+        },
+        {
+          "k": "ख़ास हाव-भाव",
+          "v": "ज़रूरी नहीं",
+          "s": "पलक झपकाना, मुस्कुराना, भौंहें सिकोड़ना"
+        },
+        {
+          "k": "Aadhaar XML या QR",
+          "v": "3 working दिन",
+          "s": "इससे पुराना न हो, V-CIP की तारीख़ से"
+        },
+        {
+          "k": "छपी हुई copy",
+          "v": "मान्य नहीं",
+          "s": "equivalent e-document या e-PAN की"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "सहमति और जानकारी",
+            "s": "Aadhaar, CKYCR या e-document से"
+          },
+          {
+            "t": "Live video",
+            "s": "चेहरा, PAN और सवालों से जाँच"
+          },
+          {
+            "t": "खाता चालू",
+            "s": "audit में ठीक पाए जाने पर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Bank का अधिकारी",
+            "s": "इस काम के लिए trained"
+          },
+          {
+            "b": "Concurrent audit",
+            "s": "उसके बाद ही खाता चालू"
+          }
+        ],
+        "note": "Call कट जाए या disconnect हो जाए, तो bank को नया session शुरू करना है।"
+      },
+      "myths": [
+        {
+          "m": "\"V-CIP में पलक झपकाना या मुस्कुराना ज़रूरी है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक liveness जाँच के लिए पलक झपकाने, मुस्कुराने या भौंहें सिकोड़ने जैसे ख़ास हाव-भाव ज़रूरी नहीं हैं, और bank को ग्राहक की special needs का ध्यान रखना है।[^1]"
+        },
+        {
+          "m": "\"Video से हुआ KYC शाखा वाले KYC से कमज़ोर माना जाता है।\"",
+          "f": "नहीं। तय मानकों और प्रक्रिया पर हुआ V-CIP bank को आमने-सामने की पहचान के बराबर मानना है।[^1]"
+        },
+        {
+          "m": "\"DigiLocker के दस्तावेज़ या e-PAN का printout दिखाने से काम चल जाएगा।\"",
+          "f": "नहीं। Equivalent e-document की छपी हुई copy, e-PAN समेत, V-CIP में मान्य नहीं है।[^1]"
+        },
+        {
+          "m": "\"Video के दौरान कोई पास बैठकर जवाब बता सकता है।\"",
+          "f": "नहीं। Bank को ग्राहक की तरफ़ से कोई prompting दिखे, तो उसे खाता खोलने की प्रक्रिया रद्द करनी है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "V-CIP का मतलब क्या है?",
+          "a": "V-CIP यानी Video based Customer Identification Process। RBI के निर्देशों के पैरा 5 के मुताबिक यह पहचान का एक वैकल्पिक तरीक़ा है, जिसमें bank का authorised अधिकारी facial recognition के साथ ग्राहक की पहचान और customer due diligence करता है, एक सुरक्षित, live और सहमति पर आधारित audio-visual बातचीत से।"
+        },
+        {
+          "q": "क्या V-CIP शाखा जाकर कराए गए KYC के बराबर है?",
+          "a": "हाँ। पैरा 5 के मुताबिक तय मानकों और प्रक्रिया पर हुआ V-CIP bank को आमने-सामने की पहचान के बराबर मानना है।"
+        },
+        {
+          "q": "V-CIP किन कामों में हो सकता है?",
+          "a": "पैरा 26 के मुताबिक तीन कामों में: नए ग्राहक का खाता खोलते समय; Aadhaar OTP वाले e-KYC से खुले खाते को पूरे KYC में बदलने के लिए; और KYC update या periodic update के लिए।"
+        },
+        {
+          "q": "क्या हर bank V-CIP देता है?",
+          "a": "ज़रूरी नहीं। निर्देशों में लिखा है कि bank V-CIP 'कर सकता है'। पर पैरा 44 के मुताबिक जिस bank ने V-CIP शुरू किया है, उसे दूर से खाता खोलने वाले ग्राहक को यही पहला विकल्प देना है।"
+        },
+        {
+          "q": "V-CIP में कौन-से दस्तावेज़ लगते हैं?",
+          "a": "पैरा 27 के मुताबिक पहचान की जानकारी इनमें से किसी एक से ली जाती है: Aadhaar OTP वाला e-KYC; Aadhaar का offline verification; CKYCR से लिया गया KYC record; या Officially Valid Document का equivalent e-document, DigiLocker से जारी दस्तावेज़ समेत। साथ में bank PAN card की साफ़ तस्वीर लेता है; e-PAN दिया हो, तो यह ज़रूरी नहीं।"
+        },
+        {
+          "q": "क्या V-CIP में ख़ास हाव-भाव करने पड़ते हैं?",
+          "a": "नहीं। पैरा 27 की व्याख्या के मुताबिक liveness जाँच के लिए पलक झपकाने, मुस्कुराने या भौंहें सिकोड़ने जैसे ख़ास हाव-भाव ज़रूरी नहीं हैं। Liveness जाँच की वजह से special needs वाला व्यक्ति बाहर नहीं रहना चाहिए।"
+        },
+        {
+          "q": "V-CIP के बीच call कट जाए, तो?",
+          "a": "पैरा 27 के मुताबिक call drop या disconnection होने पर नया session शुरू किया जाता है।"
+        },
+        {
+          "q": "क्या V-CIP विदेश से हो सकता है?",
+          "a": "पैरा 27 के मुताबिक bank का V-CIP application ऐसा होना चाहिए, जो भारत के बाहर के IP address से, या spoofed IP address से, connection रोक सके।"
+        },
+        {
+          "q": "Aadhaar OTP से खुले खाते में V-CIP क्यों ज़रूरी है?",
+          "a": "पैरा 25 के मुताबिक सिर्फ़ Aadhaar OTP वाले e-KYC से, बिना आमने-सामने आए, खुले खातों पर सीमाएँ हैं: सभी deposit खातों का कुल balance ₹1 लाख से ज़्यादा नहीं, और एक वित्त वर्ष में कुल credit ₹2 लाख से ज़्यादा नहीं। ऐसा खाता एक साल से ज़्यादा तभी चल सकता है, जब bank पूरी पहचान-प्रक्रिया (निर्देशों का पैरा 23) से या V-CIP से आपकी पहचान पूरी कर ले; वरना उसे deposit खाता तुरंत बंद करना है।"
+        },
+        {
+          "q": "क्या inoperative खाता V-CIP से चालू हो सकता है?",
+          "a": "RBI के Responsible Business Conduct निर्देशों के पैरा 204 के मुताबिक bank को inoperative खातों और unclaimed deposits का KYC update V-CIP से कराने की सुविधा देने की कोशिश करनी है। Bank यह सुविधा देता हो और खाताधारक माँगे, तो bank के authorised Business Correspondent की मदद भी ली जा सकती है।"
+        },
+        {
+          "q": "V-CIP की recording कहाँ रखी जाती है?",
+          "a": "पैरा 27 के मुताबिक bank को V-CIP का पूरा data और recordings भारत में स्थित system में रखनी हैं, सुरक्षित तरीक़े से, तारीख़ और समय की मुहर के साथ।"
+        },
+        {
+          "q": "ये नियम किन banks पर लागू हैं?",
+          "a": "ये RBI के commercial banks के लिए बने निर्देश हैं। इनके पैरा 3 में Small Finance Banks, Payment Banks और Local Area Banks 'commercial banks' में नहीं गिने गए हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Officially Valid Document"
+        },
+        {
+          "t": "CKYCR"
+        },
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "Inoperative Account"
+        },
+        {
+          "t": "Screen Sharing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025, RBI/DOR/2025-26/169 (1 अक्टूबर 2026 तक updated; सिर्फ़ commercial banks पर लागू)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/169MD.pdf",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "ये निर्देश किन banks पर लागू हैं"
+            },
+            {
+              "ref": "पैरा 5",
+              "c": "V-CIP की परिभाषा; आमने-सामने की पहचान के बराबर"
+            },
+            {
+              "ref": "पैरा 25",
+              "c": "Aadhaar OTP वाले e-KYC से खुले खातों की सीमाएँ; एक साल"
+            },
+            {
+              "ref": "पैरा 26",
+              "c": "V-CIP किन कामों में हो सकता है"
+            },
+            {
+              "ref": "पैरा 27(1)",
+              "c": "infrastructure: bank का अपना network; encryption; सहमति का record; भारत के बाहर के IP; GPS और समय; liveness; हाव-भाव ज़रूरी नहीं"
+            },
+            {
+              "ref": "पैरा 27(2)",
+              "c": "प्रक्रिया: trained अधिकारी; सवाल; prompting; पहचान की जानकारी के चार रास्ते; 3 working दिन; PAN; छपी copy; BC की मदद; concurrent audit"
+            },
+            {
+              "ref": "पैरा 27(3)",
+              "c": "data और recordings भारत में"
+            },
+            {
+              "ref": "पैरा 44",
+              "c": "दूर से खाता खोलने में V-CIP पहला विकल्प"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 204",
+              "c": "inoperative खातों का KYC update V-CIP से; Business Correspondent की मदद"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nV-CIP, यानी Video based Customer Identification Process, पहचान का एक वैकल्पिक तरीक़ा है। इसमें bank का authorised अधिकारी facial recognition के साथ ग्राहक की पहचान और customer due diligence करता है। यह एक सुरक्षित, live और सहमति पर आधारित audio-visual बातचीत होती है, जिसका audit trail रखा जाता है।[^1]\n\nRBI के निर्देशों के मुताबिक तय मानकों और प्रक्रिया पर हुआ V-CIP bank को आमने-सामने की पहचान के बराबर मानना है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **किन कामों में:** KYC update या periodic update के लिए; नए ग्राहक का खाता खोलते समय; और Aadhaar OTP वाले e-KYC से खुले खाते को पूरे KYC में बदलने के लिए।[^1]\n- **हर bank में ज़रूरी नहीं:** निर्देशों के मुताबिक bank V-CIP \"कर सकता है\"। पर जिस bank ने इसे शुरू किया है, उसे दूर से खाता खोलने वाले ग्राहक को यही पहला विकल्प देना है।[^1]\n- **Aadhaar OTP से खुला खाता:** ऐसे खातों में सभी deposit खातों का कुल balance ₹1 लाख से, और एक वित्त वर्ष का कुल credit ₹2 लाख से ज़्यादा नहीं हो सकता। ऐसा खाता एक साल से ज़्यादा तभी चल सकता है, जब bank पूरी पहचान-प्रक्रिया (निर्देशों का पैरा 23) से या V-CIP से आपकी पहचान पूरी कर ले; वरना उसे deposit खाता तुरंत बंद करना है।[^1]\n- **निष्क्रिय पड़ा खाता:** bank को Inoperative Account और unclaimed deposit का KYC update V-CIP से कराने की सुविधा देने की कोशिश करनी है।[^2]\n- **हाव-भाव ज़रूरी नहीं:** liveness जाँच के लिए पलक झपकाने, मुस्कुराने या भौंहें सिकोड़ने जैसे ख़ास हाव-भाव ज़रूरी नहीं हैं।[^1]\n\n## V-CIP में क्या होता है | क्या होता है\n\n::flow\n\n- **कौन करता है:** सिर्फ़ bank के वे अधिकारी, जिन्हें इस काम के लिए ख़ास training मिली हो।[^1]\n- **सवाल:** bank को सवालों का क्रम या क़िस्म बदलते रहना है, ताकि साबित हो कि बातचीत उसी समय हो रही है, पहले से record की हुई नहीं है।[^1]\n- **Recording और photo:** अधिकारी audio और video record करता है, और ग्राहक की photo लेता है।[^1]\n- **पहचान की जानकारी:** इनमें से किसी एक से ली जाती है: Aadhaar OTP वाला e-KYC; Aadhaar का offline verification; CKYCR से लिया गया KYC record, ग्राहक के दिए KYC identifier से; या Officially Valid Document का equivalent e-document, DigiLocker से जारी दस्तावेज़ समेत।[^1]\n- **3 working दिन:** Aadhaar की XML file या *Aadhaar Secure QR Code* से offline verification हो, तो वह file या code V-CIP की तारीख़ से तीन working दिन से ज़्यादा पुराना नहीं होना चाहिए।[^1]\n- **PAN:** bank ग्राहक के दिखाए PAN card की साफ़ तस्वीर लेता है, और PAN का ब्योरा जारी करने वाली संस्था के database से जाँचता है। e-PAN दिया हो, तो तस्वीर ज़रूरी नहीं।[^1]\n- **छपी हुई copy नहीं:** equivalent e-document की छपी हुई copy, e-PAN समेत, V-CIP में मान्य नहीं है।[^1]\n- **चेहरा मिलाना:** अधिकारी को देखना है कि Aadhaar या OVD और PAN की photo video पर मौजूद ग्राहक से मिलती है, और ब्योरा ग्राहक के दिए ब्योरे से मिलता है।[^1]\n- **पता अलग हो:** मौजूदा पता OVD के पते से अलग हो, तो bank मौजूदा पते का record लेता है।[^1]\n- **Prompting हो, तो रद्द:** bank को ग्राहक की तरफ़ से कोई prompting दिखे, तो उसे खाता खोलने की प्रक्रिया रद्द करनी है।[^1]\n- **Call कट जाए:** call drop या disconnection होने पर नया session शुरू किया जाता है।[^1]\n- **Business Correspondent की मदद:** bank चाहे, तो Business Correspondent की मदद ले सकता है, पर सिर्फ़ ग्राहक की तरफ़ प्रक्रिया आसान करने के लिए। पहचान की पूरी ज़िम्मेदारी bank की ही रहती है।[^1]\n- **Audit के बाद चालू:** V-CIP से खुला खाता concurrent audit के बाद ही चालू किया जाता है।[^1]\n\n## आपकी जानकारी की सुरक्षा | सुरक्षा\n\n- **Bank का अपना network:** V-CIP का connection और बातचीत bank के अपने secured network domain से ही शुरू होनी चाहिए।[^1]\n- **Encryption और सहमति:** ग्राहक के device और V-CIP application के बीच data end-to-end encrypted होना चाहिए। Bank को ग्राहक की सहमति ऐसे record करनी है कि उसका audit हो सके और उसमें बदलाव न हो सके।[^1]\n- **भारत के बाहर से नहीं:** application ऐसा होना चाहिए, जो भारत के बाहर के IP address से, या spoofed IP address से, connection रोक सके।[^1]\n- **जगह और समय:** video recording में ग्राहक के live GPS co-ordinates और तारीख़-समय की मुहर होनी चाहिए।[^1]\n- **Aadhaar number:** bank को Aadhaar number redact या blackout करना है।[^1]\n- **Data भारत में:** V-CIP का पूरा data और recordings भारत में स्थित system में रखनी हैं। Cloud या तीसरे पक्ष की technology company अपने पास कोई data नहीं रख सकती।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> V-CIP में liveness जाँच के लिए पलक झपकाने, मुस्कुराने या भौंहें सिकोड़ने जैसे ख़ास हाव-भाव ज़रूरी नहीं हैं, और bank को ग्राहक की special needs का ध्यान रखना है।[^1]\n\n- **Special needs:** liveness जाँच की वजह से special needs वाला व्यक्ति बाहर नहीं रहना चाहिए।[^1]\n- **सहमति:** V-CIP ग्राहक की जानकारी-भरी सहमति पर आधारित बातचीत है।[^1]\n- **पहला विकल्प:** जिस bank ने V-CIP शुरू किया है, उसे दूर से खाता खोलने वाले ग्राहक को यही पहला विकल्प देना है।[^1]\n\n## अभी क्या करें\n\n- V-CIP से पहले PAN card (या e-PAN) पास रखिए; DigiLocker के दस्तावेज़ का printout न दिखाइए, वह मान्य नहीं है।[^1]\n- Video के दौरान अकेले बैठिए और जवाब ख़ुद दीजिए; prompting दिखने पर bank को प्रक्रिया रद्द करनी है।[^1]\n- खाता सिर्फ़ Aadhaar OTP से खुला हो, तो एक साल के भीतर पूरा KYC करा लीजिए: V-CIP से, या bank के बताए दूसरे तरीक़े से।[^1]\n- खाता inoperative हो गया हो, तो bank से पूछिए कि KYC update V-CIP से हो सकता है या नहीं।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
