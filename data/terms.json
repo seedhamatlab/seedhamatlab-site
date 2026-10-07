@@ -7757,6 +7757,261 @@
         }
       ],
       "body": "## मतलब\n\nRBI की पुस्तिका के मुताबिक SIM swap या SIM cloning में ठग ग्राहक के SIM (Subscriber Identity Module) card तक पहुँच बना लेते हैं, या ग्राहक के bank खाते से जुड़े mobile number का duplicate SIM हासिल कर लेते हैं। यह duplicate SIM electronic-SIM (e-SIM) भी हो सकता है।[^1]\n\nफिर ठग उस duplicate SIM पर आए OTP से बिना इजाज़त के लेनदेन करते हैं।[^1]\n\nTRAI और DoT 'SIM swap / replacement' शब्द SIM बदले जाने के लिए इस्तेमाल करते हैं। ठगी तब है, जब यह काम धोखे से कोई और करा ले; TRAI ने इसे 'fraudulent SIM swap / replacement' कहा है।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **निशाना आपका OTP है:** ठग duplicate SIM पर आए OTP से आपके खाते में बिना इजाज़त लेनदेन करते हैं।[^1]\n- **पहचान की जानकारी मत दीजिए:** SIM से जुड़ी अपनी पहचान की जानकारी किसी को मत दीजिए।[^1]\n- **Network पर नज़र रखिए:** आम जगह पर भी phone में काफ़ी देर तक network न आए, तो तुरंत mobile operator से संपर्क कीजिए।[^1]\n- **7 दिन की रोक:** SIM swap / replacement के 7 दिन के भीतर number port करने का code (UPC) नहीं मिलता। यह नियम 1 जुलाई 2024 से लागू है।[^2]\n\n## ठगी कैसे होती है | कैसे होती है\n\n::flow\n\n- ठग आम तौर पर telephone या mobile network का कर्मचारी बनकर संपर्क करता है।[^1]\n- बहाना किसी offer का होता है: जैसे SIM को 3G से 4G में मुफ़्त upgrade करना, या SIM पर और फ़ायदे देना।[^1]\n- इस बहाने वह ग्राहक की निजी और पहचान की जानकारी ले लेता है।[^1]\n- इसके बाद वह ग्राहक के number का duplicate SIM हासिल कर सकता है, और उस पर आए OTP से लेनदेन कर सकता है।[^1]\n\n## रोकथाम के नियम | नियम\n\n- **TRAI का नियम:** TRAI ने 14 मार्च 2024 को Telecommunication Mobile Number Portability (Ninth Amendment) Regulations, 2024 जारी किए, जो 1 जुलाई 2024 से लागू हैं।[^2]\n- **मक़सद:** धोखे से कराए गए SIM swap / replacement के ज़रिए mobile number port कराने पर रोक लगाना।[^2]\n- **क्या बदला:** SIM swap / replacement की तारीख़ से 7 दिन पूरे होने से पहले Unique Porting Code (UPC) माँगा जाए, तो वह नहीं दिया जाता।[^2]\n- **SIM बदलने की KYC:** राज्यसभा में 7 अगस्त 2025 को बताया गया कि DoT ने SIM swap / replacement के लिए एक मज़बूत KYC प्रक्रिया लागू की है।[^3]\n- **SIM बेचने वालों की जाँच:** DoT के निर्देशों के मुताबिक telecom कंपनियों को अपने Point of Sale, यानी ग्राहक जोड़ने और SIM देने वालों, को biometric verification और पते की जाँच के साथ register करना है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> ठगी के इरादे से आई संदिग्ध call, SMS या WhatsApp की report आप Sanchar Saathi portal की Chakshu सुविधा पर कर सकते हैं।[^4]\n\n- **पैसा जा चुका हो:** Chakshu इसके लिए नहीं है। 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^4]\n\n## अभी क्या करें\n\n- कोई mobile कंपनी का कर्मचारी बनकर SIM upgrade या offer के नाम पर जानकारी माँगे, तो मत दीजिए।[^1]\n- Phone में काफ़ी देर तक network न आए, तो तुरंत अपनी mobile कंपनी से पूछिए कि कहीं आपके number का duplicate SIM तो जारी नहीं हुआ।[^1]\n- ठगी की कोशिश हुई, पर पैसा नहीं गया: Chakshu पर report कीजिए।[^4]\n- पैसा कट गया: card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए; Net banking और Mobile banking जैसे बाक़ी रास्ते भी जाँचिए।[^1]\n- फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "impersonation",
+      "term": "Impersonation",
+      "full": "किसी और का रूप धरकर की गई ठगी: पुलिस, सरकारी दफ़्तर, boss, दोस्त या रिश्तेदार बनकर",
+      "fullEn": "Fraud by posing as someone else",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI की BE(A)WARE पुस्तिका, गृह मंत्रालय की 14 मई 2024 और 22 जून 2026 की PIB release, संचार मंत्रालय की 6 जून 2024 और 5 फ़रवरी 2026 की PIB release और Sanchar Saathi portal से जाँचा।"
+        }
+      ],
+      "one": "Impersonation वह ठगी है, जिसमें ठग ख़ुद को कोई और बताता है: पुलिस या CBI का अफ़सर, सरकारी दफ़्तर का कर्मचारी, आपका boss, दोस्त या रिश्तेदार। फिर वह उसी नाम से पैसा या जानकारी माँगता है।",
+      "facts": [
+        {
+          "k": "पुलिस, CBI, RBI वग़ैरह बनकर",
+          "v": "54,639",
+          "s": "2025 में Chakshu पर आई reports"
+        },
+        {
+          "k": "रिश्तेदार या दोस्त बनकर",
+          "v": "19,564",
+          "s": "2025 में Chakshu पर आई reports"
+        },
+        {
+          "k": "पैसे की माँग आए, तो",
+          "v": "अलग से पुष्टि",
+          "s": "phone call करके या मिलकर",
+          "good": true
+        },
+        {
+          "k": "ऐसी call आए, तो",
+          "v": "1930",
+          "s": "या cybercrime.gov.in"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "नक़ली पहचान",
+            "s": "पुलिस, दफ़्तर, boss या दोस्त"
+          },
+          {
+            "t": "डर या जल्दी",
+            "s": "case, number बंद, emergency"
+          },
+          {
+            "t": "पैसे की माँग",
+            "s": "ठग के बताए खाते में"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Call, message या video",
+            "s": "वर्दी, notice या जानी-पहचानी profile"
+          },
+          {
+            "b": "दबाव",
+            "s": "तुरंत भुगतान के लिए"
+          }
+        ],
+        "note": "दोस्त, रिश्तेदार या boss के नाम से पैसे की माँग आए, तो phone पर या मिलकर पुष्टि कीजिए।"
+      },
+      "myths": [
+        {
+          "m": "\"Video call पर वर्दी और थाना दिख रहा है, तो call असली है।\"",
+          "f": "ज़रूरी नहीं। गृह मंत्रालय के मुताबिक ये ठग असली दिखने के लिए थाने और सरकारी दफ़्तर जैसे बनाए गए studio इस्तेमाल करते हैं और वर्दी पहनते हैं।[^2]"
+        },
+        {
+          "m": "\"दोस्त की profile से message आया है, तो दोस्त ने ही भेजा होगा।\"",
+          "f": "ज़रूरी नहीं। RBI के मुताबिक ठग social media के users की जानकारी से नक़ली account बनाते हैं, और फिर उनके दोस्तों से इलाज जैसी ज़रूरत बताकर पैसा माँगते हैं। पैसे की माँग की पुष्टि phone पर या मिलकर कीजिए।[^1]"
+        },
+        {
+          "m": "\"Message boss के अपने WhatsApp number से आया है, तो असली है।\"",
+          "f": "ज़रूरी नहीं। I4C के मुताबिक 'Boss Scam' में ठग अधिकारी के असली WhatsApp account तक पहुँच बना लेते हैं, और उसी से accounts या finance के कर्मचारियों को तुरंत भुगतान करने को कहते हैं।[^3]"
+        },
+        {
+          "m": "\"TRAI का notice आया है कि number बंद होगा; जवाब देना ज़रूरी है।\"",
+          "f": "नहीं। TRAI ने कहा है कि वह mobile number बंद करने के बारे में message या notice से संपर्क शुरू नहीं करता, और उसने इस काम के लिए किसी तीसरी agency को अधिकृत नहीं किया है। ऐसी call, message या notice को ठगी की संभावित कोशिश मानिए।[^4]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Impersonation का मतलब क्या है?",
+          "a": "किसी और का रूप धरना। सरकारी स्रोत यह शब्द उन ठगियों के लिए इस्तेमाल करते हैं, जिनमें ठग ख़ुद को कोई और बताता है। Chakshu पर इसकी तीन श्रेणियाँ हैं: DoT / TRAI बनकर; पुलिस, CBI, Customs, Aadhaar, RBI वग़ैरह बनकर; और रिश्तेदार या दोस्त बनकर।"
+        },
+        {
+          "q": "'Digital arrest' क्या है?",
+          "a": "गृह मंत्रालय के मुताबिक कुछ मामलों में ठग पीड़ित को Skype या किसी और video conferencing platform पर तब तक लगातार सामने बने रहने को मजबूर करते हैं, जब तक उनकी माँग पूरी न हो जाए। मंत्रालय ने इसे ठगों का तरीक़ा बताया है।"
+        },
+        {
+          "q": "Parcel वाली call में क्या कहा जाता है?",
+          "a": "गृह मंत्रालय के मुताबिक ठग call करके कहते हैं कि आपके नाम का, या आपका भेजा हुआ, एक parcel पकड़ा गया है, जिसमें ग़ैर-क़ानूनी सामान, drugs, नक़ली passport या कोई और प्रतिबंधित चीज़ है। कभी वे कहते हैं कि आपका कोई अपना किसी अपराध या हादसे में फँसा है और उनकी हिरासत में है। फिर 'case' निपटाने के लिए पैसा माँगते हैं।"
+        },
+        {
+          "q": "'Boss Scam' क्या है?",
+          "a": "I4C के मुताबिक इसमें ठग RBI जैसे regulator बनकर किसी बड़े अधिकारी को email या WhatsApp पर एक .zip file भेजते हैं। उसे चलाने पर malware computer और उस पर चल रहे WhatsApp Web session पर क़ब्ज़ा कर लेता है। फिर ठग अधिकारी के असली WhatsApp account से कर्मचारियों को भुगतान करने को कहते हैं।"
+        },
+        {
+          "q": "क्या TRAI number बंद करने के लिए call या message करता है?",
+          "a": "नहीं। TRAI के मुताबिक वह mobile number बंद करने के बारे में message या notice से संपर्क शुरू नहीं करता, और उसने इसके लिए किसी तीसरी agency को अधिकृत नहीं किया है।"
+        },
+        {
+          "q": "क्या bank का अधिकारी OTP या password माँग सकता है?",
+          "a": "नहीं। RBI की पुस्तिका के मुताबिक bank के अधिकारी, वित्तीय संस्थाएँ, RBI या कोई भी असली संस्था ग्राहक से username, password, card की जानकारी, CVV या OTP नहीं माँगती।"
+        },
+        {
+          "q": "ऐसी ठगी की कितनी reports आती हैं?",
+          "a": "राज्यसभा में 5 फ़रवरी 2026 को दिए गए उत्तर के मुताबिक 2025 में Chakshu पर 'पुलिस, CBI, Customs, Aadhaar, RBI वग़ैरह बनकर' वाली श्रेणी में 54,639, 'रिश्तेदार या दोस्त बनकर' में 19,564 और 'DoT / TRAI बनकर' में 15,595 reports आईं। ये ठगी की कोशिश की reports हैं।"
+        },
+        {
+          "q": "ऐसी call या message आए, तो कहाँ report करें?",
+          "a": "गृह मंत्रालय के मुताबिक ऐसी call आते ही 1930 पर या cybercrime.gov.in पर report कीजिए। ठगी की कोशिश वाले call, SMS या WhatsApp की report Sanchar Saathi की Chakshu सुविधा पर भी की जा सकती है।"
+        },
+        {
+          "q": "सरकार ने इस पर क्या किया है?",
+          "a": "गृह मंत्रालय ने 14 मई 2024 को बताया कि I4C ने Microsoft के साथ मिलकर ऐसी गतिविधियों में शामिल 1,000 से ज़्यादा Skype ID block किए हैं, और वह ठगों के SIM card, mobile और mule खाते block कराने में मदद कर रहा है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Vishing"
+        },
+        {
+          "t": "Fake Customer Care"
+        },
+        {
+          "t": "Chakshu"
+        },
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "OTP"
+        }
+      ],
+      "article": "boss-whatsapp-payment",
+      "articleLabel": "Boss के WhatsApp से urgent payment message? अलग call पर confirm करें",
+      "sources": [
+        {
+          "label": "RBI — BE(A)WARE: A Booklet on Modus Operandi of Financial Fraudsters (पुस्तिका पर तारीख़ नहीं है; पन्ना संख्या पुस्तिका की है)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/BEAWARE07032022.pdf",
+          "used": [
+            {
+              "ref": "Part A, 10 (पन्ना 12)",
+              "c": "social media पर नक़ली account; दोस्तों से पैसे की माँग; भरोसा बनाकर blackmail"
+            },
+            {
+              "ref": "Part A, 10: Precautions",
+              "c": "पैसे की माँग की पुष्टि phone पर या मिलकर; अनजान को online भुगतान नहीं; निजी जानकारी social media पर नहीं"
+            },
+            {
+              "ref": "Part A, 2 (पन्ना 4)",
+              "c": "banker, कंपनी का अधिकारी, बीमा agent या सरकारी अफ़सर बनकर call; कोई असली संस्था OTP या password नहीं माँगती"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — Alert against incidents of ‘Blackmail’ and ‘Digital Arrest’ by Cyber Criminals Impersonating State/UT Police, NCB, CBI, RBI and other Law Enforcement Agencies, press release, 14 मई 2024 (Release ID 2020570)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2020570",
+          "issued": "2024-05-14",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "ठग किन-किन एजेंसियों का नाम लेते हैं; NCRP पर बड़ी संख्या में शिकायतें"
+            },
+            {
+              "ref": "पैरा 2",
+              "c": "parcel या हिरासत की कहानी; 'case' निपटाने के लिए पैसे की माँग; 'Digital Arrest'; थाने जैसे studio और वर्दी"
+            },
+            {
+              "ref": "पैरा 3",
+              "c": "संगठित आर्थिक अपराध; सीमा पार के गिरोह"
+            },
+            {
+              "ref": "पैरा 5",
+              "c": "1,000 से ज़्यादा Skype ID block; SIM, mobile और mule खाते block कराने में मदद"
+            },
+            {
+              "ref": "पैरा 6",
+              "c": "ऐसी call आते ही 1930 या cybercrime.gov.in"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — Regulatory and Executive Impersonation for WhatsApp Account Takeover using Malicious Windows Executables and High value financial fraud, press release, 22 जून 2026 (Release ID 2276809)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276809",
+          "issued": "2026-06-22",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "'Boss Scam' या CEO impersonation fraud"
+            },
+            {
+              "ref": "Modus Operandi",
+              "c": "RBI जैसे regulator बनकर .zip भेजना; WhatsApp Web session पर क़ब्ज़ा; कर्मचारियों को भुगतान का निर्देश; contact list में नक़ली number"
+            },
+            {
+              "ref": "Precautions, बिंदु 1, 2 और 4",
+              "c": "voice call या आमने-सामने पुष्टि; अनजान .exe नहीं; regulator WhatsApp से software नहीं भेजते; Linked Devices की जाँच"
+            }
+          ]
+        },
+        {
+          "label": "संचार मंत्रालय (PIB) — Frauds in the Name of TRAI, press release, 6 जून 2024 (Release ID 2023273)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2023273",
+          "issued": "2024-06-06",
+          "used": [
+            {
+              "ref": "पैरा 1 और 2",
+              "c": "TRAI के नाम से नक़ली notice, message और call; number बंद करने की धमकी"
+            },
+            {
+              "ref": "पैरा 3",
+              "c": "TRAI ऐसा संपर्क शुरू नहीं करता; किसी तीसरी agency को अधिकृत नहीं किया"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "Chakshu पर report; ठगी हो चुकी हो, तो 1930 या cybercrime.gov.in"
+            }
+          ]
+        },
+        {
+          "label": "संचार मंत्रालय (PIB) — Chakshu facility of Sanchar Saathi, राज्यसभा में लिखित उत्तर, 5 फ़रवरी 2026 (Release ID 2223779)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2223779",
+          "issued": "2026-02-05",
+          "used": [
+            {
+              "ref": "तालिका",
+              "c": "impersonation की तीन श्रेणियों की 2024 और 2025 की reports; 2025 का कुल 5,19,662"
+            },
+            {
+              "ref": "तालिका के बाद का पैरा",
+              "c": "ये ठगी की कोशिश की reports हैं; पैसों के नुकसान वाले मामले I4C देखता है"
+            }
+          ]
+        },
+        {
+          "label": "दूरसंचार विभाग (DoT) — Sanchar Saathi portal: पहला पन्ना, About और Frequently Asked Questions (Website Last Updated: 05-10-2026)",
+          "url": "https://sancharsaathi.gov.in/",
+          "used": [
+            {
+              "ref": "About: Chakshu",
+              "c": "impersonation जैसे इरादे से आए call, SMS या WhatsApp की report; मिसालें: DoT / TRAI, पुलिस, सरकारी अफ़सर बनकर"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nImpersonation का मतलब है किसी और का रूप धरना। सरकारी स्रोत यह शब्द उन ठगियों के लिए इस्तेमाल करते हैं, जिनमें ठग ख़ुद को कोई और बताता है: जैसे DoT या TRAI, पुलिस या कोई सरकारी अफ़सर।[^6]\n\nगृह मंत्रालय के मुताबिक साइबर ठग पुलिस, CBI, Narcotics Department, RBI, Enforcement Directorate और दूसरी एजेंसियों के अफ़सर बनकर लोगों को डराते, blackmail करते और उनसे पैसा ऐंठते हैं।[^2] RBI की पुस्तिका में social media पर दोस्त या जानकार बनकर की जाने वाली ठगी अलग से दर्ज है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पुलिस या एजेंसी के नाम से call:** गृह मंत्रालय कहता है कि ऐसी call आते ही 1930 पर या cybercrime.gov.in पर report कीजिए।[^2]\n- **दोस्त या रिश्तेदार के नाम से पैसे की माँग:** phone call करके या मिलकर पुष्टि कीजिए कि profile नक़ली तो नहीं।[^1]\n- **Boss के नाम से urgent payment:** सिर्फ़ WhatsApp text या email के भरोसे भुगतान मत कीजिए; सीधे voice call करके या आमने-सामने पुष्टि कीजिए।[^3]\n- **TRAI के नाम से number बंद करने की धमकी:** TRAI ऐसा संपर्क शुरू नहीं करता। इसे ठगी की संभावित कोशिश मानिए।[^4]\n\n## यह ठगी कैसे होती है | कैसे होती है\n\n::flow\n\n- **Parcel की कहानी:** ठग call करके कहता है कि आपके नाम का, या आपका भेजा हुआ, एक parcel पकड़ा गया है, जिसमें ग़ैर-क़ानूनी सामान, drugs या नक़ली passport है।[^2]\n- **अपनों की हिरासत की कहानी:** कभी वह कहता है कि आपका कोई अपना किसी अपराध या हादसे में फँसा है और उसकी हिरासत में है। फिर 'case' निपटाने के लिए पैसा माँगता है।[^2]\n- **'Digital Arrest':** कुछ मामलों में पीड़ित को Skype या किसी और video platform पर तब तक लगातार सामने बने रहने को मजबूर किया जाता है, जब तक ठगों की माँग पूरी न हो। ठग थाने जैसे studio और वर्दी का इस्तेमाल करते हैं।[^2]\n- **Social media पर नक़ली account:** ठग किसी user की जानकारी से नक़ली account बनाता है और उसके दोस्तों से इलाज या किसी ज़रूरी भुगतान के नाम पर पैसा माँगता है।[^1]\n- **भरोसा बनाकर blackmail:** ठग नक़ली पहचान से संपर्क करके धीरे-धीरे भरोसा बनाता है। User अपनी निजी जानकारी बता दे, तो उसी से blackmail करता है या पैसा ऐंठता है।[^1]\n- **Boss Scam:** ठग RBI जैसे regulator बनकर किसी बड़े अधिकारी को .zip file भेजते हैं। उसे चलाने पर malware computer और WhatsApp Web session पर क़ब्ज़ा कर लेता है, और ठग अधिकारी के असली account से कर्मचारियों को mule खातों में भुगतान करने को कहते हैं।[^3]\n- **TRAI के नाम से:** नक़ली notice, WhatsApp message, SMS या call में कहा जाता है कि आपके number से ग़ैर-क़ानूनी काम हुआ है, और जवाब न देने पर number बंद कर दिया जाएगा।[^4]\n- **Bank या कंपनी के नाम से call:** ठग banker, कंपनी के अधिकारी, बीमा agent या सरकारी अफ़सर बनकर call करते हैं। इसे Vishing कहते हैं।[^1]\n\n## यह कितना आम है | कितना आम\n\nराज्यसभा में 5 फ़रवरी 2026 को बताया गया कि 2025 में Chakshu पर कुल 5,19,662 reports आईं। इनमें impersonation की तीन श्रेणियाँ ये थीं:[^5]\n\n- **पुलिस, CBI, Customs, Aadhaar, RBI वग़ैरह बनकर:** 54,639 (2024 में 44,865)।[^5]\n- **रिश्तेदार या दोस्त बनकर:** 19,564 (2024 में 258)।[^5]\n- **DoT / TRAI बनकर:** 15,595 (2024 में 217)।[^5]\n- ये ठगी की कोशिश की reports हैं, यानी जहाँ ठगी की कोशिश हुई पर ठगी हुई नहीं। पैसों के नुकसान वाले मामले I4C देखता है।[^5]\n- गृह मंत्रालय के मुताबिक यह एक संगठित online आर्थिक अपराध है, जिसे सीमा पार के गिरोह चलाते बताए गए हैं।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> ठगी के इरादे से आई संदिग्ध call, SMS या WhatsApp की report आप Sanchar Saathi portal की Chakshu सुविधा पर कर सकते हैं।[^6]\n\n- **पुलिस या एजेंसी के नाम से call:** ऐसी call आते ही 1930 पर या cybercrime.gov.in पर report की जा सकती है।[^2]\n- **कोई असली संस्था नहीं माँगती:** bank के अधिकारी, वित्तीय संस्थाएँ, RBI या कोई भी असली संस्था आपसे username, password, card की जानकारी, CVV या OTP नहीं माँगती।[^1]\n\n## अभी क्या करें\n\n- दोस्त या रिश्तेदार के नाम से पैसे की माँग आए, तो phone call करके या मिलकर पुष्टि कीजिए।[^1]\n- अनजान लोगों को online भुगतान मत कीजिए, और निजी या गोपनीय जानकारी social media पर मत डालिए।[^1]\n- दफ़्तर में सिर्फ़ WhatsApp text या email के आधार पर urgent भुगतान या खाते का बदलाव मत कीजिए; सीधे voice call या आमने-सामने पुष्टि कीजिए।[^3]\n- अनजान या बिना जाँचे स्रोत से आई .exe file मत चलाइए। RBI जैसे regulator WhatsApp attachment से software update या security fix नहीं भेजते।[^3]\n- WhatsApp में Settings > Linked Devices जाँचिए, और जिन Web session पर आपकी नज़र नहीं है, उनसे log out कर दीजिए।[^3]\n- पुलिस या किसी एजेंसी के नाम से ऐसी call आए, तो तुरंत 1930 पर या cybercrime.gov.in पर report कीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
