@@ -4034,6 +4034,198 @@
         }
       ],
       "body": "## मतलब\n\nSanchar Saathi दूरसंचार विभाग (DoT) की नागरिकों के लिए बनी पहल है। इसका मक़सद mobile ग्राहकों को सक्षम बनाना, उनकी सुरक्षा मज़बूत करना और सरकार की नागरिक-केंद्रित पहलों की जानकारी बढ़ाना है। यह web portal (sancharsaathi.gov.in) और mobile app, दोनों रूपों में है।[^1]\n\nPortal 16 मई 2023 को शुरू हुआ।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **अपने नाम के SIM देखिए:** \"Know Mobile Connections in Your Name\" से आप देख सकते हैं कि आपके नाम पर कितने mobile connection हैं, और जो आपने नहीं लिए या जिनकी ज़रूरत नहीं, उनकी report कर सकते हैं।[^1]\n- **खोया या चोरी हुआ phone block कराइए:** Report करने पर phone 24 घंटे के अंदर भारत के telecom network पर इस्तेमाल के लिए block हो जाता है।[^1]\n- **ठगी की कोशिश की report कीजिए:** \"Chakshu\" पर संदिग्ध call, SMS या WhatsApp की report होती है।[^1] यह उन मामलों के लिए है, जहाँ ठगी की कोशिश हुई, पर ठगी हो नहीं पाई।[^2]\n- **पैसा कट चुका है, तो Chakshu नहीं:** ऐसे में 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## Sanchar Saathi पर क्या-क्या है | सुविधाएँ\n\nPortal पर नागरिकों के लिए ये सुविधाएँ हैं:[^1]\n\n- **Chakshu:** ठगी की कोशिश वाले call या message की report; और बिना माँगे आए व्यावसायिक call या SMS (spam) की report।\n- **Block Your Lost / Stolen Mobile Handset:** खोया या चोरी हुआ phone block कराना और उसका पता लगवाना; मिल जाए, तो unblock कराना।\n- **Know Mobile Connections in Your Name:** अपने नाम के mobile connection देखना और report करना।\n- **Know Genuineness of Your Mobile Handset:** IMEI number से phone के असली होने की जाँच। यह जाँच 14422 पर SMS भेजकर भी हो सकती है।\n- **Report Incoming International Call with Indian Number:** विदेश से आई ऐसी call की report, जो +91 वाले भारतीय number से आई दिखती है।\n- **Trusted Contact Details:** banks और वित्तीय संस्थाओं के contact number, toll-free number, customer care number, e-mail और website, जो उन संस्थाओं ने ख़ुद दिए हैं। इससे call करने या उठाने से पहले जाँचा जा सकता है कि number असली है या नहीं। Portal पर इस सुविधा के साथ \"Beta\" लिखा है।\n- **Know Your Wireline Internet Service Provider:** अपने इलाक़े के wireline internet service provider की जानकारी। इसके साथ भी \"Beta\" लिखा है।\n\n## Chakshu कैसे काम करता है | Chakshu\n\n::flow\n\n- Report उन्हीं voice call, SMS, WhatsApp message या WhatsApp call की हो सकती है, जिनमें भेजने वाले का mobile या landline number दिखता हो।[^1]\n- Report में माध्यम और श्रेणी चुननी होती है और ब्योरा देना होता है। Screenshot लगाना वैकल्पिक है। फिर अपना mobile number OTP से verify करके नाम लिखना होता है।[^1]\n- DoT हर अकेली report पर अलग कार्रवाई नहीं करता। वह नागरिकों से मिली reports का विश्लेषण करके telecom साधनों के दुरुपयोग तक पहुँचता है। कार्रवाई आम तौर पर mobile user को re-verification का मौक़ा देने के बाद होती है।[^2]\n- 5 फ़रवरी 2026 को राज्यसभा में बताया गया कि नागरिकों की 7.7 लाख inputs के आधार पर 39.43 लाख mobile connection काटे गए, और 2.27 लाख handset और 1.31 लाख SMS template blacklist किए गए।[^2]\n- झूठी report करने वाले पर भी कार्रवाई हो सकती है, जैसे उसका re-verification या उसे report करने से रोकना।[^1]\n\n## अपने नाम के SIM कैसे जाँचें | आपके नाम के SIM\n\n- एक व्यक्ति सभी telecom कंपनियों को मिलाकर अधिकतम 9 mobile connection ले सकता है। जम्मू-कश्मीर, असम और पूर्वोत्तर राज्यों में यह सीमा 6 है।[^1]\n- Portal पर अपने mobile number पर आए OTP से login कीजिए और connection की सूची देखिए। जो number आपका नहीं है, उस पर 'This is not my number', और जिसकी ज़रूरत नहीं, उस पर 'Not required' चुनकर 'Report' दबाइए।[^1]\n- Report किया गया connection service provider के re-verification के लिए चिह्नित होता है। Re-verification में नाकाम connection काट दिया जाता है।[^1]\n- समय-सीमा: outgoing सेवा 30 दिन के अंदर और incoming 45 दिन के अंदर बंद होती है; re-verification में नाकाम connection 60 दिन के अंदर कटता है।[^1]\n\n## Phone खो जाए तो | खोया phone\n\n- पुलिस में report कीजिए और उसकी copy रखिए।[^1]\n- खोए number का duplicate SIM अपनी telecom कंपनी से लीजिए। Block की अर्ज़ी का OTP इसी number पर आता है।[^1]\n- Portal पर form भरिए। पुलिस report की copy और पहचान का प्रमाण लगाना होता है। Form जमा होने पर Request ID मिलता है; उसी से status देखा जाता है और बाद में phone unblock कराया जाता है।[^1]\n- Phone मिल जाए, तो पहले स्थानीय पुलिस को बताइए, फिर unblock का form भरिए।[^1]\n- 5 अक्टूबर 2026 को portal पर दर्ज था: 61.16 लाख mobile block और 37.96 लाख trace किए गए।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> आप देख सकते हैं कि आपके नाम पर कितने mobile connection हैं, और जो आपने नहीं लिए, उनकी report कर सकते हैं।[^1]\n\n- Chakshu पर report करने वाले नागरिक की जानकारी गोपनीय रखी जाती है।[^1]\n\n## अभी क्या करें\n\n- एक बार देख लीजिए कि आपके नाम पर कितने mobile connection हैं। Portal sancharsaathi.gov.in है; app Google Play Store और Apple App Store पर है।[^1]\n- Bank या वित्तीय संस्था के नाम से call आए, तो number 'Trusted Contact Details' में जाँच सकते हैं।[^1]\n- ठगी की कोशिश हो, तो Chakshu पर report कीजिए। पैसा जा चुका हो, तो 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "chakshu",
+      "term": "Chakshu",
+      "full": "Sanchar Saathi की सुविधा · ठगी की कोशिश वाले call और message की report · चक्षु",
+      "fullEn": "Chakshu (Sanchar Saathi)",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। Sanchar Saathi portal (About और FAQ; 5 अक्टूबर 2026 को update), राज्यसभा के लिखित उत्तर (5 फ़रवरी 2026) और Chakshu के launch की press release (4 मार्च 2024) से जाँचा।"
+        }
+      ],
+      "one": "Chakshu, Sanchar Saathi की वह सुविधा है, जिस पर आप ठगी की कोशिश वाले call, SMS या WhatsApp की report करते हैं। यह पैसा वापस दिलाने की जगह नहीं है; पैसा जा चुका हो, तो 1930 पर call कीजिए।",
+      "facts": [
+        {
+          "k": "शुरू हुआ",
+          "v": "4 Mar 2024",
+          "s": "Sanchar Saathi portal पर"
+        },
+        {
+          "k": "2025 में reports",
+          "v": "5.19 लाख",
+          "s": "राज्यसभा में बताया गया आँकड़ा: 5,19,662"
+        },
+        {
+          "k": "spam की शिकायत",
+          "v": "7 दिन में",
+          "s": "इसके बाद वह सिर्फ़ 'report' मानी जाती है"
+        },
+        {
+          "k": "पैसा कट चुका हो तो",
+          "v": "1930",
+          "s": "या cybercrime.gov.in; Chakshu इसके लिए नहीं",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप",
+            "s": "संदिग्ध call, SMS या WhatsApp"
+          },
+          {
+            "t": "Chakshu",
+            "s": "माध्यम और श्रेणी चुनकर report"
+          },
+          {
+            "t": "DoT",
+            "s": "reports का विश्लेषण करके कार्रवाई"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Report",
+            "s": "portal या app से, OTP के साथ"
+          },
+          {
+            "b": "विश्लेषण",
+            "s": "सबकी reports मिलाकर"
+          }
+        ],
+        "note": "Spam (UCC) की शिकायतें कार्रवाई के लिए telecom कंपनियों को दी जाती हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Chakshu पर report कर दी, तो मेरा पैसा वापस आ जाएगा।\"",
+          "f": "नहीं। Chakshu पैसों की ठगी या साइबर अपराध की शिकायत की जगह नहीं है। पैसा जा चुका है, तो 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]"
+        },
+        {
+          "m": "\"Chakshu पर report करना, पुलिस में शिकायत करने जैसा ही है।\"",
+          "f": "नहीं। Chakshu उन संदेशों के लिए है, जहाँ ठगी की कोशिश हुई, पर ठगी हो नहीं पाई। जिन मामलों में पैसों का नुकसान हुआ है, उन्हें गृह मंत्रालय का I4C देखता है।[^2]"
+        },
+        {
+          "m": "\"Report करने पर मेरी पहचान सामने आ जाएगी।\"",
+          "f": "DoT के मुताबिक report करने वाले नागरिक की जानकारी गोपनीय रखी जाती है।[^1]"
+        },
+        {
+          "m": "\"झूठी report करने से कुछ नहीं होता।\"",
+          "f": "हो सकता है। DoT झूठी report करने वाले ग्राहक का re-verification करा सकता है, या उसे report करने से रोक सकता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Chakshu कब शुरू हुआ?",
+          "a": "4 मार्च 2024 को संचार मंत्री ने इसे DoT के Digital Intelligence Platform के साथ शुरू किया।"
+        },
+        {
+          "q": "Chakshu पर किन माध्यमों की report होती है?",
+          "a": "Portal के मुताबिक voice call, SMS, WhatsApp message या WhatsApp call की, जिनमें भेजने वाले का mobile या landline number दिखता हो।"
+        },
+        {
+          "q": "Digital Intelligence Platform (DIP) क्या है?",
+          "a": "यह DoT का सुरक्षित online platform है, जिस पर telecom कंपनियाँ, पुलिस, bank, वित्तीय संस्थाएँ और दूसरे stakeholders आपस में जानकारी साझा करते हैं। यह नागरिकों के लिए खुला नहीं है।"
+        },
+        {
+          "q": "FRI क्या है?",
+          "a": "Financial Fraud Risk Indicator। यह किसी mobile number को पैसों की ठगी के medium, high या very high जोखिम वाला बताता है। राज्यसभा में बताया गया कि stakeholders के मुताबिक इससे ₹1,000 करोड़ से ज़्यादा की ठगी रोकी गई।"
+        },
+        {
+          "q": "Spam भेजने वाले 10 अंकों के number पर क्या कार्रवाई होती है?",
+          "a": "Portal के मुताबिक बिना registration के व्यावसायिक call या message भेजने वाले के ख़िलाफ़ शिकायत आने पर: पहली बार चेतावनी; दूसरी बार छह महीने के लिए usage cap; तीसरी बार और उसके बाद उसके सारे telecom साधन दो साल तक के लिए बंद और blacklist।"
+        },
+        {
+          "q": "किसी SMS का header किसका है, यह कैसे पता करें?",
+          "a": "Portal के मुताबिक भेजने वाले की जानकारी smsheader.trai.gov.in पर देखी जा सकती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Sanchar Saathi"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "DoT"
+        }
+      ],
+      "article": "electricity-kyc-apk",
+      "articleLabel": "“बिजली KYC update” वाला WhatsApp APK मिला? Install रोकें",
+      "sources": [
+        {
+          "label": "दूरसंचार विभाग (DoT) — Sanchar Saathi portal: पहला पन्ना, About और Frequently Asked Questions (Website Last Updated: 05-10-2026)",
+          "url": "https://sancharsaathi.gov.in/",
+          "used": [
+            {
+              "ref": "About: Chakshu",
+              "c": "ठगी के इरादे से आए call, SMS या WhatsApp की report; पैसों की ठगी के लिए नहीं, उसके लिए 1930 या cybercrime.gov.in"
+            },
+            {
+              "ref": "About: Chakshu (UCC)",
+              "c": "spam की 7 दिन के अंदर की शिकायत valid; उसके बाद 'report'"
+            },
+            {
+              "ref": "FAQ: Chakshu - Report Suspected Fraud Communication",
+              "c": "माध्यम; report के कदम; DoT की कार्रवाई और उसकी सीमा; गोपनीयता; झूठी report पर कार्रवाई"
+            },
+            {
+              "ref": "FAQ: Chakshu - Report UCC",
+              "c": "UCC का मतलब; शिकायत के रास्ते (1909, TRAI DND app, telecom कंपनी); complaint ID; बिना registration वाले sender पर कार्रवाई; preference; SMS header"
+            }
+          ]
+        },
+        {
+          "label": "संचार मंत्रालय (PIB) — Chakshu facility of Sanchar Saathi, राज्यसभा में लिखित उत्तर, 5 फ़रवरी 2026 (Release ID 2223779)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2223779",
+          "issued": "2026-02-05",
+          "used": [
+            {
+              "ref": "तालिका",
+              "c": "2025 में श्रेणी के हिसाब से reports; कुल 5,19,662"
+            },
+            {
+              "ref": "तालिका के बाद का पैरा",
+              "c": "ठगी की कोशिश की report; पैसों के नुकसान वाले मामले I4C देखता है; DoT reports के विश्लेषण पर कार्रवाई करता है"
+            },
+            {
+              "ref": "तालिका के बाद का पैरा",
+              "c": "7.7 लाख inputs के आधार पर 39.43 लाख connection काटे; 2.27 लाख handset और 1.31 लाख SMS template blacklist"
+            },
+            {
+              "ref": "DIP वाला पैरा",
+              "c": "Digital Intelligence Platform; FRI; Chakshu के संदिग्ध number जाँच के बाद FRI में; ₹1,000 करोड़ से ज़्यादा की ठगी रोकी गई"
+            }
+          ]
+        },
+        {
+          "label": "संचार मंत्रालय (PIB) — Digital Intelligence Platform और Chakshu का launch, press release, 4 मार्च 2024 (Release ID 2011383)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2011383",
+          "issued": "2024-03-04",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "संचार मंत्री ने 4 मार्च 2024 को DIP और Chakshu शुरू किए"
+            },
+            {
+              "ref": "DIP वाला हिस्सा",
+              "c": "DIP पर कौन-कौन जानकारी साझा करता है; यह नागरिकों के लिए खुला नहीं"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nChakshu (चक्षु) Sanchar Saathi portal की सुविधा है, जिस पर नागरिक ठगी के इरादे से आए संदिग्ध call, SMS या WhatsApp की report कर सकते हैं।[^1] इसे 4 मार्च 2024 को शुरू किया गया।[^3]\n\nइसी पर बिना माँगे आए व्यावसायिक call और SMS (UCC या spam) की भी report होती है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ठगी की कोशिश हुई, पर पैसा नहीं गया:** Chakshu पर report कीजिए। ऐसी reports से DoT को telecom साधनों का दुरुपयोग रोकने में मदद मिलती है।[^1]\n- **पैसा जा चुका है:** Chakshu इसके लिए नहीं है। 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n- **Report का मतलब तुरंत कार्रवाई नहीं:** DoT हर अकेली report पर अलग कार्रवाई नहीं करता; वह नागरिकों से मिली reports का विश्लेषण करता है।[^2]\n\n## Report कैसे करें | कैसे करें\n\n::flow\n\n- sancharsaathi.gov.in पर \"Citizen Centric Services\" में Chakshu चुनिए, या Sanchar Saathi का mobile app इस्तेमाल कीजिए।[^1]\n- माध्यम और श्रेणी चुनिए, और संदेश का ब्योरा दीजिए। Screenshot लगाना वैकल्पिक है।[^1]\n- अपना mobile number OTP से verify कीजिए, नाम लिखिए और submit कीजिए।[^1]\n- Report उन्हीं voice call, SMS, WhatsApp message या WhatsApp call की हो सकती है, जिनमें भेजने वाले का mobile या landline number दिखता हो।[^1]\n\n## लोग किस तरह के संदेश report करते हैं | श्रेणियाँ\n\nराज्यसभा में 5 फ़रवरी 2026 को बताया गया कि 2025 में Chakshu पर 5,19,662 reports आईं। नाम वाली श्रेणियों में सबसे बड़ी ये थीं:[^2]\n\n- Bank, बिजली, gas, बीमा वग़ैरह के KYC और भुगतान के नाम पर: 1,06,483\n- नक़ली customer care helpline: 60,985\n- Online नौकरी, lottery, gift और loan के offer: 58,560\n- पुलिस, CBI, Customs, Aadhaar, RBI वग़ैरह के नाम पर: 54,639\n- निवेश, शेयर बाज़ार और trading: 29,140\n\nइनके अलावा \"Any Other Suspected Fraud\" श्रेणी में 1,19,164 reports थीं।[^2]\n\n## Report के बाद क्या होता है | आगे क्या\n\n- DoT जाँच के बाद भेजने वाले के ख़िलाफ़ अपनी प्रक्रिया के मुताबिक कार्रवाई करता है। इसमें ग्राहक का re-verification, connection काटना और पुलिस में शिकायत या FIR शामिल हो सकती है।[^1]\n- पर DoT ने यह भी लिखा है कि वह report किए गए भेजने वाले पर कार्रवाई का ज़िम्मा नहीं लेता।[^1]\n- नागरिकों की 7.7 लाख inputs के आधार पर 39.43 लाख mobile connection काटे गए, और 2.27 लाख handset और 1.31 लाख SMS template blacklist किए गए।[^2]\n- Chakshu पर मिले संदिग्ध mobile number, जाँच के बाद, DoT के Digital Intelligence Platform पर Financial Fraud Risk Indicator (FRI) के हिस्से के तौर पर साझा किए जाते हैं। इस platform पर bank, UPI सेवा देने वाले और दूसरी संस्थाएँ जुड़ी हैं।[^2]\n\n## Spam की शिकायत | Spam\n\n- UCC या spam वह call या message है, जो न आपकी दी हुई सहमति के मुताबिक है, न आपकी दर्ज की हुई पसंद (preference) के मुताबिक।[^1]\n- Spam मिलने के 7 दिन के अंदर की गई शिकायत \"valid complaint\" मानी जाती है; उस पर telecom कंपनी जाँच करती है और भेजने वाले पर कार्रवाई हो सकती है। 7 दिन के बाद की शिकायत \"report\" मानी जाती है।[^1]\n- Spam की शिकायत Chakshu के अलावा 1909 पर SMS या call करके, TRAI DND app से, या अपनी telecom कंपनी के ज़रिए भी हो सकती है।[^1]\n- ये शिकायतें कार्रवाई के लिए telecom कंपनियों को दी जाती हैं। शिकायत के बाद complaint ID मिलता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Chakshu पर report करने वाले नागरिक की जानकारी DoT गोपनीय रखता है।[^1]\n\n- आप चाहें, तो सारे व्यावसायिक call और message बंद करा सकते हैं, या श्रेणी के हिसाब से चुन सकते हैं। इसके लिए 1909 पर SMS या call, TRAI DND app, या अपनी telecom कंपनी का रास्ता है।[^1]\n\n## अभी क्या करें\n\n- ठगी की कोशिश वाला call या message आए, तो Chakshu पर report कीजिए। Screenshot हो, तो लगा दीजिए।[^1]\n- पैसा जा चुका हो, तो Chakshu पर समय मत लगाइए: 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n- Spam की शिकायत 7 दिन के अंदर कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
