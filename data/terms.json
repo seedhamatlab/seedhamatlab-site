@@ -2219,6 +2219,272 @@
         }
       ],
       "body": "## मतलब\n\nUPI PIN यानी UPI Personal Identification Number। यह 4 से 6 अंकों का code है, जो आप UPI app में पहली बार register करते समय ख़ुद बनाते हैं। लेनदेन मंज़ूर करने के लिए यही PIN डालना होता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **PIN डालना यानी भुगतान मंज़ूर करना।** UPI PIN डालने पर लेनदेन मंज़ूर होता है।[^1]\n- **पैसा पाने के लिए PIN नहीं लगता।** NPCI के मुताबिक QR code scan करना और UPI PIN डालना सिर्फ़ भुगतान करने के लिए है।[^2]\n- **PIN सिर्फ़ आपका है।** इसे किसी को न बताएँ। आपके bank का customer support भी इसे कभी नहीं माँगता।[^1]\n\n## UPI PIN से भुगतान कैसे होता है | भुगतान\n\n::flow\n\n- Online दुकान पर अपनी UPI ID डालने पर आपके UPI app में collect request आती है। वहाँ UPI PIN डालने पर भुगतान पूरा होता है।[^1]\n- ग़लत PIN डालने पर लेनदेन fail हो जाता है।[^1]\n\n## UPI PIN कैसे बनता है | बनाना\n\n- UPI PIN किसी भी UPI app में अपने debit card की जानकारी से बनाया जा सकता है।[^1]\n- NPCI के circular के मुताबिक UPI PIN बनाने में Aadhaar OTP या debit card की जानकारी, और bank का OTP इस्तेमाल होता है।[^3]\n- 7 अक्टूबर 2025 के circular से एक और विकल्प जोड़ा गया है: UIDAI Face Authentication से UPI PIN बनाना या reset करना। Bank और app इसे लागू कर सकते हैं, इसलिए यह हर जगह हो, ज़रूरी नहीं।[^3]\n\n## UPI PIN कब नहीं लगता | बिना PIN\n\nNPCI के मुताबिक UPI PIN से जाँच UPI Lite और mandate (AutoPay) की रक़म कटने पर लागू नहीं होती।[^3]\n\n- **UPI Lite:** एक लेनदेन ₹1,000 तक, और कुल सीमा ₹5,000।[^5]\n- **AutoPay (mandate):** बिना UPI PIN के ₹15,000 तक की रक़म कट सकती है। Mutual fund, credit card bill और insurance में यह सीमा ₹1 लाख है।[^1]\n- **Biometric:** जिस bank और app में यह सुविधा है, वहाँ आप चाहें, तो UPI PIN की जगह phone का fingerprint या चेहरा इस्तेमाल कर सकते हैं। यह ₹10,000 तक के लेनदेन के लिए है। 7 अगस्त 2026 से पहले यह सीमा ₹5,000 थी।[^3][^4]\n- UPI PIN बदलने या reset करने पर biometric वाला तरीक़ा बंद हो जाता है, जब तक आप नई सहमति न दें।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> UPI PIN की जगह biometric इस्तेमाल करना आपकी मर्ज़ी है। इसके लिए आपकी साफ़ सहमति ज़रूरी है, और आप इसे कभी भी बंद कर सकते हैं।[^3]\n\n- Biometric वाला तरीक़ा optional है। आप पहले की तरह UPI PIN इस्तेमाल करते रह सकते हैं।[^3]\n\n## अभी क्या करें\n\n- UPI PIN किसी को मत बताइए, चाहे वह ख़ुद को bank का कर्मचारी बताए।[^1]\n- कोई अनजान व्यक्ति link या QR code भेजकर कहे कि इनाम या पैसा पाने के लिए UPI PIN डालिए, तो PIN मत डालिए।[^2]\n- सामान बेचते समय ख़रीदार QR code भेजकर scan करने और PIN डालने को कहे, तो रुक जाइए। NPCI ने बताया है कि ठग पहले छोटी रक़म लौटाकर भरोसा बनाते हैं, फिर बड़ी रक़म के लिए दोबारा PIN डलवाते हैं।[^2]\n- Phone खो जाए, तो अपना mobile number block कराइए और अपने bank के customer support से संपर्क कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "i4c",
+      "term": "I4C",
+      "aliases": [
+        "Indian Cybercrime Coordination Centre",
+        "Indian Cyber Crime Coordination Centre"
+      ],
+      "full": "Indian Cybercrime Coordination Centre · भारतीय साइबर अपराध समन्वय केंद्र",
+      "fullEn": "Indian Cybercrime Coordination Centre",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। I4C की website (About, FAQ, Major Initiatives), I4C के Public Notice (22 जनवरी 2026), गृह मंत्रालय के लोकसभा उत्तर (28 जुलाई 2026) और cybercrime.gov.in से जाँचा।"
+        }
+      ],
+      "one": "I4C गृह मंत्रालय का वह केंद्र है जो देश में साइबर अपराध से निपटने के काम में तालमेल बैठाता है। यह ख़ुद जाँच नहीं करता; आपकी शिकायत की जाँच आपके राज्य की पुलिस करती है।",
+      "facts": [
+        {
+          "k": "किसका हिस्सा",
+          "v": "गृह मंत्रालय",
+          "s": "1 जुलाई 2024 से attached office"
+        },
+        {
+          "k": "देश को समर्पित",
+          "v": "10 Jan 2020",
+          "s": "योजना 5 अक्टूबर 2018 को मंज़ूर हुई"
+        },
+        {
+          "k": "जाँच कौन करता है",
+          "v": "राज्य की पुलिस",
+          "s": "I4C जाँच एजेंसी नहीं है"
+        },
+        {
+          "k": "शिकायत कहाँ",
+          "v": "1930",
+          "s": "या cybercrime.gov.in पर",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप",
+            "s": "1930 या cybercrime.gov.in पर शिकायत"
+          },
+          {
+            "t": "I4C का portal",
+            "s": "I4C तकनीकी ढाँचा सँभालता है"
+          },
+          {
+            "t": "राज्य की पुलिस",
+            "s": "जाँच करती है, status update करती है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "शिकायत",
+            "s": "portal पर दर्ज होती है"
+          },
+          {
+            "b": "जाँच",
+            "s": "राज्य या UT की पुलिस के पास"
+          }
+        ],
+        "note": "अपनी शिकायत का status आप cybercrime.gov.in पर देख सकते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"मेरी शिकायत की जाँच I4C करेगा।\"",
+          "f": "नहीं। I4C ने ख़ुद कहा है कि वह जाँच एजेंसी नहीं है। Portal पर आई शिकायतों की जाँच संबंधित राज्य या केंद्र शासित प्रदेश की पुलिस करती है।[^3]"
+        },
+        {
+          "m": "\"मेरा bank खाता I4C ने freeze किया है।\"",
+          "f": "नहीं। I4C के मुताबिक खाते पर lien लगाने या उसे freeze करने का फ़ैसला जाँच अधिकारी लेता है, या bank के अधिकारी RBI के नियमों के तहत लेते हैं। I4C यह काम नहीं करता।[^3]"
+        },
+        {
+          "m": "\"Mobile number या phone I4C block करता है।\"",
+          "f": "नहीं। I4C के मुताबिक mobile number और device block करने का काम भी राज्यों की पुलिस करती है, I4C नहीं।[^3]"
+        },
+        {
+          "m": "\"I4C के CEO के नाम से mail आया है, तो असली ही होगा।\"",
+          "f": "ज़रूरी नहीं। Cybercrime portal ने चेतावनी दी है कि I4C के CEO, Intelligence Bureau और Delhi Police के अफ़सरों के नाम से नक़ली mail भेजे जा रहे हैं।[^5]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "I4C कब बना?",
+          "a": "I4C की योजना 5 अक्टूबर 2018 को मंज़ूर हुई। 10 जनवरी 2020 को गृह मंत्री ने इसे देश को समर्पित किया। 1 जुलाई 2024 से यह गृह मंत्रालय का attached office है।"
+        },
+        {
+          "q": "क्या I4C में सीधे शिकायत कर सकते हैं?",
+          "a": "साइबर अपराध की शिकायत I4C के portal cybercrime.gov.in पर होती है। पैसों की ठगी की शिकायत 1930 पर call करके भी हो सकती है। I4C ख़ुद जाँच नहीं करता; जाँच राज्य की पुलिस करती है।"
+        },
+        {
+          "q": "I4C के कितने हिस्से हैं?",
+          "a": "सात: National Cybercrime Threat Analytics Unit (NCTAU), National Cybercrime Reporting Portal (NCRP), National Cybercrime Ecosystem Management Unit (NCEMU), Joint Cybercrime Coordination Teams (JCCT), National Cyber Forensic Laboratory (NCFL), National Cybercrime Training Centre (NCTC) और National Cybercrime Research and Innovation Centre (NCR&IC)।"
+        },
+        {
+          "q": "CyberDost क्या है?",
+          "a": "यह I4C के social media account का नाम है: X पर @CyberDost, Facebook और Instagram पर CyberDostI4C, और Telegram पर cyberdosti4c।"
+        },
+        {
+          "q": "Cyber Volunteer कौन बन सकता है?",
+          "a": "I4C के मुताबिक कोई भी भारतीय नागरिक। तीन श्रेणियाँ हैं: Unlawful Content Flagger, Cyber Awareness Promoter और Cyber Expert।"
+        },
+        {
+          "q": "I4C का दफ़्तर कहाँ है?",
+          "a": "5th floor, NDCC-II Building, Jai Singh Road, New Delhi।"
+        }
+      ],
+      "related": [
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "CFCFRMS"
+        },
+        {
+          "t": "Suspect Registry"
+        },
+        {
+          "t": "CyberDost"
+        }
+      ],
+      "article": "report-suspect",
+      "articleLabel": "पैसा नहीं गया, लेकिन link संदिग्ध है: कहाँ report करें?",
+      "sources": [
+        {
+          "label": "I4C — About I4C (Last Updated: 11/03/2026)",
+          "url": "https://i4c.mha.gov.in/about.aspx",
+          "used": [
+            {
+              "ref": "पहला हिस्सा",
+              "c": "गृह मंत्रालय की पहल; साइबर अपराध से तालमेल के साथ निपटना"
+            },
+            {
+              "ref": "तीसरा पैरा",
+              "c": "योजना 5 अक्टूबर 2018 को मंज़ूर; 10 जनवरी 2020 को देश को समर्पित; 1 जुलाई 2024 से attached office"
+            }
+          ]
+        },
+        {
+          "label": "I4C — FAQ (Frequently Asked Questions; सवाल ऊपर से गिने गए हैं)",
+          "url": "https://i4c.mha.gov.in/FAQ.aspx",
+          "used": [
+            {
+              "ref": "सवाल 6",
+              "c": "शिकायत cybercrime.gov.in पर; पैसों की ठगी में 1930, बाद में portal पर पूरी करनी होती है"
+            },
+            {
+              "ref": "सवाल 7",
+              "c": "I4C के सात हिस्से (verticals)"
+            },
+            {
+              "ref": "सवाल 9",
+              "c": "बच्चों के यौन शोषण और बलात्कार से जुड़ी सामग्री की गुमनाम report; निजी जानकारी ज़रूरी नहीं"
+            }
+          ]
+        },
+        {
+          "label": "I4C — Public Notice No. 22003/208/CPGRAMS/2025-I4C, 22 जनवरी 2026",
+          "url": "https://i4c.mha.gov.in/docs/Public%20Notice-CPGRAMS.pdf",
+          "issued": "2026-01-22",
+          "used": [
+            {
+              "ref": "पत्र का पता",
+              "c": "5th floor, NDCC-II Building, Jai Singh Road, New Delhi"
+            },
+            {
+              "ref": "पैरा 3(i)",
+              "c": "पुलिस राज्य का विषय है; अपराध की जाँच की पहली ज़िम्मेदारी राज्यों की"
+            },
+            {
+              "ref": "पैरा 3(ii)",
+              "c": "I4C जाँच एजेंसी नहीं; जाँच राज्य/UT की पुलिस करती है; I4C सिर्फ़ portal का तकनीकी ढाँचा सँभालता है; status portal पर दिखता है"
+            },
+            {
+              "ref": "पैरा 3(iii)",
+              "c": "खाते पर lien या freeze I4C नहीं करता; फ़ैसला जाँच अधिकारी या bank अधिकारी का"
+            },
+            {
+              "ref": "पैरा 3(iv)",
+              "c": "mobile number और device block भी राज्यों की पुलिस करती है"
+            },
+            {
+              "ref": "पैरा 4(i)",
+              "c": "जाँच की जानकारी के लिए अर्ज़ी राज्य/UT की संबंधित संस्था को दें"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — Cyber Crime Mitigation Centre, लोकसभा में लिखित उत्तर, 28 जुलाई 2026 (Release ID 2290366; बिंदु ऊपर से गिने गए हैं)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290366",
+          "issued": "2026-07-28",
+          "used": [
+            {
+              "ref": "बिंदु 1, 2",
+              "c": "I4C गृह मंत्रालय का attached office; NCRP, I4C का हिस्सा"
+            },
+            {
+              "ref": "बिंदु 3",
+              "c": "CFCFRMS 2021 से; 30 जून 2026 तक 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा बचे; 1930"
+            },
+            {
+              "ref": "बिंदु 4",
+              "c": "Cyber Fraud Mitigation Centre: bank, financial intermediaries, payment aggregator, telecom कंपनियाँ, IT intermediaries और पुलिस एक साथ"
+            },
+            {
+              "ref": "बिंदु 6",
+              "c": "Suspect Registry 10 सितंबर 2024 से; ₹25,698 करोड़ के लेनदेन रोके गए"
+            },
+            {
+              "ref": "बिंदु 7, 9",
+              "c": "Samanvaya और Pratibimb; CyTrain से training"
+            },
+            {
+              "ref": "SOP वाला पैरा",
+              "c": "खाता freeze और lien की शिकायतों के लिए Grievance Redressal Module और पैसा लौटाने के लिए Money Restoration Module, अप्रैल 2026 से"
+            },
+            {
+              "ref": "जागरूकता वाला पैरा",
+              "c": "CyberDost: X, Facebook, Instagram, Telegram के account"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — पहला पन्ना (Last Updated: 31/08/2026)",
+          "url": "https://cybercrime.gov.in/",
+          "used": [
+            {
+              "ref": "Important Alert",
+              "c": "I4C के CEO, Intelligence Bureau और Delhi Police के अफ़सरों के नाम से नक़ली mail"
+            },
+            {
+              "ref": "Report Suspect",
+              "c": "संदिग्ध website, WhatsApp number, Telegram handle, phone number, email, SMS header और social media URL की report"
+            },
+            {
+              "ref": "Suspect Repository",
+              "c": "mobile number, email, खाता number, URL खोजकर देखना कि वह साइबर अपराधियों से जुड़ा तो नहीं"
+            }
+          ]
+        },
+        {
+          "label": "I4C — Major Initiatives (पन्ने पर तारीख़ नहीं है)",
+          "url": "https://i4c.mha.gov.in/initiative.aspx",
+          "used": [
+            {
+              "ref": "Women & Children",
+              "c": "हानिकारक सामग्री हटवाना: बच्चों से जुड़ी 6 घंटे में, महिलाओं को निशाना बनाने वाली 36 घंटे में"
+            },
+            {
+              "ref": "Cyber Volunteers",
+              "c": "कोई भी भारतीय नागरिक; तीन श्रेणियाँ"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nI4C यानी Indian Cybercrime Coordination Centre (भारतीय साइबर अपराध समन्वय केंद्र)। यह गृह मंत्रालय की पहल है, जिसका काम देश में साइबर अपराध से तालमेल के साथ निपटना है।[^1]\n\nI4C की योजना 5 अक्टूबर 2018 को मंज़ूर हुई। 10 जनवरी 2020 को गृह मंत्री ने इसे देश को समर्पित किया। 1 जुलाई 2024 से यह गृह मंत्रालय का attached office है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **शिकायत I4C के portal पर होती है।** साइबर अपराध की शिकायत cybercrime.gov.in पर होती है। पैसों की ठगी की शिकायत 1930 पर call करके भी हो सकती है; बाद में उसे portal पर बाक़ी जानकारी के साथ पूरा करना होता है।[^2]\n- **जाँच आपके राज्य की पुलिस करती है।** I4C जाँच एजेंसी नहीं है।[^3]\n- **I4C के नाम से भी ठगी होती है।** Cybercrime portal ने चेतावनी दी है कि I4C के CEO और दूसरी एजेंसियों के अफ़सरों के नाम से नक़ली mail भेजे जा रहे हैं।[^5]\n\n## I4C क्या-क्या करता है | काम\n\nगृह मंत्रालय ने 28 जुलाई 2026 को लोकसभा में I4C से जुड़े ये कदम बताए:[^4]\n\n- **NCRP (cybercrime.gov.in):** हर तरह के साइबर अपराध की report के लिए portal। महिलाओं और बच्चों के ख़िलाफ़ साइबर अपराध पर ख़ास ध्यान।\n- **CFCFRMS और 1930:** पैसों की ठगी की तुरंत report और पैसा ठगों तक पहुँचने से रोकने की व्यवस्था, जो 2021 में शुरू हुई। 30 जून 2026 तक 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा बचाए गए।\n- **Cyber Fraud Mitigation Centre:** I4C में बना केंद्र, जहाँ बड़े bank, financial intermediaries, payment aggregator, telecom कंपनियाँ, IT intermediaries और राज्यों की पुलिस के प्रतिनिधि एक साथ काम करते हैं।\n- **Suspect Registry:** साइबर अपराधियों से जुड़ी पहचानों का registry, जो 10 सितंबर 2024 को banks के साथ मिलकर शुरू हुआ। 30 जून 2026 तक इससे ₹25,698 करोड़ के लेनदेन रोके गए।\n- **Samanvaya और Pratibimb:** पुलिस के लिए साइबर अपराध का data बाँटने और तालमेल का platform। Pratibimb अपराधियों की जगह नक्शे पर दिखाता है।\n- **CyTrain:** पुलिस और न्यायिक अधिकारियों के लिए online training।\n- **खाता freeze की शिकायत:** Bank खाता freeze होने और रक़म पर lien की शिकायतें समय पर सुनने के लिए Grievance Redressal Module, और ठगी का पैसा लौटाने के लिए Money Restoration Module, अप्रैल 2026 से चालू हैं।\n\n## शिकायत का रास्ता | शिकायत\n\n::flow\n\n- Portal पर आई शिकायतों की जाँच संबंधित राज्य या केंद्र शासित प्रदेश (UT) की पुलिस करती है। I4C सिर्फ़ portal का तकनीकी ढाँचा सँभालता है।[^3]\n- जाँच का status पुलिस portal पर update करती है। हर शिकायतकर्ता अपनी शिकायत का status portal पर देख सकता है।[^3]\n- जाँच के बारे में जानकारी चाहिए, तो अर्ज़ी अपने राज्य या UT की संबंधित संस्था को दीजिए।[^3]\n- पुलिस राज्य का विषय है। अपराध रोकने और उसकी जाँच की पहली ज़िम्मेदारी राज्यों और UT की है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> आप अपनी शिकायत का status cybercrime.gov.in पर ख़ुद देख सकते हैं।[^3]\n\n- बच्चों के यौन शोषण या बलात्कार से जुड़ी online सामग्री की report गुमनाम रहकर की जा सकती है। इसमें अपनी निजी जानकारी देना ज़रूरी नहीं।[^2]\n- I4C के मुताबिक portal पर report की गई हानिकारक सामग्री social media platforms के साथ मिलकर हटवाई जाती है: बच्चों से जुड़ी सामग्री 6 घंटे में, और महिलाओं को निशाना बनाने वाली सामग्री 36 घंटे में।[^6]\n\n## अभी क्या करें\n\n- साइबर अपराध की शिकायत cybercrime.gov.in पर कीजिए। पैसों की ठगी हो, तो 1930 पर call कीजिए।[^2]\n- शिकायत का status portal पर देखिए। जाँच के बारे में अपने राज्य की पुलिस से पूछिए, I4C से नहीं।[^3]\n- I4C या किसी एजेंसी के अफ़सर के नाम से आए mail पर तुरंत भरोसा मत कीजिए। Portal ने ऐसे नक़ली mail की चेतावनी दी है।[^5]\n- कोई संदिग्ध phone number, WhatsApp number, website या email दिखे, तो portal के 'Report Suspect' में उसकी report कीजिए।[^5]\n- किसी number, email या खाते पर शक हो, तो portal के 'Suspect Repository' में खोजकर देखिए कि वह साइबर अपराधियों से जुड़ा तो नहीं।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
