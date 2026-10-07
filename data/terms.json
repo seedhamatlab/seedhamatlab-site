@@ -5198,6 +5198,204 @@
         }
       ],
       "body": "## मतलब\n\nCredit report का पूरा नाम Credit Information Report (CIR) है। इसे Credit Information Company (CIC) बनाती है। RBI के निर्देशों के मुताबिक CIR में उन loans का ब्योरा होता है, जो ग्राहक ने borrower, co-borrower या guarantor की हैसियत से लिए हैं।[^1]\n\nRBI के पास चार CIC पंजीकृत हैं: CRIF Credit Information Services, Equifax Credit Information Services, Experian Credit Information Company of India और TransUnion CIBIL।[^1] हर bank अपने borrowers की credit information इन सभी CIC को भेजता है।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Loan के फ़ैसले में यही देखी जाती है:** banks को अपनी loan policy में CIC से CIR लेने का इंतज़ाम रखना है, ताकि loan के फ़ैसले credit information के आधार पर हों।[^2]\n- **साल में एक मुफ़्त report:** माँगने पर और पहचान की पुष्टि के बाद, हर CIC साल में एक बार (जनवरी से दिसंबर के बीच, कभी भी) पूरी credit report, credit score समेत, मुफ़्त देगी। यह उन लोगों के लिए है, जिनका credit score उस CIC के पास है।[^1]\n- **Report देखी जाए, तो आपको ख़बर:** जब कोई संस्था आपकी CIR देखे, तो CIC आपको SMS या email से alert भेजेगी, अगर आपका mobile number या email उसके पास है।[^1]\n- **Default की जानकारी जाए, तो भी ख़बर:** bank जब आपके default या days past due (DPD) की जानकारी CIC को भेजे, तो उसे आपको SMS या email से alert भेजना है, अगर number या email उसके पास है।[^2]\n\n## Report में क्या होता है | Report में क्या\n\n- **एक borrower, एक report:** CIC एक borrower की एक ही CIR देती है, चाहे उसके पते एक से ज़्यादा हों। इसके लिए PAN, Voter ID, Passport या Driving Licence number जैसी पहचान इस्तेमाल होती है।[^1]\n- **खातों का क्रम:** एक ग्राहक के कई loan हों, तो पहले चालू खाते, फिर बंद खाते, और फिर NPA, wilful default या suit filed की स्थिति दी जाती है।[^1]\n- **विवाद का ज़िक्र:** कोई जानकारी विवाद में हो और मामला सुलझा न हो, तो report में यह बताया जाता है। ग्राहक चाहे, तो उसकी टिप्पणी भी जोड़ी जा सकती है।[^1]\n- **ठुकराया गया loan नहीं:** CIC पहले ठुकराए गए loan की जानकारी report नहीं करेगी।[^1]\n- **Credit score:** हर CIC score को 300 से 900 के पैमाने पर रखती है।[^1]\n\n## जानकारी CIC तक कैसे पहुँचती है | कैसे बनती है\n\n::flow\n\n- जानकारी महीने की 9, 16, 23 तारीख़ और आख़िरी दिन की स्थिति के हिसाब से CIC को भेजी जाती है। यह नियम 1 जुलाई 2026 से लागू है।[^1]\n- 9, 16 और 23 तारीख़ वाली जानकारी उस तारीख़ से 4 calendar दिन के भीतर भेजनी होती है। इसमें वे खाते आते हैं, जिनमें पिछली बार के बाद कुछ बदला है, जैसे भुगतान या बकाया रकम में बदलाव।[^1]\n- महीने के आख़िरी दिन की पूरी file अगले महीने की 5 तारीख़ तक भेजनी होती है।[^1]\n- Bank को यह पक्का करना है कि कोई भी भुगतान, आख़िरी किस्त समेत, बिना report हुए न रह जाए।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> शिकायत bank या CIC के पास पहली बार दर्ज होने के 30 calendar दिन के भीतर न सुलझे, तो आप हर calendar दिन के ₹100 मुआवज़े के हक़दार हैं।[^1]\n\n- शिकायत पर क्या किया गया, यह आपको हर हाल में बताया जाएगा। शिकायत ख़ारिज हो, तो उसकी वजह भी बताई जाएगी।[^2]\n- मुआवज़ा शिकायत सुलझने के 5 working दिन के भीतर आपके bank खाते में आना चाहिए।[^2]\n- मुआवज़ा ग़लत तरीक़े से न दिया जाए, तो आप RBI Ombudsman के पास जा सकते हैं।[^2]\n\n## अभी क्या करें\n\n- साल में एक बार हर CIC की अपनी website से मुफ़्त report लीजिए। CIC को इसका link अपने homepage पर ही दिखाना है।[^1]\n- Alert तभी आता है, जब आपका mobile number या email दर्ज हो; इसलिए bank के पास इन्हें सही रखिए।[^2]\n- Report में ग़लती दिखे, तो उस bank से या CIC से शिकायत कीजिए। Bank को ऐसी अर्ज़ी लेने का इंतज़ाम रखना है।[^2]\n- ग़लती एक से ज़्यादा संस्थाओं की जानकारी में हो, तो शिकायत CIC के पास दर्ज कीजिए। CIC सभी संस्थाओं से तालमेल करके पूरा समाधान देगी।[^2]\n- शिकायत में अपना contact, email और bank खाते या UPI ID का ब्योरा सही भरिए; मुआवज़ा उसी में आता है, और सही ब्योरा देने की ज़िम्मेदारी आपकी है।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "credit-bureau",
+      "term": "Credit Bureau",
+      "aliases": [
+        "CIC",
+        "Credit Information Company"
+      ],
+      "full": "Credit Information Company (CIC) · आपके loans का record रखने और credit report देने वाली कंपनी",
+      "fullEn": "Credit Information Company (CIC)",
+      "group": "क़र्ज़",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI के Credit Information Companies Directions, 2025 और Commercial Banks – Credit Information Reporting Directions, 2025 से जाँचा; दोनों 1 जुलाई 2026 तक update हैं।"
+        }
+      ],
+      "one": "Credit bureau वह कंपनी है, जो bank और NBFC से आपके loans की जानकारी लेकर आपकी credit report बनाती है। RBI के निर्देशों में इसका नाम Credit Information Company (CIC) है, और ऐसी चार कंपनियाँ RBI के पास पंजीकृत हैं।",
+      "facts": [
+        {
+          "k": "RBI के पास पंजीकृत",
+          "v": "4 CIC",
+          "s": "CIBIL, Experian, Equifax, CRIF"
+        },
+        {
+          "k": "मुफ़्त पूरी report",
+          "v": "साल में 1 बार",
+          "s": "हर CIC से, credit score समेत",
+          "good": true
+        },
+        {
+          "k": "Report देखी जाए तो",
+          "v": "SMS / email alert",
+          "s": "number या email दर्ज हो, तब"
+        },
+        {
+          "k": "शिकायत की समय-सीमा",
+          "v": "30 दिन",
+          "s": "इसके बाद ₹100 रोज़ मुआवज़ा"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank / NBFC",
+            "s": "loan की जानकारी भेजते हैं"
+          },
+          {
+            "t": "CIC",
+            "s": "एक borrower की एक report देती है"
+          },
+          {
+            "t": "Report लेने वाली संस्था",
+            "s": "RBI के निर्देशों में नाम: Specified User"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "हर CIC को",
+            "s": "bank सभी CIC का सदस्य होता है"
+          },
+          {
+            "b": "Credit report",
+            "s": "देखी जाए, तो आपको alert"
+          }
+        ],
+        "note": "Bank को अपनी loan policy में CIC से report लेने का इंतज़ाम रखना है।"
+      },
+      "myths": [
+        {
+          "m": "\"CIBIL ही अकेली credit bureau है।\"",
+          "f": "नहीं। RBI के पास चार CIC पंजीकृत हैं। TransUnion CIBIL उनमें से एक है; बाक़ी तीन CRIF, Equifax और Experian हैं।[^1]"
+        },
+        {
+          "m": "\"Report में ग़लती हो, तो CIC उसे ख़ुद बदल देगी।\"",
+          "f": "ग़लत data वही संस्था ठीक करती है, जिसने उसे भेजा था। CIC तब तक borrower का data नहीं बदलती, जब तक data भेजने वाली संस्था उसे अपने यहाँ ठीक न कर दे।[^1]"
+        },
+        {
+          "m": "\"कोई भी कंपनी मेरी report CIC से ले सकती है।\"",
+          "f": "जो संस्था Specified User नहीं है, उसे CIC किसी व्यक्ति की credit information उस व्यक्ति की सहमति के आधार पर ही देती है। ऐसी संस्था उसे सिर्फ़ तय काम के लिए इस्तेमाल कर सकती है, और किसी और को बेच या दे नहीं सकती।[^1]"
+        },
+        {
+          "m": "\"CIC से शिकायत की, तो हर bank से अलग-अलग शिकायत भी करनी पड़ेगी।\"",
+          "f": "ज़रूरी नहीं। ग़लती एक से ज़्यादा संस्थाओं की जानकारी में हो, तो शिकायत CIC के पास दर्ज होती है, और CIC उन सभी से तालमेल करके पूरा समाधान देती है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Credit bureau और CIC में क्या फ़र्क़ है?",
+          "a": "इस site के लेखों में जिसे credit bureau या bureau लिखा गया है, RBI के निर्देशों में उसका नाम Credit Information Company (CIC) है। निर्देशों के मुताबिक CIC वह कंपनी है, जिसे Credit Information Companies (Regulation) Act, 2005 की धारा 5 के तहत registration का certificate मिला है।"
+        },
+        {
+          "q": "क्या CIBIL ही CIC है?",
+          "a": "TransUnion CIBIL RBI के पास पंजीकृत चार CIC में से एक है। बाक़ी तीन CRIF Credit Information Services, Equifax Credit Information Services और Experian Credit Information Company of India हैं।"
+        },
+        {
+          "q": "क्या चारों CIC का score एक जैसा होगा?",
+          "a": "RBI के निर्देशों के मुताबिक हर CIC credit score को 300 से 900 के पैमाने पर रखती है, ताकि score को एक जैसे तरीक़े से समझा जा सके। चारों का score बराबर होगा, ऐसा निर्देशों में नहीं लिखा है।"
+        },
+        {
+          "q": "CIC के पास मेरी जानकारी कब पहुँचती है?",
+          "a": "Bank और NBFC जैसी संस्थाएँ महीने की 9, 16, 23 तारीख़ और आख़िरी दिन की स्थिति CIC को भेजती हैं। 9, 16 और 23 वाली जानकारी 4 calendar दिन के भीतर, और महीने के आख़िरी दिन की पूरी file अगले महीने की 5 तारीख़ तक भेजनी होती है। यह नियम 1 जुलाई 2026 से लागू है।"
+        },
+        {
+          "q": "जिस bank या NBFC का licence रद्द हो गया, उसके record का क्या होता है?",
+          "a": "RBI के निर्देशों के मुताबिक CIC ऐसे borrowers की report में यह लिखती है कि संस्था बंद होने की वजह से यह record update नहीं हो सकता। Report में उस संस्था को \"Licence Cancelled Entities\" के रूप में दिखाया जाता है।"
+        },
+        {
+          "q": "Score ग़लत लग रहा है। क्या उस पर ₹100 रोज़ वाला मुआवज़ा मिलेगा?",
+          "a": "RBI के निर्देशों के मुताबिक मुआवज़े की यह व्यवस्था credit score की गणना या score के model से जुड़ी शिकायतों पर लागू नहीं होती। यह credit information के update या सुधार में हुई देरी के लिए है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Credit Report"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "RBI Ombudsman"
+        },
+        {
+          "t": "CIBIL"
+        },
+        {
+          "t": "Credit Score"
+        }
+      ],
+      "article": "credit-report-shikayat-kahan",
+      "articleLabel": "Credit report की शिकायत किसके पास करें — bank, bureau या RBI? सही क्रम यह है",
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Credit Information Companies) Directions, 2025 (RBI/DOR/2025-26/378; Updated as on July 01, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12926",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 4(2)",
+              "c": "CIC की परिभाषा; चार CIC के नाम और certificate की तारीख़ें"
+            },
+            {
+              "ref": "पैरा 4(3) और 15(1)",
+              "c": "bank, NBFC जैसी संस्थाएँ जानकारी भेजती हैं; 9, 16, 23 और आख़िरी दिन; 4 calendar दिन; 5 तारीख़; 1 जुलाई 2026 से"
+            },
+            {
+              "ref": "पैरा 18",
+              "c": "licence रद्द हुई संस्था के record पर टिप्पणी और \"Licence Cancelled Entities\""
+            },
+            {
+              "ref": "पैरा 21(1), 21(5), 21(7)",
+              "c": "एक borrower की एक report; ठुकराए गए loan की जानकारी नहीं; score 300 से 900; साल में एक मुफ़्त पूरी report; homepage पर link"
+            },
+            {
+              "ref": "पैरा 24",
+              "c": "Specified User के अलावा किसी संस्था को जानकारी सिर्फ़ सहमति से; तय काम; आगे देना मना; ज़्यादा से ज़्यादा छह महीने; भारत में ही"
+            },
+            {
+              "ref": "पैरा 25(2)",
+              "c": "ग़लत data वही संस्था ठीक करती है, जिसने भेजा था"
+            },
+            {
+              "ref": "पैरा 37(i)",
+              "c": "report देखे जाने पर SMS / email alert"
+            },
+            {
+              "ref": "पैरा 41(1), (3), (5), (6), (7), (8)",
+              "c": "30 दिन बाद ₹100 रोज़; क्या किया गया, यह बताना; शिकायत में खाते का ब्योरा; 5 working दिन; RBI Ombudsman; score की शिकायत पर लागू नहीं"
+            },
+            {
+              "ref": "पैरा 42",
+              "c": "शिकायत पर हुई कार्रवाई और पत्राचार का ब्योरा"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Information Reporting) Directions, 2025 (RBI/DOR/2025-26/156; Updated as on July 01, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13154",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 6 और 10(1)",
+              "c": "bank सभी CIC का सदस्य; सभी CIC को जानकारी भेजना"
+            },
+            {
+              "ref": "पैरा 20",
+              "c": "bank की loan policy में CIC से report लेने का इंतज़ाम"
+            },
+            {
+              "ref": "पैरा 36(5)",
+              "c": "एक से ज़्यादा संस्थाओं वाली शिकायत CIC के पास"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nइस site के लेखों में जिसे credit bureau या bureau लिखा गया है, RBI के निर्देशों में उसका नाम Credit Information Company (CIC) है। निर्देशों के मुताबिक CIC वह कंपनी है, जिसे Credit Information Companies (Regulation) Act, 2005 की धारा 5 के तहत registration का certificate मिला है।[^1]\n\nRBI के पास चार CIC पंजीकृत हैं: Experian Credit Information Company of India (certificate 17 फ़रवरी 2010 का), Equifax Credit Information Services (26 मार्च 2010), CRIF Credit Information Services (25 नवंबर 2010) और TransUnion CIBIL (5 मार्च 2012)।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **आपका record चारों के पास जाता है:** हर bank को सभी CIC का सदस्य बनना है, और अपने borrowers की credit information सभी CIC को भेजनी है।[^2]\n- **साल में एक मुफ़्त पूरी report:** माँगने पर और पहचान की पुष्टि के बाद, हर CIC साल में एक बार पूरी Credit Report, credit score समेत, मुफ़्त देगी। यह उन लोगों के लिए है, जिनका credit score उस CIC के पास है।[^1]\n- **Report देखी जाए, तो आपको ख़बर:** जब कोई Specified User आपकी report देखे, तो CIC आपको SMS या email से alert भेजेगी, अगर आपका mobile number या email उसके पास है।[^1]\n- **Loan का फ़ैसला bank करता है:** bank को अपनी loan policy में CIC से report लेने का इंतज़ाम रखना है, ताकि उसके फ़ैसले credit information के आधार पर हों।[^2]\n\n## जानकारी कैसे चलती है | कैसे चलती है\n\n::flow\n\n- Bank, NBFC और ऐसी दूसरी संस्थाएँ अपने borrowers की credit information CIC को भेजती हैं।[^1]\n- यह जानकारी महीने की 9, 16, 23 तारीख़ और आख़िरी दिन की स्थिति के हिसाब से भेजी जाती है। यह नियम 1 जुलाई 2026 से लागू है।[^1]\n- CIC एक borrower की एक ही report देती है, चाहे उसके पते एक से ज़्यादा हों।[^1]\n- CIC credit score को 300 से 900 के पैमाने पर रखती है।[^1]\n\n## आपकी जानकारी किसे मिल सकती है | किसे मिलती है\n\n- **Specified User:** RBI के निर्देशों में report देखने वाली संस्था को Specified User कहा गया है। वह आपकी report देखे, तो CIC आपको alert भेजती है।[^1]\n- **दूसरी संस्थाएँ, सिर्फ़ आपकी सहमति से:** जो संस्था Specified User नहीं है, उसे CIC किसी व्यक्ति की credit information उस व्यक्ति की सहमति के आधार पर ही देती है। निर्देशों में सहमति का मतलब पहले से दी गई लिखित सहमति है।[^1]\n- **सिर्फ़ तय काम के लिए:** ऐसी संस्था report को सिर्फ़ उसी काम के लिए इस्तेमाल कर सकती है, जिस पर सहमति बनी है। वह उसे किसी और को बेच या दे नहीं सकती।[^1]\n- **छह महीने से ज़्यादा नहीं:** ऐसी संस्था आपकी जानकारी ज़्यादा से ज़्यादा छह महीने रख सकती है। काम पहले पूरा हो जाए, या आप सहमति वापस ले लें, तो उसे जानकारी पहले ही मिटानी होती है।[^1]\n- **भारत में ही:** ऐसी संस्था को मिली credit information भारत में ही रखी और process की जाएगी।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> शिकायत bank या CIC के पास पहली बार दर्ज होने के 30 calendar दिन के भीतर न सुलझे, तो आप हर calendar दिन के ₹100 मुआवज़े के हक़दार हैं।[^1]\n\n- CIC को आपको बताना है कि शिकायत पर क्या किया गया। शिकायत ख़ारिज हो, तो उसकी वजह भी बतानी है।[^1]\n- आप चाहें, तो CIC आपको यह भी बताएगी कि उसने आपकी शिकायत पर संस्थाओं से क्या पत्राचार किया और उनका क्या जवाब आया।[^1]\n- मुआवज़ा शिकायत सुलझने के 5 working दिन के भीतर आपके bank खाते में आना चाहिए।[^1]\n- CIC मुआवज़ा ग़लत तरीक़े से न दे, तो आप RBI Ombudsman के पास जा सकते हैं।[^1]\n\n## अभी क्या करें\n\n- साल में एक बार हर CIC की अपनी website से मुफ़्त report लीजिए। CIC को इसका link अपने homepage पर ही दिखाना है।[^1]\n- Report में ग़लती एक से ज़्यादा संस्थाओं की जानकारी में हो, तो शिकायत CIC के पास दर्ज कीजिए।[^2]\n- शिकायत में अपना contact, email और bank खाते या UPI ID का ब्योरा सही भरिए; मुआवज़ा उसी में आता है।[^1]\n- किसी संस्था को अपनी credit information के लिए सहमति देने से पहले देखिए कि वह किस काम के लिए माँगी जा रही है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
