@@ -3380,6 +3380,230 @@
         }
       ],
       "body": "## मतलब\n\nCFCFRMS यानी Citizen Financial Cyber Fraud Reporting and Management System। यह गृह मंत्रालय के I4C के तहत 2021 में शुरू हुआ, ताकि पैसों की ठगी की तुरंत report हो सके और रक़म ठगों के हाथ में जाने से रोकी जा सके।[^2]\n\nइसे I4C ने ख़ुद बनाया है। यह पुलिस को banks और financial intermediaries से जोड़ता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **आप इस तक दो रास्तों से पहुँचते हैं:** 1930 पर call करके, या cybercrime.gov.in पर report करके।[^3]\n- **देर मत कीजिए:** रक़म तभी रोकी जा सकती है, जब तक ठग उसे digital system से बाहर न निकाल ले।[^1]\n- **Call के बाद काम पूरा नहीं होता:** SMS या mail से मिले Log-in ID या acknowledgement number से 24 घंटे के अंदर cybercrime.gov.in पर शिकायत पूरी करना ज़रूरी है।[^3]\n\n## कैसे काम करता है\n\n::flow\n\nगृह मंत्रालय ने 17 जून 2021 को इसका क्रम बताया था। तब helpline का नंबर 155260 था;[^1] अब 1930 है।[^2]\n\n- ठगी का शिकार helpline पर call करता है। Call संबंधित राज्य की पुलिस उठाती है।\n- पुलिस का operator ठगी वाले लेनदेन का ब्योरा और call करने वाले की बुनियादी जानकारी लेकर CFCFRMS पर ticket बनाता है।\n- Ticket संबंधित bank, wallet या merchant तक जाता है: आपके bank तक, और उस bank या wallet तक जहाँ पैसा गया है।\n- आपको SMS से acknowledgement number मिलता है, और 24 घंटे के अंदर cybercrime.gov.in पर ठगी का पूरा ब्योरा देने को कहा जाता है।\n- Bank को ticket अपने dashboard पर दिखता है। वह अपने system में ब्योरा जाँचता है।\n- रक़म अभी बची है, तो bank उसे रोक देता है, यानी ठग उसे निकाल नहीं सकता। रक़म किसी और bank में जा चुकी है, तो ticket उस bank को चला जाता है। यही क्रम आगे के bank के साथ दोहराया जाता है।\n\n30 जून 2026 तक CFCFRMS से 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा बचाए गए हैं।[^2]\n\n## कौन क्या करता है | कौन क्या\n\n- **आप:** 1930 पर call करते हैं या cybercrime.gov.in पर report करते हैं, और फिर 24 घंटे के अंदर portal पर शिकायत पूरी करते हैं।[^3]\n- **Bank, financial intermediary या payment wallet:** ये भी इन्हीं रास्तों से पैसों की ठगी की report कर सकते हैं।[^3]\n- **पुलिस अधिकारी:** शिकायत मिलने पर मामले को जाँचता है, और जाँच के बाद संबंधित bank, financial intermediary या payment wallet को रक़म रोकने के लिए कहता है।[^3]\n- **I4C:** यह system चलाता है।[^2] वह ख़ुद जाँच एजेंसी नहीं है; जाँच राज्य या केंद्र शासित प्रदेश की पुलिस करती है।[^4]\n- **खाते पर lien या freeze:** I4C के मुताबिक यह फ़ैसला जाँच अधिकारी लेता है, या bank के अधिकारी RBI के नियमों के तहत लेते हैं; I4C नहीं।[^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> ठगी की रक़म जल्दी लौटाने के लिए Money Restoration Module, और खाता freeze या रक़म पर lien की शिकायतें समय पर सुनने के लिए Grievance Redressal Module, अप्रैल 2026 से चालू हैं।[^2]\n\n- गृह मंत्रालय ने NCRP-CFCFRMS के लिए एक SOP जारी किया है। इसमें शिकायत पर कार्रवाई, bank से तालमेल, शिकायत निवारण, lien हटाने और ठगी की रक़म सही दावेदार को लौटाने का ढाँचा तय किया गया है।[^2]\n- हर मामले में पुलिस, bank, payment wallet या financial intermediary क़ानून के मुताबिक कार्रवाई करते हैं।[^3]\n\n## अभी क्या करें\n\n- 1930 अपने phone में save कर लीजिए।\n- ठगी हो जाए, तो तुरंत 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^3]\n- Call के बाद मिला acknowledgement number सँभालकर रखिए, और 24 घंटे के अंदर portal पर शिकायत पूरी कीजिए।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "suspect-registry",
+      "term": "Suspect Registry",
+      "aliases": [
+        "Suspect Repository"
+      ],
+      "full": "साइबर अपराधियों से जुड़ी पहचानों का registry · I4C",
+      "fullEn": "Suspect Registry (I4C)",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। गृह मंत्रालय के press release (10 सितंबर 2024), लोकसभा उत्तर (28 जुलाई 2026) और cybercrime.gov.in के पहले पन्ने और 'Suspect Search' के दोनों पन्नों से जाँचा।"
+        }
+      ],
+      "one": "Suspect Registry साइबर अपराधियों से जुड़ी पहचानों का registry है, जिसे I4C ने banks के साथ मिलकर शुरू किया। नागरिक cybercrime.gov.in की 'Suspect Repository' सुविधा से ख़ुद खोजकर देख सकते हैं कि कोई number, खाता या link साइबर अपराधियों से जुड़ा तो नहीं।",
+      "facts": [
+        {
+          "k": "शुरू हुआ",
+          "v": "10 Sep 2024",
+          "s": "I4C ने, banks के साथ मिलकर"
+        },
+        {
+          "k": "30 जून 2026 तक रोके गए लेनदेन",
+          "v": "₹25,698 करोड़",
+          "s": "गृह मंत्रालय के मुताबिक"
+        },
+        {
+          "k": "ख़ुद कहाँ खोजें",
+          "v": "cybercrime.gov.in",
+          "s": "'Suspect Repository' में",
+          "good": true
+        },
+        {
+          "k": "क्या database पूरा है",
+          "v": "नहीं",
+          "s": "I4C के मुताबिक; ग़लती की गुंजाइश भी है"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "शिकायतें और banks",
+            "s": "portal की शिकायतें, banks से मिला data"
+          },
+          {
+            "t": "Suspect Registry",
+            "s": "पहचानों का registry, I4C के पास"
+          },
+          {
+            "t": "शामिल संस्थाएँ",
+            "s": "data इनके साथ साझा होता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "पहचानें",
+            "s": "registry में जुड़ती हैं"
+          },
+          {
+            "b": "साझा",
+            "s": "registry में शामिल संस्थाओं से"
+          }
+        ],
+        "note": "गृह मंत्रालय के मुताबिक 30 जून 2026 तक ₹25,698 करोड़ के लेनदेन रोके (decline किए) गए।"
+      },
+      "myths": [
+        {
+          "m": "\"खोज में कुछ नहीं मिला, तो number सुरक्षित है।\"",
+          "f": "ज़रूरी नहीं। I4C के मुताबिक यह database पूरा नहीं है, क्योंकि साइबर अपराधी ऐसी पहचानें तेज़ी से बनाते, बदलते और छोड़ते रहते हैं।[^4]"
+        },
+        {
+          "m": "\"इसमें कोई number है, तो वह आदमी अपराधी साबित हो गया।\"",
+          "f": "नहीं। यह database लोगों की शिकायतों के आधार पर बना है। I4C इन शिकायतों के सही होने को प्रमाणित नहीं करता, और मानता है कि इनमें ग़लती की गुंजाइश है।[^4]"
+        },
+        {
+          "m": "\"यह सिर्फ़ पुलिस के काम की चीज़ है।\"",
+          "f": "नहीं। Suspect Registry banks और financial intermediaries के साथ मिलकर बनाया जा रहा है,[^1] और cybercrime.gov.in पर नागरिक भी 'Suspect Repository' में खोज सकते हैं।[^3]"
+        },
+        {
+          "m": "\"किसी की पहचान ग़लती से इसमें आ गई, तो कुछ नहीं हो सकता।\"",
+          "f": "हो सकता है। I4C के मुताबिक जो user किसी पहचान के इस database में होने से असहमत है, वह cyberdost[at]mha[dot]gov[dot]in पर mail भेजकर अपना दावा समझा सकता है और उसके सबूत दे सकता है।[^4]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Suspect Registry कब शुरू हुआ?",
+          "a": "10 सितंबर 2024 को, I4C के पहले स्थापना दिवस के कार्यक्रम में, गृह मंत्री ने इसे शुरू किया।"
+        },
+        {
+          "q": "Suspect Registry और Suspect Repository में क्या फ़र्क़ है?",
+          "a": "गृह मंत्रालय 'Suspect Registry' उस registry को कहता है, जो I4C ने banks और financial institutions के साथ मिलकर शुरू किया। 'Suspect Repository' cybercrime.gov.in की वह सुविधा है, जिससे नागरिक I4C के पास मौजूद साइबर अपराधियों की पहचानों में खोज सकते हैं।"
+        },
+        {
+          "q": "इसमें क्या-क्या खोज सकते हैं?",
+          "a": "Mobile number, e-mail, bank खाता संख्या, social media और UPI ID। Website और mobile app के लिए अलग खोज है।"
+        },
+        {
+          "q": "क्या खोज का नतीजा पक्का होता है?",
+          "a": "नहीं। I4C के मुताबिक यह database लोगों की शिकायतों से बना है, पूरा नहीं है, और इसमें ग़लती की गुंजाइश है। इसलिए I4C ने अपने विवेक से काम लेने की सलाह दी है।"
+        },
+        {
+          "q": "अब तक इससे क्या हुआ है?",
+          "a": "गृह मंत्रालय के मुताबिक 30 जून 2026 तक ₹25,698 करोड़ के लेनदेन रोके गए।"
+        },
+        {
+          "q": "संदिग्ध number या link की report कहाँ करें?",
+          "a": "cybercrime.gov.in की 'Report Suspect' सुविधा पर। वहाँ website URL, WhatsApp number, Telegram handle, phone number, e-mail ID, SMS header या number, और social media URL की report हो सकती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "CFCFRMS"
+        },
+        {
+          "t": "1930"
+        }
+      ],
+      "article": "report-suspect",
+      "articleLabel": "पैसा नहीं गया, लेकिन link संदिग्ध है: कहाँ report करें?",
+      "sources": [
+        {
+          "label": "गृह मंत्रालय (PIB) — I4C का पहला स्थापना दिवस, press release, 10 सितंबर 2024 (Release ID 2053438)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2053438",
+          "issued": "2024-09-10",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "गृह मंत्री ने I4C के पहले स्थापना दिवस के कार्यक्रम में Suspect Registry शुरू किया"
+            },
+            {
+              "ref": "पैरा 5",
+              "c": "हर राज्य का अलग registry काम का नहीं; राष्ट्रीय स्तर पर registry बनाकर राज्यों को जोड़ना"
+            },
+            {
+              "ref": "आख़िरी हिस्सा: Suspect Registry",
+              "c": "पहचानों का registry, NCRP के आधार पर, banks और financial intermediaries के साथ मिलकर; fraud risk सँभालने की क्षमता मज़बूत करने के लिए"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — Cyber Crime Mitigation Centre, लोकसभा में लिखित उत्तर, 28 जुलाई 2026 (Release ID 2290366; बिंदु ऊपर से गिने गए हैं)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290366",
+          "issued": "2026-07-28",
+          "used": [
+            {
+              "ref": "बिंदु 6",
+              "c": "Suspect Registry I4C ने 10 सितंबर 2024 को banks और financial institutions के साथ मिलकर शुरू किया"
+            },
+            {
+              "ref": "बिंदु 6",
+              "c": "30 जून 2026 तक: banks से 30.48 लाख से ज़्यादा संदिग्ध पहचानों का data; 32.08 लाख Layer 1 mule accounts साझा; ₹25,698 करोड़ के लेनदेन decline"
+            },
+            {
+              "ref": "बिंदु 3",
+              "c": "1930 toll-free helpline है, online साइबर शिकायत दर्ज कराने में मदद के लिए"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — पहला पन्ना (Last Updated: 31/08/2026)",
+          "url": "https://cybercrime.gov.in/",
+          "used": [
+            {
+              "ref": "What's new: Suspect Repository",
+              "c": "नागरिक I4C के पास मौजूद साइबर अपराधियों की पहचानों में खोज सकते हैं: mobile number, e-mail ID, खाता संख्या, URL और दूसरी पहचानें"
+            },
+            {
+              "ref": "Menu: Report & Check Suspect",
+              "c": "दो खोज: Check Suspect (mobile, email, etc.) और Check Suspect (Website/App)"
+            },
+            {
+              "ref": "What's new: Report Suspect",
+              "c": "संदिग्ध website URL, WhatsApp number, Telegram handle, phone number, e-mail ID, SMS header या number, social media URL की report"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — Suspect Search: Check Suspect (mobile, email, etc.) (पन्ने पर तारीख़ नहीं है)",
+          "url": "https://cybercrime.gov.in/Webform/suspect_search_repository.aspx",
+          "used": [
+            {
+              "ref": "ऊपर की पंक्ति",
+              "c": "यह repository नागरिकों की साइबर अपराध की शिकायतों के आधार पर बना है"
+            },
+            {
+              "ref": "खोज के विकल्प",
+              "c": "Mobile, E-mail, Bank Account Number, Social Media, UPI ID; mobile number के साथ +91 नहीं"
+            },
+            {
+              "ref": "Disclaimer",
+              "c": "I4C शिकायतों के सही होने को प्रमाणित नहीं करता; वे स्थानीय पुलिस की जाँच का विषय हैं"
+            },
+            {
+              "ref": "Disclaimer",
+              "c": "database पूरा नहीं; ग़लती की गुंजाइश; user अपने विवेक से काम ले"
+            },
+            {
+              "ref": "Disclaimer",
+              "c": "असहमत user cyberdost[at]mha[dot]gov[dot]in पर mail भेजकर अपना दावा समझा सकता है"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — Suspect Search: Check Suspect (Website/App) (पन्ने पर तारीख़ नहीं है)",
+          "url": "https://cybercrime.gov.in/Webform/suspect_search_websites.aspx",
+          "used": [
+            {
+              "ref": "Suspect Type",
+              "c": "खोज के विकल्प: Website Url, Mobile App"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSuspect Registry साइबर अपराधियों से जुड़ी पहचानों (identifiers) का registry है। इसे I4C ने 10 सितंबर 2024 को banks और financial institutions के साथ मिलकर शुरू किया।[^2]\n\nगृह मंत्रालय के मुताबिक यह registry NCRP के आधार पर, banks और financial intermediaries के साथ मिलकर बनाया जा रहा है, ताकि वित्तीय व्यवस्था की fraud risk सँभालने की क्षमता मज़बूत हो।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **आप ख़ुद भी खोज सकते हैं:** cybercrime.gov.in की 'Suspect Repository' सुविधा से नागरिक I4C के पास मौजूद साइबर अपराधियों की पहचानों में खोज सकते हैं: mobile number, e-mail ID, खाता संख्या, URL और दूसरी पहचानें।[^3]\n- **कुछ न मिले, तो भी सावधान रहिए:** I4C ख़ुद कहता है कि यह database पूरा नहीं है।[^4]\n- **संदिग्ध number या link मिला है:** उसकी report cybercrime.gov.in की 'Report Suspect' सुविधा से हो सकती है।[^3]\n\n## Registry कैसे काम करता है | Registry\n\n::flow\n\n- 30 जून 2026 तक banks से मिली 30.48 लाख से ज़्यादा संदिग्ध पहचानों का data, और 32.08 लाख \"Layer 1 mule accounts\", registry में शामिल संस्थाओं के साथ साझा किए गए।[^2]\n- इसी तारीख़ तक ₹25,698 करोड़ के लेनदेन रोके (decline किए) गए।[^2]\n- शुरुआत के समय गृह मंत्री ने कहा था कि हर राज्य का अलग registry काम का नहीं होगा, क्योंकि राज्यों की सीमाएँ होती हैं, पर साइबर अपराधियों की नहीं। इसलिए राष्ट्रीय स्तर पर registry बनाकर राज्यों को उससे जोड़ना ज़रूरी था।[^1]\n\n## ख़ुद कैसे खोजें | ख़ुद खोजें\n\ncybercrime.gov.in के menu में \"Report & Check Suspect\" के नीचे दो खोज हैं:[^3]\n\n- **Check Suspect (mobile, email, etc.):** Mobile, E-mail, Bank Account Number, Social Media या UPI ID से खोज। Mobile number के साथ +91 मत लगाइए।[^4]\n- **Check Suspect (Website/App):** Website URL या Mobile App की खोज।[^5]\n\nखोज के पन्ने पर I4C ने यह भी लिखा है:[^4]\n\n- यह database लोगों से मिली साइबर अपराध की शिकायतों के आधार पर बना है।\n- I4C इन शिकायतों के सही होने को प्रमाणित नहीं करता। वे स्थानीय पुलिस की जाँच का विषय हैं।\n- Database पूरा नहीं है, क्योंकि साइबर अपराधी ऐसी पहचानें तेज़ी से बनाते, बदलते और छोड़ते रहते हैं।\n- जिन reports से यह बना है, उनमें ग़लती की गुंजाइश है। इसलिए user को अपने विवेक से काम लेने की सलाह है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> किसी पहचान के इस database में होने से आप असहमत हैं, तो cyberdost[at]mha[dot]gov[dot]in पर mail भेजकर अपना दावा समझा सकते हैं और उसके सबूत दे सकते हैं।[^4]\n\n## अभी क्या करें\n\n- किसी अनजान number, खाते या link पर शक हो, तो उसे cybercrime.gov.in की 'Suspect Repository' में खोजकर देख सकते हैं।[^3]\n- खोज में कुछ न मिले, तो भी उसे सुरक्षित मत मान लीजिए। Database पूरा नहीं है।[^4]\n- संदिग्ध website, WhatsApp number, Telegram handle, phone number, e-mail, SMS header या social media URL मिले, तो 'Report Suspect' में उसकी report कीजिए।[^3]\n- पैसा कट चुका है, तो 1930 पर call कीजिए। यह online साइबर शिकायत दर्ज कराने में मदद की toll-free helpline है।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
