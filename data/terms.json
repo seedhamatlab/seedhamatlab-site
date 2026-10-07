@@ -6615,6 +6615,202 @@
         }
       ],
       "body": "## मतलब\n\nRBI के निर्देशों के मुताबिक unclaimed deposit bank के किसी deposit खाते की वह जमा रकम है, जो 10 साल या उससे ज़्यादा समय से चलाई नहीं गई, या कोई ऐसी रकम, जिसका 10 साल या उससे ज़्यादा समय से दावा नहीं हुआ।[^1]\n\nऐसी रकम RBI के Depositor Education and Awareness (DEA) Fund में भेजी जाती है, और हर ऐसी जमा को एक Unclaimed Deposit Reference Number (UDRN) दिया जाता है।[^1] इसके बाद भी रकम का दावा उसी bank से किया जा सकता है।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **दावा bank से ही:** UDGAM portal या RBI से रकम नहीं मिलती। Unclaimed deposit का दावा सिर्फ़ उसी bank से किया जा सकता है।[^2]\n- **किसी भी शाखा में KYC:** खाता या जमा चालू कराने के लिए KYC update की सुविधा bank को अपनी सभी शाखाओं में देनी है, home branch के अलावा भी।[^1]\n- **3 working दिन:** पूरा आवेदन मिलने के 3 working दिन के भीतर bank को चालू कराने की अर्ज़ी निपटानी है।[^1]\n- **Savings खाते का ब्याज चलता रहता है:** खाता चल रहा हो या नहीं, savings खाते का ब्याज नियमित रूप से जमा होता है।[^1]\n- **FD पक गई और रकम नहीं ली:** bank में बिना दावे के पड़ी उस रकम पर savings खाते की ब्याज दर या FD की तय दर मिलती है, जो भी कम हो।[^3]\n\n## रकम unclaimed कैसे बनती है | कैसे बनती है\n\n::flow\n\n- खाते में एक साल से ज़्यादा कोई customer-induced लेनदेन न हो, तो bank को चिट्ठी, email या SMS से बताना है कि अगले एक साल में भी लेनदेन न हुआ, तो खाता inoperative हो जाएगा।[^1]\n- FD को renew करने का साफ़ निर्देश न हो, और पकने के बाद रकम न निकाली गई हो, तो bank को ऐसी जमा की समीक्षा करनी है, ताकि वह unclaimed न बने।[^1]\n- Bank को inoperative खाते और unclaimed deposit के धारक से चिट्ठी, email या SMS से संपर्क करना है। Email या SMS हर तिमाही भेजना है।[^1]\n- धारक का पता न चले, तो bank को खाता खुलवाते समय के introducer से, और दर्ज Nominee से संपर्क करना है।[^1]\n- एक ग्राहक के कई खाते या जमा हों, तो हर एक को अलग से परखा जाता है।[^1]\n\n## कैसे ढूँढें | कैसे ढूँढें\n\n- **UDGAM portal:** यह RBI का बनाया online portal है, जहाँ registered user कई banks की unclaimed deposits एक ही जगह खोज सकते हैं।[^2]\n- **खोजने के लिए क्या चाहिए:** खाताधारक का नाम, bank का नाम, और PAN, Driving Licence number, Voter ID number, Passport number या जन्मतिथि में से कोई एक। इनमें से कुछ न हो, तो खाताधारक का पता डालकर भी खोजा जा सकता है।[^2]\n- **सभी bank नहीं:** RBI के FAQ में 4 मार्च 2024 की स्थिति दर्ज है। तब 30 bank portal पर थे, जो रकम के हिसाब से DEA Fund की लगभग 90% unclaimed deposits को cover करते थे।[^2]\n- **Bank की website पर भी:** हर bank को DEA Fund में भेजी गई unclaimed deposits की सूची अपनी website पर रखनी है, खोजने की सुविधा के साथ, और उसे कम से कम हर महीने update करना है।[^1]\n- **सूची में क्या दिखता है:** सिर्फ़ खाताधारक का नाम, पता (PIN code के बिना) और UDRN। खाता number, बकाया रकम और शाखा का नाम नहीं दिखाया जाता।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Unclaimed deposit का दावा उसी bank से किया जा सकता है।[^2] खाताधारक की मृत्यु हो चुकी हो, तो उसका nominee या क़ानूनी वारिस दावा कर सकता है।[^1]\n\n- **KYC के बाद ही चालू:** bank KYC के निर्देश पूरे होने के बाद ही inoperative खाता या unclaimed deposit चालू करता है।[^1]\n- **चालू होते ही सूचना:** bank को SMS और registered email से बताना है कि खाते का inoperative status हटा दिया गया है।[^1]\n- **Video से KYC:** bank को यह सुविधा V-CIP, यानी video से पहचान, के ज़रिए भी देने की कोशिश करनी है।[^1]\n- **प्रक्रिया की जानकारी:** bank को अपनी website और शाखाओं में बताना है कि ऐसा खाता या जमा चालू कैसे होती है, और उसमें पड़ी रकम का दावा कैसे किया जाता है।[^1]\n\n## अभी क्या करें\n\n- UDGAM portal (udgam.rbi.org.in) पर अपने नाम और mobile number से register करके खोजिए।[^2]\n- UDGAM पर न मिले, तो उस bank की website पर unclaimed deposits की सूची में भी खोजिए।[^1]\n- रकम मिल जाए, तो उसी bank की किसी भी शाखा में KYC के काग़ज़ लेकर जाइए।[^1]\n- अपने खातों में ख़ुद लेनदेन करते रहिए। दो साल से ज़्यादा समय तक कोई customer-induced लेनदेन न हो, तो खाता inoperative हो जाता है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "inoperative-account",
+      "term": "Inoperative Account",
+      "aliases": [
+        "Inoperative Accounts",
+        "inoperative"
+      ],
+      "full": "2 साल से ज़्यादा समय से बिना लेनदेन का savings या current खाता · निष्क्रिय खाता",
+      "fullEn": "Account inactive for over two years",
+      "group": "बैंकिंग",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक update) और RBI की FAME पुस्तिका से जाँचा।"
+        }
+      ],
+      "one": "Inoperative account वह savings या current खाता है, जिसमें दो साल से ज़्यादा समय से ग्राहक की तरफ़ से कोई लेनदेन नहीं हुआ। इसे KYC update करके, bank की किसी भी शाखा से, बिना किसी charge के दोबारा चालू कराया जा सकता है।",
+      "facts": [
+        {
+          "k": "कब inoperative",
+          "v": "2 साल से ज़्यादा",
+          "s": "कोई customer induced transaction न हो"
+        },
+        {
+          "k": "चालू कराने का charge",
+          "v": "कोई नहीं",
+          "s": "minimum balance का penal charge भी नहीं",
+          "good": true
+        },
+        {
+          "k": "चालू कराने की अर्ज़ी",
+          "v": "3 working दिन",
+          "s": "पूरा आवेदन मिलने के बाद"
+        },
+        {
+          "k": "KYC update कहाँ",
+          "v": "किसी भी शाखा में",
+          "s": "home branch ज़रूरी नहीं"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "1 साल से ज़्यादा",
+            "s": "लेनदेन नहीं: bank सूचना भेजता है"
+          },
+          {
+            "t": "2 साल से ज़्यादा",
+            "s": "खाता inoperative"
+          },
+          {
+            "t": "KYC update",
+            "s": "खाता दोबारा चालू"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "चिट्ठी, email या SMS",
+            "s": "अगले 1 साल में लेनदेन न हुआ, तो inoperative"
+          },
+          {
+            "b": "3 working दिन",
+            "s": "पूरा आवेदन मिलने के बाद"
+          }
+        ],
+        "note": "आप जवाब देकर वजह बता दें, तो bank खाते को एक साल और operative मानता है।"
+      },
+      "myths": [
+        {
+          "m": "\"खाते में ब्याज आ रहा है, तो वह चालू ही माना जाएगा।\"",
+          "f": "नहीं। Savings खाते के balance पर bank का दिया ब्याज bank induced transaction है। खाता inoperative है या नहीं, यह तय करने में सिर्फ़ customer induced transaction गिने जाते हैं।[^1]"
+        },
+        {
+          "m": "\"Inoperative खाते पर ब्याज मिलना बंद हो जाता है।\"",
+          "f": "नहीं। Savings खाते का ब्याज नियमित रूप से जमा होता है, खाता चल रहा हो या नहीं।[^1]"
+        },
+        {
+          "m": "\"खाता चालू कराने के लिए home branch ही जाना पड़ेगा।\"",
+          "f": "नहीं। Bank को KYC update की सुविधा अपनी सभी शाखाओं में देनी है, home branch के अलावा भी।[^1]"
+        },
+        {
+          "m": "\"खाता चालू कराने पर bank charge या जुर्माना लेगा।\"",
+          "f": "नहीं। Inoperative खाता चालू कराने पर कोई charge नहीं लगता, और inoperative खाते में minimum balance न रखने पर bank penal charge नहीं लगा सकता।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "कितने समय बाद खाता inoperative हो जाता है?",
+          "a": "RBI के निर्देशों के मुताबिक जिस savings या current खाते में दो साल से ज़्यादा समय तक कोई customer induced transaction न हो, वह inoperative account है।"
+        },
+        {
+          "q": "Inoperative खाता कैसे चालू कराएँ?",
+          "a": "KYC update कराना होता है। यह सुविधा bank की सभी शाखाओं में मिलती है, और bank को इसे video से पहचान (V-CIP) के ज़रिए देने की भी कोशिश करनी है। पूरा आवेदन मिलने के 3 working दिन के भीतर bank को अर्ज़ी निपटानी है, और इसका कोई charge नहीं लगता।"
+        },
+        {
+          "q": "क्या inoperative खाते से पैसा निकाल सकते हैं?",
+          "a": "RBI के निर्देशों के मुताबिक bank inoperative खाते में कोई debit लेनदेन तब तक नहीं होने देता, जब तक ग्राहक तय प्रक्रिया से खाता चालू न करा ले।"
+        },
+        {
+          "q": "क्या UPI या ATM का लेनदेन गिना जाता है?",
+          "a": "हाँ। ATM से निकासी या जमा, RTGS, NEFT, IMPS और UPI के लेनदेन, internet banking, debit card के लेनदेन, cheque clearing और standing instruction, सब customer induced transaction की सूची में हैं।"
+        },
+        {
+          "q": "क्या FD का ब्याज आने से खाता चालू माना जाएगा?",
+          "a": "हाँ। RBI के निर्देशों की सूची में term deposit का ब्याज या रकम और shares का dividend शामिल हैं। RBI की FAME पुस्तिका में भी लिखा है कि FD के ब्याज या dividend को खाते में जमा करने का mandate customer induced transaction माना जाता है।"
+        },
+        {
+          "q": "क्या scholarship या सरकारी लाभ वाला खाता भी inoperative हो जाता है?",
+          "a": "RBI के निर्देशों के मुताबिक सरकारी योजनाओं के लाभार्थियों और scholarship पाने वाले छात्रों के लिए खुले zero balance खातों को bank अलग रखता है, ताकि दो साल तक न चलने पर भी उन पर 'inoperative' वाली शर्त लागू न हो।"
+        },
+        {
+          "q": "चालू होने के बाद क्या खाते पर कोई पाबंदी रहती है?",
+          "a": "Bank चाहे, तो चालू होने के बाद कुछ समय के लिए लेनदेन की संख्या और रकम पर वैसी पाबंदी रख सकता है, जैसी नए खुले खातों पर होती है।"
+        },
+        {
+          "q": "Inoperative account और unclaimed deposit में क्या फ़र्क़ है?",
+          "a": "दो साल से ज़्यादा समय तक customer induced transaction न हो, तो खाता inoperative है। जो जमा 10 साल या उससे ज़्यादा समय से चलाई नहीं गई, वह unclaimed deposit है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Unclaimed Deposit"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "Debit Card"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "UDGAM"
+        }
+      ],
+      "article": "purana-khata-udgam",
+      "articleLabel": "पुरानी passbook या FD पड़ी है? बैंक का पैसा 10 साल बाद भी आपका ही रहता है",
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 4(4), 4(10), 4(16) और 4(21)",
+              "c": "bank induced transaction, customer induced transaction, inoperative account और non-financial transaction की परिभाषाएँ"
+            },
+            {
+              "ref": "पैरा 4(27)",
+              "c": "unclaimed deposit की परिभाषा"
+            },
+            {
+              "ref": "पैरा 192, 194, 195 और 196",
+              "c": "एक साल बाद सूचना; जवाब देने पर एक साल और; सिर्फ़ customer induced transaction गिने जाते हैं; हर खाता अलग से"
+            },
+            {
+              "ref": "पैरा 197 और 198",
+              "c": "दूसरे bank में shift होने पर बची रकम; सरकारी लाभ और scholarship के खाते"
+            },
+            {
+              "ref": "पैरा 204, 205 और 207",
+              "c": "सभी शाखाओं में KYC; V-CIP; KYC के बाद ही चालू; चालू होने की सूचना; 3 working दिन"
+            },
+            {
+              "ref": "पैरा 208, 209 और 210",
+              "c": "savings खाते का ब्याज; penal charge नहीं; चालू कराने का charge नहीं"
+            },
+            {
+              "ref": "पैरा 212",
+              "c": "चालू होने तक debit नहीं; चालू होने के बाद की पाबंदी"
+            },
+            {
+              "ref": "पैरा 214",
+              "c": "चालू कराने की प्रक्रिया की जानकारी website और शाखाओं में"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Financial Awareness Messages (FAME), Fourth Edition, February 2024 — Message 5: Inoperative Accounts",
+          "url": "https://www.rbi.org.in/commonman/images/FAME202426022024.pdf",
+          "used": [
+            {
+              "ref": "Message 5, पन्ना 9",
+              "c": "FD के ब्याज या dividend का mandate customer induced transaction माना जाता है"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के निर्देशों के मुताबिक inoperative account वह savings या current खाता है, जिसमें दो साल से ज़्यादा समय तक कोई \"customer induced transaction\" नहीं हुआ।[^1]\n\nCustomer induced transaction में तीन तरह की चीज़ें आती हैं: ग्राहक का किया हुआ या उसके कहने पर हुआ पैसों का लेनदेन, बिना पैसों वाला (non-financial) लेनदेन, और KYC update।[^1] Bank के लगाए charge और savings खाते के balance पर दिया गया ब्याज \"bank induced transaction\" हैं, और खाता inoperative है या नहीं, यह तय करने में नहीं गिने जाते।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **चालू कराने का कोई charge नहीं:** inoperative खाता चालू कराने पर bank कोई charge नहीं ले सकता।[^1]\n- **Minimum balance का जुर्माना नहीं:** inoperative खाते में minimum balance न रखने पर bank penal charge नहीं लगा सकता।[^1]\n- **ब्याज चलता रहता है:** savings खाते का ब्याज नियमित रूप से जमा होता है, खाता चल रहा हो या नहीं।[^1]\n- **किसी भी शाखा से:** खाता चालू कराने के लिए KYC update की सुविधा bank को अपनी सभी शाखाओं में देनी है, home branch के अलावा भी।[^1]\n- **चालू होने तक debit नहीं:** bank inoperative खाते में कोई debit लेनदेन तब तक नहीं होने देता, जब तक ग्राहक तय प्रक्रिया से खाता चालू न करा ले।[^1]\n\n## खाता inoperative कैसे बनता है और चालू कैसे होता है | कैसे चलता है\n\n::flow\n\n- खाते में एक साल से ज़्यादा कोई customer induced transaction न हो, तो bank को चिट्ठी, email या SMS से बताना है कि अगले एक साल में भी लेनदेन न हुआ, तो खाता inoperative हो जाएगा।[^1]\n- आप जवाब देकर खाता न चलाने की वजह बता दें, तो bank खाते को एक साल और operative मानता है, और आपको उस एक साल के भीतर खाता चलाने को कहता है।[^1]\n- यह वर्गीकरण खाते का होता है, ग्राहक का नहीं। एक ग्राहक के कई खाते हों, तो हर खाते को अलग से परखा जाता है।[^1]\n- सरकारी योजनाओं के लाभार्थियों और scholarship पाने वाले छात्रों के लिए खुले zero balance खातों पर 'inoperative' वाली शर्त लागू नहीं होती।[^1]\n- खाता KYC के निर्देश पूरे होने के बाद ही चालू होता है, और चालू होते ही bank SMS और registered email से बताता है कि inoperative status हट गया है।[^1]\n\n## कौन-सा लेनदेन गिना जाता है | क्या गिना जाता है\n\n- **पैसों का लेनदेन:** ATM से या नक़द निकासी और जमा; RTGS, NEFT, IMPS और UPI के लेनदेन; internet banking; Debit Card के लेनदेन; cheque clearing; आपका दिया standing instruction; NACH के debit और credit।[^1]\n- **खाते में आने वाली ये रकमें भी:** term deposit का ब्याज या रकम, shares का dividend, Direct Benefit Transfer (DBT) की रकम, और e-commerce या income tax के refund।[^1] RBI की FAME पुस्तिका में भी लिखा है कि FD के ब्याज या dividend को खाते में जमा करने का mandate customer induced transaction माना जाता है।[^2]\n- **बिना पैसों वाला लेनदेन:** ATM, internet banking या mobile banking app से की गई ऐसी enquiry या request, जिसमें two-factor authentication लगता है; या internet banking / mobile banking app में सफल log-in। जैसे balance enquiry, cheque book की request, या nomination में बदलाव।[^1]\n- **KYC update:** शाखा में जाकर, या bank की internet banking या mobile banking app से।[^1]\n- **जो नहीं गिना जाता:** bank के लगाए हर तरह के charge, काटा गया tax, और savings खाते के balance पर दिया गया ब्याज।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Inoperative खाता चालू कराने पर bank कोई charge नहीं ले सकता, और पूरा आवेदन मिलने के 3 working दिन के भीतर उसे अर्ज़ी निपटानी है।[^1]\n\n- **चालू होने की सूचना:** bank को SMS और registered email से बताना है कि inoperative status हट गया है, और यह भी कि बिना इजाज़त खाते तक पहुँच की report कैसे की जाए।[^1]\n- **Video से KYC:** bank को KYC update की सुविधा V-CIP, यानी video से पहचान, के ज़रिए भी देने की कोशिश करनी है।[^1]\n- **प्रक्रिया की जानकारी:** bank को अपनी website और शाखाओं में बताना है कि inoperative खाता चालू कैसे कराया जाता है।[^1]\n\n## अभी क्या करें\n\n- जिन खातों का इस्तेमाल कम है, उनमें दो साल के भीतर ख़ुद कोई लेनदेन कर दीजिए।[^1]\n- Bank की चिट्ठी, email या SMS आए कि खाते में एक साल से लेनदेन नहीं हुआ, तो जवाब दीजिए या खाता चला दीजिए।[^1]\n- खाता inoperative हो चुका हो, तो KYC के काग़ज़ लेकर bank की किसी भी शाखा में जाइए।[^1]\n- अपना मुख्य खाता किसी और bank में ले गए हों, तो पुराने bank को नए खाते का ब्योरा और authorisation देकर बची हुई रकम transfer कराई जा सकती है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
