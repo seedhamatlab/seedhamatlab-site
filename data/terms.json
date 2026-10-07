@@ -4800,6 +4800,206 @@
         }
       ],
       "body": "## मतलब\n\nCVV यानी Card Verification Value। RBI की जागरूकता पुस्तिका BE(A)WARE के मुताबिक यह card पर छपा 3 अंकों का number है, जो ज़्यादातर online लेनदेन पूरा करने के लिए ज़रूरी होता है। यह गोपनीय है, और इसे कभी किसी को नहीं बताना है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **CVV किसी को मत बताइए:** RBI ने कहा है कि Password, PIN, OTP, CVV और UPI-PIN किसी से साझा न करें।[^2]\n- **Bank भी नहीं माँगता:** RBI के मुताबिक bank और payment system operator password, PIN, OTP या CVV number जैसी जानकारी कभी नहीं माँगते।[^2]\n- **Card number भी सँभालकर:** RBI की पुस्तिका के मुताबिक card number भुगतान के लिए merchant को देना होता है; उसके अलावा किसी से साझा नहीं करना है।[^1]\n\n## CVV कहाँ काम आता है | कहाँ काम आता है\n\n::flow\n\n- RBI की पुस्तिका के मुताबिक पहचान के तीन तरह के factor होते हैं: जो user जानता है (जैसे password या PIN); जो user के पास है (जैसे card number, expiry date और card पर छपा CVV); और जो user ख़ुद है (जैसे fingerprint)।[^1]\n- Two-factor authentication में इनमें से दो अलग चीज़ें मिलाकर user की पहचान होती है, ताकि लेनदेन पूरा हो सके।[^1]\n- इस बँटवारे में CVV \"जो user के पास है\" वाले हिस्से में आता है।[^1]\n\n## Card की जानकारी कैसे बचाएँ | कैसे बचाएँ\n\nRBI की पुस्तिका की सलाह:[^1]\n\n- PIN, password, card number और CVV गोपनीय रखिए। इन्हें bank, वित्तीय संस्थाओं, दोस्तों और परिवार वालों से भी साझा मत कीजिए।\n- Card की जानकारी website, device या public laptop / desktop पर save करने से बचिए।\n- Online भुगतान से पहले देखिए कि payment gateway सुरक्षित है: URL https:// से शुरू हो और उसके साथ ताले (padlock) का निशान हो।\n- Card कुछ समय इस्तेमाल नहीं करना है, तो उसके online लेनदेन (देश के और विदेश के, दोनों) बंद कर दीजिए, और ज़रूरत पड़ने पर ही चालू कीजिए।\n- दुकान पर card swipe होते समय उसे अपनी नज़र से दूर मत जाने दीजिए।\n\n## Tokenisation: card की असली जानकारी दिए बिना भुगतान | Tokenisation\n\n- RBI के मुताबिक tokenisation में card की असली जानकारी की जगह एक अलग code इस्तेमाल होता है, जिसे token कहते हैं।[^3]\n- Tokenised card से हुआ लेनदेन ज़्यादा सुरक्षित माना जाता है, क्योंकि लेनदेन के दौरान card की असली जानकारी merchant के साथ साझा नहीं होती।[^3]\n- इसके लिए ग्राहक को कोई शुल्क नहीं देना होता। यह अनिवार्य भी नहीं है: card tokenise कराना या न कराना ग्राहक की मर्ज़ी है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Bank और payment system operator आपसे password, PIN, OTP या CVV number नहीं माँगते।[^2]\n\n- Card tokenise कराना आपकी मर्ज़ी है, और इसका कोई शुल्क नहीं है।[^3]\n\n## अभी क्या करें\n\n- CVV किसी call, message या email पर मत बताइए।[^2]\n- जिस card का इस्तेमाल अभी नहीं हो रहा, उसके online लेनदेन बंद कर दीजिए।[^1]\n- ठगी हो जाए, तो card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए; फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "screen-sharing",
+      "term": "Screen Sharing",
+      "aliases": [
+        "screen-sharing",
+        "screen share",
+        "Remote Access",
+        "remote-access"
+      ],
+      "full": "दूर बैठे किसी को अपने phone या computer की screen दिखाना या चलाने देना",
+      "fullEn": "Remote access fraud",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI की जागरूकता पुस्तिका BE(A)WARE, CERT-In की advisory CIAD-2020-0003 (30 जनवरी 2020) और Sanchar Saathi portal (5 अक्टूबर 2026 को update) से जाँचा।"
+        }
+      ],
+      "one": "Screen sharing app से दूर बैठा कोई व्यक्ति आपके phone या laptop को देख सकता है और चला भी सकता है। ठग यही app आपसे डलवाकर आपकी गोपनीय जानकारी तक पहुँच जाते हैं और खाते से पैसा निकाल लेते हैं।",
+      "facts": [
+        {
+          "k": "यह app क्या करने देता है",
+          "v": "देखना और चलाना",
+          "s": "आपका mobile या laptop, दूर बैठे"
+        },
+        {
+          "k": "ठग कौन बनकर आता है",
+          "v": "कंपनी का आदमी",
+          "s": "आपकी दिक़्क़त सुलझाने के बहाने"
+        },
+        {
+          "k": "ऐसा app कब डालें",
+          "v": "Official toll-free से कहा जाए, तभी",
+          "s": "number कंपनी की official website का हो",
+          "good": true
+        },
+        {
+          "k": "पैसा कट जाए तो",
+          "v": "1930",
+          "s": "या cybercrime.gov.in; card भी block कराइए"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "ठग",
+            "s": "कंपनी का आदमी बनकर मदद का नाटक"
+          },
+          {
+            "t": "आपका phone",
+            "s": "app डलते ही ठग उसे दूर से देख और चला सकता है"
+          },
+          {
+            "t": "आपका खाता",
+            "s": "Internet banking या payment app से पैसा निकलता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "App डलवाता है",
+            "s": "दिक़्क़त सुलझाने के बहाने"
+          },
+          {
+            "b": "जानकारी लेता है",
+            "s": "card, bank, UPI PIN, OTP"
+          }
+        ],
+        "note": "CERT-In के मुताबिक ठग screen sharing app के ज़रिए आपके device पर OTP भी देख लेता है।"
+      },
+      "myths": [
+        {
+          "m": "\"मैंने OTP किसी को बताया ही नहीं, तो पैसा कैसे जा सकता है।\"",
+          "f": "CERT-In के मुताबिक ठग screen sharing app के ज़रिए आपके device पर OTP ख़ुद देख लेता है।[^2]"
+        },
+        {
+          "m": "\"Customer care वाले ने कहा है, तो app डालना ही पड़ेगा।\"",
+          "f": "RBI की पुस्तिका के मुताबिक ऐसा app तभी डालिए, जब कंपनी की official website पर लिखे toll-free number से ऐसा कहा जाए। कंपनी का कोई कर्मचारी अपने निजी number से संपर्क करके कहे, तो मत डालिए।[^1]"
+        },
+        {
+          "m": "\"Search में जो customer care number दिखा, वह कंपनी का ही होगा।\"",
+          "f": "ज़रूरी नहीं। RBI के मुताबिक search engine पर दिखे number अक्सर उस संस्था के नहीं होते; ठग उन्हें ऐसा दिखाते हैं।[^1] CERT-In भी कहता है कि search engine पर मिले customer support number पर call मत कीजिए; कंपनी की website पर दिया number इस्तेमाल कीजिए।[^2]"
+        },
+        {
+          "m": "\"काम हो गया; अब app phone में पड़ा रहे, तो क्या हर्ज है।\"",
+          "f": "RBI की पुस्तिका कहती है कि काम पूरा होते ही screen sharing app को अपने device से हटा दीजिए।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Screen sharing और remote access में क्या फ़र्क़ है?",
+          "a": "RBI की पुस्तिका दोनों को एक ही शीर्षक में रखती है: \"Frauds using screen sharing app / Remote access\"। पुस्तिका में Remote Access का मतलब है ग्राहक को बहकाकर उसके mobile या computer में ऐसा app डलवाना, जो उस device पर मौजूद ग्राहक का सारा data देख सके।"
+        },
+        {
+          "q": "क्या screen sharing app डालना हमेशा ग़लत है?",
+          "a": "नहीं। CERT-In के मुताबिक लोग इन्हें निजी और पेशेवर, दोनों तरह के काम में दूर से दिक़्क़त ठीक करने के लिए इस्तेमाल करते रहे हैं। RBI की पुस्तिका कहती है कि ऐसा app तभी डालिए, जब कंपनी की official website पर लिखे toll-free number से ऐसा कहा जाए।"
+        },
+        {
+          "q": "ठग मेरा OTP कैसे देख लेता है?",
+          "a": "CERT-In के मुताबिक ठग पैसा अपने खाते में transfer करने के लिए SMS से OTP भिजवाता है, या screen sharing app के ज़रिए आपके device पर OTP देख लेता है।"
+        },
+        {
+          "q": "कोई नया app डालते समय क्या देखें?",
+          "a": "RBI की पुस्तिका के मुताबिक app किसने बनाया है और उसकी user rating क्या है, यह देखिए। App आपके data की कौन-कौन सी permission माँग रहा है, जैसे contacts या photos, यह भी देखिए; सिर्फ़ वही permission दीजिए, जो app चलाने के लिए बिलकुल ज़रूरी हो।"
+        },
+        {
+          "q": "App डाल दिया और पैसा कट गया, अब क्या करूँ?",
+          "a": "RBI की पुस्तिका के मुताबिक card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए। Net banking और Mobile banking जैसे बाक़ी रास्ते भी जाँचिए। फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।"
+        },
+        {
+          "q": "ऐसी call की report कहाँ करें?",
+          "a": "ठगी की कोशिश वाली call की report Sanchar Saathi के Chakshu पर होती है। पैसा जा चुका हो, तो 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Fake Customer Care"
+        },
+        {
+          "t": "Vishing"
+        },
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "UPI PIN"
+        },
+        {
+          "t": "Chakshu"
+        },
+        {
+          "t": "1930"
+        }
+      ],
+      "article": "screen-share-containment",
+      "articleLabel": "Screen-sharing access दे दी? अभी क्या बंद करें, किसे बताएं",
+      "sources": [
+        {
+          "label": "RBI — BE(A)WARE: A Booklet on Modus Operandi of Financial Fraudsters (पुस्तिका पर तारीख़ नहीं है; पन्ना संख्या पुस्तिका की है)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/BEAWARE07032022.pdf",
+          "used": [
+            {
+              "ref": "Part A, 6 (पन्ना 8)",
+              "c": "ठग screen sharing app डलवाता है; mobile / laptop देख और चला सकता है; Internet banking / payment app से पैसा निकालता है"
+            },
+            {
+              "ref": "Part A, 6: Precautions",
+              "c": "पहले payment apps से log out; official toll-free number से कहा जाए, तभी app; निजी number से कहे तो नहीं; काम के बाद app हटाना"
+            },
+            {
+              "ref": "Glossary: Remote Access (पन्ना 34)",
+              "c": "Remote Access का मतलब"
+            },
+            {
+              "ref": "Part A, 4 (पन्ना 6)",
+              "c": "link से आया नक़ली app और device की पूरी access; अनजान व्यक्ति के कहने पर app नहीं; बनाने वाला, rating और permission देखना"
+            },
+            {
+              "ref": "Part A, 8 (पन्ना 10)",
+              "c": "search engine पर दिखे नक़ली customer care number; number official website से लेना"
+            },
+            {
+              "ref": "Part C (पन्ना 27)",
+              "c": "ठगी के बाद: card block, खाते से debit रुकवाना, बाक़ी banking रास्ते जाँचना; 1930 या cybercrime.gov.in"
+            }
+          ]
+        },
+        {
+          "label": "CERT-In — Advisory CIAD-2020-0003: Fraudulent Activity Using Screen Sharing Apps",
+          "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2020-0003&pageid=PUBVLNOTES02",
+          "issued": "2020-01-30",
+          "used": [
+            {
+              "ref": "Description",
+              "c": "screen sharing app किस काम आते हैं; phone की पूरी access और control"
+            },
+            {
+              "ref": "How it works",
+              "c": "कंपनी का प्रतिनिधि बनना; app download करवाना; card, bank, UPI PIN, OTP type करवाकर record करना; OTP देखना"
+            },
+            {
+              "ref": "Best practices",
+              "c": "search engine पर मिले customer support number पर call नहीं; कंपनी की website का number"
+            }
+          ]
+        },
+        {
+          "label": "दूरसंचार विभाग (DoT) — Sanchar Saathi portal: पहला पन्ना, About और Frequently Asked Questions (Website Last Updated: 05-10-2026)",
+          "url": "https://sancharsaathi.gov.in/",
+          "used": [
+            {
+              "ref": "About और FAQ: Chakshu",
+              "c": "ठगी की कोशिश वाली call की report; पैसा जा चुका हो तो 1930 या cybercrime.gov.in; report करने वाले की जानकारी गोपनीय"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nScreen sharing app ऐसा software है, जिससे दूर बैठा कोई व्यक्ति आपके phone तक पहुँच सकता है। CERT-In के मुताबिक लोग इसे दूर से किसी की दिक़्क़त ठीक करने के लिए इस्तेमाल करते रहे हैं, और ये apps user के phone की पूरी access और control दे देते हैं।[^2]\n\nRBI की जागरूकता पुस्तिका BE(A)WARE के मुताबिक ठग ग्राहक को बहकाकर यही app उससे download करवा लेते हैं। फिर वे ग्राहक का mobile या laptop देख सकते हैं और चला भी सकते हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **App डलते ही आपका device ठग की पहुँच में:** ठग दूर बैठे आपकी जानकारी तक पहुँच जाता है और device पर पूरा control पा लेता है।[^2]\n- **OTP बताए बिना भी दिख सकता है:** ठग screen sharing app के ज़रिए आपके device पर OTP देख लेता है।[^2]\n- **ऐसा app किसके कहने पर डालें:** तभी, जब कंपनी की official website पर लिखे toll-free number से ऐसा कहा जाए। कंपनी का कोई कर्मचारी अपने निजी number से कहे, तो मत डालिए।[^1]\n\n## ठगी कैसे होती है | कैसे होती है\n\n::flow\n\n- ठग किसी कंपनी का प्रतिनिधि बनकर आता है और आपकी दिक़्क़त सुलझाने का नाटक करता है।[^2]\n- वह आपसे एक screen sharing app download करने को कहता है।[^2]\n- App डलते ही ठग दूर बैठे आपकी जानकारी तक पहुँच जाता है और device पर पूरा control पा लेता है।[^2]\n- फिर वह आपसे card का प्रकार, bank की जानकारी, UPI PIN या OTP जैसी चीज़ें type करवाता है, और उन्हें record कर लेता है।[^2]\n- इसी जानकारी से वह आपके Internet banking या payment app के ज़रिए पैसा transfer कर लेता है या भुगतान कर देता है।[^1]\n\n## मिलते-जुलते तरीक़े\n\nRBI की पुस्तिका में ये तरीक़े अलग से दर्ज हैं:[^1]\n\n- **Link से आया नक़ली app:** ठग SMS, email, social media या Instant Messenger से ऐसे app के link भेजते हैं, जो किसी असली संस्था के app जैसे दिखते हैं। ऐसा app डलते ही ठग को device की पूरी access मिल जाती है; इसमें device में रखी गोपनीय जानकारी, और app डलने से पहले या बाद में आए message और OTP भी शामिल हैं।\n- **Search से मिला नक़ली customer care number:** ग्राहक search engine पर customer care का number ढूँढता है। वहाँ दिखा number अक्सर उस संस्था का नहीं होता; ठग उसे ऐसा दिखाते हैं।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> ठगी की कोशिश वाली call की report आप Chakshu पर कर सकते हैं। Report करने वाले नागरिक की जानकारी गोपनीय रखी जाती है।[^3]\n\n- Chakshu पैसे की ठगी की शिकायत की जगह नहीं है। पैसा जा चुका हो, तो शिकायत 1930 या cybercrime.gov.in पर होती है।[^3]\n\n## अभी क्या करें\n\n- किसी अनजान व्यक्ति के कहने पर कोई app मत डालिए।[^1]\n- Customer care का number कंपनी की official website से ही लीजिए।[^1]\n- किसी technical दिक़्क़त के लिए screen sharing app डालना ही पड़े, तो पहले अपने सारे payment apps से log out कर लीजिए या उन्हें deactivate कर दीजिए।[^1]\n- काम पूरा होते ही वह app अपने device से हटा दीजिए।[^1]\n- ठगी की कोशिश हुई, पर पैसा नहीं गया: Chakshu पर report कीजिए।[^3]\n- पैसा कट गया: card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए; Net banking और Mobile banking जैसे बाक़ी रास्ते भी जाँचिए। फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
