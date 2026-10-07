@@ -50,6 +50,12 @@ const CARDS = {
   "report-suspect": { label: "REPORT GUIDE", icon: "✓", headline: "सिर्फ suspect message?", points: ["URL / number note", "I4C Report Suspect", "पैसा गया तो 1930"] },
   "screen-share-containment": { label: "ACT NOW", icon: "!", headline: "Screen access दे दी?", points: ["Session बंद करें", "Bank को बताएं", "Access हटाकर जांचें"] },
   "sim-connections-check": { label: "SELF CHECK", icon: "◎", headline: "आपके नाम पर कितनी SIM?", points: ["Sanchar Saathi खोलें", "Connections देखें", "Unknown number report"] },
+  "credit-report-muft-kaise": { label: "KNOW YOUR RIGHT", icon: "✓", headline: "Credit report मुफ़्त चाहिए?", points: ["Bureau की अपनी site से लें", "साल में 1 बार, चारों से", "PDF संभालकर रखें"] },
+  "credit-report-shikayat-kahan": { label: "COMPLAINT GUIDE", icon: "→", headline: "Report की शिकायत कहाँ?", points: ["Bank या bureau से शिकायत", "तारीख़ और number लिखें", "फिर RBI Ombudsman"] },
+  "credit-report-kab-update": { label: "TIMELINE", icon: "◎", headline: "Loan चुकाया, report कब बदलेगी?", points: ["तारीख़ों से हिसाब लगाएं", "रसीद और NOC रखें", "देर हो तो शिकायत करें"] },
+  "upi-mdr-15-october": { label: "FACT CHECK", icon: "₹", headline: "UPI पर charge लगेगा?", points: ["ग्राहक से शुल्क नहीं", "ग़लत forward न भेजें", "अलग fee माँगें तो मना करें"] },
+  "purana-khata-udgam": { label: "UNCLAIMED MONEY", icon: "◎", headline: "पुराना खाता या FD?", points: ["UDGAM पर नाम से खोजें", "उसी bank की शाखा जाएं", "शुल्क माँगें तो मना करें"] },
+  "khata-freeze-cyber": { label: "ACCOUNT FREEZE", icon: "!", headline: "खाता freeze हो गया?", points: ["Bank से लिखित ब्योरा माँगें", "उसी पुलिस इकाई से संपर्क", "अपने कागज़ संभालें"] },
 };
 const MONTHS = ["जन", "फ़र", "मार्च", "अप्रैल", "मई", "जून", "जुल", "अग", "सित", "अक्तू", "नव", "दिस"];
 
@@ -1547,6 +1553,7 @@ function main() {
   const ogCards = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "post-og.json"), "utf8"));
   for (const p of posts) {
     if (!ogCards[p.id]) throw new Error(`Missing share preview: ${p.id}`);
+    if (!CARDS[p.id]) throw new Error(`Missing banner card: ${p.id}`);
   }
 
   // Shabdkosh: data/terms.json ke shabd. Pehle padhte hain taaki lekhon me neele link ban saken.
