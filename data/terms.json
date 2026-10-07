@@ -6811,6 +6811,278 @@
         }
       ],
       "body": "## मतलब\n\nRBI के निर्देशों के मुताबिक inoperative account वह savings या current खाता है, जिसमें दो साल से ज़्यादा समय तक कोई \"customer induced transaction\" नहीं हुआ।[^1]\n\nCustomer induced transaction में तीन तरह की चीज़ें आती हैं: ग्राहक का किया हुआ या उसके कहने पर हुआ पैसों का लेनदेन, बिना पैसों वाला (non-financial) लेनदेन, और KYC update।[^1] Bank के लगाए charge और savings खाते के balance पर दिया गया ब्याज \"bank induced transaction\" हैं, और खाता inoperative है या नहीं, यह तय करने में नहीं गिने जाते।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **चालू कराने का कोई charge नहीं:** inoperative खाता चालू कराने पर bank कोई charge नहीं ले सकता।[^1]\n- **Minimum balance का जुर्माना नहीं:** inoperative खाते में minimum balance न रखने पर bank penal charge नहीं लगा सकता।[^1]\n- **ब्याज चलता रहता है:** savings खाते का ब्याज नियमित रूप से जमा होता है, खाता चल रहा हो या नहीं।[^1]\n- **किसी भी शाखा से:** खाता चालू कराने के लिए KYC update की सुविधा bank को अपनी सभी शाखाओं में देनी है, home branch के अलावा भी।[^1]\n- **चालू होने तक debit नहीं:** bank inoperative खाते में कोई debit लेनदेन तब तक नहीं होने देता, जब तक ग्राहक तय प्रक्रिया से खाता चालू न करा ले।[^1]\n\n## खाता inoperative कैसे बनता है और चालू कैसे होता है | कैसे चलता है\n\n::flow\n\n- खाते में एक साल से ज़्यादा कोई customer induced transaction न हो, तो bank को चिट्ठी, email या SMS से बताना है कि अगले एक साल में भी लेनदेन न हुआ, तो खाता inoperative हो जाएगा।[^1]\n- आप जवाब देकर खाता न चलाने की वजह बता दें, तो bank खाते को एक साल और operative मानता है, और आपको उस एक साल के भीतर खाता चलाने को कहता है।[^1]\n- यह वर्गीकरण खाते का होता है, ग्राहक का नहीं। एक ग्राहक के कई खाते हों, तो हर खाते को अलग से परखा जाता है।[^1]\n- सरकारी योजनाओं के लाभार्थियों और scholarship पाने वाले छात्रों के लिए खुले zero balance खातों पर 'inoperative' वाली शर्त लागू नहीं होती।[^1]\n- खाता KYC के निर्देश पूरे होने के बाद ही चालू होता है, और चालू होते ही bank SMS और registered email से बताता है कि inoperative status हट गया है।[^1]\n\n## कौन-सा लेनदेन गिना जाता है | क्या गिना जाता है\n\n- **पैसों का लेनदेन:** ATM से या नक़द निकासी और जमा; RTGS, NEFT, IMPS और UPI के लेनदेन; internet banking; Debit Card के लेनदेन; cheque clearing; आपका दिया standing instruction; NACH के debit और credit।[^1]\n- **खाते में आने वाली ये रकमें भी:** term deposit का ब्याज या रकम, shares का dividend, Direct Benefit Transfer (DBT) की रकम, और e-commerce या income tax के refund।[^1] RBI की FAME पुस्तिका में भी लिखा है कि FD के ब्याज या dividend को खाते में जमा करने का mandate customer induced transaction माना जाता है।[^2]\n- **बिना पैसों वाला लेनदेन:** ATM, internet banking या mobile banking app से की गई ऐसी enquiry या request, जिसमें two-factor authentication लगता है; या internet banking / mobile banking app में सफल log-in। जैसे balance enquiry, cheque book की request, या nomination में बदलाव।[^1]\n- **KYC update:** शाखा में जाकर, या bank की internet banking या mobile banking app से।[^1]\n- **जो नहीं गिना जाता:** bank के लगाए हर तरह के charge, काटा गया tax, और savings खाते के balance पर दिया गया ब्याज।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Inoperative खाता चालू कराने पर bank कोई charge नहीं ले सकता, और पूरा आवेदन मिलने के 3 working दिन के भीतर उसे अर्ज़ी निपटानी है।[^1]\n\n- **चालू होने की सूचना:** bank को SMS और registered email से बताना है कि inoperative status हट गया है, और यह भी कि बिना इजाज़त खाते तक पहुँच की report कैसे की जाए।[^1]\n- **Video से KYC:** bank को KYC update की सुविधा V-CIP, यानी video से पहचान, के ज़रिए भी देने की कोशिश करनी है।[^1]\n- **प्रक्रिया की जानकारी:** bank को अपनी website और शाखाओं में बताना है कि inoperative खाता चालू कैसे कराया जाता है।[^1]\n\n## अभी क्या करें\n\n- जिन खातों का इस्तेमाल कम है, उनमें दो साल के भीतर ख़ुद कोई लेनदेन कर दीजिए।[^1]\n- Bank की चिट्ठी, email या SMS आए कि खाते में एक साल से लेनदेन नहीं हुआ, तो जवाब दीजिए या खाता चला दीजिए।[^1]\n- खाता inoperative हो चुका हो, तो KYC के काग़ज़ लेकर bank की किसी भी शाखा में जाइए।[^1]\n- अपना मुख्य खाता किसी और bank में ले गए हों, तो पुराने bank को नए खाते का ब्योरा और authorisation देकर बची हुई रकम transfer कराई जा सकती है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "udgam",
+      "term": "UDGAM",
+      "aliases": [
+        "उद्गम"
+      ],
+      "full": "Unclaimed Deposits – Gateway to Access inforMation · unclaimed deposits खोजने का RBI का portal",
+      "fullEn": "RBI portal to search unclaimed deposits",
+      "group": "बैंकिंग",
+      "created": "2026-10-07",
+      "verified": "2026-10-07",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI के UDGAM portal FAQ, portal की User Guide, RBI की 17 अगस्त 2023 और 5 अक्टूबर 2023 की press release, UDGAM portal के पहले पन्ने और RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक update) से जाँचा।"
+        }
+      ],
+      "one": "UDGAM, RBI का बनाया online portal है, जहाँ register करके कई banks में पड़ी unclaimed deposits एक ही जगह खोजी जा सकती हैं। यह सिर्फ़ खोजने में मदद करता है; रकम का दावा उसी bank से करना होता है।",
+      "facts": [
+        {
+          "k": "किसका portal",
+          "v": "RBI का",
+          "s": "17 अगस्त 2023 को शुरू हुआ"
+        },
+        {
+          "k": "Portal पर bank",
+          "v": "30",
+          "s": "7 अक्टूबर 2026 को portal पर दर्ज सूची"
+        },
+        {
+          "k": "दावा कहाँ",
+          "v": "उसी bank से",
+          "s": "UDGAM या RBI से नहीं",
+          "good": true
+        },
+        {
+          "k": "खोज की सीमा",
+          "v": "10 login रोज़",
+          "s": "हर login में 10 खोज"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Register",
+            "s": "mobile number और नाम से"
+          },
+          {
+            "t": "खोज",
+            "s": "नाम, bank, और एक पहचान या पता"
+          },
+          {
+            "t": "उसी bank में दावा",
+            "s": "portal से रकम नहीं मिलती"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "OTP",
+            "s": "आपके mobile number पर आता है"
+          },
+          {
+            "b": "नतीजे में UDRN",
+            "s": "और bank की दावा-प्रक्रिया का link"
+          }
+        ],
+        "note": "UDGAM पर सिर्फ़ वही जमा मिलती हैं, जो 10 साल या उससे ज़्यादा समय से unclaimed हैं और RBI के DEA Fund में जा चुकी हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"UDGAM पर खोजते ही पैसा खाते में आ जाएगा।\"",
+          "f": "नहीं। UDGAM सिर्फ़ खोजने की सुविधा देता है, और हर bank की दावा-प्रक्रिया की जानकारी देता है। Unclaimed deposit का दावा सिर्फ़ उसी bank से किया जा सकता है।[^1]"
+        },
+        {
+          "m": "\"UDGAM पर देश के सभी bank हैं।\"",
+          "f": "नहीं। RBI के FAQ में दर्ज 4 मार्च 2024 की स्थिति के मुताबिक portal पर 30 bank थे, जो रकम के हिसाब से DEA Fund की लगभग 90% unclaimed deposits को cover करते थे।[^1] 7 अक्टूबर 2026 को भी portal के पहले पन्ने की सूची में 30 bank दर्ज थे।[^5]"
+        },
+        {
+          "m": "\"UDGAM पर कुछ नहीं मिला, मतलब कहीं कुछ नहीं है।\"",
+          "f": "ज़रूरी नहीं। Portal पर सिर्फ़ वही खाते और जमा खोजे जा सकते हैं, जो 10 साल या उससे ज़्यादा समय से unclaimed हैं और DEA Fund में जा चुके हैं।[^2] हर bank को ऐसी जमा की सूची अपनी website पर भी रखनी है, खोजने की सुविधा के साथ।[^6]"
+        },
+        {
+          "m": "\"UDGAM पर नाम दिख गया, तो यही सबूत काफ़ी है।\"",
+          "f": "नहीं। Portal के Disclaimer के मुताबिक वहाँ की जानकारी banks की दी हुई है, RBI उसके सही या पूरे होने की ज़िम्मेदारी नहीं लेता, और वह किसी क़ानूनी काम में इस्तेमाल के लिए नहीं है।[^5] Bank KYC के निर्देश पूरे होने के बाद ही खाता या जमा चालू करता है।[^6]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "UDGAM का पूरा नाम क्या है?",
+          "a": "Unclaimed Deposits – Gateway to Access inforMation। RBI की press release में इसका हिंदी नाम उद्गम लिखा है।"
+        },
+        {
+          "q": "UDGAM कब शुरू हुआ?",
+          "a": "RBI के Governor ने इसे 17 अगस्त 2023 को शुरू किया। शुरू में 7 banks की जमा खोजी जा सकती थीं। 28 सितंबर 2023 से 30 banks की जमा खोजी जा सकती हैं।"
+        },
+        {
+          "q": "UDGAM किसने बनाया?",
+          "a": "RBI ने। RBI की press release के मुताबिक इसे बनाने में Reserve Bank Information Technology Pvt Ltd (ReBIT), Indian Financial Technology & Allied Services (IFTAS) और portal से जुड़े banks ने साथ काम किया।"
+        },
+        {
+          "q": "UDGAM पर खोजने के लिए क्या चाहिए?",
+          "a": "खाताधारक का नाम, जैसा bank के record में है, और bank का नाम; एक, कई या सभी bank चुने जा सकते हैं। इसके साथ PAN, Voter ID, Driving Licence, Passport number या जन्मतिथि में से कम से कम एक, या फिर राज्य के साथ पता।"
+        },
+        {
+          "q": "कंपनी या firm के नाम की जमा कैसे खोजें?",
+          "a": "Portal में 'Non-individual' tab है। इसमें संस्था का नाम और bank चुनने के बाद authorised signatory का नाम, PAN, CIN या Date of Incorporation में से कम से कम एक, या फिर राज्य के साथ पता देना होता है।"
+        },
+        {
+          "q": "खोज के नतीजे में क्या दिखता है?",
+          "a": "खाताधारक का नाम, जगह, bank का नाम और Unclaimed Deposit Reference Number (UDRN)। Bank के नाम पर click करने से उस bank का वह webpage खुलता है, जहाँ दावा करने या जमा चालू कराने का तरीक़ा लिखा है।"
+        },
+        {
+          "q": "क्या UDGAM से पैसा वापस मिल जाता है?",
+          "a": "नहीं। RBI के FAQ के मुताबिक UDGAM सिर्फ़ खोजने की सुविधा और हर bank की दावा-प्रक्रिया की जानकारी देता है। Unclaimed deposit का दावा सिर्फ़ उसी bank से किया जा सकता है।"
+        },
+        {
+          "q": "UDRN क्या है?",
+          "a": "Unclaimed Deposit Reference Number। यह bank के system से बना एक अलग number है, जो DEA Fund में भेजी गई हर unclaimed जमा को दिया जाता है। इससे कोई तीसरा व्यक्ति खाताधारक या शाखा को नहीं पहचान सकता।"
+        },
+        {
+          "q": "एक दिन में कितनी बार खोज सकते हैं?",
+          "a": "Portal की User Guide के मुताबिक एक user दिन में ज़्यादा से ज़्यादा 10 बार login कर सकता है, और हर login में ज़्यादा से ज़्यादा 10 बार खोज सकता है।"
+        },
+        {
+          "q": "Citi Bank में खाता था, तो कहाँ खोजें?",
+          "a": "Portal की User Guide के मुताबिक 'Individual' tab में Citi Bank का विकल्प नहीं है, क्योंकि Citi Bank के retail खाते Axis Bank में दिखते हैं।"
+        },
+        {
+          "q": "खाताधारक न रहे हों, तो दावा कौन कर सकता है?",
+          "a": "RBI के निर्देशों के मुताबिक खाताधारक की मृत्यु हो चुकी हो, तो उसका nominee या क़ानूनी वारिस रकम का दावा कर सकता है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Unclaimed Deposit"
+        },
+        {
+          "t": "Inoperative Account"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "Legal Heir"
+        }
+      ],
+      "article": "purana-khata-udgam",
+      "articleLabel": "पुरानी passbook या FD पड़ी है? बैंक का पैसा 10 साल बाद भी आपका ही रहता है",
+      "sources": [
+        {
+          "label": "RBI — Frequently Asked Questions (FAQs) on UDGAM Portal",
+          "url": "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/FAQonUDGAMPortal.pdf",
+          "used": [
+            {
+              "ref": "सवाल 1 और 2",
+              "c": "UDGAM क्या है; 4 मार्च 2024 को 30 bank, लगभग 90% रकम; बाक़ी bank जोड़े जाने की प्रक्रिया में"
+            },
+            {
+              "ref": "सवाल 4",
+              "c": "नाम और mobile number से register करना; portal का पता; पता डालकर खोज"
+            },
+            {
+              "ref": "सवाल 5 और 6",
+              "c": "दावा सिर्फ़ उसी bank से; UDGAM सिर्फ़ खोज और जानकारी; UDRN"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Guide to use UDGAM Portal (portal की User Manual; दस्तावेज़ पर तारीख़ नहीं है)",
+          "url": "https://udgam.rbi.org.in/unclaimed-deposits/assets/pdf/User-Guide-for-UDGAM-portal-English.pdf",
+          "used": [
+            {
+              "ref": "Steps to follow for Registration, बिंदु 1 से 5",
+              "c": "हिंदी या English; mobile number, नाम और password; दो check box; OTP और एक मिनट की सीमा"
+            },
+            {
+              "ref": "Login Steps, बिंदु 6",
+              "c": "password और OTP से, या सिर्फ़ OTP से login"
+            },
+            {
+              "ref": "Steps to search Unclaimed Deposits, बिंदु 1 से 3",
+              "c": "Individual और Non-individual tab; नाम bank के record जैसा; एक, कई या सभी bank; पता या पहचान; Citi Bank की टिप्पणी"
+            },
+            {
+              "ref": "Steps to search Unclaimed Deposits, बिंदु 5 से 7",
+              "c": "नतीजे में क्या दिखता है; bank के webpage का link; Export PDF; जवाब न देने वाले bank"
+            },
+            {
+              "ref": "Notes, बिंदु 1 और 2",
+              "c": "सिर्फ़ DEA Fund में गई जमा खोजी जा सकती हैं; दावा उसी bank से"
+            },
+            {
+              "ref": "Notes, बिंदु 5 और 6",
+              "c": "दिन में 10 login, हर login में 10 खोज; जन्मतिथि अनोखी पहचान नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: RBI launches उद्गम - UDGAM - Centralised Web Portal for searching Unclaimed Deposits (Press Release: 2023-2024/765)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56216",
+          "issued": "2023-08-17",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "Governor ने portal शुरू किया; portal RBI ने बनाया; हिंदी नाम उद्गम"
+            },
+            {
+              "ref": "पैरा 3 और 4",
+              "c": "ReBIT, IFTAS और banks ने साथ काम किया; शुरू में 7 bank"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Onboarding of more banks on उद्गम UDGAM portal (Press Release: 2023-2024/1048)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56498",
+          "issued": "2023-10-05",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "28 सितंबर 2023 से 30 bank; DEA Fund की लगभग 90% unclaimed deposits (रकम के हिसाब से)"
+            }
+          ]
+        },
+        {
+          "label": "RBI — UDGAM portal, पहला पन्ना (7 अक्टूबर 2026 को देखा)",
+          "url": "https://udgam.rbi.org.in/unclaimed-deposits/",
+          "used": [
+            {
+              "ref": "List of 30 Banks",
+              "c": "portal पर दर्ज 30 banks के नाम"
+            },
+            {
+              "ref": "Disclaimer",
+              "c": "जानकारी banks की दी हुई; RBI उसके सही या पूरे होने की ज़िम्मेदारी नहीं लेता; क़ानूनी काम में इस्तेमाल के लिए नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 204, 205 और 207",
+              "c": "सभी शाखाओं में KYC; KYC के बाद ही चालू; 3 working दिन"
+            },
+            {
+              "ref": "पैरा 210",
+              "c": "inoperative खाता चालू कराने का charge नहीं"
+            },
+            {
+              "ref": "पैरा 211",
+              "c": "bank की website पर सूची, खोजने की सुविधा के साथ"
+            },
+            {
+              "ref": "पैरा 215",
+              "c": "nominee या क़ानूनी वारिस का दावा"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के मुताबिक UDGAM एक online portal है, जिसे RBI ने बनाया है। यहाँ registered user कई banks की unclaimed deposits और खाते एक ही जगह खोज सकते हैं। इसका पूरा नाम Unclaimed Deposits – Gateway to Access inforMation है।[^1]\n\nRBI के Governor ने इसे 17 अगस्त 2023 को शुरू किया।[^3] Portal पर सिर्फ़ वही खाते और जमा खोजे जा सकते हैं, जो 10 साल या उससे ज़्यादा समय से चलाए नहीं गए या जिनका दावा नहीं हुआ, और जिनकी रकम RBI के Depositor Education and Awareness (DEA) Fund में जा चुकी है।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **एक जगह, कई bank:** एक ही खोज में एक, कई या portal के सभी bank चुने जा सकते हैं।[^2]\n- **रकम portal से नहीं मिलती:** UDGAM सिर्फ़ खोजने की सुविधा और हर bank की दावा-प्रक्रिया की जानकारी देता है। दावा सिर्फ़ उसी bank से किया जा सकता है।[^1]\n- **पहचान का number न हो, तब भी:** PAN जैसी कोई पहचान न हो, तो खाताधारक का पता डालकर भी खोजा जा सकता है।[^1]\n- **हिंदी में भी:** portal पर हिंदी या English चुनी जा सकती है।[^2]\n- **खोज की सीमा:** एक user दिन में ज़्यादा से ज़्यादा 10 बार login कर सकता है, और हर login में ज़्यादा से ज़्यादा 10 बार खोज सकता है।[^2]\n\n## UDGAM पर खोज कैसे होती है | कैसे चलता है\n\n::flow\n\n- **Register:** mobile number, first name और last name देकर अपना password बनाना होता है। फिर उसी mobile number पर OTP आता है, जिसे एक मिनट के भीतर डालना होता है।[^2]\n- **दो check box:** register करते समय Disclaimer और Privacy Policy मानने के लिए, और यह घोषणा करने के लिए tick करना होता है कि portal का इस्तेमाल अपने जायज़ काम के लिए है।[^2]\n- **Login:** registered user password और OTP से, या सिर्फ़ OTP से login कर सकता है।[^2]\n- **खोज:** खाताधारक का नाम वैसा डालना होता है, जैसा bank के record में है। फिर एक, कई या सभी bank चुने जाते हैं।[^2]\n- **साथ में:** PAN, Voter ID, Driving Licence, Passport number या जन्मतिथि में से कम से कम एक; या फिर राज्य के साथ पता, जिससे मोटे नतीजे मिलते हैं।[^2]\n- **नतीजा:** खाताधारक का नाम, जगह, bank का नाम और UDRN दिखता है। Bank के नाम पर click करने से उस bank का वह webpage खुलता है, जहाँ दावा करने या जमा चालू कराने का तरीक़ा लिखा है।[^2]\n\n## Portal पर कौन-से bank हैं | कौन-से bank\n\n- **शुरुआत:** 17 अगस्त 2023 को 7 banks की जमा खोजी जा सकती थीं।[^3]\n- **28 सितंबर 2023 से:** 30 banks की जमा खोजी जा सकती हैं। RBI ने तब बताया था कि ये रकम के हिसाब से DEA Fund की लगभग 90% unclaimed deposits को cover करते हैं।[^4]\n- **4 मार्च 2024:** RBI के FAQ में भी 30 bank दर्ज हैं, और लिखा है कि बाक़ी bank जोड़े जाने की प्रक्रिया में हैं।[^1]\n- **7 अक्टूबर 2026 को portal की सूची:** Axis Bank, Bank of Baroda, Bank of India, Bank of Maharashtra, Canara Bank, Central Bank of India, Citibank, DBS Bank India, Dhanlaxmi Bank, Federal Bank, HDFC Bank, HSBC, ICICI Bank, IDBI Bank, Indian Bank, Indian Overseas Bank, IndusInd Bank, Jammu and Kashmir Bank, Karnataka Bank, Kotak Mahindra Bank, Punjab National Bank, Punjab and Sind Bank, Saraswat Co-operative Bank, South Indian Bank, Standard Chartered Bank, State Bank of India, Tamilnad Mercantile Bank, Karur Vysya Bank, UCO Bank और Union Bank of India।[^5]\n- **Citi Bank:** 'Individual' tab में Citi Bank का विकल्प नहीं है, क्योंकि Citi Bank के retail खाते Axis Bank में दिखते हैं।[^2]\n- **Bank ने जवाब न दिया हो:** नतीजों के नीचे एक link बताता है कि किन banks ने खोज का जवाब नहीं दिया। ऐसे banks में कुछ देर बाद दोबारा खोजना होता है।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Unclaimed deposit का दावा उसी bank से किया जा सकता है।[^1] Inoperative खाता चालू कराने पर bank कोई charge नहीं ले सकता।[^6]\n\n- **किसी भी शाखा में KYC:** खाता या जमा चालू कराने के लिए KYC update की सुविधा bank को अपनी सभी शाखाओं में देनी है, home branch के अलावा भी।[^6]\n- **3 working दिन:** पूरा आवेदन मिलने के 3 working दिन के भीतर bank को चालू कराने की अर्ज़ी निपटानी है।[^6]\n- **खाताधारक न रहे हों:** उसका Nominee या क़ानूनी वारिस रकम का दावा कर सकता है।[^6]\n- **Bank की अपनी सूची:** हर bank को DEA Fund में भेजी गई unclaimed deposits की सूची अपनी website पर भी रखनी है, खोजने की सुविधा के साथ।[^6]\n\n## अभी क्या करें\n\n- Portal (udgam.rbi.org.in) पर अपने नाम और mobile number से register कीजिए।[^1]\n- खाताधारक का नाम वैसा ही डालिए, जैसा bank के record में है।[^2]\n- जन्मतिथि अनोखी पहचान नहीं है; उससे खोजने पर कई खातों के नतीजे आ सकते हैं।[^2]\n- नतीजा मिले, तो 'Export PDF' से उसे save या print कर लीजिए।[^2]\n- नतीजे में bank के नाम पर click करके उस bank की दावा-प्रक्रिया पढ़िए।[^2]\n- फिर KYC के काग़ज़ लेकर उसी bank की किसी भी शाखा में जाइए।[^6]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
