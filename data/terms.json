@@ -15049,6 +15049,221 @@
         }
       ],
       "body": "## मतलब\n\nTRAI यानी Telecom Regulatory Authority of India। यह संसद के क़ानून, Telecom Regulatory Authority of India Act, 1997 से 20 फ़रवरी 1997 से बना, ताकि telecom सेवाओं को regulate करे; इसमें tariff तय करना और बदलना भी शामिल है, जो पहले केंद्र सरकार के पास था।[^2]\n\nAct के मुताबिक Authority में एक Chairperson, ज़्यादा से ज़्यादा दो whole-time members और ज़्यादा से ज़्यादा दो part-time members होते हैं, जिन्हें केंद्र सरकार नियुक्त करती है। इसका head office New Delhi में है।[^1]\n\n## TRAI क्या करता है | क्या करता है\n\n- **सिफ़ारिश:** नए service provider की ज़रूरत, licence की शर्तों, competition और spectrum के बेहतर इस्तेमाल जैसे विषयों पर। ये सिफ़ारिशें केंद्र सरकार पर बाध्यकारी नहीं हैं।[^1]\n- **Quality of service:** सेवा की quality के standards तय करना, उनका पालन देखना और समय-समय पर survey करना, ताकि ग्राहकों के हित सुरक्षित रहें।[^1]\n- **Interconnection:** service providers के बीच inter-connectivity की शर्तें तय करना।[^1]\n- **Tariff:** वे दरें notify करना, जिन पर telecom सेवाएँ दी जाएँगी।[^1]\n- **पारदर्शिता:** Act के मुताबिक Authority को अपने काम में transparency रखनी होती है।[^1]\n\n## TRAI क्या नहीं करता | क्या नहीं करता\n\n- **एक ग्राहक की शिकायत:** TRAI के FAQ के मुताबिक TRAI Act, 1997 में TRAI के ज़रिए अलग-अलग ग्राहकों की शिकायतें सुलझाने की व्यवस्था नहीं है।[^3]\n- **Number बंद करने का message:** TRAI mobile number बंद करने के बारे में message या official notice भेजकर संपर्क शुरू नहीं करता, और उसने इस काम के लिए किसी third-party agency को अधिकृत नहीं किया है।[^5]\n- **Licence देना:** Act में licensor केंद्र सरकार या telegraph authority है; TRAI सिफ़ारिश करता है।[^1]\n- **विवादों का फ़ैसला:** 24 जनवरी 2000 से विवाद निपटाने का काम TDSAT (Telecom Disputes Settlement and Appellate Tribunal) के पास है।[^2]\n\n## शिकायत का रास्ता | शिकायत का रास्ता\n\n::flow\n\n- **पहला स्तर:** अपनी telecom कंपनी का complaint centre। जहाँ नियमों में अलग समय तय नहीं है, वहाँ सेवा में fault या रुकावट की शिकायत 3 दिन में, और बाक़ी शिकायतें 7 दिन में हल करनी होती हैं।[^3]\n- **Billing की शिकायत:** 4 हफ़्ते में हल करनी होती है; उससे बनने वाला credit या waiver एक हफ़्ते के अंदर खाते में देना होता है।[^3]\n- **दूसरा स्तर:** उसी कंपनी की Appellate Authority। Appeal, शिकायत हल करने की समय-सीमा ख़त्म होने के बाद 30 दिन के अंदर करनी होती है; उसकी कोई fee नहीं है।[^3]\n- **198:** appeal toll free number 198 पर भी दर्ज कराई जा सकती है। Appellate Authority का पता कंपनी की website पर होता है।[^3]\n- **फ़ैसला:** Appellate Authority को appeal 39 दिन के अंदर निपटानी होती है।[^3]\n- **Connection बंद कराना:** कंपनी को अनुरोध के सात working days के अंदर connection बंद करना होता है; security deposit 45 दिन के अंदर लौटाना होता है।[^3]\n\n## TRAI के नाम से ठगी | TRAI के नाम से ठगी\n\n- **कैसे आती है:** TRAI के नाम से WhatsApp message, SMS और voice call; साथ में जाली notice, जो TRAI के वरिष्ठ अफ़सरों के official पत्र जैसा दिखता है।[^5]\n- **क्या कहा जाता है:** कि आपके mobile number से ग़ैर-क़ानूनी काम हुआ है; पुलिस से संपर्क कीजिए, वरना सेवा बंद हो जाएगी।[^5]\n- **आगे का जाल:** कभी-कभी malware install कराने या phishing link पर click कराने की कोशिश।[^5]\n- **TRAI का कहना:** TRAI के नाम से number बंद करने की धमकी देने वाले किसी भी call, message या notice को संभावित ठगी की कोशिश माना जाए।[^5]\n\n## Spam और DND | Spam और DND\n\n- **DND Registry:** ग्राहक National Customer Preference Register (NCPR) में अपनी पसंद दर्ज करा सकता है: 1909 पर call करके या SMS भेजकर, या TRAI के DND mobile app से।[^4]\n- **क्या रोक सकते हैं:** सभी commercial calls और SMS, या चुनी हुई श्रेणियों के।[^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Telecom कंपनी के complaint centre से शिकायत हल न हो, तो उसी कंपनी की Appellate Authority में appeal मुफ़्त है।[^3]\n\n- **Connection बंद कराने का हक़:** बक़ाया या किसी और वजह से connection बंद करना रोका नहीं जाना चाहिए; सात working days के बाद billing नहीं होनी चाहिए।[^3]\n- **Deposit पर ब्याज:** security deposit 45 दिन में न लौटे, तो कंपनी को देरी पर 10% सालाना की दर से ब्याज देना होता है।[^3]\n\n## अभी क्या करें\n\n- TRAI के नाम से number बंद करने की धमकी आए, तो call काट दीजिए; link मत खोलिए और कोई app install मत कीजिए।[^5]\n- ऐसे call या message की जानकारी Sanchar Saathi की Chakshu सुविधा पर दीजिए।[^5]\n- पैसा जा चुका हो, तो तुरंत 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^5]\n- Mobile सेवा की दिक़्क़त के लिए पहले अपनी कंपनी के complaint centre में शिकायत दर्ज कराइए; हल न हो, तो Appellate Authority में appeal कीजिए।[^3]\n- Promotional calls और SMS रोकने हों, तो 1909 पर या TRAI के DND app से अपनी पसंद दर्ज कराइए।[^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "cms",
+      "term": "CMS",
+      "aliases": [
+        "Complaint Management System",
+        "CMS portal",
+        "CMS पोर्टल",
+        "cms.rbi.org.in"
+      ],
+      "full": "RBI का online portal, जहाँ RBI Ombudsman को शिकायत दर्ज होती है",
+      "fullEn": "Complaint Management System of the Reserve Bank of India",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। RBI के Frequently Asked Questions: Reserve Bank - Integrated Ombudsman Scheme, 2026 (37 सवाल) और CMS portal के पहले पन्ने से जाँचा।"
+        }
+      ],
+      "one": "CMS (Complaint Management System) RBI का online portal है, cms.rbi.org.in, जहाँ Reserve Bank – Integrated Ombudsman Scheme, 2026 के तहत RBI Ombudsman को शिकायत दर्ज होती है और उसका status देखा जाता है। शिकायत की कोई fee नहीं है, पर पहले अपने bank या संस्था से शिकायत करनी होती है।",
+      "facts": [
+        {
+          "k": "पता",
+          "v": "cms.rbi.org.in",
+          "s": "online शिकायत का एक ही portal"
+        },
+        {
+          "k": "Fee",
+          "v": "शून्य",
+          "s": "किसी third-party agency को पैसे देने की ज़रूरत नहीं",
+          "good": true
+        },
+        {
+          "k": "पहले bank को",
+          "v": "30 दिन",
+          "s": "या RBI, NPCI या Card Network का तय समय, जो ज़्यादा हो"
+        },
+        {
+          "k": "मदद के लिए",
+          "v": "14448",
+          "s": "toll free; यहाँ जानकारी मिलती है, शिकायत दर्ज नहीं होती"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank से शिकायत",
+            "s": "पहला क़दम"
+          },
+          {
+            "t": "CMS",
+            "s": "cms.rbi.org.in"
+          },
+          {
+            "t": "RBI Ombudsman",
+            "s": "शिकायत देखता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "30 दिन",
+            "s": "जवाब नहीं या असंतुष्ट"
+          },
+          {
+            "b": "Number",
+            "s": "से status देखिए"
+          }
+        ],
+        "note": "30 दिन की जगह RBI, NPCI या Card Network के निर्देशों में तय समय लागू होता है, अगर वह ज़्यादा हो। Bank का जवाब मिल गया हो और आप उससे संतुष्ट न हों, तो इंतज़ार ज़रूरी नहीं है।"
+      },
+      "myths": [
+        {
+          "m": "\"RBI को email में CC कर देना ही शिकायत है।\"",
+          "f": "नहीं। RBI के FAQ के मुताबिक जो शिकायत सीधे RBI Ombudsman को नहीं भेजी गई, जैसे वह संदेश जिसमें RBI को सिर्फ़ copy में रखा गया हो, वह scheme के तहत नहीं चलती।[^1]"
+        },
+        {
+          "m": "\"Bank से शिकायत किए बिना सीधे CMS पर जा सकते हैं।\"",
+          "f": "नहीं। पहले अपने bank या संस्था से शिकायत करनी होती है, और उसका सबूत देना होता है। बिना इसके की गई शिकायत नहीं चलती।[^1]"
+        },
+        {
+          "m": "\"CMS पर शिकायत के लिए agent को पैसे देने पड़ते हैं।\"",
+          "f": "नहीं। RBI के FAQ के मुताबिक शिकायत दर्ज करने या उसके हल की कोई fee नहीं है, और शिकायत के लिए किसी third-party agency के पास जाने या पैसे देने की ज़रूरत नहीं है।[^1]"
+        },
+        {
+          "m": "\"14448 पर phone करके शिकायत दर्ज हो जाती है।\"",
+          "f": "नहीं। Contact Center के ज़रिए शिकायत सीधे दर्ज नहीं होती। वह शिकायत दर्ज करने का तरीक़ा बताता है और शिकायत के status की जानकारी देता है।[^1]"
+        },
+        {
+          "m": "\"शिकायत अपने शहर के Ombudsman office में ही करनी होती है।\"",
+          "f": "नहीं। शिकायत करने वाले को किसी ख़ास Ombudsman office के पास जाने की ज़रूरत नहीं है; CMS या CRPC से आई शिकायतें RBI अपनी व्यवस्था से बाँटता है।[^1]"
+        },
+        {
+          "m": "\"CMS पर शिकायत सिर्फ़ अंग्रेज़ी में हो सकती है।\"",
+          "f": "नहीं। CMS portal पर शिकायत हिंदी और अंग्रेज़ी में दर्ज होती है, और शिकायत का ब्योरा description box में किसी भी भाषा में लिखा जा सकता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CMS का मतलब क्या है?",
+          "a": "CMS यानी Complaint Management System। यह RBI का portal है, https://cms.rbi.org.in, जहाँ Reserve Bank – Integrated Ombudsman Scheme, 2026 के तहत online शिकायतें दर्ज होती हैं। RBI के FAQ इसे online शिकायतों का एक centralised portal कहते हैं।"
+        },
+        {
+          "q": "RBI Ombudsman को शिकायत किन तरीक़ों से भेजी जा सकती है?",
+          "a": "RBI के FAQ के मुताबिक तीन तरीक़ों से। Online: CMS portal पर। E-mail: crpc@rbi.org.in पर। Physical: दस्तख़त किया हुआ complaint form और दस्तावेज़ इस पते पर भेजकर: Centralised Receipt and Processing Centre, Reserve Bank of India, Central Vista, Sector 17, Chandigarh - 160017।"
+        },
+        {
+          "q": "CMS पर शिकायत कब की जा सकती है?",
+          "a": "पहले अपने bank या संस्था से शिकायत करनी होती है। अगर उसे शिकायत मिलने के 30 दिन के अंदर (या RBI, NPCI या Card Network के निर्देशों में तय समय के अंदर, जो ज़्यादा हो) जवाब न मिले, या जवाब से आप संतुष्ट न हों, तब RBI Ombudsman को शिकायत की जा सकती है।"
+        },
+        {
+          "q": "शिकायत कब तक कर देनी चाहिए?",
+          "a": "RBI के FAQ के मुताबिक ऊपर की समय-सीमा ख़त्म होने की तारीख़ से, या bank के आख़िरी जवाब की तारीख़ से, जो बाद में हो, 90 दिन के अंदर।"
+        },
+        {
+          "q": "शिकायत में क्या-क्या देना होता है?",
+          "a": "नाम, mobile number और पूरा डाक पता; जिस संस्था के ख़िलाफ़ शिकायत है उसका नाम और branch; उस संस्था को की गई शिकायत का number, तारीख़ और copy; खाते, card, loan या transaction का ब्योरा; संस्था का जवाब, अगर मिला हो; पूरी बात, नुक़सान और माँगी गई राहत; और साथ के दस्तावेज़।"
+        },
+        {
+          "q": "शिकायत का status कैसे देखें?",
+          "a": "शिकायत दर्ज होने पर एक complaint number मिलता है। उस number और mobile number से CMS portal पर status देखा जा सकता है। Status की जानकारी के लिए toll free number 14448 पर भी बात की जा सकती है।"
+        },
+        {
+          "q": "14448 क्या है?",
+          "a": "यह RBI के Contact Center का toll free number है। इसकी IVRS सुविधा 24x7 चलती है। Contact Center के कर्मचारी से बात सोमवार से शनिवार (राष्ट्रीय छुट्टियों को छोड़कर) सुबह 8 से रात 10 बजे तक हो सकती है: अंग्रेज़ी, हिंदी और दस क्षेत्रीय भाषाओं में।"
+        },
+        {
+          "q": "क्या शिकायत किसी और से करवाई जा सकती है?",
+          "a": "हाँ। RBI के FAQ के मुताबिक शिकायत लिखित में अधिकृत किए गए representative के ज़रिए की जा सकती है। पर वह representative advocate नहीं हो सकता, जब तक कि advocate ख़ुद पीड़ित न हो।"
+        },
+        {
+          "q": "क्या शिकायत वापस ली जा सकती है?",
+          "a": "हाँ, किसी भी stage पर। RBI के FAQ के मुताबिक इसके लिए CMS portal पर शिकायत track करने वाले tab में जाना होता है।"
+        },
+        {
+          "q": "CMS पर शिकायत किस भाषा में होती है?",
+          "a": "CMS portal पर शिकायत हिंदी और अंग्रेज़ी में दर्ज होती है। शिकायत का ब्योरा description box में किसी भी भाषा में लिखा जा सकता है। E-mail या physical तरीक़े से शिकायत किसी भी भाषा में की जा सकती है।"
+        },
+        {
+          "q": "कौन-सी शिकायतें CMS पर नहीं चलतीं?",
+          "a": "RBI के FAQ की सूची में ये हैं: जिसमें पहले संस्था से शिकायत न की गई हो; जो तय 30 दिन से पहले की गई हो (जवाब मिल चुका हो तो अलग बात है); जो 90 दिन की सीमा के बाद की गई हो; जो उसी मामले पर किसी Court, Tribunal या Arbitrator के पास चल रही या निपट चुकी हो; और जो उन सेवाओं के बारे में हो, जो RBI के नियमन में नहीं आतीं।"
+        },
+        {
+          "q": "CMS पर और क्या-क्या किया जा सकता है?",
+          "a": "CMS portal के पहले पन्ने पर चार विकल्प हैं: File a Complaint, Track Your Complaint, File an Appeal और Feedback।"
+        }
+      ],
+      "related": [
+        {
+          "t": "RBI Ombudsman"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Credit Bureau"
+        },
+        {
+          "t": "Credit Card"
+        },
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "NPCI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Frequently Asked Questions: Reserve Bank - Integrated Ombudsman Scheme, 2026 (37 सवाल)",
+          "url": "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/RBIOS01072026.pdf",
+          "used": [
+            {
+              "ref": "Q7 और Q8",
+              "c": "online शिकायतों का एक portal; CRPC; शुरुआती system जाँच; online tracking"
+            },
+            {
+              "ref": "Q9",
+              "c": "शिकायत के तीन तरीक़े: CMS, e-mail, physical"
+            },
+            {
+              "ref": "Q10 और Q11",
+              "c": "Contact Center 14448; वहाँ शिकायत दर्ज नहीं होती"
+            },
+            {
+              "ref": "Q12",
+              "c": "किसी ख़ास Ombudsman office की ज़रूरत नहीं"
+            },
+            {
+              "ref": "Q16 और Q17",
+              "c": "कब शिकायत कर सकते हैं; 30 और 90 दिन; कौन-सी शिकायतें नहीं चलतीं"
+            },
+            {
+              "ref": "Q18 से Q21",
+              "c": "क्या देना होता है; complaint number से status; representative; कोई fee नहीं"
+            },
+            {
+              "ref": "Q34, Q36, Q37",
+              "c": "शिकायत वापस लेना; feedback; भाषाएँ"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Complaint Management System (CMS) portal का पहला पन्ना",
+          "url": "https://cms.rbi.org.in/",
+          "used": [
+            {
+              "ref": "पहला पन्ना",
+              "c": "चार विकल्प: File a Complaint, Track Your Complaint, File an Appeal, Feedback; 14448 का समय"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCMS यानी Complaint Management System। यह RBI का portal है, जहाँ Reserve Bank – Integrated Ombudsman Scheme, 2026 के तहत online शिकायतें दर्ज होती हैं। RBI के FAQ इसे online शिकायतों का एक centralised portal कहते हैं।[^1]\n\nइसके पहले पन्ने पर चार विकल्प हैं: File a Complaint, Track Your Complaint, File an Appeal और Feedback।[^2]\n\n## शिकायत के तीन तरीक़े | तीन तरीक़े\n\n- **Online:** CMS portal पर, [cms.rbi.org.in](https://cms.rbi.org.in)।[^1]\n- **E-mail:** crpc@rbi.org.in पर शिकायत भेजकर।[^1]\n- **Physical:** दस्तख़त किया हुआ complaint form और दस्तावेज़ इस पते पर भेजकर: Centralised Receipt and Processing Centre, Reserve Bank of India, Central Vista, Sector 17, Chandigarh - 160017।[^1]\n- **CRPC:** e-mail और डाक से आई शिकायतें Centralised Receipt and Processing Centre (CRPC) के पास जाती हैं; online शिकायतें CMS portal पर दर्ज होती हैं।[^1]\n\n## CMS पर कब जा सकते हैं | कब जा सकते हैं\n\n::flow\n\n- **पहले संस्था से:** पहले अपने bank या उस संस्था से शिकायत करनी होती है, जिससे दिक़्क़त है।[^1]\n- **जवाब न मिले:** संस्था को शिकायत मिलने के 30 दिन के अंदर, या RBI, NPCI या Card Network के निर्देशों में तय समय के अंदर (जो ज़्यादा हो), जवाब न मिले।[^1]\n- **या जवाब से संतुष्ट न हों:** तब भी RBI Ombudsman को शिकायत की जा सकती है।[^1]\n- **90 दिन की सीमा:** शिकायत ऊपर की समय-सीमा ख़त्म होने की तारीख़ से, या संस्था के आख़िरी जवाब की तारीख़ से, जो बाद में हो, 90 दिन के अंदर करनी होती है।[^1]\n\n## शिकायत में क्या देना होता है | क्या देना होता है\n\n- **अपना ब्योरा:** नाम, mobile number, e-mail ID (हो तो) और पूरा डाक पता।[^1]\n- **संस्था का ब्योरा:** उसका नाम, branch या जगह, और पता।[^1]\n- **पहली शिकायत का सबूत:** संस्था को की गई शिकायत का number या acknowledgement number, उसकी तारीख़ और copy।[^1]\n- **मामले का ब्योरा:** खाते, card, loan या transaction की जानकारी; transaction की तारीख़ और reference number, अगर हो।[^1]\n- **संस्था का जवाब:** अगर मिला हो, तो उसकी copy।[^1]\n- **पूरी बात:** क्या हुआ, कितना नुक़सान या परेशानी हुई, और आप क्या राहत चाहते हैं; साथ में ज़रूरी दस्तावेज़।[^1]\n\n## Portal की सुविधाएँ | Portal की सुविधाएँ\n\n- **Status देखना:** शिकायत दर्ज होने पर complaint number मिलता है; उस number और mobile number से CMS portal पर status देखा जा सकता है।[^1]\n- **शिकायत वापस लेना:** किसी भी stage पर, portal के शिकायत track करने वाले tab से।[^1]\n- **Feedback:** बंद हुई शिकायत पर portal से feedback दिया जा सकता है।[^1]\n- **भाषा:** शिकायत हिंदी और अंग्रेज़ी में दर्ज होती है; ब्योरा description box में किसी भी भाषा में लिखा जा सकता है।[^1]\n- **कोई ख़ास office नहीं:** किसी ख़ास Ombudsman office के पास जाने की ज़रूरत नहीं है।[^1]\n- **शुरुआती जाँच:** online शिकायत पर portal एक सीमित, system से होने वाली शुरुआती जाँच करता है कि शिकायत चलने लायक़ है या नहीं।[^1]\n\n## 14448: Contact Center | 14448\n\n- **क्या मिलता है:** RBI की शिकायत व्यवस्था की जानकारी, शिकायत दर्ज करने का तरीक़ा, और शिकायत का status।[^1]\n- **कब:** IVRS 24x7; कर्मचारी से बात सोमवार से शनिवार (राष्ट्रीय छुट्टियों को छोड़कर) सुबह 8 से रात 10 बजे तक।[^1]\n- **भाषाएँ:** अंग्रेज़ी, हिंदी और दस क्षेत्रीय भाषाएँ।[^1]\n- **शिकायत नहीं:** Contact Center के ज़रिए शिकायत सीधे दर्ज नहीं होती।[^1]\n\n## कौन-सी शिकायतें नहीं चलतीं | नहीं चलतीं\n\n- जो सीधे RBI Ombudsman को नहीं भेजी गई, जैसे वह संदेश जिसमें RBI को सिर्फ़ copy में रखा गया हो।[^1]\n- जिसमें पहले संस्था से शिकायत न की गई हो, या उसका सबूत न हो।[^1]\n- जो तय 30 दिन से पहले की गई हो, जब तक कि जवाब मिल न चुका हो और आप उससे असंतुष्ट न हों।[^1]\n- जो 90 दिन की सीमा के बाद की गई हो।[^1]\n- जो उसी मामले पर किसी Court, Tribunal, Arbitrator या ऐसे ही forum के पास चल रही हो या merits पर निपट चुकी हो।[^1]\n- जो उन सेवाओं के बारे में हो, जो RBI के नियमन में नहीं आतीं।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> RBI Ombudsman के पास शिकायत दर्ज करने या उसके हल की कोई fee नहीं है; इसके लिए किसी third-party agency को पैसे देने की ज़रूरत नहीं है।[^1]\n\n- **Representative:** शिकायत लिखित में अधिकृत किए गए representative के ज़रिए भी की जा सकती है; वह advocate नहीं हो सकता, जब तक कि advocate ख़ुद पीड़ित न हो।[^1]\n- **वापस लेने का हक़:** शिकायत किसी भी stage पर अपनी मर्ज़ी से वापस ली जा सकती है।[^1]\n\n## अभी क्या करें\n\n- पहले अपने bank या संस्था से शिकायत कीजिए, और उसका complaint number और copy सँभालकर रखिए।[^1]\n- 30 दिन में जवाब न मिले, या जवाब से संतुष्ट न हों, तो [cms.rbi.org.in](https://cms.rbi.org.in) पर शिकायत दर्ज कीजिए।[^1]\n- 90 दिन की सीमा निकलने मत दीजिए।[^1]\n- Complaint number लिख लीजिए; उसी से और mobile number से status देखा जाता है।[^1]\n- तरीक़ा समझना हो या status पूछना हो, तो 14448 पर phone कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
