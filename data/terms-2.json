@@ -346,6 +346,168 @@
         }
       ],
       "body": "## मतलब\n\nCurrent Account bank का बिना ब्याज वाला demand deposit खाता है, जिसमें से balance के हिसाब से या तय सीमा तक जितनी बार चाहें पैसा निकाला जा सकता है। जो जमा खाता न savings है न term deposit, उसे भी current account माना जाता है।[^1]\n\n- **ब्याज:** नहीं मिलता।[^1]\n- **किस पर लागू:** ये RBI के commercial banks वाले निर्देश हैं; Small Finance Banks, Payment Banks, Regional Rural Banks और Local Area Banks के लिए अलग Directions हैं।[^1]\n- **अपवाद:** मृत individual depositor या sole proprietorship concern के current account की रकम पर, मृत्यु की तारीख़ से भुगतान तक, savings की दर से ब्याज।[^1]\n\n## ₹10 crore का नियम | ₹10 crore\n\n::flow\n\n- **कब से:** 1 अप्रैल 2026 से।[^2]\n- **हिसाब:** पूरे banking system से ग्राहक को मिली sanctioned fund-based और non-fund-based सुविधाओं का जोड़।[^2]\n- **₹10 crore या ज़्यादा:** current account वह bank रख सकता है, जिसका कुल क़र्ज़ या कुल fund-based क़र्ज़ में कम से कम 10% हिस्सा हो; कुछ अपवादों में दो सबसे बड़े lender या NOC के साथ ग्राहक की पसंद का bank।[^2]\n- **बाक़ी banks:** आम तौर पर सिर्फ़ collection account; किसी product के लिए ज़रूरी हो, तो Board policy के तहत सीमित current account भी, जिसमें cash, card या cheque book नहीं।[^2]\n\n## Collection account | Collection\n\n- **क्या है:** ऐसा current या OD account, जिसमें मुख्य रूप से पैसा आता है।[^2]\n- **पैसा कहाँ जाए:** दो working days में ग्राहक के तय किए CC, current या OD account में; टैक्स जैसे वैधानिक बकाया और उसी bank के बकाया पहले कट सकते हैं।[^2]\n- **बदलाव की सूचना:** bank योग्य न रहे, तो एक महीने के अंदर ग्राहक को बताएगा; collection account में बदलाव या बंद करना तीन महीने में।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- आपके कारोबार का कुल bank क़र्ज़ ₹10 crore के आसपास या ऊपर है, तो अपने banks से पूछिए कि आपका current account किस bank में रह सकता है और कौन-सा collection account बनेगा।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "indian-contract-act",
+      "term": "Indian Contract Act",
+      "aliases": [
+        "Indian Contract Act, 1872",
+        "Contract Act"
+      ],
+      "full": "इंडियन कॉन्ट्रैक्ट एक्ट, 1872 · भारतीय संविदा अधिनियम",
+      "fullEn": "The Indian Contract Act, 1872 (Act No. 9 of 1872)",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। India Code पर Indian Contract Act, 1872 के पाठ से जाँचा।"
+        }
+      ],
+      "one": "Indian Contract Act, 1872 वह क़ानून है, जो बताता है कि कौन-सा समझौता क़ानूनी contract है और कौन contract कर सकता है। Bank के काम आने वाले indemnity, guarantee (surety), pledge और banker के general lien के नियम भी इसी Act में हैं।",
+      "facts": [
+        {
+          "k": "Act No.",
+          "v": "9 of 1872",
+          "s": "लागू: 1 सितंबर 1872 से"
+        },
+        {
+          "k": "Contract",
+          "v": "धारा 2(h)",
+          "s": "क़ानून से लागू होने वाला समझौता"
+        },
+        {
+          "k": "कौन contract कर सकता है",
+          "v": "धारा 11",
+          "s": "बालिग़, sound mind, अयोग्य नहीं"
+        },
+        {
+          "k": "Bank के काम की धाराएँ",
+          "v": "124, 126, 171, 172",
+          "s": "indemnity, guarantee, lien, pledge"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Proposal",
+            "s": "एक पक्ष की पेशकश (धारा 2(a))"
+          },
+          {
+            "t": "Agreement",
+            "s": "दोनों के वादे (धारा 2(e))"
+          },
+          {
+            "t": "Contract",
+            "s": "क़ानून से लागू (धारा 2(h))"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "स्वीकार (धारा 2(b))",
+            "s": "स्वीकार हुआ proposal वादा बन जाता है"
+          },
+          {
+            "b": "धारा 10 की शर्तें",
+            "s": "free consent, सक्षम पक्ष, lawful consideration और object"
+          }
+        ],
+        "note": "धारा 10 के मुताबिक कोई समझौता तब contract है, जब वह सक्षम पक्षों की स्वतंत्र सहमति से, lawful consideration और lawful object के लिए हुआ हो, और Act ने उसे साफ़ तौर पर void न कहा हो।"
+      },
+      "myths": [
+        {
+          "m": "\"हर समझौता अपने आप contract होता है।\"",
+          "f": "नहीं। धारा 2(h) के मुताबिक सिर्फ़ वही समझौता contract है, जो क़ानून से लागू करवाया जा सके; धारा 2(g) के मुताबिक जो समझौता क़ानून से लागू नहीं हो सकता, वह void है।[^1]"
+        },
+        {
+          "m": "\"Guarantee सिर्फ़ लिखकर ही दी जा सकती है।\"",
+          "f": "नहीं। धारा 126 के मुताबिक guarantee मौखिक भी हो सकती है और लिखित भी।[^1]"
+        },
+        {
+          "m": "\"Bank किसी का सामान अपने पास नहीं रोक सकता।\"",
+          "f": "धारा 171 के मुताबिक bankers, किसी उलटे contract के न होने पर, अपने पास bail किए गए सामान को general balance of account की security के रूप में रोक सकते हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Indian Contract Act क्या है?",
+          "a": "यह 1872 का Act No. 9 है, जो धारा 1 के मुताबिक पूरे भारत में लागू है और 1 सितंबर 1872 से लागू हुआ।[^1]"
+        },
+        {
+          "q": "Contract किसे कहते हैं?",
+          "a": "धारा 2(h) के मुताबिक क़ानून से लागू करवाया जा सकने वाला agreement contract है। धारा 2(e) के मुताबिक एक-दूसरे के बदले दिए गए वादे agreement हैं।[^1]"
+        },
+        {
+          "q": "कौन contract कर सकता है?",
+          "a": "धारा 11 के मुताबिक हर वह व्यक्ति, जो अपने ऊपर लागू क़ानून के हिसाब से बालिग़ हो, sound mind का हो, और किसी क़ानून से contract करने के अयोग्य न हो।[^1]"
+        },
+        {
+          "q": "Contract of indemnity क्या है?",
+          "a": "धारा 124 के मुताबिक ऐसा contract, जिसमें एक पक्ष वादा करता है कि वह दूसरे को अपने या किसी और के आचरण से होने वाले नुक़सान से बचाएगा।[^1]"
+        },
+        {
+          "q": "Guarantee और surety क्या हैं?",
+          "a": "धारा 126 के मुताबिक contract of guarantee किसी तीसरे व्यक्ति के default करने पर उसका वादा पूरा करने या उसकी देनदारी चुकाने का contract है। Guarantee देने वाला 'surety', जिसके default पर guarantee दी गई वह 'principal debtor', और जिसे guarantee दी गई वह 'creditor' कहलाता है।[^1]"
+        },
+        {
+          "q": "Pledge क्या है?",
+          "a": "धारा 172 के मुताबिक क़र्ज़ के भुगतान या किसी वादे को पूरा करने की security के तौर पर सामान का bailment pledge है। सामान देने वाला 'pawnor' और लेने वाला 'pawnee' कहलाता है।[^1]"
+        },
+        {
+          "q": "Bailment क्या है?",
+          "a": "धारा 148 के मुताबिक किसी मक़सद के लिए एक व्यक्ति का दूसरे को सामान सौंपना, इस contract पर कि मक़सद पूरा होने पर सामान लौटाया जाएगा या उसके कहे मुताबिक निपटाया जाएगा।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Surety"
+        },
+        {
+          "t": "Indemnity Bond"
+        },
+        {
+          "t": "Lien"
+        },
+        {
+          "t": "Minor (नाबालिग)"
+        },
+        {
+          "t": "Power of Attorney"
+        },
+        {
+          "t": "Indian Succession Act"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Indian Contract Act, 1872 (Act No. 9 of 1872)",
+          "url": "https://indiacode.gov.in/act/0e782442-f035-4d53-aace-81b1552a8cf2",
+          "used": [
+            {
+              "ref": "धारा 1",
+              "c": "नाम; पूरे भारत में; 1 सितंबर 1872 से"
+            },
+            {
+              "ref": "धारा 2(a), 2(b), 2(e), 2(g), 2(h)",
+              "c": "proposal, स्वीकार और वादा, agreement, void, contract"
+            },
+            {
+              "ref": "धारा 10, 11",
+              "c": "कौन-से agreement contract हैं; कौन contract कर सकता है"
+            },
+            {
+              "ref": "धारा 124, 126",
+              "c": "indemnity; guarantee, surety, principal debtor, creditor; मौखिक या लिखित"
+            },
+            {
+              "ref": "धारा 148, 171, 172",
+              "c": "bailment; bankers का general lien; pledge, pawnor, pawnee"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIndian Contract Act, 1872 (Act No. 9 of 1872) वह क़ानून है, जो बताता है कि कौन-सा समझौता क़ानूनी contract है, कौन contract कर सकता है, और indemnity, guarantee, bailment, pledge जैसे खास contracts कैसे चलते हैं।[^1]\n\n- **कहाँ लागू:** पूरे भारत में; 1 सितंबर 1872 से।[^1]\n\n## Contract कैसे बनता है | Contract\n\n::flow\n\n- **Void:** जो agreement क़ानून से लागू नहीं हो सकता।[^1]\n- **कौन contract कर सकता है:** बालिग़, sound mind, और किसी क़ानून से अयोग्य नहीं।[^1]\n\n## Bank के काम की धाराएँ | Bank\n\n- **Indemnity (धारा 124):** एक पक्ष दूसरे को नुक़सान से बचाने का वादा करता है।[^1]\n- **Guarantee (धारा 126):** तीसरे व्यक्ति के default पर उसकी देनदारी चुकाने का contract; guarantee देने वाला surety; मौखिक या लिखित।[^1]\n- **Bailment (धारा 148):** किसी मक़सद के लिए सामान सौंपना, बाद में लौटाने की शर्त पर।[^1]\n- **General lien (धारा 171):** bankers, उलटे contract के न होने पर, bail किए गए सामान को general balance of account की security के रूप में रोक सकते हैं।[^1]\n- **Pledge (धारा 172):** क़र्ज़ या वादे की security के तौर पर सामान का bailment; pawnor और pawnee।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- किसी loan के लिए guarantee देने से पहले याद रखिए कि धारा 126 के मुताबिक guarantee देने वाला surety, principal debtor के default पर उसकी देनदारी चुकाने का वादा करता है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
