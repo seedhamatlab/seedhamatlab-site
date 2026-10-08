@@ -18615,6 +18615,227 @@
         }
       ],
       "body": "## मतलब\n\nMagistrate शब्द दो अलग पदों के लिए इस्तेमाल होता है। **Judicial Magistrate** फ़ौजदारी अदालत है, जिसकी नियुक्ति High Court करता है। **Executive Magistrate** राज्य सरकार का नियुक्त अधिकारी है; District Magistrate (DM) और Sub-divisional Magistrate (SDM) इसी श्रेणी में आते हैं।[^1]\n\nBNSS की धारा 3(1) के मुताबिक, संदर्भ से कुछ और न निकले, तो किसी क़ानून में बिना विशेषण के 'Magistrate' लिखा हो, तो उसका मतलब उस इलाक़े का Judicial Magistrate है।[^1]\n\n## Magistrate के प्रकार | प्रकार\n\n::flow\n\n- **Chief Judicial Magistrate (CJM):** हर ज़िले में High Court किसी Judicial Magistrate first class को CJM नियुक्त करता है। CJM, Sessions Judge के अधीन होता है।[^1]\n- **Judicial Magistrate first class और second class:** इनकी अदालतें राज्य सरकार High Court से सलाह करके बनाती है; presiding officer की नियुक्ति High Court करता है।[^1]\n- **District Magistrate:** राज्य सरकार हर ज़िले में Executive Magistrate नियुक्त करती है और उनमें से एक को District Magistrate बनाती है। सभी Executive Magistrate उसके अधीन होते हैं।[^1]\n- **Sub-divisional Magistrate:** जिस Executive Magistrate को किसी sub-division का प्रभार दिया जाए।[^1]\n\n## कौन-सा काम किसके पास | काम का बँटवारा\n\nBNSS की धारा 3(2) के मुताबिक दूसरे क़ानूनों में Magistrate के काम इस तरह बँटते हैं:[^1]\n\n- **Judicial Magistrate:** जहाँ सबूत परखने हों, या किसी को सज़ा, जुर्माना, हिरासत या मुक़दमे के लिए भेजने का फ़ैसला हो।[^1]\n- **Executive Magistrate:** प्रशासनिक काम, जैसे licence देना, निलंबित या रद्द करना, या मुक़दमा चलाने की मंज़ूरी देना या वापस लेना।[^1]\n- **सज़ा की सीमा (धारा 23):** first class Magistrate 3 साल तक की क़ैद या ₹50,000 तक जुर्माना; second class Magistrate 1 साल तक की क़ैद या ₹10,000 तक जुर्माना; दोनों community service भी दे सकते हैं।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका काम कहाँ पड़ता है | आपका काम\n\n- **FIR न लिखी जाए:** पहले सूचना का सार लिखकर डाक से Superintendent of Police को; फिर Magistrate को application।[^1]\n- **Affidavit:** BNSS के तहत अदालत में लगने वाला affidavit Judicial या Executive Magistrate, Commissioner of Oaths या notary के सामने दिया जा सकता है।[^1]\n- **Complaint:** first class Magistrate अपराध के तथ्यों वाली complaint पर भी संज्ञान ले सकता है।[^1]\n- **वकील से सलाह:** किस मामले में कौन-सी अदालत या अधिकारी, यह हर मामले के क़ानून पर निर्भर है। **हम वकील नहीं हैं और यह कानूनी सलाह नहीं है।**\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "mobile-banking",
+      "term": "Mobile Banking",
+      "aliases": [
+        "मोबाइल बैंकिंग"
+      ],
+      "full": "मोबाइल बैंकिंग · mobile app, USSD या SMS से bank खाता चलाना",
+      "fullEn": "Mobile Banking Channel",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। RBI के Digital Banking Channels Authorisation Directions, 2025, Master Direction on Digital Payment Security Controls (18 फ़रवरी 2021) और Responsible Business Conduct Directions, 2025 (Updated as on October 1, 2026) से जाँचा।"
+        }
+      ],
+      "one": "Mobile Banking वह digital banking channel है, जिससे bank का ग्राहक mobile app, USSD या SMS के ज़रिए अपना खाता चलाता है और bank की सेवाएँ लेता है। Bank इसे लेने के लिए मजबूर नहीं कर सकता, और ग़लत लेनदेन की सूचना जल्दी देने पर ग्राहक की देनदारी RBI ने सीमित रखी है।",
+      "facts": [
+        {
+          "k": "किन रास्तों से",
+          "v": "App, USSD, SMS",
+          "s": "RBI की परिभाषा में mobile banking channel"
+        },
+        {
+          "k": "हर लेनदेन पर",
+          "v": "SMS alert",
+          "s": "bank को भेजना ज़रूरी"
+        },
+        {
+          "k": "बिना आपकी ग़लती की ठगी, 3 working दिन में सूचना",
+          "v": "शून्य देनदारी",
+          "s": "जब कमी bank या आपकी नहीं, system में कहीं और हो",
+          "good": true
+        },
+        {
+          "k": "App का पुराना version",
+          "v": "6 महीने तक",
+          "s": "नया version आने के बाद पुराना ज़्यादा से ज़्यादा 6 महीने में बंद"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "ग़लत लेनदेन का alert",
+            "s": "SMS या e-mail"
+          },
+          {
+            "t": "Bank को सूचना",
+            "s": "Reply, helpline, website"
+          },
+          {
+            "t": "रक़म वापस",
+            "s": "10 working दिन में"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "तुरंत",
+            "s": "24x7 सुविधा"
+          },
+          {
+            "b": "शून्य या सीमित देनदारी",
+            "s": "shadow reversal"
+          }
+        ],
+        "note": "Bank को सूचना देने के 10 working दिन के अंदर रक़म खाते में डालनी होती है, लेनदेन की तारीख़ से value date के साथ। Complaint ज़्यादा से ज़्यादा 90 दिन में निपटानी होती है।"
+      },
+      "myths": [
+        {
+          "m": "\"Mobile Banking मतलब सिर्फ़ bank का app।\"",
+          "f": "नहीं। RBI की परिभाषा में mobile app के अलावा USSD और SMS से मिलने वाली सेवा भी mobile banking है। App के बिना वाली mobile banking सेवा हर mobile network के ग्राहक को मिलनी चाहिए।[^1]"
+        },
+        {
+          "m": "\"Debit card लेना है, तो mobile banking भी लेनी पड़ेगी।\"",
+          "f": "नहीं। Bank किसी दूसरी सुविधा, जैसे debit card, के लिए कोई digital banking channel लेना ज़रूरी नहीं कर सकता, और सेवाओं की ज़बरदस्ती bundling भी नहीं कर सकता। चुनाव ग्राहक का है।[^1]"
+        },
+        {
+          "m": "\"Bank के app को फ़ोन के दूसरे apps से कोई मतलब नहीं।\"",
+          "f": "ऐसा नहीं है। RBI के निर्देश के मुताबिक bank के mobile app में, जहाँ तक हो सके, remote access apps को पहचानने और एहतियात के तौर पर login रोकने की क्षमता होनी चाहिए। App को device से bind भी करना होता है।[^2]"
+        },
+        {
+          "m": "\"Mobile banking से ठगी हो गई, तो पैसा गया ही समझिए।\"",
+          "f": "ज़रूरी नहीं। Bank की कमी हो, तो ग्राहक की देनदारी शून्य है। कमी न bank की हो न ग्राहक की, और ग्राहक 3 working दिन में सूचना दे दे, तो भी देनदारी शून्य है। हाँ, payment credentials किसी को बताए हों, तो सूचना देने तक का नुक़सान ग्राहक का होता है।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mobile Banking क्या है?",
+          "a": "RBI के मुताबिक Mobile Banking Channel वह digital banking channel है, जिससे bank अपने ग्राहकों को mobile app, USSD और SMS के ज़रिए खाता चलाने और अपनी सेवाएँ लेने की सुविधा देता है।[^1]"
+        },
+        {
+          "q": "Mobile Banking और Net Banking में क्या फ़र्क़ है?",
+          "a": "RBI की परिभाषा में Internet Banking web browser वाली सेवा है और उसमें mobile app शामिल नहीं; mobile app, USSD और SMS वाली सेवा Mobile Banking है।[^1]"
+        },
+        {
+          "q": "View only और transactional सुविधा क्या है?",
+          "a": "View only सुविधा में सिर्फ़ वे काम होते हैं, जिनसे ग्राहक की रक़म या देनदारी नहीं बदलती, जैसे balance देखना या statement download करना। Transactional सुविधा में पैसे वाले और बाक़ी सभी banking काम हो सकते हैं।[^1]"
+        },
+        {
+          "q": "क्या bank mobile banking लेने के लिए मजबूर कर सकता है?",
+          "a": "नहीं। Registration और बंद कराने, दोनों के लिए bank को आपकी साफ़ सहमति लेनी और record करनी होती है। Debit card जैसी किसी सुविधा के लिए digital banking channel लेना ज़रूरी नहीं किया जा सकता।[^1]"
+        },
+        {
+          "q": "क्या BSBD खाते में mobile banking मुफ़्त है?",
+          "a": "हाँ। Basic Savings Bank Deposit (BSBD) खाते की मुफ़्त सुविधाओं में internet और mobile banking शामिल है। पर यह ग्राहक के माँगने पर दी जाती है; bank इसे लेने पर ज़ोर नहीं दे सकता।[^3]"
+        },
+        {
+          "q": "Bank के app की सुरक्षा के लिए RBI ने क्या कहा है?",
+          "a": "RBI की Master Direction के मुताबिक bank को app को device से bind करना होता है; हर बार app खोलने पर, और तय समय तक इस्तेमाल न होने पर, दोबारा authentication माँगना होता है; app को user ID, password जैसी जानकारी फ़ोन पर नहीं रखनी चाहिए; और नया version आने के बाद पुराना version ज़्यादा से ज़्यादा 6 महीने में बंद करना होता है।[^2]"
+        },
+        {
+          "q": "App में कुछ गड़बड़ दिखे, तो?",
+          "a": "RBI के निर्देश के मुताबिक app में ऐसी गड़बड़ी पकड़ी जाए, जिसके लिए वह बना नहीं था, तो ग्राहक से मौजूदा copy हटाकर नई copy install करने को कहा जाता है। Bank को लेनदेन चालू करने से पहले app का version जाँचना होता है।[^2]"
+        },
+        {
+          "q": "ग़लत लेनदेन हो जाए, तो कितनी देनदारी है?",
+          "a": "कमी bank की हो, तो शून्य। कमी न bank की हो न आपकी, तो 3 working दिन में सूचना देने पर शून्य; 4 से 7 working दिन में सूचना देने पर लेनदेन की रक़म या खाते के हिसाब से तय सीमा (₹5,000, ₹10,000 या ₹25,000), जो भी कम हो; उसके बाद bank की नीति के हिसाब से। आपने payment credentials बताए हों, तो सूचना देने तक का पूरा नुक़सान आपका।[^3]"
+        },
+        {
+          "q": "Bank को सूचना कैसे दें?",
+          "a": "Bank को 24x7 कई रास्ते देने होते हैं, जैसे website, phone banking, SMS, e-mail, IVR, toll-free helpline और home branch। SMS या e-mail alert का 'Reply' करके भी आपत्ति दर्ज की जा सकती है, और bank को तुरंत complaint number के साथ जवाब भेजना होता है।[^3]"
+        },
+        {
+          "q": "क्या mobile banking app में सिर्फ़ login करना भी 'लेनदेन' है?",
+          "a": "RBI की परिभाषा में mobile banking application में सफल log-in, या ऐसी enquiry या request जिसमें two-factor authentication लगे और audit trail बने, 'non-financial transaction' है; जैसे balance enquiry या cheque book की request। 'Customer induced transaction' की परिभाषा में ऐसे non-financial transaction भी शामिल हैं।[^3]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Net Banking"
+        },
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "Screen Sharing"
+        },
+        {
+          "t": "SIM Swap"
+        },
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "1930"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Digital Banking Channels Authorisation) Directions, 2025 (RBI/DOR/2025-26/380; 1 जनवरी 2026 से लागू)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13163",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 2 और 3",
+              "c": "1 जनवरी 2026 से; commercial banks पर लागू"
+            },
+            {
+              "ref": "पैरा 4.1(a) से (e)",
+              "c": "digital banking channel, internet banking, mobile banking (app, USSD, SMS), view only और transactional सुविधा"
+            },
+            {
+              "ref": "पैरा 10.1, 10.5",
+              "c": "साफ़ सहमति; ज़बरदस्ती नहीं; bundling नहीं"
+            },
+            {
+              "ref": "पैरा 10.6",
+              "c": "app के बिना वाली mobile banking network independent"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Master Direction on Digital Payment Security Controls (RBI/2020-21/74, 18 फ़रवरी 2021; scheduled commercial banks वग़ैरह के लिए, RRB, Small Finance Bank और Payments Bank को छोड़कर)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12032",
+          "issued": "2021-02-18",
+          "used": [
+            {
+              "ref": "पैरा 55",
+              "c": "गड़बड़ी पर नई copy install करना; version जाँचना"
+            },
+            {
+              "ref": "पैरा 56",
+              "c": "पुराना version 6 महीने में बंद; remote access apps पहचानकर login रोकना"
+            },
+            {
+              "ref": "पैरा 60, 62, 63",
+              "c": "device binding; दोबारा authentication; फ़ोन पर संवेदनशील जानकारी न रखना"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 25(10) और 25(21)",
+              "c": "customer induced transaction; mobile banking app में log-in = non-financial transaction"
+            },
+            {
+              "ref": "पैरा 64 और 66",
+              "c": "mobile banking remote लेनदेन; SMS alert ज़रूरी; 24x7 रास्ते; Reply; complaint number"
+            },
+            {
+              "ref": "पैरा 67, 68, 70 और Table 1",
+              "c": "शून्य और सीमित देनदारी; ₹5,000 / ₹10,000 / ₹25,000"
+            },
+            {
+              "ref": "पैरा 72 और 73",
+              "c": "10 working दिन में रक़म; value date; 90 दिन"
+            },
+            {
+              "ref": "पैरा 86(6) और 86A",
+              "c": "BSBD में मुफ़्त mobile banking; माँगने पर"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के मुताबिक Mobile Banking वह digital banking channel है, जिससे bank अपने ग्राहकों को mobile app, USSD और SMS के ज़रिए खाता चलाने और सेवाएँ लेने की सुविधा देता है।[^1] Web browser वाली सेवा Net Banking कहलाती है।[^1]\n\n- **View only सुविधा:** सिर्फ़ balance देखना, statement download करना जैसे काम, जिनसे रक़म या देनदारी नहीं बदलती।[^1]\n- **Transactional सुविधा:** पैसे वाले और बाक़ी सभी banking काम।[^1]\n- **किन banks पर:** ये निर्देश 1 जनवरी 2026 से commercial banks पर लागू हैं।[^1]\n\n## आपके हक़ | आपके हक़\n\n- **आपकी मर्ज़ी:** registration और बंद कराने, दोनों के लिए आपकी साफ़ सहमति ज़रूरी है। Debit card जैसी किसी सुविधा के लिए mobile banking लेना ज़रूरी नहीं किया जा सकता।[^1]\n- **हर network पर:** app के बिना वाली mobile banking सेवा हर mobile network के ग्राहक को मिलनी चाहिए।[^1]\n- **BSBD खाते में मुफ़्त:** internet और mobile banking BSBD खाते की मुफ़्त सुविधाओं में है, ग्राहक के माँगने पर।[^3]\n- **SMS alert:** हर electronic लेनदेन का SMS alert भेजना bank के लिए ज़रूरी है।[^3]\n\n## App की सुरक्षा | सुरक्षा\n\nRBI की Master Direction में bank के mobile app के लिए ये नियम हैं:[^2]\n\n- **Device binding:** app को आपके device से bind करना।[^2]\n- **दोबारा पहचान:** हर बार app खोलने पर, और तय समय तक इस्तेमाल न होने पर, फिर से authentication।[^2]\n- **Remote access apps:** जहाँ तक हो सके, उन्हें पहचानना और एहतियात के तौर पर login रोकना।[^2]\n- **एक ही version:** नया version आने के बाद पुराना ज़्यादा से ज़्यादा 6 महीने में बंद।[^2]\n- **फ़ोन पर संवेदनशील जानकारी नहीं:** user ID, password जैसी जानकारी app फ़ोन पर न रखे, और बंद होने पर memory से मिटा दे।[^2]\n\n## ग़लत लेनदेन हो जाए | ग़लत लेनदेन\n\n::flow\n\n- **Bank की कमी हो:** आपकी देनदारी शून्य, चाहे सूचना दी हो या नहीं।[^3]\n- **कमी न bank की, न आपकी:** 3 working दिन में सूचना पर शून्य; 4 से 7 working दिन में लेनदेन की रक़म या तय सीमा (₹5,000, ₹10,000 या ₹25,000), जो कम हो; उसके बाद bank की नीति के हिसाब से।[^3]\n- **आपकी लापरवाही:** जैसे payment credentials बताना। तब सूचना देने तक का पूरा नुक़सान आपका, उसके बाद का bank का।[^3]\n- **Working दिन की गिनती:** आपकी home branch के कामकाजी दिनों के हिसाब से, सूचना मिलने वाले दिन को छोड़कर।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Bank में अपना mobile number दर्ज रखिए; mobile number न देने वाले ग्राहक को bank ATM से cash निकालने के अलावा electronic लेनदेन की सुविधा नहीं देता।[^3]\n- ऐसा लेनदेन दिखे जो आपने नहीं किया, तो उसी SMS का Reply कीजिए या bank की 24x7 helpline पर बताइए, और complaint number संभालकर रखिए।[^3]\n- जितनी जल्दी हो, उतना अच्छा: 3 working दिन के अंदर सूचना देने पर, जब कमी न bank की हो न आपकी, देनदारी शून्य रहती है।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
