@@ -19384,6 +19384,195 @@
         }
       ],
       "body": "## मतलब\n\nTDS यानी Tax Deducted at Source। कुछ तरह की आमदनी, जैसे ब्याज, किराया या commission, देने वाला भुगतान करते समय, या आपके खाते में credit करते समय, जो भी पहले हो, उसमें से income-tax काटता है और सरकार को जमा करता है।[^1]\n\nIncome-tax Act, 2025 के मुताबिक ऐसा काटा और जमा किया गया tax उसी व्यक्ति की ओर से दिया गया tax माना जाता है, जिसकी आमदनी से वह कटा।[^1]\n\n## Bank के ब्याज पर TDS | ब्याज पर TDS\n\n::flow\n\n- **किसके ब्याज पर:** banking company, banking करने वाली co-operative society, या post office (केंद्र सरकार की notified scheme)।[^1]\n- **सीमा:** साल में ब्याज ₹50,000 से ऊपर; senior citizen के लिए ₹1,00,000 से ऊपर।[^1]\n- **पूरी रक़म पर:** सीमा पार होने पर TDS पूरी रक़म पर कटता है।[^1]\n- **दर:** इस आमदनी के लिए Act में 'rates in force' लिखा है।[^1]\n\n## TDS न कटवाना या कम कटवाना | Declaration\n\n- **Form 121:** resident व्यक्ति लिखित declaration दे सकता है कि उस साल उसकी अनुमानित कुल आमदनी पर tax शून्य होगा। यह पहले Form 15G / 15H था।[^1][^2]\n- **शर्त:** 60 साल से कम उम्र वाले के लिए, अगर उस तरह की आमदनी ही tax-मुक्त सीमा से ज़्यादा हो, तो यह लागू नहीं होता।[^1]\n- **Certificate (Form 128):** Assessing Officer से कम दर या बिना कटौती का certificate माँगा जा सकता है; पहले यह Form 13 था।[^1][^2]\n\n## PAN और certificate | PAN\n\n- **PAN ज़रूरी:** TDS काटने वाले को valid PAN दीजिए; न देने पर ऊँची दर से TDS।[^1]\n- **Certificate:** काटने वाले को TDS certificate देना होता है: salary का Form 130, बाक़ी का Form 131।[^1][^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- जहाँ से ब्याज या दूसरी ऐसी आमदनी मिलती है, वहाँ अपना valid PAN दर्ज कराइए।[^1]\n- आमदनी पर tax शून्य बनता है, तो bank को Form 121 का declaration दीजिए; शर्तें पहले जाँच लीजिए।[^1][^2]\n- कटे TDS का certificate (Form 131) लीजिए, ताकि उसका हिसाब रहे।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "rupay",
+      "term": "RuPay",
+      "aliases": [],
+      "full": "RuPay · NPCI का देसी card भुगतान network",
+      "fullEn": "RuPay card payment network",
+      "group": "भुगतान",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। NPCI की website के 'About RuPay' और 'RuPay Credit Card on UPI' पन्नों से जाँचा।"
+        }
+      ],
+      "one": "RuPay भारत का अपना card भुगतान network है, जिसे NPCI चलाता है। RuPay के debit, credit और prepaid card ATM, PoS मशीन और e-commerce पर चलते हैं। RuPay credit card को UPI ID से जोड़कर दुकान का UPI QR scan करके भी भुगतान किया जा सकता है।",
+      "facts": [
+        {
+          "k": "किसका",
+          "v": "NPCI",
+          "s": "National Payments Corporation of India का product"
+        },
+        {
+          "k": "नाम का मतलब",
+          "v": "Rupee + Payment",
+          "s": "NPCI के मुताबिक"
+        },
+        {
+          "k": "Credit card on UPI",
+          "v": "सिर्फ़ merchant को",
+          "s": "UPI QR scan; UPI PIN से authentication"
+        },
+        {
+          "k": "UPI पर credit card से मना",
+          "v": "P2P, cash",
+          "s": "व्यक्ति को भुगतान, cash निकालना, card-to-card नहीं"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "RuPay credit card",
+            "s": "issuer bank का"
+          },
+          {
+            "t": "UPI ID से जोड़ें",
+            "s": "अलग UPI PIN बनाएँ"
+          },
+          {
+            "t": "दुकान का QR scan",
+            "s": "UPI PIN से भुगतान"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "UPI app में",
+            "s": "registered mobile number से"
+          },
+          {
+            "b": "सिर्फ़ merchant",
+            "s": "P2P और cash नहीं"
+          }
+        ],
+        "note": "NPCI के मुताबिक RuPay credit card को BHIM या किसी भी UPI app में UPI ID से जोड़ा जा सकता है। उसके बाद merchant का UPI QR scan करके भुगतान होता है और authentication UPI PIN से होता है।"
+      },
+      "myths": [
+        {
+          "m": "\"RuPay कोई bank है।\"",
+          "f": "नहीं। RuPay भारत का घरेलू card भुगतान network है, जो NPCI का product है। Card आपका bank (issuer bank) जारी करता है।[^1][^2]"
+        },
+        {
+          "m": "\"RuPay card सिर्फ़ देश के अंदर चलता है।\"",
+          "f": "ज़रूरी नहीं। NPCI के मुताबिक RuPay के card variants की सुविधाओं में international acceptance भी गिनाई गई है। आपके card में यह सुविधा है या नहीं, यह card के variant पर निर्भर है।[^1]"
+        },
+        {
+          "m": "\"Credit card UPI से जुड़ गया, तो दोस्त को भी पैसे भेज सकते हैं।\"",
+          "f": "नहीं। NPCI के मुताबिक RuPay credit card on UPI से person-to-person भुगतान, merchant के पास cash निकालना, P2PM और card-to-card भुगतान नहीं हो सकते।[^2]"
+        },
+        {
+          "m": "\"Credit card और bank खाते का UPI PIN एक रखना ठीक है।\"",
+          "f": "NPCI की सलाह है कि credit card के लिए अलग UPI PIN रखें, और credit card on UPI वाला PIN, savings खाते का UPI PIN और card PIN एक जैसे न रखें।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "RuPay क्या है?",
+          "a": "NPCI के मुताबिक RuPay भारत का पहला घरेलू card भुगतान network है, जो ATM, PoS मशीन और e-commerce websites पर चलता है। नाम 'Rupee' और 'Payment' से बना है।[^1]"
+        },
+        {
+          "q": "RuPay किसका है?",
+          "a": "RuPay, National Payments Corporation of India (NPCI) का product है। NPCI देश के खुदरा भुगतानों की umbrella संस्था है, जो Companies Act, 2013 की धारा 8 के तहत 'not for profit' company है।[^1]"
+        },
+        {
+          "q": "RuPay के कौन-से card होते हैं?",
+          "a": "RuPay के debit, credit और prepaid card होते हैं। सरकारी योजनाओं के card के अलावा Classic, Platinum और Select जैसे variants हैं; Pradhan Mantri Jan Dhan Yojana में भी RuPay card चुना गया।[^1]"
+        },
+        {
+          "q": "RuPay Contactless क्या है?",
+          "a": "Card को reader पर सिर्फ़ tap करके भुगतान। NPCI के मुताबिक इसमें offline wallet से metro, bus जैसे परिवहन और toll / parking का भुगतान, और monthly pass जैसी चीज़ें रखने की जगह भी होती है। यह National Common Mobility Card (NCMC) की specifications के मुताबिक है।[^1]"
+        },
+        {
+          "q": "RuPay credit card को UPI से कैसे जोड़ें?",
+          "a": "BHIM या किसी UPI app में credit card का विकल्प चुनकर अपना issuer bank और card चुनिए, फिर UPI PIN बनाइए। Card ढूँढने के लिए bank में registered mobile number होना चाहिए।[^2]"
+        },
+        {
+          "q": "UPI पर RuPay credit card से कहाँ भुगतान होता है?",
+          "a": "Merchant को, उसका UPI QR (static या dynamic) scan करके, और credit card on UPI स्वीकार करने वाले e-commerce merchant को। लेनदेन UPI की standard सीमाओं के अंदर होते हैं।[^2]"
+        },
+        {
+          "q": "UPI पर RuPay credit card से क्या नहीं हो सकता?",
+          "a": "NPCI के मुताबिक person-to-person भुगतान, merchant के पास cash निकालना, P2PM और card-to-card भुगतान नहीं। NPCI ने digital account opening, lending platform, ATM से cash, IPO, mutual fund जैसी श्रेणियों में भी इसका इस्तेमाल न करने को कहा है।[^2]"
+        },
+        {
+          "q": "क्या UPI वाले credit card भुगतान को EMI में बदल सकते हैं?",
+          "a": "NPCI के मुताबिक हाँ: ख़रीद के समय, या बाद में UPI app की transaction history से EMI conversion का अनुरोध करके।[^2]"
+        },
+        {
+          "q": "शिकायत कहाँ करें?",
+          "a": "NPCI के मुताबिक RuPay credit card on UPI में AutoPay और विवाद सुलझाने की सुविधा UPI apps में ODR (UPIHelp) के ज़रिए मिलती है।[^2]"
+        },
+        {
+          "q": "RuPay online भुगतान को सुरक्षित कैसे करता है?",
+          "a": "NPCI के मुताबिक RuPay के e-commerce लेनदेन EMV 3-D Secure पर होते हैं, जिसे 'NPCI SecureNxt' कहा गया है; और device tokenization में card की असली जानकारी की जगह device पर एक encrypted token रखा जाता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "NPCI"
+        },
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "Debit Card"
+        },
+        {
+          "t": "Credit Card"
+        },
+        {
+          "t": "P2M"
+        },
+        {
+          "t": "MDR"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NPCI — About RuPay",
+          "url": "https://www.npci.org.in/product/rupay/about-rupay",
+          "used": [
+            {
+              "ref": "About RuPay",
+              "c": "पहला घरेलू card network; ATM, PoS, e-commerce; नाम Rupee + Payment"
+            },
+            {
+              "ref": "A product of NPCI",
+              "c": "NPCI; धारा 8 company"
+            },
+            {
+              "ref": "RuPay's Journey",
+              "c": "PMJDY; Classic, Platinum, Select; international acceptance"
+            },
+            {
+              "ref": "RuPay Contactless / NCMC",
+              "c": "tap से भुगतान; offline wallet; परिवहन; NCMC"
+            },
+            {
+              "ref": "SecureNxt, Device Tokenization",
+              "c": "EMV 3-D Secure; token"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — RuPay Credit Card on UPI",
+          "url": "https://www.npci.org.in/product/rupay/credit-card-on-upi",
+          "used": [
+            {
+              "ref": "Product features",
+              "c": "UPI ID से जोड़ना; merchant QR; UPI PIN; EMI; P2P, P2PM, cash, card-to-card नहीं; UPI सीमा; ODR (UPIHelp)"
+            },
+            {
+              "ref": "Do's and Don'ts",
+              "c": "अलग UPI PIN; registered mobile number; मना की गई श्रेणियाँ"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNPCI के मुताबिक RuPay भारत का पहला घरेलू card भुगतान network है, जो ATM, PoS मशीन और e-commerce websites पर चलता है। इसका नाम 'Rupee' और 'Payment' से बना है।[^1]\n\nRuPay, National Payments Corporation of India (NPCI) का product है।[^1] Card आपका bank (issuer bank) जारी करता है; RuPay वह network है, जिस पर वह card चलता है।[^1][^2]\n\n## RuPay के card | Card\n\n- **किस्में:** सरकारी योजनाओं के card के अलावा Classic, Platinum और Select जैसे variants। Pradhan Mantri Jan Dhan Yojana में भी RuPay card चुना गया।[^1]\n- **सुविधाएँ:** NPCI के मुताबिक कुछ variants में international acceptance, airport lounge और बीमा जैसी सुविधाएँ हैं; ये card के variant पर निर्भर हैं।[^1]\n- **Contactless:** card reader पर tap करके भुगतान; offline wallet से metro, bus, toll और parking; National Common Mobility Card (NCMC) की specifications के मुताबिक।[^1]\n\n## RuPay credit card on UPI | UPI पर\n\n::flow\n\n- **किसे भुगतान:** merchant को, उसका UPI QR scan करके।[^2]\n- **क्या नहीं:** person-to-person भुगतान, merchant के पास cash, P2PM और card-to-card भुगतान।[^2]\n- **सीमा:** UPI की standard लेनदेन सीमाएँ।[^2]\n- **EMI:** ख़रीद के समय या बाद में UPI app से EMI में बदलने का अनुरोध।[^2]\n\n## सुरक्षा | सुरक्षा\n\n- **Online भुगतान:** RuPay के e-commerce लेनदेन EMV 3-D Secure ('NPCI SecureNxt') पर।[^1]\n- **Token:** device tokenization में card की असली जानकारी की जगह device पर encrypted token।[^1]\n- **अलग PIN:** credit card on UPI के लिए अलग UPI PIN; savings खाते के UPI PIN और card PIN से अलग।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- RuPay credit card को UPI से जोड़ें, तो उसके लिए अलग UPI PIN बनाइए, और किसी से साझा मत कीजिए।[^2]\n- Card जोड़ने के लिए bank में अपना mobile number ताज़ा रखिए।[^2]\n- भुगतान से पहले UPI app में card की उपलब्ध सीमा और बकाया देख लीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
