@@ -852,6 +852,162 @@
         }
       ],
       "body": "## मतलब\n\nCERT-In का पूरा नाम Indian Computer Emergency Response Team है।[^2] IT Act की धारा 70B के तहत केंद्र सरकार ने इसे cyber security के क्षेत्र में national agency बनाया है।[^1] CERT-In के FAQ के मुताबिक यह Ministry of Electronics and Information Technology के तहत चलती है।[^2]\n\n- **काम:** cyber incidents की जानकारी जुटाना, alert देना, आपात उपाय, तालमेल, और guidelines व advisories जारी करना।[^1]\n- **अधिकार:** service providers, intermediaries वग़ैरह से जानकारी माँगना और direction देना।[^1]\n\n## Report कैसे होता है | Report\n\n::flow\n\n- **Email:** incident@cert-in.org.in[^3]\n- **Toll-free फ़ोन:** +91-1800-11-4949[^3]\n- **Toll-free fax:** +91-1800-11-6969[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- System या device पर security incident हो, जैसे बिना इजाज़त access की कोशिश, तो CERT-In को ऊपर दिए रास्तों से report किया जा सकता है।[^2][^3]\n- पैसे की ठगी (financial fraud) समेत cyber crime की शिकायत के लिए गृह मंत्रालय के National Cyber Crime Reporting Portal, cybercrime.gov.in पर अलग विकल्प है।[^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "udrn",
+      "term": "UDRN",
+      "aliases": [
+        "Unclaimed Deposit Reference Number"
+      ],
+      "full": "अनक्लेम्ड डिपॉज़िट रेफ़रेंस नंबर",
+      "fullEn": "Unclaimed Deposit Reference Number",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (Updated as on October 1, 2026) के पैरा 4(27), 4(28), 211 और 214, और RBI के UDGAM FAQ के सवाल 5 और 6 से जाँचा।"
+        }
+      ],
+      "one": "UDRN का पूरा नाम Unclaimed Deposit Reference Number है। जब किसी खाते या जमा की रक़म RBI के DEA Fund में भेजी जाती है, तो bank अपने Core Banking Solution (CBS) से उस खाते या जमा को एक अलग number देता है; यही UDRN है। RBI के मुताबिक यह number ऐसा होना चाहिए कि इससे कोई तीसरा व्यक्ति खाताधारक या bank की शाखा को पहचान न सके।",
+      "facts": [
+        {
+          "k": "पूरा नाम",
+          "v": "Unclaimed Deposit Reference Number",
+          "s": "RBI Directions, पैरा 4(28)"
+        },
+        {
+          "k": "किसे मिलता है",
+          "v": "DEA Fund में गई हर जमा",
+          "s": "पैरा 4(28)"
+        },
+        {
+          "k": "कौन बनाता है",
+          "v": "Bank, CBS से",
+          "s": "UDGAM FAQ, सवाल 6"
+        },
+        {
+          "k": "दावा कहाँ",
+          "v": "उसी bank में",
+          "s": "UDGAM FAQ, सवाल 5"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Unclaimed जमा",
+            "s": "10 साल या ज़्यादा समय से बिना लेन-देन"
+          },
+          {
+            "t": "DEA Fund + UDRN",
+            "s": "bank CBS से अलग number देता है"
+          },
+          {
+            "t": "खोज और दावा",
+            "s": "bank की website पर खोज; दावा उसी bank से"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "RBI के fund में",
+            "s": "पैरा 4(27), 4(28)"
+          },
+          {
+            "b": "UDRN से पहचान",
+            "s": "पैरा 211; UDGAM FAQ"
+          }
+        ],
+        "note": "RBI के मुताबिक DEA Fund में भेजे गए हर unclaimed खाते या जमा को UDRN दिया जाता है। UDGAM FAQ के मुताबिक UDRN से bank की शाखाएँ उन ग्राहकों के दावे आसानी से निपटा पाती हैं, जिन्होंने UDGAM portal पर सफल खोज की हो।"
+      },
+      "myths": [
+        {
+          "m": "\"UDRN ही मेरा खाता number है।\"",
+          "f": "नहीं। RBI के पैरा 4(28) के मुताबिक UDRN ऐसा number है जिससे कोई तीसरा व्यक्ति खाताधारक या शाखा को पहचान न सके; और पैरा 211 के मुताबिक bank की website पर खाता number, खाते का प्रकार, बकाया रक़म और शाखा का नाम नहीं दिखाया जाता।[^1]"
+        },
+        {
+          "m": "\"UDRN मिल गया, तो पैसा UDGAM portal या RBI से मिलेगा।\"",
+          "f": "नहीं। UDGAM FAQ के मुताबिक portal सिर्फ़ कई banks में एक साथ खोज करने और हर bank की दावा-प्रक्रिया की जानकारी देने के लिए है; unclaimed deposit का दावा सिर्फ़ उसी bank से हो सकता है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "UDRN का पूरा नाम क्या है?",
+          "a": "UDRN का पूरा नाम Unclaimed Deposit Reference Number है।[^1]"
+        },
+        {
+          "q": "UDRN कौन देता है?",
+          "a": "RBI के पैरा 4(28) और UDGAM FAQ के मुताबिक bank अपने Core Banking Solution (CBS) से यह number बनाता है।[^1][^2]"
+        },
+        {
+          "q": "UDRN किन खातों या जमाओं को मिलता है?",
+          "a": "पैरा 4(28) के मुताबिक हर उस unclaimed खाते या जमा को, जो RBI के DEA Fund में भेजी गई हो। पैरा 4(27) के मुताबिक unclaimed deposit का मतलब है किसी जमा खाते की वह बकाया रक़म, जिसमें दस साल या उससे ज़्यादा समय से लेन-देन नहीं हुआ, या कोई ऐसी रक़म, जो दस साल या उससे ज़्यादा समय से बिना दावे के पड़ी है।[^1]"
+        },
+        {
+          "q": "UDRN कहाँ दिखता है?",
+          "a": "Commercial banks के लिए RBI Directions के पैरा 211 के मुताबिक bank को DEA Fund में भेजी गई जमाओं की सूची अपनी website पर रखनी है, जिसमें सिर्फ़ नाम, पता (PIN code के बिना) और UDRN हो, और उसे कम से कम हर महीने update करना है। जिस bank की website नहीं है, वह यह सूची अपनी शाखाओं में रखेगा।[^1]"
+        },
+        {
+          "q": "Bank की website पर खोज कैसे होती है?",
+          "a": "पैरा 211 के मुताबिक खाताधारक के नाम और पते को मिलाकर। खाता किसी व्यक्ति के नाम पर न हो, तो खोज और नतीजे में खाता चलाने के लिए अधिकृत लोगों के नाम भी होते हैं।[^1]"
+        },
+        {
+          "q": "UDRN की ज़रूरत क्यों है?",
+          "a": "UDGAM FAQ के मुताबिक इसका मकसद है कि कोई तीसरा व्यक्ति खाताधारक या शाखा को पहचान न सके, और bank की शाखाएँ UDGAM पर सफल खोज करने वाले ग्राहकों के दावे आसानी से निपटा सकें।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Unclaimed Deposit"
+        },
+        {
+          "t": "DEA Fund"
+        },
+        {
+          "t": "UDGAM"
+        },
+        {
+          "t": "Inoperative Account"
+        },
+        {
+          "t": "KYC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "used": [
+            {
+              "ref": "पैरा 4(27) और 4(28)",
+              "c": "unclaimed deposit और UDRN की परिभाषा"
+            },
+            {
+              "ref": "पैरा 211",
+              "c": "bank की website पर सूची और खोज; क्या दिखता है और क्या नहीं"
+            },
+            {
+              "ref": "पैरा 214",
+              "c": "website और शाखा पर दावे की प्रक्रिया की जानकारी"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Frequently Asked Questions (FAQs) on UDGAM Portal",
+          "url": "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/FAQonUDGAMPortal.pdf",
+          "used": [
+            {
+              "ref": "सवाल 5",
+              "c": "दावा सिर्फ़ उसी bank से; UDGAM सिर्फ़ खोज और जानकारी"
+            },
+            {
+              "ref": "सवाल 6",
+              "c": "UDRN क्या है और क्यों"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nUDRN का पूरा नाम Unclaimed Deposit Reference Number है।[^1] DEA Fund में भेजे गए हर unclaimed खाते या जमा को bank अपने Core Banking Solution (CBS) से यह अलग number देता है।[^1][^2]\n\n- **पहचान छिपी रहती है:** इस number से कोई तीसरा व्यक्ति खाताधारक या bank की शाखा को पहचान नहीं सकता।[^1]\n- **दावे में मदद:** UDRN से bank की शाखाएँ UDGAM पर सफल खोज करने वाले ग्राहकों के दावे आसानी से निपटा पाती हैं।[^2]\n\n## UDRN कैसे बनता है | कैसे बनता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- अपने या परिवार के पुराने खाते की जमा ढूँढनी हो, तो bank की website पर नाम और पते से खोज कीजिए; नतीजे में नाम, पता और UDRN दिखता है।[^1]\n- दावा उसी bank में कीजिए; RBI के मुताबिक bank को अपनी website और शाखाओं पर दावे की प्रक्रिया की जानकारी देनी है।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
