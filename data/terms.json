@@ -19016,6 +19016,182 @@
         }
       ],
       "body": "## मतलब\n\nBSBD यानी Basic Savings Bank Deposit खाता। RBI के मुताबिक यह आम लोगों को सस्ती banking सुविधा देने के लिए बना savings खाता है। हर bank को यह खाता देना होता है, और इसे सबके लिए उपलब्ध एक सामान्य banking सेवा माना जाता है।[^1]\n\nइसमें कोई minimum balance नहीं रखना पड़ता, और खोलते समय कोई शुरुआती जमा भी ज़रूरी नहीं।[^1] ये निर्देश commercial banks पर लागू हैं, और BSBD वाले पैरा 1 अप्रैल 2026 से नए रूप में हैं।[^1]\n\n## क्या-क्या मुफ़्त | मुफ़्त सुविधाएँ\n\n- **जमा:** cash जमा; electronic channel या cheque से पैसा आना; महीने में जमा की संख्या और रक़म पर कोई सीमा नहीं।[^1]\n- **Card:** ATM या ATM-cum-Debit card; जारी करते समय या renewal पर सालाना fee नहीं।[^1]\n- **Cheque book:** हर साल कम से कम 25 पन्ने।[^1]\n- **Internet और mobile banking।**[^1]\n- **Passbook या monthly statement:** छपा हुआ या e-mail से; passbook भरने पर नई passbook भी मुफ़्त।[^1]\n- **निकासी:** महीने में कम से कम 4 मुफ़्त, जिनमें transfer और ATM निकासी (अपने या दूसरे bank का ATM) गिनी जाती हैं। ATM को छोड़कर digital लेनदेन, जैसे PoS, NEFT, RTGS, UPI, IMPS, इसमें नहीं गिने जाते।[^1]\n\n## नियम | नियम\n\n::flow\n\n- **माँगने पर:** card, internet / mobile banking और cheque book ग्राहक के माँगने पर; bank इन्हें लेने पर ज़ोर नहीं दे सकता।[^1]\n- **Extra सुविधा:** bank दे सकता है, charge लेकर या मुफ़्त, पर बिना भेदभाव, साफ़ बताकर, और minimum balance की शर्त के बिना।[^1]\n- **सिर्फ़ एक खाता:** किसी भी bank में दूसरा BSBD खाता नहीं; खोलते या बदलते समय bank declaration लेता है।[^1]\n- **KYC:** खाता खोलना और चलाना RBI के KYC निर्देशों के अधीन है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Minimum balance की परेशानी हो, तो अपने bank से मौजूदा savings खाता BSBD में बदलवाने का लिखित अनुरोध दीजिए; bank को सात दिन में बदलना होता है।[^1]\n- पुराना BSBD खाता है, तो cheque book, mobile banking और passbook / statement की मुफ़्त सुविधा के लिए अनुरोध दीजिए।[^1]\n- खाता खोलने जाएँ, तो bank से BSBD और दूसरे savings खातों का फ़र्क़ पूछिए; bank को यह बताना होता है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "emi",
+      "term": "EMI",
+      "aliases": [
+        "Equated Monthly Instalment",
+        "ईएमआई"
+      ],
+      "full": "Equated Monthly Instalment · loan चुकाने की हर महीने की बराबर किस्त",
+      "fullEn": "Equated Monthly Instalment",
+      "group": "क़र्ज़",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। RBI के Responsible Business Conduct Directions, 2025 (Updated as on October 1, 2026) के पैरा 348 से 353 से जाँचा।"
+        }
+      ],
+      "one": "EMI यानी Equated Monthly Instalment: loan चुकाने के लिए हर महीने दी जाने वाली बराबर किस्त, जिसमें मूलधन और ब्याज दोनों होते हैं। RBI के नियमों में EMI, 'Equated Periodic Instalment' (EPI) का महीने वाला रूप है।",
+      "facts": [
+        {
+          "k": "EMI में क्या",
+          "v": "मूलधन + ब्याज",
+          "s": "शुरू में ब्याज ज़्यादा, बाद में मूलधन ज़्यादा"
+        },
+        {
+          "k": "Loan से पहले",
+          "v": "KFS",
+          "s": "retail और MSME term loan में; APR और पूरा repayment schedule"
+        },
+        {
+          "k": "Personal loan का floating rate बढ़े",
+          "v": "आपकी पसंद",
+          "s": "EMI बढ़ाएँ, अवधि बढ़ाएँ, दोनों, या prepay करें"
+        },
+        {
+          "k": "Floating rate loan जल्दी चुकाना",
+          "v": "Charge नहीं",
+          "s": "व्यक्ति के non-business floating rate term loan पर; 1 जनवरी 2026 से ऐसे हर loan पर",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "KFS",
+            "s": "loan से पहले; APR और schedule"
+          },
+          {
+            "t": "हर महीने EMI",
+            "s": "मूलधन + ब्याज"
+          },
+          {
+            "t": "हर तिमाही statement",
+            "s": "बची EMI, वसूला मूलधन-ब्याज"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "सहमति",
+            "s": "कम से कम 3 working दिन"
+          },
+          {
+            "b": "Floating rate बदले",
+            "s": "तुरंत सूचना"
+          }
+        ],
+        "note": "Floating rate वाले personal loan में bank को हर तिमाही के आख़िर में ऐसा statement देना होता है, जिसमें अब तक वसूला गया मूलधन और ब्याज, EMI की रक़म, बची EMI की संख्या और पूरी अवधि का सालाना ब्याज दर / APR हो।"
+      },
+      "myths": [
+        {
+          "m": "\"हर EMI में मूलधन और ब्याज बराबर-बराबर कटते हैं।\"",
+          "f": "नहीं। RBI के उदाहरण में ₹20,000 के loan (15% fixed, 24 महीने) की EMI ₹970 है। पहली EMI में ₹250 ब्याज और ₹720 मूलधन है, जबकि आख़िरी EMI में ₹12 ब्याज और ₹958 मूलधन।[^1]"
+        },
+        {
+          "m": "\"Personal loan का floating rate बढ़ा, तो bank अपने-आप loan की अवधि बढ़ा देगा; मेरी कोई राय नहीं।\"",
+          "f": "नहीं। Bank को बताना होता है कि benchmark rate बदलने से EMI या अवधि या दोनों बदल सकते हैं, और बढ़ोतरी की सूचना तुरंत देनी होती है। Borrower को EMI बढ़ाने, अवधि बढ़ाने या दोनों का, और कभी भी आंशिक या पूरा prepay करने का विकल्प मिलना चाहिए।[^1]"
+        },
+        {
+          "m": "\"Loan जल्दी चुकाने पर हमेशा penalty लगती है।\"",
+          "f": "ज़रूरी नहीं। 1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुए floating rate loan पर, अगर loan व्यक्ति को business के अलावा किसी काम के लिए दिया गया है, तो bank pre-payment charge नहीं ले सकता। Business के लिए व्यक्तियों और MSE को दिए floating rate loan पर भी नहीं।[^1]"
+        },
+        {
+          "m": "\"EMI देर से दी, तो ब्याज पर ब्याज और penal ब्याज, सब जुड़ता जाएगा।\"",
+          "f": "ऐसा नहीं। Penalty 'penal charges' के रूप में ली जा सकती है, 'penal interest' के रूप में ब्याज दर में जोड़कर नहीं; और penal charges पर आगे ब्याज नहीं लगता। हाँ, बिना चुकाई EMI पर bank contract वाली ब्याज दर से ब्याज ले सकता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "EMI का मतलब क्या है?",
+          "a": "EMI यानी Equated Monthly Instalment: loan की हर महीने की बराबर किस्त। RBI के निर्देशों में बराबर किस्तों को 'Equated Periodic Instalment' (EPI) कहा गया है, और महीने वाली किस्त को EMI।[^1]"
+        },
+        {
+          "q": "EMI में मूलधन और ब्याज कैसे बँटता है?",
+          "a": "RBI के उदाहरण में ₹20,000 का loan, 15% fixed ब्याज, 24 महीने: EMI ₹970 (असल में ₹969.73, round करके)। पहली EMI में ₹250 ब्याज और ₹720 मूलधन, आख़िरी में ₹12 ब्याज और ₹958 मूलधन। कुल ब्याज ₹3,274।[^1]"
+        },
+        {
+          "q": "KFS क्या है और इसमें EMI कहाँ दिखती है?",
+          "a": "Key Facts Statement (KFS) loan लेने से पहले मिलने वाला standard पन्ना है, जो 1 अक्टूबर 2024 से नए retail और MSME term loan पर लागू है। इसमें किस्तों की रक़म और संख्या, ब्याज दर, fee, APR और loan की पूरी अवधि का repayment schedule होता है। यह आपकी समझ वाली भाषा में होना चाहिए।[^1]"
+        },
+        {
+          "q": "KFS कितने दिन मान्य रहता है?",
+          "a": "7 दिन या उससे ज़्यादा अवधि वाले loan में कम से कम 3 working दिन, और 7 दिन से कम वाले में 1 working दिन। इस दौरान आप शर्तें मान लें, तो bank KFS की शर्तों से बँधा रहता है।[^1]"
+        },
+        {
+          "q": "APR क्या है?",
+          "a": "Annual Percentage Rate (APR) loan की असली सालाना लागत है, जिसमें bank के सारे charge शामिल होते हैं। RBI के उदाहरण में 15% ब्याज वाले loan का APR, ₹400 के charges के साथ, 17.07% बनता है।[^1]"
+        },
+        {
+          "q": "क्या bank KFS में न लिखा charge बाद में ले सकता है?",
+          "a": "नहीं। KFS में जो fee या charge नहीं लिखा, वह bank loan की अवधि में कभी भी आपकी साफ़ सहमति के बिना नहीं ले सकता।[^1]"
+        },
+        {
+          "q": "Floating rate बढ़ने पर क्या विकल्प मिलते हैं?",
+          "a": "EMI बढ़ाना, EMI वही रखकर किस्तों की संख्या बढ़ाना, या दोनों; जहाँ bank यह सुविधा दे, वहाँ बचे loan के लिए fixed rate पर जाना; और कभी भी आंशिक या पूरा prepay करना। इन विकल्पों के सारे charges sanction letter में साफ़ लिखे होने चाहिए।[^1]"
+        },
+        {
+          "q": "क्या अवधि बढ़ाने की कोई सीमा है?",
+          "a": "Bank को ध्यान रखना होता है कि floating rate loan में अवधि बढ़ाने से 'negative amortisation' न हो, यानी किस्त इतनी कम न रह जाए कि बकाया घटने के बजाय बढ़ने लगे।[^1]"
+        },
+        {
+          "q": "क्या ये नियम सिर्फ़ monthly EMI पर हैं?",
+          "a": "नहीं। Floating rate reset वाले नियम EMI वाले loan के अलावा बराबर किस्त वाले हर personal loan पर भी लागू होते हैं, चाहे किस्त किसी भी अंतराल की हो, और चाहे loan external benchmark से जुड़ा हो या internal से।[^1]"
+        },
+        {
+          "q": "Loan जल्दी चुकाने पर charge लगेगा?",
+          "a": "1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुए loan में: व्यक्ति के non-business floating rate loan पर, और व्यक्तियों व MSE के business वाले floating rate loan पर, कोई pre-payment charge नहीं, चाहे पैसा कहीं से भी आए और कोई lock-in नहीं। 31 दिसंबर 2025 से पहले मंज़ूर व्यक्ति के non-business floating rate term loan पर भी charge नहीं। बाक़ी मामलों में bank की नीति के हिसाब से, पर जो charge sanction letter, agreement और KFS में नहीं लिखा, वह नहीं लिया जा सकता।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "AutoPay"
+        },
+        {
+          "t": "Credit Card"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "Credit Score"
+        },
+        {
+          "t": "CIBIL"
+        },
+        {
+          "t": "NBFC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 348",
+              "c": "KFS: 1 अक्टूबर 2024 से; भाषा; validity; APR और repayment schedule; EPI / EMI; ₹20,000 का उदाहरण (EMI ₹970, ब्याज ₹3,274, APR 17.07%); KFS से बाहर का charge नहीं"
+            },
+            {
+              "ref": "पैरा 349 और 350",
+              "c": "floating rate reset: सूचना; EMI / अवधि / दोनों; fixed rate; prepay; charges का खुलासा; negative amortisation नहीं; तिमाही statement; हर अंतराल की बराबर किस्त"
+            },
+            {
+              "ref": "पैरा 351(1)",
+              "c": "penal charges, penal interest नहीं; capitalisation नहीं; बिना चुकाई EMI पर contract वाली दर"
+            },
+            {
+              "ref": "पैरा 352 और 353",
+              "c": "pre-payment charges: पुराने और 1 जनवरी 2026 से नए floating rate loan; lock-in नहीं; खुलासा"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nEMI यानी Equated Monthly Instalment: loan चुकाने के लिए हर महीने दी जाने वाली बराबर किस्त। RBI के निर्देशों में बराबर किस्तों को 'Equated Periodic Instalment' (EPI) कहा गया है; महीने वाली किस्त EMI है।[^1]\n\nहर EMI में मूलधन और ब्याज दोनों होते हैं। शुरू में बकाया ज़्यादा होता है, इसलिए ब्याज का हिस्सा बड़ा होता है; जैसे-जैसे बकाया घटता है, मूलधन का हिस्सा बढ़ता जाता है।[^1]\n\n## RBI का उदाहरण | उदाहरण\n\nRBI ने अपने निर्देशों में एक काल्पनिक loan से यह हिसाब दिखाया है:[^1]\n\n- **Loan:** ₹20,000; 15% fixed ब्याज; 24 महीने।[^1]\n- **EMI:** ₹970 (असल में ₹969.73, round करके)।[^1]\n- **पहली EMI:** ₹250 ब्याज + ₹720 मूलधन। **आख़िरी EMI:** ₹12 ब्याज + ₹958 मूलधन।[^1]\n- **कुल ब्याज:** ₹3,274। ₹400 के charges के साथ APR 17.07%।[^1]\n\n## Loan से पहले KFS | KFS\n\n::flow\n\n- **किन loan पर:** 1 अक्टूबर 2024 या बाद में मंज़ूर नए retail और MSME term loan; credit card की बकाया रक़म पर नहीं।[^1]\n- **क्या होता है:** किस्त की रक़म और संख्या, ब्याज दर, fee, APR और पूरी अवधि का repayment schedule।[^1]\n- **भाषा और पावती:** आपकी समझ वाली भाषा में; bank समझाकर आपसे पावती लेता है।[^1]\n- **बाहर का charge नहीं:** KFS में न लिखा कोई fee या charge आपकी साफ़ सहमति के बिना नहीं लिया जा सकता।[^1]\n\n## Floating rate बदले, तो | Floating rate\n\nये नियम 1 जनवरी 2024 से नए और पुराने personal loan पर लागू हैं:[^1]\n\n- **पहले से जानकारी:** loan मंज़ूर करते समय bank को बताना होता है कि benchmark rate बदलने से EMI या अवधि या दोनों बदल सकते हैं; बढ़ोतरी की सूचना तुरंत।[^1]\n- **आपके विकल्प:** EMI बढ़ाना, किस्तें बढ़ाना, दोनों; जहाँ bank दे, वहाँ fixed rate; और कभी भी आंशिक या पूरा prepay।[^1]\n- **Negative amortisation नहीं:** अवधि बढ़ाने से बकाया बढ़ने नहीं लगना चाहिए।[^1]\n- **हर तिमाही statement:** अब तक वसूला मूलधन और ब्याज, EMI, बची EMI और APR।[^1]\n\n## देर और जल्दी चुकाना | देर और जल्दी\n\n- **देर से EMI:** penalty 'penal charges' के रूप में, ब्याज दर में जोड़कर नहीं; penal charges पर आगे ब्याज नहीं। बिना चुकाई EMI पर contract वाली दर से ब्याज लग सकता है।[^1]\n- **जल्दी चुकाना:** 1 जनवरी 2026 या बाद के व्यक्ति के non-business floating rate loan, और व्यक्तियों व MSE के business वाले floating rate loan पर pre-payment charge नहीं।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Loan लेने से पहले KFS माँगिए और उसमें EMI, किस्तों की संख्या, APR और सारे charges पढ़िए।[^1]\n- Floating rate loan है, तो हर तिमाही का statement देखिए: कितनी EMI बचीं और कितना मूलधन चुका।[^1]\n- Rate बढ़ने की सूचना आए, तो bank को बताइए कि आप EMI बढ़वाना चाहते हैं, अवधि, दोनों, या prepay करना।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
