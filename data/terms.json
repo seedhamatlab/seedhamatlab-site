@@ -17811,6 +17811,223 @@
         }
       ],
       "body": "## मतलब\n\nThe Passports Act, 1967 की धारा 2(b) के मुताबिक passport वह है, जो इस Act के तहत जारी हुआ हो या जारी हुआ माना जाए।[^1]\n\n- **Passport authority:** passport या travel document जारी करने वाला अफ़सर या authority; इसमें केंद्र सरकार भी शामिल है।[^1]\n- **विदेश जाना:** कोई भी व्यक्ति valid passport या travel document के बिना भारत से बाहर नहीं जा सकता, और न ही जाने की कोशिश कर सकता है।[^1]\n- **तीन तरह के passport:** ordinary, official और diplomatic। किसे कौन-सा मिलेगा, यह केंद्र सरकार तय करती है।[^1]\n- **Travel document:** भारत आने के लिए emergency certificate, पहचान के लिए certificate of identity, और नियमों में तय दूसरे certificate।[^1]\n\n## कैसे बनता और चलता है | कैसे\n\n::flow\n\n## Bank और KYC में | KYC\n\n- **OVD:** RBI के KYC निर्देशों में Officially Valid Document (OVD) की सूची में passport पहला दस्तावेज़ है; बाक़ी हैं driving licence, Aadhaar number होने का प्रमाण, Voter ID, NREGA job card और NPR का पत्र।[^2]\n- **पुराना पता:** OVD पर पता updated न हो, तो bank पते के प्रमाण के लिए दो महीने तक का utility bill, property या municipal tax की रसीद, pension payment order या तय employers का accommodation letter ले सकता है; मौजूदा पते वाला OVD तीन महीने के अंदर देना होता है।[^2]\n- **नाम बदला हो:** जारी होने के बाद नाम बदलने पर भी दस्तावेज़ OVD माना जाता है, अगर साथ में राज्य सरकार का marriage certificate या Gazette notification हो।[^2]\n- **विदेशी छात्र:** bank चाहे, तो विदेशी छात्र का NRO खाता उसके passport (visa और immigration endorsement के साथ), photo और admission letter के आधार पर खोल सकता है।[^2]\n\n## Passport से जुड़े जुर्म | जुर्म\n\nPassports Act की धारा 12(1) के मुताबिक ये काम जुर्म हैं, जिनकी सज़ा दो साल तक की क़ैद या ₹5,000 तक जुर्माना, या दोनों है:[^1]\n\n- valid passport या travel document के बिना भारत से बाहर जाना या जाने की कोशिश करना\n- passport पाने के लिए जान-बूझकर ग़लत जानकारी देना या ज़रूरी जानकारी छिपाना, या बिना अधिकार passport की entries बदलना\n- तय authority के माँगने पर passport न दिखाना\n- जान-बूझकर किसी और का passport इस्तेमाल करना, या अपना passport किसी और को इस्तेमाल करने देना\n\nदोबारा दोषी पाए जाने पर सज़ा दोगुनी होती है।[^1]\n\n## 'Parcel में नक़ली passport' वाली ठगी | ठगी\n\nगृह मंत्रालय के मुताबिक ठग पुलिस, CBI, NCB, RBI या ED बनकर call करते हैं और कहते हैं कि आपके भेजे या आपके नाम आए parcel में drugs, नक़ली passport या दूसरा ग़ैर-क़ानूनी सामान मिला है। फिर 'case' निपटाने के नाम पर पैसा माँगते हैं, और कई बार video call पर 'Digital Arrest' करके रखते हैं।[^3]\n\n- **क्या करें:** ऐसा call आए, तो तुरंत 1930 पर call कीजिए या cybercrime.gov.in पर शिकायत कीजिए।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Passport, RBI के KYC निर्देशों में Officially Valid Document है; bank खाता खोलते समय इसे पहचान और पते के प्रमाण के रूप में दिया जा सकता है।[^2]\n\n- **पता बदला हो:** पुराने पते वाले OVD के साथ पते का दूसरा तय दस्तावेज़ देकर खाता खुल सकता है; तीन महीने में मौजूदा पते वाला OVD देना होता है।[^2]\n\n## अभी क्या करें\n\n- अपना passport किसी और को इस्तेमाल करने के लिए मत दीजिए।[^1]\n- Passport के आवेदन में सारी जानकारी सही भरिए; ग़लत जानकारी या छिपाव जुर्म है।[^1]\n- Passport पर पुराना पता हो और bank खाता खुलवाना हो, तो पते का दूसरा तय दस्तावेज़ साथ ले जाइए।[^2]\n- 'Parcel में नक़ली passport' जैसा call आए, तो पैसा मत भेजिए; 1930 पर शिकायत कीजिए।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "cheque",
+      "term": "Cheque",
+      "aliases": [
+        "cheques"
+      ],
+      "full": "चेक · bank को खाते से पैसा देने का लिखित आदेश",
+      "fullEn": "Cheque",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। India Code पर The Negotiable Instruments Act, 1881 के पाठ और RBI के Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक update) से जाँचा।"
+        }
+      ],
+      "one": "Cheque वह लिखित आदेश है, जिससे खाताधारक अपने bank को कहता है कि उसके खाते से किसी को पैसा दे। Negotiable Instruments Act, 1881 के मुताबिक cheque एक bill of exchange है, जो किसी तय bank पर लिखा जाता है और माँगने पर ही देय होता है।",
+      "facts": [
+        {
+          "k": "किस क़ानून में",
+          "v": "NI Act, 1881",
+          "s": "धारा 6 में परिभाषा"
+        },
+        {
+          "k": "मुफ़्त cheque leaves",
+          "v": "25 हर साल",
+          "s": "savings खाते में, माँगने पर",
+          "good": true
+        },
+        {
+          "k": "Bounce cheque लौटाना",
+          "v": "24 घंटे में",
+          "s": "bank को ग्राहक को लौटाना होता है"
+        },
+        {
+          "k": "Bounce पर notice",
+          "v": "30 दिन में",
+          "s": "bank की सूचना से; फिर 15 दिन भुगतान के"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Drawer",
+            "s": "cheque लिखने वाला"
+          },
+          {
+            "t": "Drawee",
+            "s": "जिस bank पर cheque है"
+          },
+          {
+            "t": "Payee",
+            "s": "जिसे पैसा मिलना है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "लिखता है",
+            "s": "bank को आदेश"
+          },
+          {
+            "b": "फिर",
+            "s": "पैसा देता है"
+          }
+        ],
+        "note": "Negotiable Instruments Act की धारा 7 के मुताबिक cheque लिखने वाला drawer कहलाता है, और जिसे पैसा देने का आदेश दिया जाता है, यानी bank, वह drawee। Cheque में जिसका नाम है और जिसे पैसा मिलना है, वह payee कहलाता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Cheque सिर्फ़ अंग्रेज़ी में ही लिखा जा सकता है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक cheque forms हिंदी और अंग्रेज़ी में छपते हैं, और ग्राहक cheque हिंदी, अंग्रेज़ी या संबंधित क्षेत्रीय भाषा में लिख सकता है।[^2]"
+        },
+        {
+          "m": "\"Cheque drop box में ही डालना पड़ेगा; counter पर bank नहीं लेगा।\"",
+          "f": "नहीं। Drop box और counter पर पावती, दोनों सुविधाएँ ग्राहक के लिए हैं। कोई शाखा counter पर cheque देने पर पावती देने से मना नहीं कर सकती, और ग्राहक को drop box में डालने पर मजबूर नहीं किया जा सकता।[^2]"
+        },
+        {
+          "m": "\"Cheque book के लिए शाखा ख़ुद जाना ज़रूरी है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक bank किसी ग्राहक से, senior citizens और दिव्यांग ग्राहकों समेत, cheque book के लिए ख़ुद आने पर ज़ोर नहीं दे सकता।[^2]"
+        },
+        {
+          "m": "\"Cheque book courier से ही मिलेगी, और उसका जोखिम ग्राहक का है।\"",
+          "f": "नहीं। RBI के निर्देशों में ज़बरदस्ती ऐसा declaration लेकर courier से भेजने को अनुचित तरीक़ा कहा गया है। माँगने पर cheque book counter पर ग्राहक या उसके अधिकृत प्रतिनिधि को देनी होती है।[^2]"
+        },
+        {
+          "m": "\"Cheque bounce होना सिर्फ़ bank का मामला है, कोई सज़ा नहीं।\"",
+          "f": "ग़लत। NI Act की धारा 138 के मुताबिक किसी क़र्ज़ या देनदारी के लिए दिया cheque खाते में पैसा कम होने से लौट जाए, और तय notice के बाद भी भुगतान न हो, तो यह जुर्म है: दो साल तक की क़ैद, या cheque की रक़म के दोगुने तक जुर्माना, या दोनों।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Cheque का मतलब क्या है?",
+          "a": "NI Act की धारा 6 के मुताबिक cheque एक bill of exchange है, जो किसी तय bank पर लिखा जाता है और माँगने के अलावा किसी और तरह देय नहीं होता। इसमें truncated cheque की electronic image और electronic form का cheque भी शामिल है।"
+        },
+        {
+          "q": "Truncated cheque क्या है?",
+          "a": "धारा 6 के मुताबिक वह cheque, जिसे clearing के दौरान clearing house या bank electronic image बनते ही रोक देता है, ताकि काग़ज़ी cheque को आगे भेजना न पड़े। Clearing house का मतलब RBI का चलाया या RBI से मान्यता प्राप्त clearing house है।"
+        },
+        {
+          "q": "Drawer, drawee और payee कौन हैं?",
+          "a": "धारा 7 के मुताबिक cheque लिखने वाला drawer, जिसे पैसा देने का आदेश है वह drawee (bank), और cheque में जिसका नाम है और जिसे या जिसके आदेश पर पैसा देना है, वह payee कहलाता है।"
+        },
+        {
+          "q": "Savings खाते में कितने cheque मुफ़्त मिलते हैं?",
+          "a": "RBI के निर्देशों के मुताबिक माँगने पर हर साल कम से कम 25 cheque leaves मुफ़्त। Cheque book पिछली cheque book के requisition slip से, या bank की policy के मुताबिक दूसरे तरीक़ों से माँगी जा सकती है।"
+        },
+        {
+          "q": "क्या cheque हिंदी में लिख सकते हैं?",
+          "a": "हाँ। Cheque forms हिंदी और अंग्रेज़ी में छपते हैं, और cheque हिंदी, अंग्रेज़ी या संबंधित क्षेत्रीय भाषा में लिखा जा सकता है। हिंदी में लिखे cheque पर राष्ट्रीय पंचांग (शक संवत) की तारीख़ हो, तो bank उसे भी, बाक़ी सब ठीक होने पर, भुगतान के लिए स्वीकार करता है।"
+        },
+        {
+          "q": "Counter पर cheque जमा करने पर पावती मिलती है?",
+          "a": "हाँ। RBI के निर्देशों के मुताबिक कोई शाखा counter पर cheque देने पर पावती देने से मना नहीं कर सकती। Drop box पर भी लिखा होना चाहिए कि ग्राहक counter पर cheque देकर pay-in slip पर पावती ले सकते हैं।"
+        },
+        {
+          "q": "Cheque collection में देर हो, तो?",
+          "a": "RBI के निर्देशों के मुताबिक bank की cheque collection policy में यह साफ़ होना चाहिए कि उसके अपने तय मानकों से देर होने पर वह कितना ब्याज देगा। ज़रूरत होने पर यह ब्याज ग्राहक के दावे के बिना देना होता है।"
+        },
+        {
+          "q": "Cheque bounce हो जाए, तो bank क्या करता है?",
+          "a": "Bank को लौटा हुआ cheque ग्राहक को बिना देर, हर हाल में 24 घंटे के अंदर लौटाना या भेजना होता है। Return memo पर लौटाने की वजह का code और bank अधिकारी के हस्ताक्षर या initial होने चाहिए।"
+        },
+        {
+          "q": "Cheque bounce पर क़ानूनी कार्रवाई कब हो सकती है?",
+          "a": "NI Act की धारा 138 के मुताबिक तब, जब cheque किसी क़र्ज़ या देनदारी के लिए दिया गया हो, छह महीने या उसकी validity के अंदर (जो पहले हो) bank में पेश हुआ हो, पाने वाला bank की सूचना मिलने के 30 दिन के अंदर लिखित notice दे, और cheque देने वाला notice मिलने के 15 दिन के अंदर भुगतान न करे।"
+        },
+        {
+          "q": "Cheque bounce की सज़ा क्या है?",
+          "a": "धारा 138 के मुताबिक दो साल तक की क़ैद, या cheque की रक़म के दोगुने तक जुर्माना, या दोनों।"
+        },
+        {
+          "q": "Cheque bounce की शिकायत कब तक करनी होती है?",
+          "a": "धारा 142 के मुताबिक शिकायत लिखित में, payee या holder in due course की तरफ़ से, cause of action बनने के एक महीने के अंदर; पर्याप्त वजह हो, तो court देर से भी शिकायत ले सकता है। ऐसे मामले Metropolitan Magistrate या Judicial Magistrate First Class से नीचे की court में नहीं चलते।"
+        },
+        {
+          "q": "Court में सबूत के लिए bank मदद करेगा?",
+          "a": "हाँ। RBI के निर्देशों के मुताबिक cheque bounce के मामले में court, consumer forum या किसी और authority के सामने सबूत के लिए bank को पूरा सहयोग देना होता है, और payee को bounce होने का दस्तावेज़ी सबूत देना होता है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Debit Card"
+        },
+        {
+          "t": "Net Banking"
+        },
+        {
+          "t": "AutoPay"
+        },
+        {
+          "t": "Inoperative Account"
+        },
+        {
+          "t": "Magistrate"
+        },
+        {
+          "t": "RBI Ombudsman"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Negotiable Instruments Act, 1881 (Act No. 26 of 1881)",
+          "url": "https://indiacode.gov.in/act/38b01c2d-f1b8-4b1f-a8bf-86b4da3b72a0",
+          "used": [
+            {
+              "ref": "धारा 6",
+              "c": "cheque की परिभाषा; truncated cheque; electronic cheque; clearing house"
+            },
+            {
+              "ref": "धारा 7",
+              "c": "drawer, drawee और payee"
+            },
+            {
+              "ref": "धारा 138",
+              "c": "पैसा कम होने से bounce; छह महीने / validity; 30 दिन में notice; 15 दिन में भुगतान; 2 साल या दोगुना जुर्माना"
+            },
+            {
+              "ref": "धारा 142(1)",
+              "c": "लिखित शिकायत; एक महीना; देर की माफ़ी; MM / JMFC"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 112 से 115",
+              "c": "requisition slip; साल में 25 मुफ़्त leaves; ख़ुद आने पर ज़ोर नहीं; दूसरे तरीक़े"
+            },
+            {
+              "ref": "पैरा 131 से 133",
+              "c": "cheque collection policy; देर पर ब्याज, बिना दावे के"
+            },
+            {
+              "ref": "पैरा 136 से 138",
+              "c": "हिंदी, अंग्रेज़ी या क्षेत्रीय भाषा; courier की ज़बरदस्ती नहीं; शक संवत की तारीख़"
+            },
+            {
+              "ref": "पैरा 139 और 140",
+              "c": "counter पर पावती; drop box में मजबूर नहीं"
+            },
+            {
+              "ref": "पैरा 144, 146, 147",
+              "c": "24 घंटे में लौटाना; return reason code; dishonour की policy"
+            },
+            {
+              "ref": "पैरा 153",
+              "c": "court में सबूत के लिए सहयोग"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNegotiable Instruments Act, 1881 की धारा 6 के मुताबिक cheque एक bill of exchange है, जो किसी तय bank पर लिखा जाता है और माँगने के अलावा किसी और तरह देय नहीं होता।[^1]\n\n- **Electronic रूप भी:** इस परिभाषा में truncated cheque की electronic image और electronic form का cheque भी शामिल है।[^1]\n- **Truncated cheque:** clearing के दौरान, electronic image बनते ही, clearing house या bank काग़ज़ी cheque को आगे भेजना रोक देता है।[^1]\n\n## कौन, क्या | पक्ष\n\n::flow\n\n## Cheque book | Cheque book\n\n- **25 मुफ़्त:** savings खाते में माँगने पर हर साल कम से कम 25 cheque leaves मुफ़्त।[^2]\n- **कैसे माँगें:** पिछली cheque book के requisition slip से, या bank की policy के मुताबिक दूसरे तरीक़ों से।[^2]\n- **ख़ुद आना ज़रूरी नहीं:** bank किसी ग्राहक से, senior citizens और दिव्यांग ग्राहकों समेत, cheque book के लिए ख़ुद आने पर ज़ोर नहीं दे सकता।[^2]\n- **Courier की ज़बरदस्ती नहीं:** courier से भेजने और उसका जोखिम ग्राहक पर डालने का declaration ज़बरदस्ती लेना अनुचित है; माँगने पर cheque book counter पर देनी होती है।[^2]\n\n## Cheque लिखना और जमा करना | जमा करना\n\n- **भाषा:** cheque forms हिंदी और अंग्रेज़ी में छपते हैं; cheque हिंदी, अंग्रेज़ी या संबंधित क्षेत्रीय भाषा में लिखा जा सकता है।[^2]\n- **शक संवत की तारीख़:** हिंदी में लिखे cheque पर राष्ट्रीय पंचांग की तारीख़ हो, तो bank उसे भी, बाक़ी सब ठीक होने पर, स्वीकार करता है।[^2]\n- **Counter पर पावती:** कोई शाखा counter पर cheque लेने और पावती देने से मना नहीं कर सकती; drop box में डालने पर मजबूर नहीं किया जा सकता।[^2]\n- **Collection में देर:** bank की cheque collection policy में देर पर दिया जाने वाला ब्याज तय होता है; ज़रूरत होने पर यह ब्याज बिना दावे के मिलना चाहिए।[^2]\n\n## Cheque bounce | Bounce\n\n- **24 घंटे में वापस:** bank को लौटा हुआ cheque ग्राहक को बिना देर, हर हाल में 24 घंटे के अंदर लौटाना या भेजना होता है।[^2]\n- **वजह लिखी हो:** return memo पर लौटाने की वजह का code और bank अधिकारी के हस्ताक्षर या initial होने चाहिए।[^2]\n- **Bank की policy:** खाताधारक का cheque लौटने पर bank क्या करेगा, यह उसकी Board (या उसकी समिति) की मंज़ूर policy में तय होता है; यह policy पारदर्शी हो और हर ग्राहक को पहले से बताई जाए।[^2]\n- **जुर्म कब:** किसी क़र्ज़ या देनदारी के लिए दिया cheque खाते में पैसा कम होने से लौटे; cheque छह महीने या उसकी validity के अंदर (जो पहले हो) पेश हुआ हो; पाने वाला bank की सूचना के 30 दिन के अंदर लिखित notice दे; और cheque देने वाला notice मिलने के 15 दिन में भुगतान न करे।[^1]\n- **सज़ा:** दो साल तक की क़ैद, या cheque की रक़म के दोगुने तक जुर्माना, या दोनों।[^1]\n- **शिकायत:** payee या holder in due course की लिखित शिकायत पर, cause of action बनने के एक महीने के अंदर; पर्याप्त वजह हो, तो court देर से भी ले सकता है।[^1]\n- **Bank का सहयोग:** court, consumer forum या किसी authority में सबूत के लिए bank को bounce का दस्तावेज़ी सबूत देना होता है।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Savings खाते में हर साल कम से कम 25 cheque leaves मुफ़्त मिलती हैं, और cheque book के लिए bank आपके ख़ुद आने पर ज़ोर नहीं दे सकता।[^2]\n\n- **पावती:** counter पर cheque देने पर पावती का हक़।[^2]\n- **अपनी भाषा:** cheque हिंदी या क्षेत्रीय भाषा में लिखने का हक़।[^2]\n- **सबूत:** cheque bounce के मुक़दमे में bank से bounce का दस्तावेज़ी सबूत पाने का हक़।[^2]\n\n## अभी क्या करें\n\n- Cheque counter पर जमा करें, तो pay-in slip पर पावती ज़रूर लीजिए।[^2]\n- Cheque bounce हो, तो return memo सँभालकर रखिए, और bank की सूचना मिलने के 30 दिन के अंदर लिखित notice भेजने का ध्यान रखिए।[^1]\n- किसी को cheque दें, तो पक्का कीजिए कि खाते में पैसा है; bounce होने पर सज़ा हो सकती है।[^1]\n- Cheque book ख़त्म होने वाली हो, तो requisition slip से नई माँग लीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
