@@ -10,7 +10,7 @@ const SITE = {
   url: "https://seedhamatlab.com",
   name: "सीधा मतलब",
   nameEn: "Seedha Matlab",
-  tagline: "WhatsApp पर आए संदिग्ध message, link और offer का verified सच—और तुरंत क्या करना है।",
+  tagline: "संदिग्ध message, बैंक में कटा पैसा, बीमा या EPFO का अटका हक़ — हर जवाब के नीचे सरकारी स्रोत का लिंक, ताकि आप ख़ुद जाँच सकें।",
   eyebrow: "सूचना डेस्क · भारत",
   instagram: "", // Instagram handle abhi nahi hai — link yahan daalein tabhi footer me dikhega
   x: "https://x.com/seedhamatlab",
@@ -739,7 +739,7 @@ function renderIndex(posts) {
 
   return head({
     title: `${SITE.name} | ${SITE.nameEn}`,
-    desc: "संदिग्ध message, बैंक में कटा पैसा, बीमा या EPFO का अटका हक़ — हर जवाब के नीचे सरकारी स्रोत का लिंक, ताकि आप ख़ुद जाँच सकें।",
+    desc: SITE.tagline,
     canonical: SITE.url + "/",
     home: true,
     hero,
@@ -1151,7 +1151,7 @@ function renderPage({ slug, title, desc, body }) {
 const ABOUT = {
   slug: "about",
   title: "हमारे बारे में",
-  desc: "WhatsApp पर आए संदिग्ध message, link और offer का verified सच—और तुरंत क्या करना है।",
+  desc: "संदिग्ध message, बैंक में कटा पैसा, बीमा या EPFO का अटका हक़ — हर जवाब के नीचे सरकारी स्रोत का लिंक, ताकि आप ख़ुद जाँच सकें।",
   body: `## यह डेस्क क्या करता है
 
 अभी हमारा मुख्य काम है संदिग्ध WhatsApp/SMS संदेश, लिंक, कॉल और ऑफ़र की जाँच आसान बनाना। हर लेख में साफ़ verdict, तुरंत करने वाला कदम और आधिकारिक स्रोत मिलेगा।
