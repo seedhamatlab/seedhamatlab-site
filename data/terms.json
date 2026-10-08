@@ -19796,6 +19796,10 @@
         {
           "d": "2026-10-08",
           "t": "पन्ना बना। RBI के 27 नवंबर 2014 के Payments Banks licensing दिशानिर्देशों, Payments Banks – Miscellaneous Directions, 2025 (1 अक्टूबर 2026 तक updated) और Digital Banking Channels Authorisation Directions, 2025 से जाँचा।"
+        },
+        {
+          "d": "2026-10-08",
+          "t": "क़र्ज़ वाली बात Payments Banks – Miscellaneous Directions, 2025 के पैरा 46 से सटीक की: किसी को क़र्ज़ नहीं, सिर्फ़ अपने कर्मचारियों को छूट। Credit card वाली बात के साथ 2014 के दिशानिर्देशों का नाम जोड़ा।"
         }
       ],
       "one": "Payments Bank RBI के licence से चलने वाला एक अलग तरह का bank है, जो current और savings जमा लेता है और भुगतान व पैसे भेजने की सुविधा देता है, पर क़र्ज़ नहीं देता। RBI के मौजूदा निर्देशों के मुताबिक इसमें एक व्यक्ति का balance दिन के अंत में ₹2,00,000 से ज़्यादा नहीं रह सकता।",
@@ -19813,12 +19817,12 @@
         {
           "k": "क़र्ज़",
           "v": "नहीं",
-          "s": "2014 के दिशानिर्देश"
+          "s": "अपने कर्मचारियों को छोड़कर"
         },
         {
           "k": "Card",
           "v": "ATM / Debit card",
-          "s": "credit card नहीं"
+          "s": "credit card नहीं (2014 के दिशानिर्देश)"
         }
       ],
       "flow": {
@@ -19851,7 +19855,7 @@
       "myths": [
         {
           "m": "\"Payments Bank से loan मिल जाएगा।\"",
-          "f": "नहीं। RBI के 2014 के दिशानिर्देशों के मुताबिक Payments Bank क़र्ज़ देने का काम (lending) नहीं कर सकता।[^1]"
+          "f": "नहीं। RBI के मौजूदा निर्देशों के मुताबिक Payments Bank किसी भी व्यक्ति को, अपने directors समेत, क़र्ज़ नहीं दे सकता; छूट सिर्फ़ अपने कर्मचारियों को क़र्ज़ देने की है, Board से मंज़ूर policy के तहत।[^2]"
         },
         {
           "m": "\"Payments Bank खाते में कितना भी पैसा रख सकते हैं।\"",
@@ -19893,7 +19897,7 @@
         },
         {
           "q": "क्या Payments Bank क़र्ज़ दे सकता है?",
-          "a": "नहीं। 2014 के दिशानिर्देशों के मुताबिक Payments Bank lending नहीं कर सकता।[^1]"
+          "a": "आम ग्राहकों को नहीं। RBI के मौजूदा निर्देशों के मुताबिक Payments Bank किसी भी व्यक्ति को, अपने directors समेत, क़र्ज़ नहीं दे सकता; वह सिर्फ़ अपने कर्मचारियों को, अपने फंड से और Board से मंज़ूर policy के तहत, क़र्ज़ दे सकता है। 2014 के दिशानिर्देशों में भी lending की मनाही थी।[^1][^2]"
         },
         {
           "q": "RBI के 'commercial banks' वाले निर्देश Payments Bank पर लागू होते हैं?",
@@ -19964,6 +19968,10 @@
             {
               "ref": "पैरा 13",
               "c": "NRI जमा नहीं"
+            },
+            {
+              "ref": "पैरा 46",
+              "c": "किसी व्यक्ति को क़र्ज़ नहीं, directors समेत; अपने कर्मचारियों को Board policy के तहत छूट"
             }
           ]
         },
@@ -19979,7 +19987,7 @@
           ]
         }
       ],
-      "body": "## मतलब\n\nPayments Bank RBI के licence से चलने वाला bank है, जिसके काम सीमित रखे गए हैं: जमा लेना और भुगतान व पैसे भेजने की सुविधा देना।[^1] RBI के 2014 के दिशानिर्देशों के मुताबिक इसका मक़सद प्रवासी मज़दूरों, कम आय वाले परिवारों, छोटे कारोबारों और असंगठित क्षेत्र तक छोटे बचत खाते और भुगतान सेवाएँ पहुँचाना है।[^1]\n\n- **Licence:** Banking Regulation Act, 1949 की धारा 22 के तहत; company, Companies Act, 2013 में public limited company के रूप में registered।[^1]\n- **नाम:** दूसरे banks से अलग पहचान के लिए नाम में 'Payments Bank' शब्द।[^1]\n\n## ₹2,00,000 की सीमा | सीमा\n\n::flow\n\n- **सीमा:** हर व्यक्ति का balance दिन के अंत में ₹2,00,000 तक; Payments Bank के PPI का balance भी इसी में गिना जाता है।[^2]\n- **पहले:** 2014 के दिशानिर्देशों में शुरुआती सीमा ₹1,00,000 थी।[^1]\n- **दूसरे bank का खाता:** Payments Bank के पास उस खाते को चलाने या उसमें real-time पहुँच का अधिकार नहीं होता।[^2]\n\n## क्या कर सकता है, क्या नहीं | काम\n\n- **जमा:** current और savings जमा; NRI जमा नहीं।[^2]\n- **Card:** ATM / Debit card; credit card नहीं।[^1]\n- **भुगतान:** branch, ATM, BC और mobile banking से भुगतान और पैसे भेजना; internet banking; बिल भुगतान।[^1]\n- **दूसरे products:** RBI की पहले मंज़ूरी से mutual fund, बीमा और pension products बेचना।[^1]\n- **क़र्ज़:** नहीं; Payments Bank lending नहीं कर सकता।[^1]\n\n## RBI के अलग निर्देश | अलग निर्देश\n\n- **Commercial banks वाले निर्देश:** RBI के कुछ 2025 वाले निर्देशों, जैसे Digital Banking Channels Authorisation Directions, में 'Commercial Banks' की परिभाषा से Small Finance Banks, Payment Banks और Local Area Banks बाहर हैं।[^3]\n- **Payments Banks के अपने निर्देश:** Payments Banks के लिए RBI अलग Directions जारी करता है, जैसे Payments Banks – Miscellaneous Directions, 2025।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Payments Bank खाते में बड़ी रकम आने वाली हो, तो पहले bank से पूछिए कि सीमा से ऊपर की रकम किस bank के खाते में जाएगी; यह sweep आपकी लिखित सहमति से ही चालू होता है।[^2]\n- Loan या credit card चाहिए, तो याद रखिए कि Payments Bank ख़ुद क़र्ज़ नहीं देता और credit card जारी नहीं करता।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nPayments Bank RBI के licence से चलने वाला bank है, जिसके काम सीमित रखे गए हैं: जमा लेना और भुगतान व पैसे भेजने की सुविधा देना।[^1] RBI के 2014 के दिशानिर्देशों के मुताबिक इसका मक़सद प्रवासी मज़दूरों, कम आय वाले परिवारों, छोटे कारोबारों और असंगठित क्षेत्र तक छोटे बचत खाते और भुगतान सेवाएँ पहुँचाना है।[^1]\n\n- **Licence:** Banking Regulation Act, 1949 की धारा 22 के तहत; company, Companies Act, 2013 में public limited company के रूप में registered।[^1]\n- **नाम:** दूसरे banks से अलग पहचान के लिए नाम में 'Payments Bank' शब्द।[^1]\n\n## ₹2,00,000 की सीमा | सीमा\n\n::flow\n\n- **सीमा:** हर व्यक्ति का balance दिन के अंत में ₹2,00,000 तक; Payments Bank के PPI का balance भी इसी में गिना जाता है।[^2]\n- **पहले:** 2014 के दिशानिर्देशों में शुरुआती सीमा ₹1,00,000 थी।[^1]\n- **दूसरे bank का खाता:** Payments Bank के पास उस खाते को चलाने या उसमें real-time पहुँच का अधिकार नहीं होता।[^2]\n\n## क्या कर सकता है, क्या नहीं | काम\n\n- **जमा:** current और savings जमा; NRI जमा नहीं।[^2]\n- **Card:** 2014 के दिशानिर्देशों के मुताबिक ATM / Debit card; credit card नहीं।[^1]\n- **भुगतान:** branch, ATM, BC और mobile banking से भुगतान और पैसे भेजना; internet banking; बिल भुगतान।[^1]\n- **दूसरे products:** RBI की पहले मंज़ूरी से mutual fund, बीमा और pension products बेचना।[^1]\n- **क़र्ज़:** किसी भी व्यक्ति को नहीं; छूट सिर्फ़ अपने कर्मचारियों को, Board से मंज़ूर policy के तहत।[^2]\n\n## RBI के अलग निर्देश | अलग निर्देश\n\n- **Commercial banks वाले निर्देश:** RBI के कुछ 2025 वाले निर्देशों, जैसे Digital Banking Channels Authorisation Directions, में 'Commercial Banks' की परिभाषा से Small Finance Banks, Payment Banks और Local Area Banks बाहर हैं।[^3]\n- **Payments Banks के अपने निर्देश:** Payments Banks के लिए RBI अलग Directions जारी करता है, जैसे Payments Banks – Miscellaneous Directions, 2025।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Payments Bank खाते में बड़ी रकम आने वाली हो, तो पहले bank से पूछिए कि सीमा से ऊपर की रकम किस bank के खाते में जाएगी; यह sweep आपकी लिखित सहमति से ही चालू होता है।[^2]\n- Loan चाहिए, तो याद रखिए कि Payments Bank आम ग्राहकों को क़र्ज़ नहीं देता[^2]; और 2014 के दिशानिर्देशों के मुताबिक वह credit card जारी नहीं कर सकता।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "savings-account",
