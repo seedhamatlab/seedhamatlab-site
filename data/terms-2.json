@@ -163,6 +163,189 @@
         }
       ],
       "body": "## मतलब\n\nHigh Court (उच्च न्यायालय) संविधान के तहत राज्यों के लिए बनी अदालत है। संविधान के Part VI के Chapter V में High Courts के प्रावधान हैं, और अनुच्छेद 214 के मुताबिक हर राज्य के लिए एक High Court होगा।[^1]\n\n- **बनावट:** एक Chief Justice और उतने दूसरे Judges, जितने राष्ट्रपति ज़रूरी समझें।[^1]\n- **Court of record:** ऐसी अदालत की सारी शक्तियाँ, अपनी अवमानना (contempt) की सज़ा देने की शक्ति समेत।[^1]\n- **साझा High Court:** संसद क़ानून बनाकर दो या ज़्यादा राज्यों के लिए एक High Court बना सकती है।[^1]\n\n## Writ की शक्ति | Writ\n\n::flow\n\n- **किसे:** किसी भी व्यक्ति या authority को, ज़रूरत हो तो सरकार को भी।[^1]\n- **किसलिए:** Part III के अधिकार लागू करवाने के लिए, और किसी दूसरे मक़सद के लिए।[^1]\n- **कौन-से writ:** habeas corpus, mandamus, prohibition, quo warranto और certiorari जैसे।[^1]\n\n## निचली अदालतों की देखरेख | देखरेख\n\n- **Superintendence:** अपने इलाक़े की सभी अदालतों और tribunals पर।[^1]\n- **क्या कर सकता है:** उनसे returns मँगाना, उनकी कार्यवाही के नियम और forms तय करना।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- अगर किसी authority के आदेश से आपके अधिकार पर असर पड़ा हो, तो जान लीजिए कि संविधान के अनुच्छेद 226 के तहत High Court में writ का रास्ता है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "current-account",
+      "term": "Current Account",
+      "aliases": [
+        "Current Accounts",
+        "current खाता",
+        "current खाते"
+      ],
+      "full": "करंट अकाउंट · चालू जमा खाता, जिस पर ब्याज नहीं मिलता",
+      "fullEn": "Current Account (Current Deposit)",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। RBI के Commercial Banks – Interest Rate on Deposits Directions, 2025 और Commercial Banks – Credit Risk Management Directions, 2025 (दोनों 1 अक्टूबर 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Current Account bank का बिना ब्याज वाला demand deposit खाता है, जिसमें से balance या तय सीमा तक जितनी बार चाहें पैसा निकाला जा सकता है। 1 अप्रैल 2026 से RBI ने बड़े क़र्ज़दारों के current account के लिए नियम तय किए हैं: banking system से उनका कुल क़र्ज़ ₹10 crore या ज़्यादा हो, तो हर bank उनका current account नहीं रख सकता।",
+      "facts": [
+        {
+          "k": "ब्याज",
+          "v": "नहीं",
+          "s": "मृत individual / proprietorship को छोड़कर"
+        },
+        {
+          "k": "निकासी",
+          "v": "कितनी भी बार",
+          "s": "balance या तय सीमा तक"
+        },
+        {
+          "k": "₹10 crore से कम क़र्ज़",
+          "v": "कोई रोक नहीं",
+          "s": "banking system से कुल क़र्ज़"
+        },
+        {
+          "k": "₹10 crore या ज़्यादा",
+          "v": "शर्तें लागू",
+          "s": "1 अप्रैल 2026 से"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "ग्राहक का कुल क़र्ज़",
+            "s": "पूरे banking system से"
+          },
+          {
+            "t": "₹10 crore से कम",
+            "s": "कोई भी bank current account रख सकता है"
+          },
+          {
+            "t": "₹10 crore या ज़्यादा",
+            "s": "10% हिस्से वाला bank; बाक़ी आम तौर पर collection account"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "अगर कुल",
+            "s": "fund और non-fund सुविधाएँ मिलाकर"
+          },
+          {
+            "b": "क़र्ज़ बढ़कर",
+            "s": "₹10 crore या ज़्यादा हो जाए"
+          }
+        ],
+        "note": "RBI के निर्देशों के मुताबिक ग्राहक को पूरे banking system से मिली sanctioned fund-based और non-fund-based सुविधाओं का जोड़ ₹10 crore से कम हो, तो bank बिना रोक current account रख सकता है। ₹10 crore या ज़्यादा होने पर current account वही bank रख सकता है, जिसका उस क़र्ज़ में कम से कम 10% हिस्सा हो (कुछ अपवादों के साथ); बाक़ी banks आम तौर पर सिर्फ़ collection account रख सकते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Current Account पर भी savings जैसा ब्याज मिलता है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक current account की जमा पर ब्याज नहीं दिया जाता। अपवाद: मृत individual depositor या sole proprietorship concern के current account की रकम पर, मृत्यु की तारीख़ से भुगतान तक, savings की दर से ब्याज मिलता है।[^1]"
+        },
+        {
+          "m": "\"कोई भी कारोबारी किसी भी bank में current account खोल सकता है।\"",
+          "f": "हर हाल में नहीं। 1 अप्रैल 2026 से, जिस ग्राहक का banking system से कुल क़र्ज़ ₹10 crore या ज़्यादा है, उसका current account आम तौर पर वही bank रख सकता है, जिसका उस क़र्ज़ में कम से कम 10% हिस्सा हो; बाक़ी banks सिर्फ़ collection account रख सकते हैं।[^2]"
+        },
+        {
+          "m": "\"Bank बिना बताए मेरा current account बंद कर देगा।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक अगर bank इन नियमों के तहत account रखने के योग्य नहीं रहता, तो उसे एक महीने के अंदर ग्राहक को बताना होता है कि account collection account बनेगा या बंद होगा, और यह काम तीन महीने में पूरा होता है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Current Account क्या है?",
+          "a": "RBI के निर्देशों के मुताबिक current account बिना ब्याज वाला demand deposit है, जिसमें से balance के हिसाब से या तय सीमा तक जितनी बार चाहें पैसा निकाला जा सकता है। जो जमा खाता न savings है न term deposit, वह भी current account माना जाता है।[^1]"
+        },
+        {
+          "q": "Savings Account और Current Account में क्या फ़र्क़ है?",
+          "a": "RBI के निर्देशों के मुताबिक current account पर ब्याज नहीं मिलता, जबकि savings deposit ब्याज वाला खाता है, जिसमें bank निकासी की संख्या और रकम पर सीमा रख सकता है।[^1]"
+        },
+        {
+          "q": "₹10 crore वाला नियम क्या है?",
+          "a": "1 अप्रैल 2026 से लागू RBI के निर्देशों के मुताबिक, अगर पूरे banking system से ग्राहक को मिली sanctioned fund-based और non-fund-based सुविधाओं का जोड़ ₹10 crore से कम है, तो कोई भी bank बिना रोक उसका current account रख सकता है।[^2]"
+        },
+        {
+          "q": "क़र्ज़ ₹10 crore या ज़्यादा हो तो?",
+          "a": "तब current account वह bank रख सकता है, जिसका banking system के कुल क़र्ज़ में, या कुल fund-based क़र्ज़ में, कम से कम 10% हिस्सा हो। कोई bank यह शर्त पूरी न करे या सिर्फ़ एक करे, तो सबसे ज़्यादा क़र्ज़ देने वाले दो bank रख सकते हैं; और कुछ हालात में दूसरे banks की NOC लेकर ग्राहक की पसंद का bank भी।[^2]"
+        },
+        {
+          "q": "Collection account क्या है?",
+          "a": "ऐसा current या OD account, जिसमें मुख्य रूप से पैसा आता है। उसमें आई रकम दो working days में ग्राहक के तय किए गए CC, current या OD account में भेजनी होती है; टैक्स जैसे वैधानिक बकाया और उसी bank के बकाया पहले काटे जा सकते हैं।[^2]"
+        },
+        {
+          "q": "किन खातों पर ये रोक लागू नहीं?",
+          "a": "RBI के निर्देशों में कुछ छूट हैं: FEMA के तहत खोले गए खाते, किसी क़ानून या RBI, SEBI, IRDAI, PFRDA, केंद्र या राज्य सरकार के निर्देश से ज़रूरी खाते, और इन regulators से regulated संस्थाओं के उनके regulated काम वाले खाते।[^2]"
+        },
+        {
+          "q": "क्या ये नियम Payments Bank पर भी लागू हैं?",
+          "a": "इन निर्देशों में 'banking system' की परिभाषा में commercial banks, small finance banks, local area banks, regional rural banks और co-operative banks हैं, पर Payments Banks नहीं।[^2]"
+        },
+        {
+          "q": "Bank कितनी बार जाँच करता है?",
+          "a": "RBI के निर्देशों के मुताबिक bank इन खातों की नियमित निगरानी करता है, और कम से कम हर छह महीने में एक बार।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "Debit Card"
+        },
+        {
+          "t": "PAN"
+        },
+        {
+          "t": "Inoperative Account"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Payments Bank"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Interest Rate on Deposits) Directions, 2025 (RBI/DOR/2025-26/153, 28 नवंबर 2025; 1 अक्टूबर 2026 तक updated)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13157",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 4",
+              "c": "लागू किस पर: commercial banks; SFB, Payment Banks, RRB, LAB बाहर"
+            },
+            {
+              "ref": "पैरा 6(4), 6(6), 6(19)",
+              "c": "Current Account, demand deposit और savings deposit की परिभाषा"
+            },
+            {
+              "ref": "पैरा 8",
+              "c": "current account पर ब्याज नहीं; मृत depositor वाला अपवाद"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Risk Management) Directions, 2025 (RBI/DOR/2025-26/157, 28 नवंबर 2025; 1 अक्टूबर 2026 तक updated)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13153",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 91A–91C",
+              "c": "Chapter XIA (1 अप्रैल 2026 से); ₹10 crore से कम पर कोई रोक नहीं; banking system और exposure की परिभाषा"
+            },
+            {
+              "ref": "पैरा 91D",
+              "c": "₹10 crore या ज़्यादा: 10% हिस्सा, दो सबसे बड़े lender, NOC; बाक़ी collection account"
+            },
+            {
+              "ref": "पैरा 91F, 91G, 91H",
+              "c": "collection account: दो working days; छूट वाले खाते; product के लिए सीमित current account"
+            },
+            {
+              "ref": "पैरा 91I, 91J",
+              "c": "हर छह महीने निगरानी; एक महीने में सूचना, तीन महीने में बदलाव या बंद"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCurrent Account bank का बिना ब्याज वाला demand deposit खाता है, जिसमें से balance के हिसाब से या तय सीमा तक जितनी बार चाहें पैसा निकाला जा सकता है। जो जमा खाता न savings है न term deposit, उसे भी current account माना जाता है।[^1]\n\n- **ब्याज:** नहीं मिलता।[^1]\n- **किस पर लागू:** ये RBI के commercial banks वाले निर्देश हैं; Small Finance Banks, Payment Banks, Regional Rural Banks और Local Area Banks के लिए अलग Directions हैं।[^1]\n- **अपवाद:** मृत individual depositor या sole proprietorship concern के current account की रकम पर, मृत्यु की तारीख़ से भुगतान तक, savings की दर से ब्याज।[^1]\n\n## ₹10 crore का नियम | ₹10 crore\n\n::flow\n\n- **कब से:** 1 अप्रैल 2026 से।[^2]\n- **हिसाब:** पूरे banking system से ग्राहक को मिली sanctioned fund-based और non-fund-based सुविधाओं का जोड़।[^2]\n- **₹10 crore या ज़्यादा:** current account वह bank रख सकता है, जिसका कुल क़र्ज़ या कुल fund-based क़र्ज़ में कम से कम 10% हिस्सा हो; कुछ अपवादों में दो सबसे बड़े lender या NOC के साथ ग्राहक की पसंद का bank।[^2]\n- **बाक़ी banks:** आम तौर पर सिर्फ़ collection account; किसी product के लिए ज़रूरी हो, तो Board policy के तहत सीमित current account भी, जिसमें cash, card या cheque book नहीं।[^2]\n\n## Collection account | Collection\n\n- **क्या है:** ऐसा current या OD account, जिसमें मुख्य रूप से पैसा आता है।[^2]\n- **पैसा कहाँ जाए:** दो working days में ग्राहक के तय किए CC, current या OD account में; टैक्स जैसे वैधानिक बकाया और उसी bank के बकाया पहले कट सकते हैं।[^2]\n- **बदलाव की सूचना:** bank योग्य न रहे, तो एक महीने के अंदर ग्राहक को बताएगा; collection account में बदलाव या बंद करना तीन महीने में।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- आपके कारोबार का कुल bank क़र्ज़ ₹10 crore के आसपास या ऊपर है, तो अपने banks से पूछिए कि आपका current account किस bank में रह सकता है और कौन-सा collection account बनेगा।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
