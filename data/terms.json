@@ -18422,6 +18422,199 @@
         }
       ],
       "body": "## मतलब\n\nDoT यानी Department of Telecommunications (दूरसंचार विभाग), भारत सरकार के संचार मंत्रालय का विभाग। यह telecom सेवाओं के लिए policy बनाता है और उनके licence देता है।[^1]\n\nआम लोगों के लिए DoT का नाम दो जगह सुनाई देता है: Sanchar Saathi portal, जहाँ अपने नाम के mobile connection जाँचे जाते हैं और संदिग्ध call की report होती है; और ठगों के call, जो DoT का नाम लेकर number बंद करने की धमकी देते हैं।[^2]\n\n## DoT क्या करता है | क्या करता है\n\n- **Policy:** telecom सेवाओं के तेज़ विकास के लिए policy बनाना।[^1]\n- **Licence:** unified access service, internet और VSAT जैसी telecom सेवाओं के licence देना।[^1]\n- **Radio frequency:** अंतरराष्ट्रीय संस्थाओं के साथ तालमेल में frequency का प्रबंधन, और wireless transmission की निगरानी।[^1]\n- **Network की सुरक्षा:** Allocation of Business Rules में telecom network की सुरक्षा के मामले DoT के विषयों में हैं।[^1]\n- **जुड़ी संस्थाएँ:** TRAI, TDSAT, BSNL, MTNL और C-DOT से जुड़े मामले भी DoT के विषयों की सूची में हैं।[^1]\n\n## DoT के नाम से ठगी | ठगी\n\n::flow\n\n- **कैसे आती है:** call करने वाला ख़ुद को DoT का बताता है और कहता है कि आपके सारे mobile number बंद होने वाले हैं, या आपके number का ग़ैर-क़ानूनी काम में इस्तेमाल हो रहा है।[^2]\n- **विदेशी WhatsApp call:** +92-xxxxxxxxxx जैसे विदेशी number से WhatsApp call, जिनमें सरकारी अफ़सर बनकर ठगा जाता है।[^2]\n- **भारत का number, विदेश का call:** ठग calling line identity (CLI) से छेड़छाड़ करके विदेश से ऐसे call करते हैं, जिन पर भारत का mobile number दिखता है। 26 मई 2024 को इन्हें block करने के निर्देश जारी हुए।[^3]\n- **DoT का कहना:** वह किसी को अपनी ओर से ऐसा call करने के लिए अधिकृत नहीं करता।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- DoT के नाम से धमकी वाला call आए, तो कोई जानकारी मत दीजिए।[^2]\n- उसकी report Sanchar Saathi portal (www.sancharsaathi.gov.in) की Chakshu सुविधा पर कीजिए।[^2]\n- उसी portal की 'Know Your Mobile Connections' सुविधा पर अपने नाम के connection जाँचिए, और जो आपका नहीं है उसकी report कीजिए।[^2]\n- पैसा चला गया हो, तो 1930 पर call कीजिए या www.cybercrime.gov.in पर शिकायत कीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "magistrate",
+      "term": "Magistrate",
+      "aliases": [
+        "मजिस्ट्रेट",
+        "Judicial Magistrate",
+        "Executive Magistrate",
+        "District Magistrate"
+      ],
+      "full": "मजिस्ट्रेट · फ़ौजदारी अदालत या प्रशासन का अधिकारी",
+      "fullEn": "Magistrate (Judicial and Executive)",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। India Code पर The Bharatiya Nagarik Suraksha Sanhita, 2023 के पाठ (\"As on the 6th October, 2025\") से जाँचा।"
+        }
+      ],
+      "one": "Magistrate दो तरह के होते हैं: Judicial Magistrate, जो फ़ौजदारी मामलों की सुनवाई करने वाली अदालत है, और Executive Magistrate, जो राज्य सरकार का प्रशासनिक अधिकारी है, जैसे District Magistrate। BNSS के मुताबिक किसी क़ानून में बिना विशेषण के 'Magistrate' लिखा हो, तो उसका मतलब आम तौर पर Judicial Magistrate होता है।",
+      "facts": [
+        {
+          "k": "Judicial Magistrate",
+          "v": "अदालत",
+          "s": "नियुक्ति High Court करता है; BNSS धारा 9"
+        },
+        {
+          "k": "Executive Magistrate",
+          "v": "प्रशासन",
+          "s": "नियुक्ति राज्य सरकार करती है; BNSS धारा 14"
+        },
+        {
+          "k": "बिना विशेषण का 'Magistrate'",
+          "v": "Judicial",
+          "s": "आम तौर पर Judicial Magistrate; BNSS धारा 3(1)"
+        },
+        {
+          "k": "FIR न लिखी जाए",
+          "v": "Magistrate के पास",
+          "s": "पहले SP को डाक से, फिर Magistrate को application",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Chief Judicial Magistrate",
+            "s": "ज़िले में एक; High Court नियुक्त करता है"
+          },
+          {
+            "t": "Judicial Magistrate",
+            "s": "first class और second class"
+          },
+          {
+            "t": "Executive Magistrate",
+            "s": "District Magistrate, Sub-divisional Magistrate"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "उसके अधीन",
+            "s": "ज़िले के बाक़ी Judicial Magistrate"
+          },
+          {
+            "b": "अलग व्यवस्था",
+            "s": "राज्य सरकार नियुक्त करती है"
+          }
+        ],
+        "note": "BNSS की धारा 6 के मुताबिक High Court और दूसरे क़ानूनों से बनी अदालतों के अलावा हर राज्य में फ़ौजदारी अदालतों के चार वर्ग हैं: Court of Session, Judicial Magistrate first class, Judicial Magistrate second class और Executive Magistrate।"
+      },
+      "myths": [
+        {
+          "m": "\"District Magistrate (DM) ही वह Magistrate है, जो फ़ौजदारी मुक़दमे सुनता है।\"",
+          "f": "नहीं। BNSS में District Magistrate एक Executive Magistrate है, जिसे राज्य सरकार नियुक्त करती है। मुक़दमों की सुनवाई करने वाले Judicial Magistrate की नियुक्ति High Court करता है।[^1]"
+        },
+        {
+          "m": "\"क़ानून में 'Magistrate' लिखा हो, तो कोई भी Magistrate चलेगा।\"",
+          "f": "नहीं। BNSS की धारा 3(1) के मुताबिक, संदर्भ से कुछ और न निकले, तो किसी क़ानून में बिना विशेषण के 'Magistrate' का मतलब उस इलाक़े का Judicial Magistrate है। Licence देने या रद्द करने जैसे प्रशासनिक काम Executive Magistrate के पास जाते हैं।[^1]"
+        },
+        {
+          "m": "\"FIR न लिखी जाए, तो कुछ नहीं हो सकता।\"",
+          "f": "नहीं। BNSS की धारा 173(4) के मुताबिक सूचना का सार लिखकर डाक से Superintendent of Police को भेजा जा सकता है, और वहाँ भी बात न बने, तो Magistrate को application दी जा सकती है। धारा 175(3) के मुताबिक Magistrate affidavit के साथ दी गई application पर जाँच का आदेश दे सकता है।[^1]"
+        },
+        {
+          "m": "\"Magistrate कितनी भी सज़ा दे सकता है।\"",
+          "f": "नहीं। BNSS की धारा 23 के मुताबिक first class Magistrate ज़्यादा से ज़्यादा 3 साल की क़ैद, ₹50,000 तक जुर्माना या community service दे सकता है, और second class Magistrate 1 साल की क़ैद, ₹10,000 तक जुर्माना या community service।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Magistrate का मतलब क्या है?",
+          "a": "BNSS में दो तरह के Magistrate हैं: Judicial Magistrate (first class और second class), जो फ़ौजदारी अदालतें हैं, और Executive Magistrate, जो राज्य सरकार के नियुक्त प्रशासनिक अधिकारी हैं।[^1]"
+        },
+        {
+          "q": "Judicial Magistrate की नियुक्ति कौन करता है?",
+          "a": "BNSS की धारा 9 के मुताबिक हर ज़िले में Judicial Magistrate first class और second class की अदालतें राज्य सरकार High Court से सलाह करके बनाती है, और उनके presiding officer की नियुक्ति High Court करता है।[^1]"
+        },
+        {
+          "q": "Chief Judicial Magistrate (CJM) कौन होता है?",
+          "a": "धारा 10 के मुताबिक हर ज़िले में High Court किसी Judicial Magistrate first class को Chief Judicial Magistrate नियुक्त करता है। धारा 13 के मुताबिक CJM, Sessions Judge के अधीन होता है, और बाक़ी Judicial Magistrate, Sessions Judge के सामान्य नियंत्रण में, CJM के अधीन।[^1]"
+        },
+        {
+          "q": "Executive Magistrate कौन होते हैं?",
+          "a": "धारा 14 के मुताबिक राज्य सरकार हर ज़िले में Executive Magistrate नियुक्त करती है, और उनमें से एक को District Magistrate बनाती है। किसी sub-division का प्रभार जिस Executive Magistrate को दिया जाए, वह Sub-divisional Magistrate कहलाता है। धारा 17 के मुताबिक सभी Executive Magistrate, District Magistrate के अधीन होते हैं।[^1]"
+        },
+        {
+          "q": "Judicial और Executive Magistrate के काम कैसे बँटते हैं?",
+          "a": "BNSS की धारा 3(2) के मुताबिक दूसरे क़ानूनों में Magistrate के जिन कामों में सबूत परखना, किसी को सज़ा, जुर्माना या हिरासत में भेजना, या मुक़दमे के लिए भेजना हो, वे Judicial Magistrate करता है। जो काम प्रशासनिक हों, जैसे licence देना, निलंबित या रद्द करना, या मुक़दमा चलाने की मंज़ूरी देना या वापस लेना, वे Executive Magistrate करता है।[^1]"
+        },
+        {
+          "q": "Magistrate किसी अपराध पर कार्रवाई कैसे शुरू करता है?",
+          "a": "धारा 210 के मुताबिक first class Magistrate (और विशेष रूप से अधिकृत second class Magistrate) अपराध का संज्ञान ले सकता है: अपराध के तथ्यों वाली complaint मिलने पर, police report पर, या पुलिस के अलावा किसी व्यक्ति से मिली सूचना या अपनी जानकारी पर।[^1]"
+        },
+        {
+          "q": "थाना FIR न लिखे, तो Magistrate क्या कर सकता है?",
+          "a": "धारा 173(4) के मुताबिक पहले सूचना का सार लिखकर डाक से Superintendent of Police को भेजिए; वहाँ से भी जाँच न हो, तो Magistrate को application दी जा सकती है। धारा 175(3) के मुताबिक Magistrate affidavit के साथ दी गई application पर, ज़रूरी जाँच-पड़ताल और पुलिस अधिकारी की बात सुनकर, जाँच का आदेश दे सकता है।[^1]"
+        },
+        {
+          "q": "क्या Magistrate के सामने affidavit दिया जा सकता है?",
+          "a": "हाँ। BNSS की धारा 333 के मुताबिक इस Sanhita के तहत अदालत में इस्तेमाल होने वाला affidavit किसी Judge, Judicial या Executive Magistrate, High Court या Court of Session के नियुक्त Commissioner of Oaths, या Notaries Act, 1952 के तहत नियुक्त notary के सामने शपथ लेकर दिया जा सकता है।[^1]"
+        },
+        {
+          "q": "Magistrate कितनी सज़ा दे सकता है?",
+          "a": "धारा 23 के मुताबिक CJM मौत, उम्रक़ैद और 7 साल से ज़्यादा की क़ैद को छोड़कर क़ानून में तय कोई भी सज़ा दे सकता है। First class Magistrate 3 साल तक की क़ैद, ₹50,000 तक जुर्माना, दोनों, या community service; second class Magistrate 1 साल तक की क़ैद, ₹10,000 तक जुर्माना, दोनों, या community service दे सकता है।[^1]"
+        },
+        {
+          "q": "क्या पुलिस अफ़सर को भी Executive Magistrate की शक्तियाँ मिल सकती हैं?",
+          "a": "धारा 14(6) के मुताबिक राज्य सरकार किसी क़ानून के तहत Commissioner of Police को Executive Magistrate की सारी या कुछ शक्तियाँ दे सकती है। धारा 15 के मुताबिक Superintendent of Police या उसके बराबर या ऊपर के पुलिस अधिकारी को Special Executive Magistrate भी नियुक्त किया जा सकता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "FIR"
+        },
+        {
+          "t": "Affidavit"
+        },
+        {
+          "t": "Notary Public"
+        },
+        {
+          "t": "Death Certificate"
+        },
+        {
+          "t": "Legal Heir"
+        },
+        {
+          "t": "Cheque"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Bharatiya Nagarik Suraksha Sanhita, 2023 (Act No. 46 of 2023), पाठ \"As on the 6th October, 2025\"",
+          "url": "https://indiacode.gov.in/act/72592ac7-d084-4545-95d3-0c98dc49fac3",
+          "used": [
+            {
+              "ref": "धारा 3",
+              "c": "बिना विशेषण का 'Magistrate' = Judicial Magistrate; न्यायिक और प्रशासनिक कामों का बँटवारा"
+            },
+            {
+              "ref": "धारा 6",
+              "c": "फ़ौजदारी अदालतों के चार वर्ग"
+            },
+            {
+              "ref": "धारा 9, 10, 13",
+              "c": "Judicial Magistrate की अदालतें; High Court की नियुक्ति; CJM; अधीनता"
+            },
+            {
+              "ref": "धारा 14, 15, 17",
+              "c": "Executive Magistrate; District Magistrate; Sub-divisional Magistrate; Commissioner of Police; Special Executive Magistrate; अधीनता"
+            },
+            {
+              "ref": "धारा 23",
+              "c": "Magistrate कितनी सज़ा दे सकता है"
+            },
+            {
+              "ref": "धारा 173(4), 175(3)",
+              "c": "FIR न लिखे जाने पर SP, फिर Magistrate; जाँच का आदेश"
+            },
+            {
+              "ref": "धारा 210",
+              "c": "Magistrate का संज्ञान लेना"
+            },
+            {
+              "ref": "धारा 333",
+              "c": "Judicial या Executive Magistrate के सामने affidavit"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nMagistrate शब्द दो अलग पदों के लिए इस्तेमाल होता है। **Judicial Magistrate** फ़ौजदारी अदालत है, जिसकी नियुक्ति High Court करता है। **Executive Magistrate** राज्य सरकार का नियुक्त अधिकारी है; District Magistrate (DM) और Sub-divisional Magistrate (SDM) इसी श्रेणी में आते हैं।[^1]\n\nBNSS की धारा 3(1) के मुताबिक, संदर्भ से कुछ और न निकले, तो किसी क़ानून में बिना विशेषण के 'Magistrate' लिखा हो, तो उसका मतलब उस इलाक़े का Judicial Magistrate है।[^1]\n\n## Magistrate के प्रकार | प्रकार\n\n::flow\n\n- **Chief Judicial Magistrate (CJM):** हर ज़िले में High Court किसी Judicial Magistrate first class को CJM नियुक्त करता है। CJM, Sessions Judge के अधीन होता है।[^1]\n- **Judicial Magistrate first class और second class:** इनकी अदालतें राज्य सरकार High Court से सलाह करके बनाती है; presiding officer की नियुक्ति High Court करता है।[^1]\n- **District Magistrate:** राज्य सरकार हर ज़िले में Executive Magistrate नियुक्त करती है और उनमें से एक को District Magistrate बनाती है। सभी Executive Magistrate उसके अधीन होते हैं।[^1]\n- **Sub-divisional Magistrate:** जिस Executive Magistrate को किसी sub-division का प्रभार दिया जाए।[^1]\n\n## कौन-सा काम किसके पास | काम का बँटवारा\n\nBNSS की धारा 3(2) के मुताबिक दूसरे क़ानूनों में Magistrate के काम इस तरह बँटते हैं:[^1]\n\n- **Judicial Magistrate:** जहाँ सबूत परखने हों, या किसी को सज़ा, जुर्माना, हिरासत या मुक़दमे के लिए भेजने का फ़ैसला हो।[^1]\n- **Executive Magistrate:** प्रशासनिक काम, जैसे licence देना, निलंबित या रद्द करना, या मुक़दमा चलाने की मंज़ूरी देना या वापस लेना।[^1]\n- **सज़ा की सीमा (धारा 23):** first class Magistrate 3 साल तक की क़ैद या ₹50,000 तक जुर्माना; second class Magistrate 1 साल तक की क़ैद या ₹10,000 तक जुर्माना; दोनों community service भी दे सकते हैं।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका काम कहाँ पड़ता है | आपका काम\n\n- **FIR न लिखी जाए:** पहले सूचना का सार लिखकर डाक से Superintendent of Police को; फिर Magistrate को application।[^1]\n- **Affidavit:** BNSS के तहत अदालत में लगने वाला affidavit Judicial या Executive Magistrate, Commissioner of Oaths या notary के सामने दिया जा सकता है।[^1]\n- **Complaint:** first class Magistrate अपराध के तथ्यों वाली complaint पर भी संज्ञान ले सकता है।[^1]\n- **वकील से सलाह:** किस मामले में कौन-सी अदालत या अधिकारी, यह हर मामले के क़ानून पर निर्भर है। **हम वकील नहीं हैं और यह कानूनी सलाह नहीं है।**\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
