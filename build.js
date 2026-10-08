@@ -739,7 +739,7 @@ function renderIndex(posts) {
 
   return head({
     title: `${SITE.name} | ${SITE.nameEn}`,
-    desc: SITE.tagline,
+    desc: "संदिग्ध message, बैंक में कटा पैसा, बीमा या EPFO का अटका हक़ — हर जवाब के नीचे सरकारी स्रोत का लिंक, ताकि आप ख़ुद जाँच सकें।",
     canonical: SITE.url + "/",
     home: true,
     hero,
