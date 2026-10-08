@@ -1008,6 +1008,168 @@
         }
       ],
       "body": "## मतलब\n\nUDRN का पूरा नाम Unclaimed Deposit Reference Number है।[^1] DEA Fund में भेजे गए हर unclaimed खाते या जमा को bank अपने Core Banking Solution (CBS) से यह अलग number देता है।[^1][^2]\n\n- **पहचान छिपी रहती है:** इस number से कोई तीसरा व्यक्ति खाताधारक या bank की शाखा को पहचान नहीं सकता।[^1]\n- **दावे में मदद:** UDRN से bank की शाखाएँ UDGAM पर सफल खोज करने वाले ग्राहकों के दावे आसानी से निपटा पाती हैं।[^2]\n\n## UDRN कैसे बनता है | कैसे बनता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- अपने या परिवार के पुराने खाते की जमा ढूँढनी हो, तो bank की website पर नाम और पते से खोज कीजिए; नतीजे में नाम, पता और UDRN दिखता है।[^1]\n- दावा उसी bank में कीजिए; RBI के मुताबिक bank को अपनी website और शाखाओं पर दावे की प्रक्रिया की जानकारी देनी है।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "mpc",
+      "term": "MPC",
+      "aliases": [
+        "Monetary Policy Committee"
+      ],
+      "full": "मॉनेटरी पॉलिसी कमेटी · मौद्रिक नीति समिति",
+      "fullEn": "Monetary Policy Committee",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। India Code पर RBI Act, 1934 (\"As on the 23rd June, 2026\") की धारा 45ZA से 45ZL, और RBI की 7 अक्टूबर 2026 की MPC resolution (press release 2026-2027/1264) से जाँचा।"
+        }
+      ],
+      "one": "MPC का पूरा नाम Monetary Policy Committee है। RBI Act की धारा 45ZB के मुताबिक यह RBI की वह समिति है, जो inflation target पाने के लिए Policy Rate तय करती है, और इसका फ़ैसला RBI पर बाध्यकारी है। इसमें छह सदस्य होते हैं, और RBI के Governor इसके अध्यक्ष होते हैं।",
+      "facts": [
+        {
+          "k": "क़ानूनी आधार",
+          "v": "RBI Act, धारा 45ZB",
+          "s": "RBI Act, 1934"
+        },
+        {
+          "k": "सदस्य",
+          "v": "6",
+          "s": "Governor अध्यक्ष (धारा 45ZB(2))"
+        },
+        {
+          "k": "बैठकें",
+          "v": "साल में कम से कम 4",
+          "s": "धारा 45Z-I(1)"
+        },
+        {
+          "k": "Repo rate",
+          "v": "5.50%",
+          "s": "7 अक्टूबर 2026 की बैठक के बाद"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Inflation target",
+            "s": "केंद्र सरकार RBI से सलाह करके तय करती है"
+          },
+          {
+            "t": "MPC की बैठक",
+            "s": "बहुमत से फ़ैसला"
+          },
+          {
+            "t": "Policy Rate",
+            "s": "RBI पर बाध्यकारी"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Target पाने के लिए",
+            "s": "धारा 45ZA, 45ZB(3)"
+          },
+          {
+            "b": "फ़ैसला",
+            "s": "धारा 45ZB(4), 45Z-I(8)"
+          }
+        ],
+        "note": "RBI Act के मुताबिक केंद्र सरकार RBI से सलाह करके हर पाँच साल में एक बार Consumer Price Index के रूप में inflation target तय करती है। MPC इस target को पाने के लिए Policy Rate तय करती है, और इसका फ़ैसला RBI पर बाध्यकारी है।"
+      },
+      "myths": [
+        {
+          "m": "\"Repo rate अकेले RBI Governor तय करते हैं।\"",
+          "f": "नहीं। RBI Act की धारा 45ZB के मुताबिक Policy Rate छह सदस्यों वाली MPC तय करती है। धारा 45Z-I के मुताबिक हर सदस्य का एक vote है और फ़ैसला बहुमत से होता है; Governor के पास दूसरा (casting) vote सिर्फ़ तब होता है, जब vote बराबर हों।[^1]"
+        },
+        {
+          "m": "\"MPC के सारे सदस्य RBI के अधिकारी होते हैं।\"",
+          "f": "नहीं। धारा 45ZB(2) के मुताबिक तीन सदस्य RBI से होते हैं (Governor, monetary policy देखने वाले Deputy Governor और Central Board का नामित एक अधिकारी), और तीन सदस्य केंद्र सरकार नियुक्त करती है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "MPC का पूरा नाम क्या है?",
+          "a": "MPC का पूरा नाम Monetary Policy Committee है।[^2]"
+        },
+        {
+          "q": "MPC में कौन-कौन होते हैं?",
+          "a": "धारा 45ZB(2) के मुताबिक RBI के Governor (अध्यक्ष), monetary policy देखने वाले Deputy Governor, RBI के Central Board का नामित एक अधिकारी, और केंद्र सरकार के नियुक्त तीन सदस्य।[^1]"
+        },
+        {
+          "q": "सरकार के नियुक्त सदस्य कितने साल रहते हैं?",
+          "a": "धारा 45ZD(1) के मुताबिक चार साल, और वे दोबारा नियुक्त नहीं हो सकते।[^1]"
+        },
+        {
+          "q": "MPC की बैठक कितनी बार होती है?",
+          "a": "धारा 45Z-I(1) के मुताबिक RBI को साल में कम से कम चार बैठकें करानी हैं। बैठक का quorum चार सदस्यों का है, जिनमें Governor, या उनकी ग़ैरमौजूदगी में MPC के सदस्य Deputy Governor, होने चाहिए।[^1]"
+        },
+        {
+          "q": "MPC का फ़ैसला कब और कैसे पता चलता है?",
+          "a": "धारा 45ZK के मुताबिक हर बैठक के बाद RBI MPC की resolution प्रकाशित करता है, और धारा 45ZL के मुताबिक बैठक के चौदहवें दिन minutes, जिनमें हर सदस्य का vote और उसका कारण बताने वाला statement होता है।[^1]"
+        },
+        {
+          "q": "MPC की ताज़ा बैठक में क्या हुआ?",
+          "a": "5 से 7 अक्टूबर 2026 की 63वीं बैठक में MPC ने सर्वसम्मति से policy repo rate 25 basis points बढ़ाकर 5.50% किया; इसके साथ SDF rate 5.25% और MSF rate व Bank Rate 5.75% हो गए। Minutes 21 अक्टूबर 2026 को प्रकाशित होने हैं, और अगली बैठक 2 से 4 दिसंबर 2026 को तय है।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "Bank Rate"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "EMI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Reserve Bank of India Act, 1934 (Act No. 2 of 1934), पाठ \"As on the 23rd June, 2026\"",
+          "url": "https://indiacode.gov.in/act/3f9f5c4e-dce7-4144-b5ac-d2cc995b1761",
+          "used": [
+            {
+              "ref": "धारा 45ZA",
+              "c": "inflation target: केंद्र सरकार, RBI से सलाह करके, हर पाँच साल में"
+            },
+            {
+              "ref": "धारा 45ZB",
+              "c": "MPC का गठन; छह सदस्य; Policy Rate तय करना; फ़ैसला RBI पर बाध्यकारी"
+            },
+            {
+              "ref": "धारा 45ZD(1)",
+              "c": "सरकार के नियुक्त सदस्यों का कार्यकाल चार साल; दोबारा नियुक्ति नहीं"
+            },
+            {
+              "ref": "धारा 45Z-I",
+              "c": "साल में कम से कम चार बैठकें; quorum; एक सदस्य एक vote; बहुमत; Governor का casting vote"
+            },
+            {
+              "ref": "धारा 45ZK, 45ZL",
+              "c": "resolution का प्रकाशन; चौदहवें दिन minutes"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Monetary Policy Statement, 2026-27: Resolution of the Monetary Policy Committee, October 5 to 7, 2026 (press release 2026-2027/1264, 7 अक्टूबर 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1264BEFCD8B9DE724239B1746EC9020C02AF.PDF",
+          "issued": "2026-10-07",
+          "used": [
+            {
+              "ref": "पैरा 1 और 2",
+              "c": "63वीं बैठक; policy repo rate 5.50%; SDF 5.25%; MSF और Bank Rate 5.75%"
+            },
+            {
+              "ref": "पैरा 17 और 18",
+              "c": "minutes 21 अक्टूबर 2026 को; अगली बैठक 2 से 4 दिसंबर 2026"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nMPC का पूरा नाम Monetary Policy Committee है।[^2] RBI Act की धारा 45ZB के मुताबिक केंद्र सरकार Official Gazette में notification से यह समिति बनाती है, और यह inflation target पाने के लिए Policy Rate तय करती है।[^1]\n\n- **सदस्य:** RBI के Governor (अध्यक्ष), Deputy Governor, RBI का एक अधिकारी, और केंद्र सरकार के नियुक्त तीन सदस्य।[^1]\n- **फ़ैसला:** बहुमत से; vote बराबर हों, तो Governor का दूसरा (casting) vote।[^1]\n\n## Policy Rate कैसे तय होता है | कैसे तय\n\n::flow\n\n## ताज़ा फ़ैसला\n\n- **7 अक्टूबर 2026:** policy repo rate 25 basis points बढ़कर 5.50%; MSF rate और Bank Rate 5.75%।[^2]\n- **अगली बैठक:** 2 से 4 दिसंबर 2026।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
