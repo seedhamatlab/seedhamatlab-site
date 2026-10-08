@@ -15495,6 +15495,336 @@
         }
       ],
       "body": "## मतलब\n\nNBFC यानी Non-Banking Financial Company। यह Companies Act के तहत registered वह company है, जिसका मुख्य कारोबार क़र्ज़ और advances देना, shares, bonds, debentures या securities ख़रीदना, leasing, hire-purchase वग़ैरह है।[^1]\n\nजिस संस्था का मुख्य कारोबार खेती, उद्योग, सामान की ख़रीद-बिक्री, कोई सेवा देना, या अचल संपत्ति की ख़रीद-बिक्री या निर्माण है, वह NBFC नहीं है।[^1]\n\n## कौन NBFC है | कौन NBFC है\n\n- **50-50 कसौटी:** company की financial assets उसकी कुल assets के 50 प्रतिशत से ज़्यादा हों, और financial assets से आमदनी उसकी कुल आमदनी के 50 प्रतिशत से ज़्यादा हो।[^1]\n- **दोनों शर्तें:** जो company दोनों शर्तें पूरी करती है, उसे RBI में NBFC के तौर पर registration कराना होता है।[^1]\n- **Registration ज़रूरी:** कोई company RBI से Certificate of Registration लिए बिना यह कारोबार शुरू नहीं कर सकती और चला नहीं सकती।[^1]\n- **सब RBI के पास नहीं:** RBI हर वित्तीय company को regulate नहीं करता; कुछ SEBI, IRDAI या सरकार के दायरे में आती हैं।[^1]\n- **सूची:** registered NBFC की सूची RBI की website पर 'Regulation → Non-Banking' में है।[^1]\n\n## Bank से फ़र्क़ | Bank से फ़र्क़\n\n- **Demand deposit नहीं:** NBFC ऐसी जमा नहीं ले सकती, जो माँगते ही लौटानी हो।[^1]\n- **Cheque नहीं:** NBFC payment and settlement system का हिस्सा नहीं है, और अपने नाम के cheque जारी नहीं कर सकती।[^1]\n- **बीमा नहीं:** जमा लेने वाली NBFC के जमाकर्ताओं को DICGC के deposit insurance की सुविधा नहीं मिलती।[^1]\n\n## NBFC में जमा | NBFC में जमा\n\n::flow\n\n- **कौन ले सकती है:** सिर्फ़ वे NBFC, जिनके पास जमा लेने वाला Certificate of Registration है और जिनकी credit rating कम से कम investment grade 'BBB–' है।[^1]\n- **कितनी:** अपने Net Owned Funds के 1.5 गुना तक।[^1]\n- **ब्याज:** अभी ज़्यादा से ज़्यादा 12.5%।[^1]\n- **अवधि:** जमा 12 महीने के बाद और 60 महीने से पहले लौटानी हो; माँगते ही लौटाने वाली जमा नहीं।[^1]\n- **नई अनुमति नहीं:** RBI ने 1997 के बाद किसी नई NBFC को जमा लेने का certificate नहीं दिया है।[^1]\n- **Unsecured:** NBFC की public deposits unsecured होती हैं, और RBI जमा लौटाने की कोई guarantee नहीं लेता।[^1]\n\n## NBFC से क़र्ज़ | NBFC से क़र्ज़\n\n- **ब्याज की सीमा नहीं:** RBI ने NBFC के क़र्ज़ की ब्याज दरें deregulate की हैं; दर loan agreement की शर्तों से तय होती है।[^1]\n- **पर बताना ज़रूरी:** NBFC को ब्याज की दर और उसे तय करने का तरीक़ा application form में बताना, और sanction letter, अपनी website और Key Facts Statement में साफ़ लिखना होता है।[^1]\n\n## शिकायत कहाँ करें | शिकायत\n\n- **पहले NBFC से:** हर NBFC के Board को शिकायत निवारण की व्यवस्था बनानी होती है, जिसमें शिकायत कम से कम अगले ऊपर के स्तर पर सुनी जाए।[^1]\n- **फिर RBI Ombudsman:** NBFC को शिकायत मिलने के 30 दिन के अंदर जवाब न मिले, या जवाब से आप संतुष्ट न हों, तो CMS portal पर शिकायत की जा सकती है।[^2]\n- **कौन-सी NBFC:** RBI में registered वे NBFC, जो जमा लेने के लिए अधिकृत हैं, या जिनका ग्राहकों से सीधा व्यवहार है और asset size ₹100 crore या उससे ज़्यादा है। Housing Finance Companies और कुछ दूसरी श्रेणियाँ scheme में नहीं आतीं।[^2]\n- **जमा न लौटे:** जमाकर्ता National Company Law Tribunal (NCLT) या Consumer Forum के पास जा सकता है, या अदालत में civil suit कर सकता है।[^1]\n- **झूठा दावा:** कोई जमा इकट्ठा करने के लिए RBI से regulated होने का झूठा दावा करे, तो इसकी जानकारी RBI के नज़दीकी दफ़्तर और पुलिस को दी जा सकती है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> NBFC को क़र्ज़ की ब्याज दर और उसे तय करने का तरीक़ा application form, sanction letter, अपनी website और Key Facts Statement में साफ़ बताना होता है।[^1]\n\n- **पक्की रसीद:** हर जमा की रसीद, जिस पर अधिकृत officer के दस्तख़त, जमा की तारीख़, आपका नाम, रक़म (शब्दों और अंकों में), ब्याज की दर, maturity की तारीख़ और रक़म हो।[^1]\n- **Ombudsman:** scheme में आने वाली NBFC के ख़िलाफ़ RBI Ombudsman के पास शिकायत की जा सकती है।[^2]\n\n## अभी क्या करें\n\n- NBFC में जमा रखने से पहले RBI की website की सूची में देखिए कि उसे जमा लेने की अनुमति है या नहीं।[^1]\n- उसके दफ़्तर में लगा Certificate of Registration देखिए; उस पर जमा लेने की अनुमति लिखी होनी चाहिए।[^1]\n- 12.5% से ऊपर ब्याज का वादा हो, तो रुक जाइए; NBFC जमा पर इससे ज़्यादा ब्याज नहीं दे सकती।[^1]\n- हर जमा की पक्की रसीद लीजिए; agent के ज़रिए दे रहे हों, तो देखिए कि NBFC ने उसे अधिकृत किया है।[^1]\n- याद रखिए: NBFC की जमा पर deposit insurance नहीं है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "autopay",
+      "term": "AutoPay",
+      "aliases": [
+        "UPI AutoPay"
+      ],
+      "full": "UPI से बार-बार के भुगतान अपने-आप कटने की सुविधा",
+      "fullEn": "UPI AutoPay",
+      "group": "भुगतान",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। NPCI के AutoPay पन्ने, UPI FAQ (Customers) और AutoPay के छह circulars (2021 से 2025) से जाँचा।"
+        }
+      ],
+      "one": "AutoPay UPI की वह सुविधा है, जिसमें आप किसी merchant को एक बार e-mandate देते हैं, और फिर bill, EMI, subscription, insurance या mutual fund जैसी बार-बार की रक़म आपके खाते से अपने-आप कटती है। ₹15,000 तक की रक़म बिना UPI PIN के कटती है, और कटने से कम से कम 24 घंटे पहले सूचना आती है।",
+      "facts": [
+        {
+          "k": "बिना UPI PIN के",
+          "v": "₹15,000 तक",
+          "s": "mutual fund, insurance और credit card bill में ₹1 लाख तक"
+        },
+        {
+          "k": "कटने से पहले सूचना",
+          "v": "24 घंटे",
+          "s": "कम से कम; app से notification और bank से SMS",
+          "good": true
+        },
+        {
+          "k": "किसके लिए बनता है",
+          "v": "सिर्फ़ merchant",
+          "s": "एक व्यक्ति से दूसरे व्यक्ति के लिए नहीं"
+        },
+        {
+          "k": "रोकना या रद्द करना",
+          "v": "app में",
+          "s": "loan और EMI के mandate में यह विकल्प नहीं दिखता"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Mandate",
+            "s": "आप app में मंज़ूर करते हैं"
+          },
+          {
+            "t": "सूचना",
+            "s": "notification और SMS"
+          },
+          {
+            "t": "रक़म कटी",
+            "s": "खाते से अपने-आप"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "कटने से",
+            "s": "24 घंटे पहले"
+          },
+          {
+            "b": "फिर",
+            "s": "कटने के बाद भी सूचना"
+          }
+        ],
+        "note": "₹15,000 तक की रक़म बिना UPI PIN के कटती है; mutual fund, insurance और credit card bill में ₹1 लाख तक। इससे ऊपर की रक़म पर UPI PIN लगता है।"
+      },
+      "myths": [
+        {
+          "m": "\"AutoPay में हर बार UPI PIN डालना पड़ता है।\"",
+          "f": "नहीं। NPCI के FAQ के मुताबिक ₹15,000 तक की रक़म बिना UPI PIN के कट सकती है। Mutual fund, credit card bill और insurance में यह सीमा ₹1 लाख है।[^2]"
+        },
+        {
+          "m": "\"AutoPay से पैसा बिना बताए कट जाता है।\"",
+          "f": "नहीं। NPCI के FAQ के मुताबिक रक़म कटने से कम से कम 24 घंटे पहले UPI app से notification और bank से SMS आता है। छूट सिर्फ़ NETC FASTag और RuPay NCMC का balance अपने-आप भरने (auto-replenishment) में है।[^2]"
+        },
+        {
+          "m": "\"एक बार AutoPay बना दिया, तो उसे रोका नहीं जा सकता।\"",
+          "f": "नहीं। NPCI के FAQ के मुताबिक UPI app के AutoPay हिस्से में mandate को रोका (pause) और रद्द (revoke) किया जा सकता है।[^2] पर loan repayment और EMI के mandate में app यह विकल्प नहीं दिखाता; उसे रद्द करने का तरीक़ा merchant को अपनी website या app पर देना होता है।[^6]"
+        },
+        {
+          "m": "\"दोस्त या रिश्तेदार को हर महीने पैसे भेजने के लिए AutoPay बना सकते हैं।\"",
+          "f": "नहीं। NPCI के FAQ के मुताबिक UPI AutoPay सिर्फ़ merchants के लिए बन सकता है, एक व्यक्ति से दूसरे व्यक्ति के लिए नहीं।[^2]"
+        },
+        {
+          "m": "\"AutoPay की रक़म UPI की आम लेनदेन सीमा में गिनी जाती है।\"",
+          "f": "नहीं। NPCI के 7 दिसंबर 2023 के circular के मुताबिक bank को पक्का करना है कि AutoPay के लेनदेन UPI की आम लेनदेन सीमा में न गिने जाएँ।[^7]"
+        },
+        {
+          "m": "\"खाते में पैसा कम हो और EMI का AutoPay न कटे, तो कुछ नहीं होता।\"",
+          "f": "ऐसा मानना ठीक नहीं। NPCI के 25 नवंबर 2021 के circular के मुताबिक loan या EMI की AutoPay रक़म का खाते में पैसा कम होने से न कटना, Payment and Settlement Systems Act, 2007 की धारा 25 के तहत electronic fund transfer का dishonour है; पाने वाले को वही अधिकार और उपाय मिलते हैं, जो cheque के dishonour पर मिलते हैं।[^5]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "AutoPay का मतलब क्या है?",
+          "a": "NPCI के मुताबिक UPI AutoPay से ग्राहक किसी भी UPI app से बार-बार के भुगतान के लिए e-mandate दे सकता है: जैसे mobile bill, बिजली का bill, EMI, entertainment या OTT subscription, insurance और mutual fund। NPCI के circular में इसे 'e-mandate for recurring payments' कहा गया है।"
+        },
+        {
+          "q": "AutoPay कब शुरू हुआ?",
+          "a": "NPCI के 23 जून 2022 के circular के मुताबिक UPI AutoPay 22 जुलाई 2020 को शुरू हुआ था।"
+        },
+        {
+          "q": "AutoPay का mandate कैसे बनता है?",
+          "a": "NPCI के FAQ के मुताबिक UPI AutoPay का mandate QR, intent या collect request से बन सकता है।"
+        },
+        {
+          "q": "क्या किसी व्यक्ति के लिए AutoPay बना सकते हैं?",
+          "a": "नहीं। NPCI के FAQ के मुताबिक UPI AutoPay सिर्फ़ merchants के लिए बन सकता है, एक व्यक्ति से दूसरे व्यक्ति के लिए नहीं।"
+        },
+        {
+          "q": "बिना UPI PIN के कितनी रक़म कट सकती है?",
+          "a": "NPCI के FAQ के मुताबिक ₹15,000 तक; mutual fund, credit card bill और insurance की श्रेणियों में ₹1 लाख तक। NPCI के circular के मुताबिक रक़म इस सीमा से ऊपर हो, तो UPI app को UPI PIN लेना होता है।"
+        },
+        {
+          "q": "₹1 लाख की सीमा कब से है?",
+          "a": "NPCI के 14 दिसंबर 2023 के circular के मुताबिक RBI ने 12 दिसंबर 2023 के circular से तीन श्रेणियों में यह सीमा ₹15,000 से बढ़ाकर ₹1 लाख प्रति लेनदेन की: mutual fund का subscription, insurance का premium और credit card के bill का भुगतान।"
+        },
+        {
+          "q": "क्या रक़म कटने से पहले बताया जाता है?",
+          "a": "हाँ। NPCI के FAQ के मुताबिक merchant आपके UPI app और bank को कहता है, और वे रक़म कटने से कम से कम 24 घंटे पहले notification और SMS भेजते हैं। यह हर तरह के mandate पर लागू है; छूट सिर्फ़ NETC FASTag और RuPay NCMC के auto-replenishment में है।"
+        },
+        {
+          "q": "रक़म कटने के बाद भी सूचना आती है?",
+          "a": "हाँ। NPCI के 14 दिसंबर 2023 के circular के मुताबिक UPI app को push notification से, और bank को SMS से, रक़म कटने से पहले और बाद में, दोनों बार बताना ज़रूरी है।"
+        },
+        {
+          "q": "अपने AutoPay mandate कहाँ देखें?",
+          "a": "NPCI के FAQ के मुताबिक सभी mandate उस UPI app के AutoPay हिस्से में दिखते हैं, जिस पर mandate बना था। NPCI के 7 अक्टूबर 2025 के circular में यह सुविधा जोड़ी गई है कि ग्राहक अपने सभी चालू mandate अपनी पसंद के किसी भी UPI app में देख सके।"
+        },
+        {
+          "q": "AutoPay को कैसे रोकें या रद्द करें?",
+          "a": "NPCI के FAQ के मुताबिक UPI app के AutoPay हिस्से में mandate को रोका (pause) और रद्द (revoke) किया जा सकता है। NPCI के AutoPay पन्ने पर modify, revoke, pause और unpause, चारों सुविधाएँ लिखी हैं।"
+        },
+        {
+          "q": "Loan या EMI का AutoPay app से रद्द क्यों नहीं होता?",
+          "a": "NPCI के 20 जुलाई 2022 के circular के मुताबिक loan repayment और EMI collection की श्रेणी के mandate में UPI app को revoke और pause का विकल्प नहीं दिखाना है। ऐसे mandate को रद्द करने का तरीक़ा merchant को अपनी website या app पर देना और साफ़ बताना होता है, और यह merchant की सहमति से होता है।"
+        },
+        {
+          "q": "EMI का AutoPay पैसा कम होने से न कटे, तो क्या होता है?",
+          "a": "NPCI के 25 नवंबर 2021 के circular के मुताबिक loan या EMI की AutoPay रक़म का खाते में पैसा कम होने से न कटना, Payment and Settlement Systems Act, 2007 की धारा 25 के तहत electronic fund transfer का dishonour है। Circular के मुताबिक यह धारा पाने वाले को वही अधिकार और उपाय देती है, जो cheque के dishonour पर Negotiable Instruments Act, 1881 के Chapter XVII में मिलते हैं।"
+        },
+        {
+          "q": "क्या mandate एक UPI app से दूसरे में ले जा सकते हैं?",
+          "a": "NPCI के 7 अक्टूबर 2025 के circular में यह विकल्प जोड़ा गया है: ग्राहक mandate को एक UPI app से दूसरे में ले जा (port) सकता है। यह सिर्फ़ ग्राहक की मर्ज़ी से होना है; cashback, banner या notification से इसके लिए उकसाना मना है। NPCI ने members को यह 31 दिसंबर 2025 तक चालू करने को कहा था।"
+        },
+        {
+          "q": "क्या AutoPay की रक़म UPI की सीमा में गिनी जाती है?",
+          "a": "NPCI के 7 दिसंबर 2023 के circular के मुताबिक bank को पक्का करना है कि UPI AutoPay के लेनदेन UPI की आम लेनदेन सीमा में न गिने जाएँ।"
+        }
+      ],
+      "related": [
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "UPI PIN"
+        },
+        {
+          "t": "NPCI"
+        },
+        {
+          "t": "P2M"
+        },
+        {
+          "t": "Credit Card"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NPCI — AutoPay, product page (पन्ने पर तारीख़ नहीं है)",
+          "url": "https://www.npci.org.in/product/autopay",
+          "used": [
+            {
+              "ref": "Overview",
+              "c": "AutoPay क्या है; किन भुगतानों के लिए"
+            },
+            {
+              "ref": "बिंदु 4",
+              "c": "modify, revoke, pause और unpause की सुविधा"
+            },
+            {
+              "ref": "बिंदु 7",
+              "c": "24 घंटे पहले सूचना, ताकि खाते में रक़म रहे"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — UPI FAQ, Customers (43 सवाल; सवाल ऊपर से गिने गए हैं; पन्ने पर तारीख़ नहीं है)",
+          "url": "https://www.npci.org.in/faqs/upi",
+          "used": [
+            {
+              "ref": "सवाल 2",
+              "c": "UPI Help: mandate देखना और सँभालना"
+            },
+            {
+              "ref": "सवाल 37",
+              "c": "mandate QR, intent या collect request से बनता है"
+            },
+            {
+              "ref": "सवाल 38, 39",
+              "c": "mandate कहाँ दिखते हैं; pause और revoke"
+            },
+            {
+              "ref": "सवाल 40",
+              "c": "बिना UPI PIN: ₹15,000; तीन श्रेणियों में ₹1 लाख"
+            },
+            {
+              "ref": "सवाल 41, 42",
+              "c": "24 घंटे पहले notification और SMS; FASTag और NCMC में छूट"
+            },
+            {
+              "ref": "सवाल 43",
+              "c": "AutoPay सिर्फ़ merchants के लिए"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — circular NPCI/UPI/OC No. 151/2022-23, UPI AUTOPAY AFA limit enhancement and compliance, 23 जून 2022",
+          "url": "https://www.npci.org.in/uploads/OC_151_UPI_AUTOPAY_AFA_limit_enhancement_and_compliance_69994c07fd.pdf",
+          "issued": "2022-06-23",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "22 जुलाई 2020 को शुरू; 'e-mandate for recurring payments'"
+            },
+            {
+              "ref": "पैरा 3",
+              "c": "हर काम पर SMS या notification"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "₹15,000 से ऊपर की रक़म पर UPI PIN"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — circular NPCI/UPI/OC-151A/2023-24, Enhancement of Limits for UPI AutoPay, 14 दिसंबर 2023",
+          "url": "https://www.npci.org.in/uploads/UPI_OC_151_A_Enhancement_of_Limits_for_UPI_Auto_Pay_4ad9596240.pdf",
+          "issued": "2023-12-14",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "RBI का 12 दिसंबर 2023 का circular; तीन श्रेणियों में ₹1 लाख"
+            },
+            {
+              "ref": "बिंदु 1",
+              "c": "इन श्रेणियों में ₹1 लाख से ऊपर UPI PIN"
+            },
+            {
+              "ref": "बिंदु 4",
+              "c": "कटने से पहले और बाद में सूचना ज़रूरी"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — circular NPCI/UPI/OC No. 125/2021-22, Dishonor of UPI AutoPay transaction due to insufficiency of funds, 25 नवंबर 2021",
+          "url": "https://www.npci.org.in/uploads/UPI_OC_125_Dishonor_of_UPI_Auto_Pay_transaction_due_to_insufficiency_of_funds_1b73d1b7c8.pdf",
+          "issued": "2021-11-25",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "PSS Act की धारा 25; cheque के dishonour जैसे अधिकार और उपाय"
+            },
+            {
+              "ref": "पैरा 3",
+              "c": "loan और EMI की श्रेणी पर लागू"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — circular NPCI/UPI/OC No.125A/2022-23, Addendum to OC 125 – Non-revocation of UPI AUTOPAY mandate for Loan repayment and EMI collection category, 20 जुलाई 2022",
+          "url": "https://www.npci.org.in/uploads/OC_125_A_Addendum_to_OC_125_Non_revocation_of_UPI_AUTOPAY_mandate_for_loan_repayment_and_EMI_collection_category_37b2c92c41.pdf",
+          "issued": "2022-07-20",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "loan और EMI के mandate में app में revoke और pause नहीं दिखता"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "रद्द करने का तरीक़ा merchant की website या app पर; merchant की सहमति से"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — circular NPCI/UPI/OC-182/2023-24, User Experience Enhancements for UPI AutoPay, 7 दिसंबर 2023",
+          "url": "https://www.npci.org.in/uploads/UPI_OC_182_User_Experience_Enhancement_for_UPI_Auto_Pay_d2901a14e1.pdf",
+          "issued": "2023-12-07",
+          "used": [
+            {
+              "ref": "बिंदु 2.1",
+              "c": "AutoPay के लेनदेन UPI की आम सीमा में नहीं गिने जाते"
+            },
+            {
+              "ref": "बिंदु 3.1, 3.2",
+              "c": "merchant को pause मानना है; रद्द करना UPI AutoPay के ज़रिए ही"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — circular NPCI/UPI/OC-223/2025-26, Enhancement of UPI Autopay, 7 अक्टूबर 2025",
+          "url": "https://www.npci.org.in/uploads/UPI_OC_No_223_FY_2025_26_Enhancement_of_UPI_Autopay_88b38535cb.pdf",
+          "issued": "2025-10-07",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "सभी चालू mandate किसी भी app में देखना; mandate port करना"
+            },
+            {
+              "ref": "बिंदु 1(ii)",
+              "c": "ग्राहक के शुरू किए हर काम में UPI PIN"
+            },
+            {
+              "ref": "बिंदु 1(iii)",
+              "c": "port सिर्फ़ ग्राहक की मर्ज़ी से; उकसाना मना"
+            },
+            {
+              "ref": "आख़िरी पैरा",
+              "c": "members को 31 दिसंबर 2025 तक चालू करना था"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nAutoPay, यानी UPI AutoPay, NPCI की वह सुविधा है, जिससे ग्राहक किसी भी UPI app से बार-बार के भुगतान के लिए e-mandate दे सकता है: जैसे mobile bill, बिजली का bill, EMI, entertainment या OTT subscription, insurance और mutual fund।[^1]\n\nNPCI के circular में इसे 'e-mandate for recurring payments' कहा गया है। यह सुविधा 22 जुलाई 2020 को शुरू हुई थी।[^3]\n\n## AutoPay कैसे चलता है | कैसे चलता है\n\n::flow\n\n- **बनाना:** mandate QR, intent या collect request से बन सकता है।[^2]\n- **सिर्फ़ merchant के लिए:** UPI AutoPay सिर्फ़ merchants के लिए बन सकता है, एक व्यक्ति से दूसरे व्यक्ति के लिए नहीं।[^2]\n- **पहले सूचना:** merchant आपके UPI app और bank को कहता है, और वे रक़म कटने से कम से कम 24 घंटे पहले notification और SMS भेजते हैं।[^2]\n- **बाद में भी सूचना:** UPI app को push notification से, और bank को SMS से, रक़म कटने से पहले और बाद में, दोनों बार बताना ज़रूरी है।[^4]\n- **छूट:** NETC FASTag और RuPay NCMC का balance अपने-आप भरने (auto-replenishment) में पहले की सूचना ज़रूरी नहीं है।[^2]\n- **UPI की सीमा से अलग:** bank को पक्का करना है कि AutoPay के लेनदेन UPI की आम लेनदेन सीमा में न गिने जाएँ।[^7]\n\n## बिना UPI PIN कितनी रक़म | सीमा\n\n- **₹15,000 तक:** इतनी रक़म बिना UPI PIN के कट सकती है। रक़म इससे ऊपर हो, तो UPI app को UPI PIN लेना होता है।[^2][^3]\n- **तीन श्रेणियों में ₹1 लाख तक:** mutual fund का subscription, insurance का premium और credit card के bill का भुगतान। यह सीमा RBI के 12 दिसंबर 2023 के circular से बढ़ी।[^4]\n- **आपके शुरू किए काम:** NPCI के 7 अक्टूबर 2025 के circular के मुताबिक ग्राहक की तरफ़ से शुरू किए गए AutoPay के हर काम में UPI PIN लगता है।[^8]\n\n## रोकना, बदलना, रद्द करना | रोकना और रद्द करना\n\n- **कहाँ दिखते हैं:** सभी mandate उस UPI app के AutoPay हिस्से में दिखते हैं, जिस पर mandate बना था।[^2]\n- **क्या कर सकते हैं:** वहीं से mandate को रोका (pause) और रद्द (revoke) किया जा सकता है। NPCI के AutoPay पन्ने पर modify, revoke, pause और unpause, चारों सुविधाएँ लिखी हैं।[^1][^2]\n- **हर काम की सूचना:** mandate बनने, बदलने, रोकने, दोबारा चालू करने और रद्द होने पर UPI app और bank को SMS या notification भेजना होता है।[^3]\n- **Merchant की तरफ़ से:** merchant को mandate रद्द करना हो, तो उसे अपने bank के ज़रिए UPI AutoPay पर ही रद्द करने की request भेजनी है; सिर्फ़ अपनी तरफ़ से हटाना काफ़ी नहीं है।[^7]\n- **किसी भी app में:** NPCI के 7 अक्टूबर 2025 के circular में यह सुविधा जोड़ी गई है कि ग्राहक अपने सभी चालू mandate अपनी पसंद के किसी भी UPI app में देख सके, और mandate को एक app से दूसरे में ले जा (port) सके। NPCI ने members को यह 31 दिसंबर 2025 तक चालू करने को कहा था।[^8]\n- **Port आपकी मर्ज़ी से:** mandate port करना सिर्फ़ ग्राहक की मर्ज़ी से होना है; cashback, banner या notification से इसके लिए उकसाना मना है।[^8]\n\n## Loan और EMI का AutoPay | Loan और EMI\n\n- **App में विकल्प नहीं:** NPCI के 20 जुलाई 2022 के circular के मुताबिक loan repayment और EMI collection की श्रेणी के mandate में UPI app को revoke और pause का विकल्प नहीं दिखाना है। यह पहले से बने mandate पर भी लागू है।[^6]\n- **रद्द कैसे होगा:** ऐसे mandate को रद्द करने का तरीक़ा merchant को अपनी website या app पर देना और साफ़ बताना होता है; यह merchant की सहमति से होता है।[^6]\n- **पैसा कम हो:** NPCI के 25 नवंबर 2021 के circular के मुताबिक loan या EMI की AutoPay रक़म का खाते में पैसा कम होने से न कटना, Payment and Settlement Systems Act, 2007 की धारा 25 के तहत electronic fund transfer का dishonour है।[^5]\n- **नतीजा:** circular के मुताबिक यह धारा पाने वाले को वही अधिकार और उपाय देती है, जो cheque के dishonour पर Negotiable Instruments Act, 1881 के Chapter XVII में मिलते हैं।[^5]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> AutoPay की रक़म कटने से कम से कम 24 घंटे पहले आपको UPI app से notification और bank से SMS मिलना चाहिए।[^2]\n\n- **रोकना और रद्द करना:** UPI app के AutoPay हिस्से में mandate को रोका और रद्द किया जा सकता है।[^2]\n- **Loan और EMI में भी रास्ता:** ऐसे mandate को रद्द करने का तरीक़ा merchant को अपनी website या app पर देना और साफ़ बताना होता है।[^6]\n- **हर काम की सूचना:** mandate बनने, बदलने, रुकने और रद्द होने पर SMS या notification आना चाहिए।[^3]\n\n## अभी क्या करें\n\n- अपने UPI app के AutoPay हिस्से में देखिए कि कौन-कौन से mandate चल रहे हैं।[^2]\n- जो mandate अब नहीं चाहिए, उसे वहीं से रोकिए या रद्द कीजिए।[^2]\n- रक़म कटने से पहले आई सूचना पढ़िए, और खाते में उतनी रक़म रखिए।[^1]\n- Loan या EMI का mandate रद्द करना हो, तो merchant की website या app पर दिया तरीक़ा देखिए।[^6]\n- Mandate के बारे में सवाल हो, तो [upihelp.npci.org.in](https://upihelp.npci.org.in) पर NPCI के UPI Help से पूछ सकते हैं।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
