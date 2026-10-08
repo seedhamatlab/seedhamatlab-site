@@ -1649,9 +1649,16 @@ function main() {
     if (!CARDS[p.id]) throw new Error(`Missing banner card: ${p.id}`);
   }
 
-  // Shabdkosh: data/terms.json ke shabd. Pehle padhte hain taaki lekhon me neele link ban saken.
-  const termsFile = path.join(__dirname, "data", "terms.json");
-  const terms = fs.existsSync(termsFile) ? (JSON.parse(fs.readFileSync(termsFile, "utf8")).terms || []) : [];
+  // Shabdkosh: data/terms.json aur phir data/terms-2.json, terms-3.json ... ke shabd, isi kram me.
+  // (GitHub ka web editor bahut badi file nahi kholta, isliye naye shabd agli file me jaate hain.)
+  // Pehle padhte hain taaki lekhon me neele link ban saken.
+  const readTerms = (f) => (fs.existsSync(f) ? (JSON.parse(fs.readFileSync(f, "utf8")).terms || []) : []);
+  const terms = readTerms(path.join(__dirname, "data", "terms.json"));
+  for (let n = 2; fs.existsSync(path.join(__dirname, "data", `terms-${n}.json`)); n++) {
+    terms.push(...readTerms(path.join(__dirname, "data", `terms-${n}.json`)));
+  }
+  const seenIds = new Set();
+  terms.forEach((t) => { if (seenIds.has(t.id)) throw new Error(`Duplicate term id: ${t.id}`); seenIds.add(t.id); });
   setTermLinks(terms);
 
   fs.rmSync(path.join(__dirname, "dist"), { recursive: true, force: true });
