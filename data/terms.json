@@ -19980,6 +19980,217 @@
         }
       ],
       "body": "## मतलब\n\nPayments Bank RBI के licence से चलने वाला bank है, जिसके काम सीमित रखे गए हैं: जमा लेना और भुगतान व पैसे भेजने की सुविधा देना।[^1] RBI के 2014 के दिशानिर्देशों के मुताबिक इसका मक़सद प्रवासी मज़दूरों, कम आय वाले परिवारों, छोटे कारोबारों और असंगठित क्षेत्र तक छोटे बचत खाते और भुगतान सेवाएँ पहुँचाना है।[^1]\n\n- **Licence:** Banking Regulation Act, 1949 की धारा 22 के तहत; company, Companies Act, 2013 में public limited company के रूप में registered।[^1]\n- **नाम:** दूसरे banks से अलग पहचान के लिए नाम में 'Payments Bank' शब्द।[^1]\n\n## ₹2,00,000 की सीमा | सीमा\n\n::flow\n\n- **सीमा:** हर व्यक्ति का balance दिन के अंत में ₹2,00,000 तक; Payments Bank के PPI का balance भी इसी में गिना जाता है।[^2]\n- **पहले:** 2014 के दिशानिर्देशों में शुरुआती सीमा ₹1,00,000 थी।[^1]\n- **दूसरे bank का खाता:** Payments Bank के पास उस खाते को चलाने या उसमें real-time पहुँच का अधिकार नहीं होता।[^2]\n\n## क्या कर सकता है, क्या नहीं | काम\n\n- **जमा:** current और savings जमा; NRI जमा नहीं।[^2]\n- **Card:** ATM / Debit card; credit card नहीं।[^1]\n- **भुगतान:** branch, ATM, BC और mobile banking से भुगतान और पैसे भेजना; internet banking; बिल भुगतान।[^1]\n- **दूसरे products:** RBI की पहले मंज़ूरी से mutual fund, बीमा और pension products बेचना।[^1]\n- **क़र्ज़:** नहीं; Payments Bank lending नहीं कर सकता।[^1]\n\n## RBI के अलग निर्देश | अलग निर्देश\n\n- **Commercial banks वाले निर्देश:** RBI के कुछ 2025 वाले निर्देशों, जैसे Digital Banking Channels Authorisation Directions, में 'Commercial Banks' की परिभाषा से Small Finance Banks, Payment Banks और Local Area Banks बाहर हैं।[^3]\n- **Payments Banks के अपने निर्देश:** Payments Banks के लिए RBI अलग Directions जारी करता है, जैसे Payments Banks – Miscellaneous Directions, 2025।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Payments Bank खाते में बड़ी रकम आने वाली हो, तो पहले bank से पूछिए कि सीमा से ऊपर की रकम किस bank के खाते में जाएगी; यह sweep आपकी लिखित सहमति से ही चालू होता है।[^2]\n- Loan या credit card चाहिए, तो याद रखिए कि Payments Bank ख़ुद क़र्ज़ नहीं देता और credit card जारी नहीं करता।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "savings-account",
+      "term": "Savings Bank Account",
+      "aliases": [
+        "Savings Bank Accounts",
+        "Savings Bank Deposit",
+        "Savings Deposit",
+        "savings खाता",
+        "savings खाते",
+        "बचत खाता",
+        "बचत खाते"
+      ],
+      "full": "सेविंग्स बैंक अकाउंट · बचत खाता, जिस पर ब्याज मिलता है",
+      "fullEn": "Savings Bank Account (Savings Deposit)",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। RBI के Commercial Banks – Interest Rate on Deposits Directions, 2025 और Commercial Banks – Responsible Business Conduct Directions, 2025 (दोनों 1 अक्टूबर 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Savings Bank Account (बचत खाता) bank का ब्याज वाला demand deposit खाता है, जिसमें से पैसा माँगने पर निकाला जा सकता है, पर bank निकासी की संख्या और रकम पर सीमा रख सकता है। RBI के निर्देशों के मुताबिक इस पर ब्याज रोज़ के अंत वाले balance पर गिना जाता है और कम से कम हर तिमाही खाते में जमा होता है।",
+      "facts": [
+        {
+          "k": "ब्याज की गणना",
+          "v": "Daily product",
+          "s": "दिन के अंत वाले balance पर"
+        },
+        {
+          "k": "ब्याज जमा",
+          "v": "हर तिमाही या जल्दी",
+          "s": "frozen खाते में भी"
+        },
+        {
+          "k": "₹1 लाख तक",
+          "v": "एक ही दर",
+          "s": "ऊपर की रकम पर अलग दर हो सकती है"
+        },
+        {
+          "k": "Minimum balance",
+          "v": "1 महीने का notice",
+          "s": "penal charge से पहले"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Minimum balance कम",
+            "s": "जैसा खाता खोलते समय तय"
+          },
+          {
+            "t": "Bank का notice",
+            "s": "SMS / email / चिट्ठी"
+          },
+          {
+            "t": "Penal charge",
+            "s": "कमी के अनुपात में"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Bank बताता है",
+            "s": "साफ़ शब्दों में"
+          },
+          {
+            "b": "कम से कम 1 महीना",
+            "s": "balance पूरा करने का समय"
+          }
+        ],
+        "note": "RBI के निर्देशों के मुताबिक minimum balance कम होने पर bank को पहले ग्राहक को साफ़ बताना होता है, और notice की तारीख़ से कम से कम एक महीने में balance पूरा न हो, तभी penal charge लिया जा सकता है। इस charge से balance negative नहीं होना चाहिए।"
+      },
+      "myths": [
+        {
+          "m": "\"Minimum balance कम होते ही bank तुरंत charge काट सकता है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक bank को पहले SMS / email / चिट्ठी से बताना होता है, और notice की तारीख़ से कम से कम एक महीने तक balance पूरा न हो, तभी penal charge लिया जा सकता है।[^2]"
+        },
+        {
+          "m": "\"Minimum balance के charge से खाता minus में जा सकता है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक सिर्फ़ minimum balance के charge की वजह से savings खाते का balance negative नहीं होना चाहिए।[^2]"
+        },
+        {
+          "m": "\"खाता freeze हो गया, तो ब्याज भी रुक जाएगा।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक savings खाते पर ब्याज नियमित रूप से जमा होना चाहिए, चाहे खाता enforcement agencies ने freeze किया हो या खाता चालू न हो।[^1]"
+        },
+        {
+          "m": "\"Bank से बात करके ब्याज की दर बढ़वाई जा सकती है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक जमा पर ब्याज की दरें depositor और bank के बीच मोल-भाव से तय नहीं होतीं, और bank को website पर पहले से बताई गई दरों के हिसाब से ही ब्याज देना होता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Savings Bank Account क्या है?",
+          "a": "RBI के निर्देशों के मुताबिक Savings Deposit ब्याज वाला demand deposit है, यानी माँगने पर निकाला जा सकने वाला जमा, जिसमें bank किसी तय अवधि में निकासी की संख्या और रकम पर सीमा रख सकता है। इसे Savings Account, Savings Bank Account या Basic Savings Bank Deposit Account (BSBDA), किसी भी नाम से बुलाया जाए।[^1]"
+        },
+        {
+          "q": "Savings Bank Account और Current Account में क्या फ़र्क़ है?",
+          "a": "RBI के निर्देशों के मुताबिक Current Account पर ब्याज नहीं मिलता, जबकि Savings Deposit ब्याज वाला खाता है।[^1]"
+        },
+        {
+          "q": "Savings Bank Account पर ब्याज कैसे गिना जाता है?",
+          "a": "Daily product के आधार पर, यानी हर दिन के अंत वाले balance पर। ₹1 लाख तक के balance पर एक ही दर होती है; दिन के अंत में ₹1 लाख से ऊपर के balance पर bank अलग दर दे सकता है।[^1]"
+        },
+        {
+          "q": "ब्याज खाते में कब आता है?",
+          "a": "RBI के निर्देशों के मुताबिक savings खाते का ब्याज हर तिमाही या उससे कम अंतराल पर खाते में जमा होना चाहिए।[^1]"
+        },
+        {
+          "q": "क्या ब्याज की दर हर branch में एक जैसी होती है?",
+          "a": "RBI के निर्देशों के मुताबिक जमा पर ब्याज की दरें bank की सभी branches और सभी ग्राहकों के लिए एक जैसी होनी चाहिए, और website पर पहले से बताई गई दरों के मुताबिक ही ब्याज दिया जाता है।[^1]"
+        },
+        {
+          "q": "Minimum balance का नियम bank कब बताता है?",
+          "a": "RBI के निर्देशों के मुताबिक खाता खोलते समय bank को minimum balance और उसके न रखने पर लगने वाले charges साफ़ बताने होते हैं; और इसमें बदलाव हो, तो मौजूदा ग्राहकों को कम से कम एक महीना पहले बताना होता है।[^2]"
+        },
+        {
+          "q": "Minimum balance का penal charge कितना हो सकता है?",
+          "a": "RBI ने कोई रकम तय नहीं की है। निर्देशों के मुताबिक charge कमी के अनुपात में होना चाहिए, यानी असल balance और तय minimum balance के अंतर पर एक तय प्रतिशत; वह उचित हो और सेवा देने की औसत लागत से बेमेल न हो। Bank की यह policy उसके Board या Board की committee से मंज़ूर होती है।[^2]"
+        },
+        {
+          "q": "क्या passbook के पैसे लगते हैं?",
+          "a": "नहीं। RBI के निर्देशों के मुताबिक bank को हर individual savings खाताधारक को passbook देनी होती है, और ग्राहक statement चुने तो monthly statement; इनकी लागत ग्राहक से नहीं ली जाती।[^2]"
+        },
+        {
+          "q": "बिना minimum balance वाला savings खाता मिलता है?",
+          "a": "हाँ। RBI के निर्देशों के मुताबिक हर bank को Basic Savings Bank Deposit (BSBD) खाता देना होता है, जिसमें minimum balance की कोई शर्त नहीं होती।[^2]"
+        },
+        {
+          "q": "क्या ये नियम हर bank पर लागू हैं?",
+          "a": "ये RBI के commercial banks के लिए बने निर्देश हैं। इनकी परिभाषा में Small Finance Banks, Payment Banks, Regional Rural Banks और Local Area Banks शामिल नहीं हैं; उनके लिए RBI अलग Directions जारी करता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "BSBD"
+        },
+        {
+          "t": "FD"
+        },
+        {
+          "t": "Inoperative Account"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "DICGC"
+        },
+        {
+          "t": "KYC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Interest Rate on Deposits) Directions, 2025 (RBI/DOR/2025-26/153, 28 नवंबर 2025; 1 अक्टूबर 2026 तक updated)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13157",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 4",
+              "c": "लागू किस पर: commercial banks; SFB, Payment Banks, RRB, LAB बाहर"
+            },
+            {
+              "ref": "पैरा 6(4), 6(5), 6(6), 6(19)",
+              "c": "Current Account, daily product, demand deposit, Savings Deposit की परिभाषा"
+            },
+            {
+              "ref": "पैरा 7(2), 7(3), 7(5)",
+              "c": "एक जैसी दरें; website पर पहले से बताई दरें; मोल-भाव नहीं"
+            },
+            {
+              "ref": "पैरा 8, 9",
+              "c": "Current Account पर ब्याज नहीं; daily product; ₹1 लाख तक एक दर"
+            },
+            {
+              "ref": "पैरा 18, 19",
+              "c": "तिमाही या जल्दी ब्याज; frozen खाते में भी ब्याज"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170, 28 नवंबर 2025; 1 अक्टूबर 2026 तक updated)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 54",
+              "c": "website पर जमा की ब्याज दरें और minimum balance की जानकारी"
+            },
+            {
+              "ref": "पैरा 86",
+              "c": "BSBD खाता: minimum balance की शर्त नहीं"
+            },
+            {
+              "ref": "पैरा 159",
+              "c": "minimum balance और charges खाता खोलते समय बताना; बदलाव पर 1 महीना पहले सूचना"
+            },
+            {
+              "ref": "पैरा 160",
+              "c": "notice; कम से कम 1 महीना; Board policy; कमी के अनुपात में charge; उचित; balance negative नहीं"
+            },
+            {
+              "ref": "पैरा 162, 163",
+              "c": "passbook / monthly statement; लागत ग्राहक से नहीं"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSavings Bank Account (बचत खाता) bank का ब्याज वाला demand deposit खाता है: पैसा माँगने पर निकाला जा सकता है, पर bank किसी तय अवधि में निकासी की संख्या और रकम पर सीमा रख सकता है।[^1] RBI के निर्देशों में इसे 'Savings Deposit' कहा गया है, चाहे खाते का नाम Savings Account हो, Savings Bank Account हो या BSBDA।[^1]\n\n- **Current Account से फ़र्क़:** Current Account पर ब्याज नहीं मिलता।[^1]\n- **किस पर लागू:** ये RBI के commercial banks वाले निर्देश हैं; Small Finance Banks, Payment Banks, Regional Rural Banks और Local Area Banks के लिए अलग Directions हैं।[^1]\n\n## ब्याज | ब्याज\n\n- **गणना:** daily product पर, यानी हर दिन के अंत वाले balance पर।[^1]\n- **दर:** ₹1 लाख तक के balance पर एक ही दर; दिन के अंत में ₹1 लाख से ऊपर के balance पर अलग दर हो सकती है।[^1]\n- **एक जैसी दर:** सभी branches और सभी ग्राहकों के लिए एक जैसी; website पर पहले से बताई दरों के मुताबिक; मोल-भाव से नहीं।[^1]\n- **कब जमा:** हर तिमाही या उससे कम अंतराल पर; enforcement agencies के freeze किए खाते में भी, खाता चालू हो या न हो।[^1]\n\n## Minimum balance | Minimum balance\n\n::flow\n\n- **पहले बताना:** खाता खोलते समय minimum balance और charges; बदलाव हो तो मौजूदा ग्राहकों को कम से कम एक महीना पहले।[^2]\n- **Charge कैसा:** कमी के अनुपात में, यानी असल balance और तय minimum balance के अंतर पर एक तय प्रतिशत; उचित और सेवा की औसत लागत से बेमेल नहीं।[^2]\n- **Negative नहीं:** सिर्फ़ इस charge से balance negative नहीं होना चाहिए।[^2]\n- **BSBD:** BSBD खाते में minimum balance की कोई शर्त नहीं।[^2]\n\n## Passbook | Passbook\n\n- **हक़:** हर individual savings खाताधारक को passbook; ग्राहक statement चुने, तो monthly statement।[^2]\n- **लागत:** passbook या statement की लागत ग्राहक से नहीं ली जाती।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- अपने bank की website पर savings खाते की ब्याज दर और minimum balance के charges देखिए।[^1][^2]\n- Minimum balance की कमी का notice आए, तो notice की तारीख़ से एक महीने के अंदर balance पूरा कर दीजिए।[^2]\n- Minimum balance रखना मुश्किल हो, तो bank से BSBD खाते के बारे में पूछिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
