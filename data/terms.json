@@ -19573,6 +19573,211 @@
         }
       ],
       "body": "## मतलब\n\nNPCI के मुताबिक RuPay भारत का पहला घरेलू card भुगतान network है, जो ATM, PoS मशीन और e-commerce websites पर चलता है। इसका नाम 'Rupee' और 'Payment' से बना है।[^1]\n\nRuPay, National Payments Corporation of India (NPCI) का product है।[^1] Card आपका bank (issuer bank) जारी करता है; RuPay वह network है, जिस पर वह card चलता है।[^1][^2]\n\n## RuPay के card | Card\n\n- **किस्में:** सरकारी योजनाओं के card के अलावा Classic, Platinum और Select जैसे variants। Pradhan Mantri Jan Dhan Yojana में भी RuPay card चुना गया।[^1]\n- **सुविधाएँ:** NPCI के मुताबिक कुछ variants में international acceptance, airport lounge और बीमा जैसी सुविधाएँ हैं; ये card के variant पर निर्भर हैं।[^1]\n- **Contactless:** card reader पर tap करके भुगतान; offline wallet से metro, bus, toll और parking; National Common Mobility Card (NCMC) की specifications के मुताबिक।[^1]\n\n## RuPay credit card on UPI | UPI पर\n\n::flow\n\n- **किसे भुगतान:** merchant को, उसका UPI QR scan करके।[^2]\n- **क्या नहीं:** person-to-person भुगतान, merchant के पास cash, P2PM और card-to-card भुगतान।[^2]\n- **सीमा:** UPI की standard लेनदेन सीमाएँ।[^2]\n- **EMI:** ख़रीद के समय या बाद में UPI app से EMI में बदलने का अनुरोध।[^2]\n\n## सुरक्षा | सुरक्षा\n\n- **Online भुगतान:** RuPay के e-commerce लेनदेन EMV 3-D Secure ('NPCI SecureNxt') पर।[^1]\n- **Token:** device tokenization में card की असली जानकारी की जगह device पर encrypted token।[^1]\n- **अलग PIN:** credit card on UPI के लिए अलग UPI PIN; savings खाते के UPI PIN और card PIN से अलग।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- RuPay credit card को UPI से जोड़ें, तो उसके लिए अलग UPI PIN बनाइए, और किसी से साझा मत कीजिए।[^2]\n- Card जोड़ने के लिए bank में अपना mobile number ताज़ा रखिए।[^2]\n- भुगतान से पहले UPI app में card की उपलब्ध सीमा और बकाया देख लीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "small-finance-bank",
+      "term": "Small Finance Bank",
+      "aliases": [
+        "Small Finance Banks",
+        "SFB"
+      ],
+      "full": "स्मॉल फ़ाइनेंस बैंक · छोटे ग्राहकों और छोटे क़र्ज़ पर केंद्रित bank",
+      "fullEn": "Small Finance Bank (SFB)",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। RBI के 5 दिसंबर 2019 के 'on tap' licensing दिशानिर्देशों, Digital Banking Channels Authorisation Directions, 2025 और Small Finance Banks के लिए जारी Directions (KYC और Responsible Business Conduct के संशोधन) से जाँचा।"
+        }
+      ],
+      "one": "Small Finance Bank (SFB) RBI के licence से चलने वाला bank है, जिसका मक़सद बैंकिंग से दूर रहे लोगों को बचत की सुविधा और छोटे कारोबार, छोटे और सीमांत किसानों व छोटे उद्योगों को क़र्ज़ देना है। RBI के कई निर्देश 'commercial banks' के लिए अलग और Small Finance Banks के लिए अलग जारी होते हैं।",
+      "facts": [
+        {
+          "k": "नाम में",
+          "v": "\"Small Finance Bank\"",
+          "s": "दूसरे banks से अलग पहचान के लिए ज़रूरी"
+        },
+        {
+          "k": "दर्जा",
+          "v": "Scheduled bank",
+          "s": "काम शुरू करते ही"
+        },
+        {
+          "k": "मुख्य काम",
+          "v": "जमा और क़र्ज़",
+          "s": "बैंकिंग से दूर रहे वर्गों के लिए"
+        },
+        {
+          "k": "RBI के निर्देश",
+          "v": "अलग set",
+          "s": "commercial banks वाले निर्देशों में SFB शामिल नहीं"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Public limited company",
+            "s": "Companies Act, 2013"
+          },
+          {
+            "t": "RBI licence",
+            "s": "Banking Regulation Act की धारा 22"
+          },
+          {
+            "t": "Small Finance Bank",
+            "s": "scheduled bank का दर्जा"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "आवेदन",
+            "s": "'on tap' licensing"
+          },
+          {
+            "b": "काम शुरू",
+            "s": "नाम में 'Small Finance Bank'"
+          }
+        ],
+        "note": "RBI ने 27 नवंबर 2014 को Small Finance Banks के licensing दिशानिर्देश जारी किए थे, और 5 दिसंबर 2019 को 'on tap' licensing के दिशानिर्देश, यानी आवेदन कभी भी किया जा सकता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Small Finance Bank असली bank नहीं, NBFC जैसा कुछ है।\"",
+          "f": "नहीं। RBI के दिशानिर्देशों के मुताबिक Small Finance Bank को Banking Regulation Act, 1949 की धारा 22 के तहत licence मिलता है, और काम शुरू करते ही उसे scheduled bank का दर्जा दिया जाता है।[^1]"
+        },
+        {
+          "m": "\"Commercial banks के लिए RBI का हर नियम Small Finance Bank पर भी वैसे ही लागू है।\"",
+          "f": "ज़रूरी नहीं। RBI के कुछ 2025 वाले निर्देशों, जैसे Digital Banking Channels Authorisation Directions, में 'Commercial Banks' की परिभाषा से Small Finance Banks, Payments Banks और Local Area Banks बाहर रखे गए हैं, और Small Finance Banks के लिए अलग Directions जारी हुए हैं।[^2][^3]"
+        },
+        {
+          "m": "\"किसी भी नाम से Small Finance Bank चल सकता है।\"",
+          "f": "नहीं। दिशानिर्देशों के मुताबिक दूसरे banks से अलग पहचान के लिए उसे अपने नाम में 'Small Finance Bank' शब्द इस्तेमाल करने होते हैं।[^1]"
+        },
+        {
+          "m": "\"Small Finance Bank सिर्फ़ क़र्ज़ देता है।\"",
+          "f": "नहीं। इसका मुख्य काम जमा लेना और क़र्ज़ देना, दोनों है। शुरू के तीन साल RBI की पहले मंज़ूरी से, यह mutual fund, बीमा और pension products भी बेच सकता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Small Finance Bank क्या है?",
+          "a": "RBI के licence से चलने वाला bank, जिसका मक़सद financial inclusion है: बैंकिंग से दूर रहे लोगों को बचत की सुविधा, और छोटे कारोबार, छोटे और सीमांत किसानों, सूक्ष्म और छोटे उद्योगों और असंगठित क्षेत्र को क़र्ज़।[^1]"
+        },
+        {
+          "q": "क्या Small Finance Bank पर RBI का नियंत्रण है?",
+          "a": "हाँ। RBI के दिशानिर्देशों के मुताबिक इसे Banking Regulation Act, 1949 की धारा 22 के तहत licence मिलता है, और यह Banking Regulation Act, RBI Act, Payment and Settlement Systems Act, DICGC Act जैसे क़ानूनों और RBI के निर्देशों के अधीन होता है।[^1]"
+        },
+        {
+          "q": "Small Finance Bank क्या-क्या काम कर सकता है?",
+          "a": "मुख्य रूप से जमा लेना और क़र्ज़ देना। यह mutual fund units, बीमा और pension products जैसे बिना जोखिम वाले वित्तीय products बेच सकता है; काम शुरू होने के बाद पहले तीन साल इसके लिए RBI की पहले मंज़ूरी चाहिए। यह subsidiary नहीं बना सकता।[^1]"
+        },
+        {
+          "q": "इसे कौन शुरू कर सकता है?",
+          "a": "2019 के दिशानिर्देशों के मुताबिक banking और finance में कम से कम 10 साल के वरिष्ठ अनुभव वाले resident भारतीय, और कम से कम 5 साल के सफल record वाली निजी कंपनियाँ और societies। मौजूदा NBFC, Micro Finance Institution और Local Area Bank भी बदल सकते हैं, और 5 साल पूरे कर चुके Payments Bank भी।[^1]"
+        },
+        {
+          "q": "Small Finance Bank के लिए कितनी पूँजी चाहिए?",
+          "a": "2019 के दिशानिर्देशों में न्यूनतम paid-up voting equity capital ₹200 crore रखी गई थी; Urban Co-operative Bank या NBFC / MFI / LAB / Payments Bank से बदलने वालों के लिए अलग प्रावधान हैं।[^1]"
+        },
+        {
+          "q": "क्या Small Finance Bank पूरे देश में काम कर सकता है?",
+          "a": "दिशानिर्देशों के मुताबिक इसके काम के इलाक़े पर कोई रोक नहीं है, पर इसके कम से कम 25% banking outlets बिना bank वाले ग्रामीण केंद्रों में होने चाहिए।[^1]"
+        },
+        {
+          "q": "मेरी पढ़ी हुई RBI की बात Small Finance Bank पर लागू होगी या नहीं, कैसे जानूँ?",
+          "a": "देखिए कि वह निर्देश किस पर लागू है। जैसे RBI के Digital Banking Channels Authorisation Directions, 2025 'Commercial Banks' पर लागू हैं, और उनकी परिभाषा में Small Finance Banks, Payments Banks और Local Area Banks शामिल नहीं हैं। Small Finance Banks के लिए RBI अलग Directions जारी करता है, जैसे Small Finance Banks – Know Your Customer Directions, 2025।[^2][^3]"
+        },
+        {
+          "q": "क्या Small Finance Bank में भी BSBD खाता मिलता है?",
+          "a": "हाँ। RBI के Small Finance Banks वाले Responsible Business Conduct Directions में BSBD खाते के नियम हैं; RBI ने 4 दिसंबर 2025 को इनकी समीक्षा करके संशोधन किया, ताकि सस्ती banking सुविधा और बेहतर ग्राहक सेवा मिले।[^3]"
+        },
+        {
+          "q": "क्या इसके shares बाज़ार में listed होते हैं?",
+          "a": "2019 के दिशानिर्देशों के मुताबिक जब Small Finance Bank की net worth पहली बार ₹500 crore तक पहुँचे, उसके तीन साल के अंदर listing ज़रूरी है।[^1]"
+        },
+        {
+          "q": "Payments Bank और Small Finance Bank एक ही हैं?",
+          "a": "नहीं। RBI के निर्देशों में दोनों अलग-अलग गिने गए हैं, और 2019 के दिशानिर्देशों के मुताबिक 5 साल पूरे कर चुका Payments Bank शर्तें पूरी करके Small Finance Bank में बदल सकता है।[^1][^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "BSBD"
+        },
+        {
+          "t": "DICGC"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "FD"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Guidelines for 'on tap' Licensing of Small Finance Banks in the Private Sector, 5 दिसंबर 2019",
+          "url": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/SFB05122019_FL3EC4152CCF764BCBA2072CADC84906F7.PDF",
+          "issued": "2019-12-05",
+          "used": [
+            {
+              "ref": "I. Introduction",
+              "c": "27 नवंबर 2014 के दिशानिर्देश; 'on tap' licensing"
+            },
+            {
+              "ref": "पैरा 1, 2",
+              "c": "public limited company; BR Act धारा 22 का licence; लागू क़ानून; scheduled bank; मक़सद"
+            },
+            {
+              "ref": "पैरा 3",
+              "c": "कौन शुरू कर सकता है; NBFC, MFI, LAB, Payments Bank का बदलना; subsidiary नहीं"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "जमा और क़र्ज़; MF, बीमा, pension; 25% outlets ग्रामीण; इलाक़े पर रोक नहीं; नाम में 'Small Finance Bank'"
+            },
+            {
+              "ref": "पैरा 5, 6",
+              "c": "₹200 crore पूँजी; ₹500 crore net worth पर listing"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Digital Banking Channels Authorisation) Directions, 2025 (RBI/DOR/2025-26/380)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13163",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "'Commercial Banks' की परिभाषा से Small Finance Banks, Payment Banks और Local Area Banks बाहर"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Small Finance Banks के लिए Directions: Know Your Customer Amendment Directions, 2025 (RBI/2025-26/164, 29 दिसंबर 2025) और Responsible Business Conduct Amendment Directions, 2025 (RBI/2025-26/104, 4 दिसंबर 2025)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13240",
+          "issued": "2025-12-29",
+          "used": [
+            {
+              "ref": "KYC Amendment",
+              "c": "Small Finance Banks – Know Your Customer Directions, 2025 (28 नवंबर 2025) का ज़िक्र"
+            },
+            {
+              "ref": "RBC Amendment (id=13174)",
+              "c": "BSBD खाते के नियमों की समीक्षा"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSmall Finance Bank (SFB) RBI के licence से चलने वाला bank है। RBI के दिशानिर्देशों के मुताबिक इसका मक़सद financial inclusion है: बैंकिंग से दूर रहे लोगों को बचत की सुविधा, और छोटे कारोबार, छोटे और सीमांत किसानों, सूक्ष्म और छोटे उद्योगों और असंगठित क्षेत्र को क़र्ज़।[^1]\n\n- **Licence:** Banking Regulation Act, 1949 की धारा 22 के तहत; company, Companies Act, 2013 में public limited company के रूप में registered।[^1]\n- **दर्जा:** काम शुरू करते ही scheduled bank का दर्जा।[^1]\n- **नाम:** दूसरे banks से अलग पहचान के लिए नाम में 'Small Finance Bank' शब्द।[^1]\n\n## Licence कैसे | Licence\n\n::flow\n\n- **कौन:** banking और finance में कम से कम 10 साल के वरिष्ठ अनुभव वाले resident भारतीय, या कम से कम 5 साल के सफल record वाली निजी कंपनियाँ और societies।[^1]\n- **बदलाव:** NBFC, Micro Finance Institution, Local Area Bank, और 5 साल पूरे कर चुका Payments Bank, शर्तें पूरी करके Small Finance Bank बन सकते हैं।[^1]\n- **पूँजी:** 2019 के दिशानिर्देशों में न्यूनतम ₹200 crore paid-up voting equity capital।[^1]\n\n## क्या करता है | काम\n\n- **मुख्य काम:** जमा लेना और क़र्ज़ देना।[^1]\n- **दूसरे products:** mutual fund, बीमा और pension products बेचना; पहले तीन साल RBI की पहले मंज़ूरी से।[^1]\n- **ग्रामीण पहुँच:** कम से कम 25% banking outlets बिना bank वाले ग्रामीण केंद्रों में।[^1]\n\n## RBI के अलग निर्देश | अलग निर्देश\n\n- **Commercial banks वाले निर्देश:** RBI के कुछ 2025 वाले निर्देशों, जैसे Digital Banking Channels Authorisation Directions, में 'Commercial Banks' की परिभाषा से Small Finance Banks, Payments Banks और Local Area Banks बाहर हैं।[^2]\n- **SFB के अपने निर्देश:** Small Finance Banks के लिए अलग Directions हैं, जैसे Know Your Customer Directions, 2025 (28 नवंबर 2025), और Responsible Business Conduct Directions, जिनमें 4 दिसंबर 2025 को BSBD के नियम बदले गए।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Bank के नाम में 'Small Finance Bank' लिखा हो, तो RBI का कोई नियम पढ़ते समय देखिए कि वह 'Small Finance Banks' पर लागू है या सिर्फ़ 'Commercial Banks' पर।[^2][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
