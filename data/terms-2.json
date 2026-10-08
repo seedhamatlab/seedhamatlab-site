@@ -676,6 +676,182 @@
         }
       ],
       "body": "## मतलब\n\nIndian Succession Act की धारा 2(bb) के मुताबिक District Judge प्रधान सिविल अदालत (Principal Civil Court of original jurisdiction) का जज है।[^2] संविधान के अनुच्छेद 233 के मुताबिक राज्य में district judges की नियुक्ति, posting और promotion राज्यपाल, High Court से सलाह करके करते हैं।[^1]\n\n- **कौन शामिल:** संविधान के इस हिस्से में 'district judge' में city civil court के जज, additional / joint / assistant district judge, sessions judge वग़ैरह भी आते हैं।[^1]\n- **नियंत्रण:** ज़िला अदालतों और उनके अधीन अदालतों पर High Court का नियंत्रण।[^1]\n\n## विरासत के मामलों में | विरासत\n\n::flow\n\n- **Probate / letters of administration:** अपने ज़िले के सभी मामलों में देने और रद्द करने का अधिकार।[^2]\n- **Succession certificate:** अर्ज़ी District Judge को।[^2]\n- **Appeal:** District Judge के आदेशों के ख़िलाफ़ High Court में।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Probate, letters of administration या succession certificate की ज़रूरत हो, तो जान लीजिए कि Indian Succession Act के तहत यह अर्ज़ी आम तौर पर District Judge के पास जाती है।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "cert-in",
+      "term": "CERT-In",
+      "aliases": [
+        "Indian Computer Emergency Response Team"
+      ],
+      "full": "इंडियन कंप्यूटर इमरजेंसी रिस्पॉन्स टीम",
+      "fullEn": "Indian Computer Emergency Response Team",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। India Code पर Information Technology Act, 2000 (\"As on the 27th June, 2025\") की धारा 70B, और CERT-In की website के FAQ, Contact Us और Incident Reporting पन्नों से जाँचा।"
+        }
+      ],
+      "one": "CERT-In यानी Indian Computer Emergency Response Team, केंद्र सरकार की वह agency है जिसे Information Technology Act की धारा 70B के तहत cyber security के क्षेत्र में national agency बनाया गया है। यह Ministry of Electronics and Information Technology (MeitY) के तहत चलती है, cyber incidents की जानकारी जुटाती है, alert और advisory जारी करती है, और computer security incidents की report लेती है।",
+      "facts": [
+        {
+          "k": "क़ानूनी आधार",
+          "v": "IT Act, धारा 70B",
+          "s": "Information Technology Act, 2000"
+        },
+        {
+          "k": "किसके तहत",
+          "v": "MeitY",
+          "s": "CERT-In FAQ"
+        },
+        {
+          "k": "Incident report",
+          "v": "Email, फ़ोन, fax",
+          "s": "CERT-In Contact Us"
+        },
+        {
+          "k": "Toll-free",
+          "v": "1800-11-4949",
+          "s": "CERT-In Contact Us"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Security incident",
+            "s": "जैसे बिना इजाज़त access की कोशिश"
+          },
+          {
+            "t": "CERT-In को report",
+            "s": "website form, email, फ़ोन या fax"
+          },
+          {
+            "t": "तकनीकी मदद",
+            "s": "incident सुलझाने की सलाह"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Report",
+            "s": "CERT-In FAQ"
+          },
+          {
+            "b": "सलाह और सहायता",
+            "s": "CERT-In FAQ"
+          }
+        ],
+        "note": "CERT-In के FAQ के मुताबिक सभी users और system administrators computer security incidents और vulnerabilities की report CERT-In को कर सकते हैं, और report करने पर incident सुलझाने में तकनीकी मदद मिलती है।"
+      },
+      "myths": [
+        {
+          "m": "\"CERT-In कोई प्राइवेट संस्था है।\"",
+          "f": "नहीं। IT Act की धारा 70B(1) के मुताबिक केंद्र सरकार Official Gazette में notification से सरकार की एक agency को Indian Computer Emergency Response Team के रूप में नियुक्त करती है।[^1] CERT-In के FAQ के मुताबिक यह Ministry of Electronics and Information Technology के तहत चलती है।[^2]"
+        },
+        {
+          "m": "\"CERT-In सिर्फ़ सलाह देता है, उसकी बात मानना ज़रूरी नहीं।\"",
+          "f": "हमेशा नहीं। धारा 70B(6) के मुताबिक CERT-In service providers, intermediaries, data centres, body corporate और किसी भी व्यक्ति से जानकारी माँग सकता है और direction दे सकता है; धारा 70B(7) के मुताबिक जानकारी न देने या direction न मानने पर एक साल तक की क़ैद, एक करोड़ रुपये तक का जुर्माना, या दोनों हो सकते हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CERT-In का पूरा नाम क्या है?",
+          "a": "CERT-In के FAQ के मुताबिक CERT-In का पूरा नाम Indian Computer Emergency Response Team है।[^2]"
+        },
+        {
+          "q": "CERT-In को कौन चलाता है?",
+          "a": "CERT-In के FAQ के मुताबिक इसे Ministry of Electronics and Information Technology, भारत सरकार ने बनाया है और यह उसी के तहत चलती है।[^2]"
+        },
+        {
+          "q": "CERT-In क्या-क्या काम करता है?",
+          "a": "IT Act की धारा 70B(4) के मुताबिक cyber incidents की जानकारी जुटाना, उसका विश्लेषण और प्रसार; cyber security incidents का पूर्वानुमान और alert; ऐसे incidents से निपटने के आपात उपाय; incident response में तालमेल; और information security से जुड़ी guidelines, advisories, vulnerability notes और white papers जारी करना।[^1]"
+        },
+        {
+          "q": "CERT-In को क्या report किया जा सकता है?",
+          "a": "CERT-In के FAQ के मुताबिक computer security incidents और vulnerabilities; जैसे system या data तक बिना इजाज़त पहुँचने की कोशिश (सफल हो या नाकाम), सेवा में रुकावट (denial of service), system का बिना इजाज़त इस्तेमाल, मालिक की जानकारी के बिना hardware या software में बदलाव, और email से जुड़ी security समस्याएँ जैसे spamming।[^2]"
+        },
+        {
+          "q": "CERT-In को incident कैसे report करें?",
+          "a": "CERT-In की website पर incident reporting form से, या email incident@cert-in.org.in पर, या toll-free फ़ोन +91-1800-11-4949 पर, या toll-free fax +91-1800-11-6969 पर।[^3]"
+        },
+        {
+          "q": "CERT-In को दी गई जानकारी गोपनीय रहती है?",
+          "a": "CERT-In के FAQ के मुताबिक आपकी site से जुड़ी जानकारी आपकी इजाज़त के बिना जारी नहीं की जाती; CERT-In सिर्फ़ मिली-जुली और पहचान हटाई हुई जानकारी बाँटता है।[^2]"
+        },
+        {
+          "q": "CERT-In की advisory क्या होती है?",
+          "a": "CERT-In के FAQ के मुताबिक advisory वह जानकारी है जो CERT-In किसी गंभीर vulnerability पर देता है, जिसका असर बड़ी संख्या में systems या networks पर पड़ रहा हो या पड़ सकता हो।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Screen Sharing"
+        },
+        {
+          "t": "Fake Customer Care"
+        },
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "1930"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Information Technology Act, 2000 (Act No. 21 of 2000), पाठ \"As on the 27th June, 2025\"",
+          "url": "https://indiacode.gov.in/act/d41fe391-b9c0-40b1-afdc-ad034c7ac62f",
+          "used": [
+            {
+              "ref": "धारा 70B(1), (4)",
+              "c": "सरकारी agency की नियुक्ति; cyber security में national agency के काम"
+            },
+            {
+              "ref": "धारा 70B(6), (7)",
+              "c": "जानकारी माँगने और direction देने का अधिकार; न मानने पर सज़ा"
+            }
+          ]
+        },
+        {
+          "label": "CERT-In — Frequently Asked Questions",
+          "url": "https://www.cert-in.org.in/faq.jsp",
+          "used": [
+            {
+              "ref": "Introduction to the CERT-In",
+              "c": "पूरा नाम; MeitY के तहत; कौन और क्या report कर सकता है"
+            },
+            {
+              "ref": "Important Terms; Incident Handling & Response",
+              "c": "advisory की परिभाषा; जानकारी की गोपनीयता; report करने पर तकनीकी मदद"
+            }
+          ]
+        },
+        {
+          "label": "CERT-In — Contact Us",
+          "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=CONTACTUS",
+          "used": [
+            {
+              "ref": "Incident Response Help Desk",
+              "c": "incident@cert-in.org.in; toll-free फ़ोन +91-1800-11-4949; toll-free fax +91-1800-11-6969"
+            }
+          ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal (गृह मंत्रालय)",
+          "url": "https://cybercrime.gov.in/",
+          "used": [
+            {
+              "ref": "Home page",
+              "c": "Financial Fraud समेत cyber crime की शिकायत दर्ज करने का विकल्प"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCERT-In का पूरा नाम Indian Computer Emergency Response Team है।[^2] IT Act की धारा 70B के तहत केंद्र सरकार ने इसे cyber security के क्षेत्र में national agency बनाया है।[^1] CERT-In के FAQ के मुताबिक यह Ministry of Electronics and Information Technology के तहत चलती है।[^2]\n\n- **काम:** cyber incidents की जानकारी जुटाना, alert देना, आपात उपाय, तालमेल, और guidelines व advisories जारी करना।[^1]\n- **अधिकार:** service providers, intermediaries वग़ैरह से जानकारी माँगना और direction देना।[^1]\n\n## Report कैसे होता है | Report\n\n::flow\n\n- **Email:** incident@cert-in.org.in[^3]\n- **Toll-free फ़ोन:** +91-1800-11-4949[^3]\n- **Toll-free fax:** +91-1800-11-6969[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- System या device पर security incident हो, जैसे बिना इजाज़त access की कोशिश, तो CERT-In को ऊपर दिए रास्तों से report किया जा सकता है।[^2][^3]\n- पैसे की ठगी (financial fraud) समेत cyber crime की शिकायत के लिए गृह मंत्रालय के National Cyber Crime Reporting Portal, cybercrime.gov.in पर अलग विकल्प है।[^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
