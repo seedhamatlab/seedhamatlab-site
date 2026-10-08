@@ -18229,6 +18229,199 @@
         }
       ],
       "body": "## मतलब\n\nLien का मतलब है किसी चीज़ या रक़म को तब तक रोककर रखने का हक़, जब तक कोई बकाया या शर्त पूरी न हो। Bank के मामले में यह दो अलग संदर्भों में सुनाई देता है।\n\n- **Bank का general lien:** Indian Contract Act की धारा 171 के मुताबिक bankers, किसी उलटे contract के न होने पर, अपने पास bail किए गए सामान को खाते के general balance की security के तौर पर रोक सकते हैं।[^1]\n- **Particular lien:** धारा 170 के मुताबिक जिसने bail किए सामान पर मेहनत या हुनर से कोई सेवा दी हो, वह मेहनताना मिलने तक वह सामान रोक सकता है।[^1]\n- **साइबर शिकायत वाला 'lien':** गृह मंत्रालय की release में ठगी की रक़म को 'marked as Lien' कहा गया है।[^3] SOP में इसे 'amount put on hold' कहा गया है।[^2]\n\n## साइबर शिकायत में hold | Hold\n\n::flow\n\n- **कितनी रक़म:** पैसा पाने वाला bank शिकायत में दर्ज रक़म तक hold लगाता है और उसे CFCFRMS पर update करता है।[^2]\n- **किसके कहने पर:** जाँच अधिकारी, पुलिस अधिकारी या court के निर्देश पर; पुलिस BNSS की धारा 168 और 94 के तहत bank को notice भेजती है।[^2]\n- **पूरा खाता कब:** खाते की बार-बार शिकायत हो, तो पुलिस के कानूनी निर्देश (BNSS की धारा 106) पर bank digital banking सेवाएँ बंद कर सकता है या खाता seize कर सकता है।[^2]\n- **कौन-सी पुलिस इकाई:** खाताधारक के पूछने पर bank उस पुलिस इकाई का पता और संपर्क बता सकता है; शिकायत करने वाले का ब्योरा नहीं।[^2]\n\n## Hold हटवाने की शिकायत | शिकायत\n\n- **कहाँ:** अपनी bank शाखा या bank की तय शाखा में।[^2]\n- **Bank का काम:** CDD और EDD करके, बात सही लगने पर, ज़्यादा से ज़्यादा 7 calendar दिन में शिकायत NCRP के Grievance Redressal Module पर भेजना।[^2]\n- **जाँच अधिकारी:** खाताधारक को notice देकर जाँच, हो सके तो video conference से; 15 calendar दिन में hold हटाने का निर्देश, या कारण दर्ज।[^2]\n- **Review:** फ़ैसले से संतुष्ट न हों, तो 15 calendar दिन में तय bank शाखा के ज़रिए District Grievance Officer के पास।[^2]\n- **Module कब से:** गृह मंत्रालय के मुताबिक Grievance Redressal Module अप्रैल 2026 से चालू है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> साइबर शिकायत में hold के ख़िलाफ़ आप अपनी bank शाखा में शिकायत दे सकते हैं; SOP के मुताबिक bank को 7 दिन में उसे NCRP पर भेजना होता है, और जाँच अधिकारी को 15 दिन में फ़ैसला करना होता है।[^2]\n\n- **ब्योरा जानना:** bank से पूछ सकते हैं कि किस पुलिस इकाई ने कार्रवाई का आदेश दिया।[^2]\n- **Video conference:** जाँच के लिए हो सके तो video conference; ख़ुद हाज़िर होने को तभी कहा जाए, जब टाला न जा सके और FIR या e-FIR दर्ज हो।[^2]\n\n## अभी क्या करें\n\n- खाते पर hold या lien दिखे, तो bank से पूछिए कि किस पुलिस इकाई के कहने पर लगा।[^2]\n- अपने पक्ष के काग़ज़ लेकर bank शाखा में hold के ख़िलाफ़ शिकायत दीजिए।[^2]\n- 7 दिन बाद bank से पूछिए कि शिकायत NCRP module पर गई या नहीं, और 15 दिन बाद फ़ैसले की जानकारी लीजिए।[^2]\n- फ़ैसले से संतुष्ट न हों, तो 15 दिन के अंदर review माँगिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "dot",
+      "term": "DoT (दूरसंचार विभाग)",
+      "aliases": [
+        "दूरसंचार विभाग",
+        "Department of Telecommunications"
+      ],
+      "full": "दूरसंचार विभाग · संचार मंत्रालय का telecom विभाग",
+      "fullEn": "Department of Telecommunications",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। दूरसंचार विभाग की website के About Us पन्ने (Functions of DoT, Allocation of Business Rules के मुताबिक 27-09-2024 तक) और PIB की 29 मार्च 2024 व 26 मई 2024 की release से जाँचा।"
+        }
+      ],
+      "one": "DoT यानी Department of Telecommunications (दूरसंचार विभाग), संचार मंत्रालय का वह विभाग जो telecom की policy, licensing और radio frequency के प्रबंधन का काम देखता है। Sanchar Saathi portal भी इसी का है। DoT के नाम से number बंद करने की धमकी वाले call ठगी हैं; DoT किसी को ऐसा call करने के लिए अधिकृत नहीं करता।",
+      "facts": [
+        {
+          "k": "किसका विभाग",
+          "v": "संचार मंत्रालय",
+          "s": "Ministry of Communications, भारत सरकार"
+        },
+        {
+          "k": "मुख्य काम",
+          "v": "Policy और licence",
+          "s": "telecom सेवाओं की policy, licensing और radio frequency का प्रबंधन"
+        },
+        {
+          "k": "Number बंद करने की धमकी वाला call",
+          "v": "ठगी का संकेत",
+          "s": "DoT किसी को अपनी ओर से ऐसा call करने के लिए अधिकृत नहीं करता"
+        },
+        {
+          "k": "ऐसे call की report",
+          "v": "Chakshu",
+          "s": "Sanchar Saathi portal पर",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "DoT के नाम से call",
+            "s": "number बंद होने की धमकी"
+          },
+          {
+            "t": "Chakshu पर report",
+            "s": "Sanchar Saathi portal"
+          },
+          {
+            "t": "1930 पर शिकायत",
+            "s": "या cybercrime.gov.in पर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "कोई जानकारी न दें",
+            "s": "फिर report"
+          },
+          {
+            "b": "पैसा गया हो",
+            "s": "तुरंत"
+          }
+        ],
+        "note": "DoT के मुताबिक ऐसे call के ज़रिए ठग निजी जानकारी चुराकर साइबर अपराध या पैसों की धोखाधड़ी करते हैं। DoT ने किसी को अपनी ओर से ऐसा call करने के लिए अधिकृत नहीं किया है।"
+      },
+      "myths": [
+        {
+          "m": "\"DoT का अफ़सर call करके बताता है कि आपके सारे number बंद होने वाले हैं।\"",
+          "f": "नहीं। DoT ने 29 मार्च 2024 की advisory में बताया कि लोगों को DoT के नाम से ऐसे call आ रहे हैं, जिनमें सारे number बंद करने या number के ग़ैर-क़ानूनी इस्तेमाल की धमकी दी जाती है। DoT किसी को अपनी ओर से ऐसा call करने के लिए अधिकृत नहीं करता।[^2]"
+        },
+        {
+          "m": "\"Screen पर भारत का mobile number दिखा, तो call भारत से ही है।\"",
+          "f": "ज़रूरी नहीं। सरकार के मुताबिक ठग विदेश से calling line identity (CLI) से छेड़छाड़ करके ऐसे call करते हैं, जिन पर भारत का mobile number दिखता है। DoT और telecom कंपनियों ने इन्हें रोकने का system बनाया है, और 26 मई 2024 को इन्हें block करने के निर्देश जारी हुए।[^3]"
+        },
+        {
+          "m": "\"+92 जैसे विदेशी number से WhatsApp call पर सरकारी अफ़सर बात कर रहा है।\"",
+          "f": "सावधान रहिए। DoT ने विदेशी number (जैसे +92-xxxxxxxxxx) से आने वाले उन WhatsApp call के बारे में भी advisory जारी की है, जिनमें सरकारी अफ़सर बनकर लोगों को ठगा जाता है।[^2]"
+        },
+        {
+          "m": "\"DoT और TRAI एक ही चीज़ हैं।\"",
+          "f": "नहीं। Allocation of Business Rules के मुताबिक telecom की policy और licensing DoT के पास है, और TRAI व TDSAT उसके विषयों की सूची में अलग-अलग दर्ज हैं। TRAI Act, 1997 का प्रशासन भी DoT के विषयों में है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "DoT क्या है?",
+          "a": "DoT यानी Department of Telecommunications (दूरसंचार विभाग)। यह भारत सरकार के संचार मंत्रालय का विभाग है।[^1]"
+        },
+        {
+          "q": "DoT क्या-क्या काम करता है?",
+          "a": "DoT की website के मुताबिक यह telecom सेवाओं के तेज़ विकास के लिए policy बनाता है, unified access service, internet और VSAT जैसी telecom सेवाओं के licence देता है, अंतरराष्ट्रीय संस्थाओं के साथ तालमेल में radio frequency का प्रबंधन करता है, और wireless transmission की निगरानी करता है। Allocation of Business Rules में telecom network की सुरक्षा के मामले भी इसके विषयों में हैं।[^1]"
+        },
+        {
+          "q": "क्या DoT number बंद करने के लिए call करता है?",
+          "a": "DoT ने कहा है कि वह किसी को अपनी ओर से ऐसा call करने के लिए अधिकृत नहीं करता। DoT के नाम से number बंद करने या number के ग़लत इस्तेमाल की धमकी वाले call ठगों के होते हैं, जो निजी जानकारी चुराकर साइबर अपराध या पैसों की धोखाधड़ी करते हैं।[^2]"
+        },
+        {
+          "q": "ऐसा call आए तो क्या करें?",
+          "a": "कोई जानकारी साझा मत कीजिए। DoT की सलाह है कि ऐसे संदिग्ध संदेश या call की report Sanchar Saathi portal (www.sancharsaathi.gov.in) की 'Chakshu' सुविधा पर की जाए।[^2]"
+        },
+        {
+          "q": "अपने नाम के mobile connection कैसे जाँचें?",
+          "a": "Sanchar Saathi portal की 'Know Your Mobile Connections' सुविधा पर। जो connection आपने नहीं लिया या जिसकी ज़रूरत नहीं है, उसकी report वहीं की जा सकती है।[^2]"
+        },
+        {
+          "q": "ठगी में पैसा चला गया हो तो?",
+          "a": "DoT की सलाह है कि साइबर अपराध या पैसों की धोखाधड़ी हो चुकी हो, तो helpline 1930 पर या www.cybercrime.gov.in पर शिकायत करें।[^2]"
+        },
+        {
+          "q": "Call पर भारत का number दिखे, पर call विदेश से हो — ऐसा कैसे?",
+          "a": "इसे international spoofed call कहते हैं: ठग calling line identity (CLI) से छेड़छाड़ करते हैं। सरकार के मुताबिक ऐसे call fake digital arrest, courier में drugs और DoT/TRAI अफ़सर बनकर number बंद करने जैसी ठगी में इस्तेमाल हुए हैं।[^3]"
+        },
+        {
+          "q": "क्या ऐसे spoofed call रोके जाते हैं?",
+          "a": "हाँ। 26 मई 2024 को telecom कंपनियों को भारत का mobile number दिखाने वाले incoming international spoofed call block करने के निर्देश दिए गए; भारत का landline number दिखाने वाले ऐसे call पहले से block किए जा रहे थे। फिर भी कुछ ठग दूसरे तरीक़ों से पहुँच सकते हैं, इसलिए ऐसे call की report Chakshu पर कीजिए।[^3]"
+        },
+        {
+          "q": "DoT और TRAI में क्या फ़र्क है?",
+          "a": "Allocation of Business Rules के मुताबिक telecom की policy और licensing DoT के पास है। TRAI और TDSAT उसके विषयों की सूची में अलग से दर्ज हैं, और TRAI Act, 1997 का प्रशासन भी DoT के विषयों में है।[^1]"
+        },
+        {
+          "q": "BSNL और MTNL का DoT से क्या संबंध है?",
+          "a": "Allocation of Business Rules में Bharat Sanchar Nigam Limited (BSNL), Mahanagar Telephone Nigam Limited (MTNL) और Centre for Development of Telematics (C-DOT) से जुड़े मामले DoT के विषयों में दर्ज हैं।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Sanchar Saathi"
+        },
+        {
+          "t": "Chakshu"
+        },
+        {
+          "t": "TRAI"
+        },
+        {
+          "t": "Impersonation"
+        },
+        {
+          "t": "SIM Swap"
+        },
+        {
+          "t": "1930"
+        }
+      ],
+      "sources": [
+        {
+          "label": "दूरसंचार विभाग (DoT) — About Us, साथ में 'Functions of DoT' (Government of India (Allocation of Business) Rules, 1961, 27-09-2024 तक)",
+          "url": "https://dot.gov.in/ministry",
+          "used": [
+            {
+              "ref": "About Us",
+              "c": "telecom policy; UAS, internet, VSAT के licence; radio frequency का प्रबंधन; wireless निगरानी"
+            },
+            {
+              "ref": "Functions of DoT, मद 1, 1A",
+              "c": "policy, licensing, coordination; telecom network की सुरक्षा"
+            },
+            {
+              "ref": "Functions of DoT, मद 8, 9, 10(c), 13, 14, 16",
+              "c": "TRAI; TDSAT; TRAI Act, 1997 का प्रशासन; BSNL; MTNL; C-DOT"
+            }
+          ]
+        },
+        {
+          "label": "संचार मंत्रालय (PIB) — Government issues advisory against calls impersonating DoT, threatening people to disconnect mobile numbers, 29 मार्च 2024 (Release ID 2016613)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2016613",
+          "issued": "2024-03-29",
+          "used": [
+            {
+              "ref": "पूरी release",
+              "c": "DoT के नाम से धमकी वाले call; +92 वाले WhatsApp call; DoT ऐसा call अधिकृत नहीं करता; Chakshu; Know Your Mobile Connections; 1930"
+            }
+          ]
+        },
+        {
+          "label": "संचार मंत्रालय (PIB) — Government issues directions for blocking of incoming international spoofed calls displaying Indian mobile numbers, 26 मई 2024 (Release ID 2021676)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2021676",
+          "issued": "2024-05-26",
+          "used": [
+            {
+              "ref": "पूरी release",
+              "c": "CLI से छेड़छाड़; किन ठगी में इस्तेमाल; block करने के निर्देश; landline वाले पहले से block; Chakshu"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nDoT यानी Department of Telecommunications (दूरसंचार विभाग), भारत सरकार के संचार मंत्रालय का विभाग। यह telecom सेवाओं के लिए policy बनाता है और उनके licence देता है।[^1]\n\nआम लोगों के लिए DoT का नाम दो जगह सुनाई देता है: Sanchar Saathi portal, जहाँ अपने नाम के mobile connection जाँचे जाते हैं और संदिग्ध call की report होती है; और ठगों के call, जो DoT का नाम लेकर number बंद करने की धमकी देते हैं।[^2]\n\n## DoT क्या करता है | क्या करता है\n\n- **Policy:** telecom सेवाओं के तेज़ विकास के लिए policy बनाना।[^1]\n- **Licence:** unified access service, internet और VSAT जैसी telecom सेवाओं के licence देना।[^1]\n- **Radio frequency:** अंतरराष्ट्रीय संस्थाओं के साथ तालमेल में frequency का प्रबंधन, और wireless transmission की निगरानी।[^1]\n- **Network की सुरक्षा:** Allocation of Business Rules में telecom network की सुरक्षा के मामले DoT के विषयों में हैं।[^1]\n- **जुड़ी संस्थाएँ:** TRAI, TDSAT, BSNL, MTNL और C-DOT से जुड़े मामले भी DoT के विषयों की सूची में हैं।[^1]\n\n## DoT के नाम से ठगी | ठगी\n\n::flow\n\n- **कैसे आती है:** call करने वाला ख़ुद को DoT का बताता है और कहता है कि आपके सारे mobile number बंद होने वाले हैं, या आपके number का ग़ैर-क़ानूनी काम में इस्तेमाल हो रहा है।[^2]\n- **विदेशी WhatsApp call:** +92-xxxxxxxxxx जैसे विदेशी number से WhatsApp call, जिनमें सरकारी अफ़सर बनकर ठगा जाता है।[^2]\n- **भारत का number, विदेश का call:** ठग calling line identity (CLI) से छेड़छाड़ करके विदेश से ऐसे call करते हैं, जिन पर भारत का mobile number दिखता है। 26 मई 2024 को इन्हें block करने के निर्देश जारी हुए।[^3]\n- **DoT का कहना:** वह किसी को अपनी ओर से ऐसा call करने के लिए अधिकृत नहीं करता।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- DoT के नाम से धमकी वाला call आए, तो कोई जानकारी मत दीजिए।[^2]\n- उसकी report Sanchar Saathi portal (www.sancharsaathi.gov.in) की Chakshu सुविधा पर कीजिए।[^2]\n- उसी portal की 'Know Your Mobile Connections' सुविधा पर अपने नाम के connection जाँचिए, और जो आपका नहीं है उसकी report कीजिए।[^2]\n- पैसा चला गया हो, तो 1930 पर call कीजिए या www.cybercrime.gov.in पर शिकायत कीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
