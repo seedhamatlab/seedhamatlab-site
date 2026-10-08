@@ -85,10 +85,49 @@ function fmtDateStack(iso) {
   return `${p[2]} ${MONTHS[parseInt(p[1], 10) - 1] || ""}<br>${p[0]}`;
 }
 
+// RBI ke "Scripts" panne chhoti screen (phone) par apne-aap RBI home par chale jaate hain;
+// isliye srot link usi dastavez ki rbidocs PDF par bhejte hain (har jodi 8 Oct 2026 ko jaanchi).
+const RBI_PDF = {
+  "/scripts/BS_ViewMasDirections.aspx?id=13140": "/rdocs/notification/PDFs/170MD.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=12926": "/rdocs/notification/PDFs/378MD65D46FCCF0C34491B34505C6E1DACFFE.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=13154": "/rdocs/notification/PDFs/156MD.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=13163": "/rdocs/notification/PDFs/380MD.PDF",
+  "/scripts/BS_PressReleaseDisplay.aspx?prid=53185": "/rdocs/PressRelease/PDFs/PR163037E920A47573411FBC7D79B058FED34A.PDF",
+  "/scripts/BS_PressReleaseDisplay.aspx?prid=49986": "/rdocs/PressRelease/PDFs/PR253483A06AE15DFA4D76981525892EDB1FF6.PDF",
+  "/scripts/BS_PressReleaseDisplay.aspx?prid=63742": "/rdocs/PressRelease/PDFs/PR1264BEFCD8B9DE724239B1746EC9020C02AF.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=13157": "/rdocs/notification/PDFs/153MD.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=13155": "/rdocs/notification/PDFs/155MD.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=12955": "/rdocs/notification/PDFs/349MD04B1F5EC16D84779BC61D9CC40552401.PDF",
+  "/scripts/PublicationReportDetails.aspx?UrlPage=&ID=763": "/rdocs/PublicationReport/Pdfs/APR220314FS.pdf",
+  "/scripts/NotificationUser.aspx?Id=13728&Mode=0": "/rdocs/notification/PDFs/NT28307C186A1A5F84D47870911D72F069023.PDF",
+  "/scripts/NotificationUser.aspx?Id=12898&Mode=0": "/rdocs/notification/PDFs/NT79258FF36ECA8F4886B3B01F55D166C2B2.PDF",
+  "/scripts/NotificationUser.aspx?Id=12111&Mode=0": "/rdocs/notification/PDFs/ATMINTERCHANGEF1B27B06FE09452FA1D395BF67718CD6.PDF",
+  "/scripts/NotificationUser.aspx?Id=11987&Mode=0": "/rdocs/notification/PDFs/NT597FAB5678F14F46359E7B535EBDE0E412.PDF",
+  "/scripts/NotificationUser.aspx?Id=11693&Mode=0": "/rdocs/notification/PDFs/CIRCULAR677EC931A7A65E4D99AA957D8E85BC0A2A.PDF",
+  "/scripts/FAQView.aspx?Id=92": "/rdocs/faqs/PDFs/ALLNBFC23042025.PDF",
+  "/scripts/FAQView.aspx?Id=165": "/rdocs/faqs/PDFs/FAQONDEAFUNDSCHEME2014_05032024.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=13240": "/rdocs/notification/PDFs/NT1642396D657812C49B9B73A882CD07E1D65.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=13153": "/rdocs/notification/PDFs/157MD.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=13087": "/rdocs/notification/PDFs/221MD.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=12156": "/rdocs/notification/PDFs/82MDPPIS2708202181CF0A6FCD1B47B88CAE8E92A228B160.PDF",
+  "/scripts/BS_ViewMasDirections.aspx?id=12032": "/rdocs/notification/PDFs/MD7493544C24B5FC47D0AB12798C61CDB56F.PDF",
+  "/scripts/BS_PressReleaseDisplay.aspx?prid=57244": "/rdocs/PressRelease/PDFs/PR1794CAUTIONSAGAINSTKYC4F52D6F832184E66AB2F7C9358FFA0A5.PDF",
+  "/scripts/BS_PressReleaseDisplay.aspx?prid=56498": "/rdocs/PressRelease/PDFs/PR1048B54C2EF8EC6B4294A343A3E513BB883A.PDF",
+  "/scripts/BS_PressReleaseDisplay.aspx?prid=56216": "/rdocs/PressRelease/PDFs/PR765UDGAM1C757D0CD3ED48B0806A4E181B2ABDB7.PDF",
+  "/scripts/BS_PressReleaseDisplay.aspx?prid=49330": "/rdocs/PressRelease/PDFs/PR18780D756E42C4CD4326AEBD8A3F6B9ACC7B.PDF",
+  "/scripts/BS_PressReleaseDisplay.aspx?prid=44392": "/rdocs/PressRelease/PDFs/PR34185CD1641DDF4C018E0414A93B3DC0F6.PDF",
+};
+function srcUrl(u) {
+  const m = /^https?:\/\/(?:www\.)?rbi\.org\.in(\/[sS]cripts\/.+)$/.exec(String(u || ""));
+  if (!m) return u;
+  const key = "/scripts/" + m[1].slice(9).replace(/&amp;/g, "&");
+  return RBI_PDF[key] ? "https://rbidocs.rbi.org.in" + RBI_PDF[key] : u;
+}
+
 function inline(s) {
   let out = esc(s);
   out = out.replace(/\[([^\]]+)\]\(((?:https?:\/\/|\/)[^\s)]+)\)/g,
-    (_match, label, href) => `<a href="${href}"${href.startsWith('/') ? '' : ' target="_blank" rel="noopener"'}>${label}</a>`);
+    (_match, label, href) => `<a href="${srcUrl(href)}"${href.startsWith('/') ? '' : ' target="_blank" rel="noopener"'}>${label}</a>`);
   out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
   // [^1] -> srot ka number; *...* -> italic (sirf jab shabd se sata ho, taaki *99# jaise code na bigdein)
   out = out.replace(/\[\^(\d+)\]/g, '<sup class="ref"><a href="#src-$1">[$1]</a></sup>');
@@ -917,7 +956,7 @@ function sourcesHTML(srcs) {
   return `<ol class="srclist">${srcs.map((s, i) => {
     const dates = [s.issued ? `जारी: ${fmtDateLine(s.issued)}` : "", s.effective ? `लागू: ${fmtDateLine(s.effective)}` : ""].filter(Boolean).join(" · ");
     const used = (s.used || []).map((u) => `<li><b>${esc(u.ref)}</b><span>${esc(u.c)}</span></li>`).join("");
-    return `<li id="src-${i + 1}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>${dates ? `<span class="srcmeta">${dates}</span>` : ""}${used ? `<span class="srcusedh">किस बात के लिए, दस्तावेज़ का कौन-सा हिस्सा</span><ul class="srcused">${used}</ul>` : ""}</li>`;
+    return `<li id="src-${i + 1}"><a href="${esc(srcUrl(s.url))}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>${dates ? `<span class="srcmeta">${dates}</span>` : ""}${used ? `<span class="srcusedh">किस बात के लिए, दस्तावेज़ का कौन-सा हिस्सा</span><ul class="srcused">${used}</ul>` : ""}</li>`;
   }).join("")}</ol>`;
 }
 
