@@ -508,6 +508,174 @@
         }
       ],
       "body": "## मतलब\n\nIndian Contract Act, 1872 (Act No. 9 of 1872) वह क़ानून है, जो बताता है कि कौन-सा समझौता क़ानूनी contract है, कौन contract कर सकता है, और indemnity, guarantee, bailment, pledge जैसे खास contracts कैसे चलते हैं।[^1]\n\n- **कहाँ लागू:** पूरे भारत में; 1 सितंबर 1872 से।[^1]\n\n## Contract कैसे बनता है | Contract\n\n::flow\n\n- **Void:** जो agreement क़ानून से लागू नहीं हो सकता।[^1]\n- **कौन contract कर सकता है:** बालिग़, sound mind, और किसी क़ानून से अयोग्य नहीं।[^1]\n\n## Bank के काम की धाराएँ | Bank\n\n- **Indemnity (धारा 124):** एक पक्ष दूसरे को नुक़सान से बचाने का वादा करता है।[^1]\n- **Guarantee (धारा 126):** तीसरे व्यक्ति के default पर उसकी देनदारी चुकाने का contract; guarantee देने वाला surety; मौखिक या लिखित।[^1]\n- **Bailment (धारा 148):** किसी मक़सद के लिए सामान सौंपना, बाद में लौटाने की शर्त पर।[^1]\n- **General lien (धारा 171):** bankers, उलटे contract के न होने पर, bail किए गए सामान को general balance of account की security के रूप में रोक सकते हैं।[^1]\n- **Pledge (धारा 172):** क़र्ज़ या वादे की security के तौर पर सामान का bailment; pawnor और pawnee।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- किसी loan के लिए guarantee देने से पहले याद रखिए कि धारा 126 के मुताबिक guarantee देने वाला surety, principal debtor के default पर उसकी देनदारी चुकाने का वादा करता है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "district-judge",
+      "term": "District Judge",
+      "aliases": [
+        "District Judges",
+        "ज़िला जज"
+      ],
+      "full": "डिस्ट्रिक्ट जज · ज़िला न्यायाधीश",
+      "fullEn": "District Judge",
+      "group": "बैंकिंग",
+      "created": "2026-10-08",
+      "verified": "2026-10-08",
+      "history": [
+        {
+          "d": "2026-10-08",
+          "t": "पन्ना बना। India Code पर भारत के संविधान (अनुच्छेद 233–236) और Indian Succession Act, 1925 (\"As on the 19th June, 2026\") के पाठ से जाँचा।"
+        }
+      ],
+      "one": "Indian Succession Act के मुताबिक District Judge प्रधान सिविल अदालत (Principal Civil Court of original jurisdiction) का जज है। वसीयत और विरासत के मामलों में probate, letters of administration और succession certificate देने का अधिकार Indian Succession Act में District Judge को दिया गया है, और उसके आदेश के ख़िलाफ़ High Court में appeal होती है।",
+      "facts": [
+        {
+          "k": "परिभाषा",
+          "v": "प्रधान सिविल अदालत का जज",
+          "s": "Indian Succession Act, धारा 2(bb)"
+        },
+        {
+          "k": "नियुक्ति",
+          "v": "राज्यपाल",
+          "s": "High Court से सलाह करके (अनु. 233)"
+        },
+        {
+          "k": "Probate / LoA",
+          "v": "अपने ज़िले में",
+          "s": "धारा 264(1)"
+        },
+        {
+          "k": "Appeal",
+          "v": "High Court में",
+          "s": "धारा 299, 384"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "अर्ज़ी",
+            "s": "probate, LoA या succession certificate"
+          },
+          {
+            "t": "District Judge",
+            "s": "जिसके ज़िले में मामला"
+          },
+          {
+            "t": "High Court",
+            "s": "आदेश से असहमति हो तो appeal"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "सुनवाई और आदेश",
+            "s": "धारा 264, 372"
+          },
+          {
+            "b": "Appeal",
+            "s": "धारा 299, 384"
+          }
+        ],
+        "note": "Indian Succession Act के मुताबिक अपने ज़िले के सभी मामलों में probate और letters of administration देने और रद्द करने का अधिकार District Judge को है, succession certificate की अर्ज़ी भी District Judge को दी जाती है, और इन आदेशों के ख़िलाफ़ High Court में appeal होती है। High Court के पास भी District Judge जैसी शक्तियाँ साथ-साथ हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Probate सिर्फ़ High Court से मिलता है।\"",
+          "f": "नहीं। Indian Succession Act की धारा 264(1) के मुताबिक District Judge को अपने ज़िले के सभी मामलों में probate और letters of administration देने और रद्द करने का अधिकार है; धारा 300(1) के मुताबिक High Court के पास भी ये शक्तियाँ साथ-साथ हैं।[^2]"
+        },
+        {
+          "m": "\"District Judge का आदेश आख़िरी होता है।\"",
+          "f": "नहीं। धारा 299 के मुताबिक इन शक्तियों के तहत District Judge के हर आदेश के ख़िलाफ़ High Court में appeal हो सकती है, और धारा 384 के मुताबिक succession certificate देने, मना करने या रद्द करने के आदेश के ख़िलाफ़ भी।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "District Judge कौन होता है?",
+          "a": "Indian Succession Act की धारा 2(bb) के मुताबिक District Judge का मतलब है प्रधान सिविल अदालत (Principal Civil Court of original jurisdiction) का जज।[^2]"
+        },
+        {
+          "q": "District Judge की नियुक्ति कौन करता है?",
+          "a": "संविधान के अनुच्छेद 233(1) के मुताबिक राज्य के राज्यपाल, उस राज्य पर अधिकार रखने वाले High Court से सलाह करके।[^1]"
+        },
+        {
+          "q": "वकील District Judge कब बन सकता है?",
+          "a": "अनुच्छेद 233(2) के मुताबिक जो व्यक्ति पहले से केंद्र या राज्य की सेवा में नहीं है, वह तभी पात्र है, जब वह कम से कम सात साल advocate या pleader रहा हो और High Court ने उसकी सिफ़ारिश की हो।[^1]"
+        },
+        {
+          "q": "संविधान में 'district judge' में कौन-कौन आते हैं?",
+          "a": "अनुच्छेद 236 के मुताबिक इसमें city civil court के जज, additional, joint और assistant district judge, small cause court के chief judge, chief presidency magistrate, sessions judge और additional / assistant sessions judge भी शामिल हैं।[^1]"
+        },
+        {
+          "q": "ज़िला अदालतों पर नियंत्रण किसका है?",
+          "a": "अनुच्छेद 235 के मुताबिक ज़िला अदालतों और उनके अधीन अदालतों पर नियंत्रण High Court का है, जिसमें district judge से नीचे के पदों के judicial officers की posting, promotion और छुट्टी शामिल है।[^1]"
+        },
+        {
+          "q": "Succession certificate की अर्ज़ी कहाँ दें?",
+          "a": "Indian Succession Act की धारा 372(1) के मुताबिक District Judge को, petition के ज़रिए।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "High Court"
+        },
+        {
+          "t": "Probate"
+        },
+        {
+          "t": "Letter of Administration"
+        },
+        {
+          "t": "Succession Certificate"
+        },
+        {
+          "t": "Indian Succession Act"
+        },
+        {
+          "t": "Magistrate"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Constitution of India (Part VI, Chapter VI — Subordinate Courts)",
+          "url": "https://indiacode.gov.in/act/2e59df9f-e2a4-4151-82e4-2c08bd9b86ba",
+          "used": [
+            {
+              "ref": "अनुच्छेद 233",
+              "c": "राज्यपाल की नियुक्ति, High Court से सलाह; सात साल advocate / pleader और High Court की सिफ़ारिश"
+            },
+            {
+              "ref": "अनुच्छेद 235",
+              "c": "ज़िला और अधीन अदालतों पर High Court का नियंत्रण"
+            },
+            {
+              "ref": "अनुच्छेद 236",
+              "c": "'district judge' में कौन-कौन शामिल"
+            }
+          ]
+        },
+        {
+          "label": "India Code — The Indian Succession Act, 1925 (Act No. 39 of 1925), पाठ \"As on the 19th June, 2026\"",
+          "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/2385/1/a192539.pdf",
+          "used": [
+            {
+              "ref": "धारा 2(bb)",
+              "c": "District Judge की परिभाषा"
+            },
+            {
+              "ref": "धारा 264(1)",
+              "c": "ज़िले में probate और LoA देने / रद्द करने का अधिकार"
+            },
+            {
+              "ref": "धारा 299, 300(1)",
+              "c": "High Court में appeal; High Court का साथ-साथ अधिकार"
+            },
+            {
+              "ref": "धारा 372(1), 384(1)",
+              "c": "succession certificate की अर्ज़ी; appeal"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIndian Succession Act की धारा 2(bb) के मुताबिक District Judge प्रधान सिविल अदालत (Principal Civil Court of original jurisdiction) का जज है।[^2] संविधान के अनुच्छेद 233 के मुताबिक राज्य में district judges की नियुक्ति, posting और promotion राज्यपाल, High Court से सलाह करके करते हैं।[^1]\n\n- **कौन शामिल:** संविधान के इस हिस्से में 'district judge' में city civil court के जज, additional / joint / assistant district judge, sessions judge वग़ैरह भी आते हैं।[^1]\n- **नियंत्रण:** ज़िला अदालतों और उनके अधीन अदालतों पर High Court का नियंत्रण।[^1]\n\n## विरासत के मामलों में | विरासत\n\n::flow\n\n- **Probate / letters of administration:** अपने ज़िले के सभी मामलों में देने और रद्द करने का अधिकार।[^2]\n- **Succession certificate:** अर्ज़ी District Judge को।[^2]\n- **Appeal:** District Judge के आदेशों के ख़िलाफ़ High Court में।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Probate, letters of administration या succession certificate की ज़रूरत हो, तो जान लीजिए कि Indian Succession Act के तहत यह अर्ज़ी आम तौर पर District Judge के पास जाती है।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
