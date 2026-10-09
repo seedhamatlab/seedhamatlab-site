@@ -3360,6 +3360,165 @@
         }
       ],
       "body": "## मतलब\n\nPSS Act यानी Payment and Settlement Systems Act, 2007।[^1] Act के शीर्षक (long title) के मुताबिक यह भारत में payment systems के नियमन और निगरानी के लिए, और RBI को इसके लिए प्राधिकरण बनाने के लिए है। धारा 3(1) के मुताबिक RBI इसका नामित प्राधिकरण (designated authority) है।[^1]\n\n- **Authorisation:** RBI को छोड़कर कोई भी बिना authorisation payment system नहीं चला सकता (धारा 4)।[^1]\n- **निर्देश:** RBI नीतियाँ बना सकता है और निर्देश दे सकता है (धारा 17, 18)।[^1]\n- **ग्राहक का पैसा:** RBI तय कर सकता है कि ग्राहकों का पैसा अलग रखा जाए (धारा 23A)।[^1]\n- **Transfer लौटना:** पैसा कम होने से electronic transfer लौटने पर सज़ा का नियम (धारा 25)।[^1]\n\n## PSS Act कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "irdai",
+      "term": "IRDAI",
+      "aliases": [
+        "Insurance Regulatory and Development Authority of India"
+      ],
+      "full": "इंश्योरेंस रेगुलेटरी एंड डेवलपमेंट अथॉरिटी ऑफ़ इंडिया · बीमा का नियामक",
+      "fullEn": "Insurance Regulatory and Development Authority of India",
+      "group": "बीमा",
+      "created": "2026-10-09",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-09",
+          "t": "पन्ना बना। India Code पर The Insurance Regulatory and Development Authority Act, 1999 के पाठ (\"As on the 1st June, 2026\") के शीर्षक, धारा 1(3) का फ़ुटनोट, 2(1)(b), 3, 4, 5, 14 और 14A से जाँचा।"
+        }
+      ],
+      "one": "IRDAI का पूरा नाम Insurance Regulatory and Development Authority of India है। यह Insurance Regulatory and Development Authority Act, 1999 के तहत बना प्राधिकरण है, जिसका काम बीमा पॉलिसी लेने वालों (policy-holders) के हितों की रक्षा करना और बीमा कारोबार का नियमन करना, उसे बढ़ावा देना और उसकी व्यवस्थित बढ़त पक्की करना है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "IRDA Act, 1999",
+          "s": "Act No. 41 of 1999"
+        },
+        {
+          "k": "Act लागू",
+          "v": "19 अप्रैल 2000",
+          "s": "धारा 1(3) का फ़ुटनोट"
+        },
+        {
+          "k": "सदस्य",
+          "v": "अध्यक्ष + 9 तक",
+          "s": "5 तक whole-time, 4 तक part-time (धारा 4)"
+        },
+        {
+          "k": "मंत्रालय",
+          "v": "वित्त मंत्रालय",
+          "s": "India Code"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "केंद्र सरकार",
+            "s": "अध्यक्ष और सदस्य नियुक्त करती है"
+          },
+          {
+            "t": "IRDAI",
+            "s": "registration, नियम, जाँच"
+          },
+          {
+            "t": "बीमा कंपनी और agent",
+            "s": "IRDAI के नियमों के तहत काम"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "नियुक्ति",
+            "s": "धारा 4"
+          },
+          {
+            "b": "नियमन",
+            "s": "धारा 14"
+          }
+        ],
+        "note": "धारा 4 के मुताबिक IRDAI में एक अध्यक्ष, ज़्यादा से ज़्यादा पाँच whole-time और चार part-time सदस्य होते हैं, जिन्हें केंद्र सरकार नियुक्त करती है। धारा 14(1) के मुताबिक IRDAI का कर्तव्य बीमा और re-insurance कारोबार का नियमन करना, उसे बढ़ावा देना और उसकी व्यवस्थित बढ़त पक्की करना है।"
+      },
+      "myths": [
+        {
+          "m": "\"IRDAI भी एक बीमा कंपनी है।\"",
+          "f": "नहीं। धारा 3 के मुताबिक IRDAI इस Act के तहत बना प्राधिकरण (Authority) है, और धारा 14(2)(a) के मुताबिक बीमा कारोबार के लिए registration देना, नवीनीकरण करना, बदलना, वापस लेना, निलंबित या रद्द करना इसके कामों में शामिल है।[^1]"
+        },
+        {
+          "m": "\"IRDAI का पॉलिसी लेने वाले आम आदमी से कोई लेना-देना नहीं।\"",
+          "f": "नहीं। Act के शीर्षक में IRDAI बनाने के मक़सदों में सबसे पहले बीमा पॉलिसी लेने वालों के हितों की रक्षा लिखी है। धारा 14(2)(b) के मुताबिक पॉलिसी का assignment, nomination, insurable interest, claim का निपटारा, surrender value और बीमा अनुबंध की दूसरी शर्तों से जुड़े मामलों में policy-holders के हितों की रक्षा इसके कामों में शामिल है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "IRDAI का पूरा नाम क्या है?",
+          "a": "Insurance Regulatory and Development Authority of India. धारा 2(1)(b) और 3(1) के मुताबिक Act में 'Authority' का मतलब यही प्राधिकरण है।[^1]"
+        },
+        {
+          "q": "IRDAI किस क़ानून के तहत बना है?",
+          "a": "The Insurance Regulatory and Development Authority Act, 1999 (Act No. 41 of 1999) की धारा 3 के तहत। India Code के पाठ में धारा 1(3) के फ़ुटनोट के मुताबिक यह Act 19 अप्रैल 2000 से लागू है।[^1]"
+        },
+        {
+          "q": "IRDAI में कौन-कौन होता है?",
+          "a": "धारा 4 के मुताबिक एक अध्यक्ष (Chairperson), ज़्यादा से ज़्यादा पाँच whole-time सदस्य और ज़्यादा से ज़्यादा चार part-time सदस्य, जिन्हें केंद्र सरकार life insurance, general insurance, actuarial science, finance, law, information technology जैसे क्षेत्रों के जानकारों में से नियुक्त करती है।[^1]"
+        },
+        {
+          "q": "अध्यक्ष और सदस्यों का कार्यकाल कितना होता है?",
+          "a": "धारा 5(1) के मुताबिक अध्यक्ष और whole-time सदस्यों का कार्यकाल पाँच साल या 65 साल की उम्र तक, जो पहले हो; वे दोबारा नियुक्त हो सकते हैं। धारा 5(2) के मुताबिक part-time सदस्य पाँच साल से ज़्यादा पद पर नहीं रहते।[^1]"
+        },
+        {
+          "q": "बीमा agent के नियम कौन तय करता है?",
+          "a": "धारा 14(2)(c) के मुताबिक intermediaries, insurance intermediaries और agents की ज़रूरी योग्यता, आचार संहिता (code of conduct) और practical training तय करना IRDAI के कामों में शामिल है; धारा 14(2)(d) के मुताबिक surveyors और loss assessors की आचार संहिता भी।[^1]"
+        },
+        {
+          "q": "क्या IRDAI बीमा कंपनियों की जाँच कर सकता है?",
+          "a": "हाँ। धारा 14(2)(h) के मुताबिक IRDAI बीमा कंपनियों, intermediaries और बीमा कारोबार से जुड़े दूसरे संगठनों से जानकारी माँग सकता है, उनका निरीक्षण, जाँच-पड़ताल और audit कर सकता है। धारा 14(2)(k) और (l) के मुताबिक बीमा कंपनियों के निवेश और solvency margin का नियमन भी इसके कामों में है।[^1]"
+        },
+        {
+          "q": "क्या IRDAI पॉलिसी और claim की जानकारी इकट्ठा करता है?",
+          "a": "धारा 14A के मुताबिक IRDAI अपने काम ठीक से करने और बीमा कारोबार के नियमन और विकास के लिए बीमा कंपनियों और दूसरी regulated संस्थाओं से policies और claims की जानकारी इकट्ठा कर सकता है। India Code के पाठ के मुताबिक यह धारा 5 फ़रवरी 2026 से है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Indian Contract Act"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Insurance Regulatory and Development Authority Act, 1999 (Act No. 41 of 1999), पाठ \"As on the 1st June, 2026\"",
+          "url": "https://indiacode.gov.in/act/2f297648-84a2-493a-888a-9a642a31617f",
+          "used": [
+            {
+              "ref": "शीर्षक",
+              "c": "policy-holders के हितों की रक्षा; बीमा उद्योग का नियमन"
+            },
+            {
+              "ref": "धारा 1(3), फ़ुटनोट",
+              "c": "19 अप्रैल 2000 से लागू"
+            },
+            {
+              "ref": "धारा 2(1)(b), 3",
+              "c": "पूरा नाम; प्राधिकरण की स्थापना"
+            },
+            {
+              "ref": "धारा 4, 5",
+              "c": "सदस्य; कार्यकाल"
+            },
+            {
+              "ref": "धारा 14",
+              "c": "कर्तव्य और काम: registration, policy-holders की रक्षा, agents, जाँच, निवेश, solvency"
+            },
+            {
+              "ref": "धारा 14A",
+              "c": "policy और claim की जानकारी (5 फ़रवरी 2026 से)"
+            },
+            {
+              "ref": "India Code पन्ना",
+              "c": "मंत्रालय: Ministry of Finance"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIRDAI का पूरा नाम Insurance Regulatory and Development Authority of India है।[^1] Insurance Regulatory and Development Authority Act, 1999 के शीर्षक के मुताबिक यह प्राधिकरण बीमा पॉलिसी लेने वालों के हितों की रक्षा करने और बीमा उद्योग का नियमन करने, उसे बढ़ावा देने और उसकी व्यवस्थित बढ़त पक्की करने के लिए बना है।[^1]\n\n- **Registration:** बीमा कारोबार का registration देना, नवीनीकरण करना या रद्द करना (धारा 14(2)(a))।[^1]\n- **Policy-holders:** nomination, claim निपटारे और surrender value जैसे मामलों में हितों की रक्षा (धारा 14(2)(b))।[^1]\n- **जाँच:** बीमा कंपनियों और intermediaries से जानकारी, निरीक्षण और audit (धारा 14(2)(h))।[^1]\n\n## IRDAI कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
