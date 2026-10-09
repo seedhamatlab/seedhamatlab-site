@@ -1738,9 +1738,20 @@ function main() {
   // (GitHub ka web editor bahut badi file nahi kholta, isliye naye shabd agli file me jaate hain.)
   // Pehle padhte hain taaki lekhon me neele link ban saken.
   const readTerms = (f) => (fs.existsSync(f) ? (JSON.parse(fs.readFileSync(f, "utf8")).terms || []) : []);
+  // Agli file me "replaces": true wala shabd pichhli file ke usi id wale shabd ki jagah leta hai (usi kram me),
+  // taaki badi terms.json ko chhuye bina purane shabd sudhaare ja saken.
   const terms = readTerms(path.join(__dirname, "data", "terms.json"));
+  const replacedIds = new Set();
   for (let n = 2; fs.existsSync(path.join(__dirname, "data", `terms-${n}.json`)); n++) {
-    terms.push(...readTerms(path.join(__dirname, "data", `terms-${n}.json`)));
+    for (const t of readTerms(path.join(__dirname, "data", `terms-${n}.json`))) {
+      if (!t.replaces) { terms.push(t); continue; }
+      const { replaces, ...entry } = t;
+      const i = terms.findIndex((x) => x.id === entry.id);
+      if (i < 0) throw new Error(`Replacement for unknown term id: ${entry.id}`);
+      if (replacedIds.has(entry.id)) throw new Error(`Term replaced twice: ${entry.id}`);
+      replacedIds.add(entry.id);
+      terms[i] = entry;
+    }
   }
   const seenIds = new Set();
   terms.forEach((t) => { if (seenIds.has(t.id)) throw new Error(`Duplicate term id: ${t.id}`); seenIds.add(t.id); });
