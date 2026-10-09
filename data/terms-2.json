@@ -1969,6 +1969,183 @@
         }
       ],
       "body": "## मतलब\n\nSLR का पूरा नाम Statutory Liquidity Ratio है।[^2] Banking Regulation Act की धारा 24(2A) के मुताबिक हर bank को अपनी कुल demand और time liabilities के एक तय प्रतिशत जितनी assets भारत में रखनी होती हैं; यह प्रतिशत RBI तय करता है, 40% की सीमा के अंदर।[^1]\n\n- **अभी:** commercial banks के लिए कम से कम 18%।[^2]\n- **किस रूप में:** cash, सोना या सरकारी securities जैसी तय assets।[^2]\n\n## SLR कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "e-kyc",
+      "term": "e-KYC",
+      "aliases": [
+        "eKYC"
+      ],
+      "full": "ई-केवाईसी · Aadhaar से पहचान की electronic जाँच",
+      "fullEn": "Aadhaar e-KYC authentication",
+      "group": "बैंकिंग",
+      "created": "2026-10-09",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-09",
+          "t": "पन्ना बना। India Code पर Aadhaar (Authentication and Offline Verification) Regulations, 2021 (\"Updated as on 09.12.2025\") के विनियम 2, 3, 3A, 4, 4A, 6 और 16, और RBI के Commercial Banks – KYC Directions, 2025 (Updated as on October 1, 2026) के पैरा 23, 25 और 42 से जाँचा।"
+        }
+      ],
+      "one": "e-KYC, UIDAI की e-KYC authentication facility से होने वाली पहचान की जाँच है। इसमें Aadhaar number के साथ OTP या biometric, Aadhaar number holder की सहमति से UIDAI के CIDR में मिलाए जाते हैं, और UIDAI डिजिटल हस्ताक्षर वाला जवाब लौटाता है, जिसमें e-KYC data होता है। Bank इसे KYC के एक तरीक़े के रूप में इस्तेमाल करते हैं।",
+      "facts": [
+        {
+          "k": "किसके नियम",
+          "v": "UIDAI",
+          "s": "Authentication and Offline Verification Regulations, 2021"
+        },
+        {
+          "k": "तरीक़ा",
+          "v": "OTP या biometric",
+          "s": "विनियम 3"
+        },
+        {
+          "k": "OTP वाले खाते में balance",
+          "v": "₹1 लाख तक",
+          "s": "RBI KYC Directions, पैरा 25(3)"
+        },
+        {
+          "k": "पूरी KYC के बिना",
+          "v": "1 साल तक",
+          "s": "पैरा 25(6)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "ग्राहक",
+            "s": "Aadhaar number + OTP या biometric"
+          },
+          {
+            "t": "UIDAI का CIDR",
+            "s": "जानकारी का मिलान"
+          },
+          {
+            "t": "Bank",
+            "s": "डिजिटल हस्ताक्षर वाला e-KYC data"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "सहमति से भेजा",
+            "s": "विनियम 6(1)"
+          },
+          {
+            "b": "e-KYC जवाब",
+            "s": "विनियम 2(1)(j)"
+          }
+        ],
+        "note": "UIDAI के नियमों के मुताबिक e-KYC में Aadhaar number और OTP या biometric, Aadhaar number holder की सहमति से UIDAI के CIDR में मिलाए जाते हैं, और UIDAI डिजिटल हस्ताक्षर वाला जवाब लौटाता है, जिसमें e-KYC data होता है। जो ग्राहक KYC के लिए Aadhaar number देता है, bank इसी facility से उसकी जाँच करता है।"
+      },
+      "myths": [
+        {
+          "m": "\"KYC के लिए Aadhaar देना ज़रूरी है।\"",
+          "f": "नहीं। RBI के KYC Directions के पैरा 23 के Explanation 4 के मुताबिक KYC के लिए Aadhaar number ज़रूरी नहीं है। यह तब देना होता है, जब ग्राहक Aadhaar Act की धारा 7 के तहत किसी योजना का लाभ या subsidy लेना चाहता है; बाकी मामलों में ग्राहक अपनी मर्ज़ी से दे सकता है।[^2]"
+        },
+        {
+          "m": "\"Aadhaar OTP से खुला खाता बिना किसी सीमा के हमेशा चलता है।\"",
+          "f": "नहीं। पैरा 25 के मुताबिक बिना आमने-सामने आए, Aadhaar OTP वाले e-KYC से खुले खातों में सभी जमा खातों का कुल balance ₹1 लाख और एक वित्त वर्ष में कुल जमा (credits) ₹2 लाख से ज़्यादा नहीं हो सकते, और पूरी KYC के बिना ऐसा खाता एक साल से ज़्यादा नहीं चल सकता।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "e-KYC में क्या जानकारी मिलती है?",
+          "a": "विनियम 2(1)(k) के मुताबिक e-KYC data में Aadhaar number holder की पूरी या सीमित जनसांख्यिकीय जानकारी (demographic information) और/या फ़ोटो होती है; इसमें पूरा या masked Aadhaar number हो सकता है।[^1]"
+        },
+        {
+          "q": "e-KYC किस तरीक़े से होता है?",
+          "a": "विनियम 3 के मुताबिक e-KYC authentication सिर्फ़ OTP और/या biometric तरीक़े से हो सकता है। विनियम 4(2)(b) के मुताबिक OTP, UIDAI में दर्ज mobile number और/या e-mail पर भेजा जाता है, या किसी और उचित तरीक़े से बनता है।[^1]"
+        },
+        {
+          "q": "क्या Aadhaar number की जगह VID से e-KYC हो सकता है?",
+          "a": "हाँ। विनियम 4A(3) के मुताबिक Aadhaar number holder online authentication या e-KYC में Aadhaar number की जगह VID इस्तेमाल कर सकता है; विनियम 2(1)(od) के मुताबिक VID, Aadhaar number से जुड़ा 16 अंकों का एक random number है, और 4A(4) के मुताबिक कोई संस्था VID अपने system में store नहीं कर सकती।[^1]"
+        },
+        {
+          "q": "क्या e-KYC के लिए मेरी सहमति ज़रूरी है?",
+          "a": "हाँ। विनियम 6(1) के मुताबिक authentication के लिए Aadhaar number holder की सहमति लेनी होती है (बच्चे के मामले में माता-पिता या अभिभावक की)। RBI के KYC Directions के पैरा 25(1) के मुताबिक OTP वाले e-KYC से खाता खुलवाते समय ग्राहक को OTP से authentication के लिए अलग से (specific) सहमति देनी होती है।[^1][^2]"
+        },
+        {
+          "q": "क्या मैं e-KYC data रखने की सहमति वापस ले सकता हूँ?",
+          "a": "हाँ। विनियम 16(4) के मुताबिक Aadhaar number holder कभी भी e-KYC इस्तेमाल करने वाली संस्था (KUA/Sub-KUA) को अपना e-KYC data store करने की दी गई सहमति वापस ले सकता है। तब संस्था को वह data जाँचे जा सकने वाले तरीक़े से मिटाना होता है और holder को इसकी पावती देनी होती है।[^1]"
+        },
+        {
+          "q": "क्या KYC update के लिए भी e-KYC चलता है?",
+          "a": "हाँ। RBI के KYC Directions के पैरा 42(3)(vi) के मुताबिक bank KYC के updation / periodic updation के लिए बिना आमने-सामने आए Aadhaar OTP वाला e-KYC इस्तेमाल कर सकता है, और तब पैरा 25 की शर्तें लागू नहीं होतीं।[^2]"
+        },
+        {
+          "q": "Aadhaar Paperless Offline e-KYC क्या है?",
+          "a": "विनियम 2(1)(bb) के मुताबिक यह UIDAI का बनाया डिजिटल हस्ताक्षर वाला दस्तावेज़ है, जिसमें Aadhaar number के आख़िरी 4 अंक, नाम, पता, लिंग, जन्म-तारीख़ जैसी जानकारी और फ़ोटो वग़ैरह होते हैं। विनियम 3A में इसे Offline Verification की एक क़िस्म बताया गया है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Aadhaar"
+        },
+        {
+          "t": "V-CIP"
+        },
+        {
+          "t": "CKYCR"
+        },
+        {
+          "t": "OTP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Aadhaar (Authentication and Offline Verification) Regulations, 2021 (UIDAI), पाठ \"Updated as on 09.12.2025\"",
+          "url": "https://indiacode.gov.in/items/2b98dd38-2c17-4aee-8f33-324c821e548d",
+          "used": [
+            {
+              "ref": "विनियम 2(1)(j), (k)",
+              "c": "e-KYC authentication facility; e-KYC data"
+            },
+            {
+              "ref": "विनियम 2(1)(bb), 3A",
+              "c": "Aadhaar Paperless Offline e-KYC"
+            },
+            {
+              "ref": "विनियम 3, 4(2)(b)",
+              "c": "e-KYC सिर्फ़ OTP और/या biometric से; OTP कहाँ आता है"
+            },
+            {
+              "ref": "विनियम 2(1)(od), 4A(3), (4)",
+              "c": "VID क्या है; VID से e-KYC; VID store नहीं"
+            },
+            {
+              "ref": "विनियम 6(1)",
+              "c": "सहमति"
+            },
+            {
+              "ref": "विनियम 16(4)",
+              "c": "सहमति वापस; data मिटाना"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025 (RBI/DOR/2025-26/169; Updated as on October 1, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/169MD.pdf",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 23",
+              "c": "Aadhaar number पर e-KYC जाँच; CIDR; Explanation 2, 4"
+            },
+            {
+              "ref": "पैरा 25",
+              "c": "OTP वाले e-KYC खातों की शर्तें"
+            },
+            {
+              "ref": "पैरा 42(3)(vi)",
+              "c": "KYC update में OTP वाला e-KYC"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\ne-KYC, UIDAI की e-KYC authentication facility से होने वाली पहचान की जाँच है।[^1] इसमें Aadhaar number और OTP या biometric, Aadhaar number holder की सहमति से UIDAI के CIDR (Central Identities Data Repository) में मिलाए जाते हैं, और UIDAI डिजिटल हस्ताक्षर वाला जवाब लौटाता है, जिसमें e-KYC data होता है।[^1]\n\n- **Bank में:** जो ग्राहक KYC के लिए Aadhaar number देता है, bank UIDAI की e-KYC authentication facility से उसकी जाँच करता है।[^2]\n- **कौन कर सकता है:** bank का अधिकारी, business correspondent या business facilitator biometric वाला e-KYC कर सकता है, Aadhaar Face Authentication समेत।[^2]\n\n## e-KYC कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## बिना आमने-सामने आए, OTP वाले e-KYC से खुले खाते | सीमाएँ\n\nRBI के KYC Directions के पैरा 25 के मुताबिक ऐसे खातों पर ये शर्तें लागू होती हैं:[^2]\n\n- **सहमति:** OTP से authentication के लिए ग्राहक की अलग से सहमति।\n- **Alert और OTP:** सिर्फ़ Aadhaar में दर्ज mobile number पर।\n- **Balance:** सभी जमा खातों में कुल ₹1 लाख तक।\n- **जमा:** एक वित्त वर्ष में सभी जमा खातों में कुल ₹2 लाख तक।\n- **क़र्ज़:** सिर्फ़ term loan, साल में कुल ₹60,000 तक।\n- **एक साल:** इसके अंदर पूरी KYC (पैरा 23 या V-CIP से) न हो, तो जमा खाता बंद होता है और क़र्ज़ खाते में आगे debit नहीं होता।\n- **सिर्फ़ एक खाता:** ग्राहक लिखकर देता है कि उसने किसी और संस्था में इस तरीक़े से खाता नहीं खोला है और न खोलेगा।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
