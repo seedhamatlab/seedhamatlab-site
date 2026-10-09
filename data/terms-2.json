@@ -2659,6 +2659,166 @@
         }
       ],
       "body": "## मतलब\n\nRBI Act, 1934 वह क़ानून है, जिसके तहत Reserve Bank of India बना।[^1] इसकी धारा 3(1) के मुताबिक RBI इसलिए बनाया गया कि वह currency का प्रबंधन केंद्र सरकार से अपने हाथ में ले और इस क़ानून के मुताबिक banking का कारोबार करे।[^1]\n\n- **Bank notes:** भारत में notes जारी करने का एकमात्र अधिकार (धारा 22)।[^1]\n- **Monetary policy:** inflation target (धारा 45ZA) और MPC (धारा 45ZB)।[^1]\n- **Banks और NBFC:** CRR (धारा 42) और NBFC का registration (धारा 45-IA)।[^1]\n\n## RBI Act कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "ni-act",
+      "term": "NI Act",
+      "aliases": [
+        "Negotiable Instruments Act",
+        "Negotiable Instruments Act, 1881"
+      ],
+      "full": "नेगोशिएबल इंस्ट्रूमेंट्स एक्ट, 1881 · cheque, promissory note और bill of exchange का क़ानून",
+      "fullEn": "The Negotiable Instruments Act, 1881",
+      "group": "बैंकिंग",
+      "created": "2026-10-09",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-09",
+          "t": "पन्ना बना। India Code पर The Negotiable Instruments Act, 1881 के पाठ (पाठ पर 'As on' तारीख़ नहीं है; 2018 तक के संशोधन शामिल) की धारा 1, 4, 5, 6, 13(1), 138, 142, 143A और 147 से जाँचा।"
+        }
+      ],
+      "one": "NI Act यानी Negotiable Instruments Act, 1881 (Act No. 26 of 1881)। यह promissory note, bill of exchange और cheque का क़ानून है, जो 1 मार्च 1882 से लागू है। Cheque bounce होने पर सज़ा का नियम (धारा 138) भी इसी क़ानून में है।",
+      "facts": [
+        {
+          "k": "Act No.",
+          "v": "26 of 1881",
+          "s": "India Code"
+        },
+        {
+          "k": "लागू",
+          "v": "1 मार्च 1882",
+          "s": "धारा 1"
+        },
+        {
+          "k": "Negotiable instrument",
+          "v": "3 तरह के",
+          "s": "promissory note, bill of exchange, cheque (धारा 13)"
+        },
+        {
+          "k": "Cheque bounce",
+          "v": "धारा 138",
+          "s": "2 साल तक जेल या cheque की दोगुनी रक़म तक जुर्माना"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Cheque लौटा",
+            "s": "खाते में पैसा कम"
+          },
+          {
+            "t": "30 दिन में notice",
+            "s": "bank से जानकारी मिलने के बाद"
+          },
+          {
+            "t": "15 दिन में भुगतान नहीं",
+            "s": "तो एक महीने में शिकायत"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "पाने वाला",
+            "s": "धारा 138(b)"
+          },
+          {
+            "b": "लिखने वाला",
+            "s": "धारा 138(c), 142(1)(b)"
+          }
+        ],
+        "note": "धारा 138 के मुताबिक किसी क़र्ज़ या देनदारी के लिए दिया cheque खाते में पैसा कम होने से लौट आए, तो पाने वाला bank से जानकारी मिलने के 30 दिन के अंदर लिखित notice देता है। Notice मिलने के 15 दिन में भुगतान न हो, तो अपराध बनता है, और धारा 142(1)(b) के मुताबिक उसके बाद एक महीने के अंदर शिकायत की जा सकती है।"
+      },
+      "myths": [
+        {
+          "m": "\"NI Act सिर्फ़ cheque का क़ानून है।\"",
+          "f": "नहीं। धारा 13(1) के मुताबिक negotiable instrument का मतलब promissory note, bill of exchange या cheque है, जो order या bearer को देय हो; तीनों की परिभाषा धारा 4, 5 और 6 में है।[^1]"
+        },
+        {
+          "m": "\"Cheque bounce का case किसी भी शहर की court में किया जा सकता है।\"",
+          "f": "नहीं। धारा 142(2) में तय है कि case किस court में चलेगा। जैसे, अगर cheque किसी खाते के ज़रिए collection के लिए दिया गया हो, तो case उस court में चलता है, जिसके इलाक़े में पाने वाले के खाते वाली bank branch है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "NI Act का पूरा नाम क्या है?",
+          "a": "The Negotiable Instruments Act, 1881 (धारा 1)।[^1]"
+        },
+        {
+          "q": "Cheque की क़ानूनी परिभाषा क्या है?",
+          "a": "धारा 6 के मुताबिक cheque एक bill of exchange है, जो किसी तय banker पर लिखा जाता है और माँगने पर ही देय होता है; इसमें truncated cheque की electronic image और electronic रूप वाला cheque भी शामिल है।[^1]"
+        },
+        {
+          "q": "Promissory note क्या होता है?",
+          "a": "धारा 4 के मुताबिक यह एक लिखित दस्तावेज़ है (bank-note या currency-note नहीं), जिसमें बनाने वाला बिना शर्त, किसी तय व्यक्ति को, उसके आदेश पर, या दस्तावेज़ रखने वाले (bearer) को तय रक़म देने का वादा करता है और उस पर दस्तख़त करता है।[^1]"
+        },
+        {
+          "q": "Cheque bounce पर सज़ा क्या है?",
+          "a": "धारा 138 के मुताबिक दो साल तक की जेल, या cheque की रक़म के दोगुने तक जुर्माना, या दोनों। यह तभी लागू होता है, जब cheque छह महीने के अंदर (या उसकी validity में, जो पहले हो) bank में दिया गया हो, notice 30 दिन में दिया गया हो, और notice मिलने के 15 दिन में भुगतान न हुआ हो।[^1]"
+        },
+        {
+          "q": "क्या court अंतरिम मुआवज़ा दिलवा सकता है?",
+          "a": "हाँ। धारा 143A के मुताबिक धारा 138 का case सुन रहा court cheque लिखने वाले को शिकायतकर्ता को अंतरिम मुआवज़ा देने का आदेश दे सकता है। यह cheque की रक़म के 20% से ज़्यादा नहीं हो सकता, और आदेश के 60 दिन के अंदर, या court की दी गई ज़्यादा से ज़्यादा 30 दिन की और मोहलत में देना होता है।[^1]"
+        },
+        {
+          "q": "क्या cheque bounce के case में समझौता हो सकता है?",
+          "a": "धारा 147 के मुताबिक इस Act के तहत हर सज़ा वाला अपराध compoundable है, यानी इसमें समझौता हो सकता है।[^1]"
+        },
+        {
+          "q": "शिकायत कौन कर सकता है?",
+          "a": "धारा 142(1)(a) के मुताबिक court सिर्फ़ cheque पाने वाले (payee) या holder in due course की लिखित शिकायत पर ही धारा 138 के अपराध पर कार्रवाई करता है, और 142(1)(c) के मुताबिक यह case Metropolitan Magistrate या Judicial Magistrate First Class से नीचे की court में नहीं चलता।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Cheque"
+        },
+        {
+          "t": "AutoPay"
+        },
+        {
+          "t": "Magistrate"
+        },
+        {
+          "t": "Indian Contract Act"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Negotiable Instruments Act, 1881 (Act No. 26 of 1881); पाठ पर 'As on' तारीख़ नहीं है, 2018 तक के संशोधन (Act 20 of 2018) शामिल",
+          "url": "https://indiacode.gov.in/act/38b01c2d-f1b8-4b1f-a8bf-86b4da3b72a0",
+          "used": [
+            {
+              "ref": "धारा 1",
+              "c": "नाम; 1 मार्च 1882 से लागू"
+            },
+            {
+              "ref": "धारा 4, 5, 6",
+              "c": "promissory note, bill of exchange, cheque"
+            },
+            {
+              "ref": "धारा 13(1)",
+              "c": "negotiable instrument"
+            },
+            {
+              "ref": "धारा 138",
+              "c": "cheque bounce; सज़ा; 6 महीने, 30 दिन, 15 दिन"
+            },
+            {
+              "ref": "धारा 142",
+              "c": "शिकायत; एक महीना; court; इलाक़ा"
+            },
+            {
+              "ref": "धारा 143A",
+              "c": "अंतरिम मुआवज़ा, 20% तक"
+            },
+            {
+              "ref": "धारा 147",
+              "c": "compoundable"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNI Act यानी Negotiable Instruments Act, 1881।[^1] धारा 13(1) के मुताबिक negotiable instrument का मतलब promissory note, bill of exchange या cheque है, जो order या bearer को देय हो।[^1]\n\n- **लागू:** 1 मार्च 1882 से (धारा 1)।[^1]\n- **परिभाषाएँ:** promissory note (धारा 4), bill of exchange (धारा 5), cheque (धारा 6)।[^1]\n- **Cheque bounce:** सज़ा का नियम धारा 138 में, शिकायत के नियम धारा 142 में।[^1]\n\n## Cheque bounce होने पर क्या होता है | cheque bounce\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
