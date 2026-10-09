@@ -2837,6 +2837,169 @@
         }
       ],
       "body": "## मतलब\n\nNI Act यानी Negotiable Instruments Act, 1881।[^1] धारा 13(1) के मुताबिक negotiable instrument का मतलब promissory note, bill of exchange या cheque है, जो order या bearer को देय हो।[^1]\n\n- **लागू:** 1 मार्च 1882 से (धारा 1)।[^1]\n- **परिभाषाएँ:** promissory note (धारा 4), bill of exchange (धारा 5), cheque (धारा 6)।[^1]\n- **Cheque bounce:** सज़ा का नियम धारा 138 में, शिकायत के नियम धारा 142 में।[^1]\n\n## Cheque bounce होने पर क्या होता है | cheque bounce\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "ndtl",
+      "term": "NDTL",
+      "aliases": [
+        "Net Demand and Time Liabilities"
+      ],
+      "full": "नेट डिमांड एंड टाइम लायबिलिटीज़ · bank की वे देनदारियाँ, जिन पर CRR और SLR लगते हैं",
+      "fullEn": "Net Demand and Time Liabilities",
+      "group": "बैंकिंग",
+      "created": "2026-10-09",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-09",
+          "t": "पन्ना बना। RBI के Commercial Banks – CRR और SLR Directions, 2025 (Updated as on August 25, 2026) के पैरा 3, 6(2), 6(3), 6(13), 6(22), 6(26), 9, 11, 14, 19, 21 और 25 से जाँचा।"
+        }
+      ],
+      "one": "NDTL का पूरा नाम Net Demand and Time Liabilities है। RBI के CRR और SLR Directions के मुताबिक किसी bank की NDTL में banking system के प्रति उसकी देनदारियाँ (banking system में रखी उसकी assets घटाकर) और दूसरों के प्रति demand और time deposits, उधार या दूसरी देनदारियाँ शामिल होती हैं। CRR और SLR इसी NDTL के प्रतिशत के रूप में तय होते हैं।",
+      "facts": [
+        {
+          "k": "पूरा नाम",
+          "v": "Net Demand and Time Liabilities",
+          "s": "पैरा 6(3)"
+        },
+        {
+          "k": "CRR (commercial banks)",
+          "v": "NDTL का 3%",
+          "s": "पैरा 9"
+        },
+        {
+          "k": "SLR (commercial banks)",
+          "v": "NDTL का कम से कम 18%",
+          "s": "पैरा 25"
+        },
+        {
+          "k": "किस दिन की NDTL",
+          "v": "दूसरे पिछले पखवाड़े का आख़िरी दिन",
+          "s": "पैरा 9, 21, 25"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank की देनदारियाँ",
+            "s": "demand और time deposits, उधार वग़ैरह"
+          },
+          {
+            "t": "NDTL",
+            "s": "banking system से लेन-देन का net हिसाब"
+          },
+          {
+            "t": "CRR और SLR",
+            "s": "NDTL के प्रतिशत के रूप में"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "कुछ देनदारियाँ बाहर",
+            "s": "पैरा 19"
+          },
+          {
+            "b": "3% और 18%",
+            "s": "पैरा 9, 25"
+          }
+        ],
+        "note": "Directions के पैरा 11 के मुताबिक NDTL में banking system के प्रति देनदारियाँ (banking system में रखी assets घटाकर) और दूसरों के प्रति demand और time deposits, उधार और दूसरी देनदारियाँ आती हैं। पैरा 19 के मुताबिक कुछ देनदारियाँ, जैसे paid-up capital, reserves और RBI, NABARD, SIDBI जैसी संस्थाओं से लिया गया क़र्ज़, CRR और SLR के हिसाब में नहीं गिनी जातीं।"
+      },
+      "myths": [
+        {
+          "m": "\"NDTL मतलब सिर्फ़ bank में जमा पैसा।\"",
+          "f": "नहीं। पैरा 11 के मुताबिक NDTL में demand और time deposits के अलावा उधार (borrowings) और दूसरी देनदारियाँ भी आती हैं। पैरा 6(22) के मुताबिक 'Other Demand and Time Liabilities' में जमा पर बना ब्याज (interest accrued on deposits), bills payable और unpaid dividends जैसी चीज़ें शामिल हैं।[^1]"
+        },
+        {
+          "m": "\"Savings खाते का पूरा balance demand liability होता है।\"",
+          "f": "नहीं। पैरा 6(2) के मुताबिक bank 31 मार्च और 30 सितंबर की स्थिति पर savings bank deposits को demand और time हिस्सों में बाँटता है। छमाही के हर महीने में हर खाते के न्यूनतम balance का औसत time liability माना जाता है, और असली balance के औसत में से इसे घटाने पर बचा हिस्सा demand liability।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "NDTL का पूरा नाम क्या है?",
+          "a": "Net Demand and Time Liabilities. RBI के CRR और SLR Directions के पैरा 6(3) में यह पूरा नाम आता है।[^1]"
+        },
+        {
+          "q": "Demand liabilities में क्या-क्या आता है?",
+          "a": "पैरा 6(13) के मुताबिक ये वे देनदारियाँ हैं, जो माँगने पर देनी होती हैं, जैसे current deposits, savings bank deposits का demand हिस्सा, letters of credit / guarantees के बदले रखा margin, overdue fixed deposits, cash certificates और cumulative / recurring deposits के balance, बकाया TT, MT और Demand Draft, unclaimed deposits, Cash Credit खाते के credit balance, और advances के लिए security के रूप में रखी वे जमाएँ, जो माँगने पर देय हों।[^1]"
+        },
+        {
+          "q": "Time liabilities में क्या-क्या आता है?",
+          "a": "पैरा 6(26) के मुताबिक ये वे देनदारियाँ हैं, जो माँगने पर नहीं, किसी और तरह देय होती हैं, जैसे fixed deposits, cash certificates, cumulative और recurring deposits, savings bank deposits का time हिस्सा, staff security deposits, letters of credit के बदले रखा margin (अगर माँगने पर देय न हो), advances के लिए security के रूप में रखी वे जमाएँ जो माँगने पर देय न हों, और gold deposits।[^1]"
+        },
+        {
+          "q": "CRR और SLR किस दिन की NDTL पर लगते हैं?",
+          "a": "पैरा 9 और 25 के मुताबिक दूसरे पिछले पखवाड़े (second preceding fortnight) के आख़िरी दिन की NDTL पर। पैरा 21 के मुताबिक cash management आसान करने के लिए banks को एक पखवाड़े की यह मोहलत (lag) दी गई है।[^1]"
+        },
+        {
+          "q": "कौन-सी देनदारियाँ CRR और SLR के हिसाब में नहीं गिनी जातीं?",
+          "a": "पैरा 19 में इनकी सूची है, जैसे paid-up capital, reserves, Tier 1 और additional Tier 1 capital वाले instruments से लिया उधार, Profit & Loss खाते का credit balance, RBI, Exim Bank, NHB, NABARD, SIDBI और NaBFID जैसी संस्थाओं से लिया loan / refinance, net income tax provision, और DICGC से claims के लिए मिली वह रक़म, जिसका adjustment बाकी हो।[^1]"
+        },
+        {
+          "q": "Bank का विदेश से लिया उधार NDTL में गिना जाता है?",
+          "a": "हाँ। पैरा 14 के मुताबिक bank का विदेश से लिया loan / उधार 'दूसरों के प्रति देनदारी' गिना जाता है और उस पर reserve requirement लागू होता है। विदेशी banks को दिया क़र्ज़ banking system की assets नहीं माना जाता, इसलिए उसे inter-bank देनदारियों में से घटाया नहीं जा सकता।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "CRR"
+        },
+        {
+          "t": "SLR"
+        },
+        {
+          "t": "MSF"
+        },
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "FD"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (RBI/DOR/2025-26/150; Updated as on August 25, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/150MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "commercial banks पर लागू; SFB, LAB, Payments Bank नहीं"
+            },
+            {
+              "ref": "पैरा 6(2)",
+              "c": "savings deposits का demand और time हिस्सों में बँटवारा"
+            },
+            {
+              "ref": "पैरा 6(3)",
+              "c": "पूरा नाम Net Demand and Time Liabilities (NDTL)"
+            },
+            {
+              "ref": "पैरा 6(13), 6(26)",
+              "c": "demand liabilities; time liabilities"
+            },
+            {
+              "ref": "पैरा 6(22)",
+              "c": "Other Demand and Time Liabilities"
+            },
+            {
+              "ref": "पैरा 9, 21, 25",
+              "c": "CRR 3%; SLR 18%; दूसरे पिछले पखवाड़े की NDTL"
+            },
+            {
+              "ref": "पैरा 11, 14",
+              "c": "NDTL में क्या आता है; विदेश से उधार"
+            },
+            {
+              "ref": "पैरा 19",
+              "c": "हिसाब से बाहर रखी देनदारियाँ"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNDTL का पूरा नाम Net Demand and Time Liabilities है।[^1] RBI के CRR और SLR Directions के पैरा 11 के मुताबिक किसी bank की NDTL में (a) banking system के प्रति उसकी देनदारियाँ, banking system में रखी उसकी assets घटाकर, और (b) दूसरों के प्रति demand और time deposits, उधार या दूसरी देनदारियाँ शामिल होती हैं।[^1]\n\n- **Demand liabilities:** जो माँगने पर देनी हों, जैसे current deposits (पैरा 6(13))।[^1]\n- **Time liabilities:** जो माँगने पर नहीं, किसी और तरह देय हों, जैसे fixed deposits (पैरा 6(26))।[^1]\n- **CRR और SLR:** commercial banks के लिए CRR अभी NDTL का 3% और SLR कम से कम 18% (पैरा 9, 25)।[^1]\n- **किन पर:** ये Directions commercial banks पर लागू हैं; Small Finance Banks, Local Area Banks और Payments Banks इनमें शामिल नहीं हैं (पैरा 3)।[^1]\n\n## NDTL कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
