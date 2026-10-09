@@ -3182,6 +3182,184 @@
         }
       ],
       "body": "## मतलब\n\nAadhaar Act, 2016 वह क़ानून है, जिसके तहत Aadhaar number जारी होता है।[^1] इसकी धारा 11(1) के मुताबिक केंद्र सरकार notification से UIDAI की स्थापना करती है, और धारा 3(4) के मुताबिक Aadhaar number 12 अंकों का पहचान नंबर है।[^1]\n\n- **Enrolment:** हर resident जानकारी देकर Aadhaar number ले सकता है (धारा 3)।[^1]\n- **इस्तेमाल:** authentication और offline verification, व्यक्ति की सहमति से (धारा 8, 8A)।[^1]\n- **सुरक्षा:** core biometric information किसी के साथ साझा नहीं (धारा 29)।[^1]\n- **सज़ा:** Aadhaar से जुड़े अपराधों के नियम धारा 34 से 47 में।[^1]\n\n## Aadhaar Act कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "pss-act",
+      "term": "PSS Act",
+      "aliases": [
+        "Payment and Settlement Systems Act",
+        "Payment and Settlement Systems Act, 2007"
+      ],
+      "full": "पेमेंट एंड सेटलमेंट सिस्टम्स एक्ट, 2007 · भुगतान व्यवस्थाओं का क़ानून",
+      "fullEn": "The Payment and Settlement Systems Act, 2007",
+      "group": "भुगतान",
+      "created": "2026-10-09",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-09",
+          "t": "पन्ना बना। India Code पर The Payment and Settlement Systems Act, 2007 के पाठ (\"As on the 20th August, 2026\") के शीर्षक, धारा 1, 1(3) का फ़ुटनोट, 2(1)(c), 2(1)(i), 3, 4(1), 5, 7, 10A, 17, 18, 23A, 24, 25 और 26(1) से जाँचा।"
+        }
+      ],
+      "one": "PSS Act यानी Payment and Settlement Systems Act, 2007 (Act No. 51 of 2007)। यह भारत में payment systems के नियमन और निगरानी का क़ानून है, और इसके तहत RBI इसके लिए नामित प्राधिकरण (designated authority) है। RBI को छोड़कर कोई भी RBI के authorisation के बिना payment system शुरू या चला नहीं सकता।",
+      "facts": [
+        {
+          "k": "Act No.",
+          "v": "51 of 2007",
+          "s": "India Code"
+        },
+        {
+          "k": "लागू",
+          "v": "12 अगस्त 2008",
+          "s": "धारा 1(3) का फ़ुटनोट"
+        },
+        {
+          "k": "नियामक",
+          "v": "RBI",
+          "s": "धारा 3(1)"
+        },
+        {
+          "k": "Electronic transfer लौटना",
+          "v": "धारा 25",
+          "s": "2 साल तक जेल या रक़म का दोगुना जुर्माना"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Payment system चलाने वाला",
+            "s": "RBI को अर्ज़ी (धारा 5)"
+          },
+          {
+            "t": "RBI",
+            "s": "authorisation, नियम और निर्देश"
+          },
+          {
+            "t": "Bank और ग्राहक",
+            "s": "authorised system से भुगतान"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Authorisation",
+            "s": "धारा 4, 7"
+          },
+          {
+            "b": "निगरानी",
+            "s": "धारा 17, 18"
+          }
+        ],
+        "note": "धारा 4(1) के मुताबिक RBI को छोड़कर कोई भी व्यक्ति RBI के दिए authorisation के बिना payment system शुरू या चला नहीं सकता। धारा 18 के मुताबिक RBI payment systems के नियमन के लिए नीतियाँ बना सकता है और system providers, system participants या किसी और को लिखित निर्देश दे सकता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Electronic transfer या auto-debit खाते में पैसा कम होने से लौट जाए, तो कोई क़ानूनी नतीजा नहीं होता।\"",
+          "f": "ग़लत। धारा 25 के मुताबिक किसी क़र्ज़ या देनदारी के भुगतान के लिए शुरू किया गया electronic funds transfer खाते में पैसा कम होने से न हो पाए, तो पाने वाला bank से जानकारी मिलने के 30 दिन के अंदर लिखित notice दे सकता है। Notice मिलने के 15 दिन में भुगतान न हो, तो दो साल तक की जेल या transfer की रक़म के दोगुने तक जुर्माना या दोनों हो सकते हैं।[^1]"
+        },
+        {
+          "m": "\"Payment app या card कंपनी कोई भी शुरू कर सकता है।\"",
+          "f": "नहीं। धारा 4(1) के मुताबिक RBI को छोड़कर कोई भी RBI के authorisation के बिना payment system शुरू या चला नहीं सकता। धारा 2(1)(i) के Explanation के मुताबिक payment system में credit card, debit card, smart card और money transfer जैसे काम चलाने वाले systems भी आते हैं। धारा 26(1) के मुताबिक इसका उल्लंघन करने पर कम से कम एक महीने से दस साल तक की जेल, या ₹1 करोड़ तक जुर्माना, या दोनों हो सकते हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "PSS Act का पूरा नाम क्या है?",
+          "a": "The Payment and Settlement Systems Act, 2007 (धारा 1(1))।[^1]"
+        },
+        {
+          "q": "यह क़ानून कब से लागू है?",
+          "a": "India Code के पाठ में धारा 1(3) के फ़ुटनोट के मुताबिक 12 अगस्त 2008 से।[^1]"
+        },
+        {
+          "q": "Payment system किसे कहते हैं?",
+          "a": "धारा 2(1)(i) के मुताबिक वह system, जिससे भुगतान करने वाले और पाने वाले के बीच भुगतान होता है, जिसमें clearing, payment या settlement की सेवा (या ये सब) शामिल हो; stock exchange इसमें नहीं आता। इसमें credit card, debit card, smart card और money transfer जैसे काम चलाने वाले systems भी शामिल हैं।[^1]"
+        },
+        {
+          "q": "Electronic funds transfer में क्या-क्या आता है?",
+          "a": "धारा 2(1)(c) के मुताबिक किसी व्यक्ति के निर्देश पर bank में खाते से electronic तरीक़े से पैसे का debit या credit, जिसमें point of sale transfer, ATM लेनदेन, सीधे जमा या निकासी, और telephone, internet और card से शुरू किए गए transfer शामिल हैं।[^1]"
+        },
+        {
+          "q": "Payments Regulatory Board क्या है?",
+          "a": "धारा 3 के मुताबिक RBI इस Act के तहत अपने अधिकार और काम Payments Regulatory Board के ज़रिए करता है। इसमें RBI Governor (अध्यक्ष), payment and settlement systems के प्रभारी Deputy Governor, Central Board का नामित एक RBI अधिकारी और केंद्र सरकार के नामित तीन लोग होते हैं। India Code के पाठ के मुताबिक यह अध्याय 9 मई 2025 से लागू है।[^1]"
+        },
+        {
+          "q": "क्या electronic भुगतान पर bank charge ले सकता है?",
+          "a": "धारा 10A के मुताबिक कोई bank या system provider उन electronic तरीक़ों से भुगतान करने या पाने वाले पर सीधे या परोक्ष रूप से कोई charge नहीं लगा सकता, जिन्हें केंद्र सरकार notification से तय करे। यह शब्द-रचना India Code के पाठ के मुताबिक 17 अगस्त 2026 से है।[^1]"
+        },
+        {
+          "q": "Wallet जैसी कंपनियों के पास ग्राहकों का पैसा कितना सुरक्षित है?",
+          "a": "धारा 23A के मुताबिक RBI ग्राहकों के हित में तय payment systems के system provider से कह सकता है कि वह ग्राहकों से जमा हुई और बकाया रक़म का तय प्रतिशत किसी scheduled commercial bank में अलग खाते में रखे, या liquid assets के रूप में रखे; इस रक़म का इस्तेमाल सिर्फ़ उस payment service से जुड़ी देनदारियाँ चुकाने में हो सकता है।[^1]"
+        },
+        {
+          "q": "Payment system में विवाद हो, तो क्या होता है?",
+          "a": "धारा 24 के मुताबिक system participants के बीच विवाद system provider के बनाए कम से कम तीन दूसरे participants के panel में जाता है। Participant और system provider के बीच विवाद, या panel के फ़ैसले से असंतुष्ट होने पर, मामला RBI के पास जाता है, और RBI का फ़ैसला अंतिम और बाध्यकारी होता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "NPCI"
+        },
+        {
+          "t": "Wallet"
+        },
+        {
+          "t": "AutoPay"
+        },
+        {
+          "t": "NI Act"
+        },
+        {
+          "t": "RBI Act"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Payment and Settlement Systems Act, 2007 (Act No. 51 of 2007), पाठ \"As on the 20th August, 2026\"",
+          "url": "https://indiacode.gov.in/act/0c440dd4-d439-42ba-bced-6945512eb9b0",
+          "used": [
+            {
+              "ref": "शीर्षक, धारा 1, 1(3) फ़ुटनोट",
+              "c": "मक़सद; नाम; 12 अगस्त 2008 से लागू"
+            },
+            {
+              "ref": "धारा 2(1)(c), 2(1)(i)",
+              "c": "electronic funds transfer; payment system"
+            },
+            {
+              "ref": "धारा 3",
+              "c": "RBI नामित प्राधिकरण; Payments Regulatory Board (9 मई 2025 से)"
+            },
+            {
+              "ref": "धारा 4(1), 5, 7, 26(1)",
+              "c": "बिना authorisation payment system नहीं; अर्ज़ी; authorisation; सज़ा"
+            },
+            {
+              "ref": "धारा 10A",
+              "c": "तय electronic तरीक़ों पर charge नहीं (17 अगस्त 2026 से)"
+            },
+            {
+              "ref": "धारा 17, 18",
+              "c": "RBI की नीतियाँ और निर्देश"
+            },
+            {
+              "ref": "धारा 23A",
+              "c": "ग्राहकों के पैसे की सुरक्षा"
+            },
+            {
+              "ref": "धारा 24",
+              "c": "विवाद का निपटारा"
+            },
+            {
+              "ref": "धारा 25",
+              "c": "electronic transfer लौटने पर सज़ा; 30 दिन, 15 दिन"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPSS Act यानी Payment and Settlement Systems Act, 2007।[^1] Act के शीर्षक (long title) के मुताबिक यह भारत में payment systems के नियमन और निगरानी के लिए, और RBI को इसके लिए प्राधिकरण बनाने के लिए है। धारा 3(1) के मुताबिक RBI इसका नामित प्राधिकरण (designated authority) है।[^1]\n\n- **Authorisation:** RBI को छोड़कर कोई भी बिना authorisation payment system नहीं चला सकता (धारा 4)।[^1]\n- **निर्देश:** RBI नीतियाँ बना सकता है और निर्देश दे सकता है (धारा 17, 18)।[^1]\n- **ग्राहक का पैसा:** RBI तय कर सकता है कि ग्राहकों का पैसा अलग रखा जाए (धारा 23A)।[^1]\n- **Transfer लौटना:** पैसा कम होने से electronic transfer लौटने पर सज़ा का नियम (धारा 25)।[^1]\n\n## PSS Act कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
