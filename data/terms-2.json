@@ -1320,6 +1320,162 @@
         }
       ],
       "body": "## मतलब\n\nBNSS, यानी Bharatiya Nagarik Suraksha Sanhita, 2023, फ़ौजदारी प्रक्रिया का क़ानून है।[^1] इसकी धारा 531 ने Code of Criminal Procedure, 1973 (CrPC) को रद्द किया, और India Code के मुताबिक यह 1 जुलाई 2024 से लागू है।[^1]\n\n- **FIR:** धारा 173।[^1]\n- **दस्तावेज़ माँगना:** धारा 94।[^1]\n- **ज़ब्ती:** धारा 106।[^1]\n\n## पुलिस के अहम अधिकार | पुलिस\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- संज्ञेय अपराध की सूचना देनी हो, तो किसी भी थाने के प्रभारी को दी जा सकती है, और दर्ज सूचना की मुफ़्त copy माँगिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "msf",
+      "term": "MSF",
+      "aliases": [
+        "Marginal Standing Facility",
+        "MSF rate"
+      ],
+      "full": "मार्जिनल स्टैंडिंग फ़ैसिलिटी",
+      "fullEn": "Marginal Standing Facility",
+      "group": "बैंकिंग",
+      "created": "2026-10-09",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-09",
+          "t": "पन्ना बना। RBI के Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio Directions, 2025 (Updated as on August 25, 2026) के पैरा 3, 6(18), 25 और 26, और RBI की 7 अक्टूबर 2026 की MPC resolution से जाँचा।"
+        }
+      ],
+      "one": "MSF का पूरा नाम Marginal Standing Facility है। RBI के मुताबिक यह वह सुविधा है, जिसमें पात्र bank RBI से रातभर (overnight) के लिए पैसा उधार ले सकते हैं, अपनी ज़रूरी SLR holding में से भी, एक तय सीमा तक। इसकी ब्याज दर, यानी MSF rate, LAF repo rate से ऊपर रहती है; 7 अक्टूबर 2026 की MPC resolution के बाद यह 5.75% है।",
+      "facts": [
+        {
+          "k": "MSF rate",
+          "v": "5.75%",
+          "s": "7 अक्टूबर 2026 की MPC resolution"
+        },
+        {
+          "k": "Repo rate",
+          "v": "5.50%",
+          "s": "उसी resolution में"
+        },
+        {
+          "k": "सीमा",
+          "v": "NDTL का 2% तक",
+          "s": "पैरा 26(1)"
+        },
+        {
+          "k": "SLR",
+          "v": "NDTL का कम से कम 18%",
+          "s": "पैरा 25"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank को पैसे की ज़रूरत",
+            "s": "रातभर के लिए"
+          },
+          {
+            "t": "MSF से उधार",
+            "s": "SLR securities के बदले"
+          },
+          {
+            "t": "MSF rate पर ब्याज",
+            "s": "repo rate से ऊपर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "RBI से",
+            "s": "पैरा 6(18)"
+          },
+          {
+            "b": "ब्याज",
+            "s": "पैरा 6(18); MPC resolution"
+          }
+        ],
+        "note": "RBI के निर्देशों के मुताबिक MSF में पात्र bank अपनी ज़रूरत से ज़्यादा SLR holding के बदले, और ज़रूरी SLR में से भी एक तय सीमा तक, RBI से रातभर के लिए पैसा ले सकते हैं। इस पर ब्याज LAF repo rate से ऊपर की दर पर लगता है, जो RBI तय करता है।"
+      },
+      "myths": [
+        {
+          "m": "\"MSF से आम लोग RBI से loan ले सकते हैं।\"",
+          "f": "नहीं। RBI के निर्देशों के पैरा 6(18) और 26 के मुताबिक MSF पात्र banks के लिए है, जिन्हें RBI ने इसमें शामिल होने की इजाज़त दी हो।[^1]"
+        },
+        {
+          "m": "\"MSF rate और repo rate एक ही हैं।\"",
+          "f": "नहीं। पैरा 6(18) के मुताबिक MSF की ब्याज दर LAF repo rate से ऊपर रहती है।[^1] 7 अक्टूबर 2026 की MPC resolution के मुताबिक policy repo rate 5.50% और MSF rate 5.75% है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "MSF का पूरा नाम क्या है?",
+          "a": "MSF का पूरा नाम Marginal Standing Facility है।[^1]"
+        },
+        {
+          "q": "अभी MSF rate कितना है?",
+          "a": "RBI की 7 अक्टूबर 2026 की MPC resolution के मुताबिक policy repo rate 25 basis points बढ़ाकर 5.50% किया गया, और इसके साथ MSF rate और Bank Rate 5.75% हो गए।[^2]"
+        },
+        {
+          "q": "Bank MSF से कितना उधार ले सकता है?",
+          "a": "पैरा 26(1) के मुताबिक पात्र bank दूसरे पिछले पखवाड़े (fortnight) के आख़िर में अपनी NDTL (net demand and time liabilities) के दो प्रतिशत तक उधार ले सकते हैं; पैरा 26(2) के मुताबिक अपनी ज़रूरत से ज़्यादा SLR holding के बदले भी रातभर के लिए पैसा ले सकते हैं।[^1]"
+        },
+        {
+          "q": "MSF लेने से SLR कम हो जाए, तो क्या होता है?",
+          "a": "पैरा 26(3) के मुताबिक इस सुविधा के इस्तेमाल से bank की SLR holding ज़रूरी सीमा से NDTL के दो प्रतिशत तक नीचे जाए, तो bank को SLR में चूक के लिए अलग से छूट (waiver) नहीं माँगनी पड़ती।[^1]"
+        },
+        {
+          "q": "SLR कितना रखना होता है?",
+          "a": "पैरा 25 के मुताबिक हर bank को हर दिन कारोबार ख़त्म होने पर SLR assets कम से कम अपनी कुल NDTL के 18 प्रतिशत के बराबर रखने होते हैं (दूसरे पिछले पखवाड़े के आख़िरी दिन की NDTL पर)।[^1]"
+        },
+        {
+          "q": "ये निर्देश किन banks पर लागू हैं?",
+          "a": "पैरा 3 के मुताबिक commercial banks पर; Small Finance Banks, Local Area Banks और Payments Banks इनमें शामिल नहीं हैं।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "Bank Rate"
+        },
+        {
+          "t": "MPC"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (RBI/DOR/2025-26/150; Updated as on August 25, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/150MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "किन banks पर लागू"
+            },
+            {
+              "ref": "पैरा 6(18)",
+              "c": "MSF की परिभाषा; ब्याज LAF repo rate से ऊपर"
+            },
+            {
+              "ref": "पैरा 25",
+              "c": "SLR कम से कम NDTL का 18%"
+            },
+            {
+              "ref": "पैरा 26",
+              "c": "MSF scheme: NDTL के 2% तक; ज़्यादा SLR के बदले; waiver नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Monetary Policy Statement, 2026-27: Resolution of the Monetary Policy Committee, October 5 to 7, 2026 (press release 2026-2027/1264, 7 अक्टूबर 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1264BEFCD8B9DE724239B1746EC9020C02AF.PDF",
+          "issued": "2026-10-07",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "policy repo rate 5.50%; MSF rate और Bank Rate 5.75%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nMSF का पूरा नाम Marginal Standing Facility है।[^1] RBI के निर्देशों के मुताबिक इसमें पात्र bank RBI से रातभर के लिए पैसा उधार ले सकते हैं, अपनी ज़रूरत से ज़्यादा SLR holding के बदले, और ज़रूरी SLR में से भी NDTL के दो प्रतिशत तक।[^1]\n\n- **ब्याज:** MSF rate, जो LAF repo rate से ऊपर रहता है।[^1]\n- **अभी:** 7 अक्टूबर 2026 की MPC resolution के बाद MSF rate 5.75%।[^2]\n\n## MSF कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
