@@ -4578,6 +4578,454 @@
         }
       ],
       "body": "## मतलब\n\nDICGC यानी Deposit Insurance and Credit Guarantee Corporation। यह Deposit Insurance and Credit Guarantee Corporation Act, 1961 के तहत बना Corporation है, जो insured banks में रखी जमा का बीमा करता है।[^2]\n\nRBI के मुताबिक DICGC उसकी wholly owned subsidiary है।[^3]\n\nएक bank में हर जमाकर्ता की जमा पर, मूलधन और ब्याज मिलाकर, ₹5 लाख तक का बीमा है। यह सीमा 4 फ़रवरी 2020 से है; इससे पहले ₹1 लाख थी।[^1][^3]\n\n## क्या बीमे में आता है | क्या आता है\n\n- **कौन-से banks:** सभी commercial banks, जिनमें भारत में काम कर रहे विदेशी banks की शाखाएँ, local area banks और regional rural banks शामिल हैं। इस समय सभी co-operative banks भी DICGC के बीमे में हैं। Primary cooperative societies का बीमा DICGC नहीं करता।[^1]\n- **कौन-सी जमा:** savings, fixed, current, recurring जैसी सभी जमा।[^1]\n- **कौन-सी जमा नहीं:** विदेशी सरकारों की जमा; केंद्र और राज्य सरकारों की जमा; inter-bank जमा; भारत के बाहर ली गई जमा; और वह रकम, जिसे DICGC ने RBI की मंज़ूरी से ख़ास तौर पर छूट दी हो। DICGC के मुताबिक NBFC और Land Development Banks की जुटाई जमा, mutual funds, shares और bonds, ETF और cryptocurrency भी बीमे में नहीं आते।[^1]\n- **ब्याज भी, पर सीमा के अंदर:** मूलधन ₹4,95,000 और ब्याज ₹4,000 हो, तो ₹4,99,000 का बीमा है। मूलधन ही ₹5 लाख हो, तो ब्याज बीमे में नहीं आता।[^1]\n- **Premium:** जमा बीमे का premium पूरा insured bank उठाता है। योजना अनिवार्य है; कोई bank इससे बाहर नहीं निकल सकता।[^1]\n\n## ₹5 लाख की सीमा कैसे गिनी जाती है | सीमा कैसे गिनती है\n\n- **एक bank, सभी शाखाएँ:** एक bank की अलग-अलग शाखाओं में रखी जमा जोड़ी जाती है, और कुल ₹5 लाख तक ही मिलते हैं।[^1]\n- **अलग bank, अलग सीमा:** एक से ज़्यादा banks में जमा हो, तो हर bank की जमा पर सीमा अलग लगती है।[^1]\n- **एक ही हैसियत के खाते:** एक व्यक्ति के अपने नाम के सभी खाते (savings, current, FD या recurring) एक ही हैसियत और एक ही अधिकार के माने जाते हैं और जोड़े जाते हैं।[^1]\n- **अलग हैसियत के खाते:** firm के partner, नाबालिग के guardian, company के director या trust के trustee के तौर पर, या किसी के साथ joint खाते में रखी जमा अलग हैसियत की मानी जाती है, और उस पर ₹5 लाख तक का बीमा अलग से मिलता है।[^1]\n- **Proprietor:** sole proprietor की proprietary concern की जमा और उसकी अपनी जमा जोड़ी जाती हैं।[^1]\n- **Joint खाते:** जिन joint खातों में नाम एक ही क्रम में हों, वे जोड़े जाते हैं। नाम का क्रम अलग हो, या लोग अलग हों, तो हर ऐसे joint खाते पर सीमा अलग लगती है।[^1]\n- **Bank का बकाया:** bank अपना बकाया जमा में से set off कर सकता है; बीमा उसे घटाने के बाद की रकम पर मिलता है।[^1][^2]\n\n## पैसा कब और कैसे मिलता है | पैसा कब मिलता है\n\n::flow\n\n- **निकासी पर पाबंदी लगे:** Banking Regulation Act, 1949 के तहत ऐसा निर्देश या आदेश आए, जो जमाकर्ताओं को अपनी जमा तक पहुँचने से रोके, तो DICGC उसी तारीख़ से भुगतान के लिए ज़िम्मेदार हो जाता है। यह नियम 1 सितंबर 2021 से लागू है।[^2]\n- **90 दिन का हिसाब:** bank 45 दिन के अंदर जमा की सूची देता है। DICGC 30 दिन के अंदर दावों की जाँच करता है और हर जमाकर्ता से पूछता है कि वह रकम लेना चाहता है या नहीं। इसके 15 दिन के अंदर वह भुगतान करता है, सीधे या bank के ज़रिए खाते में। कुल समय 90 दिन से ज़्यादा नहीं हो सकता।[^2]\n- **अवधि कब बढ़ती है:** RBI को bank के विलय या पुनर्गठन की scheme तय करने के लिए ज़रूरी लगे, तो DICGC की देनदारी शुरू होने की तारीख़ 90 दिन तक आगे बढ़ाई जा सकती है। भुगतान से पहले RBI पाबंदी हटा दे और bank बिना रोक के जमा लौटाने की हालत में हो, तो DICGC भुगतान के लिए ज़िम्मेदार नहीं रहता।[^2]\n- **Liquidation हो:** liquidator को काम सँभालने के तीन महीने के अंदर जमा की सूची देनी होती है, और DICGC सूची मिलने के दो महीने के अंदर भुगतान करता है।[^2] DICGC के मुताबिक वह रकम liquidator को देता है, और liquidator जमाकर्ताओं को।[^1]\n- **विलय या पुनर्गठन हो:** DICGC जमा की पूरी रकम या बीमे की सीमा, जो कम हो, और scheme में जमाकर्ता को मिली रकम के बीच का फ़र्क़ देता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Insured bank में, एक ही हैसियत में रखी आपकी जमा पर, मूलधन और ब्याज मिलाकर, ₹5 लाख तक का बीमा है।[^1]\n\n- **90 दिन:** Banking Regulation Act के तहत लगी पाबंदी से जमा निकालने पर रोक लगे, तो DICGC को कुल 90 दिन के अंदर भुगतान करना है; यह अवधि सिर्फ़ ऊपर बताए हालात में बढ़ती है।[^2]\n- **कोई premium नहीं:** बीमे का premium bank उठाता है।[^1]\n\n## अभी क्या करें\n\n- जान लीजिए कि आपका bank insured है या नहीं; DICGC insured banks को शाखा में लगाने के लिए leaflets देता है, और शक हो तो शाखा के अधिकारी से पूछा जा सकता है।[^1]\n- एक bank में अपनी सभी शाखाओं और खातों की जमा जोड़कर देखिए; ₹5 लाख की सीमा इसी जोड़ पर लगती है।[^1]\n- Bank में जमा निकालने पर पाबंदी लगे, तो DICGC के पूछने पर बताइए कि आप रकम लेना चाहते हैं; भुगतान उन्हीं जमाकर्ताओं को होता है, जो यह रज़ामंदी जताते हैं।[^2]\n- Bank का आप पर कोई बकाया हो, तो याद रखिए कि बीमे की रकम उसे घटाकर गिनी जाती है।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "replaces": true,
+      "id": "acquiring-bank",
+      "term": "Acquiring bank",
+      "full": "Acquirer · दुकानदार की तरफ़ का bank",
+      "fullEn": "Acquiring bank (Acquirer)",
+      "group": "भुगतान",
+      "created": "2026-10-07",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI के चर्चा-पत्र (Charges in Payment Systems), RBI की glossary, NPCI के MDR FAQ (15 सितंबर 2026) और NPCI के शिकायत वाले पन्ने से जाँचा।"
+        },
+        {
+          "d": "2026-10-09",
+          "t": "सुधार: RBI की payment systems glossary वाला स्रोत हटाया, क्योंकि वह पन्ना phone पर RBI का home page खोल देता था। MDR दुकानदार अपने acquiring bank को देता है, यह बात अब RBI के चर्चा-पत्र (पैरा 6.3 (i)) से है, जो आज दोबारा पढ़ा। बाक़ी स्रोतों के नंबर एक-एक घटे।"
+        }
+      ],
+      "one": "Acquiring bank दुकानदार की तरफ़ का bank है, जो उसे card या UPI जैसे digital भुगतान लेने की सुविधा देता है। दुकानदार MDR इसी को देता है।",
+      "facts": [
+        {
+          "k": "किसकी तरफ़ का bank",
+          "v": "दुकानदार की",
+          "s": "card या wallet जारी करने वाला 'issuer' कहलाता है"
+        },
+        {
+          "k": "MDR किसे मिलता है",
+          "v": "Acquiring bank",
+          "s": "दुकानदार से लिया जाता है"
+        },
+        {
+          "k": "₹3,000 के UPI भुगतान पर",
+          "v": "₹12",
+          "s": "MDR, जो दुकानदार अपने acquiring bank को देता है"
+        },
+        {
+          "k": "ग्राहक से MDR",
+          "v": "नहीं",
+          "s": "UPI में दुकानदार इसे ग्राहक से नहीं वसूल सकता",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "ग्राहक",
+            "s": "card या UPI से भुगतान"
+          },
+          {
+            "t": "Acquiring bank",
+            "s": "दुकानदार के लिए भुगतान स्वीकार कराता है"
+          },
+          {
+            "t": "दुकानदार",
+            "s": "रक़म उसके खाते में"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "भुगतान",
+            "s": "payment system से होकर"
+          },
+          {
+            "b": "Settlement",
+            "s": "MDR घटाकर"
+          }
+        ],
+        "note": "MDR आम तौर पर settlement के समय, दुकानदार को मिलने वाली रक़म में से घटाकर लिया जाता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Acquiring bank ग्राहक का bank होता है।\"",
+          "f": "नहीं। यह दुकानदार की तरफ़ का bank है। RBI के चर्चा-पत्र के मुताबिक MDR वह शुल्क है, जो acquirer दुकानदार से वसूलता है; यह आम तौर पर settlement के समय भुगतान की रक़म में से कटता है।[^1]"
+        },
+        {
+          "m": "\"MDR ग्राहक को देना पड़ता है।\"",
+          "f": "नहीं। MDR दुकानदार अपने acquiring bank को देता है।[^1] UPI में दुकानदार इसे ग्राहक से नहीं वसूल सकता।[^2]"
+        },
+        {
+          "m": "\"Acquirer हमेशा bank ही होता है।\"",
+          "f": "ज़रूरी नहीं। RBI के चर्चा-पत्र के मुताबिक payment acquirer bank भी हो सकता है और non-bank संस्था भी।[^1]"
+        },
+        {
+          "m": "\"पूरा MDR acquiring bank अपने पास रख लेता है।\"",
+          "f": "नहीं। RBI के चर्चा-पत्र के मुताबिक acquirer का लिया हुआ MDR भुगतान में सेवा देने वालों (acquirer समेत) और intermediaries में बँटता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Issuer और acquirer में क्या फ़र्क़ है?",
+          "a": "Issuer वह bank या non-bank संस्था है जो card या wallet जैसा payment instrument जारी करती है। Acquirer वह है जो दुकानदार के लिए उस instrument से भुगतान लेना संभव बनाता है। तीन पक्षों वाली card व्यवस्था में issuer और acquirer एक ही होते हैं।"
+        },
+        {
+          "q": "क्या payment aggregator ही acquiring bank है?",
+          "a": "RBI के चर्चा-पत्र के मुताबिक payment aggregator और payment gateway 'intermediaries' हैं, जो दुकानदारों को जोड़ने के ढाँचे का हिस्सा हैं। Acquirer रक़म सीधे दुकानदार को देता है, या ऐसे intermediary को, जब दुकानदार उसके ज़रिए जुड़ा हो।"
+        },
+        {
+          "q": "UPI में दुकानदार को MDR कब से और कितना देना है?",
+          "a": "NPCI के मुताबिक 15 अक्टूबर 2026 से ₹2,000 से ऊपर के P2M भुगतान पर 0.4% MDR लगेगा। ₹75,000 और उससे ऊपर के भुगतान पर यह अधिकतम ₹300 है। ₹2,000 तक के भुगतान पर MDR नहीं है।"
+        },
+        {
+          "q": "क्या दुकानदार को QR या soundbox बदलना होगा?",
+          "a": "नहीं। NPCI के मुताबिक मौजूदा QR और soundbox पहले की तरह चलते रहेंगे। इसके लिए bank की शाखा जाने या software बदलने की ज़रूरत नहीं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "MDR"
+        },
+        {
+          "t": "P2M"
+        },
+        {
+          "t": "P2PM"
+        },
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "NPCI"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Payment Aggregator"
+        }
+      ],
+      "article": "upi-mdr-15-october",
+      "articleLabel": "15 अक्टूबर से UPI महँगा हो जाएगा? नहीं",
+      "sources": [
+        {
+          "label": "RBI — Discussion Paper on Charges in Payment Systems (चर्चा-पत्र है, नियम नहीं; राय देने की आख़िरी तारीख़ 3 अक्टूबर 2022 थी)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/DPSSDISCUSSIONPAPER5E016622B2D3444A9F294D07234059AA.PDF",
+          "used": [
+            {
+              "ref": "पैरा 5.3",
+              "c": "merchant payment में तीन मुख्य सेवा देने वाले: issuer, acquirer और payment system चलाने वाला; card और UPI में; तीन पक्षों वाली card व्यवस्था में issuer और acquirer एक"
+            },
+            {
+              "ref": "पैरा 5.4 (ii), (iii)",
+              "c": "issuer और acquirer कौन हैं; bank या non-bank; acquirer भुगतान लेना संभव बनाता है और settlement कराता है"
+            },
+            {
+              "ref": "पैरा 5.4 (iv)",
+              "c": "payment aggregator और payment gateway intermediaries हैं"
+            },
+            {
+              "ref": "पैरा 6.3 (i)",
+              "c": "MDR acquirer दुकानदार से लेता है; आम तौर पर settlement के समय घटता है; कई पक्षों में बँटता है"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions, FAQs, 15 September 2026",
+          "url": "https://www.npci.org.in/uploads/FA_Qs_Merchant_Discount_Rate_MDR_on_Select_UPI_P2_M_Transactions_58dba1d39e.pdf",
+          "issued": "2026-09-15",
+          "effective": "2026-10-15",
+          "used": [
+            {
+              "ref": "Q35",
+              "c": "₹3,000 के भुगतान पर ₹12 MDR, जो दुकानदार अपने acquiring bank को देता है"
+            },
+            {
+              "ref": "Q34",
+              "c": "दुकानदार MDR ग्राहक से नहीं वसूल सकता; ग्राहक लिखी हुई कीमत देता है"
+            },
+            {
+              "ref": "Q29",
+              "c": "acquiring bank P2PM दुकानदारों की ₹1 लाख महीने की सीमा पर नज़र रखते हैं; लगातार 3 महीने ऊपर हो तो श्रेणी P2M"
+            },
+            {
+              "ref": "Q26",
+              "c": "P2PM दुकानदार पर ₹2,000 से ऊपर के भुगतान पर भी MDR नहीं"
+            },
+            {
+              "ref": "Q5, Q31, Q32",
+              "c": "15 अक्टूबर 2026 से; ₹2,000 से ऊपर 0.4%; ₹75,000 और ऊपर अधिकतम ₹300"
+            },
+            {
+              "ref": "Q25",
+              "c": "मौजूदा QR और soundbox बदलने की ज़रूरत नहीं"
+            },
+            {
+              "ref": "Q9",
+              "c": "छोटे दुकानदारों को जोड़ने के लिए acquiring banks और payment aggregators को प्रस्तावित fund से मदद"
+            }
+          ]
+        },
+        {
+          "label": "NPCI — UPI Dispute Redressal Mechanism (पन्ने पर तारीख़ नहीं है)",
+          "url": "https://www.npci.org.in/upi-complaint",
+          "used": [
+            {
+              "ref": "Disclaimer",
+              "c": "NPCI शिकायत उस bank को देता है जहाँ शिकायत करने वाले का खाता है; सुलझाने की ज़िम्मेदारी उसी की"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nAcquiring bank वह bank है, जो दुकानदार को digital भुगतान लेने की सुविधा देता है। RBI के एक चर्चा-पत्र के मुताबिक payment acquirer वे bank या non-bank संस्थाएँ हैं, जो payment instrument से भुगतान लेना संभव बनाती हैं और दुकानदार तक रक़म का settlement कराती हैं।[^1]\n\nदुकानदार को होने वाले भुगतान में तीन मुख्य सेवा देने वाले होते हैं: payment instrument जारी करने वाला (issuer), acquirer, और payment system चलाने वाला, जैसे card network या NPCI।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **दुकानदार हैं:** जो bank आपको digital भुगतान लेने की सुविधा देता है, वही आपका acquiring bank है। MDR आप इसी को देते हैं।[^1]\n- **ग्राहक हैं:** UPI में दुकानदार MDR आपसे नहीं वसूल सकता। आप सिर्फ़ लिखी हुई कीमत देते हैं।[^2]\n\n## Acquiring bank क्या करता है | काम\n\n- दुकानदार के लिए payment instrument से भुगतान लेना संभव बनाता है।[^1]\n- रक़म का settlement कराता है: सीधे दुकानदार को, या किसी intermediary (payment aggregator या payment gateway) को, जब दुकानदार उसके ज़रिए जुड़ा हो।[^1]\n- दुकानदार से MDR लेता है। यह रक़म भुगतान में सेवा देने वालों और intermediaries में बँटती है।[^1]\n- UPI में P2PM श्रेणी के दुकानदारों पर नज़र रखता है कि महीने में ₹1 लाख से ज़्यादा तो नहीं आ रहा। लगातार 3 महीने ₹1 लाख से ऊपर आए, तो दुकानदार की श्रेणी P2M हो जाती है।[^2]\n\n## MDR और acquiring bank | MDR\n\n::flow\n\n- RBI के चर्चा-पत्र के मुताबिक MDR वह शुल्क है, जो acquirer दुकानदार से वसूलता है; यह आम तौर पर settlement के समय भुगतान की रक़म में से कटता है।[^1]\n- UPI में 15 अक्टूबर 2026 से ₹2,000 से ऊपर के P2M भुगतान पर 0.4% MDR है। NPCI का उदाहरण: ₹3,000 के भुगतान पर ₹12, जो दुकानदार अपने acquiring bank को देता है।[^2]\n- छोटे दुकानदारों को UPI से जोड़ने के लिए acquiring banks और payment aggregators को एक प्रस्तावित fund से मदद देने की बात है। इसका ढाँचा RBI से सलाह करके तय होना है।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> UPI में दुकानदार MDR ग्राहक से नहीं वसूल सकता। ग्राहक सिर्फ़ लिखी हुई कीमत देता है।[^2]\n\n- P2PM श्रेणी के छोटे दुकानदार पर ₹2,000 से ऊपर का भुगतान आने पर भी MDR नहीं लगता।[^2]\n\n## अभी क्या करें\n\n- दुकानदार हैं, तो अपने acquiring bank से पूछ लीजिए कि आपका खाता P2PM श्रेणी में है या P2M में। यह श्रेणी वही देखता है।[^2]\n- ग्राहक हैं और बिल में UPI का charge अलग से जोड़ा जाए, तो याद रखिए: दुकानदार MDR आपसे नहीं वसूल सकता।[^2]\n- UPI भुगतान की शिकायत हो, तो अपने bank से कीजिए। NPCI भी शिकायत उसी bank को देता है, जहाँ शिकायत करने वाले का खाता है, और उसे सुलझाने की ज़िम्मेदारी उसी bank की है।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "replaces": true,
+      "id": "cvv",
+      "term": "CVV",
+      "aliases": [
+        "Card Verification Value"
+      ],
+      "full": "Card Verification Value · card पर छपा 3 अंकों का number",
+      "fullEn": "Card Verification Value",
+      "group": "भुगतान",
+      "created": "2026-10-07",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-07",
+          "t": "पन्ना बना। RBI की जागरूकता पुस्तिका BE(A)WARE, RBI की press release (22 जून 2020) और RBI के tokenisation FAQ (11 मई 2023 को update) से जाँचा।"
+        },
+        {
+          "d": "2026-10-09",
+          "t": "सुधार: RBI के tokenisation FAQ (जो phone पर RBI का home page खोल देता था) की जगह RBI के दो निर्देश (8 जनवरी 2019 और 7 सितंबर 2021, दोनों PDF) स्रोत बनाए, जो आज पढ़े। उनके हिसाब से tokenisation वाली बातें लिखीं: token ग्राहक की साफ़ सहमति से बनता है, कोई शुल्क नहीं लिया जाना चाहिए, और card issuer और card network के अलावा कोई card की असली जानकारी नहीं रख सकता। RBI के 24 जून 2022 के press release (आज पढ़ा) से इस नियम की बढ़ी हुई समय-सीमा (30 सितंबर 2022) और token की मर्ज़ी वाली बात जोड़ी।"
+        }
+      ],
+      "one": "CVV आपके card पर छपा 3 अंकों का number है, जो ज़्यादातर online भुगतान पूरा करने के लिए ज़रूरी होता है। इसे कभी किसी को नहीं बताना है; bank भी इसे नहीं माँगता।",
+      "facts": [
+        {
+          "k": "कितने अंक",
+          "v": "3 अंक",
+          "s": "card पर छपा होता है"
+        },
+        {
+          "k": "कहाँ लगता है",
+          "v": "online भुगतान",
+          "s": "ज़्यादातर online लेनदेन पूरा करने के लिए ज़रूरी"
+        },
+        {
+          "k": "क्या bank CVV माँगता है",
+          "v": "नहीं",
+          "s": "RBI: bank और payment system operator कभी नहीं माँगते",
+          "good": true
+        },
+        {
+          "k": "card की जानकारी website पर save करें",
+          "v": "बचिए",
+          "s": "RBI की पुस्तिका की सलाह"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "जो आपके पास है",
+            "s": "card number, expiry date और CVV"
+          },
+          {
+            "t": "जो आप जानते हैं",
+            "s": "password, PIN या OTP"
+          },
+          {
+            "t": "पहचान",
+            "s": "दो अलग चीज़ें मिलाकर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "और",
+            "s": "दूसरी, अलग चीज़"
+          },
+          {
+            "b": "दोनों मिलाकर",
+            "s": "two-factor authentication"
+          }
+        ],
+        "note": "RBI की पुस्तिका के मुताबिक two-factor authentication में दो अलग चीज़ें मिलाकर user की पहचान होती है।"
+      },
+      "myths": [
+        {
+          "m": "\"Bank वाला CVV माँगे, तो बताना पड़ता है।\"",
+          "f": "नहीं। RBI के मुताबिक bank और payment system operator password, PIN, OTP या CVV number जैसी जानकारी कभी नहीं माँगते।[^2]"
+        },
+        {
+          "m": "\"CVV तो card पर ही छपा है, इसमें छिपाने जैसा क्या है।\"",
+          "f": "RBI की पुस्तिका के मुताबिक CVV गोपनीय है, और इसे कभी किसी को नहीं बताना है। यह ज़्यादातर online लेनदेन पूरा करने के लिए ज़रूरी होता है।[^1]"
+        },
+        {
+          "m": "\"घरवालों को card की जानकारी देने में कोई हर्ज नहीं।\"",
+          "f": "RBI की पुस्तिका कहती है कि PIN, password, card number और CVV दोस्तों और परिवार वालों से भी साझा नहीं करने हैं।[^1]"
+        },
+        {
+          "m": "\"हर website पर card save कर लेना ठीक है।\"",
+          "f": "RBI की पुस्तिका card की जानकारी website या device पर save करने से बचने की सलाह देती है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CVV का पूरा नाम क्या है?",
+          "a": "Card Verification Value।"
+        },
+        {
+          "q": "क्या हर online भुगतान में CVV लगता है?",
+          "a": "RBI की पुस्तिका के मुताबिक CVV 'ज़्यादातर' online लेनदेन पूरा करने के लिए ज़रूरी है। उसमें 'हर' लेनदेन नहीं लिखा है।"
+        },
+        {
+          "q": "Two-factor authentication क्या है?",
+          "a": "RBI की पुस्तिका के मुताबिक पहचान के तीन तरह के factor होते हैं: जो user जानता है (जैसे password या PIN), जो user के पास है (जैसे card number, expiry date और CVV), और जो user ख़ुद है (जैसे fingerprint)। Two-factor authentication में इनमें से दो अलग चीज़ें मिलाकर user की पहचान होती है।"
+        },
+        {
+          "q": "Tokenisation क्या है?",
+          "a": "RBI के 8 जनवरी 2019 के निर्देश के मुताबिक इसमें card की असली जानकारी की जगह एक अलग code इस्तेमाल होता है, जिसे token कहते हैं। RBI के 7 सितंबर 2021 के निर्देश के मुताबिक card जारी करने वाले bank और card network के अलावा कोई भी card की असली जानकारी अपने पास नहीं रख सकता। RBI के 24 जून 2022 के press release के मुताबिक यह नियम 31 दिसंबर 2021 के बाद लागू होना था, और इसकी समय-सीमा पहले 30 जून 2022 और फिर 30 सितंबर 2022 तक बढ़ाई गई।"
+        },
+        {
+          "q": "Tokenisation के बाद card की जानकारी कहाँ रहती है?",
+          "a": "RBI के 2019 के निर्देश के मुताबिक card की असली जानकारी, token और बाक़ी ज़रूरी ब्यौरा सुरक्षित तरीक़े से रखे जाते हैं, और token माँगने वाला (token requestor) card number या card की कोई और जानकारी अपने पास नहीं रख सकता। 2021 के निर्देश के मुताबिक card network के अलावा card जारी करने वाला bank भी token service provider बन सकता है, पर सिर्फ़ अपने जारी किए या अपने से जुड़े cards के लिए।"
+        },
+        {
+          "q": "CVV किसी को बता दिया, अब क्या करें?",
+          "a": "RBI की पुस्तिका के मुताबिक card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए: शाखा जाकर, या bank की website पर लिखे official customer care number पर call करके। फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "UPI PIN"
+        },
+        {
+          "t": "Vishing"
+        },
+        {
+          "t": "Fake Customer Care"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "article": "call-par-otp",
+      "articleLabel": "“Bank से बोल रहा हूँ, OTP बताइए” — call पर OTP माँगा जाए तो क्या करें?",
+      "sources": [
+        {
+          "label": "RBI — BE(A)WARE: A Booklet on Modus Operandi of Financial Fraudsters (पुस्तिका पर तारीख़ नहीं है; पन्ना संख्या पुस्तिका की है)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/BEAWARE07032022.pdf",
+          "used": [
+            {
+              "ref": "Glossary: CVV (पन्ना 32)",
+              "c": "Card Verification Value; card पर छपा 3 अंकों का number; ज़्यादातर online लेनदेन के लिए ज़रूरी; कभी किसी को नहीं बताना"
+            },
+            {
+              "ref": "Glossary: Card number (पन्ना 32)",
+              "c": "card number भुगतान के लिए merchant को देना होता है, और किसी को नहीं"
+            },
+            {
+              "ref": "Glossary: Two-factor authentication (पन्ना 32)",
+              "c": "पहचान के तीन तरह के factor; CVV 'जो user के पास है' में; दो अलग चीज़ें मिलाकर पहचान"
+            },
+            {
+              "ref": "Part C: General precautions (पन्ना 25)",
+              "c": "PIN, password, card number, CVV गोपनीय; card की जानकारी save करने से बचें; https और padlock"
+            },
+            {
+              "ref": "Part C: Debit / Credit cards (पन्ना 27–28)",
+              "c": "इस्तेमाल न हो तो card के online लेनदेन बंद करें; card नज़र से दूर न जाने दें"
+            },
+            {
+              "ref": "Part C: Actions after a fraud (पन्ना 27)",
+              "c": "card block, खाते से debit रुकवाना; 1930 या cybercrime.gov.in"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank sensitises members of public on safe use of digital transactions, press release 2019-2020/2534, 22 जून 2020",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49986",
+          "issued": "2020-06-22",
+          "used": [
+            {
+              "ref": "बिंदु (ii)",
+              "c": "Password, PIN, OTP, CVV, UPI-PIN किसी से साझा न करें"
+            },
+            {
+              "ref": "आख़िरी वाक्य",
+              "c": "bank और payment system operator password, PIN, OTP या CVV number कभी नहीं माँगते"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Tokenisation – Card transactions, circular RBI/2018-19/103 (DPSS.CO.PD No.1463/02.14.003/2018-19, 8 जनवरी 2019)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT103FB1ACF7FF52B4F77BF82BDE43375F3AE.PDF",
+          "issued": "2019-01-08",
+          "used": [
+            {
+              "ref": "Annex 1, पहला पैरा",
+              "c": "tokenisation: card की असली जानकारी की जगह एक अलग code (token)"
+            },
+            {
+              "ref": "पैरा 5",
+              "c": "इस सेवा के लिए ग्राहक से कोई शुल्क नहीं"
+            },
+            {
+              "ref": "Annex 1 (iii)",
+              "c": "card की असली जानकारी और token सुरक्षित तरीक़े से; token requestor card number या कोई और जानकारी नहीं रख सकता"
+            },
+            {
+              "ref": "Annex 1 (vii)",
+              "c": "card registration सिर्फ़ ग्राहक की साफ़ सहमति और AFA से; पहले से टिक किए box या अपने-आप चुनाव से नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Tokenisation – Card Transactions: Permitting Card-on-File Tokenisation (CoFT) Services, circular CO.DPSS.POLC.No.S-516/02-14-003/2021-22, 7 सितंबर 2021",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/DPSSCOFTBA69C3B5B8CC4025AD089456DD857C5F.PDF",
+          "issued": "2021-09-07",
+          "used": [
+            {
+              "ref": "पैरा 3 (b), (c)",
+              "c": "card जारी करने वाले bank भी token service provider; सिर्फ़ अपने जारी किए या जुड़े cards के लिए"
+            },
+            {
+              "ref": "पैरा 3 (e)",
+              "c": "token सिर्फ़ ग्राहक की साफ़ सहमति और card issuer के AFA से"
+            },
+            {
+              "ref": "पैरा 4 (a), (b)",
+              "c": "card issuer और card network के अलावा कोई card की असली जानकारी नहीं रख सकता; सिर्फ़ आख़िरी चार अंक और bank का नाम"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release 2022-2023/422: Reserve Bank of India encourages cardholders to tokenise their cards (24 जून 2022)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR4229D02AB650EE142A2BE7ECDA32954A0E0.PDF",
+          "issued": "2022-06-24",
+          "used": [
+            {
+              "ref": "पैरा 2, 5",
+              "c": "31 दिसंबर 2021 के बाद card issuer और network के अलावा कोई card data नहीं रख सकता; समय-सीमा 30 जून 2022, फिर 30 सितंबर 2022 तक बढ़ी"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "token बनवाना ग्राहक की मर्ज़ी; बाक़ी लोग card की जानकारी ख़ुद डालकर भुगतान कर सकते हैं (guest checkout)"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCVV यानी Card Verification Value। RBI की जागरूकता पुस्तिका BE(A)WARE के मुताबिक यह card पर छपा 3 अंकों का number है, जो ज़्यादातर online लेनदेन पूरा करने के लिए ज़रूरी होता है। यह गोपनीय है, और इसे कभी किसी को नहीं बताना है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **CVV किसी को मत बताइए:** RBI ने कहा है कि Password, PIN, OTP, CVV और UPI-PIN किसी से साझा न करें।[^2]\n- **Bank भी नहीं माँगता:** RBI के मुताबिक bank और payment system operator password, PIN, OTP या CVV number जैसी जानकारी कभी नहीं माँगते।[^2]\n- **Card number भी सँभालकर:** RBI की पुस्तिका के मुताबिक card number भुगतान के लिए merchant को देना होता है; उसके अलावा किसी से साझा नहीं करना है।[^1]\n\n## CVV कहाँ काम आता है | कहाँ काम आता है\n\n::flow\n\n- RBI की पुस्तिका के मुताबिक पहचान के तीन तरह के factor होते हैं: जो user जानता है (जैसे password या PIN); जो user के पास है (जैसे card number, expiry date और card पर छपा CVV); और जो user ख़ुद है (जैसे fingerprint)।[^1]\n- Two-factor authentication में इनमें से दो अलग चीज़ें मिलाकर user की पहचान होती है, ताकि लेनदेन पूरा हो सके।[^1]\n- इस बँटवारे में CVV \"जो user के पास है\" वाले हिस्से में आता है।[^1]\n\n## Card की जानकारी कैसे बचाएँ | कैसे बचाएँ\n\nRBI की पुस्तिका की सलाह:[^1]\n\n- PIN, password, card number और CVV गोपनीय रखिए। इन्हें bank, वित्तीय संस्थाओं, दोस्तों और परिवार वालों से भी साझा मत कीजिए।\n- Card की जानकारी website, device या public laptop / desktop पर save करने से बचिए।\n- Online भुगतान से पहले देखिए कि payment gateway सुरक्षित है: URL https:// से शुरू हो और उसके साथ ताले (padlock) का निशान हो।\n- Card कुछ समय इस्तेमाल नहीं करना है, तो उसके online लेनदेन (देश के और विदेश के, दोनों) बंद कर दीजिए, और ज़रूरत पड़ने पर ही चालू कीजिए।\n- दुकान पर card swipe होते समय उसे अपनी नज़र से दूर मत जाने दीजिए।\n\n## Tokenisation: card की असली जानकारी दिए बिना भुगतान | Tokenisation\n\n- RBI के मुताबिक tokenisation में card की असली जानकारी की जगह एक अलग code इस्तेमाल होता है, जिसे token कहते हैं।[^3]\n- RBI के 7 सितंबर 2021 के निर्देश के मुताबिक card जारी करने वाले bank और card network के अलावा card लेनदेन की कड़ी में कोई भी (जैसे merchant) card की असली जानकारी अपने पास नहीं रख सकता; हिसाब मिलाने के लिए सिर्फ़ card number के आख़िरी चार अंक और bank का नाम रखे जा सकते हैं।[^4] RBI के 24 जून 2022 के press release के मुताबिक यह नियम 31 दिसंबर 2021 के बाद लागू होना था; इसकी समय-सीमा पहले 30 जून 2022 और फिर 30 सितंबर 2022 तक बढ़ाई गई।[^5]\n- RBI के निर्देश के मुताबिक इस सुविधा के लिए ग्राहक से कोई शुल्क नहीं लिया जाना चाहिए। Card का token सिर्फ़ ग्राहक की साफ़ सहमति से, AFA (Additional Factor of Authentication, यानी अतिरिक्त पुष्टि) के बाद बनता है; पहले से टिक किए box या अपने-आप हुए चुनाव से नहीं।[^3][^4] RBI के मुताबिक token बनवाना ग्राहक की मर्ज़ी है; जो token नहीं बनवाना चाहते, वे पहले की तरह भुगतान के समय card की जानकारी ख़ुद डालकर लेनदेन कर सकते हैं (guest checkout)।[^5]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Bank और payment system operator आपसे password, PIN, OTP या CVV number नहीं माँगते।[^2]\n\n- Card का token आपकी साफ़ सहमति से ही बनता है, और इसके लिए आपसे कोई शुल्क नहीं लिया जाना चाहिए।[^3][^4]\n\n## अभी क्या करें\n\n- CVV किसी call, message या email पर मत बताइए।[^2]\n- जिस card का इस्तेमाल अभी नहीं हो रहा, उसके online लेनदेन बंद कर दीजिए।[^1]\n- ठगी हो जाए, तो card block कराइए और उससे जुड़े खाते से debit भी रुकवाइए; फिर 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
