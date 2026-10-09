@@ -221,6 +221,23 @@ button{font:inherit;color:inherit}
 .kx-ask{display:flex;align-items:flex-end;gap:10px;margin:0 0 16px}
 .kx-ask img{flex:none;width:96px;height:auto}
 .kx-bub{position:relative;margin-bottom:14px;background:#fff;color:#0A1A52;border-radius:16px 16px 16px 4px;padding:10px 14px;font-size:14.5px;font-weight:700;line-height:1.45}
+.mw-hero{display:grid;grid-template-columns:168px minmax(0,1fr);gap:14px;align-items:center;margin:26px 0 0}
+.mw-stage{position:relative;width:168px;height:160px}
+.mw-stage>img{position:absolute;left:27px;top:17px;width:112px;height:auto}
+.mw-stage.mw-live>img{visibility:hidden}
+.mw-svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.mw-side{min-width:0}
+.mw-ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.mw-ctl button{font:inherit;font-size:14px;font-weight:700;line-height:1;padding:10px 14px;border-radius:999px;cursor:pointer;min-height:40px}
+.mw-play{background:var(--gold,#E9B949);color:#0A1A52;border:0}
+.mw-stop{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.55)}
+.mw-ctl button:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.mw-line{margin:8px 0 0;font-size:13.5px;line-height:1.55;color:#C9D3E3}
+.mw-line span{transition:color .2s,background-color .2s;border-radius:4px}
+.mw-line span.on{color:#0A1A52;background:var(--gold,#E9B949)}
+.mw-note{margin:8px 0 0;font-size:13px;color:#FFD7A0}
+.mw-note button{font:inherit;font-size:13px;font-weight:700;background:none;border:0;color:#fff;text-decoration:underline;cursor:pointer;padding:0}
+@media(min-width:980px){.landing{position:relative}.mw-hero{position:absolute;right:0;top:0;width:280px;margin:0;display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center}.mw-hero .mw-stage{width:280px;height:267px}.mw-hero .mw-stage>img{left:45px;top:27px;width:187px}.mw-hero .mw-ctl{justify-content:center}}
 .kx-picks{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
 .kx-picks a{background:rgba(42,82,230,.22);border:1px solid rgba(110,145,255,.45);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600;color:var(--on-dark);text-decoration:none}
 .kx-picks a:hover{background:rgba(42,82,230,.38)}
@@ -803,7 +820,8 @@ function renderIndex(posts) {
       <a href="#articles" data-q="OTP">OTP</a>
       <a href="#articles" data-q="डिजिटल अरेस्ट">डिजिटल अरेस्ट</a>
       <a href="#articles" data-q="EPFO">EPFO</a>
-    </div>
+    </div>${MW ? `
+    <div class="mw mw-hero" data-mw="/" data-mw-audio="${MW.audio ? "/mw-welcome.mp3" : ""}" data-mw-cues="${MW.cues || ""}"><div class="mw-stage"><img src="/sm-mascot.webp" width="240" height="257" alt="सीधा मतलब का घड़ी वाला mascot"></div><div class="mw-side"><div class="mw-ctl"><button type="button" class="mw-play">🔊 स्वागत सुनें</button><button type="button" class="mw-stop" hidden>⏹ रोकें</button></div><p class="mw-line" lang="hi"><span>नमस्ते!</span> <span>सीधा मतलब पर आपका स्वागत है।</span> <span>पहले जाँचिए,</span> <span>फिर सही कदम उठाइए।</span></p><p class="mw-note" role="status" hidden></p></div></div>` : ""}
   </section>`;
 
   return head({
@@ -834,7 +852,8 @@ function renderIndex(posts) {
   <div class="empty" id="empty" hidden>इस खोज में कुछ नहीं मिला। कोई और शब्द आज़माइए या श्रेणी बदलिए।</div>
 </main>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
-<script>${XSEARCH_JS}${LIST_JS}</script>` + foot();
+<script>${XSEARCH_JS}${LIST_JS}</script>${MW ? `
+<script src="/mascot-welcome.js" defer></script>` : ""}` + foot();
 }
 
 /* ---- shabdkosh (dhancha 2) : post page ---- */
@@ -885,6 +904,7 @@ function koshBox() {
     <a class="kx-go" href="/shabdkosh/">पूरा शब्दकोश खोलिए →</a>
   </section>`;
 }
+let MW = null; // bolta hua mascot (data/mascot-welcome.json); file na ho to purana mascot
 function setTermLinks(terms) {
   const map = {};
   terms.forEach((t) => [t.term].concat(t.aliases || []).forEach((name) => {
@@ -1756,6 +1776,12 @@ function main() {
   const seenIds = new Set();
   terms.forEach((t) => { if (seenIds.has(t.id)) throw new Error(`Duplicate term id: ${t.id}`); seenIds.add(t.id); });
   setTermLinks(terms);
+  const mwPath = path.join(__dirname, "data", "mascot-welcome.json");
+  if (fs.existsSync(mwPath)) {
+    MW = JSON.parse(fs.readFileSync(mwPath, "utf8"));
+    for (const f of ["mascot-welcome.js", "mw-body.webp", "mw-l.webp", "mw-r.webp", "mw-hand.webp"]) if (!MW.files[f]) throw new Error(`Missing mascot file: ${f}`);
+    MW.audio = !!MW.files["mw-welcome.mp3"];
+  }
 
   fs.rmSync(path.join(__dirname, "dist"), { recursive: true, force: true });
 
@@ -1818,6 +1844,7 @@ function main() {
     if (!brandImg[f]) throw new Error(`Missing brand image: ${f}`);
     fs.writeFileSync(path.join(__dirname, "dist", f), Buffer.from(brandImg[f], "base64"));
   }
+  if (MW) for (const f of Object.keys(MW.files)) fs.writeFileSync(path.join(__dirname, "dist", f), Buffer.from(MW.files[f], "base64"));
   for (const f of ["sm-192.png", "sm-512.png", "sm-maskable-512.png"]) {
     const src = path.join(__dirname, "icons", f);
     if (!fs.existsSync(src)) throw new Error(`Missing PWA icon: ${src}`);
