@@ -1476,6 +1476,183 @@
         }
       ],
       "body": "## मतलब\n\nMSF का पूरा नाम Marginal Standing Facility है।[^1] RBI के निर्देशों के मुताबिक इसमें पात्र bank RBI से रातभर के लिए पैसा उधार ले सकते हैं, अपनी ज़रूरत से ज़्यादा SLR holding के बदले, और ज़रूरी SLR में से भी NDTL के दो प्रतिशत तक।[^1]\n\n- **ब्याज:** MSF rate, जो LAF repo rate से ऊपर रहता है।[^1]\n- **अभी:** 7 अक्टूबर 2026 की MPC resolution के बाद MSF rate 5.75%।[^2]\n\n## MSF कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "local-area-bank",
+      "term": "Local Area Bank",
+      "aliases": [
+        "Local Area Banks",
+        "LAB"
+      ],
+      "full": "लोकल एरिया बैंक · स्थानीय क्षेत्र बैंक",
+      "fullEn": "Local Area Bank",
+      "group": "बैंकिंग",
+      "created": "2026-10-09",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-09",
+          "t": "पन्ना बना। RBI के Local Area Banks के लिए बने Directions, 2025 (CRR और SLR; Miscellaneous; Branch Authorisation) और Commercial Banks के CRR और SLR Directions, 2025 के PDF पाठ से जाँचा।"
+        }
+      ],
+      "one": "RBI के निर्देशों के मुताबिक Local Area Bank (LAB) वह banking company है, जिसे Banking Regulation Act, 1949 की धारा 22 के तहत Local Area Bank के रूप में licence मिला हो। RBI ने Local Area Banks के लिए अलग Directions बनाए हैं, और commercial banks के लिए बने कई निर्देशों में Local Area Banks शामिल नहीं होते।",
+      "facts": [
+        {
+          "k": "परिभाषा",
+          "v": "BR Act धारा 22 के तहत licence",
+          "s": "LAB CRR/SLR Directions, पैरा 6(18)"
+        },
+        {
+          "k": "नियम",
+          "v": "LAB के लिए अलग Directions",
+          "s": "RBI, 2025"
+        },
+        {
+          "k": "ATM / mobile branch",
+          "v": "अपने area of operation में",
+          "s": "Branch Authorisation, पैरा 21, 26"
+        },
+        {
+          "k": "Unclaimed जमा",
+          "v": "10 साल बाद DEA Fund में",
+          "s": "Miscellaneous, पैरा 10"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Licence",
+            "s": "BR Act, धारा 22"
+          },
+          {
+            "t": "Local Area Bank",
+            "s": "एक banking company"
+          },
+          {
+            "t": "RBI के LAB Directions",
+            "s": "CRR / SLR, शाखा, unclaimed जमा वग़ैरह"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "RBI से",
+            "s": "पैरा 6(18)"
+          },
+          {
+            "b": "नियम",
+            "s": "हर Direction का पैरा 3"
+          }
+        ],
+        "note": "RBI के निर्देशों के मुताबिक Local Area Bank वह banking company है, जिसे Banking Regulation Act की धारा 22 के तहत licence मिला हो। इन banks पर RBI के वे Directions लागू होते हैं, जो खास तौर पर Local Area Banks के लिए बने हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Commercial banks के सारे RBI निर्देश Local Area Banks पर भी लागू होते हैं।\"",
+          "f": "ज़रूरी नहीं। जैसे, Commercial Banks के CRR और SLR Directions के पैरा 3 में 'Commercial Banks' की परिभाषा से Small Finance Banks, Local Area Banks और Payments Banks बाहर रखे गए हैं।[^4] Local Area Banks के लिए RBI के अलग Directions हैं, जिनके पैरा 3 में लिखा है कि वे Local Area Banks पर लागू हैं।[^1][^2][^3]"
+        },
+        {
+          "m": "\"Local Area Bank में 10 साल पड़ी जमा का पैसा डूब जाता है।\"",
+          "f": "नहीं। LAB Miscellaneous Directions के पैरा 10 और 11 के मुताबिक ऐसी रक़म ब्याज समेत RBI के DEA Fund में भेजी जाती है, और पैरा 13 के मुताबिक ग्राहक (या मृत ग्राहक के क़ानूनी वारिस) के माँगने पर bank उसे ब्याज के साथ लौटाता है, जहाँ ब्याज लागू हो।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Local Area Bank किसे कहते हैं?",
+          "a": "Local Area Banks के CRR और SLR Directions के पैरा 6(18) के मुताबिक वह banking company, जिसे Banking Regulation Act, 1949 की धारा 22 के तहत Local Area Bank के रूप में licence मिला हो।[^1]"
+        },
+        {
+          "q": "Local Area Bank पर कौन-से नियम लागू होते हैं?",
+          "a": "RBI के वे Directions, जो Local Area Banks के लिए बने हैं; जैसे CRR और SLR, Miscellaneous और Branch Authorisation Directions, 2025, जिनके पैरा 3 में लिखा है कि वे Local Area Banks पर लागू हैं।[^1][^2][^3]"
+        },
+        {
+          "q": "Local Area Bank ATM कहाँ लगा सकता है?",
+          "a": "LAB Branch Authorisation Directions के पैरा 26 के मुताबिक अपने area of operation में, उन जगहों पर जो bank तय करे; पैरा 21 के मुताबिक mobile branch भी अपने area of operation के सभी centres में चला सकता है।[^3]"
+        },
+        {
+          "q": "Local Area Bank में unclaimed जमा का क्या होता है?",
+          "a": "LAB Miscellaneous Directions के पैरा 10 के मुताबिक जिस जमा खाते में दस साल या ज़्यादा से लेन-देन नहीं हुआ, या जो रक़म दस साल या ज़्यादा से बिना दावे के पड़ी है, उसे bank RBI के DEA Fund में भेजता है; पैरा 11 के मुताबिक ब्याज समेत पूरी रक़म।[^2]"
+        },
+        {
+          "q": "DEA Fund में गई जमा पर ब्याज मिलता है?",
+          "a": "LAB Miscellaneous Directions के पैरा 15 के मुताबिक ब्याज वाली जमा के मूलधन पर 11 मई 2021 से भुगतान तक 3 प्रतिशत सालाना की दर से ब्याज बनता है (उससे पहले के समय के लिए अलग दरें)।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "DEA Fund"
+        },
+        {
+          "t": "Unclaimed Deposit"
+        },
+        {
+          "t": "Small Finance Bank"
+        },
+        {
+          "t": "Payments Bank"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on September 11, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/226MD.PDF",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Local Area Banks पर लागू"
+            },
+            {
+              "ref": "पैरा 6(18)",
+              "c": "'Local Area Bank' की परिभाषा: BR Act धारा 22 के तहत licence"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Local Area Banks – Miscellaneous) Directions, 2025 (Updated as on October 05, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/246MD.PDF",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Local Area Banks पर लागू"
+            },
+            {
+              "ref": "पैरा 10, 11",
+              "c": "दस साल वाली रक़म ब्याज समेत DEA Fund में"
+            },
+            {
+              "ref": "पैरा 13, 15",
+              "c": "माँगने पर वापसी; 11 मई 2021 से 3% ब्याज"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Local Area Banks – Branch Authorisation) Directions, 2025 (Updated as on October 01, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/224MD.PDF",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Local Area Banks पर लागू"
+            },
+            {
+              "ref": "पैरा 21, 26",
+              "c": "mobile branch और ATM अपने area of operation में"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/150MD.PDF",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "'Commercial Banks' से Small Finance, Local Area और Payments Banks बाहर"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के निर्देशों के मुताबिक Local Area Bank वह banking company है, जिसे Banking Regulation Act, 1949 की धारा 22 के तहत Local Area Bank के रूप में licence मिला हो।[^1]\n\n- **अलग नियम:** RBI के कई Directions खास तौर पर Local Area Banks के लिए हैं।[^1][^2][^3]\n- **Commercial bank नहीं:** commercial banks के कुछ निर्देशों की परिभाषा में Local Area Banks शामिल नहीं हैं।[^4]\n\n## किन नियमों से चलता है | नियम\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
