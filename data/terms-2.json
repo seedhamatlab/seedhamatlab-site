@@ -2517,6 +2517,10 @@
         {
           "d": "2026-10-09",
           "t": "पन्ना बना। India Code पर The Reserve Bank of India Act, 1934 के पाठ (\"As on the 23rd June, 2026\") की प्रस्तावना, धारा 1(3) का फ़ुटनोट, धारा 3, 4, 7, 22(1), 26(1), 42, 45ZA, 45ZB और 45-IA(1) से जाँचा।"
+        },
+        {
+          "d": "2026-10-09",
+          "t": "सुधार: \"RBI एक private bank है\" वाली ग़लतफ़हमी के जवाब में जोड़ा कि Reserve Bank (Transfer to Public Ownership) Act, 1948 की धारा 3 से RBI के सारे shares केंद्र सरकार को गए। नया स्रोत [2] जोड़ा।"
         }
       ],
       "one": "RBI Act, 1934 (Act No. 2 of 1934) वह क़ानून है, जिसके तहत Reserve Bank of India बना। इसके मुताबिक भारत में bank notes जारी करने का एकमात्र अधिकार RBI के पास है, monetary policy का ढाँचा RBI चलाता है, और CRR, Monetary Policy Committee और NBFC के registration जैसे नियम भी इसी क़ानून में हैं।",
@@ -2572,7 +2576,7 @@
       "myths": [
         {
           "m": "\"RBI एक private bank है।\"",
-          "f": "नहीं। RBI Act की धारा 3 के मुताबिक RBI इसी क़ानून के तहत बना एक body corporate है, और धारा 7(1) के मुताबिक केंद्र सरकार, Governor से सलाह के बाद, जनहित में RBI को निर्देश दे सकती है।[^1]"
+          "f": "नहीं। RBI Act की धारा 3 के मुताबिक RBI इसी क़ानून के तहत बना एक body corporate है। Reserve Bank (Transfer to Public Ownership) Act, 1948 की धारा 3 के तहत RBI के सारे shares केंद्र सरकार को transfer हुए, और RBI Act के India Code पाठ के मुताबिक इसी 1948 के Act से RBI Act की धारा 5 (share capital घटाने-बढ़ाने वाली) 1 जनवरी 1949 से हटाई गई। धारा 7(1) के मुताबिक केंद्र सरकार, Governor से सलाह के बाद, जनहित में RBI को निर्देश दे सकती है।[^1][^2]"
         },
         {
           "m": "\"Bank notes कोई भी bank जारी कर सकता है।\"",
@@ -2640,6 +2644,10 @@
               "c": "स्थापना; capital; Central Board; सरकार के निर्देश"
             },
             {
+              "ref": "धारा 5, फ़ुटनोट",
+              "c": "1948 के Act से हटाई गई (1 जनवरी 1949 से)"
+            },
+            {
               "ref": "धारा 22(1), 26(1)",
               "c": "notes जारी करने का एकमात्र अधिकार; legal tender"
             },
@@ -2654,6 +2662,16 @@
             {
               "ref": "धारा 45-IA(1)",
               "c": "NBFC registration; net owned fund"
+            }
+          ]
+        },
+        {
+          "label": "India Code — The Reserve Bank (Transfer to Public Ownership) Act, 1948 (Act No. 62 of 1948)",
+          "url": "https://indiacode.gov.in/act/7846c6cc-34d9-4285-a126-03de657b5096",
+          "used": [
+            {
+              "ref": "धारा 3(1)(a)",
+              "c": "RBI के सारे shares केंद्र सरकार को"
             }
           ]
         }
