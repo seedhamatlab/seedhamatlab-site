@@ -2322,6 +2322,183 @@
         }
       ],
       "body": "## मतलब\n\nUIDAI का पूरा नाम Unique Identification Authority of India है।[^1] Aadhaar Act, 2016 की धारा 11(1) के मुताबिक केंद्र सरकार notification से इसकी स्थापना करती है, और यह enrolment और authentication की प्रक्रियाओं के लिए ज़िम्मेदार है।[^1]\n\n- **मुख्य दफ़्तर:** New Delhi (धारा 11(3))।[^1]\n- **Aadhaar number:** बनाना और देना, और उसका authentication करना (धारा 23(2)(d), (e))।[^1]\n- **Regulations:** Aadhaar से जुड़े नियम UIDAI notification से बनाता है (धारा 54(1))।[^1]\n\n## UIDAI कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "crr",
+      "term": "CRR",
+      "aliases": [
+        "Cash Reserve Ratio"
+      ],
+      "full": "कैश रिज़र्व रेशियो · RBI के पास रखा जाने वाला नक़द हिस्सा",
+      "fullEn": "Cash Reserve Ratio",
+      "group": "बैंकिंग",
+      "created": "2026-10-09",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-09",
+          "t": "पन्ना बना। India Code पर RBI Act, 1934 (\"As on the 23rd June, 2026\") की धारा 42(1), 42(3) और 42(3A), और RBI के Commercial Banks – CRR और SLR Directions, 2025 (Updated as on August 25, 2026) के पैरा 3, 7, 9, 10, 19, 20, 22, 25 और 28 से जाँचा।"
+        }
+      ],
+      "one": "CRR का पूरा नाम Cash Reserve Ratio है। RBI Act की धारा 42 के मुताबिक scheduled bank को RBI के पास एक औसत रोज़ाना balance रखना होता है, जो उसकी demand और time liabilities का वह प्रतिशत हो, जो RBI notify करे। Commercial banks के लिए यह अभी NDTL का 3% है, और RBI इस balance पर कोई ब्याज नहीं देता।",
+      "facts": [
+        {
+          "k": "क़ानूनी आधार",
+          "v": "RBI Act, धारा 42",
+          "s": "और BR Act, धारा 18"
+        },
+        {
+          "k": "अभी (commercial banks)",
+          "v": "3%",
+          "s": "NDTL का, पैरा 9"
+        },
+        {
+          "k": "RBI से ब्याज",
+          "v": "नहीं",
+          "s": "पैरा 22"
+        },
+        {
+          "k": "कमी पर",
+          "v": "penal interest",
+          "s": "Bank Rate + 3%, धारा 42(3)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank की देनदारी",
+            "s": "demand और time liabilities (NDTL)"
+          },
+          {
+            "t": "RBI के पास balance",
+            "s": "पखवाड़े का औसत रोज़ाना balance"
+          },
+          {
+            "t": "कमी हो तो",
+            "s": "RBI को penal interest"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "कम से कम 3%",
+            "s": "पैरा 9"
+          },
+          {
+            "b": "हर पखवाड़े की जाँच",
+            "s": "धारा 42(3)"
+          }
+        ],
+        "note": "RBI Act की धारा 42 के मुताबिक scheduled bank को RBI के पास एक औसत रोज़ाना balance रखना होता है, जो उसकी demand और time liabilities का RBI द्वारा notify किया गया प्रतिशत हो। Commercial banks के लिए यह अभी 3% है, और पखवाड़े के हर दिन कम से कम ज़रूरी CRR का 90% रखना होता है।"
+      },
+      "myths": [
+        {
+          "m": "\"CRR का पैसा RBI के पास रखने पर bank को ब्याज मिलता है।\"",
+          "f": "नहीं। RBI के CRR और SLR Directions के पैरा 22 के मुताबिक RBI scheduled commercial banks के CRR balance पर कोई ब्याज नहीं देता।[^2]"
+        },
+        {
+          "m": "\"CRR और SLR एक ही चीज़ हैं।\"",
+          "f": "नहीं। Directions के मुताबिक CRR की रक़म RBI के पास balance के रूप में रखी जाती है (पैरा 9), जबकि SLR के लिए bank cash, सोना या तय सरकारी securities जैसी assets रखता है (पैरा 28)। अभी commercial banks के लिए CRR 3% है और SLR कम से कम 18% (पैरा 9, 25)।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CRR का पूरा नाम क्या है?",
+          "a": "CRR का पूरा नाम Cash Reserve Ratio है।[^2]"
+        },
+        {
+          "q": "अभी CRR कितना है?",
+          "a": "पैरा 9 के मुताबिक commercial banks को RBI के पास अपनी NDTL (दूसरे पिछले पखवाड़े के आख़िरी दिन की) के कम से कम 3% के बराबर औसत रोज़ाना balance रखना होता है; यह दर 29 नवंबर 2025 से शुरू पखवाड़े से लागू है। इससे पहले 2025 में यह 6 सितंबर से 3.75%, 4 अक्टूबर से 3.5% और 1 नवंबर से 3.25% की गई थी।[^2]"
+        },
+        {
+          "q": "क्या हर दिन पूरा CRR रखना ज़रूरी है?",
+          "a": "पैरा 10 के मुताबिक पखवाड़े के हर दिन कम से कम ज़रूरी CRR का 90% रखना होता है, और पूरे पखवाड़े का रोज़ाना औसत तय CRR से कम नहीं होना चाहिए।[^2]"
+        },
+        {
+          "q": "पखवाड़ा (fortnight) किसे कहते हैं?",
+          "a": "RBI Act की धारा 42 के Explanation (b) के मुताबिक हर महीने की 1 से 15 तारीख़, या 16 से महीने की आख़िरी तारीख़ तक का समय, दोनों दिन शामिल। यह परिभाषा 15 दिसंबर 2025 से लागू है।[^1]"
+        },
+        {
+          "q": "CRR कम पड़ जाए, तो क्या होता है?",
+          "a": "धारा 42(3) के मुताबिक किसी पखवाड़े में औसत रोज़ाना balance तय न्यूनतम से कम हो, तो bank को कमी की रक़म पर Bank Rate से 3% ज़्यादा दर पर penal interest RBI को देना होता है; अगले पखवाड़े में भी कमी रहे, तो यह दर Bank Rate से 5% ज़्यादा हो जाती है। धारा 42(3A) के मुताबिक इसके बाद भी कमी रहे, तो RBI उस bank को नई जमा लेने से रोक सकता है।[^1]"
+        },
+        {
+          "q": "क्या हर देनदारी पर CRR लगता है?",
+          "a": "नहीं। पैरा 19 में कुछ देनदारियाँ CRR और SLR के हिसाब से बाहर रखी गई हैं, जैसे paid-up capital, reserves, और RBI, NABARD, SIDBI जैसी संस्थाओं से लिया गया क़र्ज़; पैरा 20 में CRR से कुछ और छूटें हैं।[^2]"
+        },
+        {
+          "q": "RBI CRR किस आधार पर तय करता है?",
+          "a": "RBI Act की धारा 42(1) के मुताबिक RBI देश में मौद्रिक स्थिरता (monetary stability) पक्की करने की ज़रूरत को ध्यान में रखते हुए यह प्रतिशत Gazette में notify करता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "SLR"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "Bank Rate"
+        },
+        {
+          "t": "MSF"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Reserve Bank of India Act, 1934 (Act No. 2 of 1934), पाठ \"As on the 23rd June, 2026\"",
+          "url": "https://indiacode.gov.in/act/3f9f5c4e-dce7-4144-b5ac-d2cc995b1761",
+          "used": [
+            {
+              "ref": "धारा 42(1)",
+              "c": "scheduled bank का RBI के पास औसत रोज़ाना balance; मौद्रिक स्थिरता"
+            },
+            {
+              "ref": "धारा 42, Expl. (b)",
+              "c": "पखवाड़ा (15 दिसंबर 2025 से)"
+            },
+            {
+              "ref": "धारा 42(3), (3A)",
+              "c": "कमी पर Bank Rate + 3%, फिर + 5%; नई जमा पर रोक"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (RBI/DOR/2025-26/150; Updated as on August 25, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/150MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "commercial banks पर लागू; SFB, LAB, Payments Bank नहीं"
+            },
+            {
+              "ref": "पैरा 7, 9",
+              "c": "CRR; अभी NDTL का 3% और 2025 के बदलाव"
+            },
+            {
+              "ref": "पैरा 10",
+              "c": "हर दिन कम से कम 90%"
+            },
+            {
+              "ref": "पैरा 19, 20",
+              "c": "बाहर रखी देनदारियाँ; छूट"
+            },
+            {
+              "ref": "पैरा 22",
+              "c": "CRR balance पर ब्याज नहीं"
+            },
+            {
+              "ref": "पैरा 25, 28",
+              "c": "SLR 18%; SLR assets"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCRR का पूरा नाम Cash Reserve Ratio है।[^2] RBI Act की धारा 42(1) के मुताबिक हर scheduled bank को RBI के पास एक औसत रोज़ाना balance रखना होता है, जो उसकी demand और time liabilities का वह प्रतिशत हो, जो RBI Gazette में notify करे।[^1]\n\n- **अभी:** commercial banks के लिए NDTL का 3%।[^2]\n- **ब्याज:** इस balance पर RBI ब्याज नहीं देता।[^2]\n- **किन पर:** ये Directions commercial banks पर लागू हैं; Small Finance Banks, Local Area Banks और Payments Banks इनमें शामिल नहीं हैं।[^2]\n\n## CRR कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
