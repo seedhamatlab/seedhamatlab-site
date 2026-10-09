@@ -201,6 +201,35 @@ button{font:inherit;color:inherit}
 .site-menu a{display:block;background:rgba(255,255,255,.06);border-radius:11px;padding:10px 13px;text-decoration:none;color:var(--on-dark);font-weight:600;font-size:14.5px}
 .site-menu a:hover,.site-menu a:focus-visible{background:rgba(255,255,255,.15)}
 .bandpad{padding-bottom:18px}
+/* ---- Shabdkosh: menu ke bahar patti + homepage box + SM mascot ---- */
+.koshbar{display:flex;align-items:center;gap:12px;margin:0 0 14px;padding:10px 14px 10px 10px;border:1px solid rgba(233,185,73,.55);border-radius:14px;background:linear-gradient(100deg,rgba(233,185,73,.16),rgba(233,185,73,.05));text-decoration:none;color:var(--on-dark)}
+.koshbar:hover,.koshbar:focus-visible{border-color:var(--gold);background:linear-gradient(100deg,rgba(233,185,73,.26),rgba(233,185,73,.08))}
+.koshbar .kb-ic{flex:none;display:grid;place-items:center;width:46px;height:40px;border-radius:10px;background:#000}
+.koshbar .kb-ic img{display:block;width:40px;height:auto}
+.koshbar .kb-t{flex:1;min-width:0;line-height:1.3}
+.koshbar .kb-t b{display:block;font-size:16.5px;font-weight:800;letter-spacing:-.01em}
+.koshbar .kb-t b i{font-style:normal;color:var(--gold);font-weight:400;margin:0 2px}
+.koshbar .kb-t span{display:block;font-size:13px;color:var(--on-dark-2)}
+.koshbar .kb-go{flex:none;font-size:13.5px;font-weight:700;color:var(--gold);white-space:nowrap}
+@media(max-width:400px){.koshbar .kb-go{display:none}}
+.koshbox{margin:26px 0 8px;padding:18px 20px 22px;border-radius:22px;border:1px solid rgba(233,185,73,.45);background:linear-gradient(172deg,#000 0%,#000 48%,#0A1A52 100%);color:var(--on-dark);box-shadow:0 12px 34px rgba(10,26,82,.30)}
+.koshbox h2{margin:0 0 10px}
+.koshbox h2 a{display:block;max-width:340px;margin:0 auto}
+.koshbox h2 img{display:block;width:100%;height:auto}
+.koshbox p{margin:0 0 16px;font-size:15.5px;line-height:1.6;color:#D6DEEA;max-width:56ch}
+.koshbox p b{color:var(--gold)}
+.kx-ask{display:flex;align-items:flex-end;gap:10px;margin:0 0 16px}
+.kx-ask img{flex:none;width:96px;height:auto}
+.kx-bub{position:relative;margin-bottom:14px;background:#fff;color:#0A1A52;border-radius:16px 16px 16px 4px;padding:10px 14px;font-size:14.5px;font-weight:700;line-height:1.45}
+.kx-picks{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.kx-picks a{background:rgba(42,82,230,.22);border:1px solid rgba(110,145,255,.45);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600;color:var(--on-dark);text-decoration:none}
+.kx-picks a:hover{background:rgba(42,82,230,.38)}
+.kx-go{display:inline-block;background:var(--gold);color:var(--gold-ink);border-radius:999px;padding:12px 22px;font-weight:800;font-size:15px;text-decoration:none}
+.kx-go:hover{filter:brightness(1.07)}
+.koshbox .kx-go{justify-self:start}
+@media(min-width:760px){.koshbox{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);column-gap:30px;align-items:center;padding:22px 28px;background:linear-gradient(100deg,#000 0%,#000 42%,#0A1A52 100%)}.koshbox h2{grid-row:1/span 4;margin:0}}
+.one .l{display:flex!important;align-items:center;gap:10px}
+.one .l img{flex:none;width:62px;height:auto}
 /* ---- hero ---- */
 .landing{padding:14px 0 44px}
 .landing-label{display:block;color:var(--on-dark-2);font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:500}
@@ -514,8 +543,9 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
   <div class="header-actions"><a class="contact-top" href="mailto:${esc(SITE.email)}">Contact</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Menu खोलें">☰ <span>Menu</span></button></div>
 </header>
 <nav id="site-menu" class="site-menu" aria-label="मुख्य menu" hidden>
-  <a href="/">Home</a>${TERM_LINKS.re ? `<a href="/shabdkosh/">शब्दकोश</a>` : ""}<a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/about/">About</a><a href="/#contact">Contact</a>
+  <a href="/">Home</a><a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/about/">About</a><a href="/#contact">Contact</a>
 </nav>
+${TERM_LINKS.re && !home && canonical !== `${SITE.url}/shabdkosh/` ? `<a class="koshbar" href="/shabdkosh/"><span class="kb-ic" aria-hidden="true"><img src="/shabdkosh-emblem.webp" width="96" height="75" alt=""></span><span class="kb-t"><b>शब्दकोश <i>|</i> Shabdkosh</b><span>पैसे के ज़रूरी शब्दों का सीधा मतलब</span></span><span class="kb-go">खोलिए →</span></a>` : ""}
 ${hero}
 </div>
 </div>
@@ -784,6 +814,7 @@ function renderIndex(posts) {
     hero,
   }) + `
 <main id="main">
+  ${koshBox()}
   <nav class="quickpaths" aria-label="कहाँ से शुरू करें">
     <a href="/how-to-check/"><strong>संदिग्ध message मिला?</strong><span>Link, call या offer को check करने का तरीका</span></a>
     <a href="/p/online-fraud-kya-kare/"><strong>पैसा कट गया?</strong><span>Bank और cyber fraud reporting के अगले कदम</span></a>
@@ -791,7 +822,6 @@ function renderIndex(posts) {
   </nav>
   <a class="promise" href="/how-to-check/">${esc(SITE.tagline)}<span class="promise-more">कैसे verify करें? Step-by-step guide खोलें →</span></a>
   <a class="asklink" href="/faq/"><b>कोई सवाल है?</b> — सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब यहाँ देखिए →</a>
-  ${TERM_LINKS.re ? `<a class="asklink" href="/shabdkosh/"><b>पैसे का शब्दकोश</b> — पैसे से जुड़े शब्दों का सीधा मतलब यहाँ देखिए →</a>` : ""}
   <span class="sectionlabel" id="articles">हर लेख के नीचे सरकारी स्रोत</span>
   <h2 class="articles-title">इस समय लोग यही पूछ रहे हैं</h2>
   <div class="controls">
@@ -840,15 +870,31 @@ function calcFee(c, a) {
 // Neele link: jis shabd ka apna panna hai, wo lekh ke beech me apne aap link ban jata hai.
 // Ek panne me ek shabd sirf pehli baar, apne hi panne par nahi, aur quote ya doosre link ke andar nahi.
 let TERM_LINKS = { re: null, map: {} };
+let TERM_COUNT = 0;
+// Homepage ka bada Shabdkosh box: kuch zaroori shabd + poora shabdkosh kholne ka button.
+const KOSH_PICKS = ["upi-pin", "kyc", "cibil", "nominee", "fir", "repo-rate"];
+function koshBox() {
+  if (!TERM_LINKS.re) return "";
+  const picks = KOSH_PICKS.map((id) => Object.values(TERM_LINKS.map).find((m) => m.id === id))
+    .filter(Boolean).map((m) => `<a href="${m.href}">${esc(m.name)}</a>`).join("");
+  return `<section class="koshbox" aria-label="शब्दकोश">
+    <h2><a href="/shabdkosh/"><img src="/shabdkosh-logo.webp" width="720" height="480" alt="सीधा मतलब शब्दकोश | Seedha Matlab Dictionary"></a></h2>
+    <p>बैंक, UPI, क़र्ज़, साइबर ठगी और क़ानून के <b>${TERM_COUNT} ज़रूरी शब्द</b>, सीधी भाषा में। हर शब्द के नीचे उसका सरकारी या आधिकारिक स्रोत।</p>
+    <div class="kx-ask"><img src="/sm-mascot.webp" width="240" height="257" alt="" loading="lazy"><span class="kx-bub">कोई शब्द समझ नहीं आया? यहाँ उसका सीधा मतलब मिलेगा।</span></div>
+    ${picks ? `<div class="kx-picks">${picks}</div>` : ""}
+    <a class="kx-go" href="/shabdkosh/">पूरा शब्दकोश खोलिए →</a>
+  </section>`;
+}
 function setTermLinks(terms) {
   const map = {};
   terms.forEach((t) => [t.term].concat(t.aliases || []).forEach((name) => {
     const k = String(name || "").trim().toLowerCase();
-    if (k) map[k] = { id: t.id, href: `/shabdkosh/${encodeURIComponent(t.id)}/`, one: t.one };
+    if (k) map[k] = { id: t.id, name: t.term, href: `/shabdkosh/${encodeURIComponent(t.id)}/`, one: t.one };
   }));
   const names = Object.keys(map).sort((a, b) => b.length - a.length)
     .map((n) => esc(n).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
   const edge = "A-Za-z0-9\u0900-\u0963\u0966-\u097F";
+  TERM_COUNT = terms.length;
   TERM_LINKS = { map, re: names.length ? new RegExp(`(?<![${edge}])(${names.join("|")})(?![${edge}])`, "gi") : null };
 }
 function termLink(name) {
@@ -1014,7 +1060,7 @@ function renderPost(p, all) {
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> ${hub ? `<a href="/${hub.slug}/">${esc(hub.title)}</a> <span>›</span> ` : ""}<span>${esc(catName(p.cat))}</span></nav>
   <div class="kindrow"><span class="kind">${esc(catName(p.cat))} · ${esc(SEV[p.severity] || "जानकारी")}</span><span class="verified">✓ स्रोत से जाँचा · ${fmtDateEn(checked)}</span></div>
   <h1>${esc(p.title)}</h1>
-  <div class="one"><span class="l">एक लाइन में</span><p>${esc(p.one || p.summary)}</p></div>
+  <div class="one"><span class="l"><img src="/sm-mascot.webp" width="240" height="257" alt="">एक लाइन में</span><p>${esc(p.one || p.summary)}</p></div>
 </header>`;
 
   return head({
@@ -1087,7 +1133,7 @@ function renderTerm(t, posts) {
   <div class="kindrow"><span class="kind">शब्द · ${esc(t.group)}</span><span class="verified">✓ स्रोत से जाँचा · ${fmtDateEn(checked)}</span></div>
   <h1 class="term${String(t.term).length > 10 ? " long" : ""}">${esc(t.term)}</h1>
   <p class="full">${esc(t.full)}</p>
-  <div class="one"><span class="l">एक लाइन में</span><p>${esc(t.one)}</p></div>
+  <div class="one"><span class="l"><img src="/sm-mascot.webp" width="240" height="257" alt="">एक लाइन में</span><p>${esc(t.one)}</p></div>
 </header>`;
 
   return head({
@@ -1755,6 +1801,12 @@ function main() {
       .find((c) => fs.existsSync(c));
     if (src) fs.copyFileSync(src, path.join(__dirname, "dist", f));
   });
+  // Shabdkosh logo, uska nishan aur SM mascot: data/brand-img.json me base64 ke roop me.
+  const brandImg = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "brand-img.json"), "utf8"));
+  for (const f of ["shabdkosh-logo.webp", "shabdkosh-emblem.webp", "sm-mascot.webp"]) {
+    if (!brandImg[f]) throw new Error(`Missing brand image: ${f}`);
+    fs.writeFileSync(path.join(__dirname, "dist", f), Buffer.from(brandImg[f], "base64"));
+  }
   for (const f of ["sm-192.png", "sm-512.png", "sm-maskable-512.png"]) {
     const src = path.join(__dirname, "icons", f);
     if (!fs.existsSync(src)) throw new Error(`Missing PWA icon: ${src}`);
