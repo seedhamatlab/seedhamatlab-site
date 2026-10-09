@@ -1808,6 +1808,167 @@
         }
       ],
       "body": "## मतलब\n\nBanking Regulation Act, 1949 वह क़ानून है, जिसके तहत भारत में banking companies चलती हैं।[^1] इसकी धारा 5(b) में 'banking' और 5(c) में 'banking company' की परिभाषा है, और धारा 22(1) के मुताबिक RBI के licence के बिना कोई company भारत में banking का कारोबार नहीं कर सकती।[^1]\n\n- **RBI के निर्देश:** धारा 35A के तहत, banks के लिए बाध्यकारी।[^1]\n- **Nomination:** धारा 45ZA, 1 नवंबर 2025 से चार तक nominee।[^1]\n- **Unclaimed रक़म:** धारा 26A, DEA Fund।[^1]\n\n## Bank कैसे बनता और चलता है | कैसे चलता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "slr",
+      "term": "SLR",
+      "aliases": [
+        "Statutory Liquidity Ratio"
+      ],
+      "full": "स्टैच्यूटरी लिक्विडिटी रेशियो · वैधानिक तरलता अनुपात",
+      "fullEn": "Statutory Liquidity Ratio",
+      "group": "बैंकिंग",
+      "created": "2026-10-09",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-09",
+          "t": "पन्ना बना। India Code पर Banking Regulation Act, 1949 (\"As on the 20th December, 2025\") की धारा 24, और RBI के Commercial Banks – CRR और SLR Directions, 2025 (Updated as on August 25, 2026) के पैरा 3, 24, 25 और 28 से जाँचा।"
+        }
+      ],
+      "one": "SLR का पूरा नाम Statutory Liquidity Ratio है। Banking Regulation Act की धारा 24 के मुताबिक हर bank को अपनी कुल demand और time liabilities के एक तय हिस्से जितनी assets भारत में रखनी होती हैं; यह हिस्सा RBI तय करता है, पर 40% से ज़्यादा नहीं हो सकता। Commercial banks के लिए RBI के मौजूदा निर्देशों में यह कम से कम 18% है, और ये assets cash, सोना या तय सरकारी securities के रूप में रखी जाती हैं।",
+      "facts": [
+        {
+          "k": "क़ानूनी आधार",
+          "v": "BR Act, धारा 24",
+          "s": "Banking Regulation Act, 1949"
+        },
+        {
+          "k": "ऊपरी सीमा",
+          "v": "40%",
+          "s": "धारा 24(2A)"
+        },
+        {
+          "k": "अभी (commercial banks)",
+          "v": "कम से कम 18%",
+          "s": "RBI Directions, पैरा 25"
+        },
+        {
+          "k": "कमी पर",
+          "v": "penal interest",
+          "s": "Bank Rate + 3%, धारा 24(4)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank की देनदारी",
+            "s": "demand और time liabilities (NDTL)"
+          },
+          {
+            "t": "SLR assets",
+            "s": "cash, सोना, सरकारी securities"
+          },
+          {
+            "t": "कमी हो तो",
+            "s": "RBI को penal interest"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "कम से कम 18%",
+            "s": "पैरा 25"
+          },
+          {
+            "b": "हर पखवाड़े की जाँच",
+            "s": "धारा 24(3), 24(4)"
+          }
+        ],
+        "note": "Banking Regulation Act के मुताबिक RBI SLR का प्रतिशत तय करता है, 40% की सीमा के अंदर। Commercial banks के लिए RBI के निर्देशों में यह कम से कम 18% है, और ये assets cash, सोना या तय सरकारी securities के रूप में रखे जाते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"SLR का मतलब है bank का पूरा पैसा RBI के पास जमा रहता है।\"",
+          "f": "नहीं। RBI के निर्देशों के पैरा 28 के मुताबिक SLR assets cash, सोना, या बिना गिरवी की सरकारी securities (जैसे Government of India के dated securities, Treasury Bills, State Government Securities) वग़ैरह के रूप में रखे जाते हैं।[^2]"
+        },
+        {
+          "m": "\"SLR कितना भी बढ़ाया जा सकता है।\"",
+          "f": "नहीं। Banking Regulation Act की धारा 24(2A) के मुताबिक RBI जो प्रतिशत तय करे, वह कुल demand और time liabilities के 40% से ज़्यादा नहीं हो सकता।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "SLR का पूरा नाम क्या है?",
+          "a": "SLR का पूरा नाम Statutory Liquidity Ratio है।[^2]"
+        },
+        {
+          "q": "अभी SLR कितना है?",
+          "a": "Commercial banks के लिए RBI के CRR और SLR Directions के पैरा 25 के मुताबिक हर bank को हर दिन कारोबार ख़त्म होने पर SLR assets कम से कम अपनी कुल NDTL के 18% के बराबर रखने होते हैं (दूसरे पिछले पखवाड़े के आख़िरी दिन की NDTL पर)।[^2]"
+        },
+        {
+          "q": "SLR में कौन-सी assets गिनी जाती हैं?",
+          "a": "पैरा 28 के मुताबिक cash; सोना (मौजूदा बाज़ार भाव से ज़्यादा पर नहीं आँका जाता); और बिना गिरवी की SLR securities, जैसे Government of India के dated securities, Treasury Bills और State Government Securities; और कुछ दूसरी तय assets।[^2]"
+        },
+        {
+          "q": "SLR कम पड़ जाए, तो क्या होता है?",
+          "a": "Banking Regulation Act की धारा 24(4) के मुताबिक पखवाड़े के आख़िरी दिन SLR तय सीमा से कम हो, तो bank को कमी वाली रक़म पर उस दिन के लिए Bank Rate से 3% सालाना ज़्यादा दर पर penal interest RBI को देना होता है; अगले पखवाड़ों में भी कमी बनी रहे, तो यह दर Bank Rate से 5% ज़्यादा हो जाती है।[^1]"
+        },
+        {
+          "q": "Bank SLR का हिसाब RBI को कब देता है?",
+          "a": "धारा 24(3) के मुताबिक हर banking company महीना ख़त्म होने के 20 दिन के अंदर RBI को तय form में monthly return देती है, जिसमें महीने के हर पखवाड़े के आख़िरी दिन की assets और देनदारी का ब्योरा होता है।[^1]"
+        },
+        {
+          "q": "ये निर्देश किन banks पर लागू हैं?",
+          "a": "RBI के इन Directions के पैरा 3 के मुताबिक commercial banks पर; Small Finance Banks, Local Area Banks और Payments Banks इनमें शामिल नहीं हैं।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "MSF"
+        },
+        {
+          "t": "Banking Regulation Act"
+        },
+        {
+          "t": "Bank Rate"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Local Area Bank"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Banking Regulation Act, 1949 (Act No. 10 of 1949), पाठ \"As on the 20th December, 2025\"",
+          "url": "https://indiacode.gov.in/act/18020586-18bc-4857-91fe-668ed2469876",
+          "used": [
+            {
+              "ref": "धारा 24(2A)",
+              "c": "तय assets रखना; RBI तय करे, 40% से ज़्यादा नहीं"
+            },
+            {
+              "ref": "धारा 24(3)",
+              "c": "महीने के 20 दिन में monthly return"
+            },
+            {
+              "ref": "धारा 24(4)",
+              "c": "कमी पर Bank Rate + 3%, फिर + 5% penal interest"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (RBI/DOR/2025-26/150; Updated as on August 25, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/150MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "commercial banks पर लागू; SFB, LAB, Payments Bank नहीं"
+            },
+            {
+              "ref": "पैरा 24, 25",
+              "c": "SLR; कम से कम NDTL का 18%"
+            },
+            {
+              "ref": "पैरा 28",
+              "c": "SLR assets: cash, सोना, SLR securities वग़ैरह"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSLR का पूरा नाम Statutory Liquidity Ratio है।[^2] Banking Regulation Act की धारा 24(2A) के मुताबिक हर bank को अपनी कुल demand और time liabilities के एक तय प्रतिशत जितनी assets भारत में रखनी होती हैं; यह प्रतिशत RBI तय करता है, 40% की सीमा के अंदर।[^1]\n\n- **अभी:** commercial banks के लिए कम से कम 18%।[^2]\n- **किस रूप में:** cash, सोना या सरकारी securities जैसी तय assets।[^2]\n\n## SLR कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
