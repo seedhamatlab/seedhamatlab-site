@@ -442,6 +442,7 @@ sup.ref a{color:var(--verify);text-decoration:none}
 .calc .o b{font-size:22px;font-weight:800}
 .calc .o.y b{color:var(--gold)}
 .calc .cnote{margin:9px 0 0;font-size:13.5px;color:#7FE6DC;min-height:1.6em}
+.calc.bad .cnote{color:#FFB4A8}
 .calc .cfine{margin:4px 0 0;font-size:12.5px;line-height:1.55;color:var(--on-dark-2)}
 .mf{border-radius:14px;overflow:hidden;border:1px solid var(--line-soft);margin:0 0 11px;background:var(--surface)}
 .mf .m{background:#FBEDEA;color:#7A2418;padding:10px 15px;font-size:15.5px;line-height:1.55}
@@ -876,7 +877,7 @@ const CALCS = {
     payLabel: "आप देंगे",
     feeLabel: "दुकानदार का MDR",
     notes: { free: "₹2,000 तक MDR शून्य", rate: "0.4% की दर से", cap: "अधिकतम सीमा ₹300 लागू" },
-    fine: "यह आम दुकान (P2M) का हिसाब है। छोटे दुकानदार (P2PM) पर MDR शून्य है, और रेलवे, बीमा, petrol pump जैसी श्रेणियों में दर अलग है।",
+    fine: "यह आम दुकान (P2M) का हिसाब है। छोटे दुकानदार (P2PM) पर MDR शून्य है, और रेलवे, बीमा, petrol pump जैसी श्रेणियों में दर अलग है। नतीजा पैसे तक (दशमलव के दो अंक तक) round करके दिखाया गया है।",
   },
 };
 
@@ -957,7 +958,7 @@ function blockHTML(p, spec, il = inline) {
     const r = calcFee(c, c.start);
     return `<div class="calc" data-calc='${esc(JSON.stringify({ free: c.free, rate: c.rate, capFrom: c.capFrom, cap: c.cap, notes: c.notes }))}'>
       <span class="l">${esc(c.label)}</span>
-      <label class="in"><span aria-hidden="true">₹</span><input type="text" inputmode="numeric" autocomplete="off" maxlength="12" value="${c.start.toLocaleString("en-IN")}" aria-label="बिल की रक़म रुपये में"><span class="hint">बिल की रक़म डालिए</span></label>
+      <label class="in"><span aria-hidden="true">₹</span><input type="text" inputmode="decimal" autocomplete="off" maxlength="15" value="${c.start.toLocaleString("en-IN")}" aria-label="बिल की रक़म रुपये में"><span class="hint">बिल की रक़म डालिए</span></label>
       <div class="out" aria-live="polite">
         <div class="o"><small>${esc(c.payLabel)}</small><b data-o="pay">${inr(c.start)}</b></div>
         <div class="o y"><small>${esc(c.feeLabel)}</small><b data-o="fee">${inr(r.fee)}</b></div>
@@ -1037,7 +1038,7 @@ function historyHTML(no, rows) {
     <ul class="histlist">${items.map((r) => `<li><time datetime="${esc(r.d)}">${fmtDateLine(r.d)}</time><span>${inline(r.t)}</span></li>`).join("")}</ul>`;
 }
 
-const CALC_JS = `(function(){var boxes=document.querySelectorAll('.calc[data-calc]');[].forEach.call(boxes,function(box){var c=JSON.parse(box.getAttribute('data-calc')),inp=box.querySelector('input'),pay=box.querySelector('[data-o=pay]'),fee=box.querySelector('[data-o=fee]'),note=box.querySelector('[data-o=note]');function f(n){var r=Math.round(n*100)/100,w=r===Math.floor(r);return '₹'+r.toLocaleString('en-IN',{minimumFractionDigits:w?0:2,maximumFractionDigits:2});}function run(){var d=inp.value.replace(/[^0-9]/g,'').slice(0,9),a=d?parseInt(d,10):0;inp.value=d?a.toLocaleString('en-IN'):'';var m,t;if(a<=c.free){m=0;t=c.notes.free;}else if(a>=c.capFrom){m=c.cap;t=c.notes.cap;}else{m=Math.round(a*c.rate*100)/100;t=c.notes.rate;}pay.textContent=f(a);fee.textContent=f(m);note.textContent=d?t:'';}inp.addEventListener('input',run);});})();`;
+const CALC_JS = `(function(){var boxes=document.querySelectorAll('.calc[data-calc]');[].forEach.call(boxes,function(box){var c=JSON.parse(box.getAttribute('data-calc')),inp=box.querySelector('input'),pay=box.querySelector('[data-o=pay]'),fee=box.querySelector('[data-o=fee]'),note=box.querySelector('[data-o=note]');function f(n){var r=Math.round(n*100)/100,w=r===Math.floor(r);return '₹'+r.toLocaleString('en-IN',{minimumFractionDigits:w?0:2,maximumFractionDigits:2});}function show(p,m,t,bad){pay.textContent=p;fee.textContent=m;note.textContent=t;if(bad){box.classList.add('bad');}else{box.classList.remove('bad');}}function run(){var raw=inp.value,v=raw.replace(/[ ,]/g,'').replace(/[०-९]/g,function(d){return String(d.charCodeAt(0)-2406);});if(!v){show('—','—','रक़म डालिए');return;}if(!/^[0-9]{1,9}([.][0-9]{0,2})?$/.test(v)){show('—','—',v.indexOf('-')>=0?'रक़म शून्य से कम नहीं हो सकती।':/^[0-9]{10,}([.][0-9]*)?$/.test(v)?'रक़म बहुत बड़ी है; ज़्यादा से ज़्यादा 99,99,99,999.99 तक डालिए।':'सिर्फ़ रक़म डालिए, जैसे 2000 या 2000.50 (दशमलव के बाद ज़्यादा से ज़्यादा दो अंक)।',1);return;}var parts=v.split('.'),fmt=Number(parts[0]).toLocaleString('en-IN')+(parts.length>1?'.'+parts[1]:'');if(fmt!==raw){inp.value=fmt;}var a=Number(v),paise=Math.round(a*100),m,t;if(a<=c.free){m=0;t=c.notes.free;}else if(a>=c.capFrom){m=c.cap;t=c.notes.cap;}else{m=Math.round(Number((paise*c.rate).toFixed(6)))/100;t=c.notes.rate;}show(f(paise/100),f(m),t);}inp.addEventListener('input',run);});})();`;
 
 function renderPost(p, all) {
   const hub = hubOf(p.cat);
