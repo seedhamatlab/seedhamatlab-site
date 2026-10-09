@@ -2146,6 +2146,182 @@
         }
       ],
       "body": "## मतलब\n\ne-KYC, UIDAI की e-KYC authentication facility से होने वाली पहचान की जाँच है।[^1] इसमें Aadhaar number और OTP या biometric, Aadhaar number holder की सहमति से UIDAI के CIDR (Central Identities Data Repository) में मिलाए जाते हैं, और UIDAI डिजिटल हस्ताक्षर वाला जवाब लौटाता है, जिसमें e-KYC data होता है।[^1]\n\n- **Bank में:** जो ग्राहक KYC के लिए Aadhaar number देता है, bank UIDAI की e-KYC authentication facility से उसकी जाँच करता है।[^2]\n- **कौन कर सकता है:** bank का अधिकारी, business correspondent या business facilitator biometric वाला e-KYC कर सकता है, Aadhaar Face Authentication समेत।[^2]\n\n## e-KYC कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## बिना आमने-सामने आए, OTP वाले e-KYC से खुले खाते | सीमाएँ\n\nRBI के KYC Directions के पैरा 25 के मुताबिक ऐसे खातों पर ये शर्तें लागू होती हैं:[^2]\n\n- **सहमति:** OTP से authentication के लिए ग्राहक की अलग से सहमति।\n- **Alert और OTP:** सिर्फ़ Aadhaar में दर्ज mobile number पर।\n- **Balance:** सभी जमा खातों में कुल ₹1 लाख तक।\n- **जमा:** एक वित्त वर्ष में सभी जमा खातों में कुल ₹2 लाख तक।\n- **क़र्ज़:** सिर्फ़ term loan, साल में कुल ₹60,000 तक।\n- **एक साल:** इसके अंदर पूरी KYC (पैरा 23 या V-CIP से) न हो, तो जमा खाता बंद होता है और क़र्ज़ खाते में आगे debit नहीं होता।\n- **सिर्फ़ एक खाता:** ग्राहक लिखकर देता है कि उसने किसी और संस्था में इस तरीक़े से खाता नहीं खोला है और न खोलेगा।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "uidai",
+      "term": "UIDAI",
+      "aliases": [
+        "Unique Identification Authority of India"
+      ],
+      "full": "यूनिक आइडेंटिफ़िकेशन अथॉरिटी ऑफ़ इंडिया · Aadhaar जारी करने वाली संस्था",
+      "fullEn": "Unique Identification Authority of India",
+      "group": "बैंकिंग",
+      "created": "2026-10-09",
+      "verified": "2026-10-09",
+      "history": [
+        {
+          "d": "2026-10-09",
+          "t": "पन्ना बना। India Code पर Aadhaar Act, 2016 (\"As on the 1st July, 2026\") की धारा 2(e), 3(1), 11, 12, 14(1), 23, 28 और 54(1), और Aadhaar (Authentication and Offline Verification) Regulations, 2021 (\"Updated as on 09.12.2025\") से जाँचा।"
+        }
+      ],
+      "one": "UIDAI का पूरा नाम Unique Identification Authority of India है। Aadhaar Act, 2016 की धारा 11 के मुताबिक केंद्र सरकार notification से इसकी स्थापना करती है। यही Aadhaar number बनाता और देता है, Aadhaar का authentication करता है और CIDR (Central Identities Data Repository) चलाता है। इसका मुख्य दफ़्तर New Delhi में है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "Aadhaar Act, 2016",
+          "s": "धारा 11"
+        },
+        {
+          "k": "मुख्य दफ़्तर",
+          "v": "New Delhi",
+          "s": "धारा 11(3)"
+        },
+        {
+          "k": "सदस्य",
+          "v": "4",
+          "s": "Chairperson, 2 part-time Members, CEO (धारा 12)"
+        },
+        {
+          "k": "Act का मंत्रालय",
+          "v": "MeitY",
+          "s": "Ministry of Electronics and Information Technology"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "व्यक्ति (resident)",
+            "s": "जानकारी और biometric देकर enrolment"
+          },
+          {
+            "t": "UIDAI",
+            "s": "Aadhaar number बनाकर देता है"
+          },
+          {
+            "t": "Bank जैसी संस्था",
+            "s": "Aadhaar का authentication"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Enrolment",
+            "s": "धारा 3(1)"
+          },
+          {
+            "b": "Authentication",
+            "s": "धारा 23(2)(e)"
+          }
+        ],
+        "note": "Aadhaar Act के मुताबिक हर resident अपनी जनसांख्यिकीय और biometric जानकारी देकर enrolment से Aadhaar number ले सकता है। UIDAI Aadhaar number बनाकर देता है, और संस्थाओं (requesting entity) की ओर से भेजी गई request पर Aadhaar का authentication करता है।"
+      },
+      "myths": [
+        {
+          "m": "\"UIDAI एक private company है।\"",
+          "f": "नहीं। Aadhaar Act की धारा 11 के मुताबिक UIDAI एक Authority है, जिसकी स्थापना केंद्र सरकार notification से करती है, और धारा 12 के मुताबिक इसके Chairperson, Members और CEO की नियुक्ति केंद्र सरकार करती है।[^1]"
+        },
+        {
+          "m": "\"UIDAI का काम सिर्फ़ Aadhaar card छापना है।\"",
+          "f": "नहीं। धारा 23 के मुताबिक UIDAI Aadhaar number बनाता और देता है, उसका authentication करता है, CIDR चलाता है, Aadhaar number हटाने (omit) या निष्क्रिय (deactivate) करने का तरीक़ा तय करता है, और शिकायत निवारण की व्यवस्था बनाता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "UIDAI का पूरा नाम क्या है?",
+          "a": "Unique Identification Authority of India. Aadhaar Act की धारा 2(e) के मुताबिक Act में 'Authority' का मतलब धारा 11(1) के तहत बना UIDAI है।[^1]"
+        },
+        {
+          "q": "UIDAI में कौन-कौन होता है?",
+          "a": "धारा 12 के मुताबिक इसमें एक Chairperson (part-time या full-time), दो part-time Members और CEO होते हैं; CEO इसका Member-Secretary होता है, और नियुक्ति केंद्र सरकार करती है। धारा 14(1) के मुताबिक Chairperson और Members का कार्यकाल तीन साल का होता है, और 65 साल की उम्र के बाद कोई इस पद पर नहीं रह सकता।[^1]"
+        },
+        {
+          "q": "UIDAI के मुख्य काम क्या हैं?",
+          "a": "धारा 23(2) के मुताबिक इनमें शामिल हैं: enrolment के लिए ज़रूरी जानकारी तय करना, Aadhaar number बनाना और देना, Aadhaar का authentication करना, CIDR बनाना, चलाना और उसमें जानकारी update रखना, Aadhaar number हटाना या निष्क्रिय करना, और शिकायत निवारण की व्यवस्था बनाना।[^1]"
+        },
+        {
+          "q": "मेरी Aadhaar जानकारी की सुरक्षा किसकी ज़िम्मेदारी है?",
+          "a": "धारा 28 के मुताबिक UIDAI को लोगों की identity information और authentication records की सुरक्षा और गोपनीयता पक्की करनी होती है, और CIDR समेत अपने पास की जानकारी को ऐसे इस्तेमाल या खुलासे से बचाना होता है, जिसकी Act या regulations में इजाज़त नहीं है।[^1]"
+        },
+        {
+          "q": "Aadhaar authentication और e-KYC के नियम कौन बनाता है?",
+          "a": "धारा 54(1) के मुताबिक UIDAI notification से regulations बना सकता है। Aadhaar (Authentication and Offline Verification) Regulations, 2021 UIDAI ने बनाए हैं; इनके विनियम 3 में Yes/No authentication और e-KYC authentication, दो तरह की सुविधाएँ बताई गई हैं।[^1][^2]"
+        },
+        {
+          "q": "क्या UIDAI New Delhi के अलावा दफ़्तर बना सकता है?",
+          "a": "हाँ। धारा 11(4) के मुताबिक UIDAI केंद्र सरकार की पहले से मंज़ूरी लेकर भारत में दूसरी जगहों पर भी दफ़्तर बना सकता है।[^1]"
+        },
+        {
+          "q": "क्या शिकायत के लिए UIDAI की कोई व्यवस्था है?",
+          "a": "धारा 23(2)(s) के मुताबिक लोगों, Registrars, enrolling agencies और दूसरे service providers की शिकायतों के निवारण के लिए facilitation centre और grievance redressal व्यवस्था बनाना UIDAI के कामों में शामिल है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Aadhaar"
+        },
+        {
+          "t": "e-KYC"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "UPI PIN"
+        },
+        {
+          "t": "Officially Valid Document"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016 (Act No. 18 of 2016), पाठ \"As on the 1st July, 2026\"; Administered Ministry: Ministry of Electronics and Information Technology",
+          "url": "https://indiacode.gov.in/act/fcd3b406-8eae-4130-950f-b94cfb11d2d0",
+          "used": [
+            {
+              "ref": "धारा 2(e), 11",
+              "c": "UIDAI की स्थापना; body corporate; New Delhi; दूसरे दफ़्तर"
+            },
+            {
+              "ref": "धारा 3(1)",
+              "c": "हर resident enrolment से Aadhaar ले सकता है"
+            },
+            {
+              "ref": "धारा 12, 14(1)",
+              "c": "सदस्य; नियुक्ति; कार्यकाल"
+            },
+            {
+              "ref": "धारा 23",
+              "c": "UIDAI के काम"
+            },
+            {
+              "ref": "धारा 28",
+              "c": "जानकारी की सुरक्षा और गोपनीयता"
+            },
+            {
+              "ref": "धारा 54(1)",
+              "c": "regulations बनाने का अधिकार"
+            },
+            {
+              "ref": "India Code पन्ना",
+              "c": "Administered Ministry: MeitY"
+            }
+          ]
+        },
+        {
+          "label": "India Code — The Aadhaar (Authentication and Offline Verification) Regulations, 2021 (UIDAI), पाठ \"Updated as on 09.12.2025\"",
+          "url": "https://indiacode.gov.in/items/2b98dd38-2c17-4aee-8f33-324c821e548d",
+          "used": [
+            {
+              "ref": "प्रस्तावना",
+              "c": "ये regulations UIDAI ने बनाए"
+            },
+            {
+              "ref": "विनियम 3, 4(1)",
+              "c": "दो तरह का authentication; requesting entity की request"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nUIDAI का पूरा नाम Unique Identification Authority of India है।[^1] Aadhaar Act, 2016 की धारा 11(1) के मुताबिक केंद्र सरकार notification से इसकी स्थापना करती है, और यह enrolment और authentication की प्रक्रियाओं के लिए ज़िम्मेदार है।[^1]\n\n- **मुख्य दफ़्तर:** New Delhi (धारा 11(3))।[^1]\n- **Aadhaar number:** बनाना और देना, और उसका authentication करना (धारा 23(2)(d), (e))।[^1]\n- **Regulations:** Aadhaar से जुड़े नियम UIDAI notification से बनाता है (धारा 54(1))।[^1]\n\n## UIDAI कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
