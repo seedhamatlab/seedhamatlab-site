@@ -432,7 +432,7 @@
     },
     {
       "id": "report-suspect",
-      "title": "पैसा नहीं गया, लेकिन WhatsApp link संदिग्ध है—कहाँ report करें?",
+      "title": "Suspect WhatsApp number का मतलब क्या है — और उसे कहाँ report करें?",
       "cat": "scam",
       "date": "2026-09-23",
       "pinned": false,
@@ -444,8 +444,8 @@
         "WhatsApp",
         "URL"
       ],
-      "summary": "I4C का Report Suspect tool संदिग्ध URL, WhatsApp number, phone number, email और SMS sender जैसे identifiers की reporting के लिए है। यह fraud victim की मुख्य शिकायत का विकल्प नहीं है।",
-      "body": "## दो अलग रास्ते\n\n**केवल suspicious attempt:** I4C के National Cyber Crime Reporting Portal में “Report Suspect” खोलें। वहाँ suspicious website URL, WhatsApp/Telegram handle, phone number, email या SMS identifier जैसी जानकारी दी जा सकती है। Portal बताता है कि इन reports का इस्तेमाल analysis और monitoring में होता है।\n\n**पैसा कट गया / crime हो चुका है:** अपने bank को तुरंत inform करें; 1930 पर call करें या cybercrime.gov.in पर formal complaint दर्ज करें। “Report Suspect” भेजना victim complaint के बराबर नहीं है।\n\n## क्या साथ रखें\n\nMessage का screenshot, link का मूल address, sender number और समय सुरक्षित रखें। अनजान link खोलकर “verify” करने या सबूत के लिए app install करने की जरूरत नहीं।\n\n## Privacy check\n\nPublic posts या हमारे X replies में अपना number, OTP, bank detail या screenshot का निजी हिस्सा साझा न करें। Complaint हमेशा official portal पर ही दर्ज करें।\n\n**Source checked:** 23 Sep 2026. यह सामान्य decision guide है; किसी ताज़ा घटना या guaranteed outcome का दावा नहीं।",
+      "summary": "Suspect का मतलब है संदिग्ध: वह WhatsApp number, link या phone number जिससे ठगी की कोशिश हुई हो। पैसा नहीं गया तो उसे I4C के Report Suspect में दर्ज करें; पैसा गया हो तो bank और 1930।",
+      "body": "## Suspect WhatsApp number का मतलब\n\n**Suspect** का सीधा मतलब है **संदिग्ध**, यानी जिस पर शक हो। “Suspect WhatsApp number” वह WhatsApp number है जिससे आपको ठगी के शक वाला message या call आया। यह आपका अपना number नहीं है।\n\nI4C के cybercrime.gov.in पर “Report Suspect” सुविधा ऐसे ही number, link या ID दर्ज करने के लिए है, जिनसे cybercrime की **कोशिश** हुई हो।\n\n## दो अलग रास्ते\n\n**केवल suspicious attempt:** I4C के National Cyber Crime Reporting Portal में “Report Suspect” खोलें। वहाँ suspicious website URL, WhatsApp/Telegram handle, phone number, email या SMS identifier जैसी जानकारी दी जा सकती है। Portal बताता है कि इन reports का इस्तेमाल analysis और monitoring में होता है।\n\n**पैसा कट गया / crime हो चुका है:** अपने bank को तुरंत inform करें; 1930 पर call करें या cybercrime.gov.in पर formal complaint दर्ज करें। “Report Suspect” भेजना victim complaint के बराबर नहीं है।\n\n## क्या साथ रखें\n\nMessage का screenshot, link का मूल address, sender number और समय सुरक्षित रखें। Report Suspect के form में घटना का राज्य, सबूत की file (5 MB तक) और 500 characters तक का ब्योरा माँगा जाता है। अनजान link खोलकर “verify” करने या सबूत के लिए app install करने की जरूरत नहीं।\n\n## Privacy check\n\nPublic posts या हमारे X replies में अपना number, OTP, bank detail या screenshot का निजी हिस्सा साझा न करें। Complaint हमेशा official portal पर ही दर्ज करें।\n\n**Source checked:** 10 Oct 2026. यह सामान्य decision guide है; किसी ताज़ा घटना या guaranteed outcome का दावा नहीं।",
       "sources": [
         {
           "label": "I4C — Report Suspect",
@@ -456,7 +456,13 @@
           "url": "https://cybercrime.gov.in"
         }
       ],
-      "verified": "2026-09-23"
+      "verified": "2026-10-10",
+      "history": [
+        {
+          "d": "2026-10-10",
+          "t": "“Suspect” शब्द का मतलब जोड़ा गया, और Report Suspect के form में माँगी जाने वाली जानकारी (राज्य, सबूत की file, ब्योरा) जोड़ी गई। I4C का पन्ना दोबारा जाँचा गया।"
+        }
+      ]
     },
     {
       "id": "screen-share-containment",
