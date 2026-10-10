@@ -466,7 +466,7 @@
     },
     {
       "id": "screen-share-containment",
-      "title": "Screen-sharing access दे दी? अभी क्या बंद करें, किसे बताएं",
+      "title": "Screen sharing कैसे बंद करें? ठग को access दे दी हो तो अभी क्या करें",
       "cat": "scam",
       "date": "2026-09-23",
       "pinned": false,
@@ -478,19 +478,41 @@
         "access",
         "fraud"
       ],
-      "summary": "CERT-In के अनुसार remote screen access के जरिए धोखेबाज़ फोन की activity देख सकते हैं। गलती पता चलते ही session रोकें, banking access सुरक्षित करें और नुकसान हो तो तुरंत report करें।",
-      "body": "## Situation\n\nकथित customer care ने screen-sharing या remote-support app खुलवाई थी। Access अभी active हो सकती है; app बंद कर देना और permission हटाना तुरंत जरूरी है। CERT-In ने ऐसे fraud की चेतावनी दी है।\n\n## अभी तीन कदम\n\n- **Access रोकें:** call और sharing session समाप्त करें; app की screen-sharing/accessibility permissions हटाएं और अनजान remote-support app uninstall करें। तरीका phone के model के हिसाब से बदलता है।\n- **Accounts सुरक्षित करें:** bank के official helpline/app से तुरंत बात करें; जरूरत हो तो card/UPI access block करवाएं। भरोसेमंद दूसरे device से banking और email passwords बदलने पर विचार करें। कोई OTP/PIN caller को न दें।\n- **Report + proof:** transaction हुई हो तो 1930 या cybercrime.gov.in पर तुरंत शिकायत करें। App का नाम, call log, transaction reference और screenshots सँभालकर रखें।\n\n## याद रखें\n\nApp हटाने से यह साबित नहीं होता कि पहले की access या fraud का असर खत्म हो गया। Bank के official support से आगे की सुरक्षा जाँच कराएं; पैसे वापस मिलने का वादा कोई नहीं कर सकता।\n\n**Source checked:** 23 Sep 2026. यह सामान्य decision guide है; किसी ताज़ा घटना या guaranteed outcome का दावा नहीं।",
+      "summary": "WhatsApp video call में “Stop Sharing” दबाएं और अनजान screen-sharing app को Play Store से uninstall करें। ठग के कहने पर access दी थी तो bank को तुरंत बताएं; पैसा गया हो तो 1930।",
+      "body": "## Screen sharing कैसे बंद करें\n\n- **WhatsApp video call में:** screen पर **Stop Sharing** दबाएं, फिर call काट दें। WhatsApp के मुताबिक share की गई screen पर दिखने वाली जानकारी, username और password समेत, सामने वाले को दिखती है।\n- **अनजान screen-sharing या remote-support app हटाएं (Android):** Play Store खोलें, ऊपर दाईं ओर Profile icon दबाएं, फिर **Manage apps & devices > Manage**। App का नाम चुनें और **Uninstall** दबाएं।\n- **App की permissions देखें (Android):** **Settings > Apps** में app चुनें, फिर **Permissions**। जो permission नहीं देनी, उस पर **Don't allow** चुनें।\n\nGoogle के मुताबिक uninstall के कुछ steps Android 13 और उससे ऊपर पर ही काम करते हैं; phone के हिसाब से नाम थोड़े अलग हो सकते हैं।\n\n## Access दे दी थी, तो खतरा क्या है\n\nकथित customer care ने screen-sharing या remote-support app खुलवाई थी। Access अभी active हो सकती है; app बंद कर देना और permission हटाना तुरंत जरूरी है। CERT-In ने ऐसे fraud की चेतावनी दी है। CERT-In की 24 Oct 2024 की advisory भी कहती है कि किसी के कहने पर अपने device में remote access software install न करें।\n\n## अभी तीन कदम\n\n- **Access रोकें:** call और sharing session समाप्त करें; app की screen-sharing/accessibility permissions हटाएं और अनजान remote-support app uninstall करें। तरीका phone के model के हिसाब से बदलता है।\n- **Accounts सुरक्षित करें:** bank के official helpline/app से तुरंत बात करें; जरूरत हो तो card/UPI access block करवाएं। भरोसेमंद दूसरे device से banking और email passwords बदलने पर विचार करें। कोई OTP/PIN caller को न दें।\n- **Report + proof:** transaction हुई हो तो 1930 या cybercrime.gov.in पर तुरंत शिकायत करें। App का नाम, call log, transaction reference और screenshots सँभालकर रखें।\n\n## याद रखें\n\nApp हटाने से यह साबित नहीं होता कि पहले की access या fraud का असर खत्म हो गया। Bank के official support से आगे की सुरक्षा जाँच कराएं; पैसे वापस मिलने का वादा कोई नहीं कर सकता।\n\n**Source checked:** 10 Oct 2026. यह सामान्य decision guide है; किसी ताज़ा घटना या guaranteed outcome का दावा नहीं।",
       "sources": [
         {
           "label": "CERT-In — Fraudulent Activity Using Screen Sharing Apps (30 Jan 2020)",
           "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2020-0003&pageid=PUBVLNOTES02"
         },
         {
+          "label": "CERT-In — Preventing Online scams (CIAD-2024-0050, 24 Oct 2024)",
+          "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2024-0050"
+        },
+        {
           "label": "I4C — National Cyber Crime Reporting Portal",
           "url": "https://cybercrime.gov.in"
+        },
+        {
+          "label": "WhatsApp Help Center — How to share your screen (Android)",
+          "url": "https://faq.whatsapp.com/1339237313658883/?cms_platform=android"
+        },
+        {
+          "label": "Google Play Help — Delete apps on your Android device",
+          "url": "https://support.google.com/googleplay/answer/13627402"
+        },
+        {
+          "label": "Android Help — Change app permissions on your Android phone",
+          "url": "https://support.google.com/android/answer/9431959"
         }
       ],
-      "verified": "2026-09-23"
+      "verified": "2026-10-10",
+      "history": [
+        {
+          "d": "2026-10-10",
+          "t": "Screen sharing बंद करने के steps जोड़े गए (WhatsApp, Play Store से uninstall, app permissions), हर step के official स्रोत के साथ। CERT-In की 2020 की advisory दोबारा जाँची गई और 24 Oct 2024 की advisory जोड़ी गई।"
+        }
+      ]
     },
     {
       "id": "sim-connections-check",
