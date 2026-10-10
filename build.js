@@ -687,14 +687,28 @@ var SMX=(function(){
     state=1;
     fetch('/search.json').then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(j){data=j;state=2;fire();}).catch(function(){state=3;fire();});
   }
+  var SYN=[[["ओटीपी", "ओ टी पी"], ["otp"]], [["यूपीआई पिन", "यूपीआई पिन"], ["upi pin"]], [["यूपीआई", "यू पी आई"], ["upi"]], [["पिन"], ["pin"]], [["ईपीएफओ"], ["epfo"]], [["पीएफ", "ईपीएफ"], ["epf"]], [["केवाईसी"], ["kyc"]], [["सिबिल"], ["cibil"]], [["एफआईआर"], ["fir "]], [["आरबीआई"], ["rbi"]], [["एटीएम"], ["atm"]], [["पैन कार्ड", "पैन"], ["pan "]], [["सीवीवी"], ["cvv"]], [["एमडीआर"], ["mdr"]], [["रेपो"], ["repo rate"]], [["सिम"], ["sim "]], [["क्यूआर"], ["qr"]], [["डिजिटल अरेस्ट"], ["digital arrest"]], [["लोन"], ["loan"]], [["नॉमिनी", "नोमिनी"], ["nominee"]], [["paise kat", "paisa kat", "paise cut", "paisa cut", "paise chale", "paisa chala", "paise gaye", "paisa gaya", "पैसे कट", "पैसा कट", "पैसे चले", "पैसा चला", "पैसे गए", "पैसा गया", "money deducted"], ["पैसा कट"]], [["fraud ho", "froud", "thagi", "thugi", "dhokha", "धोखा", "फ्रॉड", "फ़्रॉड"], ["fraud", "ठगी"]], [["otp bata", "otp de diya", "pin bata", "pin de diya", "ओटीपी बता", "पिन बता"], ["otp", "upi pin"]], [["khata", "khaata"], ["खाता", "account"]], [["freeze", "फ्रीज", "फ़्रीज़", "खाता बंद", "account band", "khata band"], ["freeze"]], [["refund", "रिफंड", "रिफ़ंड", "paise wapas", "paisa wapas", "पैसे वापस", "पैसा वापस"], ["refund"]], [["shikayat", "complaint"], ["शिकायत"]], [["bima"], ["बीमा", "insurance"]]];
+  function vars(v){
+    v=String(v||'').trim().toLowerCase().replace(/ +/g,' ');
+    var out=[v];
+    SYN.forEach(function(s){
+      if(s[0].some(function(p){return v.indexOf(p)>-1;}))s[1].forEach(function(t){if(out.indexOf(t)<0)out.push(t);});
+    });
+    return out;
+  }
   function find(v,kind){
     if(!data||v.length<2)return [];
-    var out=[];
+    var out=[],vs=vars(v);
     data.forEach(function(d,i){
-      if(d.k!==kind||d.x.indexOf(v)===-1)return;
-      var r=3;
-      (d.n||[]).forEach(function(n){var rr=n===v?0:n.indexOf(v)===0?1:n.indexOf(v)>-1?2:3;if(rr<r)r=rr;});
-      out.push([r,i,d]);
+      if(d.k!==kind)return;
+      var r=9;
+      vs.forEach(function(w,j){
+        if(d.x.indexOf(w)===-1)return;
+        var b=j?4:0,rr=b+3;
+        (d.n||[]).forEach(function(n){var q=n===w?0:n.indexOf(w)===0?1:n.indexOf(w)>-1?2:3;if(b+q<rr)rr=b+q;});
+        if(rr<r)r=rr;
+      });
+      if(r<9)out.push([r,i,d]);
     });
     out.sort(function(a,b){return a[0]-b[0]||a[1]-b[1];});
     return out.map(function(o){return o[2];});
@@ -725,7 +739,7 @@ var SMX=(function(){
     return res.length;
   }
   function fromUrl(){var m=/[?&]q=([^&]*)/.exec(location.search);if(!m)return '';try{return decodeURIComponent(m[1].replace(/\\+/g,' ')).trim();}catch(e){return '';}}
-  return {load:load,fill:fill,fromUrl:fromUrl,pending:function(){return state<2;}};
+  return {load:load,fill:fill,fromUrl:fromUrl,vars:vars,pending:function(){return state<2;}};
 })();
 `;
 
@@ -755,10 +769,11 @@ const LIST_JS = `
   var head=document.getElementById('listhead'), cat='all';
   var xt=document.getElementById('xterms'), xs=document.getElementById('xpages');
   function apply(){
-    var term=(q.value||'').trim().toLowerCase(), shown=0;
+    var term=(q.value||'').trim().toLowerCase(), shown=0, vs=SMX.vars(term);
     entries.forEach(function(el){
+      var tx=el.getAttribute('data-text');
       var ok=(cat==='all'||el.getAttribute('data-cat')===cat) &&
-             (!term||el.getAttribute('data-text').indexOf(term)!==-1);
+             (!term||vs.some(function(w){return tx.indexOf(w)!==-1;}));
       el.hidden=!ok; if(ok) shown++;
     });
     var tn=SMX.fill(xt,term,'t','शब्दकोश में',6,'/shabdkosh/?q=','शब्दकोश के सारे # नतीजे देखिए →');
@@ -850,7 +865,7 @@ function renderIndex(posts) {
   <div class="listhead" id="listhead">ताज़ा पोस्ट</div>
   <div class="listings">${posts.map(entryHTML).join("\n")}</div>
   <div class="xres" id="xpages" hidden></div>
-  <div class="empty" id="empty" hidden>इस खोज में कुछ नहीं मिला। कोई और शब्द आज़माइए या श्रेणी बदलिए।</div>
+  <div class="empty" id="empty" hidden>इस spelling से कुछ नहीं मिला। दूसरी spelling आज़माइए (जैसे OTP या ओटीपी), या श्रेणी बदलिए।</div>
 </main>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 <script>${XSEARCH_JS}${LIST_JS}</script>${MW ? `
@@ -1189,7 +1204,7 @@ ${body.html.includes('class="calc"') ? `<script>${CALC_JS}</script>` : ""}
 <script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
 }
 
-const TERM_LIST_JS = `(function(){var q=document.getElementById('tq');if(!q)return;var cards=[].slice.call(document.querySelectorAll('.termcard')),groups=[].slice.call(document.querySelectorAll('.azgroup')),empty=document.getElementById('tempty'),count=document.getElementById('tcount'),bar=document.querySelector('.azbar'),xp=document.getElementById('xposts'),xs=document.getElementById('xpages');function run(){var v=q.value.trim().toLowerCase(),n=0;cards.forEach(function(c){var ok=!v||c.getAttribute('data-text').indexOf(v)>-1;c.hidden=!ok;if(ok)n++;});groups.forEach(function(g){g.hidden=!g.querySelector('.termcard:not([hidden])');});empty.hidden=n>0;bar.hidden=!!v;count.textContent=v?('नतीजे: '+n):('कुल शब्द: '+cards.length);SMX.fill(xp,v,'p','लेखों में',6,'/?q=','सारे # लेख देखिए →');SMX.fill(xs,v,'s','और पन्ने',20);}q.addEventListener('input',function(){if(SMX.pending())SMX.load(run);run();});q.addEventListener('focus',function(){SMX.load(run);});var uq=SMX.fromUrl();if(uq){q.value=uq;SMX.load(run);run();}})();`;
+const TERM_LIST_JS = `(function(){var q=document.getElementById('tq');if(!q)return;var cards=[].slice.call(document.querySelectorAll('.termcard')),groups=[].slice.call(document.querySelectorAll('.azgroup')),empty=document.getElementById('tempty'),count=document.getElementById('tcount'),bar=document.querySelector('.azbar'),xp=document.getElementById('xposts'),xs=document.getElementById('xpages');function run(){var v=q.value.trim().toLowerCase(),n=0,vs=SMX.vars(v);cards.forEach(function(c){var tx=c.getAttribute('data-text'),ok=!v||vs.some(function(w){return tx.indexOf(w)>-1;});c.hidden=!ok;if(ok)n++;});groups.forEach(function(g){g.hidden=!g.querySelector('.termcard:not([hidden])');});empty.hidden=n>0;bar.hidden=!!v;count.textContent=v?('नतीजे: '+n):('कुल शब्द: '+cards.length);SMX.fill(xp,v,'p','लेखों में',6,'/?q=','सारे # लेख देखिए →');SMX.fill(xs,v,'s','और पन्ने',20);}q.addEventListener('input',function(){if(SMX.pending())SMX.load(run);run();});q.addEventListener('focus',function(){SMX.load(run);});var uq=SMX.fromUrl();if(uq){q.value=uq;SMX.load(run);run();}})();`;
 
 function renderTermIndex(terms) {
   const url = `${SITE.url}/shabdkosh/`;
@@ -1229,7 +1244,7 @@ function renderTermIndex(terms) {
     <h2 class="azletter">${L}</h2>
     <div class="termlist">${groups[L].map(card).join("")}</div>
   </section>`).join("")}
-  <p class="empty" id="tempty" hidden>यह शब्द अभी शब्दकोश में नहीं है। <a href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent("Seedha Matlab: yeh shabd jodiye")}">कौन-सा शब्द चाहिए, बताइए</a></p>
+  <p class="empty" id="tempty" hidden>इस spelling से शब्दकोश में कोई शब्द नहीं मिला। दूसरी spelling आज़माइए (जैसे OTP या ओटीपी, UPI या यूपीआई)। फिर भी न मिले, तो <a href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent("Seedha Matlab: yeh shabd jodiye")}">कौन-सा शब्द चाहिए, बताइए</a></p>
   <div class="xres" id="xposts" hidden></div>
   <div class="xres" id="xpages" hidden></div>
 </main>
