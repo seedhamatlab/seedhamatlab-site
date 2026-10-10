@@ -1,0 +1,921 @@
+{
+  "terms": [
+    {
+      "id": "cyberdost",
+      "term": "CyberDost",
+      "full": "साइबर दोस्त · I4C का साइबर जागरूकता वाला social media handle",
+      "fullEn": "CyberDost (I4C, Ministry of Home Affairs)",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-10",
+      "verified": "2026-10-10",
+      "history": [
+        {
+          "d": "2026-10-10",
+          "t": "पन्ना बना। I4C की website (Major Initiatives और FAQ) और गृह मंत्रालय के लोकसभा जवाब (PIB, 28 जुलाई 2026) से जाँचा।"
+        }
+      ],
+      "one": "CyberDost गृह मंत्रालय के I4C का social media handle है, जिसे लोगों में साइबर अपराध के बारे में जागरूकता फैलाने के लिए शुरू किया गया है। साइबर अपराध की शिकायत cybercrime.gov.in पर होती है, और पैसों की ठगी में 1930 पर फ़ोन करके।",
+      "facts": [
+        {
+          "k": "किसका",
+          "v": "I4C, गृह मंत्रालय",
+          "s": "Indian Cybercrime Coordination Centre"
+        },
+        {
+          "k": "मक़सद",
+          "v": "साइबर जागरूकता",
+          "s": "नागरिकों के लिए"
+        },
+        {
+          "k": "X पर",
+          "v": "@CyberDost",
+          "s": "Facebook और Instagram पर CyberDostI4C"
+        },
+        {
+          "k": "पैसों की ठगी हो जाए",
+          "v": "1930",
+          "s": "फिर cybercrime.gov.in पर शिकायत पूरी कीजिए",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "I4C",
+            "s": "गृह मंत्रालय"
+          },
+          {
+            "t": "CyberDost",
+            "s": "social media handle"
+          },
+          {
+            "t": "नागरिक",
+            "s": "साइबर अपराध के बारे में जानकारी"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "handle चलाता है",
+            "s": "साइबर जागरूकता के लिए"
+          },
+          {
+            "b": "जागरूकता संदेश",
+            "s": "X, Facebook, Instagram, Telegram पर"
+          }
+        ],
+        "note": "CyberDost जागरूकता का एक ज़रिया है। सरकार के दूसरे जागरूकता क़दमों में caller tune, SMS, TV, radio और school अभियान भी शामिल हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"साइबर ठगी की शिकायत CyberDost के social media account पर करनी होती है।\"",
+          "f": "नहीं। I4C के FAQ के मुताबिक साइबर अपराध की शिकायत cybercrime.gov.in पर होती है। पैसों की ठगी की शिकायत 1930 पर फ़ोन करके की जा सकती है, जिसे बाद में website पर पूरा करना होता है।[^2]"
+        },
+        {
+          "m": "\"CyberDost कोई private company या app है।\"",
+          "f": "नहीं। I4C के मुताबिक CyberDost handle गृह मंत्रालय के I4C ने नागरिकों में साइबर जागरूकता के लिए शुरू किया है।[^1]"
+        },
+        {
+          "m": "\"1930 पर फ़ोन कर दिया, अब और कुछ नहीं करना।\"",
+          "f": "नहीं। I4C के FAQ के मुताबिक 1930 पर SMS से मिले acknowledgement number के साथ 24 घंटे के अंदर cybercrime.gov.in पर औपचारिक शिकायत करनी होती है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CyberDost किन platforms पर है?",
+          "a": "गृह मंत्रालय के 28 जुलाई 2026 के लोकसभा जवाब के मुताबिक: X पर @CyberDost, Facebook और Instagram पर CyberDostI4C, और Telegram पर cyberdosti4c।"
+        },
+        {
+          "q": "असली CyberDost account तक कैसे पहुँचें?",
+          "a": "I4C की website (i4c.mha.gov.in) के नीचे 'Follow us' में CyberDost के account के link दिए गए हैं। वहीं से खोलिए।"
+        },
+        {
+          "q": "I4C क्या है?",
+          "a": "गृह मंत्रालय ने देश में हर तरह के साइबर अपराध से तालमेल के साथ निपटने के लिए Indian Cyber Crime Coordination Centre (I4C) को एक attached office के रूप में बनाया है।"
+        },
+        {
+          "q": "1930 पर फ़ोन करते समय क्या बताना होता है?",
+          "a": "I4C के FAQ के मुताबिक नाम, mobile number, पता और लेनदेन की जानकारी जैसे कुछ ज़रूरी विवरण। इसके बाद SMS पर acknowledgement number आता है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "CFCFRMS"
+        },
+        {
+          "t": "Fake Customer Care"
+        },
+        {
+          "t": "Vishing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "I4C — Major Initiatives (पन्ने पर दस्तावेज़ की तारीख़ नहीं है; नीचे 'Last Updated: 11/03/2026')",
+          "url": "https://i4c.mha.gov.in/initiative.aspx",
+          "used": [
+            {
+              "ref": "Other Initiatives, आख़िरी पैरा",
+              "c": "I4C, MHA ने साइबर जागरूकता के लिए कई social media platforms पर CyberDost handle शुरू किया"
+            },
+            {
+              "ref": "Follow us",
+              "c": "CyberDost के account के link"
+            }
+          ]
+        },
+        {
+          "label": "I4C — FAQ (Frequently Asked Questions; सवाल ऊपर से गिने गए हैं; नीचे 'Last Updated: 11/03/2026')",
+          "url": "https://i4c.mha.gov.in/FAQ.aspx",
+          "used": [
+            {
+              "ref": "सवाल 6",
+              "c": "शिकायत cybercrime.gov.in पर; पैसों की ठगी 1930 पर, बाद में website पर पूरी करनी होती है"
+            },
+            {
+              "ref": "सवाल 16",
+              "c": "1930 पर नाम, mobile number, पता, लेनदेन की जानकारी; acknowledgement number से 24 घंटे में portal पर औपचारिक शिकायत"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — Cyber Crime Mitigation Centre, लोकसभा में लिखित उत्तर, 28 जुलाई 2026 (Release ID 2290366; बिंदु ऊपर से गिने गए हैं)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290366",
+          "issued": "2026-07-28",
+          "used": [
+            {
+              "ref": "बिंदु 1",
+              "c": "I4C गृह मंत्रालय का attached office; हर तरह के साइबर अपराध से तालमेल के साथ निपटने के लिए"
+            },
+            {
+              "ref": "जागरूकता वाला पैरा",
+              "c": "CyberDost: X (@CyberDost), Facebook और Instagram (CyberDostI4C), Telegram (cyberdosti4c); caller tune, SMS, TV, radio, school अभियान आदि"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCyberDost गृह मंत्रालय (MHA) के Indian Cybercrime Coordination Centre (I4C) का social media handle है। I4C के मुताबिक इसे नागरिकों में साइबर जागरूकता फैलाने के लिए कई social media platforms पर शुरू किया गया है।[^1]\n\nगृह मंत्रालय के 28 जुलाई 2026 के लोकसभा जवाब में I4C के ये social media account बताए गए हैं:[^3]\n\n- **X:** @CyberDost\n- **Facebook:** CyberDostI4C\n- **Instagram:** CyberDostI4C\n- **Telegram:** cyberdosti4c\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- साइबर अपराध से बचने के लिए सरकार के जागरूकता संदेश आप इन account पर देख सकते हैं।[^1]\n- शिकायत का रास्ता अलग है: साइबर अपराध की शिकायत cybercrime.gov.in पर होती है, और पैसों की ठगी में 1930 पर फ़ोन करके।[^2]\n\n## कैसे काम करता है | कैसे\n\n::flow\n\n- I4C, गृह मंत्रालय का attached office है, जो देश में हर तरह के साइबर अपराध से तालमेल के साथ निपटने के लिए बना है।[^3]\n- गृह मंत्रालय के मुताबिक साइबर अपराध के बारे में जागरूकता के लिए सरकार CyberDost के अलावा caller tune, SMS, TV, radio, school अभियान, cinema halls में विज्ञापन और MyGov का भी इस्तेमाल करती है। राज्यों के साथ Cyber Safety and Security Awareness weeks होते हैं, और metro, railway stations व airports पर digital displays लगते हैं।[^3]\n\n## शिकायत कहाँ करें | शिकायत\n\n- **साइबर अपराध:** cybercrime.gov.in पर शिकायत कीजिए।[^2]\n- **पैसों की ठगी:** 1930 पर फ़ोन करके नाम, mobile number, पता और लेनदेन की जानकारी दीजिए। SMS पर मिले acknowledgement number के साथ 24 घंटे के अंदर portal पर औपचारिक शिकायत कीजिए।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- CyberDost के account I4C की website पर 'Follow us' में दिए link से खोलिए।[^1]\n- पैसों की ठगी हो जाए, तो 1930 पर फ़ोन कीजिए और 24 घंटे के अंदर cybercrime.gov.in पर शिकायत पूरी कीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "payment-aggregator",
+      "term": "Payment Aggregator",
+      "aliases": [
+        "Payment Aggregators"
+      ],
+      "full": "पेमेंट एग्रीगेटर · दुकानदार के लिए भुगतान इकट्ठा करके उसे देने वाली संस्था",
+      "fullEn": "Payment Aggregator (PA)",
+      "group": "भुगतान",
+      "created": "2026-10-10",
+      "verified": "2026-10-10",
+      "history": [
+        {
+          "d": "2026-10-10",
+          "t": "पन्ना बना। RBI के Master Direction on Regulation of Payment Aggregator (15 सितंबर 2025) से जाँचा। RBI की Master Directions सूची में आज तक इसका कोई नया version नहीं दिखा।"
+        }
+      ],
+      "one": "Payment Aggregator (PA) वह संस्था है, जो ग्राहकों से दुकानदारों को होने वाले भुगतान इकट्ठा करती है और फिर वह रक़म दुकानदार को देती है। RBI के नियमों के मुताबिक bank के अलावा किसी संस्था को यह काम करने के लिए RBI से authorisation लेना होता है।",
+      "facts": [
+        {
+          "k": "काम",
+          "v": "भुगतान इकट्ठा करके settle",
+          "s": "ग्राहक से दुकानदार तक"
+        },
+        {
+          "k": "Non-bank PA को",
+          "v": "RBI authorisation",
+          "s": "bank को अलग authorisation नहीं चाहिए"
+        },
+        {
+          "k": "Refund",
+          "v": "उसी तरीक़े में",
+          "s": "जिससे भुगतान हुआ था, जब तक आप ख़ुद कुछ और न कहें",
+          "good": true
+        },
+        {
+          "k": "कीमत के अलावा charge",
+          "v": "भुगतान से पहले दिखे",
+          "s": "अलग से, साफ़-साफ़",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "ग्राहक",
+            "s": "एक या ज़्यादा payment channel से भुगतान"
+          },
+          {
+            "t": "Payment Aggregator",
+            "s": "non-bank PA: रक़म अलग escrow खाते में"
+          },
+          {
+            "t": "दुकानदार",
+            "s": "समझौते में लिखे समय पर रक़म"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "भुगतान",
+            "s": "दुकानदार के physical या virtual interface पर"
+          },
+          {
+            "b": "Settlement",
+            "s": "PA और दुकानदार के समझौते के मुताबिक"
+          }
+        ],
+        "note": "Non-bank PA दुकानदारों की ओर से इकट्ठा रक़म किसी Scheduled Commercial Bank में अलग escrow खाते में रखता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Payment Aggregator और Payment Gateway एक ही चीज़ हैं।\"",
+          "f": "नहीं। RBI के मुताबिक Payment Gateway सिर्फ़ तकनीकी ढाँचा देता है, जिससे भुगतान route और process होता है; पैसे सँभालने में उसकी कोई भूमिका नहीं होती। PA भुगतान इकट्ठा करके दुकानदार को settle करता है।[^1]"
+        },
+        {
+          "m": "\"PA किसी भी payment तरीक़े पर अपनी तरफ़ से रक़म की सीमा लगा देता है।\"",
+          "f": "नहीं। RBI के मुताबिक PA किसी payment तरीक़े पर लेनदेन की रक़म की सीमा नहीं लगा सकता। यह ज़िम्मेदारी card या दूसरा payment instrument जारी करने वाले bank या संस्था की है।[^1]"
+        },
+        {
+          "m": "\"Refund किसी भी तरीक़े से भेजा जा सकता है।\"",
+          "f": "नहीं। RBI के मुताबिक हर refund उसी तरीक़े में जाता है जिससे भुगतान हुआ था, जब तक भुगतान करने वाला ख़ुद अपने किसी दूसरे तरीक़े में refund न माँगे।[^1]"
+        },
+        {
+          "m": "\"Online card भुगतान के page पर ATM PIN माँगा जाए, तो कोई बात नहीं।\"",
+          "f": "सावधान रहिए। RBI के मुताबिक PA, card-not-present लेनदेन (जिसमें card सामने मौजूद नहीं होता, जैसे online भुगतान) में ATM PIN को authentication का विकल्प नहीं दे सकता।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Payment Aggregator के कितने प्रकार हैं?",
+          "a": "RBI के 2025 के निर्देशों में तीन: PA – Physical (PA-P), जहाँ भुगतान के समय acceptance device और payment instrument पास-पास मौजूद हों; PA – Online (PA-O), जहाँ वे पास-पास न हों; और PA – Cross Border (PA-CB), जो FEMA के तहत मना न किए गए *current account transactions* (लेनदेन) के सीमा-पार भुगतान e-commerce के ज़रिए इकट्ठा करता है।"
+        },
+        {
+          "q": "क्या bank भी Payment Aggregator हो सकता है?",
+          "a": "हाँ। RBI के निर्देश bank और non-bank दोनों तरह की संस्थाओं पर लागू होते हैं। Bank को PA का काम करने के लिए अलग authorisation नहीं चाहिए। Non-bank को RBI से authorisation लेना होता है, और उसे भारत में Companies Act, 2013 के तहत बनी company होना चाहिए।"
+        },
+        {
+          "q": "दुकानदार को पैसा कब मिलता है?",
+          "a": "RBI के मुताबिक escrow खाते से दुकानदार के खाते में रक़म PA और दुकानदार के बीच हुए समझौते के मुताबिक जाती है। यह समझौता उचित और बराबरी वाला होना चाहिए, और उसमें settlement का समय साफ़ लिखा होना चाहिए।"
+        },
+        {
+          "q": "दुकानदार को PA से शिकायत हो, तो क्या करे?",
+          "a": "RBI के मुताबिक PA को दुकानदारों की बात सुनने के लिए एक अधिकारी और शिकायत आगे ले जाने का escalation matrix रखना होता है, और इनकी जानकारी अपनी website पर साफ़ दिखानी होती है।"
+        },
+        {
+          "q": "क्या PA दुकानदार का MDR तय करता है?",
+          "a": "RBI के निर्देशों में PA से कहा गया है कि MDR से जुड़े मौजूदा निर्देशों का पालन हो। MDR क्या है और UPI में कितना है, यह MDR वाले पन्ने पर है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Acquiring bank"
+        },
+        {
+          "t": "MDR"
+        },
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "P2M"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "PSS Act"
+        },
+        {
+          "t": "Credit Card"
+        },
+        {
+          "t": "Debit Card"
+        },
+        {
+          "t": "Commercial Bank"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Master Direction on Regulation of Payment Aggregator (PA): Reserve Bank of India (Regulation of Payment Aggregators) Directions, 2025 (RBI/DPSS/2025-26/141; CO.DPSS.POLC.No.S-633/02-14-008/2025-26), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/141MD7D7F25DEBF1F48449E20D685E4B014E5.PDF",
+          "issued": "2025-09-15",
+          "effective": "2025-09-15",
+          "used": [
+            {
+              "ref": "पैरा 3(a)",
+              "c": "bank और non-bank दोनों तरह की PA संस्थाओं पर लागू"
+            },
+            {
+              "ref": "पैरा 4(i)",
+              "c": "PA की परिभाषा; तीन प्रकार: PA-P, PA-CB, PA-O"
+            },
+            {
+              "ref": "पैरा 4(j), 10(g), 10(h)",
+              "c": "Payment Gateway सिर्फ़ तकनीकी ढाँचा, पैसे नहीं सँभालता; इन निर्देशों के दायरे से बाहर; PA, PG की सेवा ले सकता है"
+            },
+            {
+              "ref": "पैरा 5(a), (b), (c)",
+              "c": "bank को authorisation नहीं चाहिए; non-bank को RBI से authorisation; Companies Act, 2013 के तहत company"
+            },
+            {
+              "ref": "पैरा 8(a), (d)",
+              "c": "भुगतान के विवाद सुलझाने का तंत्र; दुकानदारों के लिए अधिकारी और escalation matrix website पर"
+            },
+            {
+              "ref": "पैरा 10(a), (b), (c)",
+              "c": "सिर्फ़ अनुबंध वाले दुकानदार; marketplace का कारोबार नहीं; MDR निर्देश; कीमत के अलावा charge भुगतान से पहले अलग से दिखे"
+            },
+            {
+              "ref": "पैरा 10(d), (e), (f)",
+              "c": "रक़म की सीमा PA नहीं लगाता; card-not-present में ATM PIN का विकल्प नहीं; refund उसी तरीक़े में"
+            },
+            {
+              "ref": "पैरा 16(a), Table 1",
+              "c": "non-bank PA की रक़म Scheduled Commercial Bank में escrow खाते में; दुकानदार को settlement समझौते के मुताबिक, समय साफ़ लिखा हो"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के निर्देशों के मुताबिक Payment Aggregator (PA) वह संस्था है, जो सामान, सेवा या निवेश के लिए ग्राहकों से दुकानदारों (merchants) को होने वाले भुगतान, दुकानदार के physical या virtual interface के ज़रिए, एक या ज़्यादा payment channels से इकट्ठा करती है, और फिर वह रक़म दुकानदारों को settle करती है।[^1]\n\nRBI ने इसके लिए 15 सितंबर 2025 को Master Direction जारी किया, जो Payment and Settlement Systems Act, 2007 और FEMA, 1999 के तहत है। यह उसी दिन से लागू है, सिवाय उन प्रावधानों के जिनकी अलग तारीख़ दी गई है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ग्राहक हैं:** कीमत के अलावा दुकानदार कोई charge ले रहा हो, तो PA को वह भुगतान से पहले आपको अलग से साफ़ दिखाना होता है। Refund उसी तरीक़े में आता है जिससे आपने भुगतान किया था।[^1]\n- **दुकानदार हैं:** PA आपको रक़म कब देगा, यह आपके और PA के समझौते में साफ़ लिखा होना चाहिए।[^1]\n\n## कैसे काम करता है | कैसे\n\n::flow\n\n- PA सिर्फ़ उन्हीं दुकानदारों के लिए रक़म इकट्ठा कर सकता है, जिनसे उसका अनुबंध है। वह ख़ुद marketplace का कारोबार नहीं कर सकता।[^1]\n- Bank को PA का काम करने के लिए अलग authorisation नहीं चाहिए; non-bank संस्था को RBI से authorisation लेना होता है।[^1]\n\n## PA के प्रकार | प्रकार\n\n- **PA – Physical (PA-P):** भुगतान के समय acceptance device और payment instrument पास-पास मौजूद होते हैं।[^1]\n- **PA – Online (PA-O):** device और payment instrument पास-पास मौजूद नहीं होते।[^1]\n- **PA – Cross Border (PA-CB):** FEMA के तहत मना न किए गए *current account transactions* (लेनदेन) के सीमा-पार भुगतान e-commerce के ज़रिए इकट्ठा करता है।[^1]\n\n## Payment Gateway से फ़र्क़ | PG से फ़र्क़\n\n- **Payment Gateway (PG):** सिर्फ़ तकनीकी ढाँचा देता है, जिससे भुगतान route और process होता है। पैसे सँभालने में इसकी कोई भूमिका नहीं होती, और यह RBI के इन PA निर्देशों के दायरे में नहीं आता।[^1]\n- **Payment Aggregator:** भुगतान की रक़म इकट्ठा करके दुकानदार को देता है। PA, किसी PG की सेवा ले सकता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> कीमत के अलावा दुकानदार जो भी charge ले रहा है, वह PA को भुगतान से पहले आपको अलग से साफ़ दिखाना होता है।[^1]\n\n- हर refund उसी तरीक़े में आता है जिससे भुगतान हुआ था, जब तक आप ख़ुद अपने किसी दूसरे तरीक़े में refund न माँगें।[^1]\n- PA को भुगतान से जुड़े विवाद सुलझाने का तंत्र रखना होता है, जिसमें refund की समय-सीमा भी हो।[^1]\n\n## अभी क्या करें\n\n- भुगतान से पहले page पर कुल रक़म और अलग से दिखाए गए charge देख लीजिए।[^1]\n- Online card भुगतान में ATM PIN माँगा जाए, तो सावधान रहिए: नियम के मुताबिक PA ऐसे लेनदेन में ATM PIN का विकल्प नहीं दे सकता।[^1]\n- दुकानदार हैं, तो PA के समझौते में settlement का समय, refund और शिकायत का तरीक़ा पढ़िए, और PA की website पर शिकायत अधिकारी व escalation matrix देखिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "commercial-bank",
+      "term": "Commercial Bank",
+      "aliases": [
+        "Commercial Banks"
+      ],
+      "full": "कमर्शियल बैंक · RBI के निर्देशों में आम banks का समूह",
+      "fullEn": "Commercial Banks (RBI Directions, 2025)",
+      "group": "बैंकिंग",
+      "created": "2026-10-10",
+      "verified": "2026-10-10",
+      "history": [
+        {
+          "d": "2026-10-10",
+          "t": "पन्ना बना। RBI के Commercial Banks – Miscellaneous Directions, 2025 (1 अक्टूबर 2026 तक updated) और Banking Regulation Act, 1949 (India Code, 20 दिसंबर 2025 तक का पाठ) से जाँचा।"
+        }
+      ],
+      "one": "RBI के 2025 वाले निर्देशों में 'Commercial Banks' का मतलब है: banking companies (Small Finance Banks, Payments Banks और Local Area Banks को छोड़कर), corresponding new banks और State Bank of India। RBI इनके लिए 'Commercial Banks – …' नाम से अलग निर्देश जारी करता है।",
+      "facts": [
+        {
+          "k": "शामिल",
+          "v": "Banking companies",
+          "s": "साथ में corresponding new banks और SBI"
+        },
+        {
+          "k": "शामिल नहीं",
+          "v": "SFB, Payments Bank, LAB",
+          "s": "Commercial Banks की परिभाषा से बाहर"
+        },
+        {
+          "k": "क़ानून",
+          "v": "Banking Regulation Act, 1949",
+          "s": "परिभाषाएँ धारा 5 में"
+        },
+        {
+          "k": "10 साल से पड़ी रक़म",
+          "v": "DEA Fund में",
+          "s": "फिर भी माँगने पर bank लौटाता है",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Banking Regulation Act",
+            "s": "धारा 5: परिभाषाएँ"
+          },
+          {
+            "t": "RBI के निर्देश",
+            "s": "'Commercial Banks – …' Directions"
+          },
+          {
+            "t": "Commercial Bank",
+            "s": "इन निर्देशों के दायरे में"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "धारा 35A",
+            "s": "RBI को निर्देश देने का अधिकार"
+          },
+          {
+            "b": "लागू",
+            "s": "परिभाषा में आने वाले banks पर"
+          }
+        ],
+        "note": "यह परिभाषा RBI के Commercial Banks – Miscellaneous Directions, 2025 के पैरा 3 से है।"
+      },
+      "myths": [
+        {
+          "m": "\"RBI के लिए हर bank 'commercial bank' है।\"",
+          "f": "नहीं। RBI के Commercial Banks – Miscellaneous Directions में 'Commercial Banks' की परिभाषा से Small Finance Banks, Payments Banks और Local Area Banks बाहर रखे गए हैं।[^1]"
+        },
+        {
+          "m": "\"Commercial bank का मतलब सिर्फ़ private bank है।\"",
+          "f": "नहीं। परिभाषा में State Bank of India और corresponding new banks भी शामिल हैं।[^1] इन्हीं निर्देशों में कुछ बातें सिर्फ़ Private Sector Banks पर और कुछ भारत में branch के रूप में काम करने वाले foreign banks पर लागू की गई हैं।[^1]"
+        },
+        {
+          "m": "\"Bank में 10 साल पड़ी रक़म डूब जाती है।\"",
+          "f": "नहीं। 10 साल या उससे ज़्यादा से बिना लेनदेन वाले खाते की रक़म bank DEA Fund में भेजता है, लेकिन ग्राहक (या उसके वारिस) माँगें, तो bank उसे ब्याज के साथ (अगर लागू हो) लौटाता है। इसके लिए कोई समय-सीमा तय नहीं है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "'Corresponding new bank' क्या है?",
+          "a": "Banking Regulation Act की धारा 5(da) के मुताबिक यह वह bank है, जो Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 या 1980 की धारा 3 के तहत बना है।"
+        },
+        {
+          "q": "क़ानून में 'banking' का मतलब क्या है?",
+          "a": "Banking Regulation Act की धारा 5(b) के मुताबिक: उधार देने या निवेश के लिए जनता से पैसा जमा लेना, जो माँगने पर या दूसरी तरह वापस होता है, और cheque, draft, order आदि से निकाला जा सकता है।"
+        },
+        {
+          "q": "क्या विदेशी bank भी इसमें आते हैं?",
+          "a": "Banking Regulation Act में 'company' की परिभाषा में foreign company भी शामिल है, और RBI के Commercial Banks – Miscellaneous Directions में भारत में branch के रूप में काम करने वाले foreign banks के लिए अलग प्रावधान है।"
+        },
+        {
+          "q": "Small Finance Bank भी तो bank है, फिर वह अलग क्यों?",
+          "a": "RBI के Commercial Banks वाले निर्देशों की परिभाषा में Small Finance Banks, Payments Banks और Local Area Banks शामिल नहीं हैं। इनके बारे में इनके अपने पन्ने देखिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Banking Regulation Act"
+        },
+        {
+          "t": "Small Finance Bank"
+        },
+        {
+          "t": "Payments Bank"
+        },
+        {
+          "t": "Local Area Bank"
+        },
+        {
+          "t": "DEA Fund"
+        },
+        {
+          "t": "Unclaimed Deposit"
+        },
+        {
+          "t": "DICGC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Miscellaneous) Directions, 2025 (RBI/DOR/2025-26/174; DOR.SOG(SPE).REC.No.93/13-04-001/2025-26; Updated as on October 01, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/174MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "शुरुआती पैरा",
+              "c": "BR Act की धारा 26A और 35A के तहत जारी"
+            },
+            {
+              "ref": "पैरा 3",
+              "c": "'Commercial Banks': banking companies (SFB, Payment Banks, LAB छोड़कर), corresponding new banks, SBI"
+            },
+            {
+              "ref": "पैरा 11",
+              "c": "10 साल या ज़्यादा से बिना लेनदेन वाले खाते की रक़म DEA Fund में"
+            },
+            {
+              "ref": "पैरा 15",
+              "c": "माँगने पर bank ब्याज (अगर लागू) के साथ लौटाता है; कोई समय-सीमा तय नहीं"
+            },
+            {
+              "ref": "पैरा 64, 65",
+              "c": "branch के रूप में काम करने वाले foreign banks; कुछ प्रावधान सिर्फ़ Private Sector Banks पर"
+            }
+          ]
+        },
+        {
+          "label": "India Code — The Banking Regulation Act, 1949 (Act No. 10 of 1949), पाठ \"As on the 20th December, 2025\"",
+          "url": "https://indiacode.gov.in/act/18020586-18bc-4857-91fe-668ed2469876",
+          "used": [
+            {
+              "ref": "धारा 5(b), 5(c)",
+              "c": "'banking' और 'banking company' की परिभाषा"
+            },
+            {
+              "ref": "धारा 5(d)",
+              "c": "'company' में foreign company भी शामिल"
+            },
+            {
+              "ref": "धारा 5(da), 5(nc)",
+              "c": "'corresponding new bank' और 'State Bank of India' की परिभाषा"
+            },
+            {
+              "ref": "धारा 35A(1)",
+              "c": "RBI के निर्देश; banking companies पर उनका पालन ज़रूरी"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के Commercial Banks – Miscellaneous Directions, 2025 के मुताबिक 'Commercial Banks' का मतलब है:[^1]\n\n- **Banking companies:** Small Finance Banks, Payments Banks और Local Area Banks को छोड़कर।\n- **Corresponding new banks.**\n- **State Bank of India.**\n\nये तीनों शब्द Banking Regulation Act, 1949 की धारा 5 में परिभाषित हैं।[^1] इस क़ानून के मुताबिक 'banking company' वह company है, जो भारत में banking का कारोबार करती है।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- RBI के 'Commercial Banks – …' नाम वाले निर्देश इन्हीं banks पर लागू होते हैं।[^1] Banking Regulation Act की धारा 35A के तहत RBI के निर्देश मानना banking companies के लिए ज़रूरी है।[^2]\n- आपका bank Small Finance Bank, Payments Bank या Local Area Bank है, तो वह RBI के 'Commercial Banks' वाले निर्देशों की परिभाषा में नहीं आता।[^1] उसके बारे में उसका अपना पन्ना देखिए।\n\n## कैसे काम करता है | कैसे\n\n::flow\n\n- **Banking:** क़ानून के मुताबिक उधार देने या निवेश के लिए जनता से पैसा जमा लेना, जो माँगने पर या दूसरी तरह वापस होता है, और cheque, draft, order आदि से निकाला जा सकता है।[^2]\n- **Company:** Banking Regulation Act में 'company' की परिभाषा में foreign company भी शामिल है।[^2]\n- **Corresponding new bank:** Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 या 1980 की धारा 3 के तहत बना bank।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> 10 साल या उससे ज़्यादा से बिना लेनदेन वाले खाते की रक़म DEA Fund में चली जाए, तब भी आप (या आपके वारिस) माँगें, तो bank उसे ब्याज के साथ (अगर लागू हो) लौटाता है।[^1]\n\n- RBI के निर्देशों के मुताबिक ऐसी रक़म माँगने की कोई समय-सीमा तय नहीं है, लेकिन पता चलते ही दावा करने की सलाह दी गई है।[^1]\n\n## अभी क्या करें\n\n- किसी RBI निर्देश को पढ़ते समय उसका 'Applicability' वाला हिस्सा देखिए कि वह आपके bank की श्रेणी पर लागू है या नहीं।[^1]\n- किसी पुराने खाते में पैसा पड़ा हो, तो bank से संपर्क करके दावा कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "mutual-fund",
+      "term": "Mutual Fund",
+      "aliases": [
+        "Mutual Funds",
+        "म्यूचुअल फंड"
+      ],
+      "full": "म्यूचुअल फंड · कई निवेशकों का पैसा मिलाकर निवेश करने वाला SEBI में registered fund",
+      "fullEn": "Mutual Fund (SEBI (Mutual Funds) Regulations, 2026)",
+      "group": "निवेश",
+      "created": "2026-10-10",
+      "verified": "2026-10-10",
+      "history": [
+        {
+          "d": "2026-10-10",
+          "t": "पन्ना बना। SEBI (Mutual Funds) Regulations, 2026 (7 जुलाई 2026 तक संशोधित), SEBI के Master Circular for Mutual Funds (20 मार्च 2026) और SEBI के निवेशक FAQ से जाँचा। 20 मार्च 2026 के बाद के SEBI circulars में इन बातों को बदलने वाला कोई नहीं मिला।"
+        }
+      ],
+      "one": "SEBI के नियमों के मुताबिक mutual fund trust के रूप में बना और SEBI में registered fund है, जो units बेचकर लोगों से पैसा जुटाता है और उसे securities, money market instruments, gold या silver से जुड़े instruments जैसे assets में लगाता है। Mutual fund का निवेश market के जोखिम के अधीन है।",
+      "facts": [
+        {
+          "k": "नियामक",
+          "v": "SEBI",
+          "s": "SEBI (Mutual Funds) Regulations, 2026"
+        },
+        {
+          "k": "NAV",
+          "v": "हर दिन",
+          "s": "हर scheme का NAV रोज़ निकाला जाता है"
+        },
+        {
+          "k": "Redemption का पैसा",
+          "v": "3 working days",
+          "s": "80% विदेशी निवेश वाली schemes में 5; देरी पर 15% सालाना ब्याज",
+          "good": true
+        },
+        {
+          "k": "शिकायत का निपटारा",
+          "v": "21 दिन",
+          "s": "AMC को, शिकायत मिलने से calendar days में",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "निवेशक",
+            "s": "पैसा लगाते हैं, units मिलती हैं"
+          },
+          {
+            "t": "Mutual fund scheme",
+            "s": "AMC पैसा सँभालती है"
+          },
+          {
+            "t": "निवेश",
+            "s": "securities, money market instruments आदि"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Units",
+            "s": "NAV के आधार पर"
+          },
+          {
+            "b": "निवेश",
+            "s": "scheme के उद्देश्य के मुताबिक"
+          }
+        ],
+        "note": "हर unit, scheme की संपत्ति में एक अविभाजित हिस्सा है। Scheme का NAV = net assets ÷ बाक़ी units, जो हर दिन निकाला जाता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Mutual fund में पैसा पक्का बढ़ता है।\"",
+          "f": "नहीं। SEBI के नियमों में हर mutual fund विज्ञापन के साथ यह मानक चेतावनी ज़रूरी है: 'Mutual Fund investments are subject to market risks, read all scheme related documents carefully.'[^1]"
+        },
+        {
+          "m": "\"कोई भी company mutual fund चला सकती है।\"",
+          "f": "नहीं। Mutual fund को SEBI से registration चाहिए, और उसका पैसा SEBI से मंज़ूर asset management company (AMC) सँभालती है।[^1]"
+        },
+        {
+          "m": "\"पैसा निकालने पर AMC जब चाहे तब देगी।\"",
+          "f": "नहीं। Redemption का पैसा 3 working days में देना होता है; जिन schemes का कम से कम 80% निवेश विदेश में है, उनमें 5 working days।[^2] देरी हो, तो AMC को देरी की अवधि का 15% सालाना ब्याज देना होता है।[^1]"
+        },
+        {
+          "m": "\"Exit load कितना भी लग सकता है।\"",
+          "f": "नहीं। Open-ended scheme में exit load NAV के 3% से ज़्यादा नहीं हो सकता, और लिया गया exit load उसी scheme में जमा होता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "NAV क्या है?",
+          "a": "SEBI के नियमों के मुताबिक AMC हर scheme का Net Asset Value (NAV) रोज़ निकालती है: scheme की net assets को उस दिन की बाक़ी units की संख्या से भाग देकर।"
+        },
+        {
+          "q": "AMC क्या है?",
+          "a": "Asset management company (AMC) वह company है, जो Companies Act के तहत बनी हो और जिसे SEBI ने मंज़ूरी दी हो। यही mutual fund का पैसा सँभालती है।"
+        },
+        {
+          "q": "Account statement कब मिलता है?",
+          "a": "जिस महीने आपके folio में कोई लेनदेन (खरीद, redemption, SIP आदि) हो, उस महीने का consolidated account statement मिलता है। लेनदेन न हो, तो छह-छह महीने पर। अलग-अलग mutual funds में आपके निवेश को PAN से जोड़ा जाता है।"
+        },
+        {
+          "q": "Direct plan क्या है?",
+          "a": "SEBI के मुताबिक हर scheme में बिना distributor वाले निवेश के लिए अलग direct plan होना चाहिए। इसमें distribution commission नहीं होता, इसलिए इसका expense ratio कम होता है और इसका NAV अलग होता है।"
+        },
+        {
+          "q": "शिकायत कहाँ करें?",
+          "a": "पहले संबंधित mutual fund या AMC से। AMC को शिकायत 21 calendar days के अंदर सुलझानी होती है। न सुलझे, तो SEBI के निवेशक FAQ के मुताबिक SEBI के SCORES (scores.sebi.gov.in) पर शिकायत की जा सकती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "SIP"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "PAN"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "FD"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SEBI — Securities and Exchange Board of India (Mutual Funds) Regulations, 2026 (Amended upto July 7, 2026), PDF",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2026/1783933012694.pdf",
+          "issued": "2026-01-15",
+          "effective": "2026-04-01",
+          "used": [
+            {
+              "ref": "विनियम 1(2)",
+              "c": "1 अप्रैल 2026 से लागू"
+            },
+            {
+              "ref": "विनियम 2(1)(gg)",
+              "c": "mutual fund: trust, SEBI registration, units बेचकर पैसा, securities आदि में निवेश"
+            },
+            {
+              "ref": "विनियम 2(1)(e), (ccc)",
+              "c": "AMC: SEBI से मंज़ूर company; unit: scheme की संपत्ति में अविभाजित हिस्सा"
+            },
+            {
+              "ref": "विनियम 18; तीसरी अनुसूची (2)(a)",
+              "c": "sponsor या trustee, SEBI से मंज़ूर AMC नियुक्त करते हैं; AMC schemes में जुटाया पैसा सँभालती है"
+            },
+            {
+              "ref": "विनियम 34",
+              "c": "लेनदेन वाले महीने का consolidated account statement; नहीं तो छमाही; PAN से पहचान"
+            },
+            {
+              "ref": "विनियम 43",
+              "c": "NAV रोज़: net assets ÷ बाक़ी units"
+            },
+            {
+              "ref": "विनियम 44(3), (4)",
+              "c": "exit load scheme में जमा; open-ended में NAV का अधिकतम 3%"
+            },
+            {
+              "ref": "विनियम 46(2)",
+              "c": "redemption में देरी पर 15% सालाना ब्याज"
+            },
+            {
+              "ref": "विनियम 71(1)",
+              "c": "AMC शिकायत 21 calendar days में सुलझाए"
+            },
+            {
+              "ref": "पाँचवीं अनुसूची (i)",
+              "c": "विज्ञापन में मानक चेतावनी: market risks"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Master Circular for Mutual Funds (HO/24/13/11(1)2026-IMD-POD-1/I/7602/2026), PDF",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/mar-2026/1774024028162.pdf",
+          "issued": "2026-03-20",
+          "used": [
+            {
+              "ref": "पैरा 3.4.1, 3.4.2",
+              "c": "direct plan: बिना distributor; कम expense ratio; अलग NAV"
+            },
+            {
+              "ref": "पैरा 15.3.1, 15.3.2",
+              "c": "redemption का पैसा 3 working days में; 80% विदेशी निवेश वाली schemes में 5"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — FAQs for Mutual Fund Investors (31 अगस्त 2024 तक updated; SEBI के मुताबिक यह क़ानूनी दस्तावेज़ नहीं है), PDF",
+          "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2024/1727242783639.pdf",
+          "used": [
+            {
+              "ref": "सवाल 1",
+              "c": "निवेश scheme के offer document में बताए उद्देश्य के मुताबिक"
+            },
+            {
+              "ref": "सवाल 24, 25",
+              "c": "निवेश एक साथ या SIP से"
+            },
+            {
+              "ref": "सवाल 43",
+              "c": "शिकायत पहले mutual fund से; न सुलझे तो SEBI के SCORES पर"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSEBI (Mutual Funds) Regulations, 2026 के मुताबिक mutual fund trust के रूप में बना fund है, जिसे SEBI से registration मिला हो। यह एक या ज़्यादा schemes के तहत जनता को units बेचकर पैसा जुटाता है, और उसे securities, money market instruments, gold या silver से जुड़े instruments और SEBI के तय किए दूसरे assets में लगाता है।[^1]\n\n- **Unit:** scheme की संपत्ति में निवेशक का एक अविभाजित हिस्सा।[^1]\n- **AMC:** SEBI से मंज़ूर company, जो fund का पैसा सँभालती है।[^1]\n- **नए नियम:** ये regulations 1 अप्रैल 2026 से लागू हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- आपको units मिलती हैं, और उनकी कीमत scheme के NAV से तय होती है। NAV ऊपर-नीचे होता है, क्योंकि mutual fund का निवेश market के जोखिम के अधीन है।[^1]\n- निवेश एक साथ भी किया जा सकता है, और SIP से थोड़ा-थोड़ा भी।[^3]\n\n## कैसे काम करता है | कैसे\n\n::flow\n\n- **NAV:** AMC हर scheme का NAV हर दिन निकालती है।[^1]\n- **Redemption:** units बेचने पर पैसा 3 working days में आना चाहिए; जिन schemes का कम से कम 80% निवेश विदेश में है, उनमें 5 working days।[^2]\n- **Exit load:** open-ended scheme में NAV के 3% से ज़्यादा नहीं, और यह scheme में ही जमा होता है।[^1]\n- **Direct plan:** बिना distributor वाला plan; इसका expense ratio कम और NAV अलग होता है।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Redemption का पैसा तय समय में न आए, तो AMC को देरी की अवधि के लिए 15% सालाना ब्याज देना होता है।[^1]\n\n- AMC को आपकी शिकायत 21 calendar days के अंदर सुलझानी होती है।[^1]\n- जिस महीने आपके folio में लेनदेन हो, उस महीने का consolidated account statement आपको मिलना चाहिए।[^1]\n\n## अभी क्या करें\n\n- निवेश से पहले scheme के सारे दस्तावेज़ ध्यान से पढ़िए; SEBI की मानक चेतावनी भी यही कहती है।[^1]\n- हर महीने का consolidated account statement देखिए और अपने लेनदेन मिलाइए।[^1]\n- शिकायत हो, तो पहले AMC से कीजिए; 21 दिन में न सुलझे, तो SEBI के SCORES पर।[^1][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "sip",
+      "term": "SIP",
+      "aliases": [
+        "SIPs",
+        "Systematic Investment Plan",
+        "Systematic Investment Plans"
+      ],
+      "full": "सिस्टमैटिक इन्वेस्टमेंट प्लान · mutual fund में नियमित, थोड़ा-थोड़ा निवेश",
+      "fullEn": "Systematic Investment Plan (SIP)",
+      "group": "निवेश",
+      "created": "2026-10-10",
+      "verified": "2026-10-10",
+      "history": [
+        {
+          "d": "2026-10-10",
+          "t": "पन्ना बना। SEBI के निवेशक FAQ (31 अगस्त 2024 तक updated), SEBI (Mutual Funds) Regulations, 2026 और SEBI के Master Circular for Mutual Funds (20 मार्च 2026) से जाँचा।"
+        }
+      ],
+      "one": "SIP (Systematic Investment Plan) mutual fund scheme में एक साथ पूरी रक़म लगाने के बजाय, नियमित अंतराल पर (जैसे हर महीने) निवेश करने का तरीक़ा है। SEBI के मुताबिक इससे निवेशक लंबे समय तक थोड़ा-थोड़ा बचत और निवेश कर सकता है।",
+      "facts": [
+        {
+          "k": "किसमें",
+          "v": "Mutual fund scheme",
+          "s": "direct plan में भी"
+        },
+        {
+          "k": "शर्तें",
+          "v": "Scheme वाली ही",
+          "s": "offer document के मुताबिक"
+        },
+        {
+          "k": "Statement",
+          "v": "हर लेनदेन वाले महीने",
+          "s": "consolidated account statement",
+          "good": true
+        },
+        {
+          "k": "जोखिम",
+          "v": "Market का",
+          "s": "mutual fund निवेश market के जोखिम के अधीन"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "निवेशक",
+            "s": "नियमित अंतराल पर रक़म"
+          },
+          {
+            "t": "Mutual fund scheme",
+            "s": "किस्त के लागू NAV पर units"
+          },
+          {
+            "t": "Units जुड़ती जाती हैं",
+            "s": "NAV कम हो तो ज़्यादा units"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "किस्त",
+            "s": "जैसे हर महीने"
+          },
+          {
+            "b": "Units",
+            "s": "रक़म ÷ NAV"
+          }
+        ],
+        "note": "SEBI के FAQ का काल्पनिक उदाहरण: 12 महीने तक हर महीने ₹1,000, यानी कुल ₹12,000 पर लगभग 1,186 units, औसत लागत लगभग ₹10.12 प्रति unit। यह सिर्फ़ समझाने का उदाहरण है, कमाई का वादा नहीं।"
+      },
+      "myths": [
+        {
+          "m": "\"SIP अपने-आप में एक अलग scheme या product है।\"",
+          "f": "नहीं। SEBI के FAQ के मुताबिक SIP, mutual fund scheme में निवेश का एक तरीक़ा है। खरीद, redemption और कीमत से जुड़ी शर्तें वही रहती हैं, जो scheme के offer document में हैं।[^2]"
+        },
+        {
+          "m": "\"SIP में नुक़सान नहीं होता।\"",
+          "f": "नहीं। SIP से पैसा mutual fund scheme में ही लगता है, और SEBI के नियमों के मुताबिक mutual fund निवेश market के जोखिम के अधीन है।[^1]"
+        },
+        {
+          "m": "\"SIP सिर्फ़ distributor के ज़रिए होती है।\"",
+          "f": "नहीं। SEBI के FAQ के मुताबिक direct plan में भी, यानी बिना distributor के, SIP से निवेश किया जा सकता है।[^2]"
+        },
+        {
+          "m": "\"बच्चे के नाम की SIP बालिग होने के बाद भी अपने-आप चलती रहेगी।\"",
+          "f": "नहीं। SEBI के Master Circular के मुताबिक नाबालिग के बालिग होने पर SIP की standing instruction रुक जाती है, जब तक folio में उसकी स्थिति 'major' न कर दी जाए।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "SIP, STP और SWP में क्या फ़र्क़ है?",
+          "a": "SEBI के FAQ के मुताबिक: SIP में आप नियमित अंतराल पर निवेश करते हैं। STP (Systematic Transfer Plan) में एक ही instruction से उसी mutual fund की एक scheme से दूसरी scheme में नियमित रूप से पैसा जाता है। SWP (Systematic Withdrawal Plan) में आप हर महीने, तिमाही, छमाही या साल एक तय रक़म निकालते हैं।"
+        },
+        {
+          "q": "SIP में units कैसे मिलती हैं?",
+          "a": "हर किस्त पर उस समय के NAV के हिसाब से units मिलती हैं: रक़म ÷ NAV। SEBI के FAQ के उदाहरण में NAV 10 होने पर ₹1,000 में 100 units और NAV 9 होने पर लगभग 111.11 units मिलती हैं।"
+        },
+        {
+          "q": "SIP का हिसाब कहाँ दिखेगा?",
+          "a": "SEBI के नियमों में SIP को लेनदेन माना गया है। जिस महीने आपके folio में लेनदेन हो, उस महीने का consolidated account statement मिलता है।"
+        },
+        {
+          "q": "SIP से जुड़ी शिकायत कहाँ करें?",
+          "a": "पहले संबंधित mutual fund या AMC से। AMC को शिकायत 21 calendar days के अंदर सुलझानी होती है। आगे का रास्ता Mutual Fund वाले पन्ने पर है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Mutual Fund"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "PAN"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "Minor (नाबालिग)"
+        },
+        {
+          "t": "FD"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SEBI — Securities and Exchange Board of India (Mutual Funds) Regulations, 2026 (Amended upto July 7, 2026), PDF",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2026/1783933012694.pdf",
+          "issued": "2026-01-15",
+          "effective": "2026-04-01",
+          "used": [
+            {
+              "ref": "विनियम 34",
+              "c": "SIP लेनदेन में शामिल; लेनदेन वाले महीने का consolidated account statement"
+            },
+            {
+              "ref": "विनियम 71(1)",
+              "c": "AMC शिकायत 21 calendar days में सुलझाए"
+            },
+            {
+              "ref": "पाँचवीं अनुसूची (i)",
+              "c": "mutual fund निवेश market risks के अधीन: मानक चेतावनी"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — FAQs for Mutual Fund Investors (31 अगस्त 2024 तक updated; SEBI के मुताबिक यह क़ानूनी दस्तावेज़ नहीं है), PDF",
+          "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2024/1727242783639.pdf",
+          "used": [
+            {
+              "ref": "सवाल 24",
+              "c": "direct plan में निवेश एक साथ या SIP से"
+            },
+            {
+              "ref": "सवाल 25",
+              "c": "SIP: नियमित अंतराल पर लंबे समय तक बचत और निवेश; शर्तें offer document वाली; ₹1,000 महीने का उदाहरण"
+            },
+            {
+              "ref": "सवाल 26, 27",
+              "c": "STP और SWP क्या हैं"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Master Circular for Mutual Funds (HO/24/13/11(1)2026-IMD-POD-1/I/7602/2026), PDF",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/mar-2026/1774024028162.pdf",
+          "issued": "2026-03-20",
+          "used": [
+            {
+              "ref": "पैरा 15.13.4",
+              "c": "नाबालिग के बालिग होने पर SIP की standing instruction रुकती है, जब तक स्थिति 'major' न हो"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSEBI के निवेशक FAQ के मुताबिक SIP (Systematic Investment Plan) निवेशक को लंबे समय तक नियमित अंतराल पर बचत और निवेश करने देता है। FAQ इसे 'invest as you earn' का आसान तरीक़ा बताता है, जिसमें निवेशक नियमित रूप से market में आता है और units की औसत लागत बनती है।[^2]\n\n- **किसमें:** mutual fund scheme में। Direct plan में निवेश एक साथ (lump sum) भी हो सकता है और SIP से भी।[^2]\n- **शर्तें:** खरीद, redemption और कीमत से जुड़ी शर्तें वही, जो scheme के offer document में हैं।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- एक साथ बड़ी रक़म न हो, तब भी आप हर महीने जैसी छोटी किस्तों में mutual fund में निवेश कर सकते हैं।[^2]\n- SIP से जोखिम ख़त्म नहीं होता: पैसा mutual fund scheme में ही लगता है, जिसका निवेश market के जोखिम के अधीन है।[^1]\n\n## कैसे काम करता है | कैसे\n\n::flow\n\n- हर किस्त पर उस समय के NAV के हिसाब से units मिलती हैं। NAV कम हो, तो उसी रक़म में ज़्यादा units; NAV ज़्यादा हो, तो कम।[^2]\n- SEBI के FAQ के उदाहरण में 12 महीने तक हर महीने ₹1,000 लगाने पर कुल ₹12,000 में 1,186.15 units मिलती हैं, यानी औसत लागत लगभग ₹10.12 प्रति unit। यह काल्पनिक उदाहरण है।[^2]\n\n## SIP, STP और SWP | STP, SWP\n\n- **SIP:** नियमित अंतराल पर scheme में निवेश।[^2]\n- **STP (Systematic Transfer Plan):** एक ही instruction से उसी mutual fund की एक scheme से दूसरी में नियमित रूप से पैसा।[^2]\n- **SWP (Systematic Withdrawal Plan):** हर महीने, तिमाही, छमाही या साल एक तय रक़म निकालना।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> जिस महीने आपके folio में SIP या कोई दूसरा लेनदेन हो, उस महीने का consolidated account statement आपको मिलना चाहिए।[^1]\n\n- AMC को आपकी शिकायत 21 calendar days के अंदर सुलझानी होती है।[^1]\n\n## अभी क्या करें\n\n- SIP शुरू करने से पहले scheme के दस्तावेज़ पढ़िए; SIP की शर्तें वही हैं जो scheme की हैं।[^1][^2]\n- बच्चे के नाम SIP है, तो उसके बालिग होने पर folio में उसकी स्थिति 'major' करवाइए, वरना SIP की standing instruction रुक जाएगी।[^3]\n- हर महीने का statement देखकर मिलाइए कि किस्त कटी और units जुड़ीं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    }
+  ]
+}
