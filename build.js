@@ -918,6 +918,7 @@ function calcFee(c, a) {
 // Ek panne me ek shabd sirf pehli baar, apne hi panne par nahi, aur quote ya doosre link ke andar nahi.
 let TERM_LINKS = { re: null, map: {} };
 let TERM_COUNT = 0;
+let POST_RELATED = {}; // data/post-related.json: lekh id -> "ise bhi padhen" ke lekh
 // Homepage ka bada Shabdkosh box: kuch zaroori shabd + poora shabdkosh kholne ka button.
 const KOSH_PICKS = ["upi-pin", "kyc", "cibil", "nominee", "fir", "repo-rate"];
 function koshBox() {
@@ -1074,8 +1075,14 @@ function renderPost(p, all) {
   const points = CARDS[p.id]?.points || [];
   const srcs = p.sources || [];
   const tags = (p.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
-  const related = all.filter((o) => o.id !== p.id && o.cat === p.cat).slice(0, 3);
-  const others = (related.length ? related : all.filter((o) => o.id !== p.id).slice(0, 3));
+  // "Ise bhi padhen": pehle data/post-related.json ki chuni hui list. Jis lekh ki list nahi hai,
+  // uske liye usi category ke lekh, is lekh ke theek baad se — taaki har panne par wahi 3 na dikhen.
+  const picked = (POST_RELATED[p.id] || []).map((id) => all.find((o) => o.id === id)).filter((o) => o && o.id !== p.id);
+  const sameCat = all.filter((o) => o.cat === p.cat);
+  const at = sameCat.findIndex((o) => o.id === p.id);
+  const rotated = sameCat.slice(at + 1).concat(sameCat.slice(0, Math.max(at, 0))).filter((o) => o.id !== p.id);
+  const fill = rotated.concat(all.filter((o) => o.id !== p.id && o.cat !== p.cat));
+  const others = [...new Set(picked.concat(fill))].slice(0, 4);
   const checked = p.verified || p.date;
 
   const body = renderBodyWiki(p);
@@ -1802,6 +1809,11 @@ function main() {
   const raw = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "posts.json"), "utf8"));
   const posts = sorted((raw.posts || []).filter((p) => p && p.id && p.title));
   const ogCards = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "post-og.json"), "utf8"));
+  const relPath = path.join(__dirname, "data", "post-related.json");
+  POST_RELATED = fs.existsSync(relPath) ? JSON.parse(fs.readFileSync(relPath, "utf8")) : {};
+  for (const [id, list] of Object.entries(POST_RELATED)) {
+    for (const x of [id, ...list]) if (!posts.some((p) => p.id === x)) throw new Error(`post-related.json: lekh nahi mila: ${x}`);
+  }
   for (const p of posts) {
     if (!ogCards[p.id]) throw new Error(`Missing share preview: ${p.id}`);
     if (!CARDS[p.id]) throw new Error(`Missing banner card: ${p.id}`);
