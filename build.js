@@ -22,6 +22,8 @@ const SITE = {
   cfAnalytics: "",
 };
 
+const LOGO = `${SITE.url}/icons/sm-512.png`;
+
 const CATS = {
   scam: { name: "साइबर स्कैम", v: "--c-scam" },
   bank: { name: "बैंकिंग / RBI", v: "--c-bank" },
@@ -513,7 +515,7 @@ sup.ref a{color:var(--verify);text-decoration:none}
 
 /* ---------------------------------------------------------------- chrome */
 
-function head({ title, desc, canonical, type = "website", published, home = false, hero = "", ogImage = `${SITE.url}/og.png` }) {
+function head({ title, desc, canonical, type = "website", published, home = false, hero = "", ogImage = `${SITE.url}/og.png`, noindex = false }) {
   const t = esc(title);
   const d = esc(plain(desc));
   return `<!doctype html>
@@ -523,7 +525,7 @@ function head({ title, desc, canonical, type = "website", published, home = fals
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${t}</title>
 <meta name="description" content="${d}">
-<link rel="canonical" href="${esc(canonical)}">
+${noindex ? `<meta name="robots" content="noindex">` : `<link rel="canonical" href="${esc(canonical)}">`}
 <meta property="og:site_name" content="${esc(SITE.name)} | ${esc(SITE.nameEn)}">
 <meta property="og:type" content="${type}">
 <meta property="og:title" content="${t}">
@@ -552,7 +554,7 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
 <div class="wrap${hero ? "" : " bandpad"}">
 <header class="masthead">
   <a class="brand" href="/">
-    <img class="mark" src="/brand-logo.png" alt="" width="48" height="48">
+    <img class="mark" src="/icons/sm-192.png" alt="" width="48" height="48">
     <span>
       <span class="eyebrow">${esc(SITE.eyebrow)}</span>
       ${home ? `<h1 class="wordmark">${esc(SITE.name)} | ${esc(SITE.nameEn)}</h1>` : `<p class="wordmark">${esc(SITE.name)} | ${esc(SITE.nameEn)}</p>`}
@@ -627,7 +629,7 @@ function foot() {
     </div>
   </div>
   <p class="fine">यह सामान्य जानकारी है, कानूनी या वित्तीय सलाह नहीं। अपने मामले में आधिकारिक स्रोत या पेशेवर से पुष्टि करें।</p>
-  <div class="copyright"><img src="/brand-logo.png" alt="Seedha Matlab logo" width="27" height="27"><span>© ${new Date().getFullYear()} Seedha Matlab · स्वतंत्र जन-जागरूकता सामग्री</span></div>
+  <div class="copyright"><img src="/icons/sm-192.png" alt="Seedha Matlab logo" width="27" height="27"><span>© ${new Date().getFullYear()} Seedha Matlab · स्वतंत्र जन-जागरूकता सामग्री</span></div>
 </footer>
 </div>
 </div>
@@ -818,6 +820,15 @@ function renderIndex(posts) {
     description: plain(SITE.tagline),
     inLanguage: "hi-IN",
   };
+  const org = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: SITE.name,
+    alternateName: SITE.nameEn,
+    url: SITE.url,
+    logo: LOGO,
+    sameAs: [SITE.x, SITE.youtube, SITE.whatsapp].filter(Boolean),
+  };
 
   const hero = `
   <section class="landing" aria-label="Seedha Matlab introduction">
@@ -868,6 +879,7 @@ function renderIndex(posts) {
   <div class="empty" id="empty" hidden>इस spelling से कुछ नहीं मिला। दूसरी spelling आज़माइए (जैसे OTP या ओटीपी), या श्रेणी बदलिए।</div>
 </main>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
+<script type="application/ld+json">${JSON.stringify(org)}</script>
 <script>${XSEARCH_JS}${LIST_JS}</script>${MW ? `
 <script src="/mascot-welcome.js" defer></script>` : ""}` + foot();
 }
@@ -1089,8 +1101,19 @@ function renderPost(p, all) {
     inLanguage: "hi-IN",
     articleSection: catName(p.cat),
     mainEntityOfPage: url,
-    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    image: `${SITE.url}/post-og/${encodeURIComponent(p.id)}.png`,
+    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url, logo: { "@type": "ImageObject", url: LOGO } },
     author: { "@type": "Organization", name: SITE.name },
+  };
+  // Panne par dikhne wale breadcrumb jaisa; aakhri hissa (category) ka apna panna nahi, isliye uska URL nahi.
+  const crumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", name: SITE.name, item: `${SITE.url}/` },
+      ...(hub ? [{ "@type": "ListItem", name: plain(hub.title), item: `${SITE.url}/${hub.slug}/` }] : []),
+      { "@type": "ListItem", name: catName(p.cat) },
+    ].map((it, i) => ({ ...it, position: i + 1 })),
   };
 
   const hero = `<header class="arthero">
@@ -1134,6 +1157,7 @@ function renderPost(p, all) {
 </main>
 <script>(function(){var b=document.querySelector('.copy-link'),s=document.querySelector('.copy-status');if(!b)return;b.addEventListener('click',async function(){try{await navigator.clipboard.writeText(b.getAttribute('data-url'));s.textContent='Link copy हो गया';}catch(e){s.textContent='Copy नहीं हुआ—browser का Share विकल्प इस्तेमाल करें';}});})();</script>
 ${body.html.includes('class="calc"') ? `<script>${CALC_JS}</script>` : ""}
+<script type="application/ld+json">${JSON.stringify(crumbs)}</script>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
 }
 
@@ -1163,6 +1187,16 @@ function renderTerm(t, posts) {
     url,
     inLanguage: "hi-IN",
     inDefinedTermSet: `${SITE.url}/shabdkosh/`,
+  };
+  // Group ka apna panna nahi hai, aur beech ke hisse ko URL chahiye, isliye JSON-LD me group nahi.
+  const crumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: SITE.name, item: `${SITE.url}/` },
+      { "@type": "ListItem", position: 2, name: "शब्दकोश", item: `${SITE.url}/shabdkosh/` },
+      { "@type": "ListItem", position: 3, name: t.term, item: url },
+    ],
   };
 
   const hero = `<header class="arthero">
@@ -1202,6 +1236,7 @@ function renderTerm(t, posts) {
 </main>
 <script>(function(){var b=document.querySelector('.copy-link'),s=document.querySelector('.copy-status');if(!b)return;b.addEventListener('click',async function(){try{await navigator.clipboard.writeText(b.getAttribute('data-url'));s.textContent='Link copy हो गया';}catch(e){s.textContent='Copy नहीं हुआ—browser का Share विकल्प इस्तेमाल करें';}});})();</script>
 ${body.html.includes('class="calc"') ? `<script>${CALC_JS}</script>` : ""}
+<script type="application/ld+json">${JSON.stringify(crumbs)}</script>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
 }
 
@@ -1732,6 +1767,7 @@ function render404() {
     title: `पेज नहीं मिला — ${SITE.name}`,
     desc: "यह पता मौजूद नहीं है।",
     canonical: SITE.url + "/",
+    noindex: true,
   }) + `
 <main id="main">
   <div class="listhead">404</div>
@@ -1836,7 +1872,7 @@ function main() {
 
   const urls = [
     { loc: `${SITE.url}/` },
-    ...posts.map((p) => ({ loc: `${SITE.url}/p/${encodeURIComponent(p.id)}/`, lastmod: p.date })),
+    ...posts.map((p) => ({ loc: `${SITE.url}/p/${encodeURIComponent(p.id)}/`, lastmod: p.verified || p.date })),
     { loc: `${SITE.url}/faq/` },
     ...(terms.length ? [{ loc: `${SITE.url}/shabdkosh/` }] : []),
     ...terms.map((t) => ({ loc: `${SITE.url}/shabdkosh/${encodeURIComponent(t.id)}/`, lastmod: t.verified || t.created })),
