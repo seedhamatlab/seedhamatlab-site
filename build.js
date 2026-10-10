@@ -931,7 +931,8 @@ function setTermLinks(terms) {
     .map((n) => esc(n).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
   const edge = "A-Za-z0-9\u0900-\u0963\u0966-\u097F";
   TERM_COUNT = terms.length;
-  TERM_LINKS = { map, re: names.length ? new RegExp(`(?<![${edge}])(${names.join("|")})(?![${edge}])`, "gi") : null };
+  // Shabd ke theek baad "[at]" ya "@" ho to wo email ka hissa hai, link nahi banta.
+  TERM_LINKS = { map, re: names.length ? new RegExp(`(?<![${edge}])(${names.join("|")})(?![${edge}])(?!\\[at\\]|@)`, "gi") : null };
 }
 function termLink(name) {
   return TERM_LINKS.map[String(name || "").trim().toLowerCase()] || null;
