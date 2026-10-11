@@ -511,6 +511,41 @@ sup.ref a{color:var(--verify);text-decoration:none}
 .srcused b,.srcused span{overflow-wrap:break-word}
 @media(max-width:479px){.srcused li{grid-template-columns:minmax(0,1fr);gap:1px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.selfcheck{border:1px solid var(--line);border-left:3px solid var(--gold);background:var(--surface);border-radius:0 6px 6px 0;padding:12px 16px;margin:24px 0 0;font-size:14.5px;line-height:1.65;color:var(--ink)}
+.selfcheck b{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--ink-3);font-weight:500;margin-bottom:3px}
+.pdf-status{flex-basis:100%;font-size:12.5px;color:var(--ink-3)}
+.pdf-top{font-family:inherit;font-size:12.5px;font-weight:600;line-height:inherit;background:transparent;color:var(--on-dark);border:1px solid rgba(255,255,255,.38);border-radius:999px;padding:2px 11px;cursor:pointer}
+.pdf-top:hover{border-color:var(--gold)}
+.arthero .pdf-status{color:var(--on-dark-2)}
+.pdf-status:empty{display:none}
+.printurl{display:none}
+@media print{
+@page{margin:14mm 13mm}
+html,body{background:#fff!important;color:#000!important}
+body{font-size:11.5pt;line-height:1.6}
+.skip,.header-actions,.site-menu,.koshbar,.crumbs,.toc,.postfoot,.tagrow,.more,.footband,.pdf-top,.pdf-status,.one .l img{display:none!important}
+.arthero:after{display:none!important}
+.wrap{max-width:none!important;padding:0!important}
+.topband{background:#fff!important;color:#000!important;overflow:visible}
+.topband *{color:#000!important}
+.masthead{border-bottom:1px solid #777;padding:0 0 6px;margin:0 0 10px}
+.arthero{border-top:0;padding:0 0 8px}
+.arthero h1,.arthero h1.term,.arthero h1.term.long{font-size:22pt;line-height:1.2;margin:10px 0 6px}
+.kind,.verified{background:#fff!important;border:1px solid #777!important}
+.one{background:#fff!important;border:1px solid #777;border-left:3px solid #000;border-radius:0;max-width:none}
+.one p{font-size:12pt}
+main,main *{color:#000!important}
+.fact,.fact.g,.flow,.node,.srclist,.selfcheck,.rightbox,.mf,.calc{background:#fff!important;border-color:#777!important}
+.prose.wk h2 i{background:#fff!important;border:1px solid #000}
+.prose a,sup.ref a,.srclist a{text-decoration:none}
+.calc{border:1px dashed #777;border-radius:0;padding:8px 12px}
+.calc>*{display:none!important}
+.calc:before{content:"हिसाब लगाने का calculator सिर्फ़ site पर चलता है। नीचे लिखे पते पर यह पन्ना खोलिए।";font-size:10.5pt}
+.srclist a[href^="http"]:after{content:" (" attr(href) ")";font-family:var(--mono);font-size:8.5pt;font-weight:400;word-break:break-all}
+h1,h2,h3{break-after:avoid}
+.fact,.flow,.srclist li,.histlist li,.selfcheck,.prose blockquote,.one{break-inside:avoid}
+.printurl{display:block;font-family:var(--mono);font-size:9pt;line-height:1.6;margin:10px 0 0;padding-top:6px;border-top:1px solid #777}
+}
 `;
 
 /* ---------------------------------------------------------------- chrome */
@@ -1067,6 +1102,12 @@ function historyHTML(no, rows) {
     <ul class="histlist">${items.map((r) => `<li><time datetime="${esc(r.d)}">${fmtDateLine(r.d)}</time><span>${inline(r.t)}</span></li>`).join("")}</ul>`;
 }
 
+const SELFCHECK = (what) => `<aside class="selfcheck"><b>एक बार ख़ुद भी जाँच लीजिए</b>यह ${what} ऊपर दिए स्रोतों से जाँचकर लिखा गया है। फिर भी कोई फ़ैसला लेने से पहले स्रोत खोलकर एक बार ख़ुद देख लीजिए। नियम बदलते रहते हैं, और चूक हमसे भी हो सकती है।</aside>`;
+const PDF_BTN = `<button class="btn pdf-btn" type="button">PDF / Print करें</button>`;
+const PDF_STATUS = `<span class="pdf-status" role="status" aria-live="polite"></span>`;
+const PDF_JS = `(function(){var ps=document.querySelectorAll('.pdf-btn'),ts=document.querySelectorAll('.pdf-status');[].forEach.call(ps,function(p){p.addEventListener('click',function(){[].forEach.call(ts,function(t){t.textContent="खुलने वाली खिड़की में 'Save as PDF' चुनेंगे, तो PDF बन जाएगा। खिड़की न खुले, तो यह पन्ना Chrome या Safari में खोलकर दोबारा दबाइए।";});setTimeout(function(){window.print();},60);});});})();`;
+const printUrl = (url, checked) => `<p class="printurl">यह पन्ना: ${esc(url)} · आख़िरी जाँच: ${fmtDateLine(checked)}<br>छपी हुई प्रति पुरानी हो सकती है। ताज़ा पन्ना site पर देख लीजिए।</p>`;
+
 const CALC_JS = `(function(){var boxes=document.querySelectorAll('.calc[data-calc]');[].forEach.call(boxes,function(box){var c=JSON.parse(box.getAttribute('data-calc')),inp=box.querySelector('input'),pay=box.querySelector('[data-o=pay]'),fee=box.querySelector('[data-o=fee]'),note=box.querySelector('[data-o=note]');function f(n){var r=Math.round(n*100)/100,w=r===Math.floor(r);return '₹'+r.toLocaleString('en-IN',{minimumFractionDigits:w?0:2,maximumFractionDigits:2});}function show(p,m,t,bad){pay.textContent=p;fee.textContent=m;note.textContent=t;if(bad){box.classList.add('bad');}else{box.classList.remove('bad');}}function run(){var raw=inp.value,v=raw.replace(/[ ,]/g,'').replace(/[०-९]/g,function(d){return String(d.charCodeAt(0)-2406);});if(!v){show('—','—','रक़म डालिए');return;}if(!/^[0-9]{1,9}([.][0-9]{0,2})?$/.test(v)){show('—','—',v.indexOf('-')>=0?'रक़म शून्य से कम नहीं हो सकती।':/^[0-9]{10,}([.][0-9]*)?$/.test(v)?'रक़म बहुत बड़ी है; ज़्यादा से ज़्यादा 99,99,99,999.99 तक डालिए।':'सिर्फ़ रक़म डालिए, जैसे 2000 या 2000.50 (दशमलव के बाद ज़्यादा से ज़्यादा दो अंक)।',1);return;}var parts=v.split('.'),fmt=Number(parts[0]).toLocaleString('en-IN')+(parts.length>1?'.'+parts[1]:'');if(fmt!==raw){inp.value=fmt;}var a=Number(v),paise=Math.round(a*100),m,t;if(a<=c.free){m=0;t=c.notes.free;}else if(a>=c.capFrom){m=c.cap;t=c.notes.cap;}else{m=Math.round(Number((paise*c.rate).toFixed(6)))/100;t=c.notes.rate;}show(f(paise/100),f(m),t);}inp.addEventListener('input',run);});})();`;
 
 function renderPost(p, all) {
@@ -1125,7 +1166,7 @@ function renderPost(p, all) {
 
   const hero = `<header class="arthero">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> ${hub ? `<a href="/${hub.slug}/">${esc(hub.title)}</a> <span>›</span> ` : ""}<span>${esc(catName(p.cat))}</span></nav>
-  <div class="kindrow"><span class="kind">${esc(catName(p.cat))} · ${esc(SEV[p.severity] || "जानकारी")}</span><span class="verified">✓ स्रोत से जाँचा · ${fmtDateEn(checked)}</span></div>
+  <div class="kindrow"><span class="kind">${esc(catName(p.cat))} · ${esc(SEV[p.severity] || "जानकारी")}</span><span class="verified">✓ स्रोत से जाँचा · ${fmtDateEn(checked)}</span><button class="pdf-top pdf-btn" type="button">PDF / Print</button>${PDF_STATUS}</div>
   <h1>${esc(p.title)}</h1>
   <div class="one"><span class="l"><img src="/sm-mascot.webp" width="240" height="257" alt="">एक लाइन में</span><p>${esc(p.one || p.summary)}</p></div>
 </header>`;
@@ -1149,20 +1190,24 @@ function renderPost(p, all) {
     ${historyHTML(srcNo + (srcs.length ? 1 : 0), [{ d: p.date, t: "प्रकाशित" }].concat(checked !== p.date ? [{ d: checked, t: "स्रोत से आख़िरी जाँच" }] : [], p.history || []))}
     </div>
     ${tags ? `<div class="tagrow">${tags}</div>` : ""}
+    ${SELFCHECK("लेख")}
     <div class="postfoot">
       <a class="btn wa" href="${esc(waShare(p.title, url))}" target="_blank" rel="noopener">WhatsApp पर भेजें</a>
+      ${PDF_BTN}
       <button class="btn copy-link" type="button" data-url="${esc(url)}">Link copy करें</button><span class="copy-status" role="status" aria-live="polite"></span>
       <a class="btn" href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent(`Seedha Matlab correction: ${p.title}`)}">ग़लती दिखी? सुधार बताएं</a>
       ${hub ? `<a class="btn" href="/${hub.slug}/">${esc(hub.title)} के सारे लेख</a>` : ""}
       <a class="btn" href="/">और पोस्ट पढ़ें</a>
+      ${PDF_STATUS}
     </div>
     <p class="verline">प्रकाशित: ${fmtDateLine(p.date)}${checked !== p.date ? ` · आख़िरी जाँच: ${fmtDateLine(checked)}` : ""}<br>
-    नियम बाद में बदल सकते हैं — ऊपर दिया स्रोत खोलकर ताज़ा स्थिति देख लीजिए।<br>
     यह सामान्य जानकारी है, कानूनी या वित्तीय सलाह नहीं।</p>
+    ${printUrl(url, checked)}
   </article>
   ${others.length ? `<div class="more"><div class="listhead">इसे भी पढ़ें</div>${others.map(entryHTML).join("\n")}</div>` : ""}
 </main>
 <script>(function(){var b=document.querySelector('.copy-link'),s=document.querySelector('.copy-status');if(!b)return;b.addEventListener('click',async function(){try{await navigator.clipboard.writeText(b.getAttribute('data-url'));s.textContent='Link copy हो गया';}catch(e){s.textContent='Copy नहीं हुआ—browser का Share विकल्प इस्तेमाल करें';}});})();</script>
+<script>${PDF_JS}</script>
 ${body.html.includes('class="calc"') ? `<script>${CALC_JS}</script>` : ""}
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
@@ -1208,7 +1253,7 @@ function renderTerm(t, posts) {
 
   const hero = `<header class="arthero">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">${esc(SITE.name)}</a> <span>›</span> <a href="/shabdkosh/">शब्दकोश</a> <span>›</span> <span>${esc(t.group)}</span> <span>›</span> <span>${esc(t.term)}</span></nav>
-  <div class="kindrow"><span class="kind">शब्द · ${esc(t.group)}</span><span class="verified">✓ स्रोत से जाँचा · ${fmtDateEn(checked)}</span></div>
+  <div class="kindrow"><span class="kind">शब्द · ${esc(t.group)}</span><span class="verified">✓ स्रोत से जाँचा · ${fmtDateEn(checked)}</span><button class="pdf-top pdf-btn" type="button">PDF / Print</button>${PDF_STATUS}</div>
   <h1 class="term${String(t.term).length > 10 ? " long" : ""}">${esc(t.term)}</h1>
   <p class="full">${esc(t.full)}</p>
   <div class="one"><span class="l"><img src="/sm-mascot.webp" width="240" height="257" alt="">एक लाइन में</span><p>${esc(t.one)}</p></div>
@@ -1232,16 +1277,21 @@ function renderTerm(t, posts) {
     ${sourcesHTML(srcs)}
     ${historyHTML(srcNo + 1, (t.history && t.history.length) ? t.history : [{ d: t.created, t: "पन्ना बना" }])}
     </div>
+    ${SELFCHECK("पन्ना")}
     <div class="postfoot">
       <a class="btn wa" href="${esc(waShare(shareTitle, url))}" target="_blank" rel="noopener">WhatsApp पर भेजें</a>
+      ${PDF_BTN}
       <button class="btn copy-link" type="button" data-url="${esc(url)}">Link copy करें</button><span class="copy-status" role="status" aria-live="polite"></span>
       <a class="btn" href="mailto:${esc(SITE.email)}?subject=${encodeURIComponent(`Seedha Matlab correction: ${t.term}`)}">ग़लती दिखी? सुधार बताएं</a>
+      ${PDF_STATUS}
     </div>
     <p class="verline">पन्ना बना: ${fmtDateLine(t.created)} · आख़िरी जाँच: ${fmtDateLine(checked)}<br>
     यह सामान्य जानकारी है, कानूनी या वित्तीय सलाह नहीं।</p>
+    ${printUrl(url, checked)}
   </article>
 </main>
 <script>(function(){var b=document.querySelector('.copy-link'),s=document.querySelector('.copy-status');if(!b)return;b.addEventListener('click',async function(){try{await navigator.clipboard.writeText(b.getAttribute('data-url'));s.textContent='Link copy हो गया';}catch(e){s.textContent='Copy नहीं हुआ—browser का Share विकल्प इस्तेमाल करें';}});})();</script>
+<script>${PDF_JS}</script>
 ${body.html.includes('class="calc"') ? `<script>${CALC_JS}</script>` : ""}
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>` + foot();
