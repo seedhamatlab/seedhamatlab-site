@@ -687,11 +687,15 @@
       "fullEn": "Indian Computer Emergency Response Team",
       "group": "साइबर सुरक्षा",
       "created": "2026-10-08",
-      "verified": "2026-10-08",
+      "verified": "2026-10-11",
       "history": [
         {
           "d": "2026-10-08",
           "t": "पन्ना बना। India Code पर Information Technology Act, 2000 (\"As on the 27th June, 2025\") की धारा 70B, और CERT-In की website के FAQ, Contact Us और Incident Reporting पन्नों से जाँचा।"
+        },
+        {
+          "d": "2026-10-11",
+          "t": "जोड़ा: कंपनियों और संस्थाओं के लिए 6 घंटे के अंदर अनिवार्य report (CERT-In Directions, 28 अप्रैल 2022); पहले सिर्फ़ यह लिखा था कि report किया जा सकता है। CERT-In का FAQ पन्ना 11 अक्टूबर 2026 को नहीं खुला; नाम और MeitY वाली बात के लिए CERT-In का RFC 2350 दस्तावेज़ भी जोड़ा। FAQ से ली गई बाक़ी बातें (क्या report हो सकता है, गोपनीयता, advisory की परिभाषा) आज दोबारा नहीं जाँची जा सकीं।"
         }
       ],
       "one": "CERT-In यानी Indian Computer Emergency Response Team, केंद्र सरकार की वह agency है जिसे Information Technology Act की धारा 70B के तहत cyber security के क्षेत्र में national agency बनाया गया है। यह Ministry of Electronics and Information Technology (MeitY) के तहत चलती है, cyber incidents की जानकारी जुटाती है, alert और advisory जारी करती है, और computer security incidents की report लेती है।",
@@ -747,7 +751,7 @@
       "myths": [
         {
           "m": "\"CERT-In कोई प्राइवेट संस्था है।\"",
-          "f": "नहीं। IT Act की धारा 70B(1) के मुताबिक केंद्र सरकार Official Gazette में notification से सरकार की एक agency को Indian Computer Emergency Response Team के रूप में नियुक्त करती है।[^1] CERT-In के FAQ के मुताबिक यह Ministry of Electronics and Information Technology के तहत चलती है।[^2]"
+          "f": "नहीं। IT Act की धारा 70B(1) के मुताबिक केंद्र सरकार Official Gazette में notification से सरकार की एक agency को Indian Computer Emergency Response Team के रूप में नियुक्त करती है।[^1] CERT-In के FAQ के मुताबिक यह Ministry of Electronics and Information Technology के तहत चलती है।[^2][^7]"
         },
         {
           "m": "\"CERT-In सिर्फ़ सलाह देता है, उसकी बात मानना ज़रूरी नहीं।\"",
@@ -782,6 +786,10 @@
         {
           "q": "CERT-In की advisory क्या होती है?",
           "a": "CERT-In के FAQ के मुताबिक advisory वह जानकारी है जो CERT-In किसी गंभीर vulnerability पर देता है, जिसका असर बड़ी संख्या में systems या networks पर पड़ रहा हो या पड़ सकता हो।[^2]"
+        },
+        {
+          "q": "क्या CERT-In को report करना ज़रूरी है?",
+          "a": "आम नागरिक के लिए नहीं; कंपनियों और संस्थाओं के लिए हाँ। CERT-In के 28 अप्रैल 2022 के Directions के मुताबिक service provider, intermediary, data centre, body corporate और सरकारी संगठन को तय क़िस्म के cyber incidents की report, पता चलने के 6 घंटे के अंदर, CERT-In को देनी ही होती है। CERT-In के मुताबिक ये Directions आम नागरिकों पर लागू नहीं होते।"
         }
       ],
       "related": [
@@ -817,7 +825,7 @@
           ]
         },
         {
-          "label": "CERT-In — Frequently Asked Questions",
+          "label": "CERT-In — Frequently Asked Questions (11 अक्टूबर 2026 को यह पन्ना नहीं खुला; CERT-In की site \"The requested URL is not found\" दिखा रही थी)",
           "url": "https://www.cert-in.org.in/faq.jsp",
           "used": [
             {
@@ -849,9 +857,45 @@
               "c": "Financial Fraud समेत cyber crime की शिकायत दर्ज करने का विकल्प"
             }
           ]
+        },
+        {
+          "label": "CERT-In — Directions under sub-section (6) of section 70B of the Information Technology Act, 2000 (No. 20(3)/2022-CERT-In, 28 अप्रैल 2022)",
+          "url": "https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf",
+          "issued": "2022-04-28",
+          "used": [
+            {
+              "ref": "बिंदु (ii) और Annexure I",
+              "c": "service provider, intermediary, data centre, body corporate और सरकारी संगठन: Annexure I के cyber incidents की report 6 घंटे के अंदर अनिवार्य"
+            }
+          ]
+        },
+        {
+          "label": "CERT-In — Frequently Asked Questions on Cyber Security Directions of 28.04.2022 (मई 2022)",
+          "url": "https://www.cert-in.org.in/PDF/FAQs_on_CyberSecurityDirections_May2022.pdf",
+          "used": [
+            {
+              "ref": "Q 7",
+              "c": "Directions किन पर लागू; \"Individual citizens are not covered by these Directions\""
+            },
+            {
+              "ref": "Q 30",
+              "c": "6 घंटे के अंदर report; जितनी जानकारी उस समय हो, उतनी"
+            }
+          ]
+        },
+        {
+          "label": "CERT-In — RFC 2350 v1.0 (17 मार्च 2022)",
+          "url": "https://www.cert-in.org.in/PDF/RFC2350.pdf",
+          "issued": "2022-03-17",
+          "used": [
+            {
+              "ref": "2.1, 2.9, 3.8",
+              "c": "पूरा नाम; MeitY के तहत संगठन; MeitY के प्रशासनिक नियंत्रण में"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\nCERT-In का पूरा नाम Indian Computer Emergency Response Team है।[^2] IT Act की धारा 70B के तहत केंद्र सरकार ने इसे cyber security के क्षेत्र में national agency बनाया है।[^1] CERT-In के FAQ के मुताबिक यह Ministry of Electronics and Information Technology के तहत चलती है।[^2]\n\n- **काम:** cyber incidents की जानकारी जुटाना, alert देना, आपात उपाय, तालमेल, और guidelines व advisories जारी करना।[^1]\n- **अधिकार:** service providers, intermediaries वग़ैरह से जानकारी माँगना और direction देना।[^1]\n\n## Report कैसे होता है | Report\n\n::flow\n\n- **Email:** incident@cert-in.org.in[^3]\n- **Toll-free फ़ोन:** +91-1800-11-4949[^3]\n- **Toll-free fax:** +91-1800-11-6969[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- System या device पर security incident हो, जैसे बिना इजाज़त access की कोशिश, तो CERT-In को ऊपर दिए रास्तों से report किया जा सकता है।[^2][^3]\n- पैसे की ठगी (financial fraud) समेत cyber crime की शिकायत के लिए गृह मंत्रालय के National Cyber Crime Reporting Portal, cybercrime.gov.in पर अलग विकल्प है।[^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nCERT-In का पूरा नाम Indian Computer Emergency Response Team है।[^2][^7] IT Act की धारा 70B के तहत केंद्र सरकार ने इसे cyber security के क्षेत्र में national agency बनाया है।[^1] CERT-In के FAQ के मुताबिक यह Ministry of Electronics and Information Technology के तहत चलती है।[^2][^7]\n\n- **काम:** cyber incidents की जानकारी जुटाना, alert देना, आपात उपाय, तालमेल, और guidelines व advisories जारी करना।[^1]\n- **अधिकार:** service providers, intermediaries वग़ैरह से जानकारी माँगना और direction देना।[^1]\n\n## Report कैसे होता है | Report\n\n::flow\n\n- **Email:** incident@cert-in.org.in[^3]\n- **Toll-free फ़ोन:** +91-1800-11-4949[^3]\n- **Toll-free fax:** +91-1800-11-6969[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- System या device पर security incident हो, जैसे बिना इजाज़त access की कोशिश, तो CERT-In को ऊपर दिए रास्तों से report किया जा सकता है।[^2][^3]\n- कंपनी, संस्था या सरकारी दफ़्तर के लिए report करना मर्ज़ी की बात नहीं है। CERT-In के 28 अप्रैल 2022 के Directions के मुताबिक service provider, intermediary, data centre, body corporate और सरकारी संगठन को तय क़िस्म के cyber incidents की report, पता चलने के 6 घंटे के अंदर, CERT-In को देनी ही होती है। CERT-In के मुताबिक ये Directions आम नागरिकों पर लागू नहीं होते।[^5][^6]\n- पैसे की ठगी (financial fraud) समेत cyber crime की शिकायत के लिए गृह मंत्रालय के National Cyber Crime Reporting Portal, cybercrime.gov.in पर अलग विकल्प है।[^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "udrn",

@@ -795,11 +795,15 @@
       "fullEn": "National Cyber Crime Reporting Portal",
       "group": "साइबर सुरक्षा",
       "created": "2026-10-06",
-      "verified": "2026-10-06",
+      "verified": "2026-10-11",
       "history": [
         {
           "d": "2026-10-06",
           "t": "पन्ना बना। गृह मंत्रालय की तीन press release (9 मार्च 2021, 5 अगस्त 2025, 28 जुलाई 2026) और portal के अपने पन्नों से जाँचा।"
+        },
+        {
+          "d": "2026-10-11",
+          "t": "सुधार: status देखने और SMS/e-mail से reference number मिलने की सुविधा portal के FAQ में सिर्फ़ \"Report and Track\" और \"Report Other Cybercrime\" की शिकायतों के लिए लिखी है; पहले यह शर्त छूटी थी। विदेशी और ग़ैर-नागरिक वाली बात FAQ के शब्दों के मुताबिक़ की। e-Zero FIR की व्यवस्था (28 जुलाई 2026 का लोकसभा उत्तर: 18 राज्य / केंद्र-शासित प्रदेश) जोड़ी।"
         }
       ],
       "one": "cybercrime.gov.in गृह मंत्रालय का portal है, जहाँ हर तरह के साइबर अपराध की शिकायत ऑनलाइन दर्ज की जा सकती है।",
@@ -860,7 +864,7 @@
         },
         {
           "m": "\"Portal पर शिकायत डाल दी, यानी FIR हो गई।\"",
-          "f": "नहीं। शिकायत और FIR अलग हैं। शिकायत को FIR में बदलना और आगे की कार्रवाई राज्य की पुलिस करती है।[^3]"
+          "f": "नहीं। शिकायत और FIR अलग हैं। शिकायत को FIR में बदलना और आगे की कार्रवाई राज्य की पुलिस करती है।[^3] 18 राज्यों और केंद्र-शासित प्रदेशों में तय सीमा से ऊपर की पैसों की ठगी की शिकायत से अपने-आप e-Zero FIR बनती है; उसे भी 3 दिन के अंदर थाने जाकर नियमित FIR में बदलवाना होता है।[^8]"
         },
         {
           "m": "\"कोई भी शिकायत बिना नाम बताए हो सकती है।\"",
@@ -882,7 +886,7 @@
         },
         {
           "q": "शिकायत का status कैसे देखें?",
-          "a": "शिकायत के बाद मिले acknowledgement number से portal पर status देखा जा सकता है।"
+          "a": "Portal के FAQ के मुताबिक शिकायत \"Report and Track\" या \"Report Other Cybercrime\" से की हो, तो उसके बाद मिले acknowledgement number से portal पर status देखा जा सकता है।"
         },
         {
           "q": "शिकायत वापस ली जा सकती है?",
@@ -891,6 +895,10 @@
         {
           "q": "1930 और cybercrime.gov.in में क्या फ़र्क़ है?",
           "a": "1930 phone की helpline है, पैसे की ठगी तुरंत बताने के लिए। cybercrime.gov.in portal है, जहाँ हर तरह के साइबर अपराध की शिकायत दर्ज होती है।"
+        },
+        {
+          "q": "e-Zero FIR किन राज्यों में है?",
+          "a": "गृह मंत्रालय के 28 जुलाई 2026 के लोकसभा उत्तर के मुताबिक 18 राज्यों और केंद्र-शासित प्रदेशों में: दिल्ली (मई 2025 से), चंडीगढ़, मध्य प्रदेश, राजस्थान, गोवा, उत्तराखंड, पश्चिम बंगाल, असम, ओडिशा, हरियाणा, गुजरात, त्रिपुरा, महाराष्ट्र, जम्मू-कश्मीर, तमिलनाडु, तेलंगाना, बिहार और अंडमान-निकोबार। रक़म की सीमा हर राज्य ख़ुद तय करता है।"
         }
       ],
       "related": [
@@ -969,11 +977,11 @@
             },
             {
               "ref": "सवाल 12",
-              "c": "SMS और e-mail से reference number मिलता है"
+              "c": "portal पर पुष्टि का message; \"Report and Track\" या \"Report Other Cybercrime\" में SMS और e-mail से reference number"
             },
             {
               "ref": "सवाल 13",
-              "c": "acknowledgement number से status देखा जा सकता है"
+              "c": "\"Report and Track\" या \"Report Other Cybercrime\" की शिकायत का status acknowledgement number से देखा जा सकता है"
             },
             {
               "ref": "सवाल 14",
@@ -981,7 +989,7 @@
             },
             {
               "ref": "सवाल 16–17",
-              "c": "ठगने वाला विदेशी हो, या शिकायत करने वाला भारत का नागरिक न हो, तब भी शिकायत हो सकती है"
+              "c": "शिकायत करने वाला भारतीय हो और ठगने वाला विदेशी, या शिकायत करने वाला भारत का नागरिक न हो और ठगने वाला भारत में हो, तब भी शिकायत हो सकती है"
             }
           ]
         },
@@ -1022,9 +1030,24 @@
               "c": "जवाब ठीक न मिले तो राज्य के Nodal Officer या Grievance Officer से संपर्क"
             }
           ]
+        },
+        {
+          "label": "गृह मंत्रालय — E-Zero FIRs, लोकसभा तारांकित प्रश्न संख्या *135 का उत्तर, 28 जुलाई 2026",
+          "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AS135_VkkPML.pdf",
+          "issued": "2026-07-28",
+          "used": [
+            {
+              "ref": "Statement, पैरा 2",
+              "c": "NCRP या 1930 पर राज्य की तय सीमा से ऊपर की पैसों की ठगी की शिकायत से अपने-आप e-Zero FIR; 3 दिन के अंदर थाने जाकर नियमित FIR"
+            },
+            {
+              "ref": "Statement की तालिका",
+              "c": "18 राज्य / केंद्र-शासित प्रदेश और शुरू होने का महीना"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\ncybercrime.gov.in गृह मंत्रालय का portal है। इसका पूरा नाम National Cyber Crime Reporting Portal है, छोटा नाम NCRP। यहाँ आम लोग हर तरह के साइबर अपराध की शिकायत ऑनलाइन दर्ज कर सकते हैं। महिलाओं और बच्चों के ख़िलाफ़ साइबर अपराध पर इसका ख़ास ध्यान है। यह I4C का हिस्सा है।[^1]\n\nयह portal 20 सितंबर 2018 को शुरू हुआ था। तब यहाँ सिर्फ़ बच्चों के यौन शोषण और यौन हिंसा से जुड़ी ऑनलाइन सामग्री की report होती थी। 30 अगस्त 2019 से यहाँ हर तरह के साइबर अपराध की शिकायत दर्ज होती है।[^2]\n\nPortal का पता: [https://cybercrime.gov.in](https://cybercrime.gov.in)\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ऑनलाइन ठगी में पैसा कट गया है:** 1930 पर call कीजिए या इसी portal पर report कीजिए। Call की है, तो 24 घंटे के अंदर शिकायत यहीं पूरी करनी होती है।[^5]\n- **कोई और साइबर अपराध हुआ है** (जैसे hacking, ransomware, social media पर अपराध): शिकायत इसी portal पर दर्ज होती है।[^4]\n- **पैसा नहीं गया, सिर्फ़ संदिग्ध link या number मिला है:** portal पर इसके लिए \"Report Suspect\" की अलग सुविधा है।[^6] [कैसे करें, यहाँ देखिए](/p/report-suspect/)।\n\n## कैसे काम करता है\n\n::flow\n\n- Portal पर तीन रास्ते दिखते हैं: Women/Children Related Crime, Financial Fraud और Other Cyber Crime।[^6]\n- शिकायत के लिए अपने नाम और भारतीय mobile number से register करना होता है। Mobile पर OTP आता है, जो 30 मिनट तक चलता है।[^4]\n- फिर अपराध की श्रेणी चुनकर ब्योरा और सबूत देने होते हैं।\n- शिकायत जमा होने पर SMS और e-mail से एक reference number मिलता है।\n- शिकायत उस राज्य की पुलिस के पास जाती है, जिसे आपने चुना।\n- शिकायत को FIR में बदलना और आगे की कार्रवाई उसी राज्य की पुलिस करती है।[^3]\n\n## सबूत में क्या रखें | सबूत\n\nPortal के FAQ में सबूत की यह सूची दी गई है:[^4]\n\n- Bank statement\n- Online money transfer की रसीद\n- Credit card की रसीद\n- Email की copy\n- Webpage का URL\n- Chat का पूरा ब्योरा\n- संदिग्ध mobile number का screenshot\n- Video और तस्वीरें\n- डाक या courier से कुछ आया हो, तो उसका लिफ़ाफ़ा\n- कोई brochure या pamphlet\n- मामले से जुड़ा कोई और दस्तावेज़\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> अपनी शिकायत का status आप ख़ुद देख सकते हैं: acknowledgement number से, portal पर।[^4]\n\n- \"Report & Track\" से शिकायत की है और जवाब ठीक नहीं मिला, तो अपने राज्य के Nodal Officer या Grievance Officer से संपर्क कर सकते हैं। उनकी सूची portal के Contact Us पन्ने पर है।[^7]\n- ठगने वाला विदेशी व्यक्ति या कंपनी हो, तब भी शिकायत दर्ज की जा सकती है। आप भारत के नागरिक नहीं हैं, तब भी।[^4]\n\n## अभी क्या करें\n\n- Portal का पता ख़ुद type कीजिए: cybercrime.gov.in। किसी message या mail में आए link से मत खोलिए।\n- सबूत मत मिटाइए। Chat, email, screenshot और transaction की रसीद सँभालकर रखिए।[^4]\n- शिकायत में सही जानकारी दीजिए। FAQ के मुताबिक झूठी जानकारी देने पर कानूनी कार्रवाई हो सकती है।[^4]\n- शिकायत के बाद मिला acknowledgement number सँभालकर रखिए।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\ncybercrime.gov.in गृह मंत्रालय का portal है। इसका पूरा नाम National Cyber Crime Reporting Portal है, छोटा नाम NCRP। यहाँ आम लोग हर तरह के साइबर अपराध की शिकायत ऑनलाइन दर्ज कर सकते हैं। महिलाओं और बच्चों के ख़िलाफ़ साइबर अपराध पर इसका ख़ास ध्यान है। यह I4C का हिस्सा है।[^1]\n\nयह portal 20 सितंबर 2018 को शुरू हुआ था। तब यहाँ सिर्फ़ बच्चों के यौन शोषण और यौन हिंसा से जुड़ी ऑनलाइन सामग्री की report होती थी। 30 अगस्त 2019 से यहाँ हर तरह के साइबर अपराध की शिकायत दर्ज होती है।[^2]\n\nPortal का पता: [https://cybercrime.gov.in](https://cybercrime.gov.in)\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ऑनलाइन ठगी में पैसा कट गया है:** 1930 पर call कीजिए या इसी portal पर report कीजिए। Call की है, तो 24 घंटे के अंदर शिकायत यहीं पूरी करनी होती है।[^5]\n- **कोई और साइबर अपराध हुआ है** (जैसे hacking, ransomware, social media पर अपराध): शिकायत इसी portal पर दर्ज होती है।[^4]\n- **पैसा नहीं गया, सिर्फ़ संदिग्ध link या number मिला है:** portal पर इसके लिए \"Report Suspect\" की अलग सुविधा है।[^6] [कैसे करें, यहाँ देखिए](/p/report-suspect/)।\n\n## कैसे काम करता है\n\n::flow\n\n- Portal पर तीन रास्ते दिखते हैं: Women/Children Related Crime, Financial Fraud और Other Cyber Crime।[^6]\n- शिकायत के लिए अपने नाम और भारतीय mobile number से register करना होता है। Mobile पर OTP आता है, जो 30 मिनट तक चलता है।[^4]\n- फिर अपराध की श्रेणी चुनकर ब्योरा और सबूत देने होते हैं।\n- शिकायत जमा होने पर portal पर ही पुष्टि का message दिखता है। शिकायत \"Report and Track\" या \"Report Other Cybercrime\" से की हो, तो SMS और e-mail से एक reference number भी मिलता है।[^4]\n- शिकायत उस राज्य की पुलिस के पास जाती है, जिसे आपने चुना।\n- शिकायत को FIR में बदलना और आगे की कार्रवाई उसी राज्य की पुलिस करती है।[^3]\n- कुछ राज्यों में e-Zero FIR की व्यवस्था है। गृह मंत्रालय के 28 जुलाई 2026 के लोकसभा उत्तर के मुताबिक 18 राज्यों और केंद्र-शासित प्रदेशों में portal या 1930 पर की गई पैसों की ठगी की शिकायत, रक़म उस राज्य की तय की हुई सीमा से ऊपर हो, तो अपने-आप e-Zero FIR बन जाती है। शिकायतकर्ता को 3 दिन के अंदर संबंधित थाने जाकर उसे नियमित FIR में बदलवाना होता है।[^8]\n\n## सबूत में क्या रखें | सबूत\n\nPortal के FAQ में सबूत की यह सूची दी गई है:[^4]\n\n- Bank statement\n- Online money transfer की रसीद\n- Credit card की रसीद\n- Email की copy\n- Webpage का URL\n- Chat का पूरा ब्योरा\n- संदिग्ध mobile number का screenshot\n- Video और तस्वीरें\n- डाक या courier से कुछ आया हो, तो उसका लिफ़ाफ़ा\n- कोई brochure या pamphlet\n- मामले से जुड़ा कोई और दस्तावेज़\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> \"Report and Track\" या \"Report Other Cybercrime\" से की गई शिकायत का status आप ख़ुद देख सकते हैं: acknowledgement number से, portal पर।[^4]\n\n- \"Report & Track\" से शिकायत की है और जवाब ठीक नहीं मिला, तो अपने राज्य के Nodal Officer या Grievance Officer से संपर्क कर सकते हैं। उनकी सूची portal के Contact Us पन्ने पर है।[^7]\n- आप भारत के नागरिक हैं और ठगने वाला विदेशी व्यक्ति या कंपनी है, तब भी शिकायत दर्ज की जा सकती है। आप भारत के नागरिक नहीं हैं, पर ठगने वाला व्यक्ति या कंपनी भारत में है, तब भी।[^4]\n\n## अभी क्या करें\n\n- Portal का पता ख़ुद type कीजिए: cybercrime.gov.in। किसी message या mail में आए link से मत खोलिए।\n- सबूत मत मिटाइए। Chat, email, screenshot और transaction की रसीद सँभालकर रखिए।[^4]\n- शिकायत में सही जानकारी दीजिए। FAQ के मुताबिक झूठी जानकारी देने पर कानूनी कार्रवाई हो सकती है।[^4]\n- शिकायत के बाद मिला acknowledgement number सँभालकर रखिए।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "otp",
@@ -2334,11 +2357,15 @@
       "fullEn": "Indian Cybercrime Coordination Centre",
       "group": "साइबर सुरक्षा",
       "created": "2026-10-07",
-      "verified": "2026-10-07",
+      "verified": "2026-10-11",
       "history": [
         {
           "d": "2026-10-07",
           "t": "पन्ना बना। I4C की website (About, FAQ, Major Initiatives), I4C के Public Notice (22 जनवरी 2026), गृह मंत्रालय के लोकसभा उत्तर (28 जुलाई 2026) और cybercrime.gov.in से जाँचा।"
+        },
+        {
+          "d": "2026-10-11",
+          "t": "जोड़ा: IT Rules की क़ानूनी समय-सीमा (शिकायत पर 2 घंटे, अदालत या सरकारी सूचना पर 3 घंटे; 20 फ़रवरी 2026 से), जो I4C के बताए 6 और 36 घंटे से अलग है। Status वाली बात पर दोनों सरकारी स्रोत लिखे: I4C का Public Notice और portal का FAQ।"
         }
       ],
       "one": "I4C गृह मंत्रालय का वह केंद्र है जो देश में साइबर अपराध से निपटने के काम में तालमेल बैठाता है। यह ख़ुद जाँच नहीं करता; आपकी शिकायत की जाँच आपके राज्य की पुलिस करती है।",
@@ -2585,9 +2612,49 @@
               "c": "कोई भी भारतीय नागरिक; तीन श्रेणियाँ"
             }
           ]
+        },
+        {
+          "label": "National Cyber Crime Reporting Portal — FAQ (पन्ने पर 'Last Updated: 02/02/2024')",
+          "url": "https://cybercrime.gov.in/Webform/FAQ.aspx",
+          "used": [
+            {
+              "ref": "सवाल \"Can I check the status of my complaint?\"",
+              "c": "status \"Report and Track\" या \"Report Other Cybercrime\" से की गई शिकायत का देखा जा सकता है"
+            }
+          ]
+        },
+        {
+          "label": "MeitY — Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (updated as on 10.02.2026)",
+          "url": "https://www.meity.gov.in/static/uploads/2026/03/0b576f2071694b52e4cd6bb1b6dfab1e.pdf",
+          "used": [
+            {
+              "ref": "नियम 3(2)(b)",
+              "c": "निजी अंग, नग्नता, यौन कृत्य या impersonation (morphed तस्वीरों समेत) वाली सामग्री: व्यक्ति या उसकी ओर से किसी की शिकायत मिलने के 2 घंटे के अंदर हटाने या पहुँच रोकने के क़दम"
+            },
+            {
+              "ref": "नियम 3(1)(d)",
+              "c": "अदालत के आदेश या अधिकृत अधिकारी की लिखित सूचना पर 3 घंटे के अंदर हटाना"
+            }
+          ]
+        },
+        {
+          "label": "MeitY — Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026, G.S.R. 120(E), 10 फ़रवरी 2026",
+          "url": "https://www.meity.gov.in/static/uploads/2026/02/f55fe52418b03f58b0669f6a8bc03b6d.pdf",
+          "issued": "2026-02-10",
+          "effective": "2026-02-20",
+          "used": [
+            {
+              "ref": "नियम 1(2)",
+              "c": "20 फ़रवरी 2026 से लागू"
+            },
+            {
+              "ref": "नियम 3(a)(ii)(A), 3(b)(ii)",
+              "c": "36 घंटे की जगह 3 घंटे; 24 घंटे की जगह 2 घंटे"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\nI4C यानी Indian Cybercrime Coordination Centre (भारतीय साइबर अपराध समन्वय केंद्र)। यह गृह मंत्रालय की पहल है, जिसका काम देश में साइबर अपराध से तालमेल के साथ निपटना है।[^1]\n\nI4C की योजना 5 अक्टूबर 2018 को मंज़ूर हुई। 10 जनवरी 2020 को गृह मंत्री ने इसे देश को समर्पित किया। 1 जुलाई 2024 से यह गृह मंत्रालय का attached office है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **शिकायत I4C के portal पर होती है।** साइबर अपराध की शिकायत cybercrime.gov.in पर होती है। पैसों की ठगी की शिकायत 1930 पर call करके भी हो सकती है; बाद में उसे portal पर बाक़ी जानकारी के साथ पूरा करना होता है।[^2]\n- **जाँच आपके राज्य की पुलिस करती है।** I4C जाँच एजेंसी नहीं है।[^3]\n- **I4C के नाम से भी ठगी होती है।** Cybercrime portal ने चेतावनी दी है कि I4C के CEO और दूसरी एजेंसियों के अफ़सरों के नाम से नक़ली mail भेजे जा रहे हैं।[^5]\n\n## I4C क्या-क्या करता है | काम\n\nगृह मंत्रालय ने 28 जुलाई 2026 को लोकसभा में I4C से जुड़े ये कदम बताए:[^4]\n\n- **NCRP (cybercrime.gov.in):** हर तरह के साइबर अपराध की report के लिए portal। महिलाओं और बच्चों के ख़िलाफ़ साइबर अपराध पर ख़ास ध्यान।\n- **CFCFRMS और 1930:** पैसों की ठगी की तुरंत report और पैसा ठगों तक पहुँचने से रोकने की व्यवस्था, जो 2021 में शुरू हुई। 30 जून 2026 तक 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा बचाए गए।\n- **Cyber Fraud Mitigation Centre:** I4C में बना केंद्र, जहाँ बड़े bank, financial intermediaries, payment aggregator, telecom कंपनियाँ, IT intermediaries और राज्यों की पुलिस के प्रतिनिधि एक साथ काम करते हैं।\n- **Suspect Registry:** साइबर अपराधियों से जुड़ी पहचानों का registry, जो 10 सितंबर 2024 को banks के साथ मिलकर शुरू हुआ। 30 जून 2026 तक इससे ₹25,698 करोड़ के लेनदेन रोके गए।\n- **Samanvaya और Pratibimb:** पुलिस के लिए साइबर अपराध का data बाँटने और तालमेल का platform। Pratibimb अपराधियों की जगह नक्शे पर दिखाता है।\n- **CyTrain:** पुलिस और न्यायिक अधिकारियों के लिए online training।\n- **खाता freeze की शिकायत:** Bank खाता freeze होने और रक़म पर lien की शिकायतें समय पर सुनने के लिए Grievance Redressal Module, और ठगी का पैसा लौटाने के लिए Money Restoration Module, अप्रैल 2026 से चालू हैं।\n\n## शिकायत का रास्ता | शिकायत\n\n::flow\n\n- Portal पर आई शिकायतों की जाँच संबंधित राज्य या केंद्र शासित प्रदेश (UT) की पुलिस करती है। I4C सिर्फ़ portal का तकनीकी ढाँचा सँभालता है।[^3]\n- जाँच का status पुलिस portal पर update करती है। हर शिकायतकर्ता अपनी शिकायत का status portal पर देख सकता है।[^3]\n- जाँच के बारे में जानकारी चाहिए, तो अर्ज़ी अपने राज्य या UT की संबंधित संस्था को दीजिए।[^3]\n- पुलिस राज्य का विषय है। अपराध रोकने और उसकी जाँच की पहली ज़िम्मेदारी राज्यों और UT की है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> आप अपनी शिकायत का status cybercrime.gov.in पर ख़ुद देख सकते हैं।[^3]\n\n- बच्चों के यौन शोषण या बलात्कार से जुड़ी online सामग्री की report गुमनाम रहकर की जा सकती है। इसमें अपनी निजी जानकारी देना ज़रूरी नहीं।[^2]\n- I4C के मुताबिक portal पर report की गई हानिकारक सामग्री social media platforms के साथ मिलकर हटवाई जाती है: बच्चों से जुड़ी सामग्री 6 घंटे में, और महिलाओं को निशाना बनाने वाली सामग्री 36 घंटे में।[^6]\n\n## अभी क्या करें\n\n- साइबर अपराध की शिकायत cybercrime.gov.in पर कीजिए। पैसों की ठगी हो, तो 1930 पर call कीजिए।[^2]\n- शिकायत का status portal पर देखिए। जाँच के बारे में अपने राज्य की पुलिस से पूछिए, I4C से नहीं।[^3]\n- I4C या किसी एजेंसी के अफ़सर के नाम से आए mail पर तुरंत भरोसा मत कीजिए। Portal ने ऐसे नक़ली mail की चेतावनी दी है।[^5]\n- कोई संदिग्ध phone number, WhatsApp number, website या email दिखे, तो portal के 'Report Suspect' में उसकी report कीजिए।[^5]\n- किसी number, email या खाते पर शक हो, तो portal के 'Suspect Repository' में खोजकर देखिए कि वह साइबर अपराधियों से जुड़ा तो नहीं।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nI4C यानी Indian Cybercrime Coordination Centre (भारतीय साइबर अपराध समन्वय केंद्र)। यह गृह मंत्रालय की पहल है, जिसका काम देश में साइबर अपराध से तालमेल के साथ निपटना है।[^1]\n\nI4C की योजना 5 अक्टूबर 2018 को मंज़ूर हुई। 10 जनवरी 2020 को गृह मंत्री ने इसे देश को समर्पित किया। 1 जुलाई 2024 से यह गृह मंत्रालय का attached office है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **शिकायत I4C के portal पर होती है।** साइबर अपराध की शिकायत cybercrime.gov.in पर होती है। पैसों की ठगी की शिकायत 1930 पर call करके भी हो सकती है; बाद में उसे portal पर बाक़ी जानकारी के साथ पूरा करना होता है।[^2]\n- **जाँच आपके राज्य की पुलिस करती है।** I4C जाँच एजेंसी नहीं है।[^3]\n- **I4C के नाम से भी ठगी होती है।** Cybercrime portal ने चेतावनी दी है कि I4C के CEO और दूसरी एजेंसियों के अफ़सरों के नाम से नक़ली mail भेजे जा रहे हैं।[^5]\n\n## I4C क्या-क्या करता है | काम\n\nगृह मंत्रालय ने 28 जुलाई 2026 को लोकसभा में I4C से जुड़े ये कदम बताए:[^4]\n\n- **NCRP (cybercrime.gov.in):** हर तरह के साइबर अपराध की report के लिए portal। महिलाओं और बच्चों के ख़िलाफ़ साइबर अपराध पर ख़ास ध्यान।\n- **CFCFRMS और 1930:** पैसों की ठगी की तुरंत report और पैसा ठगों तक पहुँचने से रोकने की व्यवस्था, जो 2021 में शुरू हुई। 30 जून 2026 तक 32.80 लाख से ज़्यादा शिकायतों में ₹11,158 करोड़ से ज़्यादा बचाए गए।\n- **Cyber Fraud Mitigation Centre:** I4C में बना केंद्र, जहाँ बड़े bank, financial intermediaries, payment aggregator, telecom कंपनियाँ, IT intermediaries और राज्यों की पुलिस के प्रतिनिधि एक साथ काम करते हैं।\n- **Suspect Registry:** साइबर अपराधियों से जुड़ी पहचानों का registry, जो 10 सितंबर 2024 को banks के साथ मिलकर शुरू हुआ। 30 जून 2026 तक इससे ₹25,698 करोड़ के लेनदेन रोके गए।\n- **Samanvaya और Pratibimb:** पुलिस के लिए साइबर अपराध का data बाँटने और तालमेल का platform। Pratibimb अपराधियों की जगह नक्शे पर दिखाता है।\n- **CyTrain:** पुलिस और न्यायिक अधिकारियों के लिए online training।\n- **खाता freeze की शिकायत:** Bank खाता freeze होने और रक़म पर lien की शिकायतें समय पर सुनने के लिए Grievance Redressal Module, और ठगी का पैसा लौटाने के लिए Money Restoration Module, अप्रैल 2026 से चालू हैं।\n\n## शिकायत का रास्ता | शिकायत\n\n::flow\n\n- Portal पर आई शिकायतों की जाँच संबंधित राज्य या केंद्र शासित प्रदेश (UT) की पुलिस करती है। I4C सिर्फ़ portal का तकनीकी ढाँचा सँभालता है।[^3]\n- जाँच का status पुलिस portal पर update करती है। I4C के Public Notice के मुताबिक हर शिकायतकर्ता अपनी शिकायत का status portal पर देख सकता है।[^3] Portal के FAQ में यह सुविधा \"Report and Track\" और \"Report Other Cybercrime\" से की गई शिकायतों के लिए लिखी है।[^7]\n- जाँच के बारे में जानकारी चाहिए, तो अर्ज़ी अपने राज्य या UT की संबंधित संस्था को दीजिए।[^3]\n- पुलिस राज्य का विषय है। अपराध रोकने और उसकी जाँच की पहली ज़िम्मेदारी राज्यों और UT की है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> आप अपनी शिकायत का status cybercrime.gov.in पर ख़ुद देख सकते हैं।[^3]\n\n- बच्चों के यौन शोषण या बलात्कार से जुड़ी online सामग्री की report गुमनाम रहकर की जा सकती है। इसमें अपनी निजी जानकारी देना ज़रूरी नहीं।[^2]\n- I4C के मुताबिक portal पर report की गई हानिकारक सामग्री social media platforms के साथ मिलकर हटवाई जाती है: बच्चों से जुड़ी सामग्री 6 घंटे में, और महिलाओं को निशाना बनाने वाली सामग्री 36 घंटे में।[^6]\n- क़ानून platform पर अलग समय-सीमा डालता है। IT Rules, 2021 (20 फ़रवरी 2026 से लागू संशोधन के बाद) के नियम 3(2)(b) के मुताबिक, किसी व्यक्ति के निजी अंग, नग्नता या यौन कृत्य दिखाने वाली सामग्री, या उसकी नक़ल (impersonation) वाली सामग्री, जिसमें morphed तस्वीरें भी शामिल हैं, की शिकायत वह व्यक्ति ख़ुद या उसकी ओर से कोई करे, तो platform को शिकायत मिलने के 2 घंटे के अंदर उसे हटाने या उस तक पहुँच रोकने के क़दम उठाने होते हैं। अदालत के आदेश या अधिकृत सरकारी अधिकारी की लिखित सूचना पर ग़ैर-क़ानूनी सामग्री 3 घंटे के अंदर हटानी होती है (नियम 3(1)(d))।[^8][^9]\n\n## अभी क्या करें\n\n- साइबर अपराध की शिकायत cybercrime.gov.in पर कीजिए। पैसों की ठगी हो, तो 1930 पर call कीजिए।[^2]\n- शिकायत का status portal पर देखिए। जाँच के बारे में अपने राज्य की पुलिस से पूछिए, I4C से नहीं।[^3]\n- I4C या किसी एजेंसी के अफ़सर के नाम से आए mail पर तुरंत भरोसा मत कीजिए। Portal ने ऐसे नक़ली mail की चेतावनी दी है।[^5]\n- कोई संदिग्ध phone number, WhatsApp number, website या email दिखे, तो portal के 'Report Suspect' में उसकी report कीजिए।[^5]\n- किसी number, email या खाते पर शक हो, तो portal के 'Suspect Repository' में खोजकर देखिए कि वह साइबर अपराधियों से जुड़ा तो नहीं।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "npci",
@@ -3941,11 +4008,15 @@
       "fullEn": "Sanchar Saathi (DoT)",
       "group": "साइबर सुरक्षा",
       "created": "2026-10-07",
-      "verified": "2026-10-07",
+      "verified": "2026-10-11",
       "history": [
         {
           "d": "2026-10-07",
           "t": "पन्ना बना। Sanchar Saathi portal (पहला पन्ना और FAQ; 5 अक्टूबर 2026 को update), राज्यसभा के लिखित उत्तर (5 फ़रवरी 2026) और portal के launch की press release (16 मई 2023) से जाँचा।"
+        },
+        {
+          "d": "2026-10-11",
+          "t": "जोड़ा: re-verification की समय-सीमा में 30 दिन की छूट (roaming, अक्षमता, अस्पताल); दोबारा जारी SIM पर SMS 24 घंटे बाद; राज्य पुलिस से हुई block की unblock भी राज्य पुलिस से; Chakshu पर report 30 दिन के अंदर। चारों बातें portal पर लिखी हैं और पहले छूटी थीं।"
         }
       ],
       "one": "Sanchar Saathi दूरसंचार विभाग (DoT) का portal और mobile app है। इससे आप अपने नाम पर चल रहे mobile connection देख सकते हैं, खोया phone block करा सकते हैं, और ठगी की कोशिश वाले call या message की report कर सकते हैं।",
@@ -4084,12 +4155,16 @@
               "c": "किन माध्यमों और श्रेणियों की report; report के कदम; गोपनीयता; DoT कार्रवाई का ज़िम्मा नहीं लेता; झूठी report पर कार्रवाई"
             },
             {
+              "ref": "Chakshu का पन्ना (sancharsaathi.gov.in/sfc/)",
+              "c": "Report Suspected Fraud: \"Report within 30 days for action\""
+            },
+            {
               "ref": "FAQ: Block Your Lost/ Stolen Mobile Handset",
-              "c": "पुलिस report, duplicate SIM, form, Request ID; 24 घंटे में block; मिलने पर unblock"
+              "c": "पुलिस report, duplicate SIM, form, Request ID; दोबारा जारी SIM पर SMS 24 घंटे बाद; 24 घंटे में block; मिलने पर unblock; राज्य पुलिस से हुई block की unblock भी राज्य पुलिस से"
             },
             {
               "ref": "FAQ: Know Mobile Connections in Your Name",
-              "c": "सीमा 9 (कुछ राज्यों में 6); report का तरीक़ा; re-verification और उसकी समय-सीमा; सीमा से ज़्यादा connection; नक़ली दस्तावेज़ पर FIR"
+              "c": "सीमा 9 (कुछ राज्यों में 6); report का तरीक़ा; re-verification और उसकी समय-सीमा (roaming, अक्षमता या अस्पताल में भर्ती पर 30 दिन और); सीमा से ज़्यादा connection; नक़ली दस्तावेज़ पर FIR"
             },
             {
               "ref": "FAQ: Know Genuineness of Your Mobile Handset",
@@ -4140,7 +4215,7 @@
           ]
         }
       ],
-      "body": "## मतलब\n\nSanchar Saathi दूरसंचार विभाग (DoT) की नागरिकों के लिए बनी पहल है। इसका मक़सद mobile ग्राहकों को सक्षम बनाना, उनकी सुरक्षा मज़बूत करना और सरकार की नागरिक-केंद्रित पहलों की जानकारी बढ़ाना है। यह web portal (sancharsaathi.gov.in) और mobile app, दोनों रूपों में है।[^1]\n\nPortal 16 मई 2023 को शुरू हुआ।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **अपने नाम के SIM देखिए:** \"Know Mobile Connections in Your Name\" से आप देख सकते हैं कि आपके नाम पर कितने mobile connection हैं, और जो आपने नहीं लिए या जिनकी ज़रूरत नहीं, उनकी report कर सकते हैं।[^1]\n- **खोया या चोरी हुआ phone block कराइए:** Report करने पर phone 24 घंटे के अंदर भारत के telecom network पर इस्तेमाल के लिए block हो जाता है।[^1]\n- **ठगी की कोशिश की report कीजिए:** \"Chakshu\" पर संदिग्ध call, SMS या WhatsApp की report होती है।[^1] यह उन मामलों के लिए है, जहाँ ठगी की कोशिश हुई, पर ठगी हो नहीं पाई।[^2]\n- **पैसा कट चुका है, तो Chakshu नहीं:** ऐसे में 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## Sanchar Saathi पर क्या-क्या है | सुविधाएँ\n\nPortal पर नागरिकों के लिए ये सुविधाएँ हैं:[^1]\n\n- **Chakshu:** ठगी की कोशिश वाले call या message की report; और बिना माँगे आए व्यावसायिक call या SMS (spam) की report।\n- **Block Your Lost / Stolen Mobile Handset:** खोया या चोरी हुआ phone block कराना और उसका पता लगवाना; मिल जाए, तो unblock कराना।\n- **Know Mobile Connections in Your Name:** अपने नाम के mobile connection देखना और report करना।\n- **Know Genuineness of Your Mobile Handset:** IMEI number से phone के असली होने की जाँच। यह जाँच 14422 पर SMS भेजकर भी हो सकती है।\n- **Report Incoming International Call with Indian Number:** विदेश से आई ऐसी call की report, जो +91 वाले भारतीय number से आई दिखती है।\n- **Trusted Contact Details:** banks और वित्तीय संस्थाओं के contact number, toll-free number, customer care number, e-mail और website, जो उन संस्थाओं ने ख़ुद दिए हैं। इससे call करने या उठाने से पहले जाँचा जा सकता है कि number असली है या नहीं। Portal पर इस सुविधा के साथ \"Beta\" लिखा है।\n- **Know Your Wireline Internet Service Provider:** अपने इलाक़े के wireline internet service provider की जानकारी। इसके साथ भी \"Beta\" लिखा है।\n\n## Chakshu कैसे काम करता है | Chakshu\n\n::flow\n\n- Report उन्हीं voice call, SMS, WhatsApp message या WhatsApp call की हो सकती है, जिनमें भेजने वाले का mobile या landline number दिखता हो।[^1]\n- Report में माध्यम और श्रेणी चुननी होती है और ब्योरा देना होता है। Screenshot लगाना वैकल्पिक है। फिर अपना mobile number OTP से verify करके नाम लिखना होता है।[^1]\n- DoT हर अकेली report पर अलग कार्रवाई नहीं करता। वह नागरिकों से मिली reports का विश्लेषण करके telecom साधनों के दुरुपयोग तक पहुँचता है। कार्रवाई आम तौर पर mobile user को re-verification का मौक़ा देने के बाद होती है।[^2]\n- 5 फ़रवरी 2026 को राज्यसभा में बताया गया कि नागरिकों की 7.7 लाख inputs के आधार पर 39.43 लाख mobile connection काटे गए, और 2.27 लाख handset और 1.31 लाख SMS template blacklist किए गए।[^2]\n- झूठी report करने वाले पर भी कार्रवाई हो सकती है, जैसे उसका re-verification या उसे report करने से रोकना।[^1]\n\n## अपने नाम के SIM कैसे जाँचें | आपके नाम के SIM\n\n- एक व्यक्ति सभी telecom कंपनियों को मिलाकर अधिकतम 9 mobile connection ले सकता है। जम्मू-कश्मीर, असम और पूर्वोत्तर राज्यों में यह सीमा 6 है।[^1]\n- Portal पर अपने mobile number पर आए OTP से login कीजिए और connection की सूची देखिए। जो number आपका नहीं है, उस पर 'This is not my number', और जिसकी ज़रूरत नहीं, उस पर 'Not required' चुनकर 'Report' दबाइए।[^1]\n- Report किया गया connection service provider के re-verification के लिए चिह्नित होता है। Re-verification में नाकाम connection काट दिया जाता है।[^1]\n- समय-सीमा: outgoing सेवा 30 दिन के अंदर और incoming 45 दिन के अंदर बंद होती है; re-verification में नाकाम connection 60 दिन के अंदर कटता है।[^1]\n\n## Phone खो जाए तो | खोया phone\n\n- पुलिस में report कीजिए और उसकी copy रखिए।[^1]\n- खोए number का duplicate SIM अपनी telecom कंपनी से लीजिए। Block की अर्ज़ी का OTP इसी number पर आता है।[^1]\n- Portal पर form भरिए। पुलिस report की copy और पहचान का प्रमाण लगाना होता है। Form जमा होने पर Request ID मिलता है; उसी से status देखा जाता है और बाद में phone unblock कराया जाता है।[^1]\n- Phone मिल जाए, तो पहले स्थानीय पुलिस को बताइए, फिर unblock का form भरिए।[^1]\n- 5 अक्टूबर 2026 को portal पर दर्ज था: 61.16 लाख mobile block और 37.96 लाख trace किए गए।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> आप देख सकते हैं कि आपके नाम पर कितने mobile connection हैं, और जो आपने नहीं लिए, उनकी report कर सकते हैं।[^1]\n\n- Chakshu पर report करने वाले नागरिक की जानकारी गोपनीय रखी जाती है।[^1]\n\n## अभी क्या करें\n\n- एक बार देख लीजिए कि आपके नाम पर कितने mobile connection हैं। Portal sancharsaathi.gov.in है; app Google Play Store और Apple App Store पर है।[^1]\n- Bank या वित्तीय संस्था के नाम से call आए, तो number 'Trusted Contact Details' में जाँच सकते हैं।[^1]\n- ठगी की कोशिश हो, तो Chakshu पर report कीजिए। पैसा जा चुका हो, तो 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nSanchar Saathi दूरसंचार विभाग (DoT) की नागरिकों के लिए बनी पहल है। इसका मक़सद mobile ग्राहकों को सक्षम बनाना, उनकी सुरक्षा मज़बूत करना और सरकार की नागरिक-केंद्रित पहलों की जानकारी बढ़ाना है। यह web portal (sancharsaathi.gov.in) और mobile app, दोनों रूपों में है।[^1]\n\nPortal 16 मई 2023 को शुरू हुआ।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **अपने नाम के SIM देखिए:** \"Know Mobile Connections in Your Name\" से आप देख सकते हैं कि आपके नाम पर कितने mobile connection हैं, और जो आपने नहीं लिए या जिनकी ज़रूरत नहीं, उनकी report कर सकते हैं।[^1]\n- **खोया या चोरी हुआ phone block कराइए:** Report करने पर phone 24 घंटे के अंदर भारत के telecom network पर इस्तेमाल के लिए block हो जाता है।[^1]\n- **ठगी की कोशिश की report कीजिए:** \"Chakshu\" पर संदिग्ध call, SMS या WhatsApp की report होती है।[^1] यह उन मामलों के लिए है, जहाँ ठगी की कोशिश हुई, पर ठगी हो नहीं पाई।[^2] Chakshu के पन्ने पर लिखा है कि कार्रवाई के लिए report 30 दिन के अंदर कीजिए।[^1]\n- **पैसा कट चुका है, तो Chakshu नहीं:** ऐसे में 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## Sanchar Saathi पर क्या-क्या है | सुविधाएँ\n\nPortal पर नागरिकों के लिए ये सुविधाएँ हैं:[^1]\n\n- **Chakshu:** ठगी की कोशिश वाले call या message की report; और बिना माँगे आए व्यावसायिक call या SMS (spam) की report।\n- **Block Your Lost / Stolen Mobile Handset:** खोया या चोरी हुआ phone block कराना और उसका पता लगवाना; मिल जाए, तो unblock कराना।\n- **Know Mobile Connections in Your Name:** अपने नाम के mobile connection देखना और report करना।\n- **Know Genuineness of Your Mobile Handset:** IMEI number से phone के असली होने की जाँच। यह जाँच 14422 पर SMS भेजकर भी हो सकती है।\n- **Report Incoming International Call with Indian Number:** विदेश से आई ऐसी call की report, जो +91 वाले भारतीय number से आई दिखती है।\n- **Trusted Contact Details:** banks और वित्तीय संस्थाओं के contact number, toll-free number, customer care number, e-mail और website, जो उन संस्थाओं ने ख़ुद दिए हैं। इससे call करने या उठाने से पहले जाँचा जा सकता है कि number असली है या नहीं। Portal पर इस सुविधा के साथ \"Beta\" लिखा है।\n- **Know Your Wireline Internet Service Provider:** अपने इलाक़े के wireline internet service provider की जानकारी। इसके साथ भी \"Beta\" लिखा है।\n\n## Chakshu कैसे काम करता है | Chakshu\n\n::flow\n\n- Report उन्हीं voice call, SMS, WhatsApp message या WhatsApp call की हो सकती है, जिनमें भेजने वाले का mobile या landline number दिखता हो।[^1]\n- Report में माध्यम और श्रेणी चुननी होती है और ब्योरा देना होता है। Screenshot लगाना वैकल्पिक है। फिर अपना mobile number OTP से verify करके नाम लिखना होता है।[^1]\n- DoT हर अकेली report पर अलग कार्रवाई नहीं करता। वह नागरिकों से मिली reports का विश्लेषण करके telecom साधनों के दुरुपयोग तक पहुँचता है। कार्रवाई आम तौर पर mobile user को re-verification का मौक़ा देने के बाद होती है।[^2]\n- 5 फ़रवरी 2026 को राज्यसभा में बताया गया कि नागरिकों की 7.7 लाख inputs के आधार पर 39.43 लाख mobile connection काटे गए, और 2.27 लाख handset और 1.31 लाख SMS template blacklist किए गए।[^2]\n- झूठी report करने वाले पर भी कार्रवाई हो सकती है, जैसे उसका re-verification या उसे report करने से रोकना।[^1]\n\n## अपने नाम के SIM कैसे जाँचें | आपके नाम के SIM\n\n- एक व्यक्ति सभी telecom कंपनियों को मिलाकर अधिकतम 9 mobile connection ले सकता है। जम्मू-कश्मीर, असम और पूर्वोत्तर राज्यों में यह सीमा 6 है।[^1]\n- Portal पर अपने mobile number पर आए OTP से login कीजिए और connection की सूची देखिए। जो number आपका नहीं है, उस पर 'This is not my number', और जिसकी ज़रूरत नहीं, उस पर 'Not required' चुनकर 'Report' दबाइए।[^1]\n- Report किया गया connection service provider के re-verification के लिए चिह्नित होता है। Re-verification में नाकाम connection काट दिया जाता है।[^1]\n- समय-सीमा: outgoing सेवा 30 दिन के अंदर और incoming 45 दिन के अंदर बंद होती है; re-verification में नाकाम connection 60 दिन के अंदर कटता है। ग्राहक international roaming पर हो, शारीरिक रूप से अक्षम हो या अस्पताल में भर्ती हो, तो इन कामों के लिए 30 दिन और दिए जा सकते हैं।[^1]\n\n## Phone खो जाए तो | खोया phone\n\n- पुलिस में report कीजिए और उसकी copy रखिए।[^1]\n- खोए number का duplicate SIM अपनी telecom कंपनी से लीजिए। Block की अर्ज़ी का OTP इसी number पर आता है। Portal के मुताबिक दोबारा जारी हुए SIM पर SMS की सुविधा SIM चालू होने के 24 घंटे बाद शुरू होती है।[^1]\n- Portal पर form भरिए। पुलिस report की copy और पहचान का प्रमाण लगाना होता है। Form जमा होने पर Request ID मिलता है; उसी से status देखा जाता है और बाद में phone unblock कराया जाता है।[^1]\n- Phone मिल जाए, तो पहले स्थानीय पुलिस को बताइए, फिर unblock का form भरिए। Block की अर्ज़ी राज्य की पुलिस के ज़रिए दर्ज हुई थी, तो unblock की अर्ज़ी भी राज्य की पुलिस के पास ही देनी होती है।[^1]\n- 5 अक्टूबर 2026 को portal पर दर्ज था: 61.16 लाख mobile block और 37.96 लाख trace किए गए।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> आप देख सकते हैं कि आपके नाम पर कितने mobile connection हैं, और जो आपने नहीं लिए, उनकी report कर सकते हैं।[^1]\n\n- Chakshu पर report करने वाले नागरिक की जानकारी गोपनीय रखी जाती है।[^1]\n\n## अभी क्या करें\n\n- एक बार देख लीजिए कि आपके नाम पर कितने mobile connection हैं। Portal sancharsaathi.gov.in है; app Google Play Store और Apple App Store पर है।[^1]\n- Bank या वित्तीय संस्था के नाम से call आए, तो number 'Trusted Contact Details' में जाँच सकते हैं।[^1]\n- ठगी की कोशिश हो, तो Chakshu पर report कीजिए। पैसा जा चुका हो, तो 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "chakshu",
@@ -4149,11 +4224,15 @@
       "fullEn": "Chakshu (Sanchar Saathi)",
       "group": "साइबर सुरक्षा",
       "created": "2026-10-07",
-      "verified": "2026-10-07",
+      "verified": "2026-10-11",
       "history": [
         {
           "d": "2026-10-07",
           "t": "पन्ना बना। Sanchar Saathi portal (About और FAQ; 5 अक्टूबर 2026 को update), राज्यसभा के लिखित उत्तर (5 फ़रवरी 2026) और Chakshu के launch की press release (4 मार्च 2024) से जाँचा।"
+        },
+        {
+          "d": "2026-10-11",
+          "t": "सुधार: spam भेजने वाले पर कार्रवाई अब TRAI के नियम 25 के मुताबिक़ लिखी (15 दिन outgoing बंद, फिर एक साल); पहले portal के FAQ का पुराना क्रम लिखा था। जोड़ा: Chakshu के पन्ने पर 30 दिन और TRAI के नियम में 7 दिन, दोनों; DND के बाद भी आने वाले संदेश; और TRAI का 18 सितंबर 2026 का संशोधन (FULLY BLOCK की जगह BLOCK PROMO)।"
         }
       ],
       "one": "Chakshu, Sanchar Saathi की वह सुविधा है, जिस पर आप ठगी की कोशिश वाले call, SMS या WhatsApp की report करते हैं। यह पैसा वापस दिलाने की जगह नहीं है; पैसा जा चुका हो, तो 1930 पर call कीजिए।",
@@ -4244,7 +4323,7 @@
         },
         {
           "q": "Spam भेजने वाले 10 अंकों के number पर क्या कार्रवाई होती है?",
-          "a": "Portal के मुताबिक बिना registration के व्यावसायिक call या message भेजने वाले के ख़िलाफ़ शिकायत आने पर: पहली बार चेतावनी; दूसरी बार छह महीने के लिए usage cap; तीसरी बार और उसके बाद उसके सारे telecom साधन दो साल तक के लिए बंद और blacklist।"
+          "a": "TRAI के नियम 25 के मुताबिक, बिना registration के व्यावसायिक call या message भेजने वाले के ख़िलाफ़ 10 दिन में 5 या ज़्यादा अलग-अलग लोगों की शिकायत आए, तो telecom कंपनी उसकी outgoing सेवा रोककर जाँच करती है। जाँच में बात सही निकले, तो पहली बार उसके सारे telecom साधनों की outgoing सेवा 15 दिन के लिए बंद होती है; दोबारा और उसके बाद सारे साधन एक साल के लिए काट दिए जाते हैं और उसे blacklist किया जाता है। Sanchar Saathi के FAQ में अब भी पुराना क्रम लिखा है: पहली बार चेतावनी, दूसरी बार छह महीने का usage cap, तीसरी बार और उसके बाद दो साल तक बंद और blacklist।"
         },
         {
           "q": "किसी SMS का header किसका है, यह कैसे पता करें?",
@@ -4290,6 +4369,10 @@
             {
               "ref": "FAQ: Chakshu - Report UCC",
               "c": "UCC का मतलब; शिकायत के रास्ते (1909, TRAI DND app, telecom कंपनी); complaint ID; बिना registration वाले sender पर कार्रवाई; preference; SMS header"
+            },
+            {
+              "ref": "Chakshu का पन्ना (sancharsaathi.gov.in/sfc/)",
+              "c": "ठगी की कोशिश और spam, दोनों पर \"Report within 30 days for action\"; \"Complaints made within 30 days are investigated\""
             }
           ]
         },
@@ -4330,9 +4413,42 @@
               "c": "DIP पर कौन-कौन जानकारी साझा करता है; यह नागरिकों के लिए खुला नहीं"
             }
           ]
+        },
+        {
+          "label": "TRAI — Telecom Commercial Communications Customer Preference Regulations, 2018 (संशोधनों समेत संकलित पाठ; TRAI की site पर 21 मई 2026 को डाला गया)",
+          "url": "https://trai.gov.in/sites/default/files/2026-05/CA_21052026.pdf",
+          "used": [
+            {
+              "ref": "नियम 23, 25(3)",
+              "c": "शिकायत spam मिलने के सात दिन के अंदर; उसके बाद वह 'report' मानी जाती है"
+            },
+            {
+              "ref": "नियम 25(5)(d), 25(6)",
+              "c": "बिना registration वाला sender: 10 दिन में 5 या ज़्यादा अलग लोगों की शिकायत पर outgoing बंद और जाँच; पहली बार 15 दिन outgoing बंद; दोबारा एक साल के लिए connection काटना और blacklist"
+            },
+            {
+              "ref": "नियम 2 की परिभाषाएँ: 'Fully blocked', 'Government Message or Government Voice Call', 'Promotional messages'",
+              "c": "पूरी रोक में भी inferred consent वाले और सरकारी संदेश बाहर; explicit digital consent वाले promotional संदेश पसंद के बावजूद"
+            }
+          ]
+        },
+        {
+          "label": "TRAI — Telecom Commercial Communications Customer Preference (Third Amendment) Regulations, 2026 (05 of 2026), 18 सितंबर 2026",
+          "url": "https://www.trai.gov.in/sites/default/files/2026-09/Regulation_18092026.pdf",
+          "issued": "2026-09-18",
+          "used": [
+            {
+              "ref": "नियम 1(3)",
+              "c": "Official Gazette में छपने के 30 दिन बाद लागू (कुछ हिस्से 60 और 90 दिन बाद)"
+            },
+            {
+              "ref": "नियम 20 (Schedule-II), Note-3 और Note-4",
+              "c": "BLOCK PROMO सिर्फ़ promotional रोकता है; FULLY BLOCK वाली पसंद लागू होने के 15 दिन के अंदर BLOCK PROMO में"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\nChakshu (चक्षु) Sanchar Saathi portal की सुविधा है, जिस पर नागरिक ठगी के इरादे से आए संदिग्ध call, SMS या WhatsApp की report कर सकते हैं।[^1] इसे 4 मार्च 2024 को शुरू किया गया।[^3]\n\nइसी पर बिना माँगे आए व्यावसायिक call और SMS (UCC या spam) की भी report होती है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ठगी की कोशिश हुई, पर पैसा नहीं गया:** Chakshu पर report कीजिए। ऐसी reports से DoT को telecom साधनों का दुरुपयोग रोकने में मदद मिलती है।[^1]\n- **पैसा जा चुका है:** Chakshu इसके लिए नहीं है। 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n- **Report का मतलब तुरंत कार्रवाई नहीं:** DoT हर अकेली report पर अलग कार्रवाई नहीं करता; वह नागरिकों से मिली reports का विश्लेषण करता है।[^2]\n\n## Report कैसे करें | कैसे करें\n\n::flow\n\n- sancharsaathi.gov.in पर \"Citizen Centric Services\" में Chakshu चुनिए, या Sanchar Saathi का mobile app इस्तेमाल कीजिए।[^1]\n- माध्यम और श्रेणी चुनिए, और संदेश का ब्योरा दीजिए। Screenshot लगाना वैकल्पिक है।[^1]\n- अपना mobile number OTP से verify कीजिए, नाम लिखिए और submit कीजिए।[^1]\n- Report उन्हीं voice call, SMS, WhatsApp message या WhatsApp call की हो सकती है, जिनमें भेजने वाले का mobile या landline number दिखता हो।[^1]\n\n## लोग किस तरह के संदेश report करते हैं | श्रेणियाँ\n\nराज्यसभा में 5 फ़रवरी 2026 को बताया गया कि 2025 में Chakshu पर 5,19,662 reports आईं। नाम वाली श्रेणियों में सबसे बड़ी ये थीं:[^2]\n\n- Bank, बिजली, gas, बीमा वग़ैरह के KYC और भुगतान के नाम पर: 1,06,483\n- नक़ली customer care helpline: 60,985\n- Online नौकरी, lottery, gift और loan के offer: 58,560\n- पुलिस, CBI, Customs, Aadhaar, RBI वग़ैरह के नाम पर: 54,639\n- निवेश, शेयर बाज़ार और trading: 29,140\n\nइनके अलावा \"Any Other Suspected Fraud\" श्रेणी में 1,19,164 reports थीं।[^2]\n\n## Report के बाद क्या होता है | आगे क्या\n\n- DoT जाँच के बाद भेजने वाले के ख़िलाफ़ अपनी प्रक्रिया के मुताबिक कार्रवाई करता है। इसमें ग्राहक का re-verification, connection काटना और पुलिस में शिकायत या FIR शामिल हो सकती है।[^1]\n- पर DoT ने यह भी लिखा है कि वह report किए गए भेजने वाले पर कार्रवाई का ज़िम्मा नहीं लेता।[^1]\n- नागरिकों की 7.7 लाख inputs के आधार पर 39.43 लाख mobile connection काटे गए, और 2.27 लाख handset और 1.31 लाख SMS template blacklist किए गए।[^2]\n- Chakshu पर मिले संदिग्ध mobile number, जाँच के बाद, DoT के Digital Intelligence Platform पर Financial Fraud Risk Indicator (FRI) के हिस्से के तौर पर साझा किए जाते हैं। इस platform पर bank, UPI सेवा देने वाले और दूसरी संस्थाएँ जुड़ी हैं।[^2]\n\n## Spam की शिकायत | Spam\n\n- UCC या spam वह call या message है, जो न आपकी दी हुई सहमति के मुताबिक है, न आपकी दर्ज की हुई पसंद (preference) के मुताबिक।[^1]\n- Spam मिलने के 7 दिन के अंदर की गई शिकायत \"valid complaint\" मानी जाती है; उस पर telecom कंपनी जाँच करती है और भेजने वाले पर कार्रवाई हो सकती है। 7 दिन के बाद की शिकायत \"report\" मानी जाती है।[^1]\n- Spam की शिकायत Chakshu के अलावा 1909 पर SMS या call करके, TRAI DND app से, या अपनी telecom कंपनी के ज़रिए भी हो सकती है।[^1]\n- ये शिकायतें कार्रवाई के लिए telecom कंपनियों को दी जाती हैं। शिकायत के बाद complaint ID मिलता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Chakshu पर report करने वाले नागरिक की जानकारी DoT गोपनीय रखता है।[^1]\n\n- आप चाहें, तो सारे व्यावसायिक call और message बंद करा सकते हैं, या श्रेणी के हिसाब से चुन सकते हैं। इसके लिए 1909 पर SMS या call, TRAI DND app, या अपनी telecom कंपनी का रास्ता है।[^1]\n\n## अभी क्या करें\n\n- ठगी की कोशिश वाला call या message आए, तो Chakshu पर report कीजिए। Screenshot हो, तो लगा दीजिए।[^1]\n- पैसा जा चुका हो, तो Chakshu पर समय मत लगाइए: 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n- Spam की शिकायत 7 दिन के अंदर कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nChakshu (चक्षु) Sanchar Saathi portal की सुविधा है, जिस पर नागरिक ठगी के इरादे से आए संदिग्ध call, SMS या WhatsApp की report कर सकते हैं।[^1] इसे 4 मार्च 2024 को शुरू किया गया।[^3]\n\nइसी पर बिना माँगे आए व्यावसायिक call और SMS (UCC या spam) की भी report होती है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ठगी की कोशिश हुई, पर पैसा नहीं गया:** Chakshu पर report कीजिए। ऐसी reports से DoT को telecom साधनों का दुरुपयोग रोकने में मदद मिलती है। Chakshu के पन्ने पर लिखा है कि कार्रवाई के लिए report 30 दिन के अंदर कीजिए।[^1]\n- **पैसा जा चुका है:** Chakshu इसके लिए नहीं है। 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n- **Report का मतलब तुरंत कार्रवाई नहीं:** DoT हर अकेली report पर अलग कार्रवाई नहीं करता; वह नागरिकों से मिली reports का विश्लेषण करता है।[^2]\n\n## Report कैसे करें | कैसे करें\n\n::flow\n\n- sancharsaathi.gov.in पर \"Citizen Centric Services\" में Chakshu चुनिए, या Sanchar Saathi का mobile app इस्तेमाल कीजिए।[^1]\n- माध्यम और श्रेणी चुनिए, और संदेश का ब्योरा दीजिए। Screenshot लगाना वैकल्पिक है।[^1]\n- अपना mobile number OTP से verify कीजिए, नाम लिखिए और submit कीजिए।[^1]\n- Report उन्हीं voice call, SMS, WhatsApp message या WhatsApp call की हो सकती है, जिनमें भेजने वाले का mobile या landline number दिखता हो।[^1]\n\n## लोग किस तरह के संदेश report करते हैं | श्रेणियाँ\n\nराज्यसभा में 5 फ़रवरी 2026 को बताया गया कि 2025 में Chakshu पर 5,19,662 reports आईं। नाम वाली श्रेणियों में सबसे बड़ी ये थीं:[^2]\n\n- Bank, बिजली, gas, बीमा वग़ैरह के KYC और भुगतान के नाम पर: 1,06,483\n- नक़ली customer care helpline: 60,985\n- Online नौकरी, lottery, gift और loan के offer: 58,560\n- पुलिस, CBI, Customs, Aadhaar, RBI वग़ैरह के नाम पर: 54,639\n- निवेश, शेयर बाज़ार और trading: 29,140\n\nइनके अलावा \"Any Other Suspected Fraud\" श्रेणी में 1,19,164 reports थीं।[^2]\n\n## Report के बाद क्या होता है | आगे क्या\n\n- DoT जाँच के बाद भेजने वाले के ख़िलाफ़ अपनी प्रक्रिया के मुताबिक कार्रवाई करता है। इसमें ग्राहक का re-verification, connection काटना और पुलिस में शिकायत या FIR शामिल हो सकती है।[^1]\n- पर DoT ने यह भी लिखा है कि वह report किए गए भेजने वाले पर कार्रवाई का ज़िम्मा नहीं लेता।[^1]\n- नागरिकों की 7.7 लाख inputs के आधार पर 39.43 लाख mobile connection काटे गए, और 2.27 लाख handset और 1.31 लाख SMS template blacklist किए गए।[^2]\n- Chakshu पर मिले संदिग्ध mobile number, जाँच के बाद, DoT के Digital Intelligence Platform पर Financial Fraud Risk Indicator (FRI) के हिस्से के तौर पर साझा किए जाते हैं। इस platform पर bank, UPI सेवा देने वाले और दूसरी संस्थाएँ जुड़ी हैं।[^2]\n\n## Spam की शिकायत | Spam\n\n- UCC या spam वह call या message है, जो न आपकी दी हुई सहमति के मुताबिक है, न आपकी दर्ज की हुई पसंद (preference) के मुताबिक।[^1]\n- TRAI के नियमों और portal के FAQ के मुताबिक spam मिलने के 7 दिन के अंदर की गई शिकायत \"valid complaint\" मानी जाती है; उस पर telecom कंपनी जाँच करती है और भेजने वाले पर कार्रवाई हो सकती है। 7 दिन के बाद की शिकायत \"report\" मानी जाती है।[^1][^4]\n- Chakshu के पन्ने पर spam के लिए भी 30 दिन लिखा है: \"Complaints made within 30 days are investigated.\" दोनों बातें सरकारी स्रोतों की हैं और आपस में अलग हैं।[^1]\n- Spam की शिकायत Chakshu के अलावा 1909 पर SMS या call करके, TRAI DND app से, या अपनी telecom कंपनी के ज़रिए भी हो सकती है।[^1]\n- ये शिकायतें कार्रवाई के लिए telecom कंपनियों को दी जाती हैं। शिकायत के बाद complaint ID मिलता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Chakshu पर report करने वाले नागरिक की जानकारी DoT गोपनीय रखता है।[^1]\n\n- आप चाहें, तो व्यावसायिक call और message बंद करा सकते हैं: सारे, या श्रेणी के हिसाब से। इसके लिए 1909 पर SMS या call, TRAI DND app, या अपनी telecom कंपनी का रास्ता है।[^1]\n- TRAI के नियमों के मुताबिक पूरी रोक (fully block) के बाद भी सरकारी संदेश आ सकते हैं, और वे संदेश भी, जिनकी सहमति आपके व्यवहार या भेजने वाले से आपके रिश्ते से मानी जाती है (inferred consent)। जिस कंपनी को आपने ख़ुद digital सहमति दी है, उसके promotional संदेश आपकी दर्ज पसंद के बावजूद आ सकते हैं।[^4]\n- TRAI ने 18 सितंबर 2026 को ये नियम बदले हैं। नए नियम Official Gazette में छपने के 30 दिन बाद लागू होते हैं; 11 अक्टूबर 2026 तक यह समय पूरा नहीं हुआ था। लागू होने के 15 दिन के अंदर \"FULLY BLOCK\" वाली पसंद \"BLOCK PROMO\" में बदल दी जाएगी, जो सिर्फ़ promotional संदेश रोकती है; transaction, service और सरकारी संदेश नहीं।[^5]\n\n## अभी क्या करें\n\n- ठगी की कोशिश वाला call या message आए, तो Chakshu पर report कीजिए। Screenshot हो, तो लगा दीजिए।[^1]\n- पैसा जा चुका हो, तो Chakshu पर समय मत लगाइए: 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^1]\n- Spam की शिकायत 7 दिन के अंदर कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "fake-customer-care",
@@ -4534,11 +4650,15 @@
       "fullEn": "Vishing (fraud calls)",
       "group": "साइबर सुरक्षा",
       "created": "2026-10-07",
-      "verified": "2026-10-07",
+      "verified": "2026-10-11",
       "history": [
         {
           "d": "2026-10-07",
           "t": "पन्ना बना। RBI की जागरूकता पुस्तिका BE(A)WARE और Sanchar Saathi portal (5 अक्टूबर 2026 को update) से जाँचा।"
+        },
+        {
+          "d": "2026-10-11",
+          "t": "जोड़ा: American Express card पर CVV 4 अंकों का होता है। पहले सिर्फ़ 3 अंक लिखा था।"
         }
       ],
       "one": "Vishing वह ठगी है, जिसमें ठग phone पर bank, e-wallet कंपनी या telecom कंपनी का आदमी बनकर आपसे OTP, PIN या CVV जैसी गोपनीय जानकारी निकलवा लेता है।",
@@ -4625,7 +4745,7 @@
         },
         {
           "q": "CVV क्या है?",
-          "a": "Card Verification Value: card पर छपा 3 अंकों का number, जो ज़्यादातर online लेनदेन पूरा करने के लिए ज़रूरी होता है। RBI की पुस्तिका के मुताबिक इसे कभी किसी को नहीं बताना है।"
+          "a": "Card Verification Value: card पर छपा 3 अंकों का number (American Express card पर 4 अंकों का), जो ज़्यादातर online लेनदेन पूरा करने के लिए ज़रूरी होता है। RBI की पुस्तिका के मुताबिक इसे कभी किसी को नहीं बताना है।"
         },
         {
           "q": "ऐसी call की report कहाँ करें?",
@@ -4700,6 +4820,17 @@
             {
               "ref": "About और FAQ: Chakshu",
               "c": "ठगी की कोशिश वाली call की report; पैसा जा चुका हो तो 1930 या cybercrime.gov.in; report करने वाले की जानकारी गोपनीय"
+            }
+          ]
+        },
+        {
+          "label": "American Express — What Is A Credit Card CVV? (americanexpress.com, Canada; 19 नवंबर 2020)",
+          "url": "https://www.americanexpress.com/ca/en/articles/life-with-amex/learn/what-is-credit-card-cvv/",
+          "issued": "2020-11-19",
+          "used": [
+            {
+              "ref": "\"Where are CVVs located on a credit card?\"",
+              "c": "American Express card पर 4 अंकों का code, card के सामने की तरफ़"
             }
           ]
         }
@@ -12308,11 +12439,15 @@
       "fullEn": "First Information Report",
       "group": "साइबर सुरक्षा",
       "created": "2026-10-07",
-      "verified": "2026-10-07",
+      "verified": "2026-10-11",
       "history": [
         {
           "d": "2026-10-07",
           "t": "पन्ना बना। Bharatiya Nagarik Suraksha Sanhita, 2023 (India Code, पाठ \"As on the 6th October, 2025\"), गृह मंत्रालय के 9 मार्च 2021 के लोकसभा उत्तर (PIB) और RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 से जाँचा।"
+        },
+        {
+          "d": "2026-10-11",
+          "t": "जोड़ा: e-Zero FIR (28 जुलाई 2026 का लोकसभा उत्तर: 18 राज्य / केंद्र-शासित प्रदेश); धारा 174(4) (एक भी अपराध संज्ञेय हो, तो पूरा मामला संज्ञेय); और धारा 173(1) का वह हिस्सा, जो अक्षम पीड़ित की सूचना दर्ज करने का तरीक़ा बताता है। पहले लिखा था कि portal की शिकायत अपने-आप FIR नहीं है; अब यह e-Zero FIR के अपवाद के साथ लिखा है।"
         }
       ],
       "one": "FIR (First Information Report) संज्ञेय अपराध की वह सूचना है, जो पुलिस थाने का प्रभारी दर्ज करता है। यह ज़बानी, लिखित या electronic रूप में दी जा सकती है, अपराध चाहे किसी भी इलाक़े में हुआ हो। दर्ज की गई सूचना की copy सूचना देने वाले या पीड़ित को तुरंत और मुफ़्त मिलती है।",
@@ -12381,7 +12516,7 @@
         },
         {
           "m": "\"cybercrime.gov.in पर शिकायत डाल दी, यानी FIR हो गई।\"",
-          "f": "नहीं। गृह मंत्रालय के मुताबिक portal पर दर्ज घटनाओं को FIR में बदलना और आगे की कार्रवाई उस राज्य या केंद्र-शासित प्रदेश की पुलिस करती है।[^2]"
+          "f": "हर बार नहीं। गृह मंत्रालय के मुताबिक portal पर दर्ज घटनाओं को FIR में बदलना और आगे की कार्रवाई उस राज्य या केंद्र-शासित प्रदेश की पुलिस करती है।[^2] अपवाद e-Zero FIR है: 18 राज्यों और केंद्र-शासित प्रदेशों में तय सीमा से ऊपर की पैसों की ठगी की शिकायत से अपने-आप e-Zero FIR बनती है, जिसे 3 दिन के अंदर थाने जाकर नियमित FIR में बदलवाना होता है।[^4]"
         }
       ],
       "faq": [
@@ -12415,11 +12550,11 @@
         },
         {
           "q": "Non-cognizable अपराध की सूचना दी जाए, तो?",
-          "a": "धारा 174 के मुताबिक थाने का प्रभारी सूचना का सार अपनी book में दर्ज करता है और सूचना देने वाले को Magistrate के पास भेजता है। ऐसे मामले की जाँच पुलिस Magistrate के आदेश के बिना नहीं कर सकती।"
+          "a": "धारा 174 के मुताबिक थाने का प्रभारी सूचना का सार अपनी book में दर्ज करता है और सूचना देने वाले को Magistrate के पास भेजता है। ऐसे मामले की जाँच पुलिस Magistrate के आदेश के बिना नहीं कर सकती। पर मामले में दो या ज़्यादा अपराध हों और उनमें से एक भी संज्ञेय हो, तो पूरा मामला संज्ञेय माना जाता है।"
         },
         {
           "q": "महिला की दी हुई सूचना कौन दर्ज करता है?",
-          "a": "धारा 173 के मुताबिक Bharatiya Nyaya Sanhita, 2023 की धारा 64 से 71, 74 से 79 या 124 के अपराध की सूचना वही महिला दे, जिसके ख़िलाफ़ अपराध हुआ या जिसकी कोशिश हुई, तो उसे महिला पुलिस अधिकारी या कोई महिला अधिकारी दर्ज करती है।"
+          "a": "धारा 173 के मुताबिक Bharatiya Nyaya Sanhita, 2023 की धारा 64 से 71, 74 से 79 या 124 के अपराध की सूचना वही महिला दे, जिसके ख़िलाफ़ अपराध हुआ या जिसकी कोशिश हुई, तो उसे महिला पुलिस अधिकारी या कोई महिला अधिकारी दर्ज करती है। ऐसे अपराध की पीड़ित मानसिक या शारीरिक रूप से अक्षम हो (अस्थायी या स्थायी), तो सूचना पुलिस अधिकारी उसके घर पर या उसकी पसंद की सुविधाजनक जगह पर, interpreter या special educator की मौजूदगी में दर्ज करता है; इसकी videography होती है, और पुलिस जल्द से जल्द Magistrate से उसका बयान दर्ज कराती है।"
         },
         {
           "q": "FIR के बाद जाँच की जानकारी कैसे मिलेगी?",
@@ -12427,11 +12562,15 @@
         },
         {
           "q": "क्या cybercrime.gov.in की शिकायत FIR है?",
-          "a": "नहीं। गृह मंत्रालय के 9 मार्च 2021 के लोकसभा उत्तर के मुताबिक portal पर दर्ज घटनाओं को FIR में बदलना और आगे की कार्रवाई उस राज्य या केंद्र-शासित प्रदेश की law enforcement agency करती है।"
+          "a": "हर शिकायत अपने-आप FIR नहीं बनती। गृह मंत्रालय के 9 मार्च 2021 के लोकसभा उत्तर के मुताबिक portal पर दर्ज घटनाओं को FIR में बदलना और आगे की कार्रवाई उस राज्य या केंद्र-शासित प्रदेश की law enforcement agency करती है। 28 जुलाई 2026 के लोकसभा उत्तर के मुताबिक 18 राज्यों और केंद्र-शासित प्रदेशों में portal या 1930 पर की गई पैसों की ठगी की शिकायत, रक़म उस राज्य की तय की हुई सीमा से ऊपर हो, तो अपने-आप e-Zero FIR बन जाती है। शिकायतकर्ता को 3 दिन के अंदर संबंधित थाने जाकर उसे नियमित FIR में बदलवाना होता है।"
         },
         {
           "q": "Bank में FIR कब काम आती है?",
           "a": "RBI के निर्देशों के पैरा 298 के मुताबिक खाताधारक लापता हो और कुल रकम, ब्याज समेत, ₹1 लाख से कम हो (या bank की तय की हुई इससे ऊँची रकम से कम), तो death certificate या अदालत के आदेश की जगह FIR की copy और पुलिस की non-traceable report ली जाती है।"
+        },
+        {
+          "q": "e-Zero FIR किन राज्यों में है?",
+          "a": "गृह मंत्रालय के 28 जुलाई 2026 के लोकसभा उत्तर के मुताबिक 18 राज्यों और केंद्र-शासित प्रदेशों में: दिल्ली (मई 2025 से), चंडीगढ़, मध्य प्रदेश, राजस्थान, गोवा, उत्तराखंड, पश्चिम बंगाल, असम, ओडिशा, हरियाणा, गुजरात, त्रिपुरा, महाराष्ट्र, जम्मू-कश्मीर, तमिलनाडु, तेलंगाना, बिहार और अंडमान-निकोबार। रक़म की सीमा हर राज्य ख़ुद तय करता है।"
         }
       ],
       "related": [
@@ -12462,7 +12601,7 @@
             },
             {
               "ref": "धारा 173(1)",
-              "c": "सूचना ज़बानी या electronic; किसी भी इलाक़े का अपराध; दस्तख़त; तीन दिन; महिला अधिकारी"
+              "c": "सूचना ज़बानी या electronic; किसी भी इलाक़े का अपराध; दस्तख़त; तीन दिन; महिला अधिकारी; अक्षम पीड़ित के लिए घर पर दर्ज करना, videography और Magistrate के सामने बयान"
             },
             {
               "ref": "धारा 173(2)",
@@ -12478,7 +12617,7 @@
             },
             {
               "ref": "धारा 174",
-              "c": "non-cognizable अपराध की सूचना"
+              "c": "non-cognizable अपराध की सूचना; एक भी अपराध संज्ञेय हो, तो पूरा मामला संज्ञेय (उप-धारा 4)"
             },
             {
               "ref": "धारा 175",
@@ -12515,9 +12654,24 @@
               "c": "लापता खाताधारक: ₹1 लाख से कम में FIR की copy और non-traceable report"
             }
           ]
+        },
+        {
+          "label": "गृह मंत्रालय — E-Zero FIRs, लोकसभा तारांकित प्रश्न संख्या *135 का उत्तर, 28 जुलाई 2026",
+          "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AS135_VkkPML.pdf",
+          "issued": "2026-07-28",
+          "used": [
+            {
+              "ref": "Statement, पैरा 2",
+              "c": "NCRP या 1930 पर राज्य की तय सीमा से ऊपर की पैसों की ठगी की शिकायत से अपने-आप e-Zero FIR; 3 दिन के अंदर थाने जाकर नियमित FIR"
+            },
+            {
+              "ref": "Statement की तालिका",
+              "c": "18 राज्य / केंद्र-शासित प्रदेश और शुरू होने का महीना"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\nFIR यानी First Information Report। Bharatiya Nagarik Suraksha Sanhita, 2023 के तहत संज्ञेय (cognizable) अपराध की जो सूचना पुलिस थाने के प्रभारी को दी जाती है और दर्ज की जाती है, वही FIR है।[^1]\n\nसंज्ञेय अपराध वह है, जिसमें पुलिस अधिकारी बिना warrant गिरफ़्तार कर सकता है। Non-cognizable अपराध में उसे यह अधिकार नहीं है।[^1]\n\n## FIR कैसे दर्ज होती है | कैसे दर्ज होती है\n\n::flow\n\n- **कहाँ:** संज्ञेय अपराध की सूचना थाने के प्रभारी को दी जा सकती है, अपराध चाहे किसी भी इलाक़े में हुआ हो।[^1]\n- **ज़बानी सूचना:** थाने का प्रभारी उसे लिखता या लिखवाता है, और सूचना देने वाले को पढ़कर सुनाता है। उस पर सूचना देने वाले के दस्तख़त होते हैं।[^1]\n- **Electronic सूचना:** यह तब record पर ली जाती है, जब सूचना देने वाला तीन दिन के अंदर उस पर दस्तख़त कर दे।[^1]\n- **Copy:** दर्ज की गई सूचना की copy सूचना देने वाले या पीड़ित को तुरंत और मुफ़्त दी जानी है।[^1]\n- **महिला की सूचना:** Bharatiya Nyaya Sanhita, 2023 की धारा 64 से 71, 74 से 79 या 124 के अपराध की सूचना वही महिला दे, जिसके ख़िलाफ़ अपराध हुआ या जिसकी कोशिश हुई, तो उसे महिला पुलिस अधिकारी या कोई महिला अधिकारी दर्ज करती है।[^1]\n- **Preliminary enquiry:** जिस संज्ञेय अपराध की सज़ा तीन साल या ज़्यादा, पर सात साल से कम है, उसकी सूचना मिलने पर थाने का प्रभारी, Deputy Superintendent of Police या उससे ऊपर के अधिकारी की पहले से ली गई इजाज़त से, 14 दिन के अंदर preliminary enquiry कर सकता है, यह देखने के लिए कि मामला आगे बढ़ाने लायक़ (prima facie case) बनता है या नहीं।[^1]\n- **Non-cognizable अपराध:** थाने का प्रभारी सूचना का सार अपनी book में दर्ज करता है और सूचना देने वाले को Magistrate के पास भेजता है। ऐसे मामले की जाँच पुलिस Magistrate के आदेश के बिना नहीं कर सकती।[^1]\n\n## पुलिस FIR दर्ज न करे | दर्ज न करे, तो\n\n- **Superintendent of Police को लिखिए:** थाने का प्रभारी सूचना दर्ज करने से मना करे, तो सूचना का सार लिखकर, डाक से, संबंधित Superintendent of Police को भेजा जा सकता है।[^1]\n- **वे क्या करेंगे:** उन्हें लगे कि सूचना संज्ञेय अपराध बताती है, तो वे ख़ुद जाँच करेंगे, या किसी मातहत पुलिस अधिकारी से कराएँगे।[^1]\n- **फिर Magistrate:** ऐसा न हो, तो Magistrate को application दी जा सकती है। Magistrate affidavit के साथ दी गई ऐसी application पर, ज़रूरी पूछताछ और पुलिस अधिकारी की बात सुनने के बाद, जाँच का आदेश दे सकता है।[^1]\n\n## FIR के बाद | FIR के बाद\n\n- **90 दिन में जानकारी:** पुलिस अधिकारी को 90 दिन के अंदर जाँच की प्रगति की सूचना सूचना देने वाले या पीड़ित को देनी है; यह electronic communication से भी दी जा सकती है।[^1]\n- **अदालत में copy:** जो मामला police report पर शुरू हुआ हो, उसमें Magistrate आरोपी को, और पीड़ित को (अगर उसका वकील हो), police report और FIR की copy मुफ़्त देता है; आरोपी के पेश होने के 14 दिन के अंदर।[^1]\n\n## FIR और दूसरी शिकायतें | FIR और शिकायत\n\n- **cybercrime.gov.in की शिकायत:** portal पर दर्ज घटना अपने-आप FIR नहीं है। उसे FIR में बदलना और आगे की कार्रवाई उस राज्य या केंद्र-शासित प्रदेश की पुलिस करती है।[^2]\n- **Bank में लापता खाताधारक का दावा:** कुल रकम, ब्याज समेत, ₹1 लाख से कम हो (या bank की तय की हुई इससे ऊँची रकम से कम), तो Death Certificate या अदालत के आदेश की जगह FIR की copy और पुलिस की non-traceable report ली जाती है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> दर्ज की गई सूचना की copy आपको तुरंत और मुफ़्त मिलनी है।[^1]\n\n- **कोई भी इलाक़ा:** संज्ञेय अपराध की सूचना थाने के प्रभारी को दी जा सकती है, अपराध चाहे किसी भी इलाक़े में हुआ हो।[^1]\n- **जाँच की जानकारी:** 90 दिन के अंदर जाँच की प्रगति की सूचना आपको दी जानी है।[^1]\n\n## अभी क्या करें\n\n- सूचना ज़बानी दी हो, तो लिखी हुई सूचना पढ़वाकर सुनिए, और तभी दस्तख़त कीजिए।[^1]\n- दर्ज की गई सूचना की copy उसी समय लीजिए; यह मुफ़्त है।[^1]\n- सूचना electronic रूप में भेजी हो, तो तीन दिन के अंदर उस पर दस्तख़त कीजिए; तभी वह record पर ली जाती है।[^1]\n- थाना सूचना दर्ज करने से मना करे, तो उसका सार लिखकर डाक से Superintendent of Police को भेजिए।[^1]\n- cybercrime.gov.in पर शिकायत की हो, तो याद रखिए कि उसे FIR में बदलना राज्य की पुलिस का काम है।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nFIR यानी First Information Report। Bharatiya Nagarik Suraksha Sanhita, 2023 के तहत संज्ञेय (cognizable) अपराध की जो सूचना पुलिस थाने के प्रभारी को दी जाती है और दर्ज की जाती है, वही FIR है।[^1]\n\nसंज्ञेय अपराध वह है, जिसमें पुलिस अधिकारी बिना warrant गिरफ़्तार कर सकता है। Non-cognizable अपराध में उसे यह अधिकार नहीं है।[^1]\n\n## FIR कैसे दर्ज होती है | कैसे दर्ज होती है\n\n::flow\n\n- **कहाँ:** संज्ञेय अपराध की सूचना थाने के प्रभारी को दी जा सकती है, अपराध चाहे किसी भी इलाक़े में हुआ हो।[^1]\n- **ज़बानी सूचना:** थाने का प्रभारी उसे लिखता या लिखवाता है, और सूचना देने वाले को पढ़कर सुनाता है। उस पर सूचना देने वाले के दस्तख़त होते हैं।[^1]\n- **Electronic सूचना:** यह तब record पर ली जाती है, जब सूचना देने वाला तीन दिन के अंदर उस पर दस्तख़त कर दे।[^1]\n- **Copy:** दर्ज की गई सूचना की copy सूचना देने वाले या पीड़ित को तुरंत और मुफ़्त दी जानी है।[^1]\n- **महिला की सूचना:** Bharatiya Nyaya Sanhita, 2023 की धारा 64 से 71, 74 से 79 या 124 के अपराध की सूचना वही महिला दे, जिसके ख़िलाफ़ अपराध हुआ या जिसकी कोशिश हुई, तो उसे महिला पुलिस अधिकारी या कोई महिला अधिकारी दर्ज करती है। ऐसे अपराध की पीड़ित मानसिक या शारीरिक रूप से अक्षम हो (अस्थायी या स्थायी), तो सूचना पुलिस अधिकारी उसके घर पर या उसकी पसंद की सुविधाजनक जगह पर, interpreter या special educator की मौजूदगी में दर्ज करता है; इसकी videography होती है, और पुलिस जल्द से जल्द Magistrate से उसका बयान दर्ज कराती है।[^1]\n- **Preliminary enquiry:** जिस संज्ञेय अपराध की सज़ा तीन साल या ज़्यादा, पर सात साल से कम है, उसकी सूचना मिलने पर थाने का प्रभारी, Deputy Superintendent of Police या उससे ऊपर के अधिकारी की पहले से ली गई इजाज़त से, 14 दिन के अंदर preliminary enquiry कर सकता है, यह देखने के लिए कि मामला आगे बढ़ाने लायक़ (prima facie case) बनता है या नहीं।[^1]\n- **Non-cognizable अपराध:** थाने का प्रभारी सूचना का सार अपनी book में दर्ज करता है और सूचना देने वाले को Magistrate के पास भेजता है। ऐसे मामले की जाँच पुलिस Magistrate के आदेश के बिना नहीं कर सकती। पर मामले में दो या ज़्यादा अपराध हों और उनमें से एक भी संज्ञेय हो, तो पूरा मामला संज्ञेय माना जाता है।[^1]\n\n## पुलिस FIR दर्ज न करे | दर्ज न करे, तो\n\n- **Superintendent of Police को लिखिए:** थाने का प्रभारी सूचना दर्ज करने से मना करे, तो सूचना का सार लिखकर, डाक से, संबंधित Superintendent of Police को भेजा जा सकता है।[^1]\n- **वे क्या करेंगे:** उन्हें लगे कि सूचना संज्ञेय अपराध बताती है, तो वे ख़ुद जाँच करेंगे, या किसी मातहत पुलिस अधिकारी से कराएँगे।[^1]\n- **फिर Magistrate:** ऐसा न हो, तो Magistrate को application दी जा सकती है। Magistrate affidavit के साथ दी गई ऐसी application पर, ज़रूरी पूछताछ और पुलिस अधिकारी की बात सुनने के बाद, जाँच का आदेश दे सकता है।[^1]\n\n## FIR के बाद | FIR के बाद\n\n- **90 दिन में जानकारी:** पुलिस अधिकारी को 90 दिन के अंदर जाँच की प्रगति की सूचना सूचना देने वाले या पीड़ित को देनी है; यह electronic communication से भी दी जा सकती है।[^1]\n- **अदालत में copy:** जो मामला police report पर शुरू हुआ हो, उसमें Magistrate आरोपी को, और पीड़ित को (अगर उसका वकील हो), police report और FIR की copy मुफ़्त देता है; आरोपी के पेश होने के 14 दिन के अंदर।[^1]\n\n## FIR और दूसरी शिकायतें | FIR और शिकायत\n\n- **cybercrime.gov.in की शिकायत:** portal पर दर्ज हर घटना अपने-आप FIR नहीं बनती। उसे FIR में बदलना और आगे की कार्रवाई उस राज्य या केंद्र-शासित प्रदेश की पुलिस करती है।[^2]\n- **e-Zero FIR:** गृह मंत्रालय के 28 जुलाई 2026 के लोकसभा उत्तर के मुताबिक 18 राज्यों और केंद्र-शासित प्रदेशों में portal या 1930 पर की गई पैसों की ठगी की शिकायत, रक़म उस राज्य की तय की हुई सीमा से ऊपर हो, तो अपने-आप e-Zero FIR बन जाती है। शिकायतकर्ता को 3 दिन के अंदर संबंधित थाने जाकर उसे नियमित FIR में बदलवाना होता है।[^4]\n- **Bank में लापता खाताधारक का दावा:** कुल रकम, ब्याज समेत, ₹1 लाख से कम हो (या bank की तय की हुई इससे ऊँची रकम से कम), तो Death Certificate या अदालत के आदेश की जगह FIR की copy और पुलिस की non-traceable report ली जाती है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> दर्ज की गई सूचना की copy आपको तुरंत और मुफ़्त मिलनी है।[^1]\n\n- **कोई भी इलाक़ा:** संज्ञेय अपराध की सूचना थाने के प्रभारी को दी जा सकती है, अपराध चाहे किसी भी इलाक़े में हुआ हो।[^1]\n- **जाँच की जानकारी:** 90 दिन के अंदर जाँच की प्रगति की सूचना आपको दी जानी है।[^1]\n\n## अभी क्या करें\n\n- सूचना ज़बानी दी हो, तो लिखी हुई सूचना पढ़वाकर सुनिए, और तभी दस्तख़त कीजिए।[^1]\n- दर्ज की गई सूचना की copy उसी समय लीजिए; यह मुफ़्त है।[^1]\n- सूचना electronic रूप में भेजी हो, तो तीन दिन के अंदर उस पर दस्तख़त कीजिए; तभी वह record पर ली जाती है।[^1]\n- थाना सूचना दर्ज करने से मना करे, तो उसका सार लिखकर डाक से Superintendent of Police को भेजिए।[^1]\n- cybercrime.gov.in पर शिकायत की हो, तो याद रखिए कि उसे FIR में बदलना राज्य की पुलिस का काम है।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "affidavit",
@@ -14928,11 +15082,15 @@
       "fullEn": "Telecom Regulatory Authority of India",
       "group": "साइबर सुरक्षा",
       "created": "2026-10-08",
-      "verified": "2026-10-08",
+      "verified": "2026-10-11",
       "history": [
         {
           "d": "2026-10-08",
           "t": "पन्ना बना। India Code पर TRAI Act, 1997 (1 जून 2026 तक का पाठ), TRAI की site के History और FAQ पन्नों, और PIB की 6 जून 2024 की press release से जाँचा।"
+        },
+        {
+          "d": "2026-10-11",
+          "t": "सुधार: शिकायत हल करने का समय अब TRAI के नियम 8 के मुताबिक़ लिखा (ज़्यादा से ज़्यादा 3 दिन) और दोनों FAQ का फ़र्क़ बताया; पहले सिर्फ़ एक FAQ की बात (बाक़ी शिकायतें 7 दिन) लिखी थी। देर से आई appeal की शर्त (तीन महीने, पर्याप्त वजह) जोड़ी। DND के बाद भी आने वाले संदेश और 18 सितंबर 2026 का संशोधन (FULLY BLOCK की जगह BLOCK PROMO) जोड़ा।"
         }
       ],
       "one": "TRAI (Telecom Regulatory Authority of India) दूरसंचार सेवाओं का regulator है, जो TRAI Act, 1997 से बना। यह tariff, interconnection और quality of service जैसे विषयों पर नियम बनाता है। TRAI किसी एक ग्राहक की शिकायत ख़ुद नहीं सुलझाता, और वह mobile number बंद करने के बारे में ग्राहकों को message या notice नहीं भेजता।",
@@ -15031,11 +15189,11 @@
         },
         {
           "q": "कंपनी को शिकायत कितने दिन में हल करनी होती है?",
-          "a": "TRAI के FAQ के मुताबिक, जहाँ Quality of Service के नियमों में अलग समय तय नहीं है, वहाँ सेवा में fault या रुकावट की शिकायत 3 दिन में, और बाक़ी शिकायतें 7 दिन में हल करनी होती हैं। Billing या charging की शिकायत 4 हफ़्ते में हल करनी होती है, और उससे बनने वाला credit या waiver हल होने के एक हफ़्ते के अंदर खाते में देना होता है।"
+          "a": "TRAI के Telecom Consumers Complaint Redressal Regulations, 2012 के नियम 8 के मुताबिक, जहाँ Quality of Service के नियमों में अलग समय तय नहीं है, वहाँ शिकायत ज़्यादा से ज़्यादा 3 दिन में हल करनी होती है। TRAI के एक FAQ में यही लिखा है; दूसरे FAQ में fault या रुकावट की शिकायत के लिए 3 दिन और बाक़ी के लिए 7 दिन लिखा है। Billing या charging की शिकायत 4 हफ़्ते में हल करनी होती है, और उससे बनने वाला credit या waiver हल होने के एक हफ़्ते के अंदर खाते में देना होता है।"
         },
         {
           "q": "शिकायत हल न हो, तो appeal कहाँ और कब तक करें?",
-          "a": "अपनी कंपनी की Appellate Authority के पास। TRAI के FAQ के मुताबिक appeal, शिकायत हल करने की समय-सीमा ख़त्म होने के बाद 30 दिन के अंदर करनी होती है; Appellate Authority देर से आई appeal भी ले सकती है। Appeal की कोई fee नहीं है, और वह toll free number 198 पर भी दर्ज कराई जा सकती है।"
+          "a": "अपनी कंपनी की Appellate Authority के पास। TRAI के FAQ के मुताबिक appeal, शिकायत हल करने की समय-सीमा ख़त्म होने के बाद 30 दिन के अंदर करनी होती है; नियम 9 के मुताबिक 30 दिन के बाद आई appeal Appellate Authority तभी ले सकती है, जब वह उस समय-सीमा के ख़त्म होने से तीन महीने के अंदर आई हो और देरी की पर्याप्त वजह हो। Appeal की कोई fee नहीं है, और वह toll free number 198 पर भी दर्ज कराई जा सकती है।"
         },
         {
           "q": "Appeal का फ़ैसला कितने दिन में होता है?",
@@ -15055,7 +15213,7 @@
         },
         {
           "q": "Promotional calls और SMS कैसे रोकें?",
-          "a": "TRAI के FAQ के मुताबिक ग्राहक National Customer Preference Register (NCPR), यानी DND Registry, में अपनी पसंद दर्ज करा सकता है: 1909 पर call करके या SMS भेजकर, या TRAI के DND mobile app से। वह सभी commercial calls और SMS रोक सकता है, या चुनी हुई श्रेणियों के।"
+          "a": "TRAI के FAQ के मुताबिक ग्राहक National Customer Preference Register (NCPR), यानी DND Registry, में अपनी पसंद दर्ज करा सकता है: 1909 पर call करके या SMS भेजकर, या TRAI के DND mobile app से। वह सभी commercial calls और SMS रोक सकता है, या चुनी हुई श्रेणियों के। TRAI के नियमों के मुताबिक सरकारी संदेश और inferred consent वाले संदेश पूरी रोक के बाद भी आ सकते हैं। 18 सितंबर 2026 के संशोधन के लागू होने पर \"FULLY BLOCK\" की जगह \"BLOCK PROMO\" रहेगा, जो सिर्फ़ promotional संदेश रोकता है।"
         },
         {
           "q": "TDSAT क्या है?",
@@ -15121,7 +15279,7 @@
             },
             {
               "ref": "Q 2 और Q 7",
-              "c": "शिकायत हल करने की समय-सीमा: 3 दिन, 7 दिन, 4 हफ़्ते"
+              "c": "शिकायत हल करने की समय-सीमा: fault पर 3 दिन, बाक़ी पर 7 दिन (Q 7); billing पर 4 हफ़्ते (Q 2)"
             },
             {
               "ref": "Q 4 से Q 6",
@@ -15153,9 +15311,63 @@
               "c": "TRAI के नाम से ठगी का तरीक़ा; TRAI ऐसा संपर्क शुरू नहीं करता; Chakshu, 1930 और cybercrime.gov.in"
             }
           ]
+        },
+        {
+          "label": "TRAI — Telecom Consumers Complaint Redressal Regulations, 2012 (1 of 2012; संशोधनों समेत संकलित पाठ)",
+          "url": "https://www.trai.gov.in/sites/default/files/2024-09/CA_05012012.pdf",
+          "issued": "2012-01-05",
+          "used": [
+            {
+              "ref": "नियम 8(2)",
+              "c": "जहाँ Quality of Service के नियमों में समय तय नहीं, वहाँ शिकायत ज़्यादा से ज़्यादा तीन दिन में"
+            },
+            {
+              "ref": "नियम 9(3), (4)",
+              "c": "appeal 30 दिन में; देरी पर तीन महीने के अंदर और पर्याप्त वजह हो, तभी; fee नहीं"
+            }
+          ]
+        },
+        {
+          "label": "TRAI — FAQs: Complaint",
+          "url": "https://www.trai.gov.in/faqcategory/complaint",
+          "used": [
+            {
+              "ref": "Q 4",
+              "c": "जहाँ समय तय नहीं, वहाँ शिकायत ज़्यादा से ज़्यादा तीन दिन में"
+            },
+            {
+              "ref": "Q 7",
+              "c": "देर से आई appeal की शर्त: तीन महीने के अंदर और पर्याप्त वजह"
+            }
+          ]
+        },
+        {
+          "label": "TRAI — Telecom Commercial Communications Customer Preference Regulations, 2018 (संशोधनों समेत संकलित पाठ; TRAI की site पर 21 मई 2026 को डाला गया)",
+          "url": "https://trai.gov.in/sites/default/files/2026-05/CA_21052026.pdf",
+          "used": [
+            {
+              "ref": "नियम 2 की परिभाषाएँ: 'Fully blocked', 'Government Message or Government Voice Call', 'Promotional messages'",
+              "c": "पूरी रोक में भी inferred consent वाले और सरकारी संदेश बाहर; explicit digital consent वाले promotional संदेश पसंद के बावजूद"
+            }
+          ]
+        },
+        {
+          "label": "TRAI — Telecom Commercial Communications Customer Preference (Third Amendment) Regulations, 2026 (05 of 2026), 18 सितंबर 2026",
+          "url": "https://www.trai.gov.in/sites/default/files/2026-09/Regulation_18092026.pdf",
+          "issued": "2026-09-18",
+          "used": [
+            {
+              "ref": "नियम 1(3)",
+              "c": "Official Gazette में छपने के 30 दिन बाद लागू (कुछ हिस्से 60 और 90 दिन बाद)"
+            },
+            {
+              "ref": "नियम 20 (Schedule-II), Note-3 और Note-4",
+              "c": "BLOCK PROMO सिर्फ़ promotional रोकता है; FULLY BLOCK वाली पसंद लागू होने के 15 दिन के अंदर BLOCK PROMO में"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\nTRAI यानी Telecom Regulatory Authority of India। यह संसद के क़ानून, Telecom Regulatory Authority of India Act, 1997 से 20 फ़रवरी 1997 से बना, ताकि telecom सेवाओं को regulate करे; इसमें tariff तय करना और बदलना भी शामिल है, जो पहले केंद्र सरकार के पास था।[^2]\n\nAct के मुताबिक Authority में एक Chairperson, ज़्यादा से ज़्यादा दो whole-time members और ज़्यादा से ज़्यादा दो part-time members होते हैं, जिन्हें केंद्र सरकार नियुक्त करती है। इसका head office New Delhi में है।[^1]\n\n## TRAI क्या करता है | क्या करता है\n\n- **सिफ़ारिश:** नए service provider की ज़रूरत, licence की शर्तों, competition और spectrum के बेहतर इस्तेमाल जैसे विषयों पर। ये सिफ़ारिशें केंद्र सरकार पर बाध्यकारी नहीं हैं।[^1]\n- **Quality of service:** सेवा की quality के standards तय करना, उनका पालन देखना और समय-समय पर survey करना, ताकि ग्राहकों के हित सुरक्षित रहें।[^1]\n- **Interconnection:** service providers के बीच inter-connectivity की शर्तें तय करना।[^1]\n- **Tariff:** वे दरें notify करना, जिन पर telecom सेवाएँ दी जाएँगी।[^1]\n- **पारदर्शिता:** Act के मुताबिक Authority को अपने काम में transparency रखनी होती है।[^1]\n\n## TRAI क्या नहीं करता | क्या नहीं करता\n\n- **एक ग्राहक की शिकायत:** TRAI के FAQ के मुताबिक TRAI Act, 1997 में TRAI के ज़रिए अलग-अलग ग्राहकों की शिकायतें सुलझाने की व्यवस्था नहीं है।[^3]\n- **Number बंद करने का message:** TRAI mobile number बंद करने के बारे में message या official notice भेजकर संपर्क शुरू नहीं करता, और उसने इस काम के लिए किसी third-party agency को अधिकृत नहीं किया है।[^5]\n- **Licence देना:** Act में licensor केंद्र सरकार या telegraph authority है; TRAI सिफ़ारिश करता है।[^1]\n- **विवादों का फ़ैसला:** 24 जनवरी 2000 से विवाद निपटाने का काम TDSAT (Telecom Disputes Settlement and Appellate Tribunal) के पास है।[^2]\n\n## शिकायत का रास्ता | शिकायत का रास्ता\n\n::flow\n\n- **पहला स्तर:** अपनी telecom कंपनी का complaint centre। जहाँ नियमों में अलग समय तय नहीं है, वहाँ सेवा में fault या रुकावट की शिकायत 3 दिन में, और बाक़ी शिकायतें 7 दिन में हल करनी होती हैं।[^3]\n- **Billing की शिकायत:** 4 हफ़्ते में हल करनी होती है; उससे बनने वाला credit या waiver एक हफ़्ते के अंदर खाते में देना होता है।[^3]\n- **दूसरा स्तर:** उसी कंपनी की Appellate Authority। Appeal, शिकायत हल करने की समय-सीमा ख़त्म होने के बाद 30 दिन के अंदर करनी होती है; उसकी कोई fee नहीं है।[^3]\n- **198:** appeal toll free number 198 पर भी दर्ज कराई जा सकती है। Appellate Authority का पता कंपनी की website पर होता है।[^3]\n- **फ़ैसला:** Appellate Authority को appeal 39 दिन के अंदर निपटानी होती है।[^3]\n- **Connection बंद कराना:** कंपनी को अनुरोध के सात working days के अंदर connection बंद करना होता है; security deposit 45 दिन के अंदर लौटाना होता है।[^3]\n\n## TRAI के नाम से ठगी | TRAI के नाम से ठगी\n\n- **कैसे आती है:** TRAI के नाम से WhatsApp message, SMS और voice call; साथ में जाली notice, जो TRAI के वरिष्ठ अफ़सरों के official पत्र जैसा दिखता है।[^5]\n- **क्या कहा जाता है:** कि आपके mobile number से ग़ैर-क़ानूनी काम हुआ है; पुलिस से संपर्क कीजिए, वरना सेवा बंद हो जाएगी।[^5]\n- **आगे का जाल:** कभी-कभी malware install कराने या phishing link पर click कराने की कोशिश।[^5]\n- **TRAI का कहना:** TRAI के नाम से number बंद करने की धमकी देने वाले किसी भी call, message या notice को संभावित ठगी की कोशिश माना जाए।[^5]\n\n## Spam और DND | Spam और DND\n\n- **DND Registry:** ग्राहक National Customer Preference Register (NCPR) में अपनी पसंद दर्ज करा सकता है: 1909 पर call करके या SMS भेजकर, या TRAI के DND mobile app से।[^4]\n- **क्या रोक सकते हैं:** सभी commercial calls और SMS, या चुनी हुई श्रेणियों के।[^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Telecom कंपनी के complaint centre से शिकायत हल न हो, तो उसी कंपनी की Appellate Authority में appeal मुफ़्त है।[^3]\n\n- **Connection बंद कराने का हक़:** बक़ाया या किसी और वजह से connection बंद करना रोका नहीं जाना चाहिए; सात working days के बाद billing नहीं होनी चाहिए।[^3]\n- **Deposit पर ब्याज:** security deposit 45 दिन में न लौटे, तो कंपनी को देरी पर 10% सालाना की दर से ब्याज देना होता है।[^3]\n\n## अभी क्या करें\n\n- TRAI के नाम से number बंद करने की धमकी आए, तो call काट दीजिए; link मत खोलिए और कोई app install मत कीजिए।[^5]\n- ऐसे call या message की जानकारी Sanchar Saathi की Chakshu सुविधा पर दीजिए।[^5]\n- पैसा जा चुका हो, तो तुरंत 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^5]\n- Mobile सेवा की दिक़्क़त के लिए पहले अपनी कंपनी के complaint centre में शिकायत दर्ज कराइए; हल न हो, तो Appellate Authority में appeal कीजिए।[^3]\n- Promotional calls और SMS रोकने हों, तो 1909 पर या TRAI के DND app से अपनी पसंद दर्ज कराइए।[^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nTRAI यानी Telecom Regulatory Authority of India। यह संसद के क़ानून, Telecom Regulatory Authority of India Act, 1997 से 20 फ़रवरी 1997 से बना, ताकि telecom सेवाओं को regulate करे; इसमें tariff तय करना और बदलना भी शामिल है, जो पहले केंद्र सरकार के पास था।[^2]\n\nAct के मुताबिक Authority में एक Chairperson, ज़्यादा से ज़्यादा दो whole-time members और ज़्यादा से ज़्यादा दो part-time members होते हैं, जिन्हें केंद्र सरकार नियुक्त करती है। इसका head office New Delhi में है।[^1]\n\n## TRAI क्या करता है | क्या करता है\n\n- **सिफ़ारिश:** नए service provider की ज़रूरत, licence की शर्तों, competition और spectrum के बेहतर इस्तेमाल जैसे विषयों पर। ये सिफ़ारिशें केंद्र सरकार पर बाध्यकारी नहीं हैं।[^1]\n- **Quality of service:** सेवा की quality के standards तय करना, उनका पालन देखना और समय-समय पर survey करना, ताकि ग्राहकों के हित सुरक्षित रहें।[^1]\n- **Interconnection:** service providers के बीच inter-connectivity की शर्तें तय करना।[^1]\n- **Tariff:** वे दरें notify करना, जिन पर telecom सेवाएँ दी जाएँगी।[^1]\n- **पारदर्शिता:** Act के मुताबिक Authority को अपने काम में transparency रखनी होती है।[^1]\n\n## TRAI क्या नहीं करता | क्या नहीं करता\n\n- **एक ग्राहक की शिकायत:** TRAI के FAQ के मुताबिक TRAI Act, 1997 में TRAI के ज़रिए अलग-अलग ग्राहकों की शिकायतें सुलझाने की व्यवस्था नहीं है।[^3]\n- **Number बंद करने का message:** TRAI mobile number बंद करने के बारे में message या official notice भेजकर संपर्क शुरू नहीं करता, और उसने इस काम के लिए किसी third-party agency को अधिकृत नहीं किया है।[^5]\n- **Licence देना:** Act में licensor केंद्र सरकार या telegraph authority है; TRAI सिफ़ारिश करता है।[^1]\n- **विवादों का फ़ैसला:** 24 जनवरी 2000 से विवाद निपटाने का काम TDSAT (Telecom Disputes Settlement and Appellate Tribunal) के पास है।[^2]\n\n## शिकायत का रास्ता | शिकायत का रास्ता\n\n::flow\n\n- **पहला स्तर:** अपनी telecom कंपनी का complaint centre। TRAI के नियम 8 के मुताबिक, जहाँ Quality of Service के नियमों में अलग समय तय नहीं है, वहाँ शिकायत ज़्यादा से ज़्यादा 3 दिन में हल करनी होती है।[^6] TRAI के दो FAQ यहाँ अलग बात कहते हैं: एक में सभी ऐसी शिकायतों के लिए 3 दिन लिखा है, दूसरे में fault या रुकावट की शिकायत के लिए 3 दिन और बाक़ी के लिए 7 दिन।[^7][^3]\n- **Billing की शिकायत:** 4 हफ़्ते में हल करनी होती है; उससे बनने वाला credit या waiver एक हफ़्ते के अंदर खाते में देना होता है।[^3]\n- **दूसरा स्तर:** उसी कंपनी की Appellate Authority। Appeal, शिकायत हल करने की समय-सीमा ख़त्म होने के बाद 30 दिन के अंदर करनी होती है; उसकी कोई fee नहीं है।[^3] 30 दिन निकल जाएँ, तो Appellate Authority appeal तभी ले सकती है, जब वह उस समय-सीमा के ख़त्म होने से तीन महीने के अंदर आई हो और देरी की पर्याप्त वजह हो।[^6]\n- **198:** appeal toll free number 198 पर भी दर्ज कराई जा सकती है। Appellate Authority का पता कंपनी की website पर होता है।[^3]\n- **फ़ैसला:** Appellate Authority को appeal 39 दिन के अंदर निपटानी होती है।[^3]\n- **Connection बंद कराना:** कंपनी को अनुरोध के सात working days के अंदर connection बंद करना होता है; security deposit 45 दिन के अंदर लौटाना होता है।[^3]\n\n## TRAI के नाम से ठगी | TRAI के नाम से ठगी\n\n- **कैसे आती है:** TRAI के नाम से WhatsApp message, SMS और voice call; साथ में जाली notice, जो TRAI के वरिष्ठ अफ़सरों के official पत्र जैसा दिखता है।[^5]\n- **क्या कहा जाता है:** कि आपके mobile number से ग़ैर-क़ानूनी काम हुआ है; पुलिस से संपर्क कीजिए, वरना सेवा बंद हो जाएगी।[^5]\n- **आगे का जाल:** कभी-कभी malware install कराने या phishing link पर click कराने की कोशिश।[^5]\n- **TRAI का कहना:** TRAI के नाम से number बंद करने की धमकी देने वाले किसी भी call, message या notice को संभावित ठगी की कोशिश माना जाए।[^5]\n\n## Spam और DND | Spam और DND\n\n- **DND Registry:** ग्राहक National Customer Preference Register (NCPR) में अपनी पसंद दर्ज करा सकता है: 1909 पर call करके या SMS भेजकर, या TRAI के DND mobile app से।[^4]\n- **क्या रोक सकते हैं:** सभी commercial calls और SMS, या चुनी हुई श्रेणियों के।[^4]\n- **फिर भी क्या आ सकता है:** TRAI के नियमों के मुताबिक पूरी रोक (fully block) के बाद भी सरकारी संदेश आ सकते हैं, और वे संदेश भी, जिनकी सहमति आपके व्यवहार या भेजने वाले से आपके रिश्ते से मानी जाती है (inferred consent)। जिस कंपनी को आपने ख़ुद digital सहमति दी है, उसके promotional संदेश आपकी दर्ज पसंद के बावजूद आ सकते हैं।[^8]\n- **नियम बदल रहे हैं:** TRAI ने 18 सितंबर 2026 को ये नियम बदले हैं। नए नियम Official Gazette में छपने के 30 दिन बाद लागू होते हैं; 11 अक्टूबर 2026 तक यह समय पूरा नहीं हुआ था। लागू होने के 15 दिन के अंदर \"FULLY BLOCK\" वाली पसंद \"BLOCK PROMO\" में बदल दी जाएगी, जो सिर्फ़ promotional संदेश रोकती है; transaction, service और सरकारी संदेश नहीं।[^9]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Telecom कंपनी के complaint centre से शिकायत हल न हो, तो उसी कंपनी की Appellate Authority में appeal मुफ़्त है।[^3]\n\n- **Connection बंद कराने का हक़:** बक़ाया या किसी और वजह से connection बंद करना रोका नहीं जाना चाहिए; सात working days के बाद billing नहीं होनी चाहिए।[^3]\n- **Deposit पर ब्याज:** security deposit 45 दिन में न लौटे, तो कंपनी को देरी पर 10% सालाना की दर से ब्याज देना होता है।[^3]\n\n## अभी क्या करें\n\n- TRAI के नाम से number बंद करने की धमकी आए, तो call काट दीजिए; link मत खोलिए और कोई app install मत कीजिए।[^5]\n- ऐसे call या message की जानकारी Sanchar Saathi की Chakshu सुविधा पर दीजिए।[^5]\n- पैसा जा चुका हो, तो तुरंत 1930 पर call कीजिए या cybercrime.gov.in पर report कीजिए।[^5]\n- Mobile सेवा की दिक़्क़त के लिए पहले अपनी कंपनी के complaint centre में शिकायत दर्ज कराइए; हल न हो, तो Appellate Authority में appeal कीजिए।[^3]\n- Promotional calls और SMS रोकने हों, तो 1909 पर या TRAI के DND app से अपनी पसंद दर्ज कराइए।[^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "cms",
