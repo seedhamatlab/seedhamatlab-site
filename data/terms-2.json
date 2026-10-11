@@ -5135,7 +5135,7 @@
       "fullEn": "The rate RBI publishes under Section 49 of the RBI Act, 1934",
       "group": "बैंकिंग",
       "created": "2026-10-07",
-      "verified": "2026-10-09",
+      "verified": "2026-10-11",
       "history": [
         {
           "d": "2026-10-07",
@@ -5144,6 +5144,10 @@
         {
           "d": "2026-10-09",
           "t": "सुधार: RBI के Monetary Policy overview पन्ने की जगह (वह phone पर RBI का home page खोल देता था) RBI का 13 फ़रवरी 2012 का Bank Rate वाला press release स्रोत बनाया, और RBI का 8 अप्रैल 2022 का बयान और CRR-SLR निर्देश (MSF की परिभाषा) जोड़े; सब आज पढ़े। Bank Rate के MSF rate से जुड़ाव की बात उसी press release के शब्दों में लिखी (\"अपने-आप\" की जगह \"आम तौर पर बराबर\")। \"Current Rates\" और DBIE वाली बातें हटाईं, क्योंकि उनका पन्ना phone पर जाँचा नहीं जा सका।"
+        },
+        {
+          "d": "2026-10-11",
+          "t": "स्रोत की तारीख़ सुधारी: RBI के CRR-SLR निर्देशों का PDF अब \"Updated as on October 09, 2026\" है (9 अक्टूबर 2026 को बदला)। MSF की परिभाषा वाला पैरा 6(18) वैसा ही है; पन्ने की कोई और बात नहीं बदली।"
         }
       ],
       "one": "Bank Rate वह दर है, जिस पर RBI bills of exchange या दूसरे commercial papers ख़रीदने या rediscount करने को तैयार है। RBI इसे RBI Act, 1934 की धारा 49 के तहत घोषित करता है। 7 अक्टूबर 2026 से यह 5.75% है। खाताधारक की मृत्यु के बाद दावे में bank की वजह से देरी हो, तो देरी का ब्याज इसी दर से जुड़ा है।",
@@ -5380,7 +5384,7 @@
           ]
         },
         {
-          "label": "RBI — Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (RBI/DOR/2025-26/150; Updated as on August 25, 2026), PDF",
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (RBI/DOR/2025-26/150; Updated as on October 09, 2026), PDF",
           "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/150MD.PDF",
           "used": [
             {
