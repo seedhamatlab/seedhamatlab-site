@@ -7080,6 +7080,975 @@
         }
       ],
       "body": "## मतलब\n\nSCORES (SEBI Complaints Redress System) SEBI का online शिकायत platform है, जो 2011 में शुरू हुआ था। यहाँ उन निवेशकों की शिकायतें आती हैं, जिनकी शिकायत किसी listed company, SEBI में registered intermediary या market infrastructure institution से नहीं सुलझी।[^1]\n\n- **अभी का portal:** scores.sebi.gov.in; mobile app Android और iOS पर।[^3]\n- **कौन-से नियम:** SEBI का 20 सितंबर 2023 का circular, जो 1 अप्रैल 2024 से लागू है।[^1][^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पहले संस्था:** शिकायत पहले उसी company, broker या mutual fund जैसी संस्था से कीजिए।[^1]\n- **समय-सीमा:** SCORES पर शिकायत, शिकायत की वजह बनने के एक साल के अंदर।[^1]\n- **जवाब तय समय में:** संस्था को 21 calendar days में आपकी शिकायत सुलझाकर जवाब (ATR) देना है।[^1]\n\n## शिकायत कैसे आगे बढ़ती है | कैसे आगे बढ़ती है\n\n::flow\n\n- **अपने-आप भेजना:** SCORES पर दर्ज शिकायत अपने-आप संस्था और उसकी Designated Body के पास जाती है।[^1]\n- **पहला review:** ATR से संतुष्ट न हों, तो 15 calendar days में review माँगिए; Designated Body को 10 calendar days में नई ATR देनी है।[^1]\n- **दूसरा review:** फिर भी संतुष्ट न हों, तो 15 दिन के अंदर दूसरा review; इसे SEBI देख सकता है।[^1]\n- **देर हुई तो:** संस्था 21 दिन में ATR न दे, तो शिकायत अपने-आप पहले review में जाती है।[^1]\n\n## कौन-सी शिकायतें SCORES पर नहीं चलतीं | नहीं चलतीं\n\n- Unlisted या delisted कंपनियों की (valuation की शिकायत छोड़कर)।[^1]\n- Court, quasi-judicial कार्यवाही या ODR में चल रहे मामले।[^1]\n- RBI, IRDAI, PFRDA, CCI या दूसरे मंत्रालयों के दायरे वाले मामले।[^1]\n- IBC में resolution वाली, RoC से नाम कटी या ग़ायब, और liquidation वाली कंपनियाँ।[^1]\n- Market में गड़बड़ी की जानकारी; यह SEBI के MI Portal पर दी जाती है।[^1][^3]\n- बिना नाम की, अधूरी, या बिना काग़ज़ वाले आरोपों वाली शिकायतें।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> SCORES पर आई शिकायत का जवाब 21 calendar days में पाना, और संतुष्ट न होने पर दो बार review माँगना आपका हक़ है।[^1]\n\n- **आगे के रास्ते:** SCORES के बाद भी हल न हो, या विवाद पर फ़ैसला चाहिए, तो Online Dispute Resolution (smartodr.in), consumer court या civil court।[^1][^4]\n\n## अभी क्या करें\n\n- पहले संस्था से शिकायत कीजिए और उसका जवाब संभालकर रखिए।[^1]\n- हल न हो, तो scores.sebi.gov.in या SCORES app पर registration करके शिकायत दर्ज कीजिए; काग़ज़ साथ लगाइए।[^1][^3]\n- ATR आए, तो पढ़िए; संतुष्ट न हों, तो 15 दिन के अंदर कारण लिखकर review माँगिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "home-loan",
+      "term": "Home Loan",
+      "aliases": [
+        "Home Loans",
+        "Housing Loan",
+        "Housing Loans",
+        "होम लोन"
+      ],
+      "full": "घर का क़र्ज़ · घर ख़रीदने, बनाने या मरम्मत के लिए loan",
+      "fullEn": "Home Loan (Housing Loan)",
+      "group": "क़र्ज़",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Commercial Banks – Credit Facilities Directions, 2025 (1 अक्टूबर 2026 तक updated), Commercial Banks – Interest Rates on Advances Directions, 2025, Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक updated) और NBFC – Responsible Business Conduct Directions, 2025 (1 जुलाई 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Home loan यानी घर ख़रीदने, बनाने या उसकी मरम्मत के लिए लिया गया loan। RBI के निर्देशों के मुताबिक bank घर की क़ीमत का एक तय हिस्सा ही loan में दे सकता है (₹30 लाख तक के loan पर ज़्यादा से ज़्यादा 90%), बनते हुए घर में पैसा निर्माण के चरणों के साथ जाता है, और floating दर वाला home loan जल्दी चुकाने पर व्यक्ति से pre-payment charge नहीं लिया जा सकता।",
+      "facts": [
+        {
+          "k": "₹30 लाख तक का loan",
+          "v": "90% तक",
+          "s": "घर की क़ीमत का; commercial bank का नियम"
+        },
+        {
+          "k": "₹75 लाख से ऊपर का loan",
+          "v": "75% तक",
+          "s": "₹30–75 लाख पर 80% तक"
+        },
+        {
+          "k": "Floating loan जल्दी चुकाना",
+          "v": "Charge नहीं",
+          "s": "व्यक्ति का non-business loan; bank, NBFC और HFC",
+          "good": true
+        },
+        {
+          "k": "Bank की floating दर",
+          "v": "बाहरी benchmark",
+          "s": "जैसे Repo Rate; reset कम से कम 3 महीने में एक बार"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप",
+            "s": "घर, plot या मरम्मत के लिए आवेदन"
+          },
+          {
+            "t": "Bank",
+            "s": "LTV, नक़्शा और काग़ज़ की जाँच"
+          },
+          {
+            "t": "Builder / विक्रेता",
+            "s": "पैसा निर्माण के चरणों के साथ"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "मंज़ूरी",
+            "s": "loan की शर्तें लिखित में"
+          },
+          {
+            "b": "चरणों में",
+            "s": "बनते घर में एक साथ पूरा पैसा नहीं"
+          }
+        ],
+        "note": "ऊपर का LTV, नक़्शे और चरणों वाला हिस्सा commercial banks के RBI निर्देशों से है। Housing Finance Company (HFC) के अपने अलग निर्देश हैं, जो इस पन्ने में नहीं जाँचे गए।"
+      },
+      "myths": [
+        {
+          "m": "\"Bank घर की पूरी क़ीमत का loan दे देगा।\"",
+          "f": "नहीं। Commercial bank के लिए RBI ने LTV की ऊपरी सीमा तय की है: ₹30 लाख तक के loan पर 90%, ₹30 से 75 लाख पर 80% और ₹75 लाख से ऊपर 75%। बाक़ी रक़म आपको अपनी तरफ़ से लगानी होती है।[^1]"
+        },
+        {
+          "m": "\"Stamp duty और registration का ख़र्च भी घर की क़ीमत में जुड़कर loan में आ जाएगा।\"",
+          "f": "आम तौर पर नहीं। LTV के लिए bank घर की क़ीमत में stamp duty, registration और दूसरे दस्तावेज़ी charges नहीं जोड़ता। छूट सिर्फ़ तब है, जब घर की क़ीमत ₹10 लाख से ज़्यादा न हो।[^1]"
+        },
+        {
+          "m": "\"Under-construction flat में bank पूरा loan builder को एक साथ दे देता है।\"",
+          "f": "नहीं। व्यक्ति के home loan का पैसा निर्माण के चरणों से जुड़ा होना चाहिए; अधूरे या बन रहे project में upfront पूरा पैसा नहीं दिया जा सकता। सरकारी या statutory authority के project में उस authority के तय चरणों के हिसाब से पैसा दिया जा सकता है, अगर उस authority का project अधूरा छोड़ने का पिछला इतिहास न हो।[^1]"
+        },
+        {
+          "m": "\"Floating rate home loan जल्दी चुकाया, तो penalty लगेगी।\"",
+          "f": "व्यक्ति के non-business floating rate loan पर commercial bank, NBFC या HFC pre-payment charge नहीं ले सकते। 1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुए loans के लिए RBI ने यह भी लिखा है कि पैसा कहीं से भी आए, और आप आंशिक चुकाएँ या पूरा, charge नहीं लगेगा।[^3][^4]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Home loan किन कामों के लिए मिल सकता है?",
+          "a": "RBI के निर्देशों के मुताबिक commercial bank परिवार के रहने के लिए घर ख़रीदने या बनाने, ख़राब घर की मरम्मत, घर बनाने के इरादे से plot ख़रीदने, और पहले से ख़रीदे घर में बदलाव या मरम्मत के लिए loan दे सकता है। एक घर होने पर भी अपने रहने के लिए दूसरा घर, और जिस घर में आप किराएदार हैं उसे ख़रीदने के लिए भी loan दिया जा सकता है।"
+        },
+        {
+          "q": "Plot के लिए loan लेने की क्या शर्त है?",
+          "a": "आपको लिखकर देना होता है कि आप उस plot पर घर बनाएँगे, bank से loan लेकर या किसी और तरीक़े से। घर कितने समय में बनाना है, यह bank तय करता है।"
+        },
+        {
+          "q": "LTV क्या है?",
+          "a": "Loan to Value यानी loan की बकाया रक़म और गिरवी रखी संपत्ति की क़ीमत का अनुपात। Commercial bank के home loan पर इसकी ऊपरी सीमा loan की रक़म के हिसाब से 90%, 80% या 75% है।"
+        },
+        {
+          "q": "ख़ुद घर बनवाना हो, तो bank क्या माँगेगा?",
+          "a": "सक्षम authority से आपके नाम पर मंज़ूर नक़्शे की copy, और एक affidavit-cum-undertaking कि निर्माण उसी नक़्शे के हिसाब से होगा। निर्माण पूरा होने के 3 महीने के अंदर completion certificate लेना आपकी ज़िम्मेदारी है; न लेने पर bank पूरा loan ब्याज और charges के साथ वापस माँग सकता है।"
+        },
+        {
+          "q": "बना हुआ flat ख़रीदने पर क्या देना होता है?",
+          "a": "Affidavit-cum-undertaking कि वह मकान मंज़ूर नक़्शे और / या building bye-laws के मुताबिक बना है, और जहाँ तक हो सके उसका completion certificate भी है। Bank का architect भी पैसा देने से पहले यह प्रमाणित करता है।"
+        },
+        {
+          "q": "किन घरों पर loan नहीं मिलता?",
+          "a": "अनधिकृत (unauthorized) colonies की संपत्ति पर, जब तक वे regularize न हों और development व दूसरे charges न भरे जाएँ। रहने वाली ऐसी संपत्ति पर भी नहीं, जिसे आप आवेदन में commercial इस्तेमाल के लिए बताते हैं।"
+        },
+        {
+          "q": "Floating rate home loan की दर कैसे बदलती है?",
+          "a": "Commercial bank का floating rate retail loan, जिसमें housing loan भी है, किसी बाहरी benchmark से जुड़ा होना चाहिए, जैसे RBI का Repo Rate या FBIL के Treasury Bill yield। दर कम से कम तीन महीने में एक बार reset होती है।"
+        },
+        {
+          "q": "पूरे home loan वर्ग की दर बढ़े, तो क्या विकल्प हैं?",
+          "a": "RBI के निर्देश home loan को उदाहरण बनाकर कहते हैं: EMI बढ़वाना, किस्तें बढ़वाना या दोनों; जहाँ bank देता हो, वहाँ बाक़ी loan को fixed rate पर ले जाना; और बची अवधि में कभी भी आंशिक या पूरा prepay करना।"
+        },
+        {
+          "q": "पुराना home loan MCLR पर है, तो?",
+          "a": "जो borrower floating loan बिना pre-payment charge के चुका सकते हैं, वे commercial bank में बाहरी benchmark पर बिना charge या fee के जा सकते हैं; सिर्फ़ उचित administrative / legal ख़र्च लग सकता है। नई दर उसी तरह के नए loan की दर जितनी होगी।"
+        },
+        {
+          "q": "Builder के brochure में bank का नाम क्यों देखें?",
+          "a": "Bank किसी housing project को पैसा देते समय शर्त रखता है कि builder अपने pamphlet, brochure और विज्ञापन में बताए कि संपत्ति किस bank के पास गिरवी है, और ज़रूरत हो तो बिक्री के लिए bank का NOC देगा।"
+        }
+      ],
+      "related": [
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "Prepayment"
+        },
+        {
+          "t": "APR"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "Credit Score"
+        },
+        {
+          "t": "Loan Statement"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Affidavit"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/154; DOR.CRE.REC.73/07-01-001/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/154MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks"
+            },
+            {
+              "ref": "पैरा 89–91",
+              "c": "housing finance: घर, plot (घर बनाने की घोषणा), मरम्मत, दूसरा घर, किराए वाला घर"
+            },
+            {
+              "ref": "पैरा 92",
+              "c": "मंज़ूर नक़्शा, affidavit-cum-undertaking, 3 महीने में completion certificate, architect, अनधिकृत colony और commercial इस्तेमाल पर loan नहीं"
+            },
+            {
+              "ref": "पैरा 93–95",
+              "c": "पहले से लिए घर में बदलाव / मरम्मत के लिए loan"
+            },
+            {
+              "ref": "पैरा 111",
+              "c": "LTV: ₹30 लाख तक 90%, ₹30–75 लाख 80%, ₹75 लाख से ऊपर 75%"
+            },
+            {
+              "ref": "पैरा 113",
+              "c": "stamp duty, registration क़ीमत में नहीं; ₹10 लाख तक के घर में छूट"
+            },
+            {
+              "ref": "पैरा 116–117",
+              "c": "पैसा निर्माण के चरणों से; बनते project में upfront नहीं; सरकारी project की छूट"
+            },
+            {
+              "ref": "पैरा 119",
+              "c": "builder के brochure / विज्ञापन में गिरवी वाले bank का नाम"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Interest Rates on Advances) Directions, 2025 (RBI/DOR/2025-26/161; DOR.CRE.REC.80./13.03.000/2025-26), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/161MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 5(4)",
+              "c": "बाहरी benchmark: Repo Rate, FBIL के 3 और 6 महीने के T-Bill yield, या FBIL की दूसरी दर"
+            },
+            {
+              "ref": "पैरा 25",
+              "c": "floating rate retail loan (housing, auto आदि) बाहरी benchmark से"
+            },
+            {
+              "ref": "पैरा 38",
+              "c": "बाहरी benchmark वाली दर कम से कम तीन महीने में एक बार reset"
+            },
+            {
+              "ref": "पैरा 41",
+              "c": "MCLR / Base Rate से बाहरी benchmark पर: बिना charge, सिर्फ़ उचित admin / legal ख़र्च; नए loan जैसी दर"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 333–334",
+              "c": "शर्तें लिखित में; loan agreement और enclosures की copy"
+            },
+            {
+              "ref": "पैरा 349(3), नोट",
+              "c": "home loan जैसे पूरे वर्ग की दर बढ़े: EMI / किस्तें बढ़ाना, fixed rate, prepay के विकल्प"
+            },
+            {
+              "ref": "पैरा 352, 353(1), (3)",
+              "c": "व्यक्ति के non-business floating loan पर pre-payment charge नहीं: 31 दिसंबर 2025 से पहले मंज़ूर term loan पर भी; 1 जनवरी 2026 से मंज़ूर / renew loan पर पैसा कहीं से भी, lock-in नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/362; DOR.MCS.REC.No.281/01-01-039/2025-26; Updated as on July 1, 2026; HFC पर भी लागू), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/362MD26CA543937BA439A97E1BCFC08CF5808.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3(7)",
+              "c": "HFC पर भी लागू"
+            },
+            {
+              "ref": "पैरा 31(3), नोट",
+              "c": "NBFC / HFC में भी home loan वर्ग की दर बढ़ने पर वही विकल्प"
+            },
+            {
+              "ref": "पैरा 33, 34(1), (3)",
+              "c": "NBFC / HFC: व्यक्ति के non-business floating loan पर pre-payment charge नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Master Directions की सूची, www.rbi.org.in",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Commercial Banks के बाद के हिस्से",
+              "c": "Housing Finance Companies Directions, 2025 और SFB, UCB, RRB, LAB के अलग Credit Facilities Directions (11 अक्टूबर 2026 को देखी)"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nHome loan वह loan है, जो घर ख़रीदने, बनाने या उसकी मरम्मत के लिए लिया जाता है। RBI के निर्देशों में इसे housing finance कहा गया है।[^1]\n\n- **किन कामों के लिए:** परिवार के रहने के लिए घर ख़रीदना या बनाना, ख़राब घर की मरम्मत, घर बनाने के इरादे से plot ख़रीदना, और पहले से लिए घर में बदलाव या मरम्मत।[^1]\n- **दूसरा घर भी:** एक घर होने पर भी अपने रहने के लिए दूसरा घर, और जिस घर में आप किराएदार हैं उसे ख़रीदने के लिए भी।[^1]\n- **किस पर ये नियम:** LTV, नक़्शे और चरणों वाले नियम commercial banks के हैं।[^1] Housing Finance Company (HFC) और small finance, co-operative, regional rural व local area banks के अपने अलग निर्देश हैं।[^5]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **अपनी तरफ़ से पैसा:** bank घर की पूरी क़ीमत का loan नहीं देता; बाक़ी हिस्सा आपको लगाना होता है।[^1]\n- **काग़ज़ पक्के:** नक़्शा मंज़ूर हो और घर उसी के मुताबिक बना हो, तभी loan आसानी से मिलता है।[^1]\n- **दर बदल सकती है:** floating rate loan की दर benchmark के साथ बदलती है, और इसके साथ आपकी EMI या अवधि भी।[^2][^3]\n\n## Home loan कैसे मिलता है | कैसे मिलता है\n\n::flow\n\n- **LTV:** loan की बकाया रक़म और घर की क़ीमत का अनुपात। इसकी ऊपरी सीमा नीचे की तालिका में है।[^1]\n- **चरणों में पैसा:** बनते घर में पैसा निर्माण के चरणों के साथ जाता है; सरकारी या statutory authority के project में उनके तय चरणों से।[^1]\n- **Builder की जानकारी:** housing project को पैसा देते समय bank की शर्त होती है कि builder अपने brochure और विज्ञापन में बताए कि संपत्ति किस bank के पास गिरवी है।[^1]\n- **शर्तें लिखित में:** bank loan की शर्तें लिखकर देता है, और मंज़ूरी या पैसा देते समय loan agreement और उसके साथ के सारे काग़ज़ों की copy आपको देता है।[^3]\n\n## कितना loan मिल सकता है | LTV\n\nCommercial bank के व्यक्तिगत housing loan पर LTV की ऊपरी सीमा:[^1]\n\n- **₹30 लाख तक का loan:** घर की क़ीमत का 90% तक।[^1]\n- **₹30 लाख से ऊपर, ₹75 लाख तक:** 80% तक।[^1]\n- **₹75 लाख से ऊपर:** 75% तक।[^1]\n\nLTV के लिए घर की क़ीमत में stamp duty, registration और दूसरे दस्तावेज़ी charges नहीं जुड़ते। जिस घर की क़ीमत ₹10 लाख से ज़्यादा न हो, उसमें bank ये charges जोड़ सकता है।[^1]\n\n## नक़्शा और काग़ज़ | काग़ज़\n\n- **ख़ुद बनवाना:** आपके नाम पर मंज़ूर नक़्शे की copy, और affidavit-cum-undertaking कि निर्माण उसी नक़्शे से होगा। निर्माण पूरा होने के 3 महीने में completion certificate लेना आपकी ज़िम्मेदारी है, वरना bank पूरा loan वापस माँग सकता है।[^1]\n- **बना हुआ घर:** affidavit-cum-undertaking कि घर मंज़ूर नक़्शे / building bye-laws से बना है; bank का architect भी पैसा देने से पहले इसे प्रमाणित करता है।[^1]\n- **Loan नहीं:** अनधिकृत colony की संपत्ति पर, जब तक वह regularize न हो; और रहने वाली उस संपत्ति पर, जिसे आप commercial इस्तेमाल के लिए बताएँ।[^1]\n\n## ब्याज दर और जल्दी चुकाना | दर और prepayment\n\n- **Floating दर:** commercial bank का floating rate housing loan बाहरी benchmark से जुड़ा होता है, जैसे Repo Rate; दर कम से कम तीन महीने में एक बार reset होती है।[^2]\n- **दर बढ़े तो:** पूरे home loan वर्ग की दर बढ़ने पर आपको EMI बढ़वाने, किस्तें बढ़वाने, fixed rate (जहाँ मिले) या prepay का विकल्प मिलता है।[^3][^4]\n- **जल्दी चुकाना:** व्यक्ति के non-business floating rate loan पर commercial bank, NBFC और HFC pre-payment charge नहीं ले सकते।[^3][^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> पुराना floating home loan MCLR या Base Rate पर है और आप उसे बिना pre-payment charge के चुका सकते हैं, तो commercial bank में बाहरी benchmark पर बिना charge या fee के जा सकते हैं; सिर्फ़ उचित administrative / legal ख़र्च लग सकता है, और नई दर उसी तरह के नए loan जितनी होगी।[^2]\n\n## अभी क्या करें\n\n- Builder से flat ले रहे हैं, तो brochure में देखिए कि project किस bank के पास गिरवी है।[^1]\n- ख़ुद घर बनवा रहे हैं, तो मंज़ूर नक़्शा पहले लीजिए, और निर्माण पूरा होते ही 3 महीने में completion certificate लीजिए।[^1]\n- Floating rate loan की दर बढ़ने की सूचना आए, तो bank या HFC को अपना विकल्प बताइए: EMI, किस्तें, fixed rate या prepay।[^3][^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "gold-loan",
+      "term": "Gold Loan",
+      "aliases": [
+        "Gold Loans",
+        "गोल्ड लोन"
+      ],
+      "full": "सोने के बदले क़र्ज़ · सोने या चाँदी के गहने, सिक्के गिरवी रखकर loan",
+      "fullEn": "Loan against Gold (and Silver) Collateral",
+      "group": "क़र्ज़",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Commercial Banks – Credit Facilities Directions, 2025 (1 अक्टूबर 2026 तक updated), Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक updated), NBFC – Credit Facilities Directions, 2025 (15 जुलाई 2026 तक updated) और NBFC – Responsible Business Conduct Directions, 2025 (1 जुलाई 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Gold loan यानी सोने (या चाँदी) के गहने, ज़ेवर या सिक्के गिरवी रखकर लिया गया loan। RBI के निर्देशों के मुताबिक ₹2.5 लाख तक के उपभोग वाले loan पर गहनों की क़ीमत का ज़्यादा से ज़्यादा 85% मिलता है, जाँच आपके सामने होती है, और पूरा चुकाने पर गहने ज़्यादा से ज़्यादा 7 कार्य-दिवस में लौटाने होते हैं।",
+      "facts": [
+        {
+          "k": "₹2.5 लाख तक का loan",
+          "v": "85% तक",
+          "s": "गहनों की क़ीमत का; ₹2.5–5 लाख पर 80%, ऊपर 75%"
+        },
+        {
+          "k": "गहने वापस",
+          "v": "7 कार्य-दिवस",
+          "s": "पूरा चुकाने पर उसी दिन; ज़्यादा से ज़्यादा इतने",
+          "good": true
+        },
+        {
+          "k": "देरी lender की वजह से",
+          "v": "₹5,000 रोज़",
+          "s": "आपको मुआवज़ा",
+          "good": true
+        },
+        {
+          "k": "नीलामी का reserve price",
+          "v": "90% से कम नहीं",
+          "s": "मौजूदा क़ीमत का; दो बार नाकाम हो तो 85%"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आपके गहने / सिक्के",
+            "s": "सोना या चाँदी"
+          },
+          {
+            "t": "Bank या NBFC",
+            "s": "आपके सामने जाँच, certificate"
+          },
+          {
+            "t": "आपका bank खाता",
+            "s": "loan आम तौर पर यहीं"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "गिरवी",
+            "s": "शुद्धता, वज़न, क़ीमत लिखित"
+          },
+          {
+            "b": "Loan",
+            "s": "LTV की सीमा के अंदर"
+          }
+        ],
+        "note": "पूरा चुकाने पर गहने उसी दिन, और किसी हाल में 7 कार्य-दिवस के अंदर लौटाने हैं। Lender की वजह से देरी हो, तो वह हर दिन ₹5,000 मुआवज़ा देता है।"
+      },
+      "myths": [
+        {
+          "m": "\"गहनों में लगे हीरे-पत्थरों की क़ीमत भी जुड़ती है।\"",
+          "f": "नहीं। क़ीमत सिर्फ़ गहनों में मौजूद सोने या चाँदी की गिनी जाती है; पत्थर या रत्न नहीं जोड़े जाते।[^1][^2]"
+        },
+        {
+          "m": "\"जितना सोना रखो, उतना loan; कोई सीमा नहीं।\"",
+          "f": "उपभोग वाले loan पर LTV की सीमा है (85%, 80% या 75%)। एक borrower के सारे loans के लिए सोने के ornaments कुल 1 kg और सोने के सिक्के कुल 50 gram तक ही गिरवी रखे जा सकते हैं। RBI के निर्देश में यह वज़न-सीमा ornaments और सिक्कों के लिए लिखी है; उसकी परिभाषा में ornaments (सजावटी चीज़ें, बर्तन) पहनने वाले गहनों (jewellery) से अलग हैं।[^1][^2]"
+        },
+        {
+          "m": "\"किस्त चूकी, तो lender बिना बताए गहने नीलाम कर देगा।\"",
+          "f": "नहीं। नीलामी से पहले आपको या क़ानूनी वारिसों को बकाया चुकाने का notice देना होता है। आप न मिलें, तो public notice के एक महीने बाद ही नीलामी हो सकती है, और उसका विज्ञापन कम से कम दो अख़बारों में आता है।[^3][^4]"
+        },
+        {
+          "m": "\"Gold loan से सोना या gold ETF ख़रीद सकते हैं।\"",
+          "f": "नहीं। Bank या NBFC सोना ख़रीदने, या gold ETF / mutual fund जैसी सोने से जुड़ी चीज़ें ख़रीदने के लिए loan नहीं दे सकते।[^1][^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "क्या गिरवी रखा जा सकता है?",
+          "a": "सोने या चाँदी के jewellery (पहनने वाले गहने), ornaments (सजावट की चीज़ें या बर्तन) और सिक्के। Bullion जैसा कच्चा सोना-चाँदी, या उससे जुड़े financial assets, गिरवी नहीं रखे जा सकते।"
+        },
+        {
+          "q": "LTV की सीमा कितनी है?",
+          "a": "उपभोग वाले loan पर, एक borrower के कुल loan के हिसाब से: ₹2.5 लाख तक 85%, ₹2.5 लाख से ऊपर ₹5 लाख तक 80%, और ₹5 लाख से ऊपर 75%। यह अनुपात loan की पूरी अवधि में बना रहना चाहिए। Bullet repayment loan में अंत में चुकाने वाली पूरी रक़म गिनी जाती है।"
+        },
+        {
+          "q": "सोने की क़ीमत किस भाव से लगती है?",
+          "a": "उसी शुद्धता (carat) के भाव से, इन दो में जो कम हो: पिछले 30 दिन का औसत closing भाव, या पिछले दिन का closing भाव। भाव India Bullion and Jewellers Association (IBJA) या SEBI से regulated commodity exchange का होना चाहिए।"
+        },
+        {
+          "q": "Ornaments और सिक्के कितने रखे जा सकते हैं?",
+          "a": "एक borrower के सभी loans के लिए कुल मिलाकर: सोने के ornaments 1 kg, चाँदी के ornaments 10 kg, सोने के सिक्के 50 gram और चाँदी के सिक्के 500 gram तक। RBI के निर्देश में यह सीमा ornaments और सिक्कों के लिए लिखी है; उसकी परिभाषा में ornaments, पहनने वाले गहनों (jewellery) से अलग हैं।"
+        },
+        {
+          "q": "एक साथ ब्याज और मूलधन चुकाने वाला loan कितने समय का हो सकता है?",
+          "a": "उपभोग वाला bullet repayment loan, जिसमें मूलधन और ब्याज दोनों अंत में चुकते हैं, ज़्यादा से ज़्यादा 12 महीने का हो सकता है। इसे renew तभी किया जा सकता है, जब बकाया ब्याज चुका दिया जाए।"
+        },
+        {
+          "q": "जाँच के बाद मुझे क्या काग़ज़ मिलता है?",
+          "a": "Lender के letterhead पर certificate या e-certificate, जिसमें शुद्धता (carat), कुल वज़न, सोने-चाँदी का शुद्ध वज़न, पत्थर-धागे जैसी कटौतियाँ, कोई टूट-फूट, गहनों की तस्वीर और मंज़ूरी के समय की क़ीमत लिखी हो। इसकी एक copy आपको दी जाती है।"
+        },
+        {
+          "q": "नीलामी कैसे होती है?",
+          "a": "Notice के बाद; पहली नीलामी उसी ज़िले में, आमने-सामने होती है जहाँ loan वाली शाखा है। Reserve price मौजूदा क़ीमत के 90% से कम नहीं, और दो बार नाकाम होने पर 85% से कम नहीं। Lender या उससे जुड़े लोग बोली नहीं लगा सकते। नीलामी से बची रक़म आपको, पूरी रक़म मिलने के 7 कार्य-दिवस में लौटानी होती है।"
+        },
+        {
+          "q": "गहने खो जाएँ या ख़राब हो जाएँ, तो?",
+          "a": "Loan की अवधि में lender की वजह से गहनों को नुक़सान हो, तो मरम्मत का ख़र्च lender देगा। गहने खो जाएँ, या शुद्धता या वज़न में कमी मिले, तो lender को आपको उचित मुआवज़ा देना है।"
+        },
+        {
+          "q": "Loan चुकाने के बाद गहने नहीं लिए, तो?",
+          "a": "Lender आपको चिट्ठी, email या SMS से समय-समय पर याद दिलाएगा। पूरा चुकाने के दो साल बाद भी पड़े गहने unclaimed माने जाते हैं, और lender आपको या वारिसों को ढूँढने के लिए अभियान चलाता है।"
+        },
+        {
+          "q": "ये नियम किन पर लागू हैं?",
+          "a": "Commercial banks और NBFCs (HFC समेत) पर; दोनों के लिए RBI के अलग-अलग, पर मिलते-जुलते निर्देश हैं। Small finance, co-operative, regional rural और local area banks के अपने अलग निर्देश हैं, जो इस पन्ने में नहीं जाँचे गए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "APR"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Legal Heir"
+        },
+        {
+          "t": "Recovery Agent"
+        },
+        {
+          "t": "Loan Statement"
+        },
+        {
+          "t": "Credit Score"
+        },
+        {
+          "t": "Home Loan"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/154; DOR.CRE.REC.73/07-01-001/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/154MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 4(1)(xxi), (xxvi), (xxx)",
+              "c": "jewellery, ornaments और primary gold / silver की परिभाषा"
+            },
+            {
+              "ref": "पैरा 34–35",
+              "c": "₹2.5 लाख से ऊपर पूरी साख-जाँच; renewal / top-up LTV के अंदर, bullet में बकाया ब्याज के बाद"
+            },
+            {
+              "ref": "पैरा 36–37",
+              "c": "सोना / gold ETF ख़रीदने के लिए loan नहीं; primary gold पर नहीं; मालिकाना हक़ की घोषणा"
+            },
+            {
+              "ref": "पैरा 39–40",
+              "c": "bullet loan 12 महीने तक; ornaments 1 kg / 10 kg, सिक्के 50 g / 500 g"
+            },
+            {
+              "ref": "पैरा 41, 43",
+              "c": "भाव: 30 दिन का औसत या पिछला दिन, जो कम; IBJA या SEBI वाला exchange; पत्थर नहीं जुड़ते"
+            },
+            {
+              "ref": "पैरा 44–45",
+              "c": "LTV 85% / 80% / 75%; पूरी अवधि में"
+            },
+            {
+              "ref": "पैरा 47–48",
+              "c": "loan आम तौर पर borrower के bank खाते में"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/347; DOR.CRE.REC.No.266/07-01-008/2025-26; updated as on July 15, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/347MD5CC21D3597C04354B67A42A1A4CB439C.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: NBFCs, HFC समेत"
+            },
+            {
+              "ref": "पैरा 33–47",
+              "c": "NBFC पर भी वही नियम: साख-जाँच, रोक, वज़न की सीमा, भाव, LTV, खाते में loan"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 362",
+              "c": "ये आचरण-नियम 1 अप्रैल 2026 से"
+            },
+            {
+              "ref": "पैरा 366, 370",
+              "c": "जाँच borrower के सामने; certificate में शुद्धता, वज़न, कटौती, तस्वीर, क़ीमत"
+            },
+            {
+              "ref": "पैरा 371",
+              "c": "क्षेत्र की या चुनी भाषा; अनपढ़ borrower को गवाह के सामने"
+            },
+            {
+              "ref": "पैरा 377",
+              "c": "गहने उसी दिन, ज़्यादा से ज़्यादा 7 कार्य-दिवस में वापस"
+            },
+            {
+              "ref": "पैरा 379–385",
+              "c": "notice; public notice के एक महीने बाद; दो अख़बार; reserve price 90% / 85%; उसी ज़िले में; lender बोली नहीं; बची रक़म 7 कार्य-दिवस में"
+            },
+            {
+              "ref": "पैरा 386–388",
+              "c": "मरम्मत का ख़र्च lender का; खोने पर मुआवज़ा; देरी पर ₹5,000 रोज़; याद-दिहानी"
+            },
+            {
+              "ref": "पैरा 390",
+              "c": "दो साल बाद unclaimed; वारिसों को ढूँढने का अभियान"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/362; DOR.MCS.REC.No.281/01-01-039/2025-26; Updated as on July 1, 2026; HFC पर भी लागू), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/362MD26CA543937BA439A97E1BCFC08CF5808.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: NBFCs, HFC समेत"
+            },
+            {
+              "ref": "पैरा 46, 50–51",
+              "c": "NBFC में भी जाँच आपके सामने, certificate, भाषा"
+            },
+            {
+              "ref": "पैरा 58, 60–69",
+              "c": "NBFC में भी 7 कार्य-दिवस, नीलामी के नियम, ₹5,000 रोज़ मुआवज़ा"
+            },
+            {
+              "ref": "पैरा 71",
+              "c": "दो साल बाद unclaimed"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Master Directions की सूची, www.rbi.org.in",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "SFB, UCB, RRB, LAB के हिस्से",
+              "c": "इन banks के अलग Credit Facilities और Responsible Business Conduct Directions (11 अक्टूबर 2026 को देखी)"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nGold loan वह loan है, जिसमें आप सोने या चाँदी के गहने, ornaments या सिक्के गिरवी रखते हैं। RBI के निर्देश इसे सोने और चाँदी की collateral पर loan कहते हैं।[^1][^2]\n\n- **Jewellery:** पहनने के लिए बने गहने।[^1]\n- **Ornaments:** किसी चीज़ की सजावट के सामान, सजावटी चीज़ें या बर्तन, जो jewellery में नहीं आते।[^1]\n- **क्या नहीं:** bullion जैसा कच्चा (primary) सोना-चाँदी, या उससे जुड़े financial assets।[^1][^2]\n- **किन पर ये नियम:** commercial banks और NBFCs (HFC समेत) पर।[^1][^2] Small finance, co-operative, regional rural और local area banks के अपने अलग निर्देश हैं।[^5]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **गहनों की पूरी क़ीमत नहीं:** loan गहनों में मौजूद सोने-चाँदी की क़ीमत के एक हिस्से तक ही मिलता है।[^1][^2]\n- **सब कुछ लिखित:** जाँच आपके सामने होती है, और शुद्धता, वज़न और क़ीमत वाला certificate आपको मिलता है।[^3][^4]\n- **वापसी तय समय में:** पूरा चुकाने पर गहने 7 कार्य-दिवस के अंदर लौटाने हैं।[^3][^4]\n\n## Gold loan कैसे चलता है | कैसे चलता है\n\n::flow\n\n- **भाव:** उसी carat का भाव, पिछले 30 दिन का औसत या पिछले दिन का, जो कम हो; IBJA या SEBI से regulated commodity exchange से।[^1][^2]\n- **सिर्फ़ धातु:** पत्थर, रत्न या दूसरी चीज़ों की क़ीमत नहीं जुड़ती।[^1][^2]\n- **बड़ा loan:** कुल loan ₹2.5 लाख से ऊपर हो, तो lender आपकी चुकाने की क्षमता समेत पूरी साख-जाँच करता है।[^1][^2]\n- **मालिकाना हक़:** आपको लिखकर देना होता है कि गहने आपके हैं; हक़ पर शक हो तो loan नहीं मिलता।[^1][^2]\n\n## कितना loan, कितना सोना | सीमाएँ\n\nउपभोग (consumption) वाले loan पर LTV की ऊपरी सीमा, एक borrower के कुल loan के हिसाब से:[^1][^2]\n\n- **₹2.5 लाख तक:** 85%।[^1][^2]\n- **₹2.5 लाख से ऊपर, ₹5 लाख तक:** 80%।[^1][^2]\n- **₹5 लाख से ऊपर:** 75%।[^1][^2]\n\nयह अनुपात loan की पूरी अवधि में बना रहना चाहिए।[^1][^2] एक borrower के सारे loans के लिए कुल मिलाकर सोने के ornaments 1 kg, चाँदी के ornaments 10 kg, सोने के सिक्के 50 gram और चाँदी के सिक्के 500 gram तक ही गिरवी रखे जा सकते हैं। निर्देश में यह सीमा ornaments और सिक्कों के लिए लिखी है।[^1][^2]\n\n## नीलामी के नियम | नीलामी\n\n- **पहले notice:** नीलामी से पहले बकाया चुकाने का notice; आप न मिलें तो public notice के एक महीने बाद ही।[^3][^4]\n- **खुली नीलामी:** कम से कम दो अख़बारों में विज्ञापन, एक क्षेत्रीय भाषा का और एक राष्ट्रीय।[^3][^4]\n- **Reserve price:** मौजूदा क़ीमत के 90% से कम नहीं; दो बार नाकाम हो तो 85% से कम नहीं।[^3][^4]\n- **बची रक़म:** नीलामी का पूरा हिसाब आपको मिलेगा, और बची रक़म पूरी नीलामी-राशि मिलने के 7 कार्य-दिवस में लौटेगी। कमी हो, तो lender loan agreement के हिसाब से वसूल सकता है।[^3][^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> पूरा चुकाने या settlement के बाद lender की वजह से गहने लौटाने में 7 कार्य-दिवस से ज़्यादा देरी हो, तो वह आपको या वारिसों को हर दिन की देरी के लिए ₹5,000 मुआवज़ा देगा। Lender की वजह से गहनों को नुक़सान हो तो मरम्मत का ख़र्च, और गहने खो जाएँ तो उचित मुआवज़ा भी lender का ज़िम्मा है।[^3][^4]\n\n- **अपनी भाषा:** शर्तें और ज़रूरी सूचना आपकी क्षेत्रीय या चुनी हुई भाषा में; अनपढ़ borrower को गवाह के सामने समझाई जाएँ, जो lender का कर्मचारी न हो।[^3][^4]\n\n## अभी क्या करें\n\n- गहने जाँचते समय वहीं मौजूद रहिए, और certificate में शुद्धता, शुद्ध वज़न और कटौतियाँ मिलाइए।[^3][^4]\n- Loan agreement और KFS में assaying, नीलामी जैसे सारे charges और notice की अवधि पढ़िए।[^3][^4]\n- गहने वापस लेते समय उन्हें certificate से मिलाइए।[^3][^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "apr",
+      "term": "APR",
+      "aliases": [
+        "Annual Percentage Rate"
+      ],
+      "full": "सालाना कुल लागत · ब्याज और सारे charges मिलाकर loan की सालाना क़ीमत",
+      "fullEn": "Annual Percentage Rate",
+      "group": "क़र्ज़",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक updated) और NBFC – Responsible Business Conduct Directions, 2025 (1 जुलाई 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "APR (Annual Percentage Rate) यानी loan की सालाना कुल लागत: ब्याज दर और loan से जुड़े बाक़ी सारे charges मिलाकर। RBI के निर्देशों के मुताबिक bank और NBFC को retail और MSME term loan से पहले KFS में APR का पूरा हिसाब देना होता है, इसलिए दो loans की असली तुलना APR से होती है, सिर्फ़ ब्याज दर से नहीं।",
+      "facts": [
+        {
+          "k": "APR में क्या",
+          "v": "ब्याज + सारे charges",
+          "s": "RBI की परिभाषा"
+        },
+        {
+          "k": "Insurance, legal जैसे बाहरी charges",
+          "v": "APR में शामिल",
+          "s": "अलग से भी बताने होंगे"
+        },
+        {
+          "k": "हिसाब किस रक़म पर",
+          "v": "हाथ में आई रक़म",
+          "s": "net disbursed amount; IRR तरीक़ा"
+        },
+        {
+          "k": "कहाँ मिलेगा",
+          "v": "KFS में",
+          "s": "loan contract से पहले",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "ब्याज दर",
+            "s": "जैसे 15% सालाना"
+          },
+          {
+            "t": "सारे charges",
+            "s": "processing, insurance, legal आदि"
+          },
+          {
+            "t": "APR",
+            "s": "loan की सालाना असली लागत"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+",
+            "s": "lender के और बाहरी, दोनों"
+          },
+          {
+            "b": "=",
+            "s": "हाथ में आई रक़म पर हिसाब"
+          }
+        ],
+        "note": "RBI के उदाहरण में ₹20,000 के loan (15% fixed, 24 महीने) पर ₹400 के charges कटकर ₹19,600 हाथ में आते हैं, और APR 17.07% बैठता है। इसी उदाहरण की किस्तों का ब्योरा EMI वाले पन्ने पर है।"
+      },
+      "myths": [
+        {
+          "m": "\"APR और ब्याज दर एक ही चीज़ हैं।\"",
+          "f": "नहीं। APR में ब्याज दर के साथ loan से जुड़े बाक़ी सारे charges भी जुड़ते हैं।[^1][^2]"
+        },
+        {
+          "m": "\"Insurance या legal fee तो बाहर वाले लेते हैं, वह APR में नहीं आती।\"",
+          "f": "आती है। Lender आपसे बाहरी सेवा देने वालों के लिए जो charges असल ख़र्च के हिसाब से वसूलता है, जैसे insurance या legal charges, वे भी APR का हिस्सा हैं और अलग से भी बताए जाते हैं।[^1][^2]"
+        },
+        {
+          "m": "\"दो loans में जिसकी ब्याज दर कम, वही सस्ता।\"",
+          "f": "ज़रूरी नहीं। Charges अलग हों तो कुल लागत अलग होती है। इसीलिए bank को आपको 'all-in-cost' बताना है, ताकि आप दूसरे विकल्पों से तुलना कर सकें; KFS में APR इसी तुलना के लिए है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "APR क्या है?",
+          "a": "RBI के निर्देशों के मुताबिक APR, borrower के लिए क़र्ज़ की सालाना लागत है, जिसमें ब्याज दर और credit facility से जुड़े बाक़ी सारे charges शामिल हैं।"
+        },
+        {
+          "q": "APR किस हिसाब से निकाला जाता है?",
+          "a": "RBI के KFS उदाहरण के मुताबिक APR हाथ में आई रक़म (net disbursed amount) पर, IRR तरीक़े और reducing balance method से निकाला जाता है।"
+        },
+        {
+          "q": "APR मुझे कहाँ दिखेगा?",
+          "a": "Loan contract करने से पहले मिलने वाले KFS में, APR के हिसाब की sheet और पूरी अवधि के repayment schedule के साथ। यह नियम 1 अक्टूबर 2024 या बाद में मंज़ूर नए retail और MSME term loans पर है; credit card की बकाया रक़म पर नहीं।"
+        },
+        {
+          "q": "बाहरी charges के लिए क्या मिलेगा?",
+          "a": "जहाँ lender insurance या legal जैसे बाहरी charges वसूलता है, वहाँ हर भुगतान की रसीद और काग़ज़ उचित समय में आपको देने होते हैं।"
+        },
+        {
+          "q": "NBFC का ब्याज भी सालाना बताना ज़रूरी है?",
+          "a": "हाँ। NBFC को ब्याज दर सालाना (annualised) रूप में बतानी होती है, ताकि आपको खाते पर लगने वाली ठीक दर पता हो। NBFC के लिए भी APR की वही परिभाषा और KFS का वही नियम है।"
+        },
+        {
+          "q": "Charges पहले से तय न हों, तो?",
+          "a": "RBI के KFS उदाहरण में लिखा है कि जो charges मंज़ूरी से पहले तय नहीं हो सकते, उनकी ऊपरी सीमा बताई जा सकती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "Prepayment"
+        },
+        {
+          "t": "Digital Lending"
+        },
+        {
+          "t": "Loan Statement"
+        },
+        {
+          "t": "Home Loan"
+        },
+        {
+          "t": "Gold Loan"
+        },
+        {
+          "t": "NBFC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 4(3)",
+              "c": "APR: ब्याज दर और बाक़ी सारे charges मिलाकर सालाना लागत"
+            },
+            {
+              "ref": "पैरा 327",
+              "c": "bank 'all-in-cost' बताए, ताकि दूसरे विकल्पों से तुलना हो"
+            },
+            {
+              "ref": "पैरा 348",
+              "c": "1 अक्टूबर 2024 से retail / MSME term loan; credit card नहीं; KFS में APR sheet"
+            },
+            {
+              "ref": "पैरा 348(3), तालिका",
+              "c": "APR net disbursed amount पर, IRR और reducing balance से; तय न हो तो charges की ऊपरी सीमा; ₹20,000, 15%, APR 17.07%"
+            },
+            {
+              "ref": "पैरा 348(4)",
+              "c": "insurance, legal जैसे बाहरी charges भी APR में, अलग से भी; हर भुगतान की रसीद"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/362; DOR.MCS.REC.No.281/01-01-039/2025-26; Updated as on July 1, 2026; HFC पर भी लागू), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/362MD26CA543937BA439A97E1BCFC08CF5808.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 6(1)",
+              "c": "NBFC के लिए भी APR की वही परिभाषा"
+            },
+            {
+              "ref": "पैरा 24",
+              "c": "ब्याज दर सालाना रूप में बतानी है"
+            },
+            {
+              "ref": "पैरा 29(3), (4)",
+              "c": "NBFC के KFS में भी APR sheet; बाहरी charges भी APR में"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nAPR (Annual Percentage Rate) loan की सालाना लागत है, जिसमें ब्याज दर और loan से जुड़े बाक़ी सारे charges शामिल होते हैं।[^1][^2]\n\n- **सिर्फ़ ब्याज नहीं:** processing fee जैसे lender के charges भी, और insurance, legal जैसे बाहरी charges भी, जो lender आपसे वसूलता है।[^1][^2]\n- **किस रक़म पर:** हिसाब उस रक़म पर होता है जो charges कटने के बाद असल में आपके हाथ आई (net disbursed amount)।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पूरी क़ीमत:** APR में charges भी जुड़ते हैं, इसलिए यह सिर्फ़ ब्याज नहीं, loan की कुल सालाना लागत दिखाता है।[^1][^2]\n- **तुलना आसान:** bank को आपको 'all-in-cost' बताना है, ताकि आप दूसरे विकल्पों से तुलना कर सकें।[^1]\n\n## APR कैसे बनता है | कैसे बनता है\n\n::flow\n\n- **KFS में हिसाब:** loan contract से पहले मिलने वाले KFS में APR के हिसाब की sheet और पूरी अवधि का repayment schedule होता है।[^1][^2]\n- **तरीक़ा:** RBI के उदाहरण के मुताबिक APR, IRR तरीक़े और reducing balance method से निकलता है।[^1]\n- **तय न हो तो:** जो charges मंज़ूरी से पहले तय नहीं हो सकते, उनकी ऊपरी सीमा बताई जा सकती है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Lender आपसे insurance या legal जैसे बाहरी charges वसूले, तो हर भुगतान की रसीद और उससे जुड़े काग़ज़ उचित समय में आपको देने होंगे, और ये charges KFS में अलग से दिखाने होंगे।[^1][^2]\n\n## अभी क्या करें\n\n- दो loan offers की तुलना ब्याज दर से नहीं, KFS में लिखे APR से कीजिए।[^1][^2]\n- KFS में देखिए कि कौन-कौन से charges APR में जोड़े गए हैं, और बाहरी charges की रसीद माँगिए।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "prepayment",
+      "term": "Prepayment",
+      "aliases": [
+        "Pre-payment",
+        "Prepayments",
+        "Pre-payments",
+        "प्रीपेमेंट"
+      ],
+      "full": "समय से पहले चुकाना · loan का कुछ हिस्सा या पूरा loan तय समय से पहले लौटाना",
+      "fullEn": "Pre-payment of Loan",
+      "group": "क़र्ज़",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक updated), NBFC – Responsible Business Conduct Directions, 2025 (1 जुलाई 2026 तक updated) और Commercial Banks – Interest Rates on Advances Directions, 2025 से जाँचा।"
+        }
+      ],
+      "one": "Prepayment यानी loan का कुछ हिस्सा या पूरा loan तय समय से पहले चुका देना। RBI के निर्देशों के मुताबिक व्यक्ति के non-business floating rate loan पर bank और NBFC pre-payment charge नहीं ले सकते; बाक़ी loans पर charge lender की policy से लग सकता है, पर वही जो sanction letter, loan agreement और KFS में पहले से लिखा हो।",
+      "facts": [
+        {
+          "k": "व्यक्ति का non-business floating loan",
+          "v": "Charge नहीं",
+          "s": "bank और NBFC, दोनों",
+          "good": true
+        },
+        {
+          "k": "Business floating loan, bank में",
+          "v": "Charge नहीं",
+          "s": "व्यक्ति और MSE; 1 जनवरी 2026 से मंज़ूर",
+          "good": true
+        },
+        {
+          "k": "Lock-in अवधि",
+          "v": "नहीं",
+          "s": "1 जनवरी 2026 से मंज़ूर ऐसे loans में; पैसा कहीं से भी",
+          "good": true
+        },
+        {
+          "k": "Fixed rate loan",
+          "v": "Lender की policy",
+          "s": "charge हो तो चुकाई रक़म पर ही"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Sanction letter / KFS",
+            "s": "charge लगेगा या नहीं, पहले से लिखा"
+          },
+          {
+            "t": "Prepayment",
+            "s": "आंशिक या पूरा"
+          },
+          {
+            "t": "Charge",
+            "s": "floating non-business loan पर नहीं"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "आप चुकाते हैं",
+            "s": "अपने या किसी भी पैसे से"
+          },
+          {
+            "b": "Lender",
+            "s": "बिना लिखे charge नहीं"
+          }
+        ],
+        "note": "Lender ख़ुद आपसे loan जल्दी चुकवाए, तो कोई charge नहीं लगता।"
+      },
+      "myths": [
+        {
+          "m": "\"Loan लेने के कुछ साल तक part-payment नहीं कर सकते।\"",
+          "f": "1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुए जिन floating rate loans पर charge मना है, उन पर कोई न्यूनतम lock-in अवधि नहीं है; आप आंशिक या पूरा कभी भी चुका सकते हैं।[^1][^2]"
+        },
+        {
+          "m": "\"दूसरे bank से loan लेकर पुराना चुकाया, तो charge लगेगा।\"",
+          "f": "1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुए उन floating rate loans पर नहीं, जिन पर charge मना है: वहाँ नियम पैसे के स्रोत से अलग, हर हाल में लागू है। उससे पहले के, व्यक्ति के non-business floating rate term loan पर भी pre-payment charge मना है।[^1][^2]"
+        },
+        {
+          "m": "\"Fixed rate loan पर भी कभी charge नहीं लगता।\"",
+          "f": "Fixed rate loan पर charge lender की policy से लग सकता है। लगे, तो term loan में सिर्फ़ चुकाई जा रही रक़म पर, और वही जो पहले से लिखा हो।[^1][^2]"
+        },
+        {
+          "m": "\"जो fee bank ने पहले माफ़ की थी, वह अब loan बंद करते समय वसूलेगा।\"",
+          "f": "नहीं। Pre-payment के समय पहले माफ़ किया गया कोई charge या fee पीछे से नहीं लिया जा सकता।[^1][^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "पुराने loan पर क्या नियम है?",
+          "a": "Commercial bank: 31 दिसंबर 2025 से पहले मंज़ूर, व्यक्ति के non-business floating rate term loan पर pre-payment charge नहीं। NBFC: 31 दिसंबर 2025 तक मंज़ूर या renew हुए ऐसे loan पर भी नहीं।"
+        },
+        {
+          "q": "1 जनवरी 2026 से मंज़ूर loans पर?",
+          "a": "व्यक्ति के non-business floating rate loan पर, co-obligant हो या न हो, bank और NBFC दोनों charge नहीं ले सकते। यह term loan और demand loan दोनों पर है, और renew हुए loans पर भी।"
+        },
+        {
+          "q": "Business के लिए लिया floating loan जल्दी चुकाऊँ, तो?",
+          "a": "1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुए loan पर ये नियम हैं। Commercial bank: व्यक्ति और Micro व Small Enterprises (MSE) के business floating loan पर charge नहीं। NBFC, व्यक्ति और MSE के ऐसे loan पर: Upper Layer वाली NBFC charge नहीं ले सकती; Middle Layer वाली ₹50 लाख तक के मंज़ूर loan या limit पर नहीं ले सकती। बाक़ी मामलों में lender की policy चलेगी।"
+        },
+        {
+          "q": "आधा fixed, आधा floating loan हो तो?",
+          "a": "Dual या special rate loan में देखा जाता है कि prepayment के समय loan floating rate पर है या नहीं; floating पर हो, तो ऊपर के नियम लागू।"
+        },
+        {
+          "q": "Charge लगे, तो किस रक़म पर?",
+          "a": "Term loan में सिर्फ़ उस रक़म पर, जो आप पहले चुका रहे हैं। Cash credit / overdraft समय से पहले बंद करने पर, sanctioned limit से ज़्यादा रक़म पर नहीं।"
+        },
+        {
+          "q": "Cash credit या overdraft renew नहीं कराना, तो?",
+          "a": "Loan agreement में तय समय से पहले lender को बता दें कि आप renew नहीं कराएँगे, और facility तय तारीख़ पर बंद हो जाए, तो कोई pre-payment charge नहीं।"
+        },
+        {
+          "q": "Charge लगेगा या नहीं, यह कहाँ लिखा होगा?",
+          "a": "Sanction letter और loan agreement में, और जिन loans में KFS मिलता है उसमें भी। जो pre-payment charge इनमें नहीं बताया गया, वह नहीं लिया जा सकता।"
+        },
+        {
+          "q": "पुराना MCLR वाला loan नए benchmark पर ले जाऊँ, तो?",
+          "a": "Commercial bank में, जो borrower floating loan बिना pre-payment charge चुका सकते हैं, वे बाहरी benchmark पर बिना charge या fee जा सकते हैं; सिर्फ़ उचित administrative / legal ख़र्च लग सकता है। इसे loan बंद करना (foreclosure) नहीं माना जाता।"
+        }
+      ],
+      "related": [
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "APR"
+        },
+        {
+          "t": "Home Loan"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "Loan Statement"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Digital Lending"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks"
+            },
+            {
+              "ref": "पैरा 352",
+              "c": "31 दिसंबर 2025 से पहले मंज़ूर व्यक्ति के non-business floating term loan पर charge नहीं"
+            },
+            {
+              "ref": "पैरा 353(1), (2)",
+              "c": "1 जनवरी 2026 से: non-business floating; व्यक्ति और MSE के business floating loan पर charge नहीं"
+            },
+            {
+              "ref": "पैरा 353(3)–(5)",
+              "c": "पैसा कहीं से, lock-in नहीं; dual rate; बाक़ी में policy, चुकाई रक़म / sanctioned limit पर"
+            },
+            {
+              "ref": "पैरा 353(6)–(9)",
+              "c": "CC / OD renew न कराने पर नहीं; lender के कहने पर नहीं; पहले से लिखा हो; माफ़ fee पीछे से नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/362; DOR.MCS.REC.No.281/01-01-039/2025-26; Updated as on July 1, 2026; HFC पर भी लागू), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/362MD26CA543937BA439A97E1BCFC08CF5808.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: NBFCs, HFC समेत"
+            },
+            {
+              "ref": "पैरा 33",
+              "c": "31 दिसंबर 2025 तक मंज़ूर / renew व्यक्ति के non-business floating term loan पर charge नहीं"
+            },
+            {
+              "ref": "पैरा 34(1), (2)",
+              "c": "non-business floating पर नहीं; business: Upper Layer नहीं, Middle Layer ₹50 लाख तक नहीं"
+            },
+            {
+              "ref": "पैरा 34(3)–(9)",
+              "c": "बाक़ी नियम bank जैसे: lock-in नहीं, policy, CC / OD, लिखा हो, माफ़ fee नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Interest Rates on Advances) Directions, 2025 (RBI/DOR/2025-26/161; DOR.CRE.REC.80./13.03.000/2025-26), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/161MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 41",
+              "c": "बाहरी benchmark पर जाना बिना charge; उचित admin / legal ख़र्च; foreclosure नहीं माना जाता"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPrepayment का मतलब है loan का कुछ हिस्सा (part) या पूरा loan तय समय से पहले चुका देना। RBI के निर्देशों में इस पर लगने वाले charge को pre-payment charge कहा गया है।[^1][^2]\n\n- **किस पर:** term loan और demand loan दोनों पर; cash credit / overdraft को समय से पहले बंद करने पर भी।[^1][^2]\n- **कौन-से lender:** ये नियम commercial banks और NBFCs (HFC समेत) के हैं।[^1][^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Floating loan में आज़ादी:** व्यक्ति के तौर पर लिया non-business floating rate loan आप बिना pre-payment charge के चुका सकते हैं।[^1][^2]\n- **Fixed loan में पढ़कर:** fixed rate loan में charge लग सकता है, इसलिए sanction letter और KFS पहले पढ़िए।[^1][^2]\n\n## Prepayment कैसे चलता है | कैसे चलता है\n\n::flow\n\n- **पैसा कहीं से भी:** 1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुए जिन loans पर charge मना है, उनमें यह नियम पैसे के स्रोत से अलग है, और कोई न्यूनतम lock-in अवधि नहीं।[^1][^2]\n- **Dual rate:** आधे fixed, आधे floating loan में देखा जाता है कि prepayment के समय loan floating पर है या नहीं।[^1][^2]\n- **Lender के कहने पर:** lender ख़ुद जल्दी चुकवाए, तो कोई charge नहीं।[^1][^2]\n- **Benchmark बदलना:** commercial bank में जो borrower floating rate term loan बिना pre-payment charge चुका सकते हैं, वे बाहरी benchmark पर बिना charge या fee जा सकते हैं (सिर्फ़ उचित administrative / legal ख़र्च); इसे loan बंद करना नहीं माना जाता।[^3]\n\n## कहाँ charge नहीं लग सकता | Charge नहीं\n\n- **पुराने loan:** commercial bank में 31 दिसंबर 2025 से पहले, और NBFC में 31 दिसंबर 2025 तक मंज़ूर, व्यक्ति के non-business floating rate term loan।[^1][^2]\n- **1 जनवरी 2026 से मंज़ूर या renew:** व्यक्ति के non-business floating rate loan, co-obligant हो या न हो।[^1][^2]\n- **Business floating loan, bank में:** व्यक्ति और MSE, दोनों के; 1 जनवरी 2026 से मंज़ूर या renew हुए loan।[^1]\n- **Business floating loan, NBFC में:** व्यक्ति और MSE के, 1 जनवरी 2026 से मंज़ूर या renew हुए loan: Upper Layer वाली NBFC में; Middle Layer वाली में ₹50 लाख तक के मंज़ूर loan या limit पर।[^2]\n\n## जहाँ charge लग सकता है | Charge कहाँ\n\n- **Policy से:** ऊपर के अलावा बाक़ी loans में, lender की मंज़ूर policy के हिसाब से।[^1][^2]\n- **किस रक़म पर:** term loan में सिर्फ़ चुकाई जा रही रक़म पर; cash credit / overdraft में sanctioned limit से ज़्यादा पर नहीं।[^1][^2]\n- **CC / OD बंद करना:** agreement में तय समय से पहले renew न कराने की सूचना दें और facility तय तारीख़ पर बंद हो, तो charge नहीं।[^1][^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Pre-payment charge लगेगा या नहीं, यह sanction letter और loan agreement में, और KFS वाले loans में KFS में भी, साफ़ लिखा होना चाहिए। जो charge इनमें नहीं बताया गया, वह नहीं लिया जा सकता; और पहले माफ़ किया गया charge या fee prepayment के समय पीछे से नहीं वसूला जा सकता।[^1][^2]\n\n## अभी क्या करें\n\n- अपने loan का sanction letter और KFS देखिए: ब्याज दर fixed है या floating, और pre-payment charge के बारे में क्या लिखा है।[^1][^2]\n- आपका non-business floating rate loan है और फिर भी charge माँगा जाए, तो sanction letter और KFS के साथ lender की शिकायत व्यवस्था में बात उठाइए।[^1][^2]\n- Business loan NBFC से है, तो NBFC से पूछिए कि वह किस layer में है और आपके loan पर charge का नियम क्या है।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
     }
   ]
 }
