@@ -6039,6 +6039,1047 @@
         }
       ],
       "body": "## मतलब\n\nMule account वह bank खाता है, जिसका इस्तेमाल ठग ठगी का पैसा इधर-उधर करने के लिए करते हैं। RBI के मुताबिक money mule खातों का इस्तेमाल ठगों का आम तरीक़ा है, ठगी की कमाई को आगे पहुँचाने के लिए।[^1] वित्त मंत्रालय के मुताबिक ये खाते साइबर ठगी में पैसे को मोड़ने और कई परतों में घुमाने (layering) के काम आते हैं।[^2]\n\n- **किसके नाम पर:** I4C के मुताबिक ऐसे current और savings खाते shell companies, कारोबार या आम लोगों के नाम पर होते हैं।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **खाता न बेचें, न किराये पर दें:** I4C ने सलाह दी है कि अपना bank खाता, company registration certificate या Udyam Registration certificate किसी को न बेचें, न किराये पर दें।[^3]\n- **गिरफ़्तारी तक:** I4C के मुताबिक ऐसे खातों में जमा हुआ ठगी का पैसा क़ानूनी नतीजों तक ले जा सकता है, गिरफ़्तारी भी।[^3]\n- **Bank की नज़र:** RBI के 2026 के निर्देशों के मुताबिक commercial bank को लेनदेन पर नज़र रखनी है, ख़ासकर बिना KYC वाले और money mule खातों में।[^4]\n\n## Mule account कैसे चलता है | कैसे चलता है\n\n::flow\n\nअक्टूबर 2024 में I4C ने Gujarat और Andhra Pradesh Police की छापेमारी के बाद यह तरीक़ा बताया:[^3]\n\n- **खाते की खोज:** current और savings खाते social media पर ढूँढे जाते हैं, ज़्यादातर Telegram और Facebook से।[^3]\n- **दूर से कंट्रोल:** ये mule खाते विदेश से दूर बैठकर चलाए जाते हैं।[^3]\n- **नक़ली payment gateway:** इन खातों से ग़ैर-क़ानूनी payment gateway बनाकर अपराधी गिरोहों को दिए जाते हैं, जिनसे नक़ली निवेश sites, offshore betting-gambling sites और नक़ली stock trading platforms पर पैसा जमा कराया जाता है।[^3]\n- **पैसा तुरंत आगे:** ठगी का पैसा आते ही दूसरे खाते में भेज दिया जाता है। इसके लिए banks की Bulk Payout सुविधा का ग़लत इस्तेमाल होता है।[^3]\n\n## Mule खाते रोकने के लिए क्या हो रहा है | रोकथाम\n\n- **MuleHunter.AI:** RBI ने 6 दिसंबर 2024 को बताया कि Reserve Bank Innovation Hub (RBIH), जो RBI की subsidiary है, AI/ML पर आधारित MuleHunter.AI model का pilot चला रहा है, और दो बड़े सरकारी banks के साथ pilot के नतीजे उत्साहजनक रहे।[^1] 24 मार्च 2026 तक यह 26 banks में live था, और इसे आगे बढ़ाया जा रहा था।[^2]\n- **Banks को सलाह:** real-time लेनदेन निगरानी वाला मज़बूत software, संदिग्ध लेनदेन पकड़ने के लिए AI/ML tools, और mule networks पहचानने के लिए network analytics।[^2]\n- **I4C और RBIH:** 12 मई 2026 के MoU के तहत I4C की Suspect Registry से mule खातों की जानकारी और संदिग्ध पहचानें साझा होंगी, ताकि MuleHunter.ai जैसे systems मज़बूत हों।[^5]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- कोई आपका bank खाता, company registration certificate या Udyam certificate ख़रीदना या किराये पर लेना चाहे, तो मना कीजिए।[^3]\n- किसी भी साइबर अपराध की report तुरंत 1930 पर या cybercrime.gov.in पर कीजिए; I4C ने यही कहा है।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "recovery-agent",
+      "term": "Recovery Agent",
+      "aliases": [
+        "Recovery Agents",
+        "वसूली एजेंट"
+      ],
+      "full": "वसूली एजेंट · bank या NBFC की तरफ़ से बकाया क़र्ज़ वसूलने वाली agency और उसके कर्मचारी",
+      "fullEn": "Recovery Agent (loan recovery agent)",
+      "group": "क़र्ज़",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक updated), NBFC – Responsible Business Conduct Directions, 2025 (1 जुलाई 2026 तक updated), Commercial Banks – Credit Facilities Directions, 2025 (1 अक्टूबर 2026 तक updated) और NBFC – Credit Facilities Directions, 2025 (15 जुलाई 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Recovery agent वह agency या उसका कर्मचारी है, जिसे bank या NBFC बकाया क़र्ज़ वसूलने के लिए रखता है। RBI के निर्देशों के मुताबिक वह आपको डरा-धमका नहीं सकता, आपके परिवार या दोस्तों को परेशान नहीं कर सकता, और सुबह 8 बजे से पहले या शाम 7 बजे के बाद वसूली के लिए call नहीं कर सकता।",
+      "facts": [
+        {
+          "k": "वसूली के call",
+          "v": "सुबह 8 से शाम 7",
+          "s": "इससे पहले या बाद में नहीं; microfinance loan के अलग नियम"
+        },
+        {
+          "k": "Agent के पास",
+          "v": "Notice + authorisation letter",
+          "s": "bank का, साथ में पहचान पत्र"
+        },
+        {
+          "k": "धमकी, बेइज़्ज़ती, परिवार को परेशान करना",
+          "v": "मना है",
+          "s": "न बोलकर, न हाथ से, न social media पर",
+          "good": true
+        },
+        {
+          "k": "Agent की ग़लती",
+          "v": "Bank ज़िम्मेदार",
+          "s": "bank 'principal' है, agent उसका प्रतिनिधि",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Loan बकाया",
+            "s": "किस्त समय पर नहीं चुकी"
+          },
+          {
+            "t": "Bank",
+            "s": "agency का ब्योरा पहले आपको बताता है"
+          },
+          {
+            "t": "Recovery agent",
+            "s": "notice, authorisation letter और पहचान पत्र के साथ"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Case सौंपना",
+            "s": "शिकायत हो, तो उसके निपटारे के बाद"
+          },
+          {
+            "b": "संपर्क",
+            "s": "call record होते हैं; तय समय में ही"
+          }
+        ],
+        "note": "RBI के निर्देशों के मुताबिक bank को recovery agencies का ताज़ा ब्योरा अपनी website पर भी रखना है।"
+      },
+      "myths": [
+        {
+          "m": "\"Recovery agent कभी भी call कर सकता है।\"",
+          "f": "नहीं। वसूली के लिए सुबह 8 बजे से पहले या शाम 7 बजे के बाद call करना, और बार-बार call करके परेशान करना मना है। Bank वसूली में बेवक़्त बार-बार परेशान भी नहीं कर सकता। Microfinance loan में वसूली के लिए सुबह 9 बजे से पहले या शाम 6 बजे के बाद call करना सख़्ती माना गया है।[^1][^3]"
+        },
+        {
+          "m": "\"Agent की बदतमीज़ी से bank का कोई लेना-देना नहीं।\"",
+          "f": "ग़लत। RBI के निर्देशों के मुताबिक bank 'principal' के तौर पर अपने agents के कामों के लिए ज़िम्मेदार है।[^1]"
+        },
+        {
+          "m": "\"जो भी ख़ुद को bank का agent बताए, उसे पैसे दे दीजिए।\"",
+          "f": "पहले जाँचिए। Bank को agency का ब्योरा पहले आपको बताना है, और agent के पास bank का notice, authorisation letter और पहचान पत्र होना चाहिए। Digital loan में agent का ब्योरा उसके संपर्क से पहले email / SMS से आना है।[^1][^2][^4]"
+        },
+        {
+          "m": "\"बकाया है, तो रिश्तेदारों और दोस्तों को बताना agent का हक़ है।\"",
+          "f": "नहीं। क़र्ज़दार के परिवार, referees और दोस्तों की privacy में दख़ल देना, सबके सामने बेइज़्ज़त करना, या mobile और social media पर ग़लत संदेश भेजना मना है।[^1][^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Recovery agent किसे कहते हैं?",
+          "a": "RBI के निर्देशों में 'agent' का मतलब है bank की रखी agency, और उस agency के agents या कर्मचारी। ये bank के बकाया क़र्ज़ की वसूली करते हैं।"
+        },
+        {
+          "q": "Agent के पास कौन-से काग़ज़ होने चाहिए?",
+          "a": "Bank का notice और authorisation letter, और bank या agency का दिया पहचान पत्र। Notice और authorisation letter में recovery agency के phone नंबर भी होने चाहिए। अगर bank बीच में agency बदलता है, तो bank आपको बताएगा, और नया agent भी ये काग़ज़ साथ रखेगा।"
+        },
+        {
+          "q": "Agent कब call कर सकता है?",
+          "a": "वसूली के लिए सुबह 8 बजे से पहले या शाम 7 बजे के बाद call नहीं कर सकता, और बार-बार call करके परेशान भी नहीं कर सकता। यह नियम microfinance loan पर लागू नहीं; वहाँ सुबह 9 बजे से पहले या शाम 6 बजे के बाद call करना सख़्ती माना गया है।"
+        },
+        {
+          "q": "क्या agent के call record होते हैं?",
+          "a": "हाँ। RBI के निर्देशों के मुताबिक bank को recovery agents और ग्राहक के बीच हुए calls की recording रखनी है, और ग्राहक को बताना जैसी सावधानी बरतनी है कि बातचीत record हो रही है।"
+        },
+        {
+          "q": "मेरी शिकायत bank के पास पड़ी है, तब भी agent आ सकता है?",
+          "a": "आम तौर पर नहीं। जब तक bank आपकी शिकायत का आख़िरी निपटारा नहीं कर देता, वह case recovery agency को नहीं भेजेगा। लेकिन अगर bank के पास सबूत हो कि क़र्ज़दार लगातार बेबुनियाद या परेशान करने वाली शिकायतें कर रहा है, तो वह वसूली जारी रख सकता है।"
+        },
+        {
+          "q": "Digital loan में agent के बारे में कैसे पता चलेगा?",
+          "a": "Default पर जब recovery agent तय हो या बदला जाए, तो उसके संपर्क करने से पहले bank या NBFC को उसका ब्योरा आपको email / SMS से भेजना है।"
+        },
+        {
+          "q": "क्या agent के लिए कोई training ज़रूरी है?",
+          "a": "हाँ, bank के agents के लिए। RBI के निर्देशों के मुताबिक bank के सभी recovery agents को Indian Institute of Banking and Finance (IIBF) का Debt Recovery Agents वाला certificate course पूरा करना है।"
+        },
+        {
+          "q": "Agent ने परेशान किया, तो शिकायत कहाँ करें?",
+          "a": "पहले bank या NBFC से। Bank को वसूली से जुड़ी शिकायतों का तरीक़ा आपको agency के ब्योरे के साथ बताना है। RBI के notice board format के मुताबिक शाखा से हल न हो, तो bank के Regional या Zonal Manager या Head Office, और फिर Ombudsman के पास जा सकते हैं।"
+        },
+        {
+          "q": "RBI ऐसी शिकायतों पर क्या कर सकता है?",
+          "a": "RBI के निर्देशों के मुताबिक नियम तोड़ने और agents की ज़्यादती की शिकायतें गंभीरता से देखी जाएँगी। RBI किसी bank पर किसी इलाक़े में कुछ समय के लिए recovery agents रखने की रोक लगाने पर विचार कर सकता है, और बार-बार उल्लंघन पर यह रोक बढ़ा भी सकता है।"
+        },
+        {
+          "q": "क्या ये नियम हर क़र्ज़ देने वाले पर लागू हैं?",
+          "a": "इस पन्ने के नियम RBI के commercial banks और NBFCs वाले निर्देशों से हैं। Commercial banks वाले निर्देशों में Small Finance Banks, Payments Banks और Local Area Banks नहीं गिने गए हैं; उनके लिए RBI के अलग निर्देश हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "Loan Scam"
+        },
+        {
+          "t": "Digital Lending"
+        },
+        {
+          "t": "RBI Ombudsman"
+        },
+        {
+          "t": "CMS"
+        },
+        {
+          "t": "Loan Statement"
+        },
+        {
+          "t": "Credit Card"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks; Small Finance, Payments और Local Area Banks बाहर"
+            },
+            {
+              "ref": "पैरा 343",
+              "c": "वसूली में बेवक़्त परेशान करना या ताक़त का इस्तेमाल नहीं"
+            },
+            {
+              "ref": "पैरा 410",
+              "c": "microfinance loan: सुबह 9 से पहले, शाम 6 के बाद call सख़्ती"
+            },
+            {
+              "ref": "पैरा 442(1)",
+              "c": "'agent' में agency और उसके agents / कर्मचारी"
+            },
+            {
+              "ref": "पैरा 442(3), (4)",
+              "c": "agency का ब्योरा पहले; notice, authorisation letter, पहचान पत्र; phone नंबर; call recording"
+            },
+            {
+              "ref": "पैरा 442(5)",
+              "c": "agencies का ब्योरा bank की website पर"
+            },
+            {
+              "ref": "पैरा 442(6)",
+              "c": "शिकायत के निपटारे तक case agency को नहीं; बेबुनियाद शिकायतों पर छूट"
+            },
+            {
+              "ref": "पैरा 442(7)",
+              "c": "वसूली की शिकायतों का तरीक़ा, agency के ब्योरे के साथ बताना"
+            },
+            {
+              "ref": "पैरा 445",
+              "c": "धमकी, बेइज़्ज़ती, परिवार-दोस्तों को परेशान करना, social media संदेश मना; सुबह 8 से पहले, शाम 7 के बाद call नहीं; microfinance पर लागू नहीं"
+            },
+            {
+              "ref": "पैरा 448",
+              "c": "IIBF का Debt Recovery Agents certificate course"
+            },
+            {
+              "ref": "पैरा 452, 453",
+              "c": "bank 'principal' के तौर पर ज़िम्मेदार; RBI की रोक"
+            },
+            {
+              "ref": "Annex I, भाग C",
+              "c": "शिकायत का क्रम: शाखा, Regional/Zonal या Head Office, फिर Ombudsman"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/154; DOR.CRE.REC.73/07-01-001/2025-26; Updated as on October 1, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/154MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 9(6)",
+              "c": "digital loan: agent का ब्योरा संपर्क से पहले email / SMS से"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/362; DOR.MCS.REC.No.281/01-01-039/2025-26; Updated as on July 1, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/362MD26CA543937BA439A97E1BCFC08CF5808.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 91",
+              "c": "NBFC का microfinance loan: सुबह 9 से पहले, शाम 6 के बाद call सख़्ती"
+            },
+            {
+              "ref": "पैरा 100",
+              "c": "NBFC पर भी: धमकी, परेशान करना मना; सुबह 8 से पहले, शाम 7 के बाद call नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/347; DOR.CRE.REC.No.266/07-01-008/2025-26; updated as on July 15, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/347MD5CC21D3597C04354B67A42A1A4CB439C.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 9(6)",
+              "c": "NBFC का digital loan: agent का ब्योरा संपर्क से पहले email / SMS से"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRecovery agent वह agency है, जिसे bank बकाया क़र्ज़ वसूलने के लिए रखता है। RBI के निर्देशों में 'agent' में वह agency और उसके agents या कर्मचारी, दोनों आते हैं।[^1] NBFC के recovery agents पर भी धमकी, परेशान करने और बेवक़्त call की यही पाबंदियाँ हैं।[^3]\n\n- **Bank ज़िम्मेदार:** bank 'principal' है, इसलिए अपने agents के कामों के लिए ज़िम्मेदार है।[^1]\n- **किन banks पर:** ये निर्देश commercial banks के लिए हैं; Small Finance Banks, Payments Banks और Local Area Banks इनमें नहीं गिने गए हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पहले से जानकारी:** bank को case agency को सौंपते समय ही agency का ब्योरा आपको बताना है।[^1]\n- **पहचान:** agent के पास bank का notice, authorisation letter और पहचान पत्र होना चाहिए।[^1]\n- **सम्मान के साथ वसूली:** धमकी, गाली-गलौज, बेइज़्ज़ती या परिवार और दोस्तों को परेशान करना मना है।[^1][^3]\n\n## वसूली कैसे होती है | कैसे होती है\n\n::flow\n\n- **Agency का ब्योरा:** bank की website पर उसकी recovery agencies की ताज़ा सूची होनी चाहिए।[^1]\n- **Call की recording:** bank को agents और ग्राहक के बीच के calls record करने हैं, और ग्राहक को यह बताना जैसी सावधानी बरतनी है।[^1]\n- **शिकायत पहले:** आपकी शिकायत bank के पास हो, तो उसके आख़िरी निपटारे तक case agency को नहीं जाता; बेबुनियाद शिकायतें बार-बार करने के सबूत हों, तो bank वसूली जारी रख सकता है।[^1]\n- **Digital loan:** agent तय हो या बदले, तो उसका ब्योरा संपर्क से पहले email / SMS से आपको आना है।[^2][^4]\n- **Training:** bank के recovery agents को IIBF का Debt Recovery Agents certificate course पूरा करना है।[^1]\n\n## क्या मना है | क्या मना है\n\nRBI के निर्देशों के मुताबिक bank, NBFC या उनके agents वसूली में ये नहीं कर सकते:[^1][^3]\n\n- बोलकर या हाथ से किसी भी तरह डराना-धमकाना या परेशान करना।\n- सबके सामने बेइज़्ज़त करना, या क़र्ज़दार के परिवार, referees और दोस्तों की privacy में दख़ल देना।\n- Mobile या social media पर ग़लत संदेश भेजना, धमकी वाले या बिना नाम के calls करना।\n- बार-बार call करना, या सुबह 8 बजे से पहले और शाम 7 बजे के बाद वसूली के लिए call करना।\n- झूठी या गुमराह करने वाली बातें कहना।\n\nयह समय वाला नियम microfinance loan पर लागू नहीं है। Microfinance loan में सुबह 9 बजे से पहले या शाम 6 बजे के बाद call करना, और रिश्तेदारों, दोस्तों या साथ काम करने वालों को परेशान करना सख़्ती माना गया है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> वसूली के दौरान इज़्ज़त से पेश आए जाने का हक़ आपका है। Agent की ज़्यादती के लिए bank ज़िम्मेदार है, और bank को वसूली से जुड़ी शिकायतों का तरीक़ा आपको बताना है।[^1]\n\n- **शिकायत पर रुकावट:** आपकी शिकायत का निपटारा होने तक bank case agency को नहीं भेजेगा, जब तक आपकी शिकायतें बेबुनियाद होने के सबूत न हों।[^1]\n\n## अभी क्या करें\n\n- कोई agent आए, तो bank का notice, authorisation letter और पहचान पत्र माँगिए।[^1]\n- Bank की website पर उसकी recovery agencies की सूची में agency का नाम जाँचिए।[^1]\n- परेशान करने वाले calls और संदेशों का समय और नंबर लिख लीजिए, और bank से लिखित शिकायत कीजिए।[^1]\n- शाखा से हल न हो, तो bank के Regional या Zonal Manager या Head Office, और फिर Ombudsman के पास जाइए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "digital-lending",
+      "term": "Digital Lending",
+      "aliases": [
+        "Digital Lending App",
+        "Digital Lending Apps",
+        "DLA",
+        "DLAs",
+        "डिजिटल लेंडिंग"
+      ],
+      "full": "डिजिटल क़र्ज़ · app या website से, ज़्यादातर अपने-आप होने वाला loan",
+      "fullEn": "Digital Lending",
+      "group": "क़र्ज़",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Commercial Banks – Credit Facilities Directions, 2025 (1 अक्टूबर 2026 तक updated), NBFC – Credit Facilities Directions, 2025 (15 जुलाई 2026 तक updated), RBI की 8 मई 2025 की press release और RBI की website के पहले पन्ने से जाँचा।"
+        }
+      ],
+      "one": "Digital lending यानी app या website के ज़रिये, ज़्यादातर अपने-आप होने वाला loan: ग्राहक जोड़ने से लेकर मंज़ूरी, पैसा देने और वसूली तक। RBI के निर्देशों के मुताबिक bank या NBFC का digital loan सीधे आपके bank खाते में आता है, और आप कम से कम एक दिन की cooling-off अवधि में बिना penalty के loan से निकल सकते हैं।",
+      "facts": [
+        {
+          "k": "Loan से बिना penalty निकलना",
+          "v": "कम से कम 1 दिन",
+          "s": "cooling-off अवधि; मूलधन और उतने दिन का APR चुकाकर",
+          "good": true
+        },
+        {
+          "k": "Credit limit अपने-आप बढ़ाना",
+          "v": "नहीं",
+          "s": "आपकी साफ़ माँग के बिना नहीं",
+          "good": true
+        },
+        {
+          "k": "शिकायत का जवाब 30 दिन में नहीं",
+          "v": "RBI का CMS",
+          "s": "या जवाब से संतुष्ट न हों, तब भी"
+        },
+        {
+          "k": "App असली lender से जुड़ा है?",
+          "v": "RBI की DLA सूची",
+          "s": "rbi.org.in पर; यह RBI की मंज़ूरी नहीं"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "App (DLA)",
+            "s": "bank / NBFC का या उसके LSP का"
+          },
+          {
+            "t": "Bank या NBFC",
+            "s": "loan देने वाला, पूरी ज़िम्मेदारी इसी की"
+          },
+          {
+            "t": "आपका bank खाता",
+            "s": "loan का पैसा सीधे यहीं"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "KFS",
+            "s": "loan से पहले सारी शर्तें और APR"
+          },
+          {
+            "b": "सीधा पैसा",
+            "s": "किसी तीसरे के खाते से होकर नहीं"
+          }
+        ],
+        "note": "RBI के निर्देशों के मुताबिक LSP से समझौता करके भी bank या NBFC अपनी ज़िम्मेदारी से नहीं बचता; LSP के हर काम के लिए वही पूरी तरह ज़िम्मेदार है।"
+      },
+      "myths": [
+        {
+          "m": "\"App पर loan लिया, तो शिकायत app वाले से ही होगी; bank का कोई लेना-देना नहीं।\"",
+          "f": "नहीं। App किसी LSP का हो, तब भी शिकायत सुलझाने की ज़िम्मेदारी loan देने वाले bank या NBFC की है।[^1][^2]"
+        },
+        {
+          "m": "\"Loan चालू हो गया, तो अब वापस नहीं कर सकते।\"",
+          "f": "शुरुआती cooling-off अवधि में आप मूलधन और उतने समय का APR चुकाकर, बिना penalty के loan से निकल सकते हैं। यह अवधि bank या NBFC तय करता है, पर एक दिन से कम नहीं हो सकती। Bank एक बार की उचित processing fee रख सकता है, अगर वह पहले KFS में बताई गई हो।[^1][^2]"
+        },
+        {
+          "m": "\"RBI की DLA सूची में नाम है, तो app RBI से मंज़ूर है।\"",
+          "f": "नहीं। यह सूची सिर्फ़ यह जाँचने के लिए है कि app किसी bank या NBFC से जुड़ा है या नहीं। सूची संस्थाओं के अपने भेजे data से बनती है; RBI उसे जाँचता नहीं, और सूची में होना RBI का registration या मंज़ूरी नहीं है।[^1][^3]"
+        },
+        {
+          "m": "\"Loan app को contacts और photos देना ज़रूरी है।\"",
+          "f": "नहीं। Bank या NBFC का app आपकी file और media, contact list और call logs नहीं खोल सकता। Camera, microphone या location की एक बार की पहुँच सिर्फ़ onboarding या KYC के लिए, आपकी साफ़ मंज़ूरी से ली जा सकती है।[^1][^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Digital lending किसे कहते हैं?",
+          "a": "RBI के निर्देशों के मुताबिक यह ऐसा loan देने का तरीक़ा है, जो दूर से और ज़्यादातर अपने-आप होता है: ग्राहक जोड़ना, साख की जाँच, मंज़ूरी, पैसा देना, वसूली और उससे जुड़ी ग्राहक सेवा, सब ज़्यादातर digital तकनीक से।"
+        },
+        {
+          "q": "DLA और LSP क्या हैं?",
+          "a": "DLA (Digital Lending App / Platform) वह mobile या web app है, जिससे digital loan की सेवा मिलती है; इसमें bank के अपने app भी आते हैं और उसके LSP के भी। LSP (Lending Service Provider) bank का agent है, जो उसकी तरफ़ से ग्राहक जोड़ने, loan की देखरेख या वसूली जैसा कोई काम करता है।"
+        },
+        {
+          "q": "Loan लेते समय कौन-से काग़ज़ मिलने चाहिए?",
+          "a": "Loan का contract करने से पहले KFS (Key Fact Statement), जिसमें APR का हिसाब भी होता है; bank के retail और MSME term loan में KFS में न लिखी fee या charge आपकी साफ़ मंज़ूरी के बिना कभी नहीं लिया जा सकता। Contract होते ही KFS, loan product का सार, sanction letter, शर्तें, खाते के statement और data की privacy policy जैसे digital sign किए दस्तावेज़ आपके registered email / SMS पर अपने-आप आने चाहिए।"
+        },
+        {
+          "q": "कई lenders के offer एक app पर दिखें, तो?",
+          "a": "LSP को आपकी ज़रूरत से मेल खाने वाले सभी offers दिखाने हैं, और जिन lenders का offer मेल नहीं खाया उनके नाम भी। हर offer में lender का नाम, रक़म, अवधि, APR, महीने की किस्त और penal charges (अगर हों) होने चाहिए, और KFS का link भी। किसी lender को आगे बढ़ाने के लिए धोखे वाले design (dark patterns) इस्तेमाल नहीं हो सकते।"
+        },
+        {
+          "q": "क्या LSP मुझसे अलग से fee ले सकता है?",
+          "a": "नहीं। LSP को मिलने वाली fees और charges bank या NBFC ख़ुद सीधे देता है; ये ग्राहक से अलग से नहीं लिए जा सकते, न LSP इन्हें आपसे वसूल सकता है।"
+        },
+        {
+          "q": "मेरा data कहाँ रखा जाता है?",
+          "a": "RBI के निर्देशों के मुताबिक सारा data सिर्फ़ भारत के servers पर रखा जाना है। LSP आपका सिर्फ़ ज़रूरी बुनियादी data, जैसे नाम, पता और संपर्क, रख सकता है। आप data के इस्तेमाल की मंज़ूरी दे या मना कर सकते हैं, पहले दी मंज़ूरी वापस ले सकते हैं, और ज़रूरत हो तो data मिटवा सकते हैं।"
+        },
+        {
+          "q": "क्या digital loan credit report में दिखता है?",
+          "a": "हाँ। Bank या NBFC को अपने और अपने LSP के apps से दिए हर loan की जानकारी credit information companies को देनी है, loan किसी भी तरह या अवधि का हो।"
+        },
+        {
+          "q": "शिकायत कहाँ करें?",
+          "a": "पहले bank या NBFC से; उनके और LSP के nodal grievance redressal officer का संपर्क website, app और KFS में होना चाहिए, और शिकायत app और website पर भी दर्ज हो सकती है। शिकायत पूरी या आंशिक रूप से ठुकरा दी जाए, जवाब से संतुष्ट न हों, या 30 दिन में जवाब न मिले, तो RBI के CMS portal (cms.rbi.org.in) पर शिकायत कर सकते हैं।"
+        },
+        {
+          "q": "App असली है या नहीं, कैसे जाँचें?",
+          "a": "RBI की website (rbi.org.in) के पहले पन्ने पर 'DLA's deployed by Regulated Entities' नाम का link है, जो यह सूची खोलता है। Bank या NBFC की अपनी website पर भी उसके digital loan products, apps और LSPs की जानकारी होनी चाहिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Loan Scam"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Recovery Agent"
+        },
+        {
+          "t": "Credit Report"
+        },
+        {
+          "t": "Credit Bureau"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "CMS"
+        },
+        {
+          "t": "EMI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/154; DOR.CRE.REC.73/07-01-001/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/154MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks"
+            },
+            {
+              "ref": "पैरा 4(1)(xi), (xii), (xxii)",
+              "c": "Digital Lending, DLA और LSP की परिभाषा"
+            },
+            {
+              "ref": "पैरा 6(7)",
+              "c": "LSP के हर काम के लिए bank पूरी तरह ज़िम्मेदार"
+            },
+            {
+              "ref": "पैरा 7",
+              "c": "कई lenders: सभी offers, APR, KFS link; dark patterns नहीं"
+            },
+            {
+              "ref": "पैरा 8(2)",
+              "c": "credit limit अपने-आप नहीं बढ़ेगी"
+            },
+            {
+              "ref": "पैरा 9(1), (3), (4)",
+              "c": "KFS; digital sign किए दस्तावेज़ email / SMS पर; website पर apps, LSPs, CMS और Sachet का link"
+            },
+            {
+              "ref": "पैरा 9(6)",
+              "c": "default पर recovery agent का ब्योरा, संपर्क से पहले email / SMS से"
+            },
+            {
+              "ref": "पैरा 10(1)–(4)",
+              "c": "loan सीधे borrower के खाते में; चुकाना सीधे bank के खाते में; LSP की fee ग्राहक से नहीं"
+            },
+            {
+              "ref": "पैरा 11",
+              "c": "cooling-off कम से कम एक दिन; मूलधन और आनुपातिक APR; processing fee KFS में बताई हो तो"
+            },
+            {
+              "ref": "पैरा 12",
+              "c": "nodal grievance redressal officer; ज़िम्मेदारी bank की; 30 दिन में जवाब नहीं तो CMS"
+            },
+            {
+              "ref": "पैरा 13(1), (2)",
+              "c": "file, media, contacts, call logs नहीं; एक बार camera, mic, location सिर्फ़ onboarding / KYC; मंज़ूरी वापस, data मिटवाना"
+            },
+            {
+              "ref": "पैरा 14(1), (4)",
+              "c": "LSP सिर्फ़ बुनियादी data; data भारत के servers पर"
+            },
+            {
+              "ref": "पैरा 17(1)",
+              "c": "हर digital loan की जानकारी CICs को"
+            },
+            {
+              "ref": "पैरा 18(5), (6)",
+              "c": "DLA सूची RBI की website पर, बिना जाँच; सूची में होना मंज़ूरी नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/347; DOR.CRE.REC.No.266/07-01-008/2025-26; updated as on July 15, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/347MD5CC21D3597C04354B67A42A1A4CB439C.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "Chapter III, पैरा 6–18",
+              "c": "NBFC के digital loan पर भी यही नियम: cooling-off, शिकायत, data, सीधा पैसा"
+            }
+          ]
+        },
+        {
+          "label": "RBI — press release 2025-2026/288: RBI issues Reserve Bank of India (Digital Lending) Directions, 2025 (8 मई 2025; अब digital lending के नियम ऊपर के Credit Facilities Directions के Chapter III में हैं)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60403",
+          "issued": "2025-05-08",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2, दूसरा बिंदु और नोट",
+              "c": "DLA सूची: Citizen's Corner में; सिर्फ़ जुड़ाव जाँचने के लिए; RBI की जाँच के बिना"
+            }
+          ]
+        },
+        {
+          "label": "RBI — www.rbi.org.in का पहला पन्ना, 'DLA's deployed by Regulated Entities' link (पन्ने पर इस link की तारीख़ नहीं है; 11 अक्टूबर 2026 को देखा)",
+          "url": "https://www.rbi.org.in/",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "नीचे की links",
+              "c": "DLA सूची का link"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 348(1), (3), (5)",
+              "c": "contract से पहले KFS; APR का हिसाब; KFS में न लिखी fee साफ़ मंज़ूरी के बिना नहीं; 1 अक्टूबर 2024 या बाद में मंज़ूर retail और MSME term loans पर, credit card पर नहीं"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के निर्देशों के मुताबिक digital lending loan देने का ऐसा तरीक़ा है, जो दूर से और ज़्यादातर अपने-आप होता है: ग्राहक जोड़ना, साख की जाँच, मंज़ूरी, पैसा देना, वसूली और ग्राहक सेवा, सब ज़्यादातर digital तकनीक से।[^1]\n\n- **DLA:** Digital Lending App / Platform, यानी वह mobile या web app जिससे digital loan मिलता है; bank का अपना भी, और उसके LSP का भी।[^1]\n- **LSP:** Lending Service Provider, यानी bank या NBFC का agent, जो उसकी तरफ़ से ग्राहक जोड़ने, loan की देखरेख या वसूली जैसा काम करता है।[^1]\n- **किन पर:** ये नियम commercial banks और NBFCs, दोनों के digital loan पर हैं।[^1][^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पैसा सीधे:** loan सीधे आपके bank खाते में आता है, और आप सीधे lender के खाते में चुकाते हैं; बीच में किसी तीसरे का, LSP का भी, खाता नहीं। कुछ ख़ास मामलों में छूट है।[^1][^2]\n- **पहले पूरी जानकारी:** loan का contract करने से पहले KFS मिलता है, जिसमें APR का हिसाब होता है;[^1][^5] contract होते ही ज़रूरी दस्तावेज़ आपके email / SMS पर आने चाहिए।[^1][^2]\n- **ज़िम्मेदार कौन:** app किसी का भी हो, ज़िम्मेदारी loan देने वाले bank या NBFC की है।[^1][^2]\n\n## Digital loan कैसे चलता है | कैसे चलता है\n\n::flow\n\n- **Offers की तुलना:** कई lenders वाले app में आपके लायक़ सभी offers, APR और किस्त के साथ दिखने चाहिए, बिना धोखे वाले design (dark patterns) के।[^1][^2]\n- **Limit अपने-आप नहीं:** आपकी साफ़ माँग के बिना credit limit नहीं बढ़ाई जा सकती।[^1][^2]\n- **LSP की fee:** LSP का ख़र्च bank या NBFC देता है; LSP आपसे अलग से नहीं ले सकता।[^1][^2]\n- **Credit report:** हर digital loan की जानकारी credit information companies को जाती है।[^1][^2]\n\n## Cooling-off: loan से बिना penalty निकलना | Cooling-off\n\nशुरुआत की एक अवधि में आप मूलधन और उतने समय का APR चुकाकर, बिना penalty के loan से निकल सकते हैं। इसे cooling-off अवधि कहते हैं।[^1][^2]\n\n- **कितने दिन:** bank या NBFC अपनी credit policy से तय करता है, पर एक दिन से कम नहीं।[^1][^2]\n- **Processing fee:** इस अवधि में loan छोड़ें, तो lender एक बार की उचित processing fee रख सकता है, बशर्ते वह KFS में पहले से बताई गई हो।[^1][^2]\n\n## आपका data | आपका data\n\n- **क्या नहीं खुल सकता:** bank या NBFC का app, या उसके LSP का app, आपकी file और media, contact list, call logs और telephony functions नहीं खोल सकता।[^1][^2]\n- **एक बार की पहुँच:** camera, microphone या location सिर्फ़ onboarding या KYC के लिए, आपकी साफ़ मंज़ूरी से।[^1][^2]\n- **आपका नियंत्रण:** मंज़ूरी देना या मना करना, वापस लेना, और data मिटवाना आपका विकल्प है।[^1][^2]\n- **कहाँ रखा जाता है:** सारा data सिर्फ़ भारत के servers पर।[^1][^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> शिकायत पूरी या आंशिक रूप से ठुकरा दी जाए, जवाब से आप संतुष्ट न हों, या 30 दिन में जवाब न मिले, तो आप RBI के CMS portal पर शिकायत कर सकते हैं। Bank या NBFC को यह बात आपको बतानी है।[^1][^2]\n\n- **Recovery agent की पहले सूचना:** default पर agent तय हो या बदले, तो उसका ब्योरा संपर्क से पहले email / SMS से आना है।[^1][^2]\n\n## अभी क्या करें\n\n- Loan app का नाम RBI की website पर 'DLA's deployed by Regulated Entities' सूची में, और lender की अपनी website पर जाँचिए।[^1][^3][^4]\n- Loan लेने से पहले KFS में APR, कुल charges और cooling-off की शर्तें पढ़िए।[^1][^5]\n- App contacts, photos या call logs माँगे, तो रुक जाइए; bank या NBFC का app ये नहीं माँग सकता।[^1][^2]\n- शिकायत पहले bank या NBFC के nodal grievance redressal officer से कीजिए; 30 दिन में हल न हो, तो cms.rbi.org.in पर जाइए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "internal-ombudsman",
+      "term": "Internal Ombudsman",
+      "aliases": [
+        "Internal Ombudsmen",
+        "आंतरिक लोकपाल"
+      ],
+      "full": "आंतरिक लोकपाल · bank के अंदर का सबसे ऊँचा शिकायत-समीक्षक",
+      "fullEn": "Internal Ombudsman (IO)",
+      "group": "बैंकिंग",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Commercial Banks – Internal Ombudsman Directions, 2026 (14 जनवरी 2026) और NBFC – Internal Ombudsman Directions, 2026 (14 जनवरी 2026) से जाँचा।"
+        }
+      ],
+      "one": "Internal Ombudsman (IO) bank के अंदर शिकायतों की दोबारा जाँच करने वाला सबसे ऊँचा अधिकारी है; वह उस bank का कर्मचारी नहीं रहा होता। Bank आपकी जो शिकायत ठुकराता या आधी सुलझाता है, IO उसे दोबारा जाँचता है। आप उसके पास सीधे नहीं जाते; bank ख़ुद ऐसी शिकायत उसे भेजता है, और 30 दिन में आपको आख़िरी फ़ैसला बताना होता है।",
+      "facts": [
+        {
+          "k": "आख़िरी फ़ैसला आप तक",
+          "v": "30 दिन में",
+          "s": "bank को शिकायत मिलने की तारीख़ से"
+        },
+        {
+          "k": "IO के पास सीधे शिकायत",
+          "v": "नहीं",
+          "s": "bank ख़ुद भेजता है, अपने-आप"
+        },
+        {
+          "k": "ठुकराई या आधी सुलझी शिकायत",
+          "v": "अपने-आप IO को",
+          "s": "आम तौर पर 20 दिन के अंदर",
+          "good": true
+        },
+        {
+          "k": "IO भी न माने, तो",
+          "v": "RBI Ombudsman",
+          "s": "bank को जवाब में CMS का पता बताना है",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आपकी शिकायत",
+            "s": "bank में दर्ज"
+          },
+          {
+            "t": "Bank",
+            "s": "पूरी सुलझाई, आधी, या ठुकराई"
+          },
+          {
+            "t": "Internal Ombudsman",
+            "s": "आधी या ठुकराई शिकायत की दोबारा जाँच"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "जाँच",
+            "s": "senior स्तर पर देखी जाती है"
+          },
+          {
+            "b": "अपने-आप",
+            "s": "आम तौर पर 20 दिन के अंदर"
+          }
+        ],
+        "note": "RBI के निर्देशों के मुताबिक आपको आख़िरी फ़ैसला bank को शिकायत मिलने के 30 दिन के अंदर बताना है। IO भी bank का फ़ैसला सही माने, तो जवाब में साफ़ लिखा होना चाहिए कि शिकायत IO ने देखी है।"
+      },
+      "myths": [
+        {
+          "m": "\"Internal Ombudsman का phone नंबर या email लेकर सीधे उससे शिकायत करूँगा।\"",
+          "f": "ऐसा नहीं होता। IO सीधे ग्राहकों या आम लोगों की शिकायतें नहीं लेता, और bank को IO का संपर्क सार्वजनिक नहीं करना है। आपकी शिकायत bank के ज़रिये अपने-आप उस तक जाती है।[^1]"
+        },
+        {
+          "m": "\"Internal Ombudsman भी bank का कर्मचारी है, इसलिए bank का ही पक्ष लेगा।\"",
+          "f": "RBI के निर्देशों के मुताबिक IO उसी bank या उसकी holding, associate या subsidiary company का पहले या अभी का कर्मचारी नहीं हो सकता। उसकी नियुक्ति तय अवधि के contract पर होती है, और Board की Customer Service Committee की मंज़ूरी के बिना उसे बीच में हटाया नहीं जा सकता।[^1]"
+        },
+        {
+          "m": "\"Internal Ombudsman और RBI Ombudsman एक ही हैं।\"",
+          "f": "नहीं। Internal Ombudsman bank के अंदर का पद है, जो bank के फ़ैसले की दोबारा जाँच करता है। RBI Ombudsman RBI का अधिकारी है; IO के बाद भी शिकायत आधी सुलझी या ठुकराई जाए, तो bank को आपको RBI Ombudsman के पास जाने का विकल्प बताना है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Internal Ombudsman क्या करता है?",
+          "a": "Bank आपकी जिस शिकायत को पूरी या आंशिक रूप से ठुकराने जा रहा हो, IO उसे ठुकराए जाने से पहले दोबारा जाँचता है। RBI के मुताबिक इसका मक़सद bank के अंदर ही शिकायत का जल्दी और सार्थक हल है।"
+        },
+        {
+          "q": "मुझे IO तक शिकायत कैसे पहुँचानी है?",
+          "a": "आपको कुछ नहीं करना। Bank को पूरी तरह automatic शिकायत system रखना है, जिसमें आधी सुलझी या ठुकराई गई हर शिकायत अपने-आप IO के पास दोबारा जाँच के लिए जाती है। जिन शिकायतों पर RBI, NPCI या card network ने समय-सीमा तय की है, उनमें इतनी पहले भेजनी है कि IO को कम से कम 10 दिन मिलें; बाक़ी में शिकायत मिलने के 20 दिन के अंदर।"
+        },
+        {
+          "q": "फ़ैसला कब तक मिलेगा?",
+          "a": "Bank को शिकायत मिलने की तारीख़ से 30 दिन के अंदर आपको आख़िरी फ़ैसला बताना है। IO हर मामले में कारण के साथ फ़ैसला दर्ज करता है।"
+        },
+        {
+          "q": "IO ने भी bank की बात सही मानी, तो?",
+          "a": "तब bank के जवाब में साफ़ लिखा होना चाहिए कि शिकायत IO ने देखी है। Bank को आपको RBI Ombudsman के पास जाने का विकल्प, CMS portal का पता (https://cms.rbi.org.in) और RBI के Centralised Receipt and Processing Centre का पता भी बताना है। यह उन शिकायतों पर है, जो Reserve Bank – Integrated Ombudsman Scheme के दायरे में आती हैं।"
+        },
+        {
+          "q": "क्या bank IO का फ़ैसला पलट सकता है?",
+          "a": "हाँ, पर सिर्फ़ अपने Whole Time Director या customer service के प्रभारी Executive Director की मंज़ूरी से। ऐसे हर मामले को Board की Customer Service Committee के सामने समीक्षा के लिए रखना होता है।"
+        },
+        {
+          "q": "क्या IO मुआवज़ा दिला सकता है?",
+          "a": "IO उचित मुआवज़े की सिफ़ारिश करता है: RBI के तय मुआवज़े के हिसाब से, और जहाँ RBI ने तय न किया हो वहाँ bank की मुआवज़ा नीति से। IO इसके ऊपर Integrated Ombudsman Scheme के हिसाब से नुकसान, समय, ख़र्च और परेशानी के लिए भी मुआवज़े की सिफ़ारिश कर सकता है।"
+        },
+        {
+          "q": "कौन-सी शिकायतें IO नहीं देखता?",
+          "a": "Bank के ऐसे घोटाले जिनसे ग्राहक पर असर न हो; सुझाव और bank के कारोबारी फ़ैसले (पर ऐसे फ़ैसलों में सेवा की कमी की शिकायत देखी जाती है); bank का अंदरूनी प्रशासन, HR और कर्मचारियों का वेतन; वे मामले जो court, consumer commission या arbitration में तय हो चुके या चल रहे हैं; और वे विवाद जिनका उपाय Credit Information Companies (Regulation) Act, 2005 की धारा 18 में है।"
+        },
+        {
+          "q": "क्या हर bank में Internal Ombudsman होता है?",
+          "a": "ये निर्देश उन commercial banks पर हैं, जिनकी भारत में 31 मार्च 2025 को 10 या ज़्यादा banking outlets थीं (Small Finance Banks, Payments Banks और Local Area Banks इनमें नहीं गिने गए)। बाद में यह शर्त पूरी करने वाले bank पर छह महीने बाद से लागू होते हैं। Small Finance Banks, Payments Banks, NBFCs, non-bank PPI जारी करने वालों और Credit Information Companies के लिए RBI के अलग Internal Ombudsman निर्देश हैं।"
+        },
+        {
+          "q": "NBFC में Internal Ombudsman कब होता है?",
+          "a": "RBI के NBFC वाले निर्देश उन NBFCs पर हैं, जो 31 मार्च 2025 को इनमें से कोई शर्त पूरी करती थीं: जमा लेने वाली NBFC, जिसकी 10 या ज़्यादा branches हों; या जमा न लेने वाली NBFC, जिसकी asset size ₹5,000 करोड़ या ज़्यादा हो और जो आम ग्राहकों से सीधे जुड़ती हो। बाद में शर्त पूरी करने वाली NBFC पर ये छह महीने बाद से लागू होते हैं। कुछ तरह की NBFCs, जैसे Housing Finance Companies, इनसे बाहर हैं। वहाँ भी आख़िरी फ़ैसला 30 दिन में बताना है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "RBI Ombudsman"
+        },
+        {
+          "t": "CMS"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Bank Charges"
+        },
+        {
+          "t": "Recovery Agent"
+        },
+        {
+          "t": "Credit Bureau"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks - Internal Ombudsman) Directions, 2026 (RBI/CEPD/2025-26/381; CEPD.PRD.No.S1027/13.01.019/2025-26; 14 जनवरी 2026; दस्तावेज़ पर 'Updated as on' की कोई तारीख़ नहीं है), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/380MD14012026DAD56B73DC944F02AEA4530EC779AD7F.PDF",
+          "issued": "2026-01-14",
+          "effective": "2026-01-14",
+          "used": [
+            {
+              "ref": "प्रस्तावना",
+              "c": "मक़सद: ठुकराने से पहले bank के अंदर ऊँचे स्तर पर दोबारा जाँच"
+            },
+            {
+              "ref": "खंड 1(2)",
+              "c": "तुरंत लागू; खंड 7(2), 14(2) और 14(4) का पालन 30 जून 2026 तक"
+            },
+            {
+              "ref": "खंड 3(1), (2)",
+              "c": "10 या ज़्यादा banking outlets वाले commercial banks; SFB, PB, LAB बाहर; छह महीने वाली शर्त"
+            },
+            {
+              "ref": "खंड 5(2)",
+              "c": "IO उसी bank या उसकी group company का कर्मचारी न रहा हो"
+            },
+            {
+              "ref": "खंड 8(1), (4), (6)",
+              "c": "contract पर नियुक्ति, कम से कम 3 और कुल 5 साल; बीच में हटाने पर रोक"
+            },
+            {
+              "ref": "खंड 12(1), (4), (5)",
+              "c": "सीधी शिकायत नहीं; मुआवज़े की सिफ़ारिश"
+            },
+            {
+              "ref": "खंड 4(1)(b), 13(3), (4)",
+              "c": "IO का फ़ैसला सिर्फ़ Whole Time Director / Executive Director की मंज़ूरी से पलट सकता है; ऐसे मामले Board की Customer Service Committee के सामने"
+            },
+            {
+              "ref": "खंड 14(1)",
+              "c": "automatic escalation; कम से कम 10 दिन या 20 दिन के अंदर"
+            },
+            {
+              "ref": "खंड 14(2)",
+              "c": "तीन ही नतीजे: Fully Resolved, Partially Resolved, Wholly Rejected"
+            },
+            {
+              "ref": "खंड 14(4)",
+              "c": "शिकायत senior स्तर पर देखी जाए, उसी branch से बंद न हो"
+            },
+            {
+              "ref": "खंड 14(5)",
+              "c": "IO के दायरे से बाहर की शिकायतें"
+            },
+            {
+              "ref": "खंड 14(8)",
+              "c": "IO शिकायत करने वाले से लिखित या मौखिक बात और काग़ज़ माँग सकता है"
+            },
+            {
+              "ref": "खंड 14(9), (10), (11)",
+              "c": "30 दिन में आख़िरी फ़ैसला; कारण सहित फ़ैसला; जवाब में IO के देखने का ज़िक्र"
+            },
+            {
+              "ref": "खंड 14(12)",
+              "c": "RBI Ombudsman का विकल्प, cms.rbi.org.in और CRPC का पता"
+            },
+            {
+              "ref": "खंड 14(17)",
+              "c": "IO का संपर्क सार्वजनिक नहीं"
+            },
+            {
+              "ref": "खंड 17(1)",
+              "c": "2023 के Master Direction की जगह"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies - Internal Ombudsman) Directions, 2026 (RBI/CEPD/2025-26/384; CEPD.PRD.No.S1030/13.01.019/2025-26; 14 जनवरी 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13274",
+          "issued": "2026-01-14",
+          "effective": "2026-01-14",
+          "used": [
+            {
+              "ref": "खंड 3(1), (2)",
+              "c": "कौन-सी NBFCs: जमा लेने वाली 10+ branches; बाक़ी ₹5,000 करोड़+ asset और आम ग्राहक; 31 मार्च 2025 की स्थिति; बाद में शर्त पूरी हो तो छह महीने बाद से"
+            },
+            {
+              "ref": "खंड 12(1), 14(9)",
+              "c": "सीधी शिकायत नहीं; 30 दिन में आख़िरी फ़ैसला"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Master Directions की सूची, 'Consumer Education and Protection' भाग (11 अक्टूबर 2026 को देखा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "14 जनवरी 2026 की प्रविष्टियाँ",
+              "c": "SFB, Payments Bank, NBFC, non-bank PPI और CIC के अलग Internal Ombudsman Directions"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nInternal Ombudsman (IO) bank के अंदर का सबसे ऊँचा शिकायत-समीक्षक है। RBI के मुताबिक इसका मक़सद है कि bank किसी ग्राहक की शिकायत ठुकराने से पहले, bank के अंदर ही ऊँचे स्तर पर उसकी दोबारा जाँच हो।[^1]\n\n- **Bank का कर्मचारी नहीं:** IO उसी bank या उसकी holding, associate या subsidiary company का पहले या अभी का कर्मचारी नहीं हो सकता।[^1]\n- **कहाँ:** भारत में 10 या ज़्यादा banking outlets वाले commercial banks में; NBFC और कुछ दूसरी संस्थाओं के लिए RBI के अलग निर्देश हैं।[^1][^2][^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **आपको कुछ नहीं करना:** bank आपकी शिकायत आधी सुलझाए या ठुकराए, तो वह अपने-आप IO के पास जाती है।[^1]\n- **30 दिन:** bank को शिकायत मिलने के 30 दिन के अंदर आपको आख़िरी फ़ैसला बताना है।[^1]\n- **आगे का रास्ता:** IO के बाद भी बात न बने, तो bank को आपको RBI Ombudsman और CMS portal का रास्ता बताना है।[^1]\n\n## शिकायत IO तक कैसे पहुँचती है | कैसे पहुँचती है\n\n::flow\n\n- **तीन ही नतीजे:** bank अपने शिकायत system में फ़ैसला सिर्फ़ 'Fully Resolved', 'Partially Resolved' या 'Wholly Rejected' दर्ज करता है।[^1]\n- **Senior जाँच:** शिकायत वही branch या unit बंद नहीं करती; ठुकराने या आधा सुलझाने से पहले bank में ऊँचे स्तर पर देखी जाती है।[^1]\n- **कितने दिन में IO को:** जिन शिकायतों की समय-सीमा RBI, NPCI या card network ने तय की है, उनमें इतनी पहले कि IO को कम से कम 10 दिन मिलें; बाक़ी में शिकायत मिलने के 20 दिन के अंदर।[^1]\n- **आपसे पूछताछ:** ज़रूरत हो, तो IO आपसे लिखित या मौखिक बात और काग़ज़ माँग सकता है।[^1]\n\n## IO क्या नहीं देखता | क्या नहीं देखता\n\n- Bank के ऐसे घोटाले, जिनका ग्राहक पर कोई असर न हो।[^1]\n- सुझाव और bank के कारोबारी फ़ैसले; पर ऐसे फ़ैसलों में सेवा की कमी की शिकायत IO देखता है।[^1]\n- Bank का अंदरूनी प्रशासन, HR और कर्मचारियों का वेतन।[^1]\n- Court, consumer commission या arbitration में तय हो चुके या चल रहे मामले।[^1]\n- वे विवाद, जिनका उपाय Credit Information Companies (Regulation) Act, 2005 की धारा 18 में है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> जिन banks पर ये निर्देश लागू हैं, वहाँ bank आपकी शिकायत आधी सुलझाए या ठुकराए, तो उसकी IO से दोबारा जाँच और 30 दिन के अंदर आख़िरी फ़ैसला पाना आपका हक़ है।[^1]\n\n- **साफ़ जवाब:** IO bank का फ़ैसला सही माने, तो जवाब में साफ़ लिखा होना चाहिए कि शिकायत IO ने देखी है।[^1]\n- **RBI तक रास्ता:** ऐसे जवाब में RBI Ombudsman के पास जाने का विकल्प और cms.rbi.org.in का पता होना चाहिए।[^1]\n\n## अभी क्या करें\n\n- शिकायत पहले अपने bank में दर्ज कीजिए और शिकायत नंबर संभालकर रखिए।\n- Bank का आख़िरी जवाब पढ़िए: शिकायत ठुकराई गई है, तो देखिए कि उसमें IO के देखने का ज़िक्र और RBI Ombudsman का रास्ता लिखा है या नहीं।[^1]\n- जवाब से संतुष्ट न हों, तो cms.rbi.org.in पर RBI Ombudsman के पास शिकायत कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "sebi-scores",
+      "term": "SEBI SCORES",
+      "aliases": [
+        "SCORES portal",
+        "SCORES 2.0",
+        "SEBI Complaints Redress System",
+        "SEBI Complaint Redressal System",
+        "scores.sebi.gov.in"
+      ],
+      "full": "SEBI का online शिकायत platform · शेयर बाज़ार और निवेश से जुड़ी शिकायतों के लिए",
+      "fullEn": "SEBI Complaints Redress System (SCORES)",
+      "group": "निवेश",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। SEBI के circular SEBI/HO/OIAE/IGRD/CIR/P/2023/156 (20 सितंबर 2023), उसकी तारीख़ बढ़ाने वाले circular /2023/183 (1 दिसंबर 2023), Online Dispute Resolution के master circular (28 दिसंबर 2023 तक updated) और scores.sebi.gov.in के FAQ से जाँचा। SEBI की circulars और master circulars की सूचियों में शीर्षक से खोजने पर इसके बाद का कोई SCORES या Online Dispute Resolution circular नहीं मिला।"
+        }
+      ],
+      "one": "SCORES SEBI का online platform (scores.sebi.gov.in) है, जहाँ listed company, SEBI में registered intermediary (जैसे broker या mutual fund) या stock exchange जैसी संस्था के ख़िलाफ़ शिकायत दर्ज होती है। पहले उसी संस्था से शिकायत करनी होती है; उसे SCORES पर आई शिकायत 21 calendar days में सुलझानी होती है।",
+      "facts": [
+        {
+          "k": "पहली शिकायत",
+          "v": "उसी संस्था से",
+          "s": "company, broker, mutual fund वग़ैरह से"
+        },
+        {
+          "k": "SCORES पर शिकायत",
+          "v": "1 साल के अंदर",
+          "s": "शिकायत की वजह बनने की तारीख़ से"
+        },
+        {
+          "k": "संस्था का जवाब (ATR)",
+          "v": "21 calendar days",
+          "s": "वरना शिकायत अपने-आप ऊपर जाती है",
+          "good": true
+        },
+        {
+          "k": "जवाब से संतुष्ट नहीं",
+          "v": "दो review",
+          "s": "15 दिन के अंदर माँगिए: पहले Designated Body, फिर SEBI",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "संस्था",
+            "s": "पहले यहीं शिकायत"
+          },
+          {
+            "t": "SCORES",
+            "s": "संस्था को 21 दिन में ATR देना है"
+          },
+          {
+            "t": "Review",
+            "s": "Designated Body (10 दिन), फिर SEBI"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "हल नहीं",
+            "s": "1 साल के अंदर SCORES पर"
+          },
+          {
+            "b": "संतुष्ट नहीं",
+            "s": "ATR के 15 दिन के अंदर"
+          }
+        ],
+        "note": "SEBI के मुताबिक SCORES सिर्फ़ शिकायत सुलझवाने में मदद करने वाला platform है; यह विवादों पर फ़ैसला नहीं सुनाता। ऐसे मामलों के लिए Online Dispute Resolution (SMART ODR), consumer court या civil court का रास्ता है।"
+      },
+      "myths": [
+        {
+          "m": "\"किसी भी कंपनी के शेयर की शिकायत SCORES पर हो सकती है।\"",
+          "f": "नहीं। Unlisted या delisted कंपनियों (valuation की शिकायत छोड़कर), liquidation वाली, RoC से नाम कटी या ग़ायब कंपनियों, और IBC में resolution वाली कंपनियों की शिकायतें SCORES पर नहीं चलतीं।[^1]"
+        },
+        {
+          "m": "\"Bank या बीमा की शिकायत भी SEBI सुनेगा।\"",
+          "f": "नहीं। RBI, IRDAI, PFRDA या CCI के दायरे वाली, या दूसरे मंत्रालयों के दायरे वाली शिकायतें SCORES पर नहीं चलतीं।[^1]"
+        },
+        {
+          "m": "\"SCORES शिकायत पर फ़ैसला सुनाकर मुआवज़ा दिलाएगा।\"",
+          "f": "SCORES सिर्फ़ मदद करने वाला platform है, जो संस्था से आपकी शिकायत सुलझवाता है। जिन मामलों में क़ानून या तथ्य पर फ़ैसला चाहिए, उनके लिए Online Dispute Resolution, consumer court या civil court का रास्ता है।[^1][^3]"
+        },
+        {
+          "m": "\"Share का भाव गिरा, तो SCORES पर शिकायत कर दूँ।\"",
+          "f": "Share के trading भाव से नाराज़गी SCORES पर शिकायत नहीं मानी जाती। Market में गड़बड़ी जैसी जानकारी SEBI के MI Portal (miportal.sebi.gov.in) पर दी जाती है।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "SCORES पर किनके ख़िलाफ़ शिकायत होती है?",
+          "a": "Listed company, SEBI में registered intermediary, और market infrastructure institution (जैसे stock exchange या depository) के ख़िलाफ़।"
+        },
+        {
+          "q": "शिकायत से पहले क्या करना ज़रूरी है?",
+          "a": "पहले उसी संस्था के शिकायत देखने वाले अधिकारी से शिकायत कीजिए। संस्था शिकायत ठुकरा दे, कोई जवाब न दे, या आप जवाब से संतुष्ट न हों, तो शिकायत की वजह बनने की तारीख़ से एक साल के अंदर SCORES पर शिकायत कर सकते हैं। इसके बाद की शिकायत SEBI ठुकरा सकता है।"
+        },
+        {
+          "q": "Registration में क्या देना होता है?",
+          "a": "Portal के FAQ के मुताबिक नाम, पता, email, PAN, mobile नंबर और जन्म तिथि ज़रूरी हैं। आप PAN और जन्म तिथि डालकर KYC Registration Agency (KRA) के record से अपना ब्योरा मँगवा सकते हैं, या registration form ख़ुद भर सकते हैं। Mobile नंबर और email OTP से जाँचे जाते हैं; इसके बाद user id और password आप ख़ुद तय करते हैं।"
+        },
+        {
+          "q": "संस्था कितने दिन में जवाब देगी?",
+          "a": "SCORES पर आई शिकायत अपने-आप संस्था के पास जाती है, और उसे 21 calendar days में शिकायत सुलझाकर Action Taken Report (ATR) डालनी है। ATR अपने-आप आपके पास आती है। Portal के FAQ के मुताबिक ATR न आने पर संस्था को 10वें और 15वें दिन अपने-आप reminder जाता है।"
+        },
+        {
+          "q": "जवाब से संतुष्ट न हों, तो?",
+          "a": "ATR की तारीख़ से 15 calendar days के अंदर review माँगिए। पहला review Designated Body करती है (जैसे mutual fund के लिए AMFI, broker के लिए stock exchange), जिसे 10 calendar days में नई ATR देनी है। उससे भी संतुष्ट न हों, तो उसकी ATR के 15 दिन के अंदर दूसरा review माँग सकते हैं, जिसे SEBI देख सकता है।"
+        },
+        {
+          "q": "संस्था ने 21 दिन में जवाब ही नहीं दिया, तो?",
+          "a": "तब शिकायत अपने-आप पहले review के लिए Designated Body के पास चली जाती है। Designated Body 10 दिन में ATR न दे, तो SEBI दूसरे review के लिए शिकायत ले सकता है।"
+        },
+        {
+          "q": "शिकायत कब बंद मानी जाती है?",
+          "a": "जब आप ATR से संतुष्ट हों या 15 दिन में review न माँगें; दूसरे review वाली शिकायत तभी बंद होती है, जब SEBI उसे बंद करे। अगर आप शिकायत चलते हुए Online Dispute Resolution या court चुनते हैं, तो SCORES पर शिकायत बंद मानी जाती है।"
+        },
+        {
+          "q": "Online Dispute Resolution (SMART ODR) क्या है?",
+          "a": "शेयर बाज़ार के विवादों को online सुलह (conciliation) और arbitration से सुलझाने का portal, smartodr.in। SEBI के master circular के मुताबिक इस portal पर शिकायत या विवाद दर्ज करने की कोई fee नहीं है; सुलह और arbitration की fees अलग से तय हैं। आप इसे किसी भी वक़्त चुन सकते हैं।"
+        },
+        {
+          "q": "App या phone से मदद मिल सकती है?",
+          "a": "हाँ। SCORES का mobile app Android और iOS पर है। Portal के FAQ के मुताबिक toll-free helpline 1800 266 7575 या 1800 22 7575 है, जो 8 भाषाओं में सभी दिन सुबह 9 से शाम 6 बजे तक (घोषित छुट्टियाँ छोड़कर) चलती है।"
+        },
+        {
+          "q": "क्या SCORES पर शिकायत की fee लगती है?",
+          "a": "हमने जो SEBI दस्तावेज़ पढ़े, उनमें SCORES पर शिकायत की fee के बारे में कुछ नहीं लिखा है। इसलिए इस पर हम पक्की बात नहीं लिख रहे।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Mutual Fund"
+        },
+        {
+          "t": "SIP"
+        },
+        {
+          "t": "PAN"
+        },
+        {
+          "t": "Investment Scam"
+        },
+        {
+          "t": "RBI Ombudsman"
+        },
+        {
+          "t": "Internal Ombudsman"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SEBI — circular SEBI/HO/OIAE/IGRD/CIR/P/2023/156, Redressal of investor grievances through the SEBI Complaint Redressal (SCORES) Platform and linking it to Online Dispute Resolution platform (20 सितंबर 2023), PDF",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2023/1695456916964.pdf",
+          "issued": "2023-09-20",
+          "effective": "2024-04-01",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "SCORES क्या है; listed company, registered intermediary, market infrastructure institution"
+            },
+            {
+              "ref": "पैरा 5, 6",
+              "c": "21 दिन का ATR नियम जारी होते ही; बाक़ी व्यवस्था और 2022 के master circular का रद्द होना तय तारीख़ से (बाद में 1 अप्रैल 2024)"
+            },
+            {
+              "ref": "Annexure I, पैरा 1.2–1.4",
+              "c": "शिकायत अपने-आप संस्था को; 21 calendar days में ATR; Designated Body को भी"
+            },
+            {
+              "ref": "Annexure I, पैरा 2.1–2.3",
+              "c": "पहला review: ATR के 15 दिन में; ATR न आए तो अपने-आप; Designated Body 10 दिन में"
+            },
+            {
+              "ref": "Annexure I, पैरा 3.1–3.4",
+              "c": "दूसरा review: 15 दिन में; SEBI; SEBI के बंद करने पर ही बंद"
+            },
+            {
+              "ref": "Annexure II, पैरा 1–4",
+              "c": "पहले संस्था से; registration में नाम, PAN, संपर्क, email; एक साल की सीमा"
+            },
+            {
+              "ref": "Annexure II, पैरा 5",
+              "c": "SCORES पर न चलने वाली शिकायतें"
+            },
+            {
+              "ref": "Annexure II, पैरा 8–10",
+              "c": "सिर्फ़ मदद करने वाला platform; ODR, consumer और civil court; ODR चुनने पर शिकायत बंद"
+            },
+            {
+              "ref": "Schedule II",
+              "c": "Designated Bodies: जैसे mutual fund के लिए AMFI, broker के लिए stock exchange"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — circular SEBI/HO/OIAE/IGRD/CIR/P/2023/183, Extension of timeline for implementation of provisions of circular SEBI/HO/OIAE/IGRD/CIR/P/2023/156 (1 दिसंबर 2023), PDF",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2023/1701420681196.pdf",
+          "issued": "2023-12-01",
+          "effective": "2024-04-01",
+          "used": [
+            {
+              "ref": "पैरा 3–5",
+              "c": "लागू होने की तारीख़ 1 अप्रैल 2024; 2022 का master circular उसी दिन से रद्द; 21 दिन का ATR जारी"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — SCORES portal के FAQ, Investors (पन्ने पर तारीख़ नहीं है; 11 अक्टूबर 2026 को देखा)",
+          "url": "https://scores.sebi.gov.in/faqs",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 3",
+              "c": "जो शिकायत नहीं मानी जाती: trading भाव, बिना काग़ज़ के आरोप वग़ैरह; MI Portal"
+            },
+            {
+              "ref": "सवाल 7–11",
+              "c": "registration: नाम, पता, email, PAN, mobile, जन्म तिथि; KRA से ब्योरा या form; OTP; user id और password ख़ुद"
+            },
+            {
+              "ref": "सवाल 23",
+              "c": "संस्था को 10वें और 15वें दिन reminder"
+            },
+            {
+              "ref": "सवाल 27",
+              "c": "Android और iOS पर app"
+            },
+            {
+              "ref": "सवाल 29",
+              "c": "SCORES विवादों पर फ़ैसला नहीं करता"
+            },
+            {
+              "ref": "सवाल 37",
+              "c": "toll-free 1800 266 7575 या 1800 22 7575; 8 भाषाएँ; सुबह 9 से शाम 6"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Master Circular for Online Resolution of Disputes in the Indian Securities Market (SEBI/HO/OIAE/OIAE_IAD-3/P/CIR/2023/195; 31 जुलाई 2023; Updated as on December 28, 2023), PDF",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2023/1703763993735.pdf",
+          "issued": "2023-07-31",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 6, फ़ुटनोट 5",
+              "c": "ODR Portal smartodr.in; SCORES से जुड़ाव"
+            },
+            {
+              "ref": "पैरा 11, 12",
+              "c": "पहले संस्था, फिर SCORES, फिर ODR; या सीधे ODR"
+            },
+            {
+              "ref": "पैरा 28(a)",
+              "c": "ODR Portal पर शिकायत दर्ज करने की कोई fee नहीं"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSCORES (SEBI Complaints Redress System) SEBI का online शिकायत platform है, जो 2011 में शुरू हुआ था। यहाँ उन निवेशकों की शिकायतें आती हैं, जिनकी शिकायत किसी listed company, SEBI में registered intermediary या market infrastructure institution से नहीं सुलझी।[^1]\n\n- **अभी का portal:** scores.sebi.gov.in; mobile app Android और iOS पर।[^3]\n- **कौन-से नियम:** SEBI का 20 सितंबर 2023 का circular, जो 1 अप्रैल 2024 से लागू है।[^1][^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पहले संस्था:** शिकायत पहले उसी company, broker या mutual fund जैसी संस्था से कीजिए।[^1]\n- **समय-सीमा:** SCORES पर शिकायत, शिकायत की वजह बनने के एक साल के अंदर।[^1]\n- **जवाब तय समय में:** संस्था को 21 calendar days में आपकी शिकायत सुलझाकर जवाब (ATR) देना है।[^1]\n\n## शिकायत कैसे आगे बढ़ती है | कैसे आगे बढ़ती है\n\n::flow\n\n- **अपने-आप भेजना:** SCORES पर दर्ज शिकायत अपने-आप संस्था और उसकी Designated Body के पास जाती है।[^1]\n- **पहला review:** ATR से संतुष्ट न हों, तो 15 calendar days में review माँगिए; Designated Body को 10 calendar days में नई ATR देनी है।[^1]\n- **दूसरा review:** फिर भी संतुष्ट न हों, तो 15 दिन के अंदर दूसरा review; इसे SEBI देख सकता है।[^1]\n- **देर हुई तो:** संस्था 21 दिन में ATR न दे, तो शिकायत अपने-आप पहले review में जाती है।[^1]\n\n## कौन-सी शिकायतें SCORES पर नहीं चलतीं | नहीं चलतीं\n\n- Unlisted या delisted कंपनियों की (valuation की शिकायत छोड़कर)।[^1]\n- Court, quasi-judicial कार्यवाही या ODR में चल रहे मामले।[^1]\n- RBI, IRDAI, PFRDA, CCI या दूसरे मंत्रालयों के दायरे वाले मामले।[^1]\n- IBC में resolution वाली, RoC से नाम कटी या ग़ायब, और liquidation वाली कंपनियाँ।[^1]\n- Market में गड़बड़ी की जानकारी; यह SEBI के MI Portal पर दी जाती है।[^1][^3]\n- बिना नाम की, अधूरी, या बिना काग़ज़ वाले आरोपों वाली शिकायतें।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> SCORES पर आई शिकायत का जवाब 21 calendar days में पाना, और संतुष्ट न होने पर दो बार review माँगना आपका हक़ है।[^1]\n\n- **आगे के रास्ते:** SCORES के बाद भी हल न हो, या विवाद पर फ़ैसला चाहिए, तो Online Dispute Resolution (smartodr.in), consumer court या civil court।[^1][^4]\n\n## अभी क्या करें\n\n- पहले संस्था से शिकायत कीजिए और उसका जवाब संभालकर रखिए।[^1]\n- हल न हो, तो scores.sebi.gov.in या SCORES app पर registration करके शिकायत दर्ज कीजिए; काग़ज़ साथ लगाइए।[^1][^3]\n- ATR आए, तो पढ़िए; संतुष्ट न हों, तो 15 दिन के अंदर कारण लिखकर review माँगिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
     }
   ]
 }
