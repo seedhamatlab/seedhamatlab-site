@@ -916,6 +916,1009 @@
         }
       ],
       "body": "## मतलब\n\nSEBI के निवेशक FAQ के मुताबिक SIP (Systematic Investment Plan) निवेशक को लंबे समय तक नियमित अंतराल पर बचत और निवेश करने देता है। FAQ इसे 'invest as you earn' का आसान तरीक़ा बताता है, जिसमें निवेशक नियमित रूप से market में आता है और units की औसत लागत बनती है।[^2]\n\n- **किसमें:** mutual fund scheme में। Direct plan में निवेश एक साथ (lump sum) भी हो सकता है और SIP से भी।[^2]\n- **शर्तें:** खरीद, redemption और कीमत से जुड़ी शर्तें वही, जो scheme के offer document में हैं।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- एक साथ बड़ी रक़म न हो, तब भी आप हर महीने जैसी छोटी किस्तों में mutual fund में निवेश कर सकते हैं।[^2]\n- SIP से जोखिम ख़त्म नहीं होता: पैसा mutual fund scheme में ही लगता है, जिसका निवेश market के जोखिम के अधीन है।[^1]\n\n## कैसे काम करता है | कैसे\n\n::flow\n\n- हर किस्त पर उस समय के NAV के हिसाब से units मिलती हैं। NAV कम हो, तो उसी रक़म में ज़्यादा units; NAV ज़्यादा हो, तो कम।[^2]\n- SEBI के FAQ के उदाहरण में 12 महीने तक हर महीने ₹1,000 लगाने पर कुल ₹12,000 में 1,186.15 units मिलती हैं, यानी औसत लागत लगभग ₹10.12 प्रति unit। यह काल्पनिक उदाहरण है।[^2]\n\n## SIP, STP और SWP | STP, SWP\n\n- **SIP:** नियमित अंतराल पर scheme में निवेश।[^2]\n- **STP (Systematic Transfer Plan):** एक ही instruction से उसी mutual fund की एक scheme से दूसरी में नियमित रूप से पैसा।[^2]\n- **SWP (Systematic Withdrawal Plan):** हर महीने, तिमाही, छमाही या साल एक तय रक़म निकालना।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> जिस महीने आपके folio में SIP या कोई दूसरा लेनदेन हो, उस महीने का consolidated account statement आपको मिलना चाहिए।[^1]\n\n- AMC को आपकी शिकायत 21 calendar days के अंदर सुलझानी होती है।[^1]\n\n## अभी क्या करें\n\n- SIP शुरू करने से पहले scheme के दस्तावेज़ पढ़िए; SIP की शर्तें वही हैं जो scheme की हैं।[^1][^2]\n- बच्चे के नाम SIP है, तो उसके बालिग होने पर folio में उसकी स्थिति 'major' करवाइए, वरना SIP की standing instruction रुक जाएगी।[^3]\n- हर महीने का statement देखकर मिलाइए कि किस्त कटी और units जुड़ीं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "passbook",
+      "term": "Passbook",
+      "aliases": [
+        "Passbooks",
+        "Pass book",
+        "पासबुक"
+      ],
+      "full": "पासबुक · savings खाते की entries का record, जो bank को बिना लागत देना है",
+      "fullEn": "Passbook (Savings Bank Passbook)",
+      "group": "बैंकिंग",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक update), EPFO के FAQ और RBI की FAME पुस्तिका (फ़रवरी 2024) से जाँचा।"
+        }
+      ],
+      "one": "Passbook bank के savings खाते का वह record है, जिसमें खाते की entries लिखी जाती हैं: जमा, निकासी, ब्याज और charges। RBI के निर्देशों के मुताबिक commercial bank को हर individual savings खाताधारक को passbook की सुविधा देनी है, और इसकी लागत ग्राहक से नहीं ली जाती।",
+      "facts": [
+        {
+          "k": "किसे मिलती है",
+          "v": "हर individual savings खाताधारक को",
+          "s": "commercial bank को यह सुविधा देनी ही है"
+        },
+        {
+          "k": "लागत",
+          "v": "ग्राहक से नहीं",
+          "s": "passbook हो या monthly statement",
+          "good": true
+        },
+        {
+          "k": "Passbook की जगह",
+          "v": "Monthly statement",
+          "s": "bank यह सुविधा दे और ग्राहक चुने, तो"
+        },
+        {
+          "k": "Passbook पर छपा",
+          "v": "IFSC, MICR, शाखा का पता",
+          "s": "और जमा बीमे की सीमा"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Passbook शाखा में दी",
+            "s": "entries चढ़वाने के लिए"
+          },
+          {
+            "t": "Bank ने रोक ली",
+            "s": "update के लिए"
+          },
+          {
+            "t": "Passbook वापस",
+            "s": "token के बदले"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Token",
+            "s": "लेने और लौटाने की तारीख़ के साथ"
+          },
+          {
+            "b": "रात भर रुके, तो",
+            "s": "ताले में"
+          }
+        ],
+        "note": "शाखा को passbook token के बदले लेनी और लौटानी है। जो passbooks शाखा में रात भर रुकें, वे ताले में, नाम से तय ज़िम्मेदार अधिकारियों के पास रहती हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Passbook के पैसे लगते हैं।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक passbook या statement देने की लागत ग्राहक से नहीं ली जाती।[^1]"
+        },
+        {
+          "m": "\"Zero balance वाले BSBD खाते में passbook नहीं मिलती।\"",
+          "f": "मिलती है। BSBD खाते में passbook, या उसकी जगह monthly statement, बिना charge के मिलनी है; पुरानी passbook के पन्ने भर जाने पर नई passbook का भी कोई charge नहीं।[^1]"
+        },
+        {
+          "m": "\"Passbook में entry कैसी भी हो, यह bank की मर्ज़ी है।\"",
+          "f": "नहीं। Bank को ऐसी entries से बचना है, जो समझ में न आएँ; हर entry का छोटा और समझ में आने वाला ब्योरा लिखा होना चाहिए।[^1]"
+        },
+        {
+          "m": "\"EPF की passbook और bank की passbook एक ही चीज़ है।\"",
+          "f": "नहीं। यह पन्ना bank के savings खाते की passbook का है, जिसके नियम RBI के निर्देशों में हैं।[^1] EPF की passbook अलग है: EPFO के FAQ के मुताबिक PF खाते का balance जानने के लिए UAN activate करके अपनी passbook देखी या download की जाती है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Passbook क्या होती है?",
+          "a": "Passbook bank के savings खाते का वह record है, जिसमें खाते की entries लिखी जाती हैं। RBI के निर्देशों के मुताबिक commercial bank को अपने हर individual savings खाताधारक को passbook की सुविधा देनी ही है।"
+        },
+        {
+          "q": "क्या passbook के पैसे लगते हैं?",
+          "a": "नहीं। RBI के निर्देशों के मुताबिक passbook या statement देने की लागत ग्राहक से नहीं ली जाती।"
+        },
+        {
+          "q": "Passbook की जगह statement ले सकते हैं?",
+          "a": "हाँ, अगर आपका bank statement भेजने की सुविधा देता है और आप वही चुनते हैं। तब bank को statement हर महीने देना है।"
+        },
+        {
+          "q": "Passbook पर क्या-क्या छपा होना चाहिए?",
+          "a": "RBI के निर्देशों के मुताबिक शाखा का पूरा पता या telephone number, MICR code और IFSC, और जमा बीमे (deposit insurance cover) की जानकारी, उसकी सीमा के साथ। Nomination दर्ज हो, तो \"Nomination Registered\" और nominee का नाम भी।"
+        },
+        {
+          "q": "Passbook में IFSC और MICR क्यों होते हैं?",
+          "a": "RBI के निर्देशों के मुताबिक MICR code ECS के लेनदेन के लिए ज़रूरी है, और IFSC, NEFT और RTGS के लिए। ये cheque के पन्ने पर छपते हैं, और bank को इन्हें passbook या statement में भी देना है।"
+        },
+        {
+          "q": "Bank ने passbook update के लिए रख ली, तो?",
+          "a": "तब bank को काग़ज़ का token देना है, जिस पर passbook लेने की तारीख़ और उसे वापस लेने की तारीख़ लिखी हो। शाखा को passbook token के बदले ही लौटानी है।"
+        },
+        {
+          "q": "BSBD खाते में passbook मिलती है?",
+          "a": "हाँ। RBI के निर्देशों के मुताबिक BSBD खाते में passbook, या ग्राहक के कहने पर उसकी जगह छपा हुआ या e-mail वाला monthly statement, बिना charge के मिलना है। Passbook के पन्ने भर जाने पर नई passbook का भी कोई charge नहीं। पहले से चल रहे BSBD खातों में bank यह सुविधा ग्राहक की request मिलने पर देता है।"
+        },
+        {
+          "q": "क्या nominee का नाम passbook में लिखा होता है?",
+          "a": "RBI के निर्देशों के मुताबिक nomination दर्ज हो, तो bank को passbook, statement और Term Deposit Receipt पर \"Nomination Registered\" लिखना है, और nominee का नाम भी।"
+        },
+        {
+          "q": "EPF की passbook क्या यही है?",
+          "a": "नहीं। EPF की passbook EPFO की होती है। EPFO के FAQ के मुताबिक PF खाते का balance जानने के लिए UAN activate करके अपनी passbook देखी या download की जाती है।"
+        },
+        {
+          "q": "क्या ये नियम हर bank पर लागू हैं?",
+          "a": "ये RBI के commercial banks के लिए बने निर्देश हैं। इनके पैरा 3 में Small Finance Banks, Payments Banks और Local Area Banks 'commercial banks' में नहीं गिने गए हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "BSBD"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "DICGC"
+        },
+        {
+          "t": "FD"
+        },
+        {
+          "t": "Cheque"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks; Small Finance Banks, Payments Banks और Local Area Banks बाहर"
+            },
+            {
+              "ref": "पैरा 58",
+              "c": "passbook जैसी छपी सामग्री तीन भाषाओं में: English, हिंदी और इलाक़े की भाषा"
+            },
+            {
+              "ref": "पैरा 86(7), 86B",
+              "c": "BSBD खाते में passbook या monthly statement बिना charge; भरने पर नई passbook भी; पहले से चल रहे खातों में ग्राहक की request पर"
+            },
+            {
+              "ref": "पैरा 162, 163",
+              "c": "हर individual savings खाताधारक को passbook; ग्राहक चुने तो monthly statement; लागत ग्राहक से नहीं"
+            },
+            {
+              "ref": "पैरा 164, 165",
+              "c": "शाखा का पूरा पता या telephone number; MICR code और IFSC"
+            },
+            {
+              "ref": "पैरा 166, 167",
+              "c": "समझ में न आने वाली entries से बचना; entries में कम से कम क्या ब्योरा हो (Table 4 और 5)"
+            },
+            {
+              "ref": "पैरा 168",
+              "c": "passbook में जमा बीमे की जानकारी और उसकी सीमा"
+            },
+            {
+              "ref": "पैरा 169, 170, 171",
+              "c": "passbook नियमित update; रोकने पर तारीख़ों वाला token; रात भर रखी passbooks ताले में"
+            },
+            {
+              "ref": "पैरा 172",
+              "c": "statement हर महीने भेजना"
+            },
+            {
+              "ref": "पैरा 277, 278",
+              "c": "passbook पर \"Nomination Registered\" और nominee का नाम"
+            }
+          ]
+        },
+        {
+          "label": "EPFO — FAQs (EPFO की website; पन्ने पर सवालों के नंबर और तारीख़ नहीं हैं; 11 अक्टूबर 2026 को देखा)",
+          "url": "https://www.epfo.gov.in/faq-epfo/",
+          "used": [
+            {
+              "ref": "\"How can I know the balance in my PF account?\"",
+              "c": "UAN activate करके passbook देखना या download करना"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Financial Awareness Messages (FAME), Fourth Edition, February 2024 — Message 2: Deposit Accounts",
+          "url": "https://www.rbi.org.in/commonman/images/FAME202426022024.pdf",
+          "used": [
+            {
+              "ref": "Message 2, पन्ना 4",
+              "c": "अच्छी आदत: passbook या statement लेना और entries समय-समय पर जाँचना"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के निर्देशों के मुताबिक commercial bank को अपने हर individual savings खाताधारक को passbook की सुविधा देनी ही है।[^1] Passbook में खाते की entries लिखी जाती हैं: किसे भुगतान हुआ, किससे पैसा आया, कितना ब्याज जुड़ा और कौन-सा charge कटा।[^1]\n\n- **Statement का विकल्प:** bank statement भेजने की सुविधा देता हो और ग्राहक वही चुने, तो bank को statement हर महीने देना है।[^1]\n- **किन banks पर:** ये निर्देश commercial banks के लिए हैं; Small Finance Banks, Payments Banks और Local Area Banks इनमें नहीं गिने गए हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **बिना लागत:** passbook या statement देने की लागत ग्राहक से नहीं ली जा सकती।[^1]\n- **BSBD खाते में भी:** passbook, या ग्राहक के कहने पर उसकी जगह छपा हुआ या e-mail वाला monthly statement, बिना charge के; पन्ने भर जाने पर नई passbook का भी कोई charge नहीं। पहले से चल रहे BSBD खातों में bank यह सुविधा ग्राहक की request मिलने पर देता है।[^1]\n- **तीन भाषाएँ:** passbook जैसी छपी सामग्री English, हिंदी और इलाक़े की भाषा में होनी चाहिए।[^1]\n\n## Passbook पर क्या छपा होता है | क्या छपा होता है\n\n- **शाखा का पता:** शाखा का पूरा पता या telephone number।[^1]\n- **MICR और IFSC:** cheque के पन्ने पर छपने वाले ये दोनों code passbook में भी होने चाहिए। निर्देशों के मुताबिक MICR code ECS के लिए ज़रूरी है, और IFSC, NEFT और RTGS के लिए।[^1]\n- **जमा बीमा:** 'deposit insurance cover' की जानकारी और उसकी सीमा, passbook में शुरू में ही।[^1]\n- **Nomination:** nomination दर्ज हो, तो \"Nomination Registered\" और nominee का नाम।[^1]\n\n## Entries कैसी होनी चाहिए | Entries\n\nBank को ऐसी entries से बचना है, जो समझ में न आएँ; हर entry का छोटा और समझ में आने वाला ब्योरा लिखा होना चाहिए।[^1] निर्देशों में मिसाल के तौर पर यह सूची दी गई है; सूची पूरी नहीं है:[^1]\n\n- **किसी को भुगतान:** पाने वाले का नाम; तरीक़ा, जैसे transfer, clearing, RTGS/NEFT, cash या cheque का number; और clearing, inter-branch, RTGS या NEFT हो, तो पाने वाले के bank का नाम।\n- **ख़ुद की निकासी:** \"Self\" लिखा हो; ATM या दूसरी शाखा से निकासी हो, तो उसका नाम।\n- **Bank के charges:** charge किस तरह का है (fee, commission या penalty), और उसकी छोटी वजह, जैसे cheque का लौटना, cheque book, SMS alerts या ATM fee।\n- **नक़द जमा:** \"cash deposit\" लिखा हो, और जमा करने वाले का नाम: ख़ुद या कोई और।\n- **किसी से पैसा आना:** भेजने वाले का नाम, तरीक़ा, और inter-branch, RTGS या NEFT हो, तो भेजने वाले bank का नाम।\n- **ब्याज:** savings खाते का है या term deposit का; FD का हो, तो उस FD का account या receipt number।\n- **ग़लत entry पलटना:** जिस entry को पलटा गया, उसकी तारीख़ और छोटी वजह।\n- **POS पर लेनदेन:** तारीख़, समय, identification number और POS की जगह।\n\n## Passbook update कैसे होती है | Update\n\n::flow\n\n- Bank को ग्राहकों को यह एहसास कराना है कि passbook नियमित रूप से update कराना ज़रूरी है।[^1]\n- Passbook update के लिए रोक ली जाए, तो bank को काग़ज़ का token देना है, जिस पर passbook लेने की तारीख़ और उसे वापस लेने की तारीख़ लिखी हो।[^1]\n- जो passbooks शाखा में रात भर रुकें, वे ताले में, नाम से तय ज़िम्मेदार अधिकारियों के पास रहनी चाहिए।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> हर individual savings खाताधारक को passbook की सुविधा मिलनी है, और passbook या statement की लागत ग्राहक से नहीं ली जा सकती।[^1]\n\n- **समझ में आने वाली entry:** हर entry का छोटा और समझ में आने वाला ब्योरा passbook में होना चाहिए।[^1]\n- **Nomination दिखे:** nomination दर्ज हो, तो passbook पर \"Nomination Registered\" और nominee का नाम लिखा होना चाहिए।[^1]\n\n## अभी क्या करें\n\n- Passbook नियमित रूप से update कराइए और entries मिलाइए; RBI की पुस्तिका इसे अच्छी आदत बताती है।[^3]\n- Passbook पर देखिए कि \"Nomination Registered\" और nominee का नाम लिखा है या नहीं।[^1]\n- कोई entry समझ न आए, तो शाखा से उसका ब्योरा पूछिए।[^1]\n- Passbook update के लिए शाखा में छोड़ें, तो token ज़रूर लीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "interest",
+      "term": "Interest (ब्याज)",
+      "aliases": [
+        "ब्याज",
+        "Interest Rate",
+        "Interest Rates"
+      ],
+      "sort": "Interest",
+      "full": "ब्याज · जमा पर bank देता है, क़र्ज़ पर bank लेता है",
+      "fullEn": "Interest (Simple Interest, Compound Interest, APR)",
+      "group": "पैसे की बुनियाद",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI की FAME पुस्तिका (फ़रवरी 2024), Commercial Banks – Interest Rate on Deposits Directions, 2025 (1 अक्टूबर 2026 तक updated), Interest Rates on Advances Directions, 2025 और Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक update) से जाँचा। RBI का 12 अगस्त 2026 का draft भी देखा; वह अभी नियम नहीं है।"
+        }
+      ],
+      "one": "ब्याज वह रकम है, जो bank आपकी जमा पर आपको देता है और आपके क़र्ज़ पर आपसे लेता है। दर हमेशा सालाना करके देखिए: RBI की पुस्तिका के मुताबिक \"2% महीना\" असल में 24% सालाना बैठता है।",
+      "facts": [
+        {
+          "k": "Savings खाते में",
+          "v": "रोज़ के balance पर",
+          "s": "हर तिमाही या उससे जल्दी खाते में जमा"
+        },
+        {
+          "k": "Loan पर",
+          "v": "हर महीने लगता है",
+          "s": "'monthly rests'; खेती के क़र्ज़ में अलग नियम"
+        },
+        {
+          "k": "₹10,000 पर 10%, 10 साल",
+          "v": "₹26,851",
+          "s": "तिमाही compounding से; simple interest से ₹20,000"
+        },
+        {
+          "k": "किस्त में देरी",
+          "v": "Penal charge",
+          "s": "'penal interest' बनाकर दर में नहीं जोड़ा जा सकता",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "मूलधन",
+            "s": "जमा या उधार की रकम (Principal)"
+          },
+          {
+            "t": "ब्याज",
+            "s": "दर और समय के हिसाब से"
+          },
+          {
+            "t": "कुल रकम",
+            "s": "मूलधन + ब्याज (Amount)"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "दर × समय",
+            "s": "दर सालाना"
+          },
+          {
+            "b": "जुड़ता है",
+            "s": "compounding में ब्याज पर भी ब्याज"
+          }
+        ],
+        "note": "RBI की पुस्तिका का उदाहरण: ₹100 का loan, 1 साल, 10% simple interest। साल के अंत में ₹100 + ₹10 = ₹110 लौटाने होते हैं। पुस्तिका यह भी लिखती है कि banks simple interest वाला loan नहीं देते।"
+      },
+      "myths": [
+        {
+          "m": "\"2% ब्याज तो बहुत कम है।\"",
+          "f": "पहले देखिए कि 2% महीने का है या साल का। RBI की पुस्तिका के मुताबिक कुछ संस्थाएँ 2% लिखती हैं और छोटे अक्षरों में 'per month'; असल दर 24% सालाना बैठती है।[^1]"
+        },
+        {
+          "m": "\"Loan की ब्याज दर ही उसकी पूरी लागत है।\"",
+          "f": "नहीं। Annual Percentage Rate (APR) में ब्याज दर के साथ loan के बाक़ी सब charges भी गिने जाते हैं। RBI के निर्देशों के काल्पनिक उदाहरण में 15% दर वाले loan का APR 17.07% है।[^4]"
+        },
+        {
+          "m": "\"किस्त में देरी हुई, तो bank ब्याज दर बढ़ा देगा।\"",
+          "f": "RBI के निर्देशों के मुताबिक जुर्माना 'penal charges' के रूप में ही लिया जा सकता है, 'penal interest' बनाकर ब्याज दर में जोड़कर नहीं। पर जो ब्याज या किस्त चुकाई नहीं गई, उस पर bank loan की तय दर से ब्याज ले सकता है।[^4]"
+        },
+        {
+          "m": "\"Bank से मोल-भाव करके जमा पर ज़्यादा ब्याज मिल सकता है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक जमा की दरें bank और जमाकर्ता के बीच मोल-भाव से तय नहीं होतीं। वे bank की website पर पहले से बताई दरों के मुताबिक ही होती हैं, और सभी शाखाओं और ग्राहकों के लिए एक जैसी।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "ब्याज क्या होता है?",
+          "a": "RBI की वित्तीय जागरूकता पुस्तिका के मुताबिक वित्तीय संस्थाएँ आपके जमा किए पैसे पर ब्याज देती हैं और उधार लिए पैसे पर ब्याज लेती हैं।"
+        },
+        {
+          "q": "Simple interest कैसे निकालते हैं?",
+          "a": "RBI की पुस्तिका का सूत्र: I = P × (r/100) × n, जहाँ P मूलधन, r ब्याज दर और n साल हैं। उदाहरण: ₹100 पर 10% की दर से 1 साल का simple interest ₹10 होता है।"
+        },
+        {
+          "q": "Compound interest क्या है?",
+          "a": "RBI की पुस्तिका इसे 'ब्याज पर ब्याज' कहती है: कमाया हुआ ब्याज मूलधन में जुड़ जाता है, और आगे का ब्याज दोनों पर मिलता है। पुस्तिका का उदाहरण: ₹10,000 पर 10% सालाना compounding से पहले साल के अंत में ₹11,000, दूसरे में ₹12,100 और तीसरे में ₹13,310।"
+        },
+        {
+          "q": "Savings खाते पर ब्याज कैसे गिना जाता है?",
+          "a": "RBI के निर्देशों के मुताबिक daily product पर, यानी हर दिन के अंत वाले balance पर। यह हर तिमाही या उससे कम अंतराल पर खाते में जमा होता है।"
+        },
+        {
+          "q": "Fixed rate और floating rate loan में क्या फ़र्क़ है?",
+          "a": "RBI के निर्देशों के मुताबिक fixed rate loan में ब्याज दर loan की पूरी अवधि के लिए तय रहती है। Floating rate loan में दर अवधि के दौरान तय नहीं रहती।"
+        },
+        {
+          "q": "APR क्या है?",
+          "a": "Annual Percentage Rate, यानी क़र्ज़ की सालाना लागत, जिसमें ब्याज दर और loan से जुड़े बाक़ी सब charges शामिल हैं। RBI के निर्देशों के मुताबिक bank को अपनी website पर APR या उस जैसा तरीक़ा छापना है, ताकि ग्राहक लागत की तुलना कर सकें।"
+        },
+        {
+          "q": "Penal interest और penal charge में क्या फ़र्क़ है?",
+          "a": "RBI के निर्देशों के मुताबिक loan की शर्तें न मानने का जुर्माना 'penal charges' के रूप में ही लिया जा सकता है, ब्याज दर में जोड़े गए 'penal interest' के रूप में नहीं; और penal charges पर आगे ब्याज नहीं लगता। यह नियम credit card पर लागू नहीं है।"
+        },
+        {
+          "q": "FD समय से पहले तोड़ने पर कितना ब्याज मिलता है?",
+          "a": "RBI के निर्देशों के मुताबिक तब ब्याज उस दर से मिलता है, जो जमा की रकम और जितने समय वह bank में रही, उस पर लागू होती है; FD की तय दर से नहीं। 7 दिन की न्यूनतम अवधि से पहले निकासी हो, तो कोई ब्याज नहीं।"
+        },
+        {
+          "q": "क्या वरिष्ठ नागरिकों को ज़्यादा ब्याज मिलता है?",
+          "a": "RBI के निर्देशों के मुताबिक bank चाहे, तो भारत में रहने वाले वरिष्ठ नागरिकों के लिए ऐसी term deposit योजना बना सकता है, जिसमें ब्याज दर ज़्यादा और तय हो। यह bank के अपने फ़ैसले पर है। HUF या उसके Karta के नाम की जमा पर यह सुविधा नहीं मिलती।"
+        },
+        {
+          "q": "क्या Current Account पर ब्याज मिलता है?",
+          "a": "नहीं। RBI के निर्देशों के मुताबिक current account की जमा पर कोई ब्याज नहीं दिया जाता।"
+        },
+        {
+          "q": "क्या loan के ब्याज के नियम बदलने वाले हैं?",
+          "a": "RBI ने 12 अगस्त 2026 को नए निर्देशों का draft, Reserve Bank of India (Interest Rates on Loans and Advances) Directions, 2026, लोगों की राय के लिए जारी किया; राय देने की आख़िरी तारीख़ 11 सितंबर 2026 थी। RBI के मुताबिक राय देखने के बाद final निर्देश जारी होंगे। Draft अभी नियम नहीं है; इस पन्ने की बातें 2025 के लागू निर्देशों से हैं।"
+        },
+        {
+          "q": "क्या ये नियम हर bank पर लागू हैं?",
+          "a": "ये RBI के commercial banks के लिए बने निर्देश हैं। जमा वाले निर्देशों में Small Finance Banks, Payment Banks, Regional Rural Banks और Local Area Banks 'commercial banks' में नहीं गिने गए हैं; loan वाले निर्देशों में Small Finance Banks, Payment Banks और Local Area Banks।"
+        }
+      ],
+      "related": [
+        {
+          "t": "FD"
+        },
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "Current Account"
+        },
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "Bank Rate"
+        },
+        {
+          "t": "Credit Score"
+        },
+        {
+          "t": "TDS"
+        },
+        {
+          "t": "Savings (बचत)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Financial Awareness Messages (FAME), Fourth Edition, February 2024",
+          "url": "https://www.rbi.org.in/commonman/images/FAME202426022024.pdf",
+          "used": [
+            {
+              "ref": "Message 3, पन्ना 5",
+              "c": "ज़्यादा credit score वाला borrower आम तौर पर कम ब्याज दर पर उधार ले पाता है"
+            },
+            {
+              "ref": "Message 6, पन्ना 12",
+              "c": "simple interest का सूत्र और ₹100 वाला उदाहरण; 2% महीना = 24% सालाना; दर सालाना करके देखना; मंज़ूरी के पत्र की शर्तें पढ़ना; banks simple interest वाला loan नहीं देते"
+            },
+            {
+              "ref": "Message 7, पन्ना 13 और 14",
+              "c": "compounding यानी 'ब्याज पर ब्याज'; ₹10,000 के उदाहरण (₹13,310; ₹20,000 और ₹26,851)"
+            },
+            {
+              "ref": "Message 9, पन्ना 17",
+              "c": "वित्तीय संस्थाएँ जमा पर ब्याज देती हैं और उधार पर ब्याज लेती हैं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Interest Rate on Deposits) Directions, 2025 (RBI/DOR/2025-26/153, 28 नवंबर 2025; 1 अक्टूबर 2026 तक updated)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13157",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 4",
+              "c": "लागू किस पर: commercial banks; SFB, Payment Banks, RRB और LAB बाहर"
+            },
+            {
+              "ref": "पैरा 6(2), 6(5)",
+              "c": "bulk deposit: ₹3 करोड़ और उससे ऊपर की एक rupee term deposit; daily product की परिभाषा"
+            },
+            {
+              "ref": "पैरा 7(2), 7(3), 7(5)",
+              "c": "सभी शाखाओं और ग्राहकों के लिए एक जैसी दरें; website पर पहले से बताई दरें; मोल-भाव नहीं"
+            },
+            {
+              "ref": "पैरा 8, 9",
+              "c": "current account पर ब्याज नहीं; savings ब्याज daily product पर"
+            },
+            {
+              "ref": "पैरा 10, 11",
+              "c": "term deposit की दर किन वजहों से अलग हो सकती है; न्यूनतम अवधि 7 दिन; समय से पहले निकासी पर ब्याज"
+            },
+            {
+              "ref": "पैरा 13",
+              "c": "वरिष्ठ नागरिकों के लिए ज़्यादा और तय दर वाली योजना, bank के फ़ैसले पर; HUF पर नहीं"
+            },
+            {
+              "ref": "पैरा 16",
+              "c": "पकी, पर न ली गई term deposit पर savings दर या तय दर, जो कम हो"
+            },
+            {
+              "ref": "पैरा 18",
+              "c": "savings ब्याज हर तिमाही या उससे कम अंतराल पर जमा"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Interest Rates on Advances) Directions, 2025, RBI/DOR/2025-26/161 (28 नवंबर 2025; सिर्फ़ commercial banks पर लागू)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/161MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks; SFB, Payment Banks और LAB बाहर"
+            },
+            {
+              "ref": "पैरा 5(5), 5(6)",
+              "c": "fixed rate loan और floating rate loan की परिभाषा"
+            },
+            {
+              "ref": "पैरा 6(4), 6(5)",
+              "c": "floating दर = benchmark + spread; benchmark loan contract का हिस्सा"
+            },
+            {
+              "ref": "पैरा 6(7)",
+              "c": "सभी advances पर ब्याज monthly rests पर; खेती के क़र्ज़ों के लिए अलग नियम"
+            },
+            {
+              "ref": "पैरा 25",
+              "c": "floating दर वाले personal या retail loans और MSME loans external benchmark से जुड़े"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; Updated as on October 1, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13140",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 4(3)",
+              "c": "APR की परिभाषा"
+            },
+            {
+              "ref": "पैरा 52, 53(3)",
+              "c": "website पर ब्याज दरें और service charges; APR छापना"
+            },
+            {
+              "ref": "पैरा 348",
+              "c": "नए retail और MSME term loans में KFS; APR का हिसाब और किस्तों की सारणी; ₹20,000 वाला उदाहरण (APR 17.07%); KFS में न लिखा charge सहमति के बिना नहीं"
+            },
+            {
+              "ref": "पैरा 349",
+              "c": "EMI वाले floating दर के personal loan: दर बदलने पर सूचना और विकल्प; तिमाही statement"
+            },
+            {
+              "ref": "पैरा 351",
+              "c": "penal charges, penal interest नहीं; penal charges पर आगे ब्याज नहीं; न चुकाए ब्याज पर तय दर से ब्याज; credit card पर लागू नहीं"
+            },
+            {
+              "ref": "पैरा 352, 353(1)",
+              "c": "individuals के business से अलग काम के floating rate loan पर pre-payment charge नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — RBI invites comments on the Draft \"Reserve Bank of India (Interest Rates on Loans and Advances) Directions, 2026\", press release 2026-2027/877 (12 अगस्त 2026; यह draft की सूचना है, नियम नहीं)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63355",
+          "issued": "2026-08-12",
+          "used": [
+            {
+              "ref": "पैरा 1, 3 और 4",
+              "c": "draft जारी हुआ; राय के बाद final निर्देश; राय की आख़िरी तारीख़ 11 सितंबर 2026"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI की वित्तीय जागरूकता पुस्तिका (FAME) के मुताबिक वित्तीय संस्थाएँ आपके जमा किए पैसे पर ब्याज देती हैं और उधार लिए पैसे पर ब्याज लेती हैं।[^1]\n\n- **Simple interest:** ब्याज सिर्फ़ मूलधन पर। सूत्र: I = P × (r/100) × n, जहाँ P मूलधन, r ब्याज दर और n साल हैं।[^1]\n- **Compound interest:** इसे 'ब्याज पर ब्याज' भी कहते हैं। कमाया हुआ ब्याज मूलधन में जुड़ जाता है, और आगे का ब्याज मूलधन और जुड़े हुए ब्याज, दोनों पर मिलता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **दर को सालाना करके देखिए:** पुस्तिका के मुताबिक कुछ संस्थाएँ 2% लिखती हैं और छोटे अक्षरों में 'per month'; असल दर 24% सालाना बैठती है।[^1]\n- **Compounding का फ़र्क़:** ₹10,000 पर 10% simple interest से 10 साल में ₹20,000 बनते हैं; वही 10% तिमाही compounding से ₹26,851।[^1]\n- **Credit score का असर:** बाक़ी सब बातें बराबर हों, तो ज़्यादा credit score वाला borrower आम तौर पर कम ब्याज दर पर उधार ले पाता है।[^1]\n\n## ब्याज कैसे बनता है | कैसे बनता है\n\n::flow\n\n- **पहला साल:** ₹10,000 पर 10% की दर से ₹1,000 ब्याज; साल के अंत में ₹11,000।[^1]\n- **दूसरा साल:** सालाना compounding में 10% अब ₹11,000 पर लगता है, यानी ₹1,100; साल के अंत में ₹12,100।[^1]\n- **तीसरा साल:** 10% अब ₹12,100 पर, यानी ₹1,210; साल के अंत में ₹13,310।[^1]\n\n## जमा पर ब्याज | जमा पर\n\n- **Savings खाता:** ब्याज daily product पर, यानी हर दिन के अंत वाले balance पर गिना जाता है, और हर तिमाही या उससे कम अंतराल पर खाते में जमा होता है।[^2]\n- **Current account:** इसकी जमा पर कोई ब्याज नहीं दिया जाता।[^2]\n- **FD की दर:** दर अवधि के हिसाब से अलग हो सकती है। रकम के हिसाब से अलग दर सिर्फ़ bulk deposit पर हो सकती है, यानी ₹3 करोड़ और उससे ऊपर की एक term deposit पर।[^2]\n- **एक जैसी दरें:** जमा की दरें सभी शाखाओं और सभी ग्राहकों के लिए एक जैसी होती हैं; bank की website पर पहले से बताई दरों के मुताबिक; मोल-भाव से नहीं।[^2]\n- **वरिष्ठ नागरिक:** bank चाहे, तो भारत में रहने वाले वरिष्ठ नागरिकों के लिए ज़्यादा और तय ब्याज दर वाली term deposit योजना बना सकता है।[^2]\n- **FD समय से पहले तोड़ने पर:** ब्याज उस दर से, जो जमा की रकम और जितने समय वह bank में रही, उस पर लागू होती है; FD की तय दर से नहीं।[^2]\n- **पकी FD, जो ली नहीं गई:** उस रकम पर savings खाते की दर या FD की तय दर, जो भी कम हो।[^2]\n\n## क़र्ज़ पर ब्याज | क़र्ज़ पर\n\n- **Fixed और floating:** fixed rate loan में दर loan की पूरी अवधि के लिए तय रहती है; floating rate loan में दर अवधि के दौरान तय नहीं रहती।[^3]\n- **Floating दर कैसे बनती है:** benchmark में spread जोड़कर; benchmark loan contract का हिस्सा होता है। Floating दर वाले personal या retail loans (जैसे housing और auto) और MSME loans external benchmark से जुड़े होने चाहिए।[^3]\n- **हर महीने:** सभी advances पर ब्याज 'monthly rests' पर, यानी हर महीने लगाया जाता है; खेती के क़र्ज़ों के लिए अलग नियम हैं।[^3]\n- **APR:** Annual Percentage Rate क़र्ज़ की सालाना लागत है, जिसमें ब्याज दर और loan से जुड़े बाक़ी सब charges शामिल हैं।[^4]\n- **APR का उदाहरण:** RBI के निर्देशों के काल्पनिक उदाहरण में ₹20,000 का loan, 15% fixed दर, ₹970 की 24 मासिक किस्तें और ₹400 के charges हैं; APR 17.07% बैठता है।[^4]\n- **देरी का जुर्माना:** loan की शर्तें न मानने (जैसे किस्त न चुकाने) का जुर्माना 'penal charges' के रूप में ही लिया जा सकता है, 'penal interest' बनाकर ब्याज दर में जोड़कर नहीं; और penal charges पर आगे ब्याज नहीं लगता। यह नियम credit card पर लागू नहीं है।[^4]\n- **नए निर्देशों का draft:** RBI ने 12 अगस्त 2026 को loan के ब्याज पर नए निर्देशों का draft राय के लिए जारी किया है। Draft अभी नियम नहीं है; इस पन्ने की बातें 2025 के लागू निर्देशों से हैं।[^5]\n- **Floating दर बदले, तो:** EMI वाले personal loan में bank को बढ़ी EMI या अवधि की सूचना तुरंत देनी है। Borrower को EMI बढ़ाने, अवधि बढ़ाने या दोनों का विकल्प, और loan पूरा या उसका कुछ हिस्सा पहले चुकाने का विकल्प मिलना चाहिए।[^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> जमा पर ब्याज bank की website पर पहले से बताई दरों के मुताबिक ही मिलना चाहिए।[^2] 1 अक्टूबर 2024 या उसके बाद मंज़ूर हर नए retail और MSME term loan में bank को Key Facts Statement (KFS) देना है, जिसमें APR का हिसाब और किस्तों की पूरी सारणी हो।[^4]\n\n- **जो charge KFS में नहीं:** वह loan की अवधि में आपकी साफ़ सहमति के बिना नहीं लिया जा सकता।[^4]\n- **तिमाही statement:** EMI वाले floating दर के personal loan में हर तिमाही के अंत में statement: अब तक वसूला मूलधन और ब्याज, EMI की रकम, बची EMIs की गिनती, और सालाना ब्याज दर या APR।[^4]\n- **पहले चुकाना:** individuals को business से अलग काम के लिए दिए floating rate loan पर bank pre-payment charge नहीं ले सकता।[^4]\n\n## अभी क्या करें\n\n- Loan लेने से पहले KFS में APR देखिए, सिर्फ़ ब्याज दर नहीं।[^4]\n- कोई दर महीने की बताई जाए, तो उसे सालाना करके देखिए।[^1]\n- Loan की मंज़ूरी के पत्र की शर्तें पढ़िए; ये अलग-अलग संस्थाओं में अलग हो सकती हैं।[^1]\n- जमा और loan की दरें अपने bank की website पर देखिए; bank को ताज़ा दरें और service charges वहाँ दिखाने हैं।[^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "savings",
+      "term": "Savings (बचत)",
+      "aliases": [
+        "बचत"
+      ],
+      "sort": "Savings",
+      "full": "बचत · कमाई का वह हिस्सा, जो ख़र्च से पहले अलग रखा जाए",
+      "fullEn": "Savings (Saving = Income − Expenditure)",
+      "group": "पैसे की बुनियाद",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI की FAME पुस्तिका (Fourth Edition, फ़रवरी 2024) और Commercial Banks – Interest Rate on Deposits Directions, 2025 (1 अक्टूबर 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "बचत आपकी कमाई का वह हिस्सा है, जो ख़र्च में नहीं गया। RBI की पुस्तिका का तरीक़ा: कुछ भी ख़र्च करने से पहले कमाई का एक हिस्सा अलग रख दीजिए, और बाक़ी में ख़र्च चलाइए।",
+      "facts": [
+        {
+          "k": "सूत्र",
+          "v": "बचत = कमाई − ख़र्च",
+          "s": "बेहतर: ख़र्च = कमाई − बचत"
+        },
+        {
+          "k": "कहाँ बचाएँ",
+          "v": "Safety, Liquidity, Return",
+          "s": "तीन बातें, जो देखनी हैं"
+        },
+        {
+          "k": "नक़द रखा पैसा",
+          "v": "−4%",
+          "s": "महँगाई 4% हो, तो असली return (पुस्तिका का उदाहरण)"
+        },
+        {
+          "k": "Savings खाते में पड़ा पैसा",
+          "v": "Passive savings",
+          "s": "पुस्तिका के शब्द; ब्याज दर बहुत कम"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "कमाई",
+            "s": "आपकी आमदनी"
+          },
+          {
+            "t": "बचत",
+            "s": "पहले अलग रखी"
+          },
+          {
+            "t": "ख़र्च",
+            "s": "जो बचा, उसमें से"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "पहले",
+            "s": "कुछ भी ख़र्च करने से पहले"
+          },
+          {
+            "b": "फिर",
+            "s": "budget के हिसाब से"
+          }
+        ],
+        "note": "RBI की पुस्तिका के शब्द: \"You should set aside a portion of your income BEFORE you spend anything.\""
+      },
+      "myths": [
+        {
+          "m": "\"बचत वही है, जो महीने के अंत में बच जाए।\"",
+          "f": "RBI की पुस्तिका इसे उलटकर देखने को कहती है: ख़र्च = कमाई − बचत। यानी कुछ भी ख़र्च करने से पहले कमाई का एक हिस्सा अलग रखिए।[^1]"
+        },
+        {
+          "m": "\"पैसा घर में नक़द रखना ही सबसे अच्छी बचत है।\"",
+          "f": "पुस्तिका का उदाहरण: महँगाई 4% हो, तो नक़द रखे पैसे का असली return −4% है, यानी उसकी क़ीमत 4% घट गई। 6% पर जमा पैसे का असली return 2% रहा।[^1]"
+        },
+        {
+          "m": "\"जहाँ सबसे ज़्यादा return मिले, बचत वहीं लगानी चाहिए।\"",
+          "f": "पुस्तिका के मुताबिक जितने ज़्यादा return की उम्मीद, उतना ज़्यादा जोखिम; इसमें लगाई हुई रकम डूबने की संभावना भी शामिल है। बहुत जोखिम वाले या unregulated साधनों में पैसा लगाने से पूरा पैसा डूब सकता है।[^1]"
+        },
+        {
+          "m": "\"सारी बचत एक ही जगह रखना ठीक है।\"",
+          "f": "पुस्तिका के मुताबिक बचत अलग-अलग साधनों में लगी होनी चाहिए, और उसका कुछ हिस्सा ऐसी जगह हो, जहाँ से ज़रूरत पर पैसा निकाला जा सके।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "बचत क्या है?",
+          "a": "RBI की पुस्तिका के मुताबिक बचत = कमाई − ख़र्च। पुस्तिका इसे ऐसे देखने को कहती है: ख़र्च = कमाई − बचत, यानी कुछ भी ख़र्च करने से पहले कमाई का एक हिस्सा अलग रखिए।"
+        },
+        {
+          "q": "Budget क्या है, और बचत से इसका क्या रिश्ता है?",
+          "a": "RBI की पुस्तिका के मुताबिक budget आपकी आगे की कमाई और ख़र्च की योजना है; यह साल, महीने या हफ़्ते का हो सकता है। Budget हाथ में हो, तो ख़र्च पर बेहतर काबू रहता है और बचत ज़्यादा होती है।"
+        },
+        {
+          "q": "बचत कहाँ रखें, यह कैसे तय करें?",
+          "a": "RBI की पुस्तिका तीन बातें देखने को कहती है: Safety (मूलधन लौटना कितना पक्का है), Liquidity (कम से कम नुक़सान के साथ पैसा कितनी आसानी से निकल सकता है) और Return (जो साधन के प्रकार और उसके जोखिम पर निर्भर है)।"
+        },
+        {
+          "q": "Liquidity का मतलब क्या है?",
+          "a": "RBI की पुस्तिका के मुताबिक liquidity इस पर निर्भर है कि कोई asset कम से कम नुक़सान के साथ कितनी आसानी से बेचा जा सकता है। पुस्तिका bank deposits, listed और trade होने वाले equity shares और mutual funds को तुलना में ज़्यादा liquid बताती है।"
+        },
+        {
+          "q": "कौन-सी बचत सबसे सुरक्षित मानी जाती है?",
+          "a": "RBI की पुस्तिका के मुताबिक Government Bonds सबसे सुरक्षित हैं, और bank की Fixed Deposits भी तुलना में सुरक्षित मानी जाती हैं।"
+        },
+        {
+          "q": "Savings खाते में पड़ा पैसा बचत नहीं है क्या?",
+          "a": "है। पर RBI की पुस्तिका इसे 'passive savings' कहती है, क्योंकि आम savings खाते पर ब्याज दर बहुत कम होती है। पुस्तिका के मुताबिक bank की Recurring या Fixed Deposit में बेहतर return मिलता है।"
+        },
+        {
+          "q": "महँगाई बचत को कैसे घटाती है?",
+          "a": "RBI की पुस्तिका के मुताबिक महँगाई समय के साथ चीज़ों और सेवाओं के दाम बढ़ने की दर है। असली return = return − महँगाई। पुस्तिका के उदाहरण में 6% पर जमा पैसे का असली return, 4% महँगाई के बाद, 2% है; नक़द रखे पैसे का −4%।"
+        },
+        {
+          "q": "कोई योजना बहुत ज़्यादा return का वादा करे, तो?",
+          "a": "RBI की पुस्तिका के मुताबिक ज़्यादा और जल्दी return वाली योजनाएँ जोखिम भरी हो सकती हैं; योजना देने वाली संस्था की पृष्ठभूमि जाँचिए और शर्तें ध्यान से पढ़िए। जमा या किसी योजना का पैसा न लौटाने वाली संस्था की शिकायत sachet.rbi.org.in पर दर्ज की जा सकती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "FD"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "Mutual Fund"
+        },
+        {
+          "t": "SIP"
+        },
+        {
+          "t": "PPF"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "DICGC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Financial Awareness Messages (FAME), Fourth Edition, February 2024",
+          "url": "https://www.rbi.org.in/commonman/images/FAME202426022024.pdf",
+          "used": [
+            {
+              "ref": "Message 1, पन्ना 1 और 2",
+              "c": "budget क्या है और क्यों; बचत = कमाई − ख़र्च; ख़र्च से पहले हिस्सा अलग रखना; बचत के समय ध्यान रखने की बातें; Safety, Liquidity, Return"
+            },
+            {
+              "ref": "Message 2, पन्ना 4",
+              "c": "savings खाते का पैसा 'passive savings'; Recurring या Fixed Deposit में बेहतर return; nomination form भरना"
+            },
+            {
+              "ref": "Message 8, पन्ना 15",
+              "c": "महँगाई की परिभाषा; असली return के दो उदाहरण (2% और −4%)"
+            },
+            {
+              "ref": "Message 10, पन्ना 18 और 19",
+              "c": "ज़्यादा return, ज़्यादा जोखिम; ज़्यादा और जल्दी return वाली योजनाओं से सावधानी; sachet.rbi.org.in"
+            },
+            {
+              "ref": "Message 11, पन्ना 20",
+              "c": "diversification: पैसा अलग-अलग assets में लगाना"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Interest Rate on Deposits) Directions, 2025 (RBI/DOR/2025-26/153, 28 नवंबर 2025; 1 अक्टूबर 2026 तक updated)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13157",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 7(2), 7(3)",
+              "c": "जमा की दरें सभी शाखाओं और ग्राहकों के लिए एक जैसी; website पर पहले से बताई दरों के मुताबिक"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI की वित्तीय जागरूकता पुस्तिका (FAME) बचत को ऐसे समझाती है: बचत = कमाई − ख़र्च।[^1] पुस्तिका इसे उलटकर देखने को कहती है: ख़र्च = कमाई − बचत, यानी कुछ भी ख़र्च करने से पहले कमाई का एक हिस्सा अलग रख दीजिए।[^1]\n\n- **Budget:** आपकी आगे की कमाई और ख़र्च की योजना; यह साल, महीने या हफ़्ते का हो सकता है।[^1]\n- **Budget से बचत:** budget हाथ में हो, तो ख़र्च पर बेहतर काबू रहता है और बचत ज़्यादा होती है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **अलग-अलग जगह:** बचत अलग-अलग साधनों में लगी होनी चाहिए।[^1]\n- **कुछ हिस्सा हाथ में:** बचत का कुछ हिस्सा liquid assets में हो, ताकि ज़रूरत पड़ने पर पैसा निकाला जा सके।[^1]\n- **ज़्यादा जोखिम से दूर:** बहुत जोखिम वाले या unregulated साधनों में पैसा लगाने से पूरा पैसा डूब सकता है।[^1]\n\n## बचत पहले, ख़र्च बाद में | तरीक़ा\n\n::flow\n\n- Budget से तुलना करने पर दिखता है कि कहाँ ज़्यादा ख़र्च हुआ और कहाँ कम।[^1]\n- पुस्तिका के मुताबिक budget का असली मक़सद अपने पैसों की योजना बनाने में मदद करना है।[^1]\n\n## कहाँ बचाएँ: तीन बातें | कहाँ बचाएँ\n\n- **Safety:** मूलधन या निवेश का लौटना कितना पक्का है। पुस्तिका के मुताबिक Government Bonds सबसे सुरक्षित हैं, और bank की Fixed Deposits भी तुलना में सुरक्षित मानी जाती हैं।[^1]\n- **Liquidity:** कोई asset कम से कम नुक़सान के साथ कितनी आसानी से बेचा जा सकता है। पुस्तिका bank deposits, listed और trade होने वाले equity shares और mutual funds को तुलना में ज़्यादा liquid बताती है।[^1]\n- **Return:** साधन के प्रकार और उसके जोखिम पर निर्भर। पुस्तिका के मुताबिक equity share ज़्यादा return दे सकता है, पर उसमें नुक़सान का जोखिम भी ज़्यादा हो सकता है।[^1]\n\n## बचत और महँगाई | महँगाई\n\n- **महँगाई:** समय के साथ चीज़ों और सेवाओं के दाम बढ़ने की दर।[^1]\n- **6% पर जमा पैसा:** महँगाई 4% हो, तो असली return 6% − 4% = 2%।[^1]\n- **नक़द रखा पैसा:** return 0%, महँगाई 4%; असली return −4%, यानी पैसे की क़ीमत 4% घट गई।[^1]\n\n## Savings खाता और FD | खाता और FD\n\n- **Passive savings:** पुस्तिका के मुताबिक आम savings खाते के पैसे पर ब्याज दर बहुत कम होती है, इसलिए इसे 'passive savings' कहा जा सकता है।[^1]\n- **RD और FD:** पुस्तिका के मुताबिक bank की Recurring या Fixed Deposit में बेहतर return मिलता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Bank को जमा की ब्याज दरें अपनी website पर पहले से बतानी हैं, और ये दरें सभी शाखाओं और सभी ग्राहकों के लिए एक जैसी होती हैं।[^2]\n\n- **पैसा न लौटाने वाली संस्था:** जो संस्था जमा या किसी योजना का पैसा न लौटाए, उसकी जानकारी या शिकायत sachet.rbi.org.in पर दर्ज की जा सकती है।[^1]\n\n## अभी क्या करें\n\n- अपनी कमाई और ख़र्च का budget बनाइए: महीने का, हफ़्ते का या साल का।[^1]\n- कमाई आते ही बचत का हिस्सा अलग रखिए, फिर बाक़ी में ख़र्च चलाइए।[^1]\n- बचत का कुछ हिस्सा ऐसी जगह रखिए, जहाँ से ज़रूरत पर निकाला जा सके।[^1]\n- Bank में जमा खाता खोलें, तो nomination form ज़रूर भरिए।[^1]\n- कोई योजना बहुत ज़्यादा और जल्दी return का वादा करे, तो पहले संस्था की पृष्ठभूमि जाँचिए और शर्तें पढ़िए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "eps",
+      "term": "EPS",
+      "aliases": [
+        "Employees' Pension Scheme",
+        "Employees’ Pension Scheme",
+        "Employees Pension Scheme",
+        "कर्मचारी पेंशन योजना",
+        "EPS 2026",
+        "EPS 1995",
+        "EPS-95"
+      ],
+      "full": "Employees' Pension Scheme, 2026 · कर्मचारी पेंशन योजना, जो 29 जून 2026 से EPS 1995 की जगह लागू है",
+      "fullEn": "Employees' Pension Scheme, 2026 (EPS)",
+      "group": "सरकारी योजनाएँ",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। भारत के राजपत्र में छपी Employees' Pension Scheme, 2026 (G.S.R. 527(E), 29 जून 2026), उसके शुद्धिपत्र (G.S.R. 704(E), 4 अगस्त 2026) और संशोधन (G.S.R. 847(E), 25 सितंबर 2026), wage ceiling की अधिसूचना (S.O. 5109(E), 17 सितंबर 2026) और Code on Social Security, 2020 से जाँचा।"
+        }
+      ],
+      "one": "EPS (Employees' Pension Scheme) नौकरीपेशा लोगों की pension योजना है, जो EPF के साथ चलती है। 29 जून 2026 से Employees' Pension Scheme, 2026 लागू है, जिसने EPS 1995 की जगह ली। कम से कम 10 साल की eligible service हो, तो 58 साल की उम्र पूरी होने पर मासिक pension मिलती है।",
+      "facts": [
+        {
+          "k": "अभी की योजना",
+          "v": "EPS 2026",
+          "s": "29 जून 2026 से; EPS 1995 की जगह"
+        },
+        {
+          "k": "Pension के लिए",
+          "v": "10 साल",
+          "s": "कम से कम इतनी eligible service"
+        },
+        {
+          "k": "Wage ceiling",
+          "v": "₹25,000 महीना",
+          "s": "17 सितंबर 2026 से"
+        },
+        {
+          "k": "कम से कम pension",
+          "v": "₹1,000 महीना",
+          "s": "सदस्य की pension; कुछ कटौतियों के अधीन",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Employer",
+            "s": "वेतन का 8.33%, wage ceiling तक"
+          },
+          {
+            "t": "Pension Fund",
+            "s": "केंद्र सरकार 1.16% देती है"
+          },
+          {
+            "t": "सदस्य या परिवार",
+            "s": "pension या withdrawal benefit"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "हर महीने",
+            "s": "महीना ख़त्म होने के 15 दिन के भीतर"
+          },
+          {
+            "b": "दावा",
+            "s": "पूरा दावा 20 दिन में निपटना है"
+          }
+        ],
+        "note": "Scheme के मुताबिक Pension Fund में दो जगह से पैसा आता है: employer के अंशदान में से वेतन का 8.33%, और केंद्र सरकार की तरफ़ से वेतन का 1.16%। दोनों wage ceiling तक के वेतन पर।"
+      },
+      "myths": [
+        {
+          "m": "\"EPS अब भी 1995 वाली योजना है।\"",
+          "f": "नहीं। 29 जून 2026 से Employees' Pension Scheme, 2026 लागू है, जिसने Employees' Pension Scheme, 1995 और Employees' Family Pension Scheme, 1971 की जगह ली। पुरानी योजना में मंज़ूर हो चुकी pension मिलती रहती है।[^1] 11 अक्टूबर 2026 को EPFO की website के EPS वाले पन्ने पर अब भी 1995 की योजना का पाठ लगा था।[^5]"
+        },
+        {
+          "m": "\"नौकरी छोड़ते ही EPS का पैसा निकाला जा सकता है।\"",
+          "f": "नहीं। जिसकी eligible service 10 साल से कम है और जिसने 58 की उम्र से पहले नौकरी छोड़ी, वह withdrawal benefit तभी ले सकता है, जब आख़िरी अंशदान की due तारीख़ से 36 महीने बीत जाएँ, या वह 58 का हो जाए, जो भी पहले हो।[^1]"
+        },
+        {
+          "m": "\"Employer ने पैसा जमा नहीं किया, तो pension नहीं मिलेगी।\"",
+          "f": "Scheme के मुताबिक employer के अंशदान जमा न करने की वजह से किसी सदस्य या लाभार्थी को pension के फ़ायदे से मना नहीं किया जा सकता। Employer की ज़िम्मेदारी इससे ख़त्म नहीं होती।[^1]"
+        },
+        {
+          "m": "\"58 साल से पहले pension मिल ही नहीं सकती।\"",
+          "f": "मिल सकती है। 10 साल की eligible service वाला सदस्य 50 साल की उम्र हो जाने पर early pension ले सकता है, उससे पहले नहीं; तब pension हर उस साल के लिए 4% घटती है, जितने साल उम्र 58 से कम है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "EPS का पूरा नाम क्या है?",
+          "a": "Employees' Pension Scheme। अभी Employees' Pension Scheme, 2026 लागू है, जिसे केंद्र सरकार ने Code on Social Security, 2020 की धारा 15(1)(b) के तहत बनाया है।"
+        },
+        {
+          "q": "EPS 2026 कब से लागू है?",
+          "a": "29 जून 2026 से, यानी राजपत्र में छपने की तारीख़ से। इसकी अधिसूचना G.S.R. 527(E) है।"
+        },
+        {
+          "q": "EPS 1995 का क्या हुआ?",
+          "a": "Employees' Pension Scheme, 2026 ने Employees' Pension Scheme, 1995 और Employees' Family Pension Scheme, 1971 की जगह ली है। पुरानी योजनाओं में जो हो चुका, वह बना रहता है: EPS 1995 का Pension Fund Account ही नई Scheme का Pension Fund Account है, और पुरानी योजना में मंज़ूर pension मिलती रहती है।"
+        },
+        {
+          "q": "EPS का सदस्य कौन बनता है?",
+          "a": "जो कर्मचारी Employees' Provident Funds Scheme, 2026 (या छूट पाए establishment के provident fund) का सदस्य बनता है और जिसका वेतन उस दिन wage ceiling तक है। जो पहले EPS 1995 का सदस्य था, वह भी। 17 सितंबर 2026 से वह कर्मचारी भी, जो EPF Scheme, 2026 का सदस्य था पर EPS का नहीं, और नई wage ceiling की अधिसूचना के दिन जिसका वेतन ceiling तक है।"
+        },
+        {
+          "q": "Wage ceiling कितनी है?",
+          "a": "17 सितंबर 2026 से ₹25,000 महीना। केंद्र सरकार ने इसे Code on Social Security, 2020 के Chapter III के लिए अधिसूचना S.O. 5109(E) से तय किया है।"
+        },
+        {
+          "q": "EPS में कितना पैसा जाता है?",
+          "a": "Scheme के मुताबिक employer अपने अंशदान में से कर्मचारी के वेतन का 8.33% (wage ceiling तक) Pension Fund में भेजता है, और केंद्र सरकार सदस्य के वेतन का 1.16% देती है।"
+        },
+        {
+          "q": "Pension कब से मिलती है?",
+          "a": "कम से कम 10 साल की eligible service वाले सदस्य को superannuation की उम्र पूरी होने के अगले दिन से। Code on Social Security, 2020 के मुताबिक इस Chapter के लिए superannuation की उम्र 58 साल है।"
+        },
+        {
+          "q": "Pension कैसे गिनी जाती है?",
+          "a": "Scheme का सूत्र: मासिक pension = (pensionable wages × pensionable service) ÷ 70। Pensionable wages सदस्यता छोड़ने से ठीक पहले के 60 महीनों की contributory service का औसत मासिक वेतन है, wage ceiling की सीमा में।"
+        },
+        {
+          "q": "58 साल से पहले pension ले सकते हैं?",
+          "a": "हाँ। 50 साल की उम्र हो जाने पर early pension ली जा सकती है, उससे पहले नहीं। तब pension हर उस साल के लिए 4% घटती है, जितने साल उम्र 58 से कम है।"
+        },
+        {
+          "q": "10 साल से कम service हो, तो क्या मिलता है?",
+          "a": "Scheme की Table-IV के हिसाब से withdrawal benefit, या scheme certificate। 58 की उम्र से पहले नौकरी छोड़ी हो, तो withdrawal benefit आख़िरी अंशदान की due तारीख़ से 36 महीने बाद, या 58 की उम्र पर, जो भी पहले हो।"
+        },
+        {
+          "q": "सदस्य की मृत्यु पर परिवार को क्या मिलता है?",
+          "a": "Scheme के मुताबिक पात्र परिवार को pension: widow pension, और हर बच्चे को उसका 25% (एक समय में दो बच्चों तक, 25 साल की उम्र तक)। Widow pension देय न हो, तो बच्चों को orphan pension, जो widow pension का 75% है।"
+        },
+        {
+          "q": "कम से कम pension कितनी है?",
+          "a": "Scheme के मुताबिक सदस्य की मासिक pension ₹1,000 से कम नहीं होगी; early pension की कटौती जैसी कुछ कटौतियाँ इस पर लागू होती हैं। Widow pension भी relief मिलाकर ₹1,000 से कम हो, तो ₹1,000 की जाती है।"
+        },
+        {
+          "q": "दावा कितने दिन में निपटना चाहिए?",
+          "a": "Scheme के मुताबिक पूरा दावा, ज़रूरी काग़ज़ों के साथ, Commissioner को मिलने के 20 दिन के भीतर निपटना और रकम मिलनी चाहिए। दावे में कोई कमी हो, तो वह भी 20 दिन के भीतर लिखकर बतानी है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Passbook"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "PPF"
+        },
+        {
+          "t": "SCSS"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "Legal Heir"
+        }
+      ],
+      "sources": [
+        {
+          "label": "भारत का राजपत्र (असाधारण) — श्रम और रोज़गार मंत्रालय की अधिसूचना G.S.R. 527(E), 29 जून 2026: Employees' Pension Scheme, 2026 (English पाठ पन्ना 43 से)",
+          "url": "https://egazette.gov.in/WriteReadData/2026/273951.pdf",
+          "issued": "2026-06-29",
+          "effective": "2026-06-29",
+          "used": [
+            {
+              "ref": "प्रस्तावना; पैरा 1",
+              "c": "धारा 15(1)(b) के तहत; EPS 1995 और Family Pension Scheme 1971 की जगह; राजपत्र में छपने की तारीख़ से लागू"
+            },
+            {
+              "ref": "पैरा 3, 4",
+              "c": "Pension Fund Account; employer का 8.33% और केंद्र सरकार का 1.16%, wage ceiling तक; 15 दिन के भीतर जमा"
+            },
+            {
+              "ref": "पैरा 7",
+              "c": "Scheme किस पर लागू; सदस्यता कब तक"
+            },
+            {
+              "ref": "पैरा 10, 11",
+              "c": "20 साल पर 2 साल का weightage; pensionable wages: 60 महीनों का औसत"
+            },
+            {
+              "ref": "पैरा 12(1), (2), (6)",
+              "c": "10 साल की eligible service; pension का सूत्र; superannuation की उम्र के अगले दिन से"
+            },
+            {
+              "ref": "पैरा 12(7), (8), (9)",
+              "c": "early pension 50 की उम्र से पहले नहीं, 4% प्रति साल कटौती; कम से कम ₹1,000; 60 तक टालने पर 4% प्रति साल बढ़त"
+            },
+            {
+              "ref": "पैरा 12(10), (11); पैरा 13",
+              "c": "scheme certificate; withdrawal benefit (Table-IV); 36 महीने की शर्त"
+            },
+            {
+              "ref": "पैरा 14",
+              "c": "स्थायी और पूरी अक्षमता पर pension; एक महीने का अंशदान; कम से कम ₹250"
+            },
+            {
+              "ref": "पैरा 15",
+              "c": "परिवार की pension: widow, बच्चे, orphan; nominee और आश्रित माता-पिता"
+            },
+            {
+              "ref": "पैरा 16, 17",
+              "c": "employer की चूक पर भी फ़ायदा; दावा 20 दिन में; देरी पर 12% सालाना ब्याज"
+            },
+            {
+              "ref": "पैरा 21",
+              "c": "EPS 1995 में मंज़ूर फ़ायदों का भुगतान जारी"
+            },
+            {
+              "ref": "Table-IV",
+              "c": "service के महीनों के हिसाब से withdrawal benefit का अनुपात"
+            }
+          ]
+        },
+        {
+          "label": "भारत का राजपत्र (असाधारण) — श्रम और रोज़गार मंत्रालय की अधिसूचना G.S.R. 847(E), 25 सितंबर 2026: Employees' Pension Scheme, 2026 में संशोधन",
+          "url": "https://egazette.gov.in/WriteReadData/2026/276595.pdf",
+          "issued": "2026-09-25",
+          "effective": "2026-09-17",
+          "used": [
+            {
+              "ref": "पूरी अधिसूचना",
+              "c": "पैरा 7(1) में नया खंड (iii): EPF Scheme, 2026 का सदस्य, जो EPS का सदस्य नहीं था और जिसका वेतन नई ceiling तक है; 17 सितंबर 2026 से लागू"
+            }
+          ]
+        },
+        {
+          "label": "भारत का राजपत्र (असाधारण) — श्रम और रोज़गार मंत्रालय की अधिसूचना S.O. 5109(E), 17 सितंबर 2026: Code on Social Security, 2020 के Chapter III के लिए wage ceiling",
+          "url": "https://egazette.gov.in/WriteReadData/2026/276299.pdf",
+          "issued": "2026-09-17",
+          "effective": "2026-09-17",
+          "used": [
+            {
+              "ref": "पूरी अधिसूचना",
+              "c": "wage ceiling ₹25,000 महीना; राजपत्र में छपने की तारीख़ से; S.O. 2702(E) (29 मई 2026) की जगह"
+            }
+          ]
+        },
+        {
+          "label": "India Code — The Code on Social Security, 2020 (Act No. 36 of 2020), पाठ \"As on the 21th November, 2025\"",
+          "url": "https://indiacode.gov.in/act/c22e249e-93ad-4e8d-9205-ab315118f339",
+          "used": [
+            {
+              "ref": "धारा 2(82)",
+              "c": "Chapter III के लिए superannuation की उम्र 58 साल"
+            },
+            {
+              "ref": "धारा 2(89)",
+              "c": "wage ceiling: केंद्र सरकार की अधिसूचित रकम"
+            },
+            {
+              "ref": "धारा 15(1)(b)",
+              "c": "केंद्र सरकार Employees' Pension Scheme बना सकती है"
+            },
+            {
+              "ref": "धारा 16(1)(b)",
+              "c": "Pension Fund में employer के अंशदान का हिस्सा: 8 1/3 प्रतिशत से ज़्यादा नहीं, या जो अधिसूचित हो"
+            }
+          ]
+        },
+        {
+          "label": "EPFO — Pension Scheme (EPS) वाला पन्ना और उस पर लगा Scheme का पाठ (11 अक्टूबर 2026 को देखा; site पर 'Last Updated: October 8, 2026')",
+          "url": "https://www.epfo.gov.in/pension-scheme-eps/",
+          "used": [
+            {
+              "ref": "पन्ने का पहला हिस्सा; 'View Scheme'",
+              "c": "11 अक्टूबर 2026 को पन्ने पर Employees' Pension Scheme, 1995 का ही ब्योरा और पाठ था"
+            }
+          ]
+        },
+        {
+          "label": "भारत का राजपत्र (असाधारण) — श्रम और रोज़गार मंत्रालय का शुद्धिपत्र G.S.R. 704(E), 4 अगस्त 2026: Employees' Pension Scheme, 2026 की छपाई की ग़लतियाँ",
+          "url": "https://egazette.gov.in/WriteReadData/2026/275187.pdf",
+          "issued": "2026-08-04",
+          "used": [
+            {
+              "ref": "बिंदु 2",
+              "c": "पैरा 4(2) में केंद्र सरकार का अंशदान 'pay' की जगह 'wages' का 1.16%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nEPS यानी Employees' Pension Scheme। केंद्र सरकार ने 29 जून 2026 को Code on Social Security, 2020 की धारा 15(1)(b) के तहत Employees' Pension Scheme, 2026 अधिसूचित की। इसने Employees' Pension Scheme, 1995 और Employees' Family Pension Scheme, 1971 की जगह ली; पुरानी योजनाओं में जो हो चुका, वह बना रहता है।[^1]\n\n- **किस पर लागू:** जो कर्मचारी Employees' Provident Funds Scheme, 2026 (या छूट पाए establishment के provident fund) का सदस्य बनता है और जिसका वेतन उस दिन wage ceiling तक है; और जो पहले EPS 1995 का सदस्य था।[^1]\n- **Wage ceiling:** 17 सितंबर 2026 से ₹25,000 महीना।[^3]\n- **17 सितंबर 2026 का बदलाव:** Scheme अब उस कर्मचारी पर भी लागू है, जो EPF Scheme, 2026 का सदस्य था पर EPS का नहीं, और नई wage ceiling की अधिसूचना के दिन जिसका वेतन ceiling तक है।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **10 साल की service:** कम से कम 10 साल की eligible service हो, तो 58 साल की उम्र पूरी होने के अगले दिन से मासिक pension।[^1][^4]\n- **10 साल से कम:** withdrawal benefit या scheme certificate।[^1]\n- **परिवार:** सदस्य की मृत्यु पर पात्र परिवार, यानी पति या पत्नी और बच्चों, को pension।[^1]\n- **Employer की चूक:** employer के अंशदान जमा न करने की वजह से सदस्य या लाभार्थी को pension के फ़ायदे से मना नहीं किया जा सकता।[^1]\n\n## पैसा कहाँ से आता है | अंशदान\n\n::flow\n\n- **Employer:** अपने अंशदान में से कर्मचारी के वेतन का 8.33%, wage ceiling तक, हर महीने Pension Fund में; महीना ख़त्म होने के 15 दिन के भीतर।[^1]\n- **केंद्र सरकार:** सदस्य के वेतन का 1.16%।[^1][^6]\n- **Ceiling से ऊपर वेतन:** employer और केंद्र सरकार, दोनों का अंशदान ceiling तक के वेतन पर ही गिना जाता है।[^1]\n- **पुराना Fund:** EPS 1995 का Pension Fund Account ही इस Scheme का Pension Fund Account है।[^1]\n\n## Pension कितनी और कब | Pension\n\n- **सूत्र:** मासिक pension = (pensionable wages × pensionable service) ÷ 70।[^1]\n- **Pensionable wages:** सदस्यता छोड़ने से ठीक पहले के 60 महीनों की contributory service का औसत मासिक वेतन, wage ceiling की सीमा में।[^1]\n- **20 साल या ज़्यादा:** 58 की उम्र पर retire होने वाले जिस सदस्य की pensionable service 20 साल या ज़्यादा है, उसकी service में 2 साल जोड़े जाते हैं।[^1]\n- **Early pension:** 50 साल की उम्र हो जाने पर ली जा सकती है, उससे पहले नहीं; तब pension हर उस साल के लिए 4% घटती है, जितने साल उम्र 58 से कम है।[^1]\n- **Pension टालना:** 58 के बाद pension लेना 60 साल की उम्र तक टाला जा सकता है; तब 58 के बाद के हर पूरे साल पर pension 4% बढ़ती है।[^1]\n- **कम से कम:** सदस्य की मासिक pension ₹1,000 से कम नहीं होगी; early pension की कटौती जैसी कुछ कटौतियाँ इस पर लागू होती हैं।[^1]\n- **स्थायी अक्षमता:** नौकरी के दौरान स्थायी और पूरी तरह अक्षम होने पर pension, भले 10 साल की service न हुई हो; शर्त यह कि कम से कम एक महीने का अंशदान हुआ हो। यह pension कम से कम ₹250 महीना है।[^1]\n\n## 10 साल से पहले नौकरी छूटे, तो | 10 साल से पहले\n\n- **दो विकल्प:** Scheme की Table-IV के हिसाब से withdrawal benefit, या scheme certificate।[^1]\n- **36 महीने:** 58 की उम्र से पहले नौकरी छोड़ी हो, तो withdrawal benefit आख़िरी अंशदान की due तारीख़ से 36 महीने बीतने के बाद, या 58 की उम्र पर, जो भी पहले हो।[^1]\n- **Table-IV की मिसाल:** 12 महीने की service पर नौकरी छोड़ते समय के वेतन का 1.02 गुना; 60 महीने पर 5.02 गुना; 108 महीने पर 9.33 गुना।[^1]\n- **Scheme certificate:** इसमें pensionable service, pensionable wages और नौकरी छोड़ने की तारीख़ पर बनती pension लिखी होती है। आगे Scheme वाली किसी नौकरी में जाने पर पुरानी service नई service के साथ गिनी जाती है।[^1]\n\n## परिवार को pension | परिवार\n\n- **Widow pension:** pension शुरू होने के बाद सदस्य की मृत्यु हो, तो सदस्य की pension का 50%, कम से कम ₹450; relief मिलाकर ₹1,000 से कम हो, तो ₹1,000। यह मृत्यु या दोबारा शादी तक मिलती है।[^1]\n- **बच्चे:** हर बच्चे को widow pension का 25%, कम से कम ₹250; 25 साल की उम्र तक; एक समय में दो बच्चों तक। स्थायी और पूरी तरह अक्षम बच्चे पर उम्र और गिनती की यह सीमा नहीं है।[^1]\n- **Orphan pension:** widow pension देय न हो, तो बच्चों को widow pension का 75%, कम से कम ₹750; 25 साल की उम्र तक।[^1]\n- **Nominee:** जो सदस्य अविवाहित है, या जिसका पति या पत्नी या पात्र बच्चा नहीं है, वह किसी को nominate कर सकता है; बाद में परिवार बनने पर यह nomination बेअसर हो जाता है। Nomination भी न हो, तो pension आश्रित पिता को, और उनके बाद माँ को।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> पूरा दावा, ज़रूरी काग़ज़ों के साथ, Commissioner को मिलने के 20 दिन के भीतर निपटना चाहिए और रकम मिल जानी चाहिए।[^1]\n\n- **कमी हो, तो:** दावे में कोई कमी हो, तो वह 20 दिन के भीतर लिखकर बतानी है।[^1]\n- **देरी पर:** Commissioner बिना काफ़ी वजह के पूरा दावा 20 दिन में न निपटाए, तो देरी के समय के लिए रकम पर 12% सालाना ब्याज लगाया जा सकता है, जो उसके वेतन से काटा जा सकता है।[^1]\n\n## अभी क्या करें\n\n- आप EPF के सदस्य हैं और आपका वेतन ₹25,000 तक है, तो अपने employer या EPFO से पूछिए कि आप EPS के सदस्य हैं या नहीं।[^2][^3]\n- नौकरी बदलें, तो पुरानी pensionable service नई के साथ जुड़वाइए; scheme certificate इसी काम का है।[^1]\n- आप अविवाहित हैं या आपका पात्र परिवार नहीं है, तो nomination कीजिए।[^1]\n- EPFO की website पर अभी 1995 की योजना का पाठ लगा है; 2026 की Scheme का पाठ राजपत्र की अधिसूचना में है।[^1][^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
