@@ -3844,6 +3844,2201 @@
         }
       ],
       "body": "## मतलब\n\nप्रधानमंत्री जन धन योजना (PMJDY) financial inclusion का राष्ट्रीय मिशन है, ताकि लोगों को basic bank खाता, पैसा भेजने की सुविधा, क़र्ज़, बीमा और पेंशन किफ़ायती तरीक़े से मिल सके।[^1] इसका portal वित्त मंत्रालय के Department of Financial Services का Mission Office चलाता है।[^5]\n\n- **कौन खोल सकता है:** जिसके पास कोई और bank खाता नहीं।[^1]\n- **कहाँ:** किसी भी bank शाखा में, या Business Correspondent (Bank Mitra) के outlet पर। यह basic savings bank deposit (BSBD) खाता होता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Balance की चिंता नहीं:** minimum balance रखना ज़रूरी नहीं, और जमा पर ब्याज मिलता है।[^1]\n- **Card:** खाते के साथ RuPay debit card मिलता है।[^1]\n- **सरकारी पैसा सीधे खाते में:** खाता DBT और PMJJBY, PMSBY, Atal Pension Yojana, MUDRA जैसी योजनाओं के लिए योग्य है।[^1]\n\n## Jan Dhan कैसे काम करता है | कैसे\n\n::flow\n\n- **कितने खाते:** PMJDY portal के मुताबिक 30 सितंबर 2026 तक 59.49 करोड़ खाते थे, जिनमें ₹3,19,841.48 करोड़ जमा थे।[^4]\n\n## Overdraft और बीमा | Overdraft, बीमा\n\n- **Overdraft:** योग्य खाताधारकों को ₹10,000 तक।[^1] सरकार ने यह सीमा ₹5,000 से बढ़ाकर ₹10,000 की थी; ₹2,000 तक कोई शर्त नहीं, और उम्र 18 से 65 साल।[^2]\n- **दुर्घटना बीमा:** RuPay card के साथ ₹1 लाख; 28.8.2018 के बाद खुले नए खातों के लिए ₹2 लाख।[^1][^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> PMJDY खाते में minimum balance रखना ज़रूरी नहीं।[^1] PIB के मुताबिक इस खाते को खोलने की कोई fees या maintenance charge नहीं है।[^3]\n\n## अभी क्या करें\n\n- आपके पास कोई bank खाता नहीं, तो पास की bank शाखा या Bank Mitra से PMJDY खाता खुलवाइए।[^1]\n- Overdraft के बारे में अपने bank से पूछिए; उम्र 18 से 65 साल होनी चाहिए।[^2]\n- जानकारी के लिए National Toll Free नंबर: 1800 11 0001 या 1800 180 1111।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "joint-account",
+      "term": "Joint Account",
+      "aliases": [
+        "Joint Accounts",
+        "Joint deposit account",
+        "Joint deposit accounts"
+      ],
+      "full": "साझा खाता · एक से ज़्यादा लोगों के नाम पर bank खाता",
+      "fullEn": "Joint Account (joint deposit account)",
+      "group": "बैंकिंग",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। Banking Companies (Nomination) Rules, 2025 (भारत का राजपत्र, G.S.R. 790(E)), RBI के Responsible Business Conduct Directions, 2025 और Know Your Customer Directions, 2025 (दोनों 1 अक्टूबर 2026 तक updated) और DICGC के FAQ से जाँचा।"
+        }
+      ],
+      "one": "Joint Account bank का ऐसा deposit खाता है, जो एक से ज़्यादा लोगों के नाम पर हो। इसमें सभी खाताधारकों का KYC होता है, nominee सब मिलकर तय करते हैं, और nominee का हक़ सभी खाताधारकों के न रहने पर ही बनता है।",
+      "facts": [
+        {
+          "k": "KYC किसका",
+          "v": "सभी खाताधारकों का",
+          "s": "joint खाता खोलते समय"
+        },
+        {
+          "k": "Nominee बदलना या रद्द करना",
+          "v": "सभी की सहमति से",
+          "s": "किसी एक के कहने से मान्य नहीं"
+        },
+        {
+          "k": "Nominee का हक़",
+          "v": "सभी के न रहने पर",
+          "s": "किसी एक की मृत्यु पर नहीं"
+        },
+        {
+          "k": "जमा बीमा",
+          "v": "अलग से ₹5 लाख तक",
+          "s": "अपने अकेले खातों के अलावा",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "सभी खाताधारक",
+            "s": "हर एक का KYC"
+          },
+          {
+            "t": "खाता चलाने का निर्देश",
+            "s": "जैसे 'Either or Survivor'"
+          },
+          {
+            "t": "Nominee",
+            "s": "सब मिलकर, 4 तक"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "खाता खुला",
+            "s": "bank को सबकी पहचान जाँचनी है"
+          },
+          {
+            "b": "Nomination",
+            "s": "सभी खाताधारक मिलकर"
+          }
+        ],
+        "note": "किसी एक खाताधारक की मृत्यु पर रकम किसे मिलेगी, यह खाता चलाने के निर्देश (survivorship clause) से तय होता है; nominee की बारी सभी खाताधारकों के न रहने पर आती है।"
+      },
+      "myths": [
+        {
+          "m": "\"Joint खाते में एक खाताधारक नहीं रहा, तो रकम nominee को मिलेगी।\"",
+          "f": "नहीं। Joint deposit खाते में, survivorship clause हो या न हो, nominee का हक़ सभी खाताधारकों की मृत्यु के बाद ही बनता है।[^2]"
+        },
+        {
+          "m": "\"Joint खाते का nominee कोई भी एक खाताधारक अकेले बदल सकता है।\"",
+          "f": "नहीं। एक से ज़्यादा खाताधारकों वाले deposit में nomination रद्द करना या बदलना तभी मान्य है, जब सभी खाताधारक मिलकर करें।[^1]"
+        },
+        {
+          "m": "\"Joint FD में नाम जोड़ने या हटाने पर रकम या अवधि बदल जाती है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक नाम जोड़ने या हटाने पर भी FD की मूल रकम या अवधि किसी भी हाल में नहीं बदलती।[^2]"
+        },
+        {
+          "m": "\"मेरे अकेले खाते और joint खाते, दोनों का जमा बीमा मिलाकर ₹5 लाख ही है।\"",
+          "f": "नहीं। DICGC के मुताबिक joint खाता अलग हैसियत (different capacity) का माना जाता है, और उस पर ₹5 लाख तक का बीमा अलग से मिलता है।[^4]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Joint खाता खोलते समय KYC किसका होता है?",
+          "a": "सभी खाताधारकों का। RBI के KYC निर्देशों के मुताबिक joint खाता खोलते समय bank को सभी joint खाताधारकों के लिए customer due diligence (CDD) करनी है।"
+        },
+        {
+          "q": "Joint खाते में बाद में किसी का नाम जोड़ या हटा सकते हैं?",
+          "a": "सभी joint खाताधारकों की request पर bank, हालात देखकर, नाम जोड़ने या हटाने की इजाज़त दे सकता है। अकेला खाताधारक भी किसी और का नाम joint खाताधारक के तौर पर जुड़वा सकता है। FD में इससे मूल रकम या अवधि नहीं बदलती।"
+        },
+        {
+          "q": "क्या joint FD को हर खाताधारक के नाम पर अलग-अलग बाँट सकते हैं?",
+          "a": "सभी joint खाताधारकों की request पर bank चाहे तो ऐसा कर सकता है, सिर्फ़ उन्हीं खाताधारकों के नाम पर, और शर्त यह है कि FD की अवधि और कुल रकम न बदले।"
+        },
+        {
+          "q": "Joint खाते में कितने nominee रख सकते हैं?",
+          "a": "Banking Companies (Nomination) Rules, 2025 के मुताबिक सभी खाताधारक मिलकर चार तक लोगों को nominee बना सकते हैं, एक साथ (simultaneous) या एक के बाद एक (successive)।"
+        },
+        {
+          "q": "एक खाताधारक की मृत्यु हो जाए, तो रकम किसे मिलती है?",
+          "a": "यह खाता चलाने के निर्देश पर निर्भर है, जैसे 'Either or Survivor' या 'Former or Survivor'। इसका पूरा ब्योरा Survivorship Clause पन्ने पर है। Nominee का हक़ सभी खाताधारकों के न रहने पर ही बनता है।"
+        },
+        {
+          "q": "एक ही लोगों के कई joint खाते हों, तो जमा बीमा कैसे गिना जाता है?",
+          "a": "DICGC के मुताबिक जिन joint खातों में वही लोग उसी क्रम में हों, उनकी रकम जोड़कर ₹5 लाख की सीमा लगती है। नामों का क्रम अलग हो (जैसे A, B और B, A), या लोग अलग हों, तो हर ऐसे खाते पर ₹5 लाख तक का बीमा अलग से मिलता है।"
+        },
+        {
+          "q": "ये नियम किन banks पर लागू हैं?",
+          "a": "यहाँ लिखे RBI के निर्देश commercial banks के लिए हैं; small finance, payments और local area banks इनमें शामिल नहीं। Nomination के नियम Banking Regulation Act के तहत बने Banking Companies (Nomination) Rules, 2025 से हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Survivorship Clause"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "Nomination Form"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "DICGC"
+        },
+        {
+          "t": "FD"
+        },
+        {
+          "t": "Legal Heir"
+        },
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "Locker"
+        }
+      ],
+      "sources": [
+        {
+          "label": "भारत का राजपत्र (असाधारण), भाग II, खंड 3(i) — Banking Companies (Nomination) Rules, 2025 (G.S.R. 790(E), वित्त मंत्रालय, वित्तीय सेवाएँ विभाग, F. No. 7/19/2023-BOA-I); राजपत्र के पन्ने 6–10, Tripura High Court की website पर रखी copy",
+          "url": "https://thc.nic.in/Central%20Governmental%20Rules/Banking%20Companies%20(Nomination)%20Rules,%202025.pdf",
+          "issued": "2025-10-27",
+          "effective": "2025-11-01",
+          "used": [
+            {
+              "ref": "नियम 2(1)",
+              "c": "एक या ज़्यादा लोगों के deposit में सभी खाताधारक मिलकर nomination; चार तक nominee"
+            },
+            {
+              "ref": "नियम 2(11)",
+              "c": "joint deposit में nomination रद्द करना या बदलना सभी खाताधारकों से ही मान्य"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "ये निर्देश commercial banks पर; small finance, payments, local area banks शामिल नहीं"
+            },
+            {
+              "ref": "पैरा 4(1)",
+              "c": "'Either or Survivor', 'Former or Survivor' जैसे निर्देश वाले joint खाते"
+            },
+            {
+              "ref": "पैरा 174",
+              "c": "सभी की request पर नाम जोड़ना या हटाना; FD की रकम या अवधि नहीं बदलती"
+            },
+            {
+              "ref": "पैरा 175",
+              "c": "सभी की request पर joint FD को हर खाताधारक के नाम पर बाँटना"
+            },
+            {
+              "ref": "पैरा 285",
+              "c": "joint खाते में nominee का हक़ सभी की मृत्यु के बाद"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025 (RBI/DOR/2025-26/169; DOR.AML.REC.No.88/14.01.002/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/169MD.pdf",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 17(7)",
+              "c": "joint खाता खोलते समय सभी खाताधारकों की CDD"
+            }
+          ]
+        },
+        {
+          "label": "DICGC — FAQs, Depositors (पन्ने पर तारीख़ और सवालों के नंबर नहीं हैं; सवाल ऊपर से गिना गया है)",
+          "url": "https://www.dicgc.org.in/faqs",
+          "used": [
+            {
+              "ref": "सवाल 10",
+              "c": "joint खाता अलग हैसियत, अलग से ₹5 लाख तक; वही लोग उसी क्रम में हों, तो खाते जोड़े जाते हैं"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nJoint Account यानी bank का ऐसा deposit खाता, जो एक से ज़्यादा लोगों के नाम पर हो। Banking Companies (Nomination) Rules, 2025 में इसके लिए 'एक से ज़्यादा जमाकर्ताओं (depositors) के नाम पर रखा deposit' की बात है।[^1]\n\n- **कहाँ लागू:** नीचे लिखे RBI के निर्देश commercial banks पर लागू हैं; small finance, payments और local area banks इनमें शामिल नहीं।[^2][^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **सबका KYC:** joint खाता खोलते समय bank को सभी खाताधारकों की पहचान की जाँच (CDD) करनी है।[^3]\n- **Nominee सब मिलकर:** joint खाते में nomination सभी खाताधारक मिलकर करते हैं, चार तक लोगों के नाम।[^1] उसे रद्द करना या बदलना भी तभी मान्य है, जब सभी मिलकर करें।[^1]\n- **Nominee की बारी आख़िर में:** nominee का हक़ सभी खाताधारकों की मृत्यु के बाद ही बनता है।[^2]\n- **जमा बीमा अलग:** DICGC के मुताबिक joint खाते पर ₹5 लाख तक का बीमा आपके अकेले खातों से अलग मिलता है।[^4]\n\n## Joint खाता कैसे चलता है | कैसे\n\n::flow\n\n- **खाता चलाने का निर्देश:** joint खाता 'Either or Survivor', 'Former or Survivor' जैसे निर्देश के साथ खुल सकता है।[^2] एक खाताधारक के न रहने पर क्या होता है, यह Survivorship Clause पन्ने पर है।\n- **नाम जोड़ना या हटाना:** सभी joint खाताधारकों की request पर bank, हालात देखकर, किसी का नाम जोड़ने या हटाने की इजाज़त दे सकता है; अकेला खाताधारक भी किसी और का नाम जुड़वा सकता है।[^2]\n- **FD पर असर नहीं:** नाम जोड़ने या हटाने से FD की मूल रकम या अवधि किसी भी हाल में नहीं बदलती।[^2]\n- **Joint FD बाँटना:** सभी की request पर bank चाहे तो joint FD को हर खाताधारक के नाम पर अलग-अलग बाँट सकता है, बशर्ते अवधि और कुल रकम न बदले।[^2]\n\n## Joint खाता और जमा बीमा | जमा बीमा\n\n- **अलग हैसियत:** DICGC के मुताबिक आपका अकेला खाता और किसी के साथ joint खाता अलग-अलग हैसियत (different capacity) के माने जाते हैं, इसलिए दोनों पर ₹5 लाख तक का बीमा अलग से मिलता है।[^4]\n- **वही लोग, वही क्रम:** एक bank में जिन joint खातों में वही लोग उसी क्रम में हों, उनकी रकम जोड़कर ₹5 लाख की सीमा लगती है।[^4]\n- **क्रम या लोग अलग:** नामों का क्रम अलग हो, या लोग अलग हों, तो हर ऐसे joint खाते पर सीमा अलग लगती है।[^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Joint खाते का nomination रद्द करना या बदलना तभी मान्य है, जब सभी खाताधारक मिलकर करें; कोई एक खाताधारक अकेले इसे नहीं बदल सकता।[^1]\n\n## अभी क्या करें\n\n- अपने joint खाते के काग़ज़ में देखिए कि खाता किस निर्देश पर चलता है, जैसे 'Either or Survivor'।[^2]\n- Nominee दर्ज नहीं है, तो सभी खाताधारक मिलकर nomination कीजिए।[^1]\n- Joint FD में किसी का नाम जोड़ना, हटाना या FD बाँटनी हो, तो सभी खाताधारक मिलकर bank को request दीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "nomination-form",
+      "term": "Nomination Form",
+      "aliases": [
+        "Nomination Forms"
+      ],
+      "full": "नामांकन का form · bank deposit, locker और safe custody के लिए",
+      "fullEn": "Nomination Form (Banking Companies (Nomination) Rules, 2025)",
+      "group": "बैंकिंग",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। Banking Companies (Nomination) Rules, 2025 (भारत का राजपत्र, G.S.R. 790(E), 27 अक्टूबर 2025) और RBI के Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Nomination Form वह form है, जिससे आप bank deposit, locker या safe custody के लिए nominee दर्ज करते हैं, बदलते हैं या रद्द करते हैं। 1 नवंबर 2025 से तीनों कामों के लिए एक ही form है, और bank सुविधा दे, तो यही काम online (e-nomination) से भी हो सकता है।",
+      "facts": [
+        {
+          "k": "कितने nominee",
+          "v": "4 तक",
+          "s": "form में 4 से ज़्यादा नाम हों, तो पहले 4 माने जाते हैं"
+        },
+        {
+          "k": "नया form भरा",
+          "v": "पुराना nomination बदला या रद्द",
+          "s": "अलग से रद्द कराना ज़रूरी नहीं"
+        },
+        {
+          "k": "FD renew हुई",
+          "v": "Nomination बना रहता है",
+          "s": "सिर्फ़ renewal से ख़त्म नहीं होता",
+          "good": true
+        },
+        {
+          "k": "Bank की पावती",
+          "v": "3 working दिन में",
+          "s": "माँगें या न माँगें",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप",
+            "s": "form भरते हैं या e-nomination करते हैं"
+          },
+          {
+            "t": "Bank",
+            "s": "जाँचकर अपने record में दर्ज करता है"
+          },
+          {
+            "t": "पावती",
+            "s": "लिखित या electronic"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "दस्तख़त",
+            "s": "या e-authentication"
+          },
+          {
+            "b": "3 working दिन",
+            "s": "पावती, या नामंज़ूरी की लिखित वजह"
+          }
+        ],
+        "note": "Form में nominee का ब्योरा भरते समय deposit के लिए या तो हर nominee का प्रतिशत भरिए (simultaneous), या उनका क्रम (successive); दोनों नहीं।"
+      },
+      "myths": [
+        {
+          "m": "\"Nominee बदलने से पहले पुराना nomination अलग से रद्द कराना पड़ता है।\"",
+          "f": "नहीं। Nomination रद्द करना या बदलना नए nomination से ही होता है, और हर नया nomination पिछले को रद्द कर देता है या बदल देता है।[^1]"
+        },
+        {
+          "m": "\"FD renew हुई, तो nomination फिर से भरना पड़ेगा।\"",
+          "f": "नहीं। Nomination, या उसे रद्द करना या बदलना, सिर्फ़ deposit के renewal की वजह से बेअसर नहीं होता।[^1]"
+        },
+        {
+          "m": "\"जो पढ़-लिख नहीं सकता, वह nomination नहीं कर सकता।\"",
+          "f": "कर सकता है। ऐसे व्यक्ति के लिए दस्तख़त का मतलब अँगूठे का निशान है, जिसे दो गवाह प्रमाणित करें।[^1]"
+        },
+        {
+          "m": "\"Form में जितने नाम लिख दें, सब nominee बन जाते हैं।\"",
+          "f": "नहीं। गलती से या किसी और वजह से form में चार से ज़्यादा नाम लिखे गए, तो क्रम में पहले आए चार नाम ही माने जाएँगे।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Nominee दर्ज करने, बदलने और रद्द करने के अलग-अलग form हैं?",
+          "a": "नहीं। Banking Companies (Nomination) Rules, 2025 के साथ एक ही form है: bank deposit, safe custody में रखी चीज़ों और locker के लिए nomination, उसे रद्द करना और बदलना। ये नियम 1 नवंबर 2025 से लागू हैं, और 1985 के पुराने nomination नियमों की जगह आए हैं।"
+        },
+        {
+          "q": "Form में क्या-क्या भरना होता है?",
+          "a": "Bank और खाते या locker का ब्योरा; हर nominee का नाम, पता, उम्र, और हो तो email या mobile और रिश्ता; deposit के लिए हर nominee का प्रतिशत या उनका क्रम; कोई nominee नाबालिग हो, तो guardian का ब्योरा; और आख़िर में आपके दस्तख़त या e-authentication।"
+        },
+        {
+          "q": "Simultaneous nomination में प्रतिशत कैसे भरें?",
+          "a": "सभी nominees का कुल प्रतिशत ठीक 100 होना चाहिए। Deposit के लिए प्रतिशत वाला column और क्रम वाला column, इनमें से एक ही भरना है। Locker और safe custody में प्रतिशत वाला column लागू नहीं; वहाँ सिर्फ़ क्रम से (successive) nomination होता है।"
+        },
+        {
+          "q": "क्रम नहीं लिखा, तो?",
+          "a": "Form के नोट के मुताबिक एक से ज़्यादा nominee हों, तो उनका क्रम वही माना जाएगा, जिस क्रम में उनके नाम लिखे हैं।"
+        },
+        {
+          "q": "क्या nomination online हो सकता है?",
+          "a": "हाँ, अगर bank ने e-nomination की सुविधा दी हो। Bank के system में चार तक nominee, form का पूरा ब्योरा, आपकी पहचान की पुष्टि, और हर nomination पर आपको alert भेजने की व्यवस्था होनी चाहिए। Internet या mobile banking app से करने पर कम से कम two-factor authentication ज़रूरी है।"
+        },
+        {
+          "q": "Nominee नाबालिग हो, तो?",
+          "a": "आप nomination करते समय किसी बालिग व्यक्ति को तय कर सकते हैं, जो nominee के नाबालिग रहते आपकी मृत्यु होने पर उसकी तरफ़ से रकम ले। Form में इसके लिए guardian के ब्योरे की अलग जगह है।"
+        },
+        {
+          "q": "खाता नाबालिग के नाम पर है, तो form कौन भरेगा?",
+          "a": "वह व्यक्ति, जो क़ानूनी तौर पर नाबालिग की तरफ़ से काम करने का हक़दार है।"
+        },
+        {
+          "q": "Joint खाते में form पर किसके दस्तख़त?",
+          "a": "सभी खाताधारकों के। Nomination सभी खाताधारक मिलकर करते हैं, और उसे रद्द करना या बदलना भी सभी के करने पर ही मान्य है।"
+        },
+        {
+          "q": "एक nomination दूसरे खातों पर भी लागू हो सकता है?",
+          "a": "हाँ। आप bank से कह सकते हैं कि आपका nomination उसी bank के आपके दूसरे खातों पर भी लागू हो। Bank मान ले, तो हर खाते के लिए अलग nomination हुआ माना जाता है। Form में लिखा है कि nomination उसमें बताए सभी खातों, lockers या चीज़ों पर लागू है, जब तक कुछ और न लिखा हो।"
+        },
+        {
+          "q": "Form जमा करने के बाद bank क्या करेगा?",
+          "a": "Bank form को अपने record में दर्ज करता है और उसकी पावती लिखित या electronic रूप में देता है। RBI के निर्देशों के मुताबिक पावती form मिलने के 3 working दिन में देनी है, चाहे आपने माँगी हो या नहीं। Nomination नियमों के मुताबिक न हो और नामंज़ूर हो, तो bank को 3 working दिन में लिखित वजह बतानी है।"
+        },
+        {
+          "q": "क्या EPF या बीमा का nomination bank खाते के लिए चल जाएगा?",
+          "a": "नहीं। RBI के निर्देशों के मुताबिक किसी दूसरे क़ानून के तहत, किसी ख़ास मक़सद से किए nomination के आधार पर भुगतान करने पर bank Banking Regulation Act के तहत अपनी ज़िम्मेदारी पूरी हुई नहीं मान सकता। Bank खाते के लिए अलग से nomination कीजिए।"
+        },
+        {
+          "q": "Form किस भाषा में मिलेगा?",
+          "a": "Form के नोट के मुताबिक bank इसे उस भाषा में अनुवाद कर सकता है, जिसे दस्तख़त करने वाला समझता हो।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "Joint Account"
+        },
+        {
+          "t": "Survivorship Clause"
+        },
+        {
+          "t": "Minor (नाबालिग)"
+        },
+        {
+          "t": "Locker"
+        },
+        {
+          "t": "FD"
+        },
+        {
+          "t": "Legal Heir"
+        },
+        {
+          "t": "Banking Regulation Act"
+        },
+        {
+          "t": "Passbook"
+        }
+      ],
+      "sources": [
+        {
+          "label": "भारत का राजपत्र (असाधारण), भाग II, खंड 3(i) — Banking Companies (Nomination) Rules, 2025 (G.S.R. 790(E), वित्त मंत्रालय, वित्तीय सेवाएँ विभाग, F. No. 7/19/2023-BOA-I); राजपत्र के पन्ने 6–10, Tripura High Court की website पर रखी copy",
+          "url": "https://thc.nic.in/Central%20Governmental%20Rules/Banking%20Companies%20(Nomination)%20Rules,%202025.pdf",
+          "issued": "2025-10-27",
+          "effective": "2025-11-01",
+          "used": [
+            {
+              "ref": "शुरुआती पैरा; नियम 1(2)",
+              "c": "1985 के banking companies और co-operative banks वाले नियमों की जगह; 1 नवंबर 2025 से लागू"
+            },
+            {
+              "ref": "नियम 2(1), 3(1), 4(1)",
+              "c": "deposit में चार तक, एक साथ या क्रम से; locker और safe custody में सिर्फ़ क्रम से"
+            },
+            {
+              "ref": "नियम 2(2), 2(3), 2(4)",
+              "c": "annexed Nomination Form या e-nomination; e-nomination की शर्तें; app पर कम से कम two-factor"
+            },
+            {
+              "ref": "नियम 2(6), 2(7)",
+              "c": "नाबालिग nominee के लिए बालिग व्यक्ति; नाबालिग के खाते में क़ानूनी हक़दार भरेगा"
+            },
+            {
+              "ref": "नियम 2(8), 2(9), 2(10)",
+              "c": "बदलना या रद्द करना नए nomination से; नया पिछले को रद्द या बदलता है; कभी भी"
+            },
+            {
+              "ref": "नियम 2(11)",
+              "c": "joint deposit में रद्द करना या बदलना सभी खाताधारकों से ही मान्य"
+            },
+            {
+              "ref": "नियम 2(12), 2(13)",
+              "c": "पावती लिखित या electronic; bank के record में दर्ज"
+            },
+            {
+              "ref": "नियम 2(14), 2(15), 2(16)",
+              "c": "renewal से ख़त्म नहीं; दूसरे खातों पर लागू करना; चार से ज़्यादा नाम हों, तो पहले चार"
+            },
+            {
+              "ref": "Form: नोट (iii)–(vi)",
+              "c": "प्रतिशत या क्रम में से एक; कुल 100%; locker में प्रतिशत नहीं; क्रम न लिखा, तो नामों का क्रम"
+            },
+            {
+              "ref": "Form: भाग 4, 5 और नोट",
+              "c": "guardian का ब्योरा; अँगूठे का निशान दो गवाहों से प्रमाणित; bank अनुवाद कर सकता है"
+            },
+            {
+              "ref": "Form: Instructions 3",
+              "c": "nomination form में बताए सभी खातों, lockers, चीज़ों पर, जब तक कुछ और न लिखा हो"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 271",
+              "c": "दूसरे क़ानून के तहत किए nomination पर भुगतान से bank की ज़िम्मेदारी पूरी नहीं"
+            },
+            {
+              "ref": "पैरा 275, 276",
+              "c": "3 working दिन में पावती; नामंज़ूर हो, तो 3 working दिन में लिखित वजह"
+            },
+            {
+              "ref": "पैरा 280",
+              "c": "खाता खोलने, locker और safe custody के form में nomination की जगह"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNomination Form वह form है, जिससे आप bank में अपने deposit, safe custody में रखी चीज़ों या locker के लिए nominee दर्ज करते हैं, उसे बदलते हैं या रद्द करते हैं। Banking Companies (Nomination) Rules, 2025 के साथ इन तीनों कामों के लिए एक ही form दिया गया है।[^1]\n\n- **कब से:** ये नियम 1 नवंबर 2025 से लागू हैं, और banking companies और co-operative banks के 1985 वाले nomination नियमों की जगह आए हैं।[^1]\n- **दो तरीक़े:** nomination इसी form से हो सकता है, या bank ने सुविधा दी हो, तो electronic या digital तरीक़े (e-nomination) से।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **चार तक nominee:** deposit के लिए एक साथ (simultaneous) या क्रम से (successive); locker और safe custody के लिए सिर्फ़ क्रम से।[^1]\n- **हर बार नया form:** nominee बदलना या रद्द करना नए nomination से ही होता है, और हर नया nomination पिछले को रद्द कर देता है या बदल देता है। यह कभी भी किया जा सकता है, जब तक deposit bank में है।[^1]\n- **Renewal से फ़र्क़ नहीं:** FD जैसे deposit के renewal से nomination ख़त्म नहीं होता।[^1]\n- **खाता खोलते समय ही:** bank के खाता खोलने, locker और safe custody के form में nomination के ब्योरे की जगह होनी चाहिए।[^2]\n\n## Form कैसे भरें | कैसे भरें\n\n::flow\n\n- **खाते का ब्योरा:** bank, शाखा, customer ID या खाता या locker number, और खाताधारकों के नाम।[^1]\n- **Nominee का ब्योरा:** नाम, पता, उम्र; हो तो email या mobile, और खाताधारक से रिश्ता।[^1]\n- **प्रतिशत या क्रम:** deposit के लिए प्रतिशत और क्रम वाले column में से एक ही भरना है। प्रतिशत भरें, तो कुल ठीक 100 होना चाहिए।[^1]\n- **क्रम न लिखा हो:** तो nominee उसी क्रम में माने जाएँगे, जिस क्रम में उनके नाम लिखे हैं।[^1]\n- **नाबालिग nominee:** आप किसी बालिग व्यक्ति को तय कर सकते हैं, जो nominee के नाबालिग रहते आपकी मृत्यु होने पर रकम ले; form में guardian के ब्योरे की जगह है।[^1]\n- **दस्तख़त:** जो पढ़-लिख नहीं सकता, उसके लिए अँगूठे का निशान, जिसे दो गवाह प्रमाणित करें।[^1]\n\n## Online nomination (e-nomination) | e-nomination\n\n- Bank e-nomination की सुविधा तभी दे सकता है, जब उसमें चार तक nominee रखने, form का पूरा ब्योरा लेने, आपकी पहचान की पुष्टि करने और हर nomination पर आपको alert भेजने की व्यवस्था हो।[^1]\n- Internet या mobile banking app से nomination करने पर कम से कम two-factor authentication ज़रूरी है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Nomination का form मिलने के 3 working दिन में bank को पावती देनी है, चाहे आपने माँगी हो या नहीं। Form नामंज़ूर हो, तो 3 working दिन में लिखित वजह बतानी है।[^2]\n\n## अभी क्या करें\n\n- Form की copy और bank की पावती सँभालकर रखिए।[^1][^2]\n- Simultaneous nomination कर रहे हों, तो प्रतिशत जोड़कर देख लीजिए कि कुल 100 है।[^1]\n- Nominee नाबालिग है, तो form में guardian का ब्योरा भरिए।[^1]\n- एक ही nomination उसी bank के दूसरे खातों पर भी चाहिए, तो bank से इसकी request कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "bank-charges",
+      "term": "Bank Charges",
+      "aliases": [
+        "Bank Charge",
+        "बैंक चार्ज"
+      ],
+      "full": "बैंक के सेवा शुल्क · bank की सेवाओं के बदले लिए जाने वाले charges",
+      "fullEn": "Bank Charges (Service Charges)",
+      "group": "बैंकिंग",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Bank Charges वे शुल्क हैं, जो bank अपनी सेवाओं के बदले लेता है, जैसे cheque book, DD या SMS alert के लिए। RBI के निर्देशों के मुताबिक ये उचित होने चाहिए, पहले से बताए जाने चाहिए, और इनमें बदलाव से कम से कम 30 दिन पहले ग्राहक को सूचना मिलनी चाहिए।",
+      "facts": [
+        {
+          "k": "Charge बदलने की सूचना",
+          "v": "30 दिन पहले",
+          "s": "कम से कम; पहले सूचना, फिर बदलाव"
+        },
+        {
+          "k": "बदलाव मंज़ूर न हो",
+          "v": "खाता छोड़ सकते हैं",
+          "s": "उन्हीं 30 दिनों में, बिना किसी लागत के",
+          "good": true
+        },
+        {
+          "k": "SMS alert का charge",
+          "v": "असल इस्तेमाल पर",
+          "s": "जितने SMS सच में भेजे गए, उसी हिसाब से"
+        },
+        {
+          "k": "Home शाखा पर मुफ़्त सेवा",
+          "v": "दूसरी शाखा पर भी मुफ़्त",
+          "s": "intersol charges में भेदभाव नहीं",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank",
+            "s": "Board या उसकी Committee की मंज़ूरी से charges तय"
+          },
+          {
+            "t": "Website और notice board",
+            "s": "'Rates at a Quick Glance' सूची"
+          },
+          {
+            "t": "आप",
+            "s": "पहले से बताए charges ही"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "खुलासा",
+            "s": "खाता खुलते समय ही बताना"
+          },
+          {
+            "b": "बदलाव",
+            "s": "कम से कम 30 दिन पहले सूचना"
+          }
+        ],
+        "note": "RBI के निर्देशों के मुताबिक charges उचित हों और सेवा देने की औसत लागत से बेमेल न हों; कम लेनदेन करने वाले ग्राहकों पर बोझ न डाला जाए।"
+      },
+      "myths": [
+        {
+          "m": "\"Bank जब चाहे, बिना बताए charge बढ़ा सकता है।\"",
+          "f": "नहीं। Charge में कोई भी बदलाव ग्राहकों को कम से कम 30 दिन पहले बताकर ही किया जा सकता है। बदलाव मंज़ूर न हो, तो आप उन्हीं 30 दिनों में बिना किसी लागत के bank से रिश्ता ख़त्म कर सकते हैं।[^1]"
+        },
+        {
+          "m": "\"Charge कितना होगा, यह RBI तय करता है।\"",
+          "f": "नहीं। Bank अपने Board या उसकी Committee की मंज़ूरी से अपने charges ख़ुद तय करता है। RBI के निर्देश यह कहते हैं कि charges उचित हों और सेवा की औसत लागत से बेमेल न हों।[^1]"
+        },
+        {
+          "m": "\"दूसरी शाखा में वही काम कराएँगे, तो extra charge लगेगा।\"",
+          "f": "ज़रूरी नहीं। जो सेवा home शाखा पर मुफ़्त है, वह दूसरी शाखा पर भी मुफ़्त होनी चाहिए; और intersol charges में home और दूसरी शाखा के एक जैसे लेनदेन में भेदभाव नहीं हो सकता।[^1]"
+        },
+        {
+          "m": "\"Passbook या statement के पैसे कटते हैं।\"",
+          "f": "नहीं। Individual savings खाताधारक को passbook या statement देने की लागत ग्राहक से नहीं ली जा सकती।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "अपने bank के charges कहाँ देखें?",
+          "a": "Bank की website पर। RBI के निर्देशों के मुताबिक bank को ताज़ा ब्याज दरें और service charges 'Rates at a Quick Glance' के format में website पर दिखाने हैं, और यह जानकारी home page से आसानी से खुलनी चाहिए। Charges शाखा के notice board पर भी दिखाने हैं।"
+        },
+        {
+          "q": "'Rates at a Quick Glance' में किन charges की जगह है?",
+          "a": "RBI के दिए format में locker, credit card, debit card, Draft बनाने और रद्द करने, outstation cheque collection, NEFT और RTGS, cheque लौटने, cheque book और No Dues Certificate के charges की जगह है। Savings खाते के minimum balance की जानकारी भी इसी सूची में है।"
+        },
+        {
+          "q": "बुनियादी banking सेवाएँ कौन-सी हैं?",
+          "a": "RBI की मिसाल वाली सूची (जो पूरी नहीं है) में cheque book, passbook या statement, ATM और debit card, stop payment, balance enquiry, खाता बंद करना, No Dues Certificate, DD और pay order, NEFT और cheque collection जैसी सेवाएँ हैं। Individual ग्राहकों से इन पर charge non-individuals से कम दर पर लेना है, और गाँव के लोगों, pensioners और senior citizens से और भी नरम शर्तों पर।"
+        },
+        {
+          "q": "SMS alert का charge कैसे लगता है?",
+          "a": "RBI के निर्देशों के मुताबिक SMS alert का charge असल इस्तेमाल के हिसाब से लगना चाहिए।"
+        },
+        {
+          "q": "Minimum balance न रखने पर charge कब लगता है?",
+          "a": "Bank को पहले SMS, email या चिट्ठी से साफ़ बताना है। Notice की तारीख़ से कम से कम एक महीने तक balance पूरा न हो, तभी penal charge लिया जा सकता है। यह charge कमी के अनुपात में होना चाहिए, और सिर्फ़ इस charge की वजह से balance negative नहीं होना चाहिए। ज़्यादा जानकारी Savings Bank Account वाले पन्ने पर है।"
+        },
+        {
+          "q": "क्या कुछ खातों में minimum balance की शर्त नहीं होती?",
+          "a": "हाँ। BSBD खाते में minimum balance की शर्त नहीं, और उसकी बुनियादी सुविधाएँ मुफ़्त हैं; इनसे ऊपर की सुविधाएँ bank charge लेकर भी दे सकता है। Central या State सरकार की scholarship योजनाओं के छात्र-लाभार्थियों के खाते 'minimum balance' और 'total credit limit' की पाबंदी से मुक्त रहने चाहिए।"
+        },
+        {
+          "q": "Bank ने ग़लत charge काटा, तो क्या करें?",
+          "a": "पहले शाखा में शिकायत कीजिए। RBI के बताए notice board format के मुताबिक शाखा से हल न हो, तो bank के Regional या Zonal Manager या Head Office से, और फिर भी संतुष्ट न हों, तो Ombudsman से संपर्क किया जा सकता है।"
+        },
+        {
+          "q": "क्या ये नियम हर bank पर लागू हैं?",
+          "a": "ये RBI के commercial banks के लिए बने निर्देश हैं। इनके पैरा 3 में Small Finance Banks, Payments Banks और Local Area Banks 'commercial banks' में नहीं गिने गए हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "BSBD"
+        },
+        {
+          "t": "Passbook"
+        },
+        {
+          "t": "ATM"
+        },
+        {
+          "t": "Inoperative Account"
+        },
+        {
+          "t": "Demand Draft"
+        },
+        {
+          "t": "NEFT"
+        },
+        {
+          "t": "RTGS"
+        },
+        {
+          "t": "Cheque"
+        },
+        {
+          "t": "Locker"
+        },
+        {
+          "t": "Debit Card"
+        },
+        {
+          "t": "Credit Card"
+        },
+        {
+          "t": "RBI Ombudsman"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks; Small Finance, Payments और Local Area Banks बाहर"
+            },
+            {
+              "ref": "पैरा 52; Annex II",
+              "c": "ब्याज दरें और service charges website पर, home page से; 'Rates at a Quick Glance' की सूची"
+            },
+            {
+              "ref": "पैरा 77",
+              "c": "Board या Committee की मंज़ूरी से charges; उचित, औसत लागत से बेमेल नहीं; कम लेनदेन वालों पर बोझ नहीं"
+            },
+            {
+              "ref": "पैरा 79; Table 3",
+              "c": "बुनियादी सेवाओं की मिसाल वाली सूची"
+            },
+            {
+              "ref": "पैरा 81",
+              "c": "individuals से कम दर; गाँव, pensioners, senior citizens से नरम शर्तें; जायज़ charge; सिर्फ़ बताए charges; कटौती और minimum balance की सूचना"
+            },
+            {
+              "ref": "पैरा 82",
+              "c": "शुरू में बताना; notice board और website; 30 दिन पहले सूचना; 30 दिन में बिना लागत रिश्ता ख़त्म; पिछले 30 दिन के बदलाव"
+            },
+            {
+              "ref": "पैरा 84",
+              "c": "home शाखा पर मुफ़्त सेवा दूसरी शाखा पर भी; intersol में भेदभाव नहीं; cash handling intersol में नहीं"
+            },
+            {
+              "ref": "पैरा 85",
+              "c": "SMS alert का charge असल इस्तेमाल पर"
+            },
+            {
+              "ref": "पैरा 86, 87",
+              "c": "BSBD: बुनियादी सुविधाएँ मुफ़्त, minimum balance नहीं; ऊपर की सुविधाएँ charge के साथ या बिना"
+            },
+            {
+              "ref": "पैरा 160, 161",
+              "c": "minimum balance का penal charge: notice, एक महीना, अनुपात, negative नहीं; scholarship खाते"
+            },
+            {
+              "ref": "पैरा 163",
+              "c": "passbook या statement की लागत ग्राहक से नहीं"
+            },
+            {
+              "ref": "पैरा 166, 167; Table 4",
+              "c": "passbook या statement में हर entry का समझ में आने वाला ब्योरा; charge किस तरह का और क्यों"
+            },
+            {
+              "ref": "पैरा 209, 210",
+              "c": "inoperative खाते में minimum balance का penal charge नहीं; चालू कराने का charge नहीं"
+            },
+            {
+              "ref": "Annex I, भाग C",
+              "c": "शिकायत का क्रम: शाखा, Regional/Zonal या Head Office, फिर Ombudsman"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nBank Charges वे शुल्क हैं, जो bank अपनी सेवाओं के बदले लेता है, जैसे cheque collection, cheque book, DD या SMS alert के लिए। RBI के निर्देशों के मुताबिक bank ये charges अपने Board या उसकी Committee की मंज़ूरी से तय करता है।[^1]\n\n- **उचित charges:** charges उचित होने चाहिए और सेवा देने की औसत लागत से बेमेल नहीं होने चाहिए; कम लेनदेन करने वाले ग्राहकों पर बोझ नहीं डाला जाना चाहिए।[^1]\n- **किन banks पर:** ये निर्देश commercial banks के लिए हैं; Small Finance Banks, Payments Banks और Local Area Banks इनमें नहीं गिने गए हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पहले से पता:** bank को खाता खुलते समय ही आपको charges बताने हैं, और वे शाखा के notice board और website पर भी दिखाने हैं।[^1]\n- **सिर्फ़ बताए गए charges:** individual ग्राहकों से bank सिर्फ़ वही charges ले सकता है, जो ग्राहक को बताए गए हों।[^1]\n- **30 दिन की सूचना:** charge में कोई भी बदलाव कम से कम 30 दिन पहले बताकर ही हो सकता है।[^1]\n- **कटौती की जानकारी:** खाते या लेनदेन से charge कटे, तो bank को आपको ठीक तरीक़े से बताना है।[^1]\n\n## Charges कैसे तय होते और दिखते हैं | कैसे तय होते हैं\n\n::flow\n\n- **Website पर सूची:** bank को ताज़ा ब्याज दरें और service charges 'Rates at a Quick Glance' के format में website पर दिखाने हैं, home page से आसानी से खुलने वाली जगह पर।[^1]\n- **बदलावों की सूची:** पिछले 30 दिनों में charges में जो भी बदलाव हुए, वे notice board और website पर साफ़ दिखने चाहिए।[^1]\n- **SMS alert:** इसका charge असल इस्तेमाल के हिसाब से लगना चाहिए।[^1]\n\n## बुनियादी सेवाओं पर charges | बुनियादी सेवाएँ\n\nRBI के निर्देशों में बुनियादी banking सेवाओं की एक मिसाल वाली सूची है; यह पूरी नहीं है। इसमें cheque book, passbook या statement, ATM और debit card, stop payment, balance enquiry, खाता बंद करना, No Dues Certificate, DD और pay order, NEFT और cheque collection जैसी सेवाएँ हैं।[^1]\n\n- **Individuals से कम:** इन सेवाओं पर individual ग्राहकों से charge non-individuals से कम दर पर लेना है।[^1]\n- **कुछ लोगों से और नरमी:** गाँव के लोगों, pensioners और senior citizens से और भी नरम शर्तों पर।[^1]\n- **वजह के साथ:** individuals से charge तभी, जब वह जायज़ हो और उसकी वजह हो।[^1]\n- **Home और दूसरी शाखा:** जो सेवा home शाखा पर मुफ़्त है, वह दूसरी शाखा पर भी मुफ़्त होनी चाहिए। Cash handling charges को intersol charges में नहीं जोड़ा जा सकता।[^1]\n\n## किन पर charge नहीं लगता | क्या मुफ़्त है\n\n- **Passbook या statement:** individual savings खाते में passbook या statement की लागत ग्राहक से नहीं ली जा सकती।[^1]\n- **BSBD खाते की बुनियादी सुविधाएँ:** जैसे cash जमा, ATM या ATM-cum-Debit card (सालाना fee के बिना), साल में कम से कम 25 पन्नों की cheque book, और महीने में कम से कम 4 निकासी; ये मुफ़्त हैं, बिना minimum balance के। इनसे ऊपर की सुविधाएँ bank charge लेकर भी दे सकता है।[^1]\n- **Inoperative खाता:** उसे चालू कराने का कोई charge नहीं, और उसमें minimum balance न रखने का penal charge भी नहीं।[^1]\n- **Scholarship खाते:** सरकारी scholarship योजनाओं के छात्र-लाभार्थियों के खाते 'minimum balance' की पाबंदी से मुक्त रहने चाहिए।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Charge में बदलाव की सूचना कम से कम 30 दिन पहले पाना आपका हक़ है। बदलाव मंज़ूर न हो, तो आप उन्हीं 30 दिनों में बिना किसी लागत के bank से रिश्ता ख़त्म कर सकते हैं।[^1]\n\n- **पहले की चेतावनी:** bank के अपने किसी लेनदेन से आपके खाते में minimum balance कम हो रहा हो या होने वाला हो, तो bank को आपको हर हाल में बताना है।[^1]\n\n## अभी क्या करें\n\n- अपने bank की website पर 'Rates at a Quick Glance' या service charges की सूची देखिए।[^1]\n- Passbook या statement में हर charge की entry देखिए; कोई charge समझ न आए, तो शाखा से पूछिए।[^1]\n- ग़लत charge कटा हो, तो पहले शाखा में शिकायत कीजिए; हल न हो, तो bank के Regional या Zonal Manager या Head Office, और फिर Ombudsman के पास जाइए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "loan-statement",
+      "term": "Loan Statement",
+      "aliases": [
+        "Loan Statements",
+        "Loan Account Statement",
+        "लोन स्टेटमेंट"
+      ],
+      "full": "लोन स्टेटमेंट · आपके loan खाते का हिसाब: कितना चुका, कितना बाक़ी",
+      "fullEn": "Loan Statement (loan account statement)",
+      "group": "क़र्ज़",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Responsible Business Conduct Directions, 2025 (commercial banks) और Credit Facilities Directions, 2025 (commercial banks और NBFCs) से जाँचा।"
+        }
+      ],
+      "one": "Loan statement आपके loan खाते का हिसाब है: अब तक कितना मूलधन और ब्याज चुका, EMI कितनी है और कितनी EMI बाक़ी हैं। RBI के निर्देशों के मुताबिक EMI वाले personal loan में bank को हर तिमाही के अंत में ऐसा statement देना या उपलब्ध कराना है।",
+      "facts": [
+        {
+          "k": "कब मिलता है",
+          "v": "हर तिमाही",
+          "s": "EMI वाले personal loan में, तिमाही के अंत में"
+        },
+        {
+          "k": "कम से कम क्या दिखे",
+          "v": "4 बातें",
+          "s": "चुका मूलधन और ब्याज, EMI, बची EMI, APR"
+        },
+        {
+          "k": "Digital loan में",
+          "v": "अपने-आप",
+          "s": "digitally signed statement आपके registered email / SMS पर"
+        },
+        {
+          "k": "KFS में न लिखा charge",
+          "v": "नहीं",
+          "s": "आपकी साफ़ सहमति के बिना नहीं लिया जा सकता",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "KFS",
+            "s": "loan से पहले: किस्तों का पूरा schedule"
+          },
+          {
+            "t": "Bank",
+            "s": "हर तिमाही के अंत में statement"
+          },
+          {
+            "t": "आप",
+            "s": "चुका और बाक़ी हिसाब मिलाइए"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Loan शुरू",
+            "s": "schedule के हिसाब से EMI"
+          },
+          {
+            "b": "Statement",
+            "s": "उचित माध्यम से भेजे या उपलब्ध कराए"
+          }
+        ],
+        "note": "RBI के निर्देशों के मुताबिक statement सीधा-सादा और आसानी से समझ आने वाला होना चाहिए।"
+      },
+      "myths": [
+        {
+          "m": "\"Loan का हिसाब सिर्फ़ loan बंद होने पर मिलता है।\"",
+          "f": "नहीं। EMI वाले personal loan में bank को हर तिमाही के अंत में statement देना या उपलब्ध कराना है।[^1]"
+        },
+        {
+          "m": "\"Statement में सिर्फ़ बकाया रक़म लिखी होती है।\"",
+          "f": "कम से कम चार बातें होनी चाहिए: अब तक वसूला मूलधन और ब्याज, EMI की रक़म, बची EMI की संख्या, और पूरी अवधि की सालाना ब्याज दर या APR।[^1]"
+        },
+        {
+          "m": "\"Penal charge लगाने की वजह bank नहीं बताता।\"",
+          "f": "बताना होता है। RBI के निर्देशों के मुताबिक जब भी penal charge लगे, उसकी सूचना और वजह bank को borrower को बतानी है।[^1]"
+        },
+        {
+          "m": "\"KFS में जो charge नहीं लिखा, वह बाद में भी जोड़ा जा सकता है।\"",
+          "f": "आपकी साफ़ सहमति के बिना नहीं। KFS में न लिखी fee या charge loan के दौरान किसी भी समय नहीं लिया जा सकता।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "हर तिमाही वाला statement किन loan पर है?",
+          "a": "RBI ने यह नियम 'EMI वाले personal loans पर floating ब्याज दर के reset' वाले हिस्से में रखा है, जो 1 जनवरी 2024 से नए और पुराने personal loans पर लागू है। ये नियम हर अंतराल की बराबर किस्त वाले personal loans पर भी लागू हैं, चाहे loan बाहरी benchmark से जुड़ा हो या अंदरूनी benchmark से। 'Personal loan' का मतलब RBI ने अपने 2018 के एक अलग दस्तावेज़ (XBRL returns) से लिया है।"
+        },
+        {
+          "q": "पूरे loan का repayment schedule कहाँ मिलेगा?",
+          "a": "1 अक्टूबर 2024 या बाद में मंज़ूर नए retail और MSME term loan में bank Key Facts Statement (KFS) देता है। इसमें APR का हिसाब और पूरी अवधि का repayment (amortisation) schedule होता है। Credit card की बकाया रक़म पर यह नियम लागू नहीं।"
+        },
+        {
+          "q": "Bank ने insurance या legal charge वसूला, तो उसका सबूत?",
+          "a": "Bank जो charges किसी तीसरी सेवा देने वाले के लिए असल ख़र्च के हिसाब से वसूलता है, जैसे insurance या legal charges, उनकी हर भुगतान की रसीद और काग़ज़ उसे उचित समय में देने हैं। ये charges APR में भी जुड़ते हैं।"
+        },
+        {
+          "q": "Digital loan का statement कैसे आता है?",
+          "a": "RBI के निर्देशों के मुताबिक KFS, sanction letter, शर्तें और account statements जैसे काग़ज़ lender के letterhead पर digitally signed होकर, loan contract या लेनदेन होते ही आपके registered और verified email / SMS पर अपने-आप पहुँचने चाहिए। यह नियम banks और NBFCs, दोनों पर है।"
+        },
+        {
+          "q": "Digital loan की शिकायत का जवाब न मिले, तो?",
+          "a": "Lender शिकायत पूरी या आंशिक रूप से ठुकरा दे, जवाब से आप संतुष्ट न हों, या 30 दिन में जवाब न मिले, तो RBI के CMS portal (cms.rbi.org.in) पर Reserve Bank - Integrated Ombudsman Scheme के तहत, जहाँ यह लागू हो, शिकायत की जा सकती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Credit Report"
+        },
+        {
+          "t": "Passbook"
+        },
+        {
+          "t": "CMS"
+        },
+        {
+          "t": "RBI Ombudsman"
+        },
+        {
+          "t": "Loan Scam"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 348, 348(3)",
+              "c": "1 अक्टूबर 2024 से नए retail और MSME term loan में KFS; APR का हिसाब और repayment schedule; credit card पर नहीं"
+            },
+            {
+              "ref": "पैरा 348(4)",
+              "c": "तीसरे पक्ष के charges APR में; हर भुगतान की रसीद और काग़ज़"
+            },
+            {
+              "ref": "पैरा 348(5)",
+              "c": "KFS में न लिखा charge साफ़ सहमति के बिना नहीं"
+            },
+            {
+              "ref": "पैरा 349, 349(6)",
+              "c": "1 जनवरी 2024 से; हर तिमाही के अंत में statement; चार बातें; आसान भाषा"
+            },
+            {
+              "ref": "पैरा 349(1)",
+              "c": "EMI / अवधि बढ़ने की सूचना तुरंत"
+            },
+            {
+              "ref": "पैरा 350; 4(24)",
+              "c": "बराबर किस्त वाले सभी personal loans; personal loan की परिभाषा XBRL returns (2018) से"
+            },
+            {
+              "ref": "पैरा 351(7)",
+              "c": "penal charge लगे, तो सूचना और वजह"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/154; DOR.CRE.REC.73/07-01-001/2025-26; Updated as on October 1, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/154MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 9(3)",
+              "c": "digital loan: digitally signed KFS, sanction letter, account statements अपने-आप email / SMS पर"
+            },
+            {
+              "ref": "पैरा 12(4)",
+              "c": "30 दिन में जवाब नहीं या असंतोष: CMS portal"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/347; DOR.CRE.REC.No.266/07-01-008/2025-26; updated as on July 15, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12957",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 9(3)",
+              "c": "NBFC के digital loan में भी यही नियम"
+            },
+            {
+              "ref": "पैरा 12(4)",
+              "c": "NBFC के digital loan की शिकायत: 30 दिन, फिर CMS"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nLoan statement आपके loan खाते का हिसाब है: अब तक कितना मूलधन और ब्याज चुका, EMI कितनी है और कितनी EMI बाक़ी हैं। RBI के निर्देशों में loan के हिसाब से जुड़ी दो बातें हैं: loan से पहले Key Facts Statement (KFS) में पूरी अवधि का repayment schedule, और loan चलते समय हर तिमाही के अंत में statement।[^1]\n\n- **कहाँ लागू:** KFS और हर तिमाही वाले statement के नियम यहाँ commercial banks के निर्देशों से लिए गए हैं।[^1] Digital loan वाले नियम banks और NBFCs, दोनों के निर्देशों में हैं।[^2][^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **हर तिमाही हिसाब:** EMI वाले personal loan में bank को हर तिमाही के अंत में statement देना या उपलब्ध कराना है।[^1]\n- **कम से कम चार बातें:** अब तक वसूला मूलधन और ब्याज, EMI की रक़म, बची EMI की संख्या, और पूरी अवधि की सालाना ब्याज दर या APR।[^1]\n- **आसान भाषा:** statement सीधा-सादा और आसानी से समझ आने वाला होना चाहिए।[^1]\n\n## Loan का हिसाब कैसे मिलता है | कैसे मिलता है\n\n::flow\n\n- **Loan से पहले, KFS:** 1 अक्टूबर 2024 या बाद में मंज़ूर नए retail और MSME term loan में KFS के साथ APR का हिसाब और पूरी अवधि का repayment (amortisation) schedule मिलता है। Credit card की बकाया रक़म पर यह लागू नहीं।[^1]\n- **Loan चलते समय:** हर तिमाही के अंत में statement, जो bank उचित माध्यम से भेजे या उपलब्ध कराए।[^1]\n- **Digital loan:** KFS, sanction letter, शर्तें और account statements lender के letterhead पर digitally signed होकर, loan contract या लेनदेन होते ही आपके registered और verified email / SMS पर अपने-आप पहुँचने चाहिए।[^2][^3]\n\n## Statement में क्या जाँचें | क्या जाँचें\n\n- **EMI और बची किस्तें:** floating ब्याज दर बदलने से EMI, अवधि या दोनों बदल सकते हैं; बढ़ोतरी की सूचना bank को तुरंत देनी है।[^1]\n- **Penal charges:** जब भी penal charge लगे, उसकी सूचना और वजह bank को बतानी है।[^1]\n- **दूसरों के charges:** insurance या legal charges जैसे जो charges bank किसी तीसरी सेवा देने वाले के लिए वसूलता है, उनकी हर भुगतान की रसीद और काग़ज़ उचित समय में देने हैं।[^1]\n- **KFS से बाहर का charge:** KFS में न लिखी fee या charge आपकी साफ़ सहमति के बिना loan के दौरान कभी नहीं लिया जा सकता।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> EMI वाले personal loan में हर तिमाही के अंत में आसान भाषा का statement पाना आपका हक़ है, जिसमें अब तक चुका मूलधन और ब्याज, EMI, बची EMI और APR हों।[^1]\n\n## अभी क्या करें\n\n- Loan लेते समय मिला KFS और उसका repayment schedule सँभालकर रखिए।[^1]\n- हर तिमाही का statement KFS के schedule से मिलाइए: कितनी EMI बचीं, कितना मूलधन चुका।[^1]\n- Statement में कोई ऐसा charge दिखे, जो KFS में नहीं था, तो bank से उसकी वजह पूछिए।[^1]\n- Digital loan की शिकायत का 30 दिन में जवाब न मिले, या जवाब से आप संतुष्ट न हों, तो RBI के CMS portal पर शिकायत कीजिए।[^2][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "qr-scam",
+      "term": "QR Scam",
+      "aliases": [
+        "QR Scams",
+        "QR code scam",
+        "QR code scams",
+        "QR code fraud",
+        "Quishing"
+      ],
+      "full": "QR code से ठगी · CERT-In की भाषा में Quishing",
+      "fullEn": "QR code scam (Quishing)",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। CERT-In की Cyber Security Best Practices for Senior Citizens पुस्तिका (अक्टूबर 2025), RBI की 28 जनवरी 2022 की press release और DoT के Sanchar Saathi portal से जाँचा।"
+        }
+      ],
+      "one": "QR Scam में ठग नक़ली या छेड़छाड़ किया हुआ QR code scan करवाकर ठगी करते हैं: कभी भुगतान के बहाने, कभी नक़ली website या app पर ले जाकर। पैसा पाने के लिए QR code scan करने की ज़रूरत नहीं होती।",
+      "facts": [
+        {
+          "k": "पैसा पाने के लिए scan",
+          "v": "ज़रूरत नहीं",
+          "s": "न QR code scan, न MPIN",
+          "good": true
+        },
+        {
+          "k": "CERT-In का नाम",
+          "v": "Quishing",
+          "s": "QR code से phishing"
+        },
+        {
+          "k": "दुकान का QR scan करने से पहले",
+          "v": "sticker देखिए",
+          "s": "असली QR पर नक़ली sticker तो नहीं"
+        },
+        {
+          "k": "पैसा चला गया",
+          "v": "1930",
+          "s": "या cybercrime.gov.in"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "नक़ली QR code",
+            "s": "chat, email, poster या असली QR पर चिपका sticker"
+          },
+          {
+            "t": "आप scan करते हैं",
+            "s": "भुगतान करते हैं या खुली website पर जानकारी भरते हैं"
+          },
+          {
+            "t": "ठग",
+            "s": "पैसा या जानकारी उसके पास"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Scan",
+            "s": "बिना जाँचे"
+          },
+          {
+            "b": "PIN या जानकारी",
+            "s": "ठगी इसी से"
+          }
+        ],
+        "note": "पैसा पाने के लिए QR code scan करने या MPIN डालने की ज़रूरत नहीं होती। कोई ऐसा करने को कहे, तो सावधान हो जाइए।"
+      },
+      "myths": [
+        {
+          "m": "\"QR code scan करूँगा, तो पैसा मेरे खाते में आएगा।\"",
+          "f": "नहीं। RBI के मुताबिक पैसा पाने वाले लेनदेन में barcode या QR code scan करने या MPIN डालने की ज़रूरत नहीं होती।[^1] RBI ने ठगों के एक तरीक़े के तौर पर यह भी बताया है कि वे 'पैसा पाने के लिए UPI PIN डालिए' जैसे संदेश के साथ नक़ली भुगतान request भेजते हैं।[^1]"
+        },
+        {
+          "m": "\"दुकान पर लगा QR code तो असली ही होगा।\"",
+          "f": "ज़रूरी नहीं। CERT-In scan करने से पहले यह जाँचने को कहता है कि QR code असली है, उससे छेड़छाड़ तो नहीं हुई, और उस पर कोई नक़ली sticker तो नहीं चिपका।[^2]"
+        },
+        {
+          "m": "\"QR code से खुली website भी भरोसे की होगी।\"",
+          "f": "नहीं। CERT-In के मुताबिक QR code से phishing और malware download भी होते हैं। QR code से खुली website पर अपनी निजी या bank की जानकारी डालने से बचिए, और खोलने से पहले उसका URL जाँचिए।[^2]"
+        },
+        {
+          "m": "\"Poster या पर्चे पर छपा QR code scan करने में क्या हर्ज है?\"",
+          "f": "CERT-In ने सार्वजनिक posters वाले scam को QR code के ख़तरों में गिना है, और कहता है कि posters या पर्चों पर छपा QR code बिना जाँचे scan न करें।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Quishing क्या है?",
+          "a": "CERT-In की पुस्तिका में QR code वाली ठगी 'Quishing' शीर्षक के नीचे है। इसके ख़तरे गिनाए गए हैं: नक़ली भुगतान QR code, QR code से phishing, malware download और सार्वजनिक posters वाले scam।"
+        },
+        {
+          "q": "किसी अजनबी ने chat या email में QR code भेजा है। क्या करूँ?",
+          "a": "Scan मत कीजिए। CERT-In के मुताबिक अजनबियों के chat या email से आए QR code scan नहीं करने चाहिए। पैसा पाने के लिए तो QR code scan करने की ज़रूरत ही नहीं होती।"
+        },
+        {
+          "q": "QR code scan करने पर कोई link खुले, तो क्या देखूँ?",
+          "a": "CERT-In के मुताबिक खोलने से पहले URL देखिए, spelling की ग़लतियाँ और domain का नाम जाँचिए, और छोटे किए गए (shortened) URL को असली URL जाने बिना मत खोलिए। उस website पर अपनी निजी या bank की जानकारी मत डालिए।"
+        },
+        {
+          "q": "ठग ने WhatsApp या SMS पर QR code भेजा, पर पैसा नहीं गया। Report कहाँ करें?",
+          "a": "Sanchar Saathi के Chakshu पर। वहाँ call, SMS या WhatsApp से आई ठगी की कोशिश की report होती है; portal के मुताबिक कार्रवाई के लिए 30 दिन के अंदर report कीजिए।"
+        },
+        {
+          "q": "Scan करके पैसा कट गया, तो क्या करें?",
+          "a": "RBI के मुताबिक अनधिकृत लेनदेन दिखते ही अपने bank या भुगतान सेवा देने वाली कंपनी को बताइए, ताकि card, खाता या wallet block हो और आगे नुक़सान न हो। फिर 1930 पर call कीजिए और cybercrime.gov.in पर report कीजिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "QR Code"
+        },
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "UPI PIN"
+        },
+        {
+          "t": "Smishing"
+        },
+        {
+          "t": "Vishing"
+        },
+        {
+          "t": "CERT-In"
+        },
+        {
+          "t": "Chakshu"
+        },
+        {
+          "t": "Sanchar Saathi"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "cybercrime.gov.in"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Consumer Awareness: Cyber Threats and Frauds, press release 2021-2022/1630, 28 जनवरी 2022 (साथ की सूची: Safe Digital Banking Practices; बिंदु ऊपर से गिने गए हैं)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53185",
+          "issued": "2022-01-28",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "unauthorized QR codes से सावधान रहने की चेतावनी"
+            },
+            {
+              "ref": "तरीक़ों की सूची",
+              "c": "UPI 'collect request' का दुरुपयोग: 'पैसा पाने के लिए UPI PIN डालिए' वाले नक़ली request"
+            },
+            {
+              "ref": "सूची, बिंदु 4",
+              "c": "पैसा पाने के लिए QR code scan करने या MPIN डालने की ज़रूरत नहीं"
+            },
+            {
+              "ref": "सूची, बिंदु 11",
+              "c": "अनधिकृत लेनदेन तुरंत bank या सेवा देने वाली कंपनी को बताइए; card, खाता या wallet block"
+            }
+          ]
+        },
+        {
+          "label": "CERT-In — Cyber Security Best Practices for Senior Citizens (National Cyber Security Awareness Month, अक्टूबर 2025), PDF; पन्ना संख्या पुस्तिका की है",
+          "url": "https://www.csk.gov.in/documents/CERT-In-NCSAM-Book_2025-10-01.pdf",
+          "used": [
+            {
+              "ref": "पन्ना 7: Quishing",
+              "c": "ख़तरे: नक़ली भुगतान QR, QR से phishing, malware download, poster scam"
+            },
+            {
+              "ref": "पन्ना 7: Best Practices",
+              "c": "URL जाँचिए; अजनबियों के QR scan नहीं; असली हो, छेड़छाड़ या नक़ली sticker नहीं; खुली website पर जानकारी नहीं; poster वाले QR बिना जाँचे नहीं"
+            },
+            {
+              "ref": "पन्ना 8",
+              "c": "ठगी हो जाए, तो 1930 और cybercrime.gov.in"
+            }
+          ]
+        },
+        {
+          "label": "दूरसंचार विभाग (DoT) — Sanchar Saathi portal: Chakshu का पन्ना और Frequently Asked Questions (Website Last Updated: 05-10-2026)",
+          "url": "https://sancharsaathi.gov.in/sfc/",
+          "used": [
+            {
+              "ref": "Report Suspected Fraud",
+              "c": "call, SMS या WhatsApp से आई ठगी की कोशिश की report; \"Report within 30 days for action\"; पैसा गया हो तो 1930 या cybercrime.gov.in"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nQR Scam यानी QR code के ज़रिए की गई ठगी। CERT-In की पुस्तिका इसे 'Quishing' शीर्षक के नीचे रखती है, और इसके ये ख़तरे गिनाती है: नक़ली भुगतान QR code, QR code से phishing, malware download और सार्वजनिक posters वाले scam।[^2]\n\nRBI ने लोगों को unauthorized QR codes से सावधान रहने को कहा है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पैसा पाने के लिए scan नहीं:** RBI के मुताबिक पैसा पाने वाले लेनदेन में barcode या QR code scan करने या MPIN डालने की ज़रूरत नहीं होती। कोई ऐसा करने को कहे, तो सावधान हो जाइए।[^1]\n- **अजनबी का QR नहीं:** chat या email में किसी अजनबी का भेजा QR code scan मत कीजिए।[^2]\n- **QR code website भी खोल सकता है:** CERT-In के मुताबिक QR code से phishing और malware download भी होते हैं।[^2]\n\n## QR Scam कैसे होता है | कैसे होता है\n\n::flow\n\n- **'पैसा पाने के लिए PIN डालिए':** RBI ने ठगों का यह तरीक़ा बताया है कि वे 'पैसा पाने के लिए UPI PIN डालिए' जैसे संदेश के साथ नक़ली भुगतान request भेजते हैं।[^1] पैसा पाने के लिए न QR code scan करना पड़ता है, न MPIN डालना।[^1]\n- **असली QR पर नक़ली sticker:** CERT-In scan से पहले यह जाँचने को कहता है कि QR code से छेड़छाड़ तो नहीं हुई और उस पर नक़ली sticker तो नहीं चिपका।[^2]\n- **नक़ली website:** QR code scan करने पर कोई website खुल सकती है; CERT-In उस पर अपनी निजी या bank की जानकारी डालने से बचने को कहता है।[^2]\n- **Posters और पर्चे:** CERT-In के मुताबिक सार्वजनिक posters या पर्चों पर छपे QR code बिना जाँचे scan न करें।[^2]\n\n## Scan करने से पहले | Scan से पहले\n\nCERT-In की सलाह:[^2]\n\n- QR code से खुलने वाला URL खोलने से पहले देखिए।\n- URL में spelling की ग़लतियाँ और domain का नाम जाँचिए।\n- छोटे किए गए (shortened) URL को असली URL जाने बिना मत खोलिए।\n- देखिए कि QR code असली है, उससे छेड़छाड़ नहीं हुई, और उस पर कोई नक़ली sticker नहीं चिपका।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> पैसा पाने के लिए आपको कभी QR code scan करने या MPIN डालने की ज़रूरत नहीं होती।[^1] कोई ऐसा करने को कहे, तो वह ठगी का संकेत है; उसकी report Chakshu पर कीजिए।[^3]\n\n## अभी क्या करें\n\n- पैसा पाने के बहाने कोई QR code scan करने या PIN डालने को कहे, तो मत कीजिए।[^1]\n- ठग ने call, SMS या WhatsApp पर QR code भेजा और पैसा नहीं गया: Chakshu पर 30 दिन के अंदर report कीजिए।[^3]\n- पैसा कट गया: तुरंत bank या भुगतान सेवा देने वाली कंपनी को बताइए, ताकि card, खाता या wallet block हो।[^1] फिर 1930 पर call कीजिए और cybercrime.gov.in पर report कीजिए।[^2][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "smishing",
+      "term": "Smishing",
+      "aliases": [
+        "SMS phishing",
+        "SMS-phishing"
+      ],
+      "full": "SMS phishing · नक़ली SMS भेजकर जानकारी या पैसा निकलवाने की ठगी",
+      "fullEn": "Smishing (SMS phishing)",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। CERT-In की Cyber Security Best Practices for Senior Citizens पुस्तिका (अक्टूबर 2025), RBI की 28 जनवरी 2022 की press release, TRAI के Telecom Commercial Communications Customer Preference Regulations, 2018 (संकलित पाठ) और उसके 2025 के संशोधन, और DoT के Sanchar Saathi portal से जाँचा।"
+        }
+      ],
+      "one": "Smishing यानी SMS से phishing: ठग bank, सरकारी संस्था या इनाम के नाम पर नक़ली SMS भेजते हैं, ताकि आप link खोलें या OTP, PIN, password जैसी जानकारी दे दें। CERT-In के मुताबिक bank और सरकारी संस्थाएँ SMS से ऐसी जानकारी नहीं माँगतीं।",
+      "facts": [
+        {
+          "k": "पूरा नाम",
+          "v": "SMS Phishing",
+          "s": "CERT-In की पुस्तिका में यही नाम"
+        },
+        {
+          "k": "Bank SMS से OTP या PIN माँगे?",
+          "v": "नहीं",
+          "s": "bank और सरकारी संस्थाएँ SMS से संवेदनशील जानकारी नहीं माँगतीं",
+          "good": true
+        },
+        {
+          "k": "Commercial SMS के header के आख़िर में",
+          "v": "-P, -S, -T, -G",
+          "s": "promotional, service, transactional, सरकारी"
+        },
+        {
+          "k": "संदिग्ध SMS की report",
+          "v": "Chakshu",
+          "s": "30 दिन के अंदर"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "नक़ली SMS",
+            "s": "bank alert, KYC, इनाम या सरकारी संस्था के नाम पर"
+          },
+          {
+            "t": "Link",
+            "s": "आप खोलते हैं या जानकारी भरते हैं"
+          },
+          {
+            "t": "ठग",
+            "s": "OTP, PIN या password उसके हाथ"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Click",
+            "s": "जल्दी करने का दबाव"
+          },
+          {
+            "b": "जानकारी",
+            "s": "ठगी इसी से"
+          }
+        ],
+        "note": "Bank और सरकारी संस्थाएँ SMS से OTP, PIN या password नहीं माँगतीं। खाते की जानकारी official app या website पर ही देखिए।"
+      },
+      "myths": [
+        {
+          "m": "\"SMS में bank का नाम है, तो असली ही होगा।\"",
+          "f": "ज़रूरी नहीं। RBI के मुताबिक phishing वाले email या SMS इस तरह बनाए जाते हैं कि ग्राहक को लगे कि वे उसके bank या e-wallet कंपनी से आए हैं।[^2] CERT-In संदेश को हमेशा जाँचने और खाते की जानकारी official app या website पर देखने को कहता है।[^1]"
+        },
+        {
+          "m": "\"Bank SMS पर OTP या PIN माँग सकता है।\"",
+          "f": "नहीं। CERT-In के मुताबिक bank और सरकारी संस्थाएँ SMS से संवेदनशील जानकारी नहीं माँगतीं; OTP, PIN या password SMS से किसी को मत भेजिए।[^1]"
+        },
+        {
+          "m": "\"KYC update का link आया है, तुरंत भर दूँ, नहीं तो खाता बंद हो जाएगा।\"",
+          "f": "रुकिए। CERT-In ने KYC update की माँग को smishing का एक रूप गिना है।[^1] RBI के मुताबिक KYC update न होने पर खाता बंद करने की धमकी देकर link पर click करवाना ठगों का आम तरीक़ा है; bank की official website पर जाइए या शाखा से संपर्क कीजिए।[^2]"
+        },
+        {
+          "m": "\"Link खोल लिया, कुछ भरा नहीं, तो कोई ख़तरा नहीं।\"",
+          "f": "ऐसा मत मानिए। CERT-In के मुताबिक संदेश में आया अनजान link आपके mobile से आपकी निजी जानकारी चुरा सकता है, इसलिए उस पर click ही मत कीजिए।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Smishing और Vishing में क्या फ़र्क़ है?",
+          "a": "Smishing में ठगी SMS से होती है; CERT-In इसे 'SMS Phishing' कहता है। Vishing में ठग phone call करके bank, e-wallet या telecom कंपनी का आदमी बनता है।"
+        },
+        {
+          "q": "SMS का 'header' क्या होता है?",
+          "a": "TRAI के नियमों में header अधिकतम ग्यारह अक्षरों या अंकों की वह पहचान है, जो किसी व्यक्ति, कारोबार या संस्था को commercial संदेश भेजने के लिए दी जाती है। DoT के मुताबिक इसका ढाँचा XY-ABCDEF जैसा होता है: X telecom कंपनी बताता है (जैसे Airtel के लिए A), Y इलाक़ा (जैसे Delhi के लिए D), और ABCDEF वह header है, जो भेजने वाली संस्था को मिला है।"
+        },
+        {
+          "q": "Header के आख़िर में -P, -S, -T या -G का क्या मतलब है?",
+          "a": "TRAI के 2025 के संशोधन के मुताबिक header के आख़िर में \"-P\", \"-S\", \"-T\" और \"-G\" जुड़ते हैं, ताकि पाने वाला समझ सके कि संदेश promotional, service, transactional या सरकारी है। TRAI की परिभाषा में bank का OTP और लेनदेन के alert transactional संदेश हैं; पर transactional संदेश में service की जानकारी हो, तो वह service संदेश माना जाता है।"
+        },
+        {
+          "q": "क्या commercial SMS किसी भी number से आ सकता है?",
+          "a": "नहीं। TRAI के नियमों के मुताबिक telecom कंपनियों को यह पक्का करना है कि उनके network पर commercial संदेश सिर्फ़ registered header से, या इसके लिए तय number series से भेजे जाएँ।"
+        },
+        {
+          "q": "संदिग्ध SMS की report कहाँ करें?",
+          "a": "Sanchar Saathi के Chakshu पर। 'Report Suspected Fraud' में call, SMS या WhatsApp से आई ठगी की कोशिश की report होती है। Portal कहता है: कार्रवाई के लिए 30 दिन के अंदर report कीजिए।"
+        },
+        {
+          "q": "ऐसे लेनदेन का debit SMS आया, जो मैंने नहीं किया। क्या करें?",
+          "a": "RBI के मुताबिक तुरंत अपने bank या e-wallet कंपनी को बताइए, और UPI समेत debit के सारे रास्ते बंद कराइए।"
+        },
+        {
+          "q": "पैसा चला गया, तो?",
+          "a": "1930 पर call कीजिए और cybercrime.gov.in पर report कीजिए। Chakshu पैसों की ठगी की शिकायत की जगह नहीं है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Vishing"
+        },
+        {
+          "t": "OTP"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Chakshu"
+        },
+        {
+          "t": "Sanchar Saathi"
+        },
+        {
+          "t": "TRAI"
+        },
+        {
+          "t": "CERT-In"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "Fake Customer Care"
+        },
+        {
+          "t": "Impersonation"
+        },
+        {
+          "t": "QR Scam"
+        },
+        {
+          "t": "Loan Scam"
+        },
+        {
+          "t": "Investment Scam"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CERT-In — Cyber Security Best Practices for Senior Citizens (National Cyber Security Awareness Month, अक्टूबर 2025), PDF; पन्ना संख्या पुस्तिका की है",
+          "url": "https://www.csk.gov.in/documents/CERT-In-NCSAM-Book_2025-10-01.pdf",
+          "used": [
+            {
+              "ref": "पन्ना 4",
+              "c": "\"Smishing (SMS Phishing)\": bank की जानकारी माँगने या नक़ली इनाम वाले SMS"
+            },
+            {
+              "ref": "पन्ना 6",
+              "c": "smishing के रूप: नक़ली bank alert, लॉटरी या इनाम, KYC update, सरकारी संस्था बनकर, ख़तरनाक link; बचाव; bank और सरकार SMS से संवेदनशील जानकारी नहीं माँगते"
+            },
+            {
+              "ref": "पन्ना 8",
+              "c": "ठगी हो जाए, तो 1930 और cybercrime.gov.in"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Consumer Awareness: Cyber Threats and Frauds, press release 2021-2022/1630, 28 जनवरी 2022 (साथ की सूची: Safe Digital Banking Practices; बिंदु ऊपर से गिने गए हैं)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53185",
+          "issued": "2022-01-28",
+          "used": [
+            {
+              "ref": "Phishing",
+              "c": "नक़ली email या SMS, जो bank से आए लगें; जानकारी निकलवाने वाले link"
+            },
+            {
+              "ref": "Vishing",
+              "c": "bank, e-wallet या telecom कंपनी बनकर phone call"
+            },
+            {
+              "ref": "सूची, बिंदु 2",
+              "c": "KYC के बहाने खाता बंद करने की धमकी और link: आम तरीक़ा; official website या शाखा"
+            },
+            {
+              "ref": "सूची, बिंदु 6",
+              "c": "email या SMS में आए URL और domain की spelling जाँचिए"
+            },
+            {
+              "ref": "सूची, बिंदु 7",
+              "c": "अनजान debit SMS: तुरंत bank को बताइए; UPI समेत debit के सारे रास्ते बंद कराइए"
+            }
+          ]
+        },
+        {
+          "label": "TRAI — Telecom Commercial Communications Customer Preference Regulations, 2018 (6 of 2018; संशोधनों समेत संकलित पाठ; पाठ पर तारीख़ नहीं है; पाठ के मुताबिक अंतर हो तो Gazette का पाठ मान्य), PDF",
+          "url": "https://trai.gov.in/sites/default/files/2026-05/CA_21052026.pdf",
+          "issued": "2018-07-19",
+          "used": [
+            {
+              "ref": "नियम 2: 'Header'",
+              "c": "header: अधिकतम ग्यारह अक्षरों या अंकों की पहचान, commercial संदेश भेजने के लिए"
+            },
+            {
+              "ref": "नियम 2: 'Transactional Message'; 'Service Message' का proviso",
+              "c": "bank का OTP और लेनदेन के alert transactional; service की जानकारी हो तो service संदेश"
+            },
+            {
+              "ref": "नियम 3(1), 10",
+              "c": "commercial संदेश सिर्फ़ registered header या तय number series से"
+            },
+            {
+              "ref": "Schedule-I, item 2",
+              "c": "header के आख़िर में -P, -S, -T, -G"
+            }
+          ]
+        },
+        {
+          "label": "TRAI — Telecom Commercial Communications Customer Preference (Second Amendment) Regulations, 2025 (1 of 2025; No. RG-25/(25)/2023-QoS), PDF",
+          "url": "https://trai.gov.in/sites/default/files/2025-02/Regulation_12022025.pdf",
+          "issued": "2025-02-12",
+          "used": [
+            {
+              "ref": "नियम 17(b)",
+              "c": "Schedule-I में -P, -S, -T, -G वाला proviso जोड़ा गया"
+            },
+            {
+              "ref": "नियम 1(3)",
+              "c": "नियम 17 Gazette में छपने के 60 दिन बाद लागू"
+            }
+          ]
+        },
+        {
+          "label": "दूरसंचार विभाग (DoT) — Sanchar Saathi portal: पहला पन्ना, Frequently Asked Questions और Chakshu का पन्ना (Website Last Updated: 05-10-2026)",
+          "url": "https://sancharsaathi.gov.in/",
+          "used": [
+            {
+              "ref": "Chakshu का पन्ना (/sfc/)",
+              "c": "Report Suspected Fraud (call, SMS, WhatsApp); \"Report within 30 days for action\"; पैसा गया हो तो 1930 या cybercrime.gov.in"
+            },
+            {
+              "ref": "About: Chakshu",
+              "c": "Chakshu पैसों की ठगी या cyber-crime की शिकायत की जगह नहीं"
+            },
+            {
+              "ref": "FAQ: header",
+              "c": "header का ढाँचा XY-ABCDEF: X telecom कंपनी, Y इलाक़ा"
+            },
+            {
+              "ref": "About: Trusted Contact Details",
+              "c": "bank जैसी संस्थाओं के असली customer care number, email और website की जाँच"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSmishing का मतलब है SMS से की गई phishing। CERT-In की पुस्तिका में इसे \"Smishing (SMS Phishing)\" लिखा गया है: ऐसे नक़ली SMS, जो bank से जुड़ी जानकारी माँगते हैं या नक़ली इनाम का लालच देते हैं।[^1]\n\nRBI के मुताबिक phishing में ऐसे नक़ली email या SMS भेजे जाते हैं, जिनसे ग्राहक को लगे कि संदेश उसके bank या e-wallet कंपनी से आया है। इनमें गोपनीय जानकारी निकलवाने के लिए link होते हैं।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **SMS से OTP या PIN नहीं:** CERT-In के मुताबिक bank और सरकारी संस्थाएँ SMS से संवेदनशील जानकारी नहीं माँगतीं। OTP, PIN या password SMS से किसी को मत भेजिए।[^1]\n- **अनजान link नहीं:** संदेश में आया अनजान link आपके mobile से आपकी निजी जानकारी चुरा सकता है।[^1]\n- **जानकारी official जगह से:** खाते या सेवा से जुड़ी जानकारी official app या website पर ही देखिए।[^1]\n\n## Smishing कैसे होती है | कैसे होती है\n\n::flow\n\nCERT-In की पुस्तिका में smishing के ये रूप गिनाए गए हैं:[^1]\n\n- **नक़ली bank alert**\n- **लॉटरी या इनाम का संदेश**\n- **KYC update की माँग**\n- **सरकारी संस्था बनकर भेजा संदेश**\n- **ख़तरनाक link या attachment**\n\nRBI के मुताबिक KYC update न होने पर खाता बंद करने की धमकी देकर link पर click करवाना ठगों का आम तरीक़ा है।[^2]\n\n## Commercial SMS का header | SMS header\n\n- **Header क्या है:** TRAI के नियमों में header अधिकतम ग्यारह अक्षरों या अंकों की वह पहचान है, जो किसी व्यक्ति, कारोबार या संस्था को commercial संदेश भेजने के लिए दी जाती है।[^3]\n- **सिर्फ़ registered header से:** telecom कंपनियों को यह पक्का करना है कि उनके network पर commercial संदेश सिर्फ़ registered header से, या इसके लिए तय number series से भेजे जाएँ।[^3]\n- **ढाँचा:** DoT के मुताबिक header का ढाँचा XY-ABCDEF जैसा होता है: X telecom कंपनी (जैसे Airtel के लिए A), Y इलाक़ा (जैसे Delhi के लिए D), और ABCDEF वह header, जो भेजने वाली संस्था को मिला है।[^5]\n- **आख़िर के अक्षर:** TRAI के 2025 के संशोधन के बाद header के आख़िर में \"-P\", \"-S\", \"-T\" या \"-G\" से पता चलता है कि संदेश promotional, service, transactional या सरकारी है।[^3][^4]\n- **Bank का OTP:** TRAI की परिभाषा में bank का OTP और लेनदेन के alert transactional संदेश हैं।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Bank और सरकारी संस्थाएँ SMS से आपसे संवेदनशील जानकारी नहीं माँगतीं।[^1] ऐसा SMS आए, तो जवाब देने की जगह Chakshu पर उसकी report कीजिए।[^5]\n\n## अभी क्या करें\n\n- अनजान link पर click मत कीजिए। Link में spelling की ग़लती और domain का नाम जाँचिए।[^1][^2]\n- लॉटरी या इनाम वाले संदेश का जवाब मत दीजिए।[^1]\n- Bank का असली number या website जाननी हो, तो Sanchar Saathi की 'Trusted Contact Details' सुविधा देखिए।[^5]\n- पैसा नहीं गया: संदिग्ध SMS की report Chakshu के 'Report Suspected Fraud' में कीजिए; 30 दिन के अंदर।[^5]\n- ऐसे लेनदेन का debit SMS आए, जो आपने नहीं किया: तुरंत bank या e-wallet कंपनी को बताइए और UPI समेत debit के सारे रास्ते बंद कराइए।[^2]\n- पैसा चला गया: 1930 पर call कीजिए और cybercrime.gov.in पर report कीजिए।[^1][^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "investment-scam",
+      "term": "Investment Scam",
+      "aliases": [
+        "Investment Scams",
+        "Investment Fraud",
+        "Investment Frauds",
+        "निवेश ठगी",
+        "निवेश के नाम पर ठगी"
+      ],
+      "full": "निवेश के नाम पर ठगी · ऊँचे या पक्के मुनाफ़े का लालच देकर पैसा ठगना",
+      "fullEn": "Investment scam (investment fraud)",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। SEBI के investor website के पन्नों (Investment Frauds, How to Spot a Scam, Fake Trading App Scams, Caution to Investor) और SEBI press releases 27/2025, 64/2025, 14/2026, 48/2026, 60/2026 और 61/2026 से जाँचा।"
+        }
+      ],
+      "one": "Investment scam यानी निवेश के नाम पर ठगी: ठग ऊँचे और जल्दी मुनाफ़े का लालच देकर, अक्सर social media group और नक़ली trading app के ज़रिये, पैसा लगवाते हैं और फिर हड़प लेते हैं। SEBI के मुताबिक securities market में guaranteed return का वादा scam है।",
+      "facts": [
+        {
+          "k": "Guaranteed return का वादा",
+          "v": "Scam का संकेत",
+          "s": "SEBI: securities market के हर निवेश में कुछ जोखिम है"
+        },
+        {
+          "k": "पैसा किसे दें",
+          "v": "SEBI registered को",
+          "s": "registration sebi.gov.in पर जाँचिए"
+        },
+        {
+          "k": "SEBI registered की ख़ास UPI ID",
+          "v": "@valid",
+          "s": "भुगतान के समय हरे त्रिकोण में thumbs-up दिखता है",
+          "good": true
+        },
+        {
+          "k": "ठगी हो जाए तो",
+          "v": "1930",
+          "s": "या cybercrime.gov.in पर report"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Social media पर लालच",
+            "s": "WhatsApp/Telegram पर ऊँचे मुनाफ़े के ads"
+          },
+          {
+            "t": "नक़ली trading app",
+            "s": "app पर नक़ली मुनाफ़ा दिखता है"
+          },
+          {
+            "t": "पैसा फँस गया",
+            "s": "निकासी बंद; बहाने और fees"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "भरोसा जमाना",
+            "s": "नक़ली experts, screenshots, शुरुआती tips"
+          },
+          {
+            "b": "और पैसा लगवाना",
+            "s": "ज़्यादा लगाने या ठगों से ही 'उधार' लेने का दबाव"
+          }
+        ],
+        "note": "आख़िर में app काम करना बंद कर देता है, और ठगी सामने आती है। (SEBI की 'Fake Trading App Scams' चेतावनी के चरण)"
+      },
+      "myths": [
+        {
+          "m": "\"Group में सब मुनाफ़ा कमा रहे हैं, तो बात सच ही होगी।\"",
+          "f": "ज़रूरी नहीं। SEBI के मुताबिक ठग group के दूसरे सदस्यों से भारी मुनाफ़े की नक़ली गवाहियाँ (testimonials) दिखाते हैं; ये सदस्य scam में ठगों का साथ देते हैं।[^4]"
+        },
+        {
+          "m": "\"App पर मुनाफ़ा दिख रहा है, यानी पैसा बढ़ रहा है।\"",
+          "f": "नक़ली app मुनाफ़ा इसलिए दिखाता है कि आप और पैसा लगाएँ। फिर पैसा निकालना बंद हो जाता है, बहाने बनते हैं और fees माँगी जाती हैं।[^3]"
+        },
+        {
+          "m": "\"Expert को अपने trading account का login दे दूँ, तो बिना जोखिम मुनाफ़ा होगा।\"",
+          "f": "नहीं। SEBI के मुताबिक ऐसे 'account handlers' मुनाफ़े में हिस्सा लेते हैं, पर नुक़सान नहीं बाँटते; वे SEBI में registered नहीं हैं और SEBI के दायरे में नहीं आते। Account का login किसी से साझा न करें।[^5]"
+        },
+        {
+          "m": "\"जाना-माना चेहरा सलाह दे रहा है, तो भरोसेमंद है।\"",
+          "f": "सावधान रहिए। SEBI के मुताबिक ठग अक्सर SEBI registered intermediaries, जाने-माने लोगों, celebrities और बड़ी कंपनियों के CEO/MD होने का दिखावा करते हैं।[^4]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "कैसे जाँचें कि कोई broker या adviser SEBI में registered है?",
+          "a": "SEBI ने कहा है कि निवेश से पहले https://www.sebi.gov.in/intermediaries.html पर registration जाँचिए, और लेनदेन सिर्फ़ SEBI registered intermediaries के असली trading apps से कीजिए, जिनकी सूची https://investor.sebi.gov.in/Investor-support.html पर है।"
+        },
+        {
+          "q": "'@valid' UPI handle क्या है?",
+          "a": "SEBI के मुताबिक निवेशकों से सीधे जुड़े (investor-facing) SEBI registered intermediaries की UPI ID में NPCI का जारी किया ख़ास '@valid' handle होता है, साथ में श्रेणी का suffix, जैसे brokers के लिए .brk और mutual funds के लिए .mf। ऐसी ID पर भुगतान करते समय हरे त्रिकोण में thumbs-up का निशान दिखता है; यह निशान न दिखे, तो SEBI के मुताबिक यह सावधानी का संकेत है कि भुगतान बिना अनुमति वाली संस्था को हो रहा है। यह भुगतान का एक अतिरिक्त विकल्प है; पुराने तरीक़े भी चलते रहेंगे।"
+        },
+        {
+          "q": "SEBI Check क्या है?",
+          "a": "SEBI की सुविधा, जिससे आप किसी SEBI registered intermediary के bank account number और IFSC, या उसकी @valid UPI ID डालकर जाँच सकते हैं कि ब्योरा असली है। भुगतान UPI से हो या NEFT, RTGS, IMPS से, यह जाँच हो सकती है। यह https://siportal.sebi.gov.in/intermediary/sebi-check पर और SEBI के Saarthi app में है।"
+        },
+        {
+          "q": "Social media पर live trading tips देने वालों पर भरोसा करें?",
+          "a": "SEBI ने 17 अगस्त 2026 को सावधान किया कि social media पर 'live trading strategies' देने वाले कुछ लोग ख़ुद को expert बताते हैं, और उनकी live chats में बिना registration वाली सलाह सेवाएँ बेची जाती हैं। SEBI की सलाह है कि ऐसे सत्रों के आधार पर निवेश का फ़ैसला न करें, और सिर्फ़ SEBI registered intermediaries से लेनदेन करें।"
+        },
+        {
+          "q": "Ponzi scheme क्या है?",
+          "a": "SEBI के मुताबिक Ponzi scheme ऐसी धोखे वाली निवेश योजना है, जो पुराने निवेशकों को 'मुनाफ़ा' उनके अपने पैसे से या नए निवेशकों के पैसे से देती है, असली कमाई से नहीं। नया पैसा आना धीमा होते ही ऐसी योजना ढह जाती है, और अक्सर चलाने वाला बाक़ी पैसा लेकर ग़ायब हो जाता है।"
+        },
+        {
+          "q": "SEBI के नाम से letter या notice आया है; असली है या नहीं?",
+          "a": "SEBI की website पर 'Document Number Verification System' से जाँचिए कि letter SEBI ने जारी किया है या नहीं। सितंबर 2026 से चल रहे नए system में letter का outward number, जारी करने वाले अधिकारी का नाम, तारीख़, विषय और पाने वाले का नाम डालना होता है। इससे पहले के letter की जाँच के लिए SEBI को dnvs@sebi.gov.in पर e-mail करना है। यह जाँच सिर्फ़ यह बताती है कि letter जारी हुआ या नहीं, उसकी बातों की पुष्टि नहीं करती।"
+        },
+        {
+          "q": "SEBI का असली WhatsApp channel कौन-सा है?",
+          "a": "SEBI ने 5 अक्टूबर 2026 को बताया कि उसका official WhatsApp channel 1800 22 7575 से मिलता है, और उस पर verified blue tick होगा।"
+        },
+        {
+          "q": "ठगी हो गई, अब क्या करें?",
+          "a": "SEBI की 'Fake Trading App Scams' चेतावनी के मुताबिक संदिग्ध गतिविधि की report cyber cell में, I4C की helpline 1930 पर या https://cybercrime.gov.in पर कीजिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Mutual Fund"
+        },
+        {
+          "t": "SIP"
+        },
+        {
+          "t": "UPI ID"
+        },
+        {
+          "t": "QR Code"
+        },
+        {
+          "t": "Impersonation"
+        },
+        {
+          "t": "Mule Account"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "Loan Scam"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SEBI Investor website — Staying Away from Investment Frauds and Get Rich Quick Schemes (पन्ने पर तारीख़ नहीं है)",
+          "url": "https://investor.sebi.gov.in/beware-of-investment.html",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "ठग थोड़े समय में ऊँचे मुनाफ़े का वादा करके निशाना बनाते हैं"
+            },
+            {
+              "ref": "Beware of Unsolicited Offers",
+              "c": "भरोसेमंद योजनाएँ बिना माँगे call या spam e-mail से नहीं बेची जातीं"
+            }
+          ]
+        },
+        {
+          "label": "SEBI Investor website — How to Spot a Scam: Guidelines for Spotting a Scam (पन्ने पर तारीख़ नहीं है)",
+          "url": "https://investor.sebi.gov.in/spot-any-scam.html",
+          "used": [
+            {
+              "ref": "Unregistered Entities",
+              "c": "ज़्यादातर investment scams में बिना registration वाली संस्थाएँ"
+            },
+            {
+              "ref": "High returns",
+              "c": "guaranteed return देने वाले पर शक करें; हर निवेश में कुछ जोखिम"
+            },
+            {
+              "ref": "Pushy Salesperson",
+              "c": "'अभी करो' का दबाव ठगों का तरीक़ा"
+            }
+          ]
+        },
+        {
+          "label": "SEBI Investor website — BEWARE OF Fake Trading App Scams! (PDF, एक पन्ना; दस्तावेज़ पर तारीख़ नहीं है)",
+          "url": "https://investor.sebi.gov.in/pdf/Fake%20trading%20app%20scam%20Landscape.pdf",
+          "used": [
+            {
+              "ref": "Stages 1–7",
+              "c": "social media ads → भरोसा → नक़ली app → नक़ली मुनाफ़ा → और पैसे का दबाव → निकासी बंद → app बंद"
+            },
+            {
+              "ref": "Red Flags",
+              "c": "guaranteed return scam है; अनजान app link या apk; तीसरे के खाते में भुगतान"
+            },
+            {
+              "ref": "Stay Safe",
+              "c": "registered mobile trading apps की सूची से जाँच; 1930 और cybercrime.gov.in पर report"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Caution to Investors on Stock Market Scams through Social Media Platforms, PR No. 27/2025, 21 मई 2025 (PDF की पंक्तियों से)",
+          "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/may-2025/caution-to-investors-on-stock-market-scams-through-social-media-platforms_94064.html",
+          "issued": "2025-05-21",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "WhatsApp group (VIP Group, Free Trading Courses) में बुलाने के बिना माँगे link"
+            },
+            {
+              "ref": "पैरा 3",
+              "c": "नक़ली expert profile; SEBI registered, celebrities, CEO/MD का दिखावा; group सदस्यों की नक़ली गवाहियाँ; ठगों के खातों में पैसा; ऐसे संदेशों पर भरोसा न करें, group से न जुड़ें"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "सिर्फ़ SEBI registered intermediaries; sebi.gov.in/intermediaries.html पर जाँच; असली trading apps की सूची"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Caution to Investors on Stock Market Scams through Account Handling Services, PR No. 14/2026, 26 फ़रवरी 2026",
+          "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/feb-2026/caution-to-investors-on-stock-market-scams-through-account-handling-services_100030.html",
+          "issued": "2026-02-26",
+          "used": [
+            {
+              "ref": "पैरा 2, 3",
+              "c": "account handlers: 'risk free' मुनाफ़े का दावा, login लेकर trade, मुनाफ़े में हिस्सा, नुक़सान नहीं बाँटते"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "login किसी से साझा न करें; ये SEBI में registered नहीं, SEBI के दायरे में नहीं"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Caution to Investors regarding display of Live trading strategies on Social Media Platforms, PR No. 48/2026, 17 अगस्त 2026",
+          "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/aug-2026/caution-to-investors-regarding-display-of-live-trading-strategies-on-social-media-platforms_103729.html",
+          "issued": "2026-08-17",
+          "used": [
+            {
+              "ref": "पैरा 2, 3",
+              "c": "social media पर live trading strategies; live chat में बिना registration वाली सलाह"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "ऐसे सत्रों पर निवेश फ़ैसला न करें; सिर्फ़ SEBI registered intermediaries"
+            }
+          ]
+        },
+        {
+          "label": "SEBI Investor website — Caution to Investor: Caution Against Ponzi Schemes (पन्ने पर तारीख़ नहीं है)",
+          "url": "https://investor.sebi.gov.in/cautiontoinvestor.html",
+          "used": [
+            {
+              "ref": "पैरा 1, 2",
+              "c": "Ponzi: पुराने निवेशकों को नए निवेशकों के पैसे से 'मुनाफ़ा'; नया पैसा धीमा होते ही ढहना; promoter ग़ायब"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — SEBI rolls out \"Validated UPI Handles\" and \"SEBI Check\" for secure investor payments, PR No. 64/2025, 1 अक्टूबर 2025 (आधार: circular SEBI/HO/DEPA-II/DEPA-II_SRG/P/CIR/2025/86, 11 जून 2025)",
+          "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/oct-2025/sebi-rolls-out-validated-upi-handles-and-sebi-check-for-secure-investor-payments_97020.html",
+          "issued": "2025-10-01",
+          "effective": "2025-10-01",
+          "used": [
+            {
+              "ref": "बिंदु 1, (i)",
+              "c": "@valid handle, NPCI का; .brk brokers, .mf mutual funds; अतिरिक्त विकल्प"
+            },
+            {
+              "ref": "बिंदु 1, (ii)",
+              "c": "हरे त्रिकोण में thumbs-up; न दिखे तो सावधानी"
+            },
+            {
+              "ref": "बिंदु 2",
+              "c": "SEBI Check: account number + IFSC या @valid UPI ID से जाँच; UPI, NEFT, RTGS, IMPS; Saarthi app"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — SEBI revamps its \"Document Number Verification System\", PR No. 60/2026, 1 अक्टूबर 2026",
+          "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/oct-2026/sebi-revamps-its-document-number-verification-system-_104873.html",
+          "issued": "2026-10-01",
+          "used": [
+            {
+              "ref": "पैरा 3, 4",
+              "c": "SEBI letter की जाँच; ज़रूरी ब्योरे; जाँच letter की बातों की पुष्टि नहीं; सितंबर 2026 से पहले के letter के लिए dnvs@sebi.gov.in"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Samajh Se Investing Simple campaign, MUST initiative और WhatsApp पर SEBI, PR No. 61/2026, 5 अक्टूबर 2026",
+          "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/oct-2026/sebi-releases-samajh-se-investing-simple-campaign-under-project-jagrook-rolls-out-the-must-initiative-announces-its-presence-on-whatsapp-and-other-initiatives-for-investor-awareness-and-education_105034.html",
+          "issued": "2026-10-05",
+          "used": [
+            {
+              "ref": "SEBI's official WhatsApp presence",
+              "c": "official WhatsApp channel 1800 22 7575 से; verified blue tick"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nInvestment scam में ठग ऊँचे और जल्दी मुनाफ़े का वादा करके लोगों से पैसा लगवाते हैं। SEBI के मुताबिक ठग थोड़े समय में ऊँचे मुनाफ़े का वादा करके बेख़बर लोगों को निशाना बनाते हैं; असल में उनका मक़सद पैसा ठगना होता है।[^1]\n\n- **ज़्यादातर बिना registration:** SEBI के मुताबिक ज़्यादातर investment scams में ऐसी संस्थाएँ होती हैं, जो SEBI में registered नहीं हैं।[^2]\n- **यह पन्ना:** यहाँ ज़्यादातर शेयर बाज़ार (securities market) के नाम पर होने वाली ठगी की बात है, क्योंकि ऊपर के स्रोत SEBI के हैं।\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Guaranteed return = ख़तरे का निशान:** SEBI के मुताबिक securities market में guaranteed return का वादा scam है।[^3] हर निवेश में कुछ न कुछ जोखिम होता है।[^2]\n- **सिर्फ़ registered से लेनदेन:** निवेश से पहले SEBI की website पर registration जाँचिए, और लेनदेन सिर्फ़ SEBI registered intermediaries के असली trading apps से कीजिए।[^4]\n- **बिना माँगे आए न्योते:** WhatsApp group में बुलाने वाले ऐसे संदेशों पर भरोसा न करें, और ऐसे groups से न जुड़ें।[^4] SEBI के मुताबिक भरोसेमंद निवेश योजनाएँ बिना माँगे call या spam e-mail से नहीं बेची जातीं।[^1]\n- **जल्दबाज़ी का दबाव:** 'अभी करो' कहकर दबाव बनाना ठगों का तरीक़ा है; कोई भरोसेमंद निवेश professional ऐसा नहीं करता।[^2]\n\n## Investment scam कैसे चलता है | कैसे चलता है\n\n::flow\n\n- **Group का न्योता:** ठग बिना माँगे link भेजकर WhatsApp group में बुलाते हैं, जैसे 'VIP Group' या 'Free Trading Courses'।[^4]\n- **नक़ली पहचान:** ठग ख़ुद को शेयर बाज़ार का expert दिखाते हैं, और अक्सर SEBI registered intermediaries, celebrities या बड़ी कंपनियों के CEO/MD होने का दिखावा करते हैं।[^4]\n- **नक़ली app और भुगतान:** अनजान app link या apk file, और किसी तीसरे के खाते में पैसा भेजने को कहना, दोनों ख़तरे के निशान हैं।[^3]\n- **पैसा ठगों के खाते में:** आख़िर में लोगों से ठगों के bank खातों में पैसा भिजवाया जाता है, इस झूठे भरोसे पर कि उन्हें भी वैसा ही भारी मुनाफ़ा मिलेगा।[^4]\n\n## इसके दूसरे रूप | दूसरे रूप\n\n- **Account handling:** कुछ लोग 'account handling' सेवा के नाम पर आपके trading account का login लेकर ख़ुद trade करते हैं, और मुनाफ़े में हिस्सा माँगते हैं; नुक़सान नहीं बाँटते। SEBI के मुताबिक वे SEBI में registered नहीं हैं।[^5]\n- **Live trading sessions:** social media पर 'live trading strategies' दिखाने वाले कुछ लोगों की live chats में बिना registration वाली सलाह सेवाएँ बेची जाती हैं।[^6]\n- **Ponzi scheme:** पुराने निवेशकों को 'मुनाफ़ा' नए निवेशकों के पैसे से दिया जाता है, असली कमाई से नहीं; नया पैसा धीमा होते ही योजना ढह जाती है।[^7]\n\n## भुगतान से पहले जाँच | भुगतान से पहले\n\n- **@valid UPI handle:** निवेशकों से सीधे जुड़े SEBI registered intermediaries की UPI ID में '@valid' होता है, साथ में .brk (broker) या .mf (mutual fund) जैसा suffix।[^8]\n- **हरा निशान:** ऐसी ID पर भुगतान करते समय हरे त्रिकोण में thumbs-up दिखता है। यह न दिखे, तो SEBI के मुताबिक यह सावधानी का संकेत है।[^8]\n- **SEBI Check:** bank account number और IFSC, या @valid UPI ID डालकर जाँचिए कि ब्योरा SEBI registered intermediary का ही है; भुगतान UPI से हो या NEFT, RTGS, IMPS से।[^8]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- पैसा लगाने से पहले registration https://www.sebi.gov.in/intermediaries.html पर, और trading app https://investor.sebi.gov.in/Investor-support.html की सूची में जाँचिए।[^4]\n- अपने trading account का login किसी से साझा न करें।[^5]\n- संदिग्ध गतिविधि की report cyber cell में, 1930 पर या cybercrime.gov.in पर कीजिए।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "loan-scam",
+      "term": "Loan Scam",
+      "aliases": [
+        "Loan Scams",
+        "Loan App Scam",
+        "Fake Loan App",
+        "Fake Loan Apps",
+        "लोन स्कैम"
+      ],
+      "full": "लोन स्कैम · आसान loan के नाम पर ठगी",
+      "fullEn": "Loan Scam (fake or unauthorised loan apps and offers)",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI की press releases (23 दिसंबर 2020 और 8 मई 2025), RBI की FAME पुस्तिका (फ़रवरी 2024), वित्त मंत्रालय की PIB release (17 मार्च 2026) और RBI के Credit Facilities Directions, 2025 (NBFCs और commercial banks) से जाँचा।"
+        }
+      ],
+      "one": "Loan scam यानी जल्दी और आसान loan का लालच देकर ठगी: processing fee लेकर ग़ायब हो जाना, या बिना मंज़ूरी वाले app से भारी ब्याज, छिपे charges, ज़ोर-ज़बरदस्ती वाली वसूली और phone के data का ग़लत इस्तेमाल। ऐसा हो, तो 1930 पर call कीजिए या cybercrime.gov.in पर शिकायत कीजिए।",
+      "facts": [
+        {
+          "k": "Loan app असली है?",
+          "v": "RBI की DLA सूची",
+          "s": "RBI की website पर, 1 जुलाई 2025 से"
+        },
+        {
+          "k": "Contacts, call logs, files",
+          "v": "नहीं",
+          "s": "bank या NBFC का loan app इन्हें नहीं खोल सकता",
+          "good": true
+        },
+        {
+          "k": "Loan का पैसा",
+          "v": "आपके खाते में",
+          "s": "कुछ ख़ास मामलों को छोड़कर, सीधे आपके bank खाते में"
+        },
+        {
+          "k": "ठगी हो जाए",
+          "v": "1930",
+          "s": "या cybercrime.gov.in पर शिकायत"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "लालच",
+            "s": "'तुरंत loan' का link या call"
+          },
+          {
+            "t": "नक़ली app या agent",
+            "s": "KYC काग़ज़, fee या phone की permissions माँगता है"
+          },
+          {
+            "t": "नुक़सान",
+            "s": "fee लेकर ग़ायब, या भारी charges और धमकी"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Link खोला",
+            "s": "SMS या social media से app"
+          },
+          {
+            "b": "पैसा या data गया",
+            "s": "processing fee, KYC या phone data"
+          }
+        ],
+        "note": "RBI के मुताबिक SMS या social media पर आए link से कोई app download करने से बचिए।"
+      },
+      "myths": [
+        {
+          "m": "\"App store पर है, तो loan app असली है।\"",
+          "f": "ज़रूरी नहीं। RBI के मुताबिक कोई भी संदिग्ध loan app, चाहे app store पर हो या SMS / social media के link से आया हो, उसकी शिकायत police को करनी चाहिए।[^2] App किसी bank या NBFC से जुड़ा है या नहीं, यह उस bank या NBFC की website पर और RBI की DLA सूची में देखिए।[^2][^3]"
+        },
+        {
+          "m": "\"RBI की DLA सूची में नाम है, तो RBI ने app को मंज़ूरी दी है।\"",
+          "f": "नहीं। यह सूची सिर्फ़ यह जाँचने के लिए है कि app किसी RBI-regulated संस्था से जुड़ा है या नहीं। सूची संस्थाओं के भेजे data पर बनती है, और RBI उसकी अलग से जाँच नहीं करता।[^3] किसी तीसरे पक्ष के app का सूची में होना RBI का registration, authorisation या endorsement नहीं माना जा सकता।[^5]"
+        },
+        {
+          "m": "\"Bank से भी सस्ती दर पर loan मिल रहा है, अच्छा सौदा है।\"",
+          "f": "सावधान। RBI कहता है कि bank से कम दर पर loan देने वालों से loan मत लीजिए; हो सकता है वे सिर्फ़ processing fee लेकर ग़ायब हो जाएँ।[^2]"
+        },
+        {
+          "m": "\"Agent को fee दीजिए, loan पक्का हो जाएगा।\"",
+          "f": "RBI के मुताबिक fee लेकर loan दिलाने का वादा करने वाले agents से सावधान रहिए; सीधे bank, NBFC, HFC या Business Correspondent से बात कीजिए।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Loan app असली है या नहीं, कैसे जाँचें?",
+          "a": "RBI की website के home page पर Citizen's Corner में 'DLA's deployed by Regulated Entities' की सूची देखिए। App जिस bank या NBFC से जुड़ा होने का दावा करे, उसकी website भी देखिए: RBI के निर्देशों के मुताबिक bank या NBFC को अपनी website पर अपने digital loan products, अपने loan apps और अपने साथ काम करने वाले Lending Service Providers (LSP) के apps की जानकारी रखनी है।"
+        },
+        {
+          "q": "Loan app मेरे contacts और photos माँगे, तो?",
+          "a": "RBI के निर्देशों के मुताबिक bank या NBFC का loan app, या उनके LSP का app, आपके phone की file और media, contact list, call logs और telephony functions नहीं खोल सकता। Camera, microphone या location सिर्फ़ onboarding / KYC के लिए एक बार, आपकी साफ़ सहमति से लिया जा सकता है।"
+        },
+        {
+          "q": "Loan किसी और के खाते से आए, या EMI किसी व्यक्ति के खाते में माँगी जाए, तो?",
+          "a": "RBI के निर्देशों के मुताबिक bank या NBFC loan सीधे borrower के bank खाते में भेजता है, किसी तीसरे के खाते में नहीं। छूट कुछ ख़ास मामलों में है, जैसे क़ानून या नियामक की ज़रूरत, या किसी तय काम के लिए पैसा सीधे उस भुगतान पाने वाले के खाते में। चुकाना भी सीधे lender के bank खाते में होता है; LSP समेत किसी तीसरे के pass-through या pool खाते से नहीं।"
+        },
+        {
+          "q": "वसूली वाला बिना बताए call कर रहा है?",
+          "a": "RBI के निर्देशों के मुताबिक digital loan में default पर जब recovery agent तय हो या बदले, तो उसके संपर्क करने से पहले bank या NBFC को उसका ब्योरा आपको email / SMS से भेजना है। RBI ने 2020 में कहा था कि ऐसे बिना मंज़ूरी वाले apps और उनसे जुड़े bank खातों की जानकारी police को दीजिए, या Sachet portal (sachet.rbi.org.in) पर online शिकायत कीजिए।"
+        },
+        {
+          "q": "Digital loan लेकर पछतावा हो, तो?",
+          "a": "RBI के निर्देशों के मुताबिक digital loan में शुरू की 'cooling-off' अवधि में आप मूलधन और उतने समय का APR देकर बिना penalty loan से बाहर निकल सकते हैं। यह अवधि lender तय करता है, पर कम से कम एक दिन होनी चाहिए। Lender एक बार की उचित processing fee रख सकता है, अगर KFS में पहले से बताई गई हो।"
+        },
+        {
+          "q": "कौन loan दे सकता है?",
+          "a": "RBI के मुताबिक public को loan देने का काम banks, RBI में registered NBFCs और वे संस्थाएँ कर सकती हैं, जो राज्यों के money lending क़ानूनों जैसे क़ानूनों के तहत राज्य सरकार से regulated हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "1930"
+        },
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "Loan Statement"
+        },
+        {
+          "t": "Credit Report"
+        },
+        {
+          "t": "CMS"
+        },
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "Smishing"
+        },
+        {
+          "t": "Investment Scam"
+        },
+        {
+          "t": "Mule Account"
+        },
+        {
+          "t": "Impersonation"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — press release 2020-2021/819: RBI Cautions against unauthorised Digital Lending Platforms/Mobile Apps",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50846",
+          "issued": "2020-12-23",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "जल्दी loan का वादा; भारी ब्याज, छिपे charges, ज़ोर-ज़बरदस्ती वाली वसूली, phone data का ग़लत इस्तेमाल"
+            },
+            {
+              "ref": "पैरा 2",
+              "c": "कौन loan दे सकता है; KYC काग़ज़ न दें; police या Sachet पर शिकायत"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Financial Awareness Messages (FAME), Fourth Edition, February 2024 (पन्ना संख्या पुस्तिका की है)",
+          "url": "https://www.rbi.org.in/commonperson/images/FAME202426022024.pdf",
+          "used": [
+            {
+              "ref": "Message 1, पन्ना 3",
+              "c": "fee लेकर loan दिलाने वाले agents से सावधान; सीधे bank, NBFC, HFC या BC"
+            },
+            {
+              "ref": "Message 18, पन्ना 32",
+              "c": "bank से कम दर वाले loan से बचें; fee लेकर ग़ायब"
+            },
+            {
+              "ref": "Message 25, पन्ना 46-47",
+              "c": "SMS / social media के link से app नहीं; संदिग्ध app की शिकायत police को; bank / NBFC की website पर जाँच; letterhead पर digitally signed काग़ज़"
+            }
+          ]
+        },
+        {
+          "label": "RBI — press release 2025-2026/288: RBI issues Reserve Bank of India (Digital Lending) Directions, 2025",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60403",
+          "issued": "2025-05-08",
+          "used": [
+            {
+              "ref": "पैरा 2; उसके बाद का पैरा",
+              "c": "DLA सूची Citizen's Corner में; सिर्फ़ जुड़ाव जाँचने के लिए; RBI अलग से जाँच नहीं करता"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय (PIB) — Government and RBI Strengthen Measures Against Fraudulent Loan Apps, राज्यसभा में लिखित उत्तर (Release ID 2241255; बिंदु ऊपर से गिने गए हैं)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241255",
+          "issued": "2026-03-17",
+          "used": [
+            {
+              "ref": "बिंदु 1",
+              "c": "RBI की DLA सूची 01.07.2025 से"
+            },
+            {
+              "ref": "बिंदु 3",
+              "c": "illegal loan apps की शिकायत cybercrime.gov.in और 1930 पर"
+            },
+            {
+              "ref": "पैरा 3",
+              "c": "MeitY, IT Act की धारा 69A के तहत fraudulent loan apps block करता है"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/347; DOR.CRE.REC.No.266/07-01-008/2025-26; updated as on July 15, 2026)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12957",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 9(4)",
+              "c": "website पर digital loan products, DLA और LSP की जानकारी"
+            },
+            {
+              "ref": "पैरा 9(6)",
+              "c": "recovery agent का ब्योरा संपर्क से पहले email / SMS से"
+            },
+            {
+              "ref": "पैरा 10(1), 10(2)",
+              "c": "loan सीधे borrower के खाते में; चुकाना सीधे NBFC के खाते में, pool खाते से नहीं"
+            },
+            {
+              "ref": "पैरा 11",
+              "c": "cooling-off कम से कम एक दिन; एक बार की processing fee, KFS में बताई हो तो"
+            },
+            {
+              "ref": "पैरा 13(1)",
+              "c": "file और media, contacts, call logs नहीं; camera, mic, location सिर्फ़ KYC के लिए एक बार"
+            },
+            {
+              "ref": "पैरा 18(5), 18(6)",
+              "c": "RBI data की जाँच नहीं करता; तीसरे पक्ष का app सूची में होना registration या endorsement नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/154; DOR.CRE.REC.73/07-01-001/2025-26; Updated as on October 1, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/154MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 9(4), 9(6)",
+              "c": "banks पर भी यही: website पर DLA; recovery agent की पहले सूचना"
+            },
+            {
+              "ref": "पैरा 10(1), 10(2), 11",
+              "c": "banks पर भी: पैसा सीधे खाते में; cooling-off"
+            },
+            {
+              "ref": "पैरा 13(1), 18(6)",
+              "c": "banks पर भी: phone data नहीं; सूची में नाम मंज़ूरी नहीं"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nLoan scam यानी जल्दी और आसान loan का लालच देकर की गई ठगी। RBI ने 23 दिसंबर 2020 को बताया कि लोगों और छोटे कारोबारियों के ऐसे बिना मंज़ूरी वाले digital lending platforms और mobile apps के झाँसे में आने की ख़बरें मिली हैं, जो जल्दी और बिना झंझट loan का वादा करते हैं, फिर भारी ब्याज और छिपे charges माँगते हैं, ज़ोर-ज़बरदस्ती से वसूली करते हैं, और phone के data तक पहुँच का ग़लत इस्तेमाल करते हैं।[^1]\n\n- **कौन loan दे सकता है:** RBI के मुताबिक banks, RBI में registered NBFCs, और राज्यों के money lending क़ानूनों जैसे क़ानूनों के तहत राज्य सरकार से regulated संस्थाएँ।[^1]\n\n## यह ठगी कैसे होती है | कैसे होती है\n\n::flow\n\n- **Fee लेकर ग़ायब:** bank से भी कम दर पर loan का वादा करने वाले सिर्फ़ processing fee लेकर ग़ायब हो सकते हैं।[^2]\n- **Fee वाले agent:** fee लेकर loan दिलाने का वादा करने वाले agents से धोखा हो सकता है।[^2]\n- **बिना मंज़ूरी वाला app:** भारी ब्याज, छिपे charges, ज़ोर-ज़बरदस्ती वाली वसूली और phone के data का ग़लत इस्तेमाल।[^1]\n\n## असली digital loan की पहचान | असली loan\n\nRBI के निर्देशों के मुताबिक bank या NBFC से मिलने वाले digital loan में:[^5][^6]\n\n- **पैसा आपके खाते में:** कुछ ख़ास मामलों को छोड़कर, loan सीधे आपके bank खाते में आता है, किसी तीसरे के खाते में नहीं; चुकाना भी सीधे lender के bank खाते में होता है।[^5][^6]\n- **Phone का data नहीं:** app आपकी file और media, contact list और call logs नहीं खोल सकता।[^5][^6]\n- **Recovery agent की पहले सूचना:** default पर recovery agent का ब्योरा उसके संपर्क से पहले email / SMS से आता है।[^5][^6]\n- **Website पर जानकारी:** bank या NBFC की website पर उसके loan apps और उसके साथ काम करने वालों के apps की जानकारी होती है।[^5][^6]\n- **RBI की DLA सूची:** 1 जुलाई 2025 से RBI की website पर bank और NBFC जैसी संस्थाओं के loan apps (Digital Lending Apps, DLA) की सूची है।[^4] यह सिर्फ़ जुड़ाव जाँचने के लिए है, RBI की मंज़ूरी नहीं।[^3][^5]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## क्या न करें | क्या न करें\n\n- SMS या social media पर आए link से loan app download मत कीजिए।[^2]\n- अपने KYC काग़ज़ों की copy किसी अनजान व्यक्ति या बिना जाँचे app को मत दीजिए।[^1]\n- Loan दिलाने के नाम पर किसी agent को fee मत दीजिए; सीधे bank, NBFC, HFC या Business Correspondent से बात कीजिए।[^2]\n\n## आपका अधिकार\n\n> RBI के निर्देशों के मुताबिक bank या NBFC का loan app आपकी contact list, call logs या files नहीं खोल सकता, और कुछ ख़ास मामलों को छोड़कर loan का पैसा सीधे आपके अपने bank खाते में आना चाहिए।[^5][^6]\n\n## अभी क्या करें\n\n- Loan app लेने से पहले RBI की website पर DLA सूची और उस bank या NBFC की website देखिए।[^2][^3]\n- Loan से पहले Key Facts Statement (KFS) में कुल ख़र्च, यानी APR, और शर्तें पढ़िए; काग़ज़ bank या NBFC के letterhead पर digitally signed होने चाहिए।[^2]\n- **पैसा या data जा चुका हो:** 1930 पर call कीजिए, या cybercrime.gov.in पर शिकायत कीजिए; illegal loan apps की शिकायत यहीं होती है।[^4]\n- RBI ने 2020 की चेतावनी में कहा था: ऐसे app और उससे जुड़े bank खाते की जानकारी police को दीजिए, या RBI के Sachet portal पर online शिकायत कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "mule-account",
+      "term": "Mule Account",
+      "aliases": [
+        "Mule Accounts",
+        "Money Mule",
+        "Money Mules",
+        "Money Mule Account",
+        "Money Mule Accounts",
+        "mule खाता",
+        "mule खाते",
+        "mule खातों",
+        "म्यूल खाता",
+        "म्यूल खाते"
+      ],
+      "full": "म्यूल खाता · वह bank खाता, जिससे ठग ठगी का पैसा आगे घुमाते हैं",
+      "fullEn": "Mule account (money mule account)",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के 6 दिसंबर 2024 के Statement on Developmental and Regulatory Policies, RBI के Commercial Banks – Fraud Risk Management Directions, 2026 (31 जुलाई 2026), और PIB पर गृह मंत्रालय (28 अक्टूबर 2024, 12 मई 2026) और वित्त मंत्रालय (24 मार्च 2026) की releases से जाँचा।"
+        }
+      ],
+      "one": "Mule account वह bank खाता है, जिसके ज़रिये ठग ठगी का पैसा आगे भेजते और कई खातों में घुमाते हैं। I4C की सलाह है कि अपना bank खाता किसी को न बेचें, न किराये पर दें; ऐसे खाते में आया ठगी का पैसा गिरफ़्तारी तक करा सकता है।",
+      "facts": [
+        {
+          "k": "खाता बेचना या किराये पर देना",
+          "v": "बिल्कुल नहीं",
+          "s": "I4C की सलाह; company और Udyam certificate भी नहीं"
+        },
+        {
+          "k": "ऐसे खाते में ठगी का पैसा आया तो",
+          "v": "गिरफ़्तारी तक",
+          "s": "I4C के मुताबिक क़ानूनी नतीजे हो सकते हैं"
+        },
+        {
+          "k": "ठग खाते कहाँ ढूँढते हैं",
+          "v": "Social media",
+          "s": "ज़्यादातर Telegram और Facebook (I4C, अक्टूबर 2024)"
+        },
+        {
+          "k": "MuleHunter.AI",
+          "v": "26 banks में",
+          "s": "24 मार्च 2026 तक live; mule खाते पहचानने वाला AI tool",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "ठग",
+            "s": "social media पर खाते ढूँढते हैं"
+          },
+          {
+            "t": "Mule account",
+            "s": "ठगी का पैसा यहाँ आता है"
+          },
+          {
+            "t": "दूसरे खाते",
+            "s": "पैसा तुरंत आगे भेजा जाता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "खाता हाथ में",
+            "s": "विदेश से दूर बैठकर चलाते हैं"
+          },
+          {
+            "b": "Layering",
+            "s": "पैसा आते ही दूसरे खाते में"
+          }
+        ],
+        "note": "I4C के मुताबिक ऐसे खातों से ग़ैर-क़ानूनी payment gateway बनाए गए, जिनसे नक़ली निवेश sites, नक़ली stock trading platforms और offshore betting-gambling sites पर पैसा जमा कराया गया।"
+      },
+      "myths": [
+        {
+          "m": "\"मैंने तो सिर्फ़ खाता किराये पर दिया, ठगी किसी और ने की; मुझ पर कुछ नहीं होगा।\"",
+          "f": "ग़लत। I4C के मुताबिक ऐसे खातों में जमा हुआ ठगी का पैसा क़ानूनी नतीजों तक ले जा सकता है, गिरफ़्तारी तक।[^3]"
+        },
+        {
+          "m": "\"सिर्फ़ savings खाते ही mule बनते हैं।\"",
+          "f": "नहीं। I4C के मुताबिक current और savings, दोनों तरह के खाते ढूँढे जाते हैं, और ये shell companies, कारोबार या आम लोगों के नाम पर होते हैं। I4C ने company registration certificate और Udyam Registration certificate भी किसी को न बेचने या किराये पर न देने की सलाह दी है।[^3]"
+        },
+        {
+          "m": "\"Bank को क्या पता चलेगा कि खाता कौन चला रहा है।\"",
+          "f": "RBI के 2026 के निर्देशों के मुताबिक commercial bank को लेनदेन और असामान्य गतिविधियों पर नज़र रखनी है, ख़ासकर बिना KYC वाले और money mule खातों में।[^4] Mule खाते पहचानने वाला AI tool MuleHunter.AI 24 मार्च 2026 तक 26 banks में live था।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mule account किसे कहते हैं?",
+          "a": "वह bank खाता, जिसका इस्तेमाल ठग ठगी की कमाई को आगे पहुँचाने के लिए करते हैं। RBI के मुताबिक money mule खातों का इस्तेमाल ठगों का आम तरीक़ा है। वित्त मंत्रालय के मुताबिक ये खाते साइबर ठगी में पैसे को मोड़ने और कई परतों में घुमाने (layering) के काम आते हैं।"
+        },
+        {
+          "q": "कोई पैसे के बदले मेरा खाता माँगे, तो क्या करूँ?",
+          "a": "मना कीजिए। I4C ने सलाह दी है कि अपना bank खाता, company registration certificate या Udyam Registration certificate किसी को न बेचें, न किराये पर दें। किसी भी साइबर अपराध की report तुरंत 1930 पर या cybercrime.gov.in पर कीजिए।"
+        },
+        {
+          "q": "MuleHunter.AI क्या है?",
+          "a": "यह AI/ML पर आधारित model है, जो mule bank खाते पहचानने में मदद करता है। RBI ने 6 दिसंबर 2024 को बताया कि इसका pilot Reserve Bank Innovation Hub (RBIH) चला रहा है, जो RBI की subsidiary है, और दो बड़े सरकारी banks के साथ pilot के नतीजे उत्साहजनक रहे। वित्त मंत्रालय के 24 मार्च 2026 के जवाब के मुताबिक यह 26 banks में live था, और इसे आगे बढ़ाया जा रहा था।"
+        },
+        {
+          "q": "I4C और RBIH का समझौता क्या है?",
+          "a": "12 मई 2026 को I4C और RBIH ने MoU किया। इसके तहत I4C की Suspect Registry से mule खातों से जुड़ी जानकारी और संदिग्ध पहचानें साझा होंगी, ताकि MuleHunter.ai जैसे AI fraud-detection systems मज़बूत हों।"
+        },
+        {
+          "q": "Banks को क्या करने को कहा गया है?",
+          "a": "वित्त मंत्रालय के मुताबिक banks को real-time लेनदेन निगरानी वाला मज़बूत software, संदिग्ध और धोखे वाले लेनदेन पकड़ने के लिए AI/ML tools, और mule networks पहचानने के लिए network analytics इस्तेमाल करने की सलाह दी गई है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Suspect Registry"
+        },
+        {
+          "t": "I4C"
+        },
+        {
+          "t": "1930"
+        },
+        {
+          "t": "cybercrime.gov.in"
+        },
+        {
+          "t": "CFCFRMS"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Current Account"
+        },
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "Investment Scam"
+        },
+        {
+          "t": "Loan Scam"
+        }
+      ],
+      "article": "khata-freeze-cyber",
+      "articleLabel": "साइबर शिकायत में खाता freeze हो गया? जो तय है, और जो अब तक तय नहीं",
+      "sources": [
+        {
+          "label": "RBI — Statement on Developmental and Regulatory Policies, Press Release 2024-2025/1648, 6 दिसंबर 2024",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59245",
+          "issued": "2024-12-06",
+          "used": [
+            {
+              "ref": "पैरा 10",
+              "c": "money mule खाते ठगी की कमाई आगे पहुँचाने का आम तरीक़ा"
+            },
+            {
+              "ref": "पैरा 10",
+              "c": "MuleHunter.AI: RBIH का AI/ML model; दो बड़े सरकारी banks में pilot के नतीजे उत्साहजनक"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय (PIB) — RBI Strengthens Framework on Unauthorised Electronic Banking Transactions, राज्यसभा में जवाब, 24 मार्च 2026 (Release ID 2244478; पैरा ऊपर से गिने गए हैं)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2244478",
+          "issued": "2026-03-24",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "mule खाते: साइबर ठगी में पैसे को मोड़ना और layering; MuleHunter.AI 26 banks में live"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "banks को real-time निगरानी, AI/ML tools और mule networks के लिए network analytics की सलाह"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — I4C की चेतावनी: mule bank खातों से बने ग़ैर-क़ानूनी payment gateways, 28 अक्टूबर 2024 (Release ID 2069000; पैरा ऊपर से गिने गए हैं, बिंदु I–IV release में हैं)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2069000",
+          "issued": "2024-10-28",
+          "used": [
+            {
+              "ref": "बिंदु I",
+              "c": "current और savings खाते social media पर ढूँढे जाते हैं, ज़्यादातर Telegram और Facebook से; shell companies, कारोबार या आम लोगों के"
+            },
+            {
+              "ref": "बिंदु II",
+              "c": "mule खाते विदेश से दूर बैठकर चलाए जाते हैं"
+            },
+            {
+              "ref": "बिंदु III",
+              "c": "इन खातों से बने gateway: नक़ली निवेश sites, betting-gambling, नक़ली stock trading platforms"
+            },
+            {
+              "ref": "बिंदु IV",
+              "c": "पैसा आते ही दूसरे खाते में; Bulk Payout सुविधा का ग़लत इस्तेमाल"
+            },
+            {
+              "ref": "पैरा 5",
+              "c": "खाता, company registration या Udyam certificate न बेचें, न किराये पर दें; गिरफ़्तारी तक; 1930 या cybercrime.gov.in"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Fraud Risk Management) Directions, 2026 (RBI/DoS/2026-27/412; DoS.CO.FMG.6/23.04.001/2026-27; जारी होते ही लागू; small finance, payments और local area banks पर लागू नहीं)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13641",
+          "issued": "2026-07-31",
+          "effective": "2026-07-31",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "ये निर्देश commercial banks पर लागू"
+            },
+            {
+              "ref": "पैरा 24",
+              "c": "bank बिना KYC वाले और money mule खातों में लेनदेन पर ख़ास नज़र रखे"
+            }
+          ]
+        },
+        {
+          "label": "गृह मंत्रालय (PIB) — I4C and RBIH Sign MoU to Strengthen AI-Driven Detection of Mule Accounts and Cyber Financial Frauds, 12 मई 2026 (Release ID 2260277; पैरा ऊपर से गिने गए हैं)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2260277",
+          "issued": "2026-05-12",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "I4C और RBIH का MoU, mule खातों पर रोक के लिए"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "Suspect Registry से mule खातों की जानकारी, MuleHunter.ai जैसे systems के लिए"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nMule account वह bank खाता है, जिसका इस्तेमाल ठग ठगी का पैसा इधर-उधर करने के लिए करते हैं। RBI के मुताबिक money mule खातों का इस्तेमाल ठगों का आम तरीक़ा है, ठगी की कमाई को आगे पहुँचाने के लिए।[^1] वित्त मंत्रालय के मुताबिक ये खाते साइबर ठगी में पैसे को मोड़ने और कई परतों में घुमाने (layering) के काम आते हैं।[^2]\n\n- **किसके नाम पर:** I4C के मुताबिक ऐसे current और savings खाते shell companies, कारोबार या आम लोगों के नाम पर होते हैं।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **खाता न बेचें, न किराये पर दें:** I4C ने सलाह दी है कि अपना bank खाता, company registration certificate या Udyam Registration certificate किसी को न बेचें, न किराये पर दें।[^3]\n- **गिरफ़्तारी तक:** I4C के मुताबिक ऐसे खातों में जमा हुआ ठगी का पैसा क़ानूनी नतीजों तक ले जा सकता है, गिरफ़्तारी भी।[^3]\n- **Bank की नज़र:** RBI के 2026 के निर्देशों के मुताबिक commercial bank को लेनदेन पर नज़र रखनी है, ख़ासकर बिना KYC वाले और money mule खातों में।[^4]\n\n## Mule account कैसे चलता है | कैसे चलता है\n\n::flow\n\nअक्टूबर 2024 में I4C ने Gujarat और Andhra Pradesh Police की छापेमारी के बाद यह तरीक़ा बताया:[^3]\n\n- **खाते की खोज:** current और savings खाते social media पर ढूँढे जाते हैं, ज़्यादातर Telegram और Facebook से।[^3]\n- **दूर से कंट्रोल:** ये mule खाते विदेश से दूर बैठकर चलाए जाते हैं।[^3]\n- **नक़ली payment gateway:** इन खातों से ग़ैर-क़ानूनी payment gateway बनाकर अपराधी गिरोहों को दिए जाते हैं, जिनसे नक़ली निवेश sites, offshore betting-gambling sites और नक़ली stock trading platforms पर पैसा जमा कराया जाता है।[^3]\n- **पैसा तुरंत आगे:** ठगी का पैसा आते ही दूसरे खाते में भेज दिया जाता है। इसके लिए banks की Bulk Payout सुविधा का ग़लत इस्तेमाल होता है।[^3]\n\n## Mule खाते रोकने के लिए क्या हो रहा है | रोकथाम\n\n- **MuleHunter.AI:** RBI ने 6 दिसंबर 2024 को बताया कि Reserve Bank Innovation Hub (RBIH), जो RBI की subsidiary है, AI/ML पर आधारित MuleHunter.AI model का pilot चला रहा है, और दो बड़े सरकारी banks के साथ pilot के नतीजे उत्साहजनक रहे।[^1] 24 मार्च 2026 तक यह 26 banks में live था, और इसे आगे बढ़ाया जा रहा था।[^2]\n- **Banks को सलाह:** real-time लेनदेन निगरानी वाला मज़बूत software, संदिग्ध लेनदेन पकड़ने के लिए AI/ML tools, और mule networks पहचानने के लिए network analytics।[^2]\n- **I4C और RBIH:** 12 मई 2026 के MoU के तहत I4C की Suspect Registry से mule खातों की जानकारी और संदिग्ध पहचानें साझा होंगी, ताकि MuleHunter.ai जैसे systems मज़बूत हों।[^5]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- कोई आपका bank खाता, company registration certificate या Udyam certificate ख़रीदना या किराये पर लेना चाहे, तो मना कीजिए।[^3]\n- किसी भी साइबर अपराध की report तुरंत 1930 पर या cybercrime.gov.in पर कीजिए; I4C ने यही कहा है।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
