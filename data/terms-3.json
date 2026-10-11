@@ -2999,6 +2999,851 @@
         }
       ],
       "body": "## मतलब\n\nPoS यानी Point of Sale: दुकान पर लगा वह terminal, जहाँ card से भुगतान होता है। RBI के निर्देशों में debit card से 'PoS terminal' पर लेनदेन की बात है।[^8] जब card ख़ुद भुगतान की जगह पर इस्तेमाल होता है, उसे RBI 'card present' लेनदेन कहता है।[^1]\n\n- **Card लगाकर (contact):** card machine में डालकर, PIN के साथ।\n- **Tap करके (contactless):** ₹5,000 तक बिना अतिरिक्त factor के।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **आपका card, आपका नियंत्रण:** PoS, ATM, online और contactless इस्तेमाल को आप चालू या बंद कर सकते हैं, और सीमा तय कर सकते हैं।[^3]\n- **पैसा कटा, slip नहीं:** पैसा अपने आप लौटना चाहिए; देरी पर हर्जाना।[^6]\n- **दुकान पर नक़द:** कुछ दुकानों पर debit card से छोटी रक़म नक़द भी मिल सकती है।[^4]\n\n## PoS पर भुगतान कैसे होता है | कैसे\n\n::flow\n\n- **दो factors:** हर digital भुगतान कम से कम दो factors से पक्का होना चाहिए, जब तक छूट न हो। PIN और card hardware, दोनों factors माने जाते हैं।[^1]\n- **Contactless की छूट:** छोटे contactless card लेनदेन इस नियम की छूट वाली सूची में हैं।[^1] यह सीमा ₹5,000 प्रति लेनदेन है।[^2]\n- **नया card:** शुरू में सिर्फ़ भारत में ATM और PoS पर card लगाकर इस्तेमाल के लिए चालू होता है।[^3]\n\n## PoS पर नक़द | नक़द\n\n- **सीमा:** एक बार में ₹2,000 तक, और महीने में कुल ₹10,000 तक। यह सीमा हर जगह एक है, शहर छोटा हो या बड़ा।[^4]\n- **किस card से:** debit card और full-KYC prepaid card से; credit card से नहीं।[^9]\n- **Charge:** लगे, तो लेनदेन की रक़म के 1% से ज़्यादा नहीं।[^5][^9]\n- **कहाँ:** सिर्फ़ उन दुकानों पर, जिन्हें bank ने जाँच के बाद चुना है।[^5][^9]\n- **ख़रीदारी ज़रूरी नहीं:** ख़रीदारी के साथ लें, तो रसीद पर नक़द की रक़म अलग लिखी हो।[^5]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> PoS पर पैसा कट जाए पर charge-slip न बने, तो bank को T + 5 दिन के भीतर पैसा अपने आप लौटाना है। देर हो, तो हर दिन ₹100 का हर्जाना, बिना शिकायत के।[^6]\n\n- **पूरा नुक़सान:** RBI के authentication निर्देश न मानकर हुए लेनदेन से नुक़सान हो, तो card जारी करने वाले को ग्राहक को पूरा नुक़सान बिना हील-हुज्जत भरना है।[^1]\n- **शिकायत:** तय समय में हल न हो, तो पहले bank से, फिर RBI Ombudsman के पास।[^6][^7]\n\n## अभी क्या करें\n\n- अपने bank के app या internet banking में देखिए कि card पर contactless, online और विदेश वाला इस्तेमाल चालू है या बंद; जो नहीं चाहिए, उसे बंद रखिए।[^3]\n- ₹5,000 से ऊपर का tap भुगतान अतिरिक्त factor माँगेगा; PIN किसी को मत बताइए।[^2]\n- पैसा कटे पर slip न बने, तो लेनदेन की तारीख़ और रक़म लिख लीजिए। T + 5 दिन में पैसा न लौटे, तो bank से शिकायत कीजिए; हल न हो, तो cms.rbi.org.in पर।[^6][^7]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "demand-draft",
+      "term": "Demand Draft",
+      "aliases": [
+        "Demand Drafts",
+        "डिमांड ड्राफ़्ट",
+        "डिमांड ड्राफ्ट"
+      ],
+      "full": "डिमांड ड्राफ़्ट · bank का अपने ही दूसरे office पर लिखा भुगतान का आदेश",
+      "fullEn": "Demand Draft (DD)",
+      "group": "बैंकिंग",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। Negotiable Instruments Act, 1881 (India Code), RBI के Responsible Business Conduct Directions, 2025 और Know Your Customer Directions, 2025 (दोनों 1 अक्टूबर 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Demand Draft (DD) bank का लिखा भुगतान का आदेश है: bank का एक office उसी bank के दूसरे office को कहता है कि माँगने पर तय रक़म दी जाए। RBI के निर्देशों के मुताबिक draft 3 महीने तक valid रहता है।",
+      "facts": [
+        {
+          "k": "कितने समय valid",
+          "v": "3 महीने",
+          "s": "उसके बाद revalidation"
+        },
+        {
+          "k": "₹50,000 या ज़्यादा का DD",
+          "v": "नक़द से नहीं",
+          "s": "खाते से debit या cheque से"
+        },
+        {
+          "k": "₹20,000 या ज़्यादा का DD",
+          "v": "Account payee",
+          "s": "crossing के साथ ही बनेगा"
+        },
+        {
+          "k": "खोए DD का duplicate",
+          "v": "2 हफ़्ते में",
+          "s": "देर हो, तो bank ब्याज देगा",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "DD ख़रीदने वाला",
+            "s": "रक़म और पाने वाले का नाम देता है"
+          },
+          {
+            "t": "Bank",
+            "s": "DD बनाता है, ख़रीदने वाले का नाम भी छपता है"
+          },
+          {
+            "t": "पाने वाला",
+            "s": "DD bank में देकर पैसा पाता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "पैसा दीजिए",
+            "s": "₹50,000 या ज़्यादा हो, तो खाते या cheque से"
+          },
+          {
+            "b": "DD सौंपिए",
+            "s": "3 महीने के भीतर bank में दीजिए"
+          }
+        ],
+        "note": "जिस शाखा पर DD लिखा है, उसे भुगतान तुरंत करना है; सिर्फ़ इस वजह से मना नहीं कर सकती कि उसके पास जारी करने वाली शाखा की सूचना (advice) नहीं आई।"
+      },
+      "myths": [
+        {
+          "m": "\"DD कभी भी जमा कर सकते हैं।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक draft 3 महीने तक valid रहता है, और bank 3 महीने बाद पेश किए गए draft का भुगतान नहीं करता।[^2][^3] इसके बाद revalidation कराना होता है।[^2]"
+        },
+        {
+          "m": "\"कितनी भी बड़ी रक़म का DD नक़द देकर बनवा सकते हैं।\"",
+          "f": "नहीं। ₹50,000 या उससे ज़्यादा का DD खाते से debit करके या cheque लेकर ही बनता है, नक़द से नहीं।[^3]"
+        },
+        {
+          "m": "\"DD पर सिर्फ़ पाने वाले का नाम होता है।\"",
+          "f": "नहीं। 15 सितंबर 2018 से जारी DD, pay order और banker's cheque पर ख़रीदने वाले का नाम भी छापना ज़रूरी है।[^3]"
+        },
+        {
+          "m": "\"जिसका उस bank में खाता नहीं, उसे DD नहीं मिलता।\"",
+          "f": "मिलता है। RBI के निर्देशों के मुताबिक छोटी रक़म के DD नक़द लेकर सभी को बनाने हैं, खाता हो या न हो; और छोटे नोट लेने से भी मना नहीं किया जा सकता।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "DD खो जाए, तो क्या करें?",
+          "a": "Bank से duplicate DD माँगिए। RBI के निर्देशों के मुताबिक bank को माँग मिलने के एक पखवाड़े (2 हफ़्ते) के भीतर duplicate DD देना है। देर हुई, तो bank उतनी ही अवधि की FD की दर से ब्याज देगा। यह नियम तब लागू है, जब माँग ख़रीदने वाला या पाने वाला करे; किसी तीसरे व्यक्ति को endorse किए गए DD पर नहीं।"
+        },
+        {
+          "q": "₹5,000 तक के खोए DD पर क्या आसानी है?",
+          "a": "₹5,000 तक के खोए DD की जगह duplicate, ख़रीदने वाले से ठीक indemnity लेकर दिया जा सकता है; इसके लिए दूसरी शाखा से 'भुगतान नहीं हुआ' की पुष्टि माँगना ज़रूरी नहीं।"
+        },
+        {
+          "q": "3 महीने बीत गए, अब क्या?",
+          "a": "DD का revalidation कराइए। RBI ने banks से कहा है कि 3 महीने बाद revalidation की प्रक्रिया आसान रखें।"
+        },
+        {
+          "q": "DD बनवाने का charge कितना है?",
+          "a": "यह bank तय करता है। RBI के निर्देशों के मुताबिक bank को अपनी website पर 'Rates at a quick glance' सूची में ब्याज दरें और सेवा charges दिखाने हैं, और उस सूची में Draft बनाने और रद्द करने का charge भी है।"
+        },
+        {
+          "q": "क़ानून में draft का क्या मतलब है?",
+          "a": "Negotiable Instruments Act, 1881 की धारा 85A के मुताबिक draft पैसा देने का आदेश है, जो bank का एक office उसी bank के दूसरे office पर लिखता है, और जिसकी रक़म माँगने पर, order पर देय होती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Cheque"
+        },
+        {
+          "t": "NI Act"
+        },
+        {
+          "t": "Indemnity Bond"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "NEFT"
+        },
+        {
+          "t": "RTGS"
+        },
+        {
+          "t": "DEA Fund"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Negotiable Instruments Act, 1881 (Act No. 26 of 1881); पाठ पर 'As on' तारीख़ नहीं है",
+          "url": "https://indiacode.gov.in/act/38b01c2d-f1b8-4b1f-a8bf-86b4da3b72a0",
+          "used": [
+            {
+              "ref": "धारा 85A",
+              "c": "draft: bank के एक office का उसी bank के दूसरे office पर लिखा, माँगने पर देय भुगतान का आदेश"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 11(3)",
+              "c": "duplicate draft में देरी पर ब्याज, bank की Customer Compensation Policy में"
+            },
+            {
+              "ref": "पैरा 52; Annex II बिंदु 4",
+              "c": "ब्याज दर और सेवा charges website पर; सूची में Draft बनाने और रद्द करने का charge"
+            },
+            {
+              "ref": "पैरा 122",
+              "c": "₹20,000 या ज़्यादा के DD account payee crossing के साथ"
+            },
+            {
+              "ref": "पैरा 125",
+              "c": "draft 3 महीने valid; उसके बाद revalidation आसान हो"
+            },
+            {
+              "ref": "पैरा 126",
+              "c": "छोटी रक़म के DD नक़द से सबको, खाता हो या न हो; छोटे नोट लेने से मना नहीं"
+            },
+            {
+              "ref": "पैरा 127",
+              "c": "DD का भुगतान तुरंत; advice न आने पर मना नहीं"
+            },
+            {
+              "ref": "पैरा 128",
+              "c": "₹5,000 तक का duplicate, indemnity पर, non-payment advice के बिना"
+            },
+            {
+              "ref": "पैरा 129, 130",
+              "c": "duplicate एक पखवाड़े में; देरी पर FD की दर से ब्याज; सिर्फ़ ख़रीदने या पाने वाले की माँग पर"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025 (RBI/DOR/2025-26/169; DOR.AML.REC.No.88/14.01.002/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/169MD.pdf",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 67",
+              "c": "3 महीने बाद पेश cheque, draft, pay order का भुगतान नहीं"
+            },
+            {
+              "ref": "पैरा 75(1)",
+              "c": "₹50,000 या ज़्यादा का DD खाते से debit या cheque से, नक़द से नहीं"
+            },
+            {
+              "ref": "पैरा 75(2)",
+              "c": "15 सितंबर 2018 से DD पर ख़रीदने वाले का नाम"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nDemand Draft (DD) पैसा देने का ऐसा आदेश है, जो bank का एक office उसी bank के दूसरे office पर लिखता है, और जिसकी रक़म माँगने पर दी जाती है। Negotiable Instruments Act, 1881 की धारा 85A में draft का यही मतलब लिखा है।[^1]\n\n- **कहाँ लागू:** नीचे लिखे RBI के निर्देश commercial banks पर लागू हैं; small finance, payments और local area banks इनमें शामिल नहीं।[^2][^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **3 महीने:** DD 3 महीने तक valid रहता है। इसके बाद bank भुगतान नहीं करता, revalidation कराना होता है।[^2][^3]\n- **बड़ी रक़म:** ₹50,000 या ज़्यादा का DD नक़द देकर नहीं बनता; खाते से debit या cheque से बनता है।[^3]\n- **सुरक्षा:** ₹20,000 या ज़्यादा का DD account payee crossing के साथ ही बनता है।[^2] DD पर ख़रीदने वाले का नाम भी छपता है।[^3]\n\n## DD कैसे काम करता है | कैसे\n\n::flow\n\n- **खाता न हो, तब भी:** छोटी रक़म के DD bank को सभी लोगों को नक़द लेकर बनाने हैं, उनका उस bank में खाता हो या न हो।[^2]\n- **भुगतान में देरी नहीं:** जिस शाखा पर DD लिखा है, वह भुगतान तुरंत करे; advice न आने के बहाने मना न करे।[^2]\n\n## DD खो जाए तो | खो जाए तो\n\n- Bank को माँग मिलने के एक पखवाड़े (2 हफ़्ते) में duplicate DD देना है। देरी हो, तो उतनी ही अवधि की FD की दर से ब्याज देना है।[^2]\n- ₹5,000 तक के DD का duplicate, indemnity लेकर, दूसरी शाखा की पुष्टि का इंतज़ार किए बिना दिया जा सकता है।[^2]\n- यह नियम ख़रीदने वाले या पाने वाले की माँग पर है; किसी तीसरे को endorse किए गए DD पर नहीं।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> खोए DD का duplicate 2 हफ़्ते में न मिले, तो देरी के समय का ब्याज आपका हक़ है, उतनी ही अवधि की FD की दर से। यह बात bank की Customer Compensation Policy में होनी चाहिए।[^2]\n\n## अभी क्या करें\n\n- DD लेते ही नाम, रक़म और तारीख़ मिलाइए, और 3 महीने के भीतर bank में दीजिए।[^2][^3]\n- ₹50,000 या ज़्यादा का DD बनवाना हो, तो खाते या cheque से भुगतान की तैयारी रखिए।[^3]\n- Charge जानने के लिए bank की website पर 'Rates at a quick glance' देखिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "standing-instructions",
+      "term": "Standing Instructions",
+      "aliases": [
+        "Standing Instruction"
+      ],
+      "full": "स्टैंडिंग इंस्ट्रक्शन · खाते से भुगतान के लिए bank को पहले से दिया निर्देश",
+      "fullEn": "Standing Instructions (SI)",
+      "group": "बैंकिंग",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। RBI के Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक updated) और RBI के Digital Payments – E-mandate Framework, 2026 (21 अप्रैल 2026) से जाँचा।"
+        }
+      ],
+      "one": "Standing Instructions (SI) आपका अपने bank को पहले से दिया हुआ निर्देश (mandate) है, जिसके आधार पर आपके खाते से tax, किराया, bill या school-college की fees जैसे भुगतान होते हैं। RBI के निर्देशों के मुताबिक bank को यह सुविधा सभी savings और current खातों पर बिना रोक-टोक देनी है।",
+      "facts": [
+        {
+          "k": "किन खातों पर",
+          "v": "Savings और current",
+          "s": "सभी खातों पर बिना रोक-टोक",
+          "good": true
+        },
+        {
+          "k": "किन भुगतानों के लिए",
+          "v": "Tax, किराया, bill, fees",
+          "s": "licence वग़ैरह भी"
+        },
+        {
+          "k": "Card, PPI, UPI से बार-बार भुगतान",
+          "v": "24 घंटे पहले सूचना",
+          "s": "e-mandate के नियम"
+        },
+        {
+          "k": "E-mandate सुविधा का charge",
+          "v": "कोई नहीं",
+          "s": "RBI का E-mandate Framework, 2026",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप",
+            "s": "एक बार निर्देश या e-mandate देते हैं"
+          },
+          {
+            "t": "आपका bank या card देने वाला",
+            "s": "तय समय पर रक़म काटता है"
+          },
+          {
+            "t": "पाने वाला",
+            "s": "tax, किराया, school, merchant"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "निर्देश",
+            "s": "card, PPI, UPI में extra जाँच (AFA) के साथ"
+          },
+          {
+            "b": "भुगतान",
+            "s": "e-mandate में 24 घंटे पहले सूचना"
+          }
+        ],
+        "note": "Card, PPI या UPI के e-mandate की validity आप बदल सकते हैं, या mandate कभी भी वापस ले सकते हैं; यह सुविधा देना issuer का काम है।"
+      },
+      "myths": [
+        {
+          "m": "\"Standing instruction सिर्फ़ current खाते पर मिलती है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक bank सभी current और savings खातों पर standing instructions बिना रोक-टोक स्वीकार करें।[^1]"
+        },
+        {
+          "m": "\"Card या UPI से बार-बार की रक़म बिना बताए कटती है।\"",
+          "f": "नहीं। E-mandate में कटने से कम से कम 24 घंटे पहले सूचना और कटने के बाद भी सूचना आनी है।[^2] FASTag और NCMC को अपने-आप भरने वाले mandate में पहले की सूचना ज़रूरी नहीं।[^2]"
+        },
+        {
+          "m": "\"E-mandate से कितनी भी बड़ी रक़म बिना OTP या PIN कट सकती है।\"",
+          "f": "नहीं। बिना extra जाँच (AFA) हर बार ज़्यादा से ज़्यादा ₹15,000 कट सकते हैं; insurance premium, mutual fund और credit card bill के लिए यह सीमा ₹1,00,000 है। इससे ऊपर हर भुगतान पर AFA लगेगा।[^2]"
+        },
+        {
+          "m": "\"E-mandate की सुविधा पर charge लगता है।\"",
+          "f": "नहीं। RBI के E-mandate Framework के मुताबिक बार-बार के भुगतान के लिए e-mandate सुविधा लेने पर ग्राहक से कोई charge नहीं लिया जा सकता।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "खाता दूसरी शाखा में ले जाऊँ, तो standing instruction फिर से देनी होगी?",
+          "a": "RBI के निर्देशों के मुताबिक खाता दूसरी शाखा में भेजते समय balance के साथ खाता खोलने का form, नमूना हस्ताक्षर और standing instructions भी साथ भेजे जाएँ, और आपको इसकी सूचना दी जाए।"
+        },
+        {
+          "q": "क्या standing instruction वाले भुगतान 'मेरे अपने' लेनदेन गिने जाते हैं?",
+          "a": "हाँ। RBI के निर्देशों में customer की दी हुई standing instructions को customer-induced लेनदेन की सूची में रखा गया है, और खाते को inoperative मानने का फ़ैसला करते समय ऐसे लेनदेन भी customer-induced गिने जाते हैं।"
+        },
+        {
+          "q": "E-mandate में किसी एक भुगतान को रोक सकते हैं?",
+          "a": "हाँ। Issuer को आपको किसी एक भुगतान या पूरे e-mandate से बाहर निकलने (opt-out) की सुविधा देनी है; इसकी पुष्टि AFA से होगी।"
+        },
+        {
+          "q": "बिना मेरी मंज़ूरी e-mandate से पैसा कट जाए तो?",
+          "a": "Issuer से शिकायत कीजिए; उसे शिकायत की व्यवस्था रखनी है। RBI के मुताबिक बिना मंज़ूरी वाले लेनदेन में ग्राहक की सीमित ज़िम्मेदारी वाले नियम e-mandate के बार-बार के भुगतान पर भी लागू हैं।"
+        },
+        {
+          "q": "UPI AutoPay भी e-mandate है?",
+          "a": "RBI का E-mandate Framework card, PPI और UPI से होने वाले बार-बार के भुगतान पर लागू है। UPI AutoPay के अपने नियमों, जैसे loan और EMI के mandate के लिए, AutoPay वाला पन्ना देखिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "AutoPay"
+        },
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "Current Account"
+        },
+        {
+          "t": "Inoperative Account"
+        },
+        {
+          "t": "Debit Card"
+        },
+        {
+          "t": "Credit Card"
+        },
+        {
+          "t": "Wallet"
+        },
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "commercial banks पर लागू; small finance, payments, local area banks नहीं"
+            },
+            {
+              "ref": "पैरा 4(10), नोट (i)",
+              "c": "customer की दी standing instructions, customer-induced लेनदेन की सूची में"
+            },
+            {
+              "ref": "पैरा 40",
+              "c": "खाता दूसरी शाखा जाए, तो standing instructions भी साथ भेजी जाएँ; ग्राहक को सूचना"
+            },
+            {
+              "ref": "पैरा 195",
+              "c": "inoperative तय करते समय Standing Instructions वाले लेनदेन customer-induced"
+            },
+            {
+              "ref": "पैरा 455",
+              "c": "सभी current और savings खातों पर standing instructions बिना रोक-टोक; tax, किराया, bill, school/college fees, licence"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Digital Payments – E-mandate Framework, 2026 (RBI/DPSS/2026-27/396; RBI/CO.DPSS.POLC.No.S56/02.14.003/2026-27; 2019 से 2024 तक के 8 circulars की जगह)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13374",
+          "issued": "2026-04-21",
+          "effective": "2026-04-21",
+          "used": [
+            {
+              "ref": "पैरा 1(b), 2",
+              "c": "तुरंत लागू; card, PPI, UPI से बार-बार के भुगतान पर"
+            },
+            {
+              "ref": "पैरा 4(a), 4(b)",
+              "c": "registration AFA के बाद; validity बदलने या mandate वापस लेने की सुविधा कभी भी"
+            },
+            {
+              "ref": "पैरा 5(a)",
+              "c": "पहला भुगतान भी AFA से"
+            },
+            {
+              "ref": "पैरा 6(a), 6(c), 6(d)",
+              "c": "24 घंटे पहले सूचना; किसी भुगतान या mandate से opt-out; FASTag, NCMC में पहले सूचना नहीं"
+            },
+            {
+              "ref": "पैरा 6(b)",
+              "c": "सूचना में merchant का नाम, रक़म, तारीख़ और समय, कारण"
+            },
+            {
+              "ref": "पैरा 7",
+              "c": "कटने के बाद सूचना"
+            },
+            {
+              "ref": "पैरा 8(a), 8(b)",
+              "c": "बिना AFA ₹15,000; insurance premium, mutual fund, credit card bill में ₹1,00,000"
+            },
+            {
+              "ref": "पैरा 9(a), 9(b)",
+              "c": "issuer के पास शिकायत की व्यवस्था; सीमित ज़िम्मेदारी के नियम लागू"
+            },
+            {
+              "ref": "पैरा 10(a)",
+              "c": "e-mandate सुविधा पर ग्राहक से charge नहीं"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nStanding Instructions (SI) वह निर्देश है, जो आप अपने खाते के लिए bank को पहले से देते हैं, ताकि उसके आधार पर भुगतान हो। RBI ने banks से कहा है कि यह सुविधा tax, किराया, bill, school/college की fees और licence जैसे भुगतानों के लिए हो।[^1]\n\n- **किन खातों पर:** RBI के निर्देशों के मुताबिक सभी current और savings खातों पर standing instructions बिना रोक-टोक स्वीकार की जाएँ।[^1]\n- **कहाँ लागू:** ये RBI निर्देश commercial banks पर लागू हैं; small finance, payments और local area banks इनमें शामिल नहीं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **आपका अपना लेनदेन:** RBI ने customer की दी standing instructions को customer-induced लेनदेन की सूची में रखा है।[^1] खाते को inoperative मानते समय ऐसे लेनदेन भी गिने जाते हैं।[^1]\n- **शाखा बदलें, तो भी:** खाता दूसरी शाखा में जाए, तो standing instructions भी साथ जानी हैं।[^1]\n\n## Card, PPI और UPI: e-mandate | e-mandate\n\nCard, PPI (जैसे wallet) या UPI से बार-बार होने वाले भुगतान के लिए RBI का अलग नियम है: Digital Payments – E-mandate Framework, 2026।[^2]\n\n::flow\n\n- **शुरुआत:** e-mandate एक बार register होता है, AFA (अतिरिक्त जाँच) के बाद। पहला भुगतान भी AFA से होता है।[^2]\n- **सूचना:** हर कटौती से कम से कम 24 घंटे पहले सूचना, जिसमें merchant का नाम, रक़म, तारीख़ और कारण हो; और कटने के बाद भी सूचना।[^2]\n- **सीमा:** बिना AFA हर बार ₹15,000 तक; insurance premium, mutual fund और credit card bill में ₹1,00,000 तक।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Card, PPI या UPI के e-mandate में आप validity बदल सकते हैं, mandate कभी भी वापस ले सकते हैं, और किसी एक भुगतान से बाहर निकल सकते हैं। इस सुविधा का कोई charge नहीं।[^2]\n\n## अभी क्या करें\n\n- जो e-mandate अब काम का नहीं, उसे वापस लीजिए; यह सुविधा issuer को कभी भी देनी है।[^2]\n- पहले आने वाली सूचना ध्यान से पढ़िए; रक़म या merchant ग़लत लगे, तो उसी समय opt-out कीजिए।[^2]\n- बिना मंज़ूरी पैसा कटे, तो तुरंत अपने bank या card देने वाले से शिकायत कीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "co-operative-bank",
+      "term": "Co-operative Bank",
+      "aliases": [
+        "Co-operative Banks",
+        "Co-operative Banking",
+        "Cooperative Bank",
+        "Cooperative Banks",
+        "सहकारी bank",
+        "सहकारी बैंक"
+      ],
+      "full": "सहकारी bank · सहकारी society के रूप में बना bank",
+      "fullEn": "Co-operative Bank",
+      "group": "बैंकिंग",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। Banking Regulation Act, 1949 (India Code, \"As on the 20th December, 2025\"), DICGC के FAQ और Reserve Bank – Integrated Ombudsman Scheme, 2026 से जाँचा।"
+        }
+      ],
+      "one": "Co-operative bank (सहकारी bank) सहकारी society के रूप में बना bank है। Banking Regulation Act, 1949 में इसके तीन प्रकार हैं: राज्य सहकारी bank, केंद्रीय सहकारी bank और primary सहकारी bank; primary सहकारी bank को urban co-operative bank भी कहते हैं।",
+      "facts": [
+        {
+          "k": "प्रकार",
+          "v": "3",
+          "s": "राज्य, केंद्रीय और primary (urban)"
+        },
+        {
+          "k": "Banking करने के लिए",
+          "v": "RBI licence",
+          "s": "BR Act की धारा 22, co-op के लिए बदले रूप में"
+        },
+        {
+          "k": "जमा बीमा (DICGC)",
+          "v": "सभी co-op bank",
+          "s": "primary cooperative society नहीं",
+          "good": true
+        },
+        {
+          "k": "Non-scheduled urban bank पर RBI Ombudsman",
+          "v": "₹50 करोड़",
+          "s": "जमा इतनी या ज़्यादा हो, तभी"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "सहकारी society",
+            "s": "Central या State के सहकारी क़ानून में registered"
+          },
+          {
+            "t": "RBI licence",
+            "s": "banking का कारोबार करने के लिए"
+          },
+          {
+            "t": "Co-operative bank",
+            "s": "नाम में 'bank' शब्द ज़रूरी"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Banking करनी है",
+            "s": "BR Act धारा 22, जैसी co-op पर लागू"
+          },
+          {
+            "b": "Licence मिला",
+            "s": "BR Act धारा 7, जैसी co-op पर लागू"
+          }
+        ],
+        "note": "Primary agricultural credit society और खेती के लंबे क़र्ज़ देने वाली society पर BR Act लागू नहीं होता, अगर वे नाम में 'bank', 'banker' या 'banking' न लिखें और cheque की drawee न हों।"
+      },
+      "myths": [
+        {
+          "m": "\"जमा लेने वाली हर सहकारी society co-operative bank है।\"",
+          "f": "नहीं। कुछ छूटों को छोड़कर, co-operative bank के सिवा कोई सहकारी society अपने नाम में 'bank', 'banker' या 'banking' नहीं लिख सकती।[^1] DICGC primary cooperative societies की जमा का बीमा नहीं करता।[^2]"
+        },
+        {
+          "m": "\"Co-operative bank में रखी जमा का बीमा नहीं होता।\"",
+          "f": "होता है। DICGC के FAQ के मुताबिक इस समय सभी co-operative banks DICGC के बीमे में हैं।[^2]"
+        },
+        {
+          "m": "\"Co-operative bank की शिकायत RBI Ombudsman नहीं सुनता।\"",
+          "f": "सुनता है। RB-IOS, 2026 राज्य और केंद्रीय सहकारी banks, scheduled urban co-operative banks, और ₹50 करोड़ या ज़्यादा जमा वाले non-scheduled urban co-operative banks पर लागू है।[^3] पर resolution, winding up या All-Inclusive Directions वाला bank इसमें नहीं आता।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Primary (urban) co-operative bank किसे कहते हैं?",
+          "a": "Banking Regulation Act के मुताबिक वह सहकारी society (primary agricultural credit society नहीं), जिसका मुख्य काम banking हो, जिसकी paid-up share capital और reserves कम से कम ₹1 लाख हों, और जिसके bye-laws किसी दूसरी सहकारी society को सदस्य न बनने दें। DICGC के FAQ में primary cooperative banks को urban cooperative banks भी कहा गया है।"
+        },
+        {
+          "q": "Primary credit society और primary co-operative bank में क्या फ़र्क़ है?",
+          "a": "दोनों का मुख्य काम banking है, पर primary credit society की paid-up share capital और reserves ₹1 लाख से कम होती हैं; primary co-operative bank की ₹1 लाख या ज़्यादा।"
+        },
+        {
+          "q": "Multi-State co-operative bank क्या है?",
+          "a": "Banking Regulation Act के मुताबिक वह multi-State co-operative society, जो primary co-operative bank हो।"
+        },
+        {
+          "q": "कैसे पता करें कि मेरा co-operative bank DICGC के बीमे में है?",
+          "a": "DICGC के FAQ के मुताबिक DICGC बीमित banks को जानकारी वाले पर्चे देता है, जो शाखा में लगाए जाते हैं। शक हो, तो शाखा के अधिकारी से सीधे पूछिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Banking Regulation Act"
+        },
+        {
+          "t": "DICGC"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "RBI Ombudsman"
+        },
+        {
+          "t": "Commercial Bank"
+        },
+        {
+          "t": "Small Finance Bank"
+        },
+        {
+          "t": "Payments Bank"
+        },
+        {
+          "t": "Local Area Bank"
+        },
+        {
+          "t": "Cheque"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Banking Regulation Act, 1949 (Act No. 10 of 1949), पाठ \"As on the 20th December, 2025\" (Banking Laws (Amendment) Act, 2025 तक)",
+          "url": "https://indiacode.gov.in/act/18020586-18bc-4857-91fe-668ed2469876",
+          "used": [
+            {
+              "ref": "धारा 3",
+              "c": "primary agricultural credit society और खेती के लंबे क़र्ज़ वाली society पर Act नहीं, अगर नाम में 'bank' न हो और cheque की drawee न हो"
+            },
+            {
+              "ref": "धारा 56(c)(i): cci",
+              "c": "co-operative bank: राज्य, केंद्रीय और primary co-operative bank"
+            },
+            {
+              "ref": "धारा 56(c)(i): cciia, cciiia",
+              "c": "सहकारी society का मतलब; multi-State co-operative bank"
+            },
+            {
+              "ref": "धारा 56(c)(i): ccv, ccvi",
+              "c": "primary co-operative bank: मुख्य काम banking, capital और reserves ₹1 लाख या ज़्यादा; उससे कम हो तो primary credit society"
+            },
+            {
+              "ref": "धारा 56(f) (धारा 7)",
+              "c": "co-operative bank के सिवा कोई सहकारी society नाम में 'bank' नहीं; छूटें"
+            },
+            {
+              "ref": "धारा 56(o) (धारा 22(1))",
+              "c": "banking के लिए co-operative bank और RBI का licence"
+            }
+          ]
+        },
+        {
+          "label": "DICGC — FAQs, Depositors (पन्ने पर तारीख़ नहीं है; सवाल ऊपर से गिने गए हैं)",
+          "url": "https://www.dicgc.org.in/FAQs",
+          "used": [
+            {
+              "ref": "सवाल 1",
+              "c": "इस समय सभी co-operative banks बीमे में; primary cooperative banks को urban cooperative banks भी कहते हैं; primary cooperative societies का बीमा नहीं"
+            },
+            {
+              "ref": "सवाल 4",
+              "c": "बीमित bank को पर्चे दिए जाते हैं; शक हो तो शाखा से पूछें"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank – Integrated Ombudsman Scheme, 2026 (scheme का पूरा पाठ; 1 जुलाई 2026 से लागू)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/SCHEME16012026_A.pdf",
+          "effective": "2026-07-01",
+          "used": [
+            {
+              "ref": "खंड 1(3)(a)",
+              "c": "राज्य, केंद्रीय, scheduled urban co-operative bank; non-scheduled urban में ₹50 करोड़ या ज़्यादा जमा वाले"
+            },
+            {
+              "ref": "खंड 3(1)(e)",
+              "c": "resolution, winding up या All-Inclusive Directions वाला bank शामिल नहीं"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nBanking Regulation Act, 1949 में 'co-operative bank' का मतलब है: राज्य सहकारी bank, केंद्रीय सहकारी bank और primary सहकारी bank।[^1] यहाँ सहकारी society का मतलब वह society है, जो multi-State सहकारी societies के Central क़ानून में, या किसी दूसरे Central या State सहकारी क़ानून में registered हो।[^1]\n\n- **Primary सहकारी bank:** वह सहकारी society, जिसका मुख्य काम banking हो और जिसकी paid-up share capital और reserves कम से कम ₹1 लाख हों।[^1] इसे urban co-operative bank भी कहते हैं।[^2]\n- **Multi-State co-operative bank:** वह multi-State co-operative society, जो primary co-operative bank हो।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Licence:** कुछ पुराने मामलों के प्रावधानों को छोड़कर, कोई सहकारी society तभी banking कर सकती है, जब वह co-operative bank हो और उसके पास RBI का licence हो।[^1]\n- **नाम से पहचान:** banking करने वाली सहकारी society के नाम में 'bank', 'banker' या 'banking' में से कोई शब्द होना ज़रूरी है; primary credit society जैसी कुछ छूटें हैं।[^1]\n- **जमा बीमा:** इस समय सभी co-operative banks DICGC के बीमे में हैं, पर primary cooperative societies नहीं।[^2]\n\n## Co-operative bank कैसे बनता है | कैसे\n\n::flow\n\n- **जिन पर Act लागू नहीं:** primary agricultural credit society और खेती के लंबे क़र्ज़ वाली society पर, अगर वे नाम में 'bank' जैसे शब्द न लिखें और cheque की drawee न हों।[^1]\n- **Primary credit society:** इसका भी मुख्य काम banking होता है, पर capital और reserves ₹1 लाख से कम होते हैं।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> राज्य और केंद्रीय सहकारी bank, scheduled urban co-operative bank, और ₹50 करोड़ या ज़्यादा जमा वाले non-scheduled urban co-operative bank की सेवा से शिकायत हो, तो RBI Ombudsman के पास जा सकते हैं।[^3]\n\n## अभी क्या करें\n\n- जमा करने से पहले देखिए कि संस्था co-operative bank है, सिर्फ़ सहकारी society नहीं; नाम और RBI licence पूछिए।[^1]\n- शाखा में DICGC की जानकारी वाला पर्चा देखिए; शक हो, तो अधिकारी से पूछिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "pmjdy",
+      "term": "Jan Dhan (PMJDY)",
+      "sort": "Jan Dhan",
+      "aliases": [
+        "PMJDY",
+        "Jan Dhan",
+        "Jan-Dhan",
+        "Jan Dhan Yojana",
+        "Jan-Dhan Yojana",
+        "Pradhan Mantri Jan Dhan Yojana",
+        "Pradhan Mantri Jan-Dhan Yojana",
+        "जन धन",
+        "जन-धन",
+        "जन धन योजना",
+        "प्रधानमंत्री जन धन योजना"
+      ],
+      "full": "प्रधानमंत्री जन धन योजना · बिना खाते वालों के लिए basic bank खाता",
+      "fullEn": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "group": "सरकारी योजनाएँ",
+      "created": "2026-10-11",
+      "verified": "2026-10-11",
+      "history": [
+        {
+          "d": "2026-10-11",
+          "t": "पन्ना बना। PMJDY portal (Department of Financial Services) के Scheme Details, 'Continuation of PMJDY' और Progress Report (30 सितंबर 2026 तक), और PIB Release ID 2049231 (28 अगस्त 2024) से जाँचा।"
+        }
+      ],
+      "one": "प्रधानमंत्री जन धन योजना (PMJDY) वित्त मंत्रालय के Department of Financial Services की financial inclusion की राष्ट्रीय योजना है। इसमें जिसके पास कोई और bank खाता नहीं, वह किसी भी bank शाखा या Bank Mitra के पास basic savings (BSBD) खाता खोल सकता है, जिसमें minimum balance नहीं रखना पड़ता।",
+      "facts": [
+        {
+          "k": "Minimum balance",
+          "v": "ज़रूरी नहीं",
+          "s": "PMJDY खाते में",
+          "good": true
+        },
+        {
+          "k": "Overdraft",
+          "v": "₹10,000 तक",
+          "s": "योग्य खाताधारक को; ₹2,000 तक बिना शर्त"
+        },
+        {
+          "k": "RuPay card पर दुर्घटना बीमा",
+          "v": "₹2 लाख",
+          "s": "28.8.2018 के बाद खुले खातों पर; पहले के खातों पर ₹1 लाख"
+        },
+        {
+          "k": "कुल खाते",
+          "v": "59.49 करोड़",
+          "s": "30 सितंबर 2026 तक, PMJDY portal"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "बिना bank खाते वाला व्यक्ति",
+            "s": "कोई और खाता नहीं"
+          },
+          {
+            "t": "Bank शाखा या Bank Mitra",
+            "s": "BSBD खाता खुलता है"
+          },
+          {
+            "t": "Jan Dhan खाता",
+            "s": "RuPay card, DBT, बीमा और पेंशन योजनाएँ"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "खाता खोलिए",
+            "s": "किसी भी bank में"
+          },
+          {
+            "b": "खाता चालू",
+            "s": "minimum balance नहीं"
+          }
+        ],
+        "note": "PMJDY खाता DBT, PMJJBY, PMSBY, Atal Pension Yojana और MUDRA के लिए योग्य है।"
+      },
+      "myths": [
+        {
+          "m": "\"Jan Dhan खाते में balance न रहे, तो penalty लगती है।\"",
+          "f": "नहीं। PMJDY खाते में minimum balance रखना ज़रूरी नहीं।[^1][^3]"
+        },
+        {
+          "m": "\"जिसके पास पहले से bank खाता है, वह भी नया Jan Dhan खाता खोल सकता है।\"",
+          "f": "नहीं। PMJDY के मुताबिक यह BSBD खाता वे लोग खोल सकते हैं, जिनके पास कोई और खाता नहीं है।[^1]"
+        },
+        {
+          "m": "\"हर Jan Dhan खाते के RuPay card पर ₹2 लाख का बीमा है।\"",
+          "f": "पूरी तरह नहीं। ₹2 लाख का दुर्घटना बीमा 28.8.2018 के बाद खुले नए PMJDY खातों के लिए है; उससे पहले वालों के लिए यह ₹1 लाख है।[^1][^2]"
+        },
+        {
+          "m": "\"Overdraft हर खाताधारक को अपने-आप मिलता है।\"",
+          "f": "नहीं। ₹10,000 तक का overdraft योग्य खाताधारकों को मिलता है।[^1] इसके लिए उम्र 18 से 65 साल है, और ₹2,000 तक के overdraft पर कोई शर्त नहीं।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Jan Dhan खाता कहाँ खुलता है?",
+          "a": "किसी भी bank शाखा में, या Business Correspondent (Bank Mitra) के outlet पर।"
+        },
+        {
+          "q": "क्या Jan Dhan खाते पर ब्याज मिलता है?",
+          "a": "हाँ। PMJDY के मुताबिक इस खाते की जमा पर ब्याज मिलता है।"
+        },
+        {
+          "q": "Jan Dhan खाते से कौन-सी योजनाएँ जुड़ सकती हैं?",
+          "a": "PMJDY के मुताबिक यह खाता Direct Benefit Transfer (DBT), Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY), Pradhan Mantri Suraksha Bima Yojana (PMSBY), Atal Pension Yojana (APY) और MUDRA के लिए योग्य है।"
+        },
+        {
+          "q": "खाता खोलने या रखने का charge है?",
+          "a": "PIB की 28 अगस्त 2024 की release के मुताबिक Jan Dhan खाता खोलने की कोई fees या maintenance charge नहीं है, और minimum balance रखना ज़रूरी नहीं। बाक़ी सेवाओं के लिए BSBD वाला पन्ना देखिए।"
+        },
+        {
+          "q": "क्या यह योजना अब भी चल रही है?",
+          "a": "हाँ। सरकार ने इसे 14.8.2018 के बाद भी जारी रखने का फ़ैसला किया था, और PMJDY portal पर 30 सितंबर 2026 तक के आँकड़े हैं: 59.49 करोड़ खाते।"
+        }
+      ],
+      "related": [
+        {
+          "t": "BSBD"
+        },
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "RuPay"
+        },
+        {
+          "t": "Debit Card"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Small Account"
+        },
+        {
+          "t": "Pension (पेंशन)"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PMJDY portal (Department of Financial Services, वित्त मंत्रालय) — Scheme Details (पन्ने पर तारीख़ नहीं है; 'Benefits' के बिंदु ऊपर से गिने गए हैं)",
+          "url": "https://pmjdy.gov.in/scheme",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "National Mission for Financial Inclusion; किसी भी शाखा या Bank Mitra पर BSBD खाता, जिनके पास कोई और खाता नहीं"
+            },
+            {
+              "ref": "Benefits बिंदु 2, 3",
+              "c": "minimum balance नहीं; जमा पर ब्याज"
+            },
+            {
+              "ref": "Benefits बिंदु 4, 5",
+              "c": "RuPay debit card; ₹1 लाख दुर्घटना बीमा, 28.8.2018 के बाद खुले नए खातों पर ₹2 लाख"
+            },
+            {
+              "ref": "Benefits बिंदु 6, 7",
+              "c": "योग्य खाताधारकों को ₹10,000 तक overdraft; DBT, PMJJBY, PMSBY, APY, MUDRA"
+            }
+          ]
+        },
+        {
+          "label": "PMJDY portal — Continuation of Pradhan Mantri Jan Dhan Yojana (PMJDY), e-Document (PDF; दस्तावेज़ पर तारीख़ नहीं है)",
+          "url": "https://pmjdy.gov.in/files/E-Documents/Continuation_of_PMJDY.pdf",
+          "used": [
+            {
+              "ref": "पैरा 1(a)",
+              "c": "योजना 14.8.2018 के बाद भी जारी"
+            },
+            {
+              "ref": "पैरा 1(b), 1(c), 1(d)",
+              "c": "overdraft ₹5,000 से ₹10,000; ₹2,000 तक बिना शर्त; उम्र 18 से 65"
+            },
+            {
+              "ref": "पैरा 1(e)",
+              "c": "28.8.18 के बाद खुले नए खातों पर दुर्घटना बीमा ₹1 लाख से ₹2 लाख"
+            }
+          ]
+        },
+        {
+          "label": "PIB — Ministry of Finance, Release ID 2049231 (PMJDY के 10 साल), 28 अगस्त 2024",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2049231",
+          "issued": "2024-08-28",
+          "used": [
+            {
+              "ref": "वित्त मंत्री का बयान",
+              "c": "खाता खोलने की fees या maintenance charge नहीं; minimum balance ज़रूरी नहीं"
+            },
+            {
+              "ref": "PMJDY की बुनियादी बातें",
+              "c": "हर बिना खाते वाले वयस्क के लिए एक basic खाता; मुफ़्त RuPay debit card, ₹2 लाख दुर्घटना बीमा; ₹10,000 तक overdraft"
+            }
+          ]
+        },
+        {
+          "label": "PMJDY portal — Progress Report, \"Beneficiaries as on 30/09/2026\" (आँकड़े banks के भेजे हुए हैं)",
+          "url": "https://pmjdy.gov.in/account",
+          "used": [
+            {
+              "ref": "Grand Total",
+              "c": "59.49 करोड़ खाते; ₹3,19,841.48 करोड़ जमा; 41.70 करोड़ RuPay card"
+            }
+          ]
+        },
+        {
+          "label": "PMJDY portal — home page (पन्ने पर तारीख़ नहीं है)",
+          "url": "https://pmjdy.gov.in/",
+          "used": [
+            {
+              "ref": "पन्ने का निचला हिस्सा",
+              "c": "National Toll Free 1800 11 0001 और 1800 180 1111; portal Mission Office, Department of Financial Services का"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nप्रधानमंत्री जन धन योजना (PMJDY) financial inclusion का राष्ट्रीय मिशन है, ताकि लोगों को basic bank खाता, पैसा भेजने की सुविधा, क़र्ज़, बीमा और पेंशन किफ़ायती तरीक़े से मिल सके।[^1] इसका portal वित्त मंत्रालय के Department of Financial Services का Mission Office चलाता है।[^5]\n\n- **कौन खोल सकता है:** जिसके पास कोई और bank खाता नहीं।[^1]\n- **कहाँ:** किसी भी bank शाखा में, या Business Correspondent (Bank Mitra) के outlet पर। यह basic savings bank deposit (BSBD) खाता होता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Balance की चिंता नहीं:** minimum balance रखना ज़रूरी नहीं, और जमा पर ब्याज मिलता है।[^1]\n- **Card:** खाते के साथ RuPay debit card मिलता है।[^1]\n- **सरकारी पैसा सीधे खाते में:** खाता DBT और PMJJBY, PMSBY, Atal Pension Yojana, MUDRA जैसी योजनाओं के लिए योग्य है।[^1]\n\n## Jan Dhan कैसे काम करता है | कैसे\n\n::flow\n\n- **कितने खाते:** PMJDY portal के मुताबिक 30 सितंबर 2026 तक 59.49 करोड़ खाते थे, जिनमें ₹3,19,841.48 करोड़ जमा थे।[^4]\n\n## Overdraft और बीमा | Overdraft, बीमा\n\n- **Overdraft:** योग्य खाताधारकों को ₹10,000 तक।[^1] सरकार ने यह सीमा ₹5,000 से बढ़ाकर ₹10,000 की थी; ₹2,000 तक कोई शर्त नहीं, और उम्र 18 से 65 साल।[^2]\n- **दुर्घटना बीमा:** RuPay card के साथ ₹1 लाख; 28.8.2018 के बाद खुले नए खातों के लिए ₹2 लाख।[^1][^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> PMJDY खाते में minimum balance रखना ज़रूरी नहीं।[^1] PIB के मुताबिक इस खाते को खोलने की कोई fees या maintenance charge नहीं है।[^3]\n\n## अभी क्या करें\n\n- आपके पास कोई bank खाता नहीं, तो पास की bank शाखा या Bank Mitra से PMJDY खाता खुलवाइए।[^1]\n- Overdraft के बारे में अपने bank से पूछिए; उम्र 18 से 65 साल होनी चाहिए।[^2]\n- जानकारी के लिए National Toll Free नंबर: 1800 11 0001 या 1800 180 1111।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
