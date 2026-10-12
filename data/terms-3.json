@@ -10283,6 +10283,491 @@
         }
       ],
       "body": "## मतलब\n\nPMSBY (Pradhan Mantri Suraksha Bima Yojana) एक साल का दुर्घटना बीमा है, जो हर साल renew होता है। यह दुर्घटना से मृत्यु या विकलांगता पर पैसा देता है। इसे सरकारी और दूसरी general insurance companies, banks और post office के साथ मिलकर चलाती हैं।[^1]\n\n1 जून 2022 से इसके संशोधित नियम लागू हैं।[^2] 12 अक्टूबर 2026 को DFS के PMSBY पन्ने पर भी यही ₹20 premium और ₹2 लाख / ₹1 लाख का cover लिखा है।[^4]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **₹20 सालाना:** दुर्घटना में मृत्यु पर परिवार को ₹2 लाख।[^1]\n- **विकलांगता पर भी:** कुछ तय हालात में ₹2 लाख या ₹1 लाख, जो आपके अपने खाते में आते हैं।[^1][^3]\n- **दूसरी बीमा के अलावा:** यह cover आपकी बाक़ी बीमा के ऊपर से है।[^3]\n\n## PMSBY कैसे काम करता है | कैसे\n\n::flow\n\n- **कौन:** bank या post office में खाते वाले 18 से 70 साल के लोग। कई खाते हों, तो सिर्फ़ एक खाते से।[^1]\n- **कब:** cover 1 जून से 31 मई तक; सहमति 31 मई तक। बाद में जुड़ने पर भी पूरा ₹20 लगता है।[^1]\n\n## कितना मिलता है | फ़ायदे\n\n- **दुर्घटना में मृत्यु:** ₹2 लाख।[^1]\n- **दोनों आँखों की रोशनी, या दोनों हाथ या पैर का इस्तेमाल हमेशा के लिए जाना, या एक आँख और एक हाथ/पैर:** ₹2 लाख।[^1]\n- **एक आँख की रोशनी, या एक हाथ या पैर का इस्तेमाल हमेशा के लिए जाना:** ₹1 लाख।[^1]\n- **Cover कब ख़त्म:** 70 की उम्र पर, खाता बंद होने पर, या premium की तारीख़ पर balance कम होने पर।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Subscriber ने nominee दर्ज न किया हो, तब भी उसके क़ानूनी वारिस दुर्घटना में मृत्यु का claim कर सकते हैं।[^3]\n\n## अभी क्या करें\n\n- अपने bank या post office में PMSBY के लिए auto-debit की सहमति दीजिए; हर साल premium की तारीख़ पर खाते में पैसा रखिए।[^1]\n- Enrolment form में nominee ज़रूर लिखिए।[^3]\n- सड़क, रेल या ऐसी गाड़ी वाली दुर्घटना, डूबने या अपराध से जुड़ी मृत्यु हो, तो police को सूचना दीजिए; सांप के काटने या पेड़ से गिरने जैसे मामलों में तुरंत के अस्पताल के काग़ज़ सँभालकर रखिए।[^3]\n- जानकारी के लिए National Toll-Free: 1800-180-1111 या 1800-110-001।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "ais",
+      "term": "AIS",
+      "aliases": [
+        "TIS",
+        "Taxpayer Information Summary"
+      ],
+      "full": "Annual Information Statement · आपकी आमदनी और लेन-देन का सालाना ब्योरा",
+      "fullEn": "Annual Information Statement (AIS)",
+      "group": "बैंकिंग",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। Income Tax Department के e-filing portal के AIS FAQ (सवाल 1 से 14), AY 2026-27 के salaried individuals वाले पन्ने और ITR-1 (Sahaj) FAQ से जाँचा।"
+        }
+      ],
+      "one": "AIS (Annual Information Statement) Income Tax Department के e-filing portal पर मिलने वाला ब्योरा है, जिसमें bank, employer जैसी जगहों से विभाग को मिली आपकी आमदनी और लेन-देन की जानकारी दिखती है। इसी के अंदर TIS (Taxpayer Information Summary) है, जो यही जानकारी salary, ब्याज जैसी श्रेणियों में जोड़कर दिखाता है।",
+      "facts": [
+        {
+          "k": "AIS में क्या",
+          "v": "TDS, SFT, tax भुगतान",
+          "s": "साथ में PAN, नाम जैसी आम जानकारी (Part A)"
+        },
+        {
+          "k": "TIS",
+          "v": "श्रेणी-वार सार",
+          "s": "AIS के अंदर; return पहले से भरने में काम आता है"
+        },
+        {
+          "k": "Form 26AS (AY 2023-24 से)",
+          "v": "सिर्फ़ TDS / TCS",
+          "s": "TRACES पर; बाक़ी जानकारी AIS में"
+        },
+        {
+          "k": "ग़लत entry पर",
+          "v": "Feedback",
+          "s": "FAQ के मुताबिक अभी बदलने की कोई सीमा नहीं",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank, employer आदि",
+            "s": "जानकारी विभाग को भेजते हैं"
+          },
+          {
+            "t": "AIS और TIS",
+            "s": "portal पर आपकी जानकारी"
+          },
+          {
+            "t": "आपकी return",
+            "s": "मिलाकर सही आँकड़े"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Reporting",
+            "s": "TDS, SFT, दूसरी जानकारी"
+          },
+          {
+            "b": "जाँच और feedback",
+            "s": "TIS की value pre-filling में"
+          }
+        ],
+        "note": "AIS में वही जानकारी है जो अभी विभाग के पास है। portal के मुताबिक कुछ लेन-देन इसमें न दिखें, तब भी return में पूरी और सही जानकारी देना आपकी ज़िम्मेदारी है।"
+      },
+      "myths": [
+        {
+          "m": "\"AIS में सब कुछ है, बस वही return में भर दो।\"",
+          "f": "नहीं। AIS में सिर्फ़ वह जानकारी है जो अभी विभाग के पास है; बाक़ी लेन-देन इसमें न दिखें, तो भी उन्हें जाँचकर return में पूरी और सही जानकारी देनी है।[^1]"
+        },
+        {
+          "m": "\"AIS और Form 26AS एक ही हैं।\"",
+          "f": "नहीं। AY 2023-24 से TRACES पर मिलने वाला Form 26AS सिर्फ़ TDS / TCS दिखाता है; बाक़ी जानकारी AIS में है। AIS में feedback देने का विकल्प भी है।[^1]"
+        },
+        {
+          "m": "\"AIS में ग़लत entry दिखे, तो कुछ नहीं हो सकता।\"",
+          "f": "आप उस जानकारी पर feedback दे सकते हैं। उसके बाद reported value के साथ बदली हुई value भी दिखती है, और acknowledgement मिलता है।[^1]"
+        },
+        {
+          "m": "\"TIS कोई अलग document है।\"",
+          "f": "TIS, AIS के अंदर ही है। यह AIS की जानकारी को salary, ब्याज, dividend जैसी श्रेणियों में जोड़कर दिखाता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "AIS क्या है?",
+          "a": "Annual Information Statement, यानी किसी taxpayer की जानकारी का पूरा ब्योरा। portal के मुताबिक इसका मक़सद है: return भरने से पहले पूरी जानकारी दिखाना और उस पर online feedback लेना, ख़ुद से सही return भरने को बढ़ावा देना और return पहले से भरना आसान करना।[^1]"
+        },
+        {
+          "q": "AIS में क्या-क्या दिखता है?",
+          "a": "Part A में PAN, masked Aadhaar नंबर, नाम, जन्म-तारीख़, mobile, e-mail और पता। Part B में TDS / TCS, SFT (Statement of Financial Transaction) से मिली जानकारी, जमा tax (जैसे advance tax, self-assessment tax), refund, और दूसरी जानकारी, जैसे refund पर ब्याज या विदेश भेजा पैसा। FAQ के मुताबिक demand की जानकारी अभी उपलब्ध नहीं है।[^1]"
+        },
+        {
+          "q": "TIS क्या है?",
+          "a": "Taxpayer Information Summary: AIS की जानकारी, श्रेणी के हिसाब से (जैसे salary, ब्याज, dividend) जोड़कर। हर श्रेणी में system की processed value और आपकी मानी हुई या source से पक्की हुई value दिखती है। यही दूसरी value, जहाँ लागू हो, return पहले से भरने में इस्तेमाल होती है।[^1]"
+        },
+        {
+          "q": "AIS और Form 26AS में क्या फ़र्क़ है?",
+          "a": "AY 2023-24 से TRACES portal पर मिलने वाला Form 26AS (Annual Tax Statement) सिर्फ़ TDS / TCS की जानकारी दिखाता है; बाक़ी जानकारी AIS में है। AIS में feedback देने का विकल्प है, और TIS में जानकारी source के हिसाब से जोड़ी जाती है।[^1] e-filing portal पर Form 26AS, Login > e-File > Income Tax Return > View Form 26AS से खुलता है।[^2]"
+        },
+        {
+          "q": "क्या Form 26AS को भी 'Annual Information Statement' कहा जाता है?",
+          "a": "portal के ITR-1 FAQ की शब्दावली में Form 26AS का पूरा नाम \"Annual Information Statement under Section 285BB of the Income Tax Act, 1961\" लिखा है।[^3] जबकि AIS FAQ में Form 26AS को \"Annual Tax Statement\" कहा गया है।[^1] इसलिए नाम के बजाय देखिए कि document कहाँ से खुला: AIS, portal के AIS menu से; Form 26AS, View Form 26AS से।[^1][^2]"
+        },
+        {
+          "q": "AIS कैसे देखें?",
+          "a": "e-filing portal पर login कीजिए, dashboard पर Annual Information Statement (AIS) menu चुनिए, Proceed दबाइए और AIS tile खोलिए। दूसरा रास्ता: e-File > Income Tax Return > View AIS।[^1]"
+        },
+        {
+          "q": "AIS किस format में download होता है?",
+          "a": "PDF, JSON और CSV में।[^1]"
+        },
+        {
+          "q": "AIS में कोई जानकारी ग़लत हो, तो क्या करें?",
+          "a": "TDS / TCS, SFT या दूसरी जानकारी वाली entry चुनिए, Feedback कॉलम में Optional दबाइए, सही विकल्प और ब्योरा भरकर Submit कीजिए। इसके बाद reported value के साथ बदली हुई value दिखती है, Activity History में दर्ज होता है, acknowledgement receipt download कर सकते हैं, और e-mail व SMS से पुष्टि आती है।[^1]"
+        },
+        {
+          "q": "Feedback कितनी बार बदल सकते हैं?",
+          "a": "FAQ के मुताबिक अभी पहले दिए गए feedback को बदलने की कोई सीमा नहीं है।[^1]"
+        },
+        {
+          "q": "Return भरते समय AIS का क्या करें?",
+          "a": "portal के ITR-1 FAQ के मुताबिक AIS और Form 26AS download करके असली TDS / TCS और जमा tax जाँचिए। कोई फ़र्क़ दिखे, तो employer, TDS काटने वाले या bank से मिलान कराइए।[^3]"
+        },
+        {
+          "q": "क्या यह जानकारी नए Income-tax Act, 2025 के हिसाब से है?",
+          "a": "यह पन्ना e-filing portal के AIS FAQ पर है, जिसमें किसी Act की धारा का ज़िक्र नहीं है।[^1] Form 26AS का पूरा नाम ITR-1 FAQ में पुराने Income-tax Act, 1961 की धारा 285BB के साथ लिखा है।[^3] नए क़ानून में forms के नए नंबर TDS वाले पन्ने पर हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "TDS"
+        },
+        {
+          "t": "ITR"
+        },
+        {
+          "t": "PAN"
+        },
+        {
+          "t": "Income-tax Act, 2025"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Income Tax Department (e-filing portal) — FAQs on AIS (Annual Information Statement) (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometax.gov.in/iec/foportal/ais-faq",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 1, 2",
+              "c": "AIS क्या है; मक़सद; Part A और Part B; demand की जानकारी अभी नहीं"
+            },
+            {
+              "ref": "सवाल 3",
+              "c": "AIS में सिर्फ़ मौजूदा जानकारी; return में पूरी जानकारी देनी है"
+            },
+            {
+              "ref": "सवाल 5",
+              "c": "TIS: श्रेणी-वार सार; processed और accepted value; pre-filling"
+            },
+            {
+              "ref": "सवाल 6",
+              "c": "AY 2023-24 से Form 26AS (TRACES) में सिर्फ़ TDS / TCS"
+            },
+            {
+              "ref": "सवाल 7, 9",
+              "c": "AIS देखने का तरीक़ा; PDF, JSON, CSV"
+            },
+            {
+              "ref": "सवाल 10 से 14",
+              "c": "feedback देना; बाद में क्या दिखता है; acknowledgement, e-mail, SMS; बदलने की सीमा नहीं"
+            },
+            {
+              "ref": "सवाल 15",
+              "c": "GST turnover दूसरी जानकारी में"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department (e-filing portal) — Returns and Forms Applicable for Salaried Individuals for AY 2026-27 (पन्ने पर \"Page Last Reviewed or Updated: 09-Jul-2026\"; पन्ना Income-tax Act, 1961 के forms, rules देखने को कहता है; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Forms Applicable, क्रम 5",
+              "c": "Form 26AS देखने का रास्ता (View Form 26AS); AIS में क्या-क्या"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department (e-filing portal) — File ITR-1 (Sahaj) Online - FAQs (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometax.gov.in/iec/foportal/help/e-filing-itr1-form-sahaj-faq",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 4, 5",
+              "c": "return से पहले AIS और Form 26AS download करके TDS / TCS जाँचना; फ़र्क़ पर मिलान"
+            },
+            {
+              "ref": "Glossary",
+              "c": "Form 26AS = Annual Information Statement under Section 285BB of the Income Tax Act, 1961"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nAIS (Annual Information Statement) किसी taxpayer की जानकारी का पूरा ब्योरा है, जो Income Tax Department के e-filing portal पर मिलता है। इसमें TDS, SFT (Statement of Financial Transaction), जमा tax जैसी वह जानकारी दिखती है जो विभाग के पास पहुँची है, ताकि return भरने से पहले आप उसे देख सकें और ज़रूरत हो तो feedback दे सकें।[^1]\n\nAIS के अंदर ही TIS (Taxpayer Information Summary) है: वही जानकारी salary, ब्याज, dividend जैसी श्रेणियों में जोड़कर।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Return से पहले जाँच:** AIS और Form 26AS download करके असली TDS / TCS और जमा tax मिलाइए; फ़र्क़ दिखे तो employer, TDS काटने वाले या bank से मिलान कराइए।[^3]\n- **पहले से भरी return:** TIS में आपकी मानी हुई या source से पक्की हुई value, जहाँ लागू हो, return पहले से भरने में काम आती है।[^1]\n- **ज़िम्मेदारी आपकी:** AIS में वही जानकारी है जो अभी विभाग के पास है; बाक़ी लेन-देन भी return में सही-सही लिखने हैं।[^1]\n\n## AIS में क्या-क्या दिखता है | क्या दिखता है\n\n::flow\n\n- **Part A:** PAN, masked Aadhaar नंबर, नाम, जन्म-तारीख़, mobile, e-mail और पता।[^1]\n- **TDS / TCS:** काटे या वसूले गए tax की जानकारी।[^1]\n- **SFT:** reporting entities से Statement of Financial Transaction के ज़रिए मिली जानकारी।[^1]\n- **Tax का भुगतान:** साल में जमा advance tax, self-assessment tax जैसी रक़म।[^1]\n- **Demand और refund:** refund की जानकारी; FAQ के मुताबिक demand की जानकारी अभी उपलब्ध नहीं है।[^1]\n- **दूसरी जानकारी:** जैसे refund पर ब्याज, विदेश भेजा पैसा या विदेशी मुद्रा की ख़रीद, और GST turnover।[^1]\n\n## AIS, TIS और Form 26AS | 26AS से फ़र्क़\n\n- **TIS:** हर श्रेणी में दो value: system की processed value, और आपकी मानी हुई या source से पक्की हुई value।[^1]\n- **Form 26AS:** AY 2023-24 से TRACES पर मिलने वाला Form 26AS सिर्फ़ TDS / TCS दिखाता है; बाक़ी जानकारी AIS में है।[^1] e-filing portal पर यह View Form 26AS से खुलता है।[^2]\n- **नाम पर ध्यान:** ITR-1 FAQ की शब्दावली में Form 26AS का पूरा नाम भी \"Annual Information Statement under Section 285BB of the Income Tax Act, 1961\" लिखा है।[^3] इसलिए नाम के बजाय देखिए कि document कहाँ से खुला।\n\n## ग़लत जानकारी हो तो | Feedback\n\n- **Feedback:** TDS / TCS, SFT या दूसरी जानकारी वाली entry पर feedback दे सकते हैं।[^1]\n- **उसके बाद:** reported value के साथ बदली हुई value दिखती है; acknowledgement receipt मिलती है; e-mail और SMS से पुष्टि आती है।[^1]\n- **कितनी बार:** FAQ के मुताबिक अभी feedback बदलने की कोई सीमा नहीं है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- e-filing portal पर login करके AIS menu, फिर Proceed, फिर AIS tile खोलिए।[^1]\n- AIS को PDF, JSON या CSV में download कर लीजिए।[^1]\n- Return भरने से पहले AIS और Form 26AS की TDS / TCS रक़म अपने काग़ज़ों से मिलाइए; फ़र्क़ हो तो काटने वाले से बात कीजिए।[^3]\n- कोई entry ग़लत लगे, तो AIS में feedback दीजिए और acknowledgement सँभालकर रखिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "itr",
+      "term": "ITR",
+      "aliases": [
+        "Income Tax Return",
+        "Income-tax Return",
+        "आयकर रिटर्न"
+      ],
+      "full": "Income Tax Return · आमदनी और tax का सालाना हिसाब",
+      "fullEn": "Income Tax Return (ITR)",
+      "group": "बैंकिंग",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। Income Tax Department के e-filing portal के AY 2026-27 वाले salaried individuals पन्ने, ITR-V FAQ (Notification 2/2024), e-Verify FAQ, ITR-1 (Sahaj) FAQ और सही ITR चुनने वाले FAQ से जाँचा। सारी बातें AY 2026-27 की return (Income-tax Act, 1961) के लिए हैं।"
+        }
+      ],
+      "one": "ITR यानी Income Tax Return: वह form जिसमें आप साल की आमदनी, कटौतियाँ और जमा या कटा हुआ tax बताकर e-filing portal पर भरते हैं। भरने के बाद return को verify करना ज़रूरी है; verify न हुई return invalid मानी जाती है।",
+      "facts": [
+        {
+          "k": "ITR-1 (Sahaj), AY 2026-27",
+          "v": "₹50 लाख तक",
+          "s": "resident individual की कुल आमदनी, कुछ शर्तों के साथ"
+        },
+        {
+          "k": "Verify करने का समय",
+          "v": "30 दिन",
+          "s": "return भरने की तारीख़ से (Notification 2/2024)"
+        },
+        {
+          "k": "ITR-V डाक से",
+          "v": "CPC, Bengaluru",
+          "s": "560500; या online e-verify"
+        },
+        {
+          "k": "Return के साथ काग़ज़",
+          "v": "नहीं लगते",
+          "s": "ITR annexure-less है; काग़ज़ सँभालकर रखिए",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आमदनी का हिसाब",
+            "s": "AIS, Form 26AS, Form 16"
+          },
+          {
+            "t": "सही ITR form",
+            "s": "portal पर भरिए"
+          },
+          {
+            "t": "Verify",
+            "s": "30 दिन के अंदर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Form चुनिए",
+            "s": "आमदनी के हिसाब से"
+          },
+          {
+            "b": "e-verify / ITR-V",
+            "s": "तभी return पूरी"
+          }
+        ],
+        "note": "Due date के अंदर upload हुई return अगर 30 दिन के बाद verify हो, तो verify की तारीख़ ही return भरने की तारीख़ मानी जाती है, और देर से return भरने के नतीजे लागू होते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"TDS कट गया, अब return की ज़रूरत नहीं।\"",
+          "f": "portal के FAQ के मुताबिक employer या bank ने TDS काटा हो, तब भी आमदनी return में दिखानी है और TDS का credit return में claim करना है।[^4]"
+        },
+        {
+          "m": "\"Return upload हो गई, काम पूरा।\"",
+          "f": "नहीं। Return भरने के 30 दिन के अंदर e-verify करना या signed ITR-V भेजना है; verify न हुई return invalid मानी जाती है।[^2]"
+        },
+        {
+          "m": "\"Return के साथ Form 16 और रसीदें लगानी होती हैं।\"",
+          "f": "नहीं। ITR annexure-less है; investment proof या TDS certificate जैसे काग़ज़ साथ नहीं लगते। पर assessment या जाँच में दिखाने के लिए इन्हें रखना है।[^4]"
+        },
+        {
+          "m": "\"Old regime चुनने के लिए हर किसी को Form 10-IEA भरना होता है।\"",
+          "f": "नहीं। AY 2026-27 में जिनकी काम-धंधे या पेशे की आय नहीं है, वे return में ही विकल्प चुनते हैं। Form 10-IEA काम-धंधे या पेशे की आय वालों के लिए है।[^1][^4]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "ITR का मतलब क्या है?",
+          "a": "Income Tax Return। इसमें कुल आमदनी, कटौतियाँ (अगर हों), ब्याज और जमा या कटा हुआ tax बताया जाता है। portal पर return electronically भरना e-filing है, और tax भरना e-payment; दोनों अलग हैं।[^4]"
+        },
+        {
+          "q": "यह पन्ना किस साल की return के लिए है?",
+          "a": "AY 2026-27 की return के लिए। portal का यह पन्ना Income-tax Act, 1961 के forms, rules और notifications देखने को कहता है, और धाराएँ भी उसी Act की देता है।[^1] नए Income-tax Act, 2025 में return किसे और किस तारीख़ तक भरनी है, यह उसके अपने पन्ने पर है।"
+        },
+        {
+          "q": "मेरे लिए कौन-सा ITR form है?",
+          "a": "आमदनी के प्रकार और residential status से तय होता है। portal का \"Help me decide which ITR form to file\" विकल्प शर्तें दिखाता है, या सवालों के जवाब से सही ITR और schedule बताता है; यह online और offline utility, दोनों में है।[^5]"
+        },
+        {
+          "q": "AY 2026-27 में ITR-1 कौन नहीं भर सकता?",
+          "a": "portal के मुताबिक: company का director; short-term capital gain वाला; धारा 112A का long-term capital gain ₹1,25,000 से ज़्यादा हो; साल में कभी unlisted equity shares रहे हों; भारत के बाहर संपत्ति, खाते में signing authority या आमदनी हो; धारा 194N का TDS कटा हो; ESOP पर tax टला हो; पिछला या आगे ले जाने वाला loss हो; या कुल आमदनी (धारा 112A के ₹1,25,000 तक के long-term capital gain को छोड़कर) ₹50 लाख से ज़्यादा हो।[^1]"
+        },
+        {
+          "q": "ITR-2, ITR-3 और ITR-4 किसके लिए हैं?",
+          "a": "AY 2026-27 के लिए: ITR-2 उन individual और HUF के लिए, जिनकी काम-धंधे या पेशे की आय नहीं है और जो ITR-1 नहीं भर सकते। ITR-3 उनके लिए, जिनकी काम-धंधे या पेशे की आय है और जो ITR-1, ITR-2 या ITR-4 नहीं भर सकते। ITR-4 (Sugam) resident individual, HUF या firm (LLP नहीं) के लिए, जिनकी काम-धंधे की आय धारा 44AD, 44ADA या 44AE के presumptive तरीक़े से है; यह ज़रूरी नहीं, विकल्प है।[^1]"
+        },
+        {
+          "q": "Return कितने दिन में verify करनी है?",
+          "a": "CBDT की Notification 2/2024 (31 मार्च 2024, 1 अप्रैल 2024 से लागू) के हवाले से portal का FAQ कहता है: e-verify या ITR-V भेजने की समय-सीमा return भरने की तारीख़ से 30 दिन है। ITR-V डाक से भेजें, तो CPC पर पहुँचने की तारीख़ गिनी जाती है।[^2]"
+        },
+        {
+          "q": "30 दिन निकल गए, तो क्या होगा?",
+          "a": "Due date के अंदर upload हुई return अगर 30 दिन के बाद verify हुई, तो verify की तारीख़ ही return भरने की तारीख़ मानी जाती है, और देर से return भरने के नतीजे लागू होते हैं।[^2] देर हो जाए, तो कारण बताकर condonation (देर की माफ़ी) का अनुरोध देना होता है; उसके बाद ही e-verify हो पाता है, और return तभी valid मानी जाती है जब विभाग अनुरोध मंज़ूर करे।[^3]"
+        },
+        {
+          "q": "e-verify कैसे करें?",
+          "a": "Aadhaar से जुड़े mobile पर OTP; pre-validated bank या demat खाते से EVC; ATM से EVC; net banking; या Digital Signature Certificate (DSC)। EVC 10 अंकों-अक्षरों का code है, जो बनने के बाद 72 घंटे चलता है।[^3]"
+        },
+        {
+          "q": "e-verify न करना हो, तो?",
+          "a": "signed ITR-V को ordinary या speed post (या किसी और तरीक़े) से इस पते पर भेजिए: Centralised Processing Centre, Income Tax Department, Bengaluru - 560500, Karnataka।[^2]"
+        },
+        {
+          "q": "Return में old या new tax regime कैसे चुनें?",
+          "a": "AY 2026-27 में new tax regime default है। जिनकी काम-धंधे या पेशे की आय नहीं है, वे हर साल return में ही विकल्प चुन सकते हैं, और ऐसी return धारा 139(1) की due date तक भरनी होती है। काम-धंधे या पेशे की आय वालों को old regime के लिए due date तक Form 10-IEA भरना होता है; वापस new regime में आने का मौक़ा उन्हें ज़िंदगी में एक ही बार मिलता है।[^1]"
+        },
+        {
+          "q": "ज़्यादा tax कट गया, तो refund कैसे मिलेगा?",
+          "a": "Return भरकर refund claim कीजिए। return process होने के बाद विभाग जाँचकर refund मंज़ूर करता है और रक़म bank खाते में आती है; portal पर दर्ज e-mail पर सूचना भी आती है।[^4]"
+        }
+      ],
+      "related": [
+        {
+          "t": "AIS"
+        },
+        {
+          "t": "TDS"
+        },
+        {
+          "t": "PAN"
+        },
+        {
+          "t": "Aadhaar"
+        },
+        {
+          "t": "Net Banking"
+        },
+        {
+          "t": "Income-tax Act, 2025"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Income Tax Department (e-filing portal) — Returns and Forms Applicable for Salaried Individuals for AY 2026-27 (पन्ने पर \"Page Last Reviewed or Updated: 09-Jul-2026\"; पन्ना Income-tax Act, 1961 के forms, rules देखने को कहता है; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Disclaimer",
+              "c": "Income-tax Act, 1961 के forms, rules, notifications देखने को कहना"
+            },
+            {
+              "ref": "ITR-1 और Note",
+              "c": "₹50 लाख तक; किन आमदनियों के साथ; कौन ITR-1 नहीं भर सकता"
+            },
+            {
+              "ref": "ITR-2, ITR-3, ITR-4",
+              "c": "किसके लिए; ITR-4 presumptive (44AD, 44ADA, 44AE) और ज़रूरी नहीं"
+            },
+            {
+              "ref": "New Tax Regime Vs Old Tax Regime",
+              "c": "new regime default; non-business: return में, 139(1) की due date तक; business: Form 10-IEA, वापसी एक बार"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department (e-filing portal) — ITR-V FAQs: FAQs on 30 Days' Timeline for E-verification of Returns (CBDT Notification No. 2/2024, 31.03.2024, 1.4.2024 से लागू के हवाले से; FAQ पर अलग तारीख़ नहीं; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometax.gov.in/iec/foportal/itr-v-faqs",
+          "issued": "",
+          "effective": "2024-04-01",
+          "used": [
+            {
+              "ref": "सवाल 1, 2",
+              "c": "e-verify या ITR-V के लिए 30 दिन; समय पर हो तो upload की तारीख़ ही return की तारीख़"
+            },
+            {
+              "ref": "सवाल 3",
+              "c": "30 दिन के बाद: verify की तारीख़ return की तारीख़, देर के नतीजे; verify न हो तो invalid"
+            },
+            {
+              "ref": "सवाल 4, 5",
+              "c": "CPC, Bengaluru 560500 का पता; डाक से भेजने पर CPC पर पहुँचने की तारीख़"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department (e-filing portal) — How to e-Verify: FAQs (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometax.gov.in/iec/foportal/help/e-filing-e-verify-your-return-faq",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 1",
+              "c": "समय पर verify न हो तो return invalid"
+            },
+            {
+              "ref": "सवाल 2",
+              "c": "e-verify के तरीक़े: Aadhaar OTP, bank/demat EVC, ATM, net banking, DSC"
+            },
+            {
+              "ref": "सवाल 5",
+              "c": "सफल होने पर Transaction ID और e-mail"
+            },
+            {
+              "ref": "सवाल 7, 9",
+              "c": "Aadhaar OTP के लिए mobile Aadhaar से जुड़ा हो; देर पर condonation, मंज़ूरी के बाद ही valid"
+            },
+            {
+              "ref": "सवाल 10",
+              "c": "EVC: 10 अंकों-अक्षरों का code, 72 घंटे"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department (e-filing portal) — File ITR-1 (Sahaj) Online - FAQs (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometax.gov.in/iec/foportal/help/e-filing-itr1-form-sahaj-faq",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 1, 3",
+              "c": "एक से ज़्यादा house property की आय ITR-1 में नहीं; ITR-1 / ITR-2 में regime के लिए कोई form नहीं; Form 10-IEA business आय वालों के लिए"
+            },
+            {
+              "ref": "सवाल 4, 5",
+              "c": "ITR annexure-less; काग़ज़ रखने हैं; return में क्या-क्या बताना है"
+            },
+            {
+              "ref": "सवाल 18",
+              "c": "e-filing और e-payment अलग"
+            },
+            {
+              "ref": "सवाल 22, 23",
+              "c": "TDS कटा हो तब भी आमदनी दिखाना और credit claim; refund"
+            },
+            {
+              "ref": "Glossary",
+              "c": "ITR = Income Tax Return"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department (e-filing portal) — Identification and Generation of Applicable ITR FAQ (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometax.gov.in/iec/foportal/help/identification-and-generation-of-applicable-itr-individual-faq",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 1 से 3, 5",
+              "c": "\"Help me decide which ITR form to file\"; आमदनी और residential status से form; online और offline utility में"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nITR यानी Income Tax Return।[^4] इसमें आप अपनी कुल आमदनी, कटौतियाँ (अगर हों), ब्याज और जमा या कटा हुआ tax बताते हैं, और इसे Income Tax Department के e-filing portal पर भरते हैं।[^4]\n\n**किस साल के लिए:** इस पन्ने की बातें AY 2026-27 की return के लिए हैं; portal का यह पन्ना Income-tax Act, 1961 के forms और rules देखने को कहता है।[^1] नए Income-tax Act, 2025 में return किसे और कब भरनी है, यह उसके अपने पन्ने पर है।\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **TDS कटा, फिर भी:** employer या bank ने TDS काटा हो, तब भी आमदनी return में दिखानी है और TDS का credit claim करना है।[^4]\n- **Refund:** ज़्यादा tax गया हो, तो return भरकर ही refund claim होता है।[^4]\n- **Regime का चुनाव:** काम-धंधे या पेशे की आय न हो, तो AY 2026-27 में old या new tax regime return में ही चुनते हैं।[^1]\n\n## Return कैसे भरें और पूरी करें | कैसे\n\n::flow\n\n- **सही form:** portal का \"Help me decide which ITR form to file\" विकल्प सवालों के जवाब से सही ITR और schedule बताता है।[^5]\n- **कोई काग़ज़ नहीं लगाना:** ITR annexure-less है; investment proof या TDS certificate साथ नहीं लगते, पर इन्हें सँभालकर रखना है।[^4]\n- **Verify ज़रूरी:** return भरने के 30 दिन के अंदर e-verify कीजिए या signed ITR-V भेजिए।[^2]\n\n## AY 2026-27 के ITR form | कौन-सा form\n\n- **ITR-1 (Sahaj):** resident individual (not ordinarily resident नहीं), जिसकी कुल आमदनी ₹50 लाख तक हो और जो salary / pension, एक house property, ब्याज-dividend जैसी other sources, ₹5,000 तक की खेती की आय, और धारा 112A के ₹1,25,000 तक के capital gain तक सीमित हो।[^1] एक से ज़्यादा house property की आय हो, तो ITR-1 नहीं।[^4]\n- **ITR-2:** individual और HUF, जिनकी काम-धंधे या पेशे की आय नहीं है और जो ITR-1 नहीं भर सकते।[^1]\n- **ITR-3:** individual और HUF, जिनकी काम-धंधे या पेशे की आय है और जो ITR-1, ITR-2 या ITR-4 नहीं भर सकते।[^1]\n- **ITR-4 (Sugam):** resident individual, HUF या firm (LLP नहीं), जिनकी काम-धंधे की आय धारा 44AD, 44ADA या 44AE के presumptive तरीक़े से है; यह विकल्प है, ज़रूरी नहीं।[^1]\n\n## Verify करना | Verify\n\n- **30 दिन:** CBDT की Notification 2/2024 (1 अप्रैल 2024 से) के हवाले से portal का FAQ कहता है कि e-verify या ITR-V भेजने की समय-सीमा return भरने की तारीख़ से 30 दिन है।[^2]\n- **देर हुई तो:** verify की तारीख़ ही return भरने की तारीख़ मानी जाती है, और देर से return भरने के नतीजे लागू होते हैं; verify न हुई return invalid है।[^2]\n- **तरीक़े:** Aadhaar OTP, bank या demat खाते से EVC, ATM से EVC, net banking, या DSC।[^3]\n- **ITR-V डाक से:** Centralised Processing Centre, Income Tax Department, Bengaluru - 560500, Karnataka।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> समय पर verify न हो पाई हो, तो आप कारण बताकर condonation (देर की माफ़ी) का अनुरोध दे सकते हैं; मंज़ूरी के बाद return valid मानी जाती है।[^3]\n\n## अभी क्या करें\n\n- Return से पहले AIS, Form 26AS और Form 16 जैसे काग़ज़ देख लीजिए।[^4]\n- सही ITR form चुनिए; उलझन हो, तो portal का \"Help me decide which ITR form to file\" विकल्प इस्तेमाल कीजिए।[^5]\n- Return भरते ही e-verify कीजिए; Aadhaar OTP के लिए आपका mobile नंबर Aadhaar से जुड़ा होना चाहिए।[^3]\n- Verify होने पर मिला Transaction ID और e-mail सँभालकर रखिए।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
