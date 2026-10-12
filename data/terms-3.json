@@ -6051,11 +6051,15 @@
       "fullEn": "Recovery Agent (loan recovery agent)",
       "group": "क़र्ज़",
       "created": "2026-10-11",
-      "verified": "2026-10-11",
+      "verified": "2026-10-12",
       "history": [
         {
           "d": "2026-10-11",
           "t": "पन्ना बना। RBI के Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक updated), NBFC – Responsible Business Conduct Directions, 2025 (1 जुलाई 2026 तक updated), Commercial Banks – Credit Facilities Directions, 2025 (1 अक्टूबर 2026 तक updated) और NBFC – Credit Facilities Directions, 2025 (15 जुलाई 2026 तक updated) से जाँचा।"
+        },
+        {
+          "d": "2026-10-12",
+          "t": "RBI के 6 अगस्त 2026 के दो amendment (commercial banks और NBFCs), जो 1 जनवरी 2027 से लागू होंगे, पढ़कर '1 जनवरी 2027 से क्या बदलेगा' हिस्सा जोड़ा, और microfinance वाले अलग समय के आगे 31 दिसंबर 2026 तक लिखा।"
         }
       ],
       "one": "Recovery agent वह agency या उसका कर्मचारी है, जिसे bank या NBFC बकाया क़र्ज़ वसूलने के लिए रखता है। RBI के निर्देशों के मुताबिक वह आपको डरा-धमका नहीं सकता, आपके परिवार या दोस्तों को परेशान नहीं कर सकता, और सुबह 8 बजे से पहले या शाम 7 बजे के बाद वसूली के लिए call नहीं कर सकता।",
@@ -6113,7 +6117,7 @@
       "myths": [
         {
           "m": "\"Recovery agent कभी भी call कर सकता है।\"",
-          "f": "नहीं। वसूली के लिए सुबह 8 बजे से पहले या शाम 7 बजे के बाद call करना, और बार-बार call करके परेशान करना मना है। Bank वसूली में बेवक़्त बार-बार परेशान भी नहीं कर सकता। Microfinance loan में वसूली के लिए सुबह 9 बजे से पहले या शाम 6 बजे के बाद call करना सख़्ती माना गया है।[^1][^3]"
+          "f": "नहीं। वसूली के लिए सुबह 8 बजे से पहले या शाम 7 बजे के बाद call करना, और बार-बार call करके परेशान करना मना है। Bank वसूली में बेवक़्त बार-बार परेशान भी नहीं कर सकता। Microfinance loan में वसूली के लिए सुबह 9 बजे से पहले या शाम 6 बजे के बाद call करना सख़्ती माना गया है।[^1][^3] 1 जनवरी 2027 से microfinance समेत सब loans पर सुबह 8 से शाम 7 बजे वाला समय लागू होगा, और यह call और visit, दोनों पर होगा।[^5][^6]"
         },
         {
           "m": "\"Agent की बदतमीज़ी से bank का कोई लेना-देना नहीं।\"",
@@ -6139,7 +6143,7 @@
         },
         {
           "q": "Agent कब call कर सकता है?",
-          "a": "वसूली के लिए सुबह 8 बजे से पहले या शाम 7 बजे के बाद call नहीं कर सकता, और बार-बार call करके परेशान भी नहीं कर सकता। यह नियम microfinance loan पर लागू नहीं; वहाँ सुबह 9 बजे से पहले या शाम 6 बजे के बाद call करना सख़्ती माना गया है।"
+          "a": "वसूली के लिए सुबह 8 बजे से पहले या शाम 7 बजे के बाद call नहीं कर सकता, और बार-बार call करके परेशान भी नहीं कर सकता। यह नियम microfinance loan पर लागू नहीं; वहाँ सुबह 9 बजे से पहले या शाम 6 बजे के बाद call करना सख़्ती माना गया है। 1 जनवरी 2027 से microfinance समेत सब loans पर सुबह 8 से शाम 7 बजे वाला समय लागू होगा, और यह call और visit, दोनों पर होगा।"
         },
         {
           "q": "क्या agent के call record होते हैं?",
@@ -6292,9 +6296,61 @@
               "c": "NBFC का digital loan: agent का ब्योरा संपर्क से पहले email / SMS से"
             }
           ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026 (RBI/2026-27/223; DOR.MCS.REC.No.193/01-01-032/2026-27; 6 अगस्त 2026; 1 जनवरी 2027 से लागू)",
+          "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13665&Mode=0",
+          "issued": "2026-08-06",
+          "effective": "2027-01-01",
+          "used": [
+            {
+              "ref": "पैरा 3(2), 4(2)",
+              "c": "1 जनवरी 2027 से; पैरा 408–416 और 442–454 हटेंगे; नया section L (पैरा 454A–454AB)"
+            },
+            {
+              "ref": "पैरा 454L–454N",
+              "c": "पहली visit से कम से कम एक दिन पहले agency का ब्योरा; बदलने या हटाने पर तुरंत सूचना"
+            },
+            {
+              "ref": "पैरा 454P",
+              "c": "calls का समय और गिनती; recording 6 महीने, sub judice हो तो निपटारे तक"
+            },
+            {
+              "ref": "पैरा 454S–454U",
+              "c": "loan वाले mobile पर पाबंदी: 30 / 60 दिन, outgoing calls, incoming / SMS / SOS चालू, 1 घंटे में हटाना, ₹250 प्रति घंटा, personal data नहीं"
+            },
+            {
+              "ref": "पैरा 454Y(1), (4), (6)",
+              "c": "सिर्फ़ borrower / guarantor से बात; 08:00 से 19:00 call / visit; मौत, emergency, शादी जैसे मौक़ों से बचना"
+            },
+            {
+              "ref": "पैरा 454Z(2)",
+              "c": "social media पर video / audio या निजी ब्योरा डालना harsh practice"
+            },
+            {
+              "ref": "पैरा 454AA",
+              "c": "वसूली की हर सूचना में grievance redressal officer का नाम, email, phone, पता"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies - Responsible Business Conduct) Third Amendment Directions, 2026 (RBI/2026-27/230; DOR.MCS.REC.No.199/01-01-039/2026-27; 6 अगस्त 2026; 1 जनवरी 2027 से लागू)",
+          "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13672&Mode=0",
+          "issued": "2026-08-06",
+          "effective": "2027-01-01",
+          "used": [
+            {
+              "ref": "पैरा 3(2), 4(3), (4)",
+              "c": "1 जनवरी 2027 से; पैरा 26, 27 और 89–100 हटेंगे; नया section J (पैरा 100A से)"
+            },
+            {
+              "ref": "पैरा 100L–100N, 100P, 100S–100U, 100Y, 100Z, 100AA",
+              "c": "NBFC पर भी वही नए नियम: एक दिन पहले सूचना, recording, mobile पाबंदी, 8 से 7, social media, शिकायत अधिकारी"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\nRecovery agent वह agency है, जिसे bank बकाया क़र्ज़ वसूलने के लिए रखता है। RBI के निर्देशों में 'agent' में वह agency और उसके agents या कर्मचारी, दोनों आते हैं।[^1] NBFC के recovery agents पर भी धमकी, परेशान करने और बेवक़्त call की यही पाबंदियाँ हैं।[^3]\n\n- **Bank ज़िम्मेदार:** bank 'principal' है, इसलिए अपने agents के कामों के लिए ज़िम्मेदार है।[^1]\n- **किन banks पर:** ये निर्देश commercial banks के लिए हैं; Small Finance Banks, Payments Banks और Local Area Banks इनमें नहीं गिने गए हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पहले से जानकारी:** bank को case agency को सौंपते समय ही agency का ब्योरा आपको बताना है।[^1]\n- **पहचान:** agent के पास bank का notice, authorisation letter और पहचान पत्र होना चाहिए।[^1]\n- **सम्मान के साथ वसूली:** धमकी, गाली-गलौज, बेइज़्ज़ती या परिवार और दोस्तों को परेशान करना मना है।[^1][^3]\n\n## वसूली कैसे होती है | कैसे होती है\n\n::flow\n\n- **Agency का ब्योरा:** bank की website पर उसकी recovery agencies की ताज़ा सूची होनी चाहिए।[^1]\n- **Call की recording:** bank को agents और ग्राहक के बीच के calls record करने हैं, और ग्राहक को यह बताना जैसी सावधानी बरतनी है।[^1]\n- **शिकायत पहले:** आपकी शिकायत bank के पास हो, तो उसके आख़िरी निपटारे तक case agency को नहीं जाता; बेबुनियाद शिकायतें बार-बार करने के सबूत हों, तो bank वसूली जारी रख सकता है।[^1]\n- **Digital loan:** agent तय हो या बदले, तो उसका ब्योरा संपर्क से पहले email / SMS से आपको आना है।[^2][^4]\n- **Training:** bank के recovery agents को IIBF का Debt Recovery Agents certificate course पूरा करना है।[^1]\n\n## क्या मना है | क्या मना है\n\nRBI के निर्देशों के मुताबिक bank, NBFC या उनके agents वसूली में ये नहीं कर सकते:[^1][^3]\n\n- बोलकर या हाथ से किसी भी तरह डराना-धमकाना या परेशान करना।\n- सबके सामने बेइज़्ज़त करना, या क़र्ज़दार के परिवार, referees और दोस्तों की privacy में दख़ल देना।\n- Mobile या social media पर ग़लत संदेश भेजना, धमकी वाले या बिना नाम के calls करना।\n- बार-बार call करना, या सुबह 8 बजे से पहले और शाम 7 बजे के बाद वसूली के लिए call करना।\n- झूठी या गुमराह करने वाली बातें कहना।\n\nयह समय वाला नियम microfinance loan पर लागू नहीं है। Microfinance loan में सुबह 9 बजे से पहले या शाम 6 बजे के बाद call करना, और रिश्तेदारों, दोस्तों या साथ काम करने वालों को परेशान करना सख़्ती माना गया है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> वसूली के दौरान इज़्ज़त से पेश आए जाने का हक़ आपका है। Agent की ज़्यादती के लिए bank ज़िम्मेदार है, और bank को वसूली से जुड़ी शिकायतों का तरीक़ा आपको बताना है।[^1]\n\n- **शिकायत पर रुकावट:** आपकी शिकायत का निपटारा होने तक bank case agency को नहीं भेजेगा, जब तक आपकी शिकायतें बेबुनियाद होने के सबूत न हों।[^1]\n\n## अभी क्या करें\n\n- कोई agent आए, तो bank का notice, authorisation letter और पहचान पत्र माँगिए।[^1]\n- Bank की website पर उसकी recovery agencies की सूची में agency का नाम जाँचिए।[^1]\n- परेशान करने वाले calls और संदेशों का समय और नंबर लिख लीजिए, और bank से लिखित शिकायत कीजिए।[^1]\n- शाखा से हल न हो, तो bank के Regional या Zonal Manager या Head Office, और फिर Ombudsman के पास जाइए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+      "body": "## मतलब\n\nRecovery agent वह agency है, जिसे bank बकाया क़र्ज़ वसूलने के लिए रखता है। RBI के निर्देशों में 'agent' में वह agency और उसके agents या कर्मचारी, दोनों आते हैं।[^1] NBFC के recovery agents पर भी धमकी, परेशान करने और बेवक़्त call की यही पाबंदियाँ हैं।[^3]\n\n- **Bank ज़िम्मेदार:** bank 'principal' है, इसलिए अपने agents के कामों के लिए ज़िम्मेदार है।[^1]\n- **किन banks पर:** ये निर्देश commercial banks के लिए हैं; Small Finance Banks, Payments Banks और Local Area Banks इनमें नहीं गिने गए हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पहले से जानकारी:** bank को case agency को सौंपते समय ही agency का ब्योरा आपको बताना है।[^1]\n- **पहचान:** agent के पास bank का notice, authorisation letter और पहचान पत्र होना चाहिए।[^1]\n- **सम्मान के साथ वसूली:** धमकी, गाली-गलौज, बेइज़्ज़ती या परिवार और दोस्तों को परेशान करना मना है।[^1][^3]\n\n## वसूली कैसे होती है | कैसे होती है\n\n::flow\n\n- **Agency का ब्योरा:** bank की website पर उसकी recovery agencies की ताज़ा सूची होनी चाहिए।[^1]\n- **Call की recording:** bank को agents और ग्राहक के बीच के calls record करने हैं, और ग्राहक को यह बताना जैसी सावधानी बरतनी है।[^1]\n- **शिकायत पहले:** आपकी शिकायत bank के पास हो, तो उसके आख़िरी निपटारे तक case agency को नहीं जाता; बेबुनियाद शिकायतें बार-बार करने के सबूत हों, तो bank वसूली जारी रख सकता है।[^1]\n- **Digital loan:** agent तय हो या बदले, तो उसका ब्योरा संपर्क से पहले email / SMS से आपको आना है।[^2][^4]\n- **Training:** bank के recovery agents को IIBF का Debt Recovery Agents certificate course पूरा करना है।[^1]\n\n## क्या मना है | क्या मना है\n\nRBI के निर्देशों के मुताबिक bank, NBFC या उनके agents वसूली में ये नहीं कर सकते:[^1][^3]\n\n- बोलकर या हाथ से किसी भी तरह डराना-धमकाना या परेशान करना।\n- सबके सामने बेइज़्ज़त करना, या क़र्ज़दार के परिवार, referees और दोस्तों की privacy में दख़ल देना।\n- Mobile या social media पर ग़लत संदेश भेजना, धमकी वाले या बिना नाम के calls करना।\n- बार-बार call करना, या सुबह 8 बजे से पहले और शाम 7 बजे के बाद वसूली के लिए call करना।\n- झूठी या गुमराह करने वाली बातें कहना।\n\nयह समय वाला नियम microfinance loan पर लागू नहीं है। Microfinance loan में सुबह 9 बजे से पहले या शाम 6 बजे के बाद call करना, और रिश्तेदारों, दोस्तों या साथ काम करने वालों को परेशान करना सख़्ती माना गया है।[^1] यह अलग microfinance वाला नियम 31 दिसंबर 2026 तक है।[^5][^6]\n\n## 1 जनवरी 2027 से क्या बदलेगा | 2027 से\n\nRBI ने 6 अगस्त 2026 को commercial banks और NBFCs के लिए वसूली के नए, विस्तृत नियम जारी किए हैं, जो 1 जनवरी 2027 से लागू होंगे। तब commercial banks के निर्देशों के पैरा 408–416 और 442–454 हट जाएँगे, और NBFC के निर्देशों के पैरा 26, 27 और 89–100।[^5][^6] नए नियमों की कुछ बातें:\n\n- **Call और visit का समय:** सिर्फ़ सुबह 8 से शाम 7 बजे तक; इससे पहले या बाद में तभी, जब आपने ख़ुद कहा या इजाज़त दी हो। किसी ख़ास समय call या visit न करने का आपका अनुरोध आम हालात में माना जाएगा।[^5][^6]\n- **पहले से सूचना:** agency आपके यहाँ आए, तो पहली visit से कम से कम एक दिन पहले bank या NBFC आपको उसका ब्योरा देगा; agency बदले या हटाई जाए, तो तुरंत बताएगा।[^5][^6]\n- **मौक़ा देखकर:** परिवार में मौत, medical emergency, शादी जैसे मौक़ों पर वसूली के call या visit से बचना है।[^5][^6]\n- **सिर्फ़ आपसे बात:** बकाये की बात सिर्फ़ borrower या guarantor से होगी। Social media पर आपका video / audio या निजी ब्योरा डालना सख़्ती माना जाएगा।[^5][^6]\n- **Call का रिकॉर्ड:** calls का समय और गिनती दर्ज होगी, और recording 6 महीने तक रखी जाएगी (मामला court में हो, तो उसके निपटारे तक)।[^5][^6]\n- **Loan वाला mobile:** उसी loan से ख़रीदे phone, tablet या laptop पर ही पाबंदी लग सकती है: loan 30 दिन overdue होने और notice के बाद धीरे-धीरे, पूरी पाबंदी 60 दिन बाद, और outgoing calls 60 दिन से पहले नहीं रुकेंगी। Incoming calls, SMS और SOS कभी बंद नहीं होंगे; बकाया चुकने के 1 घंटे के अंदर पाबंदी हटेगी, वरना ₹250 प्रति घंटा मुआवज़ा (कुल मुआवज़ा loan की रक़म तक)। Phone के contacts, photos जैसा निजी data इस्तेमाल नहीं हो सकता।[^5][^6]\n- **शिकायत अधिकारी:** वसूली से जुड़ी हर सूचना में शिकायत अधिकारी (grievance redressal officer) का नाम, email, phone और पता होगा।[^5][^6]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> वसूली के दौरान इज़्ज़त से पेश आए जाने का हक़ आपका है। Agent की ज़्यादती के लिए bank ज़िम्मेदार है, और bank को वसूली से जुड़ी शिकायतों का तरीक़ा आपको बताना है।[^1]\n\n- **शिकायत पर रुकावट:** आपकी शिकायत का निपटारा होने तक bank case agency को नहीं भेजेगा, जब तक आपकी शिकायतें बेबुनियाद होने के सबूत न हों।[^1]\n\n## अभी क्या करें\n\n- कोई agent आए, तो bank का notice, authorisation letter और पहचान पत्र माँगिए।[^1]\n- Bank की website पर उसकी recovery agencies की सूची में agency का नाम जाँचिए।[^1]\n- परेशान करने वाले calls और संदेशों का समय और नंबर लिख लीजिए, और bank से लिखित शिकायत कीजिए।[^1]\n- शाखा से हल न हो, तो bank के Regional या Zonal Manager या Head Office, और फिर Ombudsman के पास जाइए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
     },
     {
       "id": "digital-lending",
@@ -8049,6 +8105,797 @@
         }
       ],
       "body": "## मतलब\n\nPrepayment का मतलब है loan का कुछ हिस्सा (part) या पूरा loan तय समय से पहले चुका देना। RBI के निर्देशों में इस पर लगने वाले charge को pre-payment charge कहा गया है।[^1][^2]\n\n- **किस पर:** term loan और demand loan दोनों पर; cash credit / overdraft को समय से पहले बंद करने पर भी।[^1][^2]\n- **कौन-से lender:** ये नियम commercial banks और NBFCs (HFC समेत) के हैं।[^1][^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Floating loan में आज़ादी:** व्यक्ति के तौर पर लिया non-business floating rate loan आप बिना pre-payment charge के चुका सकते हैं।[^1][^2]\n- **Fixed loan में पढ़कर:** fixed rate loan में charge लग सकता है, इसलिए sanction letter और KFS पहले पढ़िए।[^1][^2]\n\n## Prepayment कैसे चलता है | कैसे चलता है\n\n::flow\n\n- **पैसा कहीं से भी:** 1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुए जिन loans पर charge मना है, उनमें यह नियम पैसे के स्रोत से अलग है, और कोई न्यूनतम lock-in अवधि नहीं।[^1][^2]\n- **Dual rate:** आधे fixed, आधे floating loan में देखा जाता है कि prepayment के समय loan floating पर है या नहीं।[^1][^2]\n- **Lender के कहने पर:** lender ख़ुद जल्दी चुकवाए, तो कोई charge नहीं।[^1][^2]\n- **Benchmark बदलना:** commercial bank में जो borrower floating rate term loan बिना pre-payment charge चुका सकते हैं, वे बाहरी benchmark पर बिना charge या fee जा सकते हैं (सिर्फ़ उचित administrative / legal ख़र्च); इसे loan बंद करना नहीं माना जाता।[^3]\n\n## कहाँ charge नहीं लग सकता | Charge नहीं\n\n- **पुराने loan:** commercial bank में 31 दिसंबर 2025 से पहले, और NBFC में 31 दिसंबर 2025 तक मंज़ूर, व्यक्ति के non-business floating rate term loan।[^1][^2]\n- **1 जनवरी 2026 से मंज़ूर या renew:** व्यक्ति के non-business floating rate loan, co-obligant हो या न हो।[^1][^2]\n- **Business floating loan, bank में:** व्यक्ति और MSE, दोनों के; 1 जनवरी 2026 से मंज़ूर या renew हुए loan।[^1]\n- **Business floating loan, NBFC में:** व्यक्ति और MSE के, 1 जनवरी 2026 से मंज़ूर या renew हुए loan: Upper Layer वाली NBFC में; Middle Layer वाली में ₹50 लाख तक के मंज़ूर loan या limit पर।[^2]\n\n## जहाँ charge लग सकता है | Charge कहाँ\n\n- **Policy से:** ऊपर के अलावा बाक़ी loans में, lender की मंज़ूर policy के हिसाब से।[^1][^2]\n- **किस रक़म पर:** term loan में सिर्फ़ चुकाई जा रही रक़म पर; cash credit / overdraft में sanctioned limit से ज़्यादा पर नहीं।[^1][^2]\n- **CC / OD बंद करना:** agreement में तय समय से पहले renew न कराने की सूचना दें और facility तय तारीख़ पर बंद हो, तो charge नहीं।[^1][^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Pre-payment charge लगेगा या नहीं, यह sanction letter और loan agreement में, और KFS वाले loans में KFS में भी, साफ़ लिखा होना चाहिए। जो charge इनमें नहीं बताया गया, वह नहीं लिया जा सकता; और पहले माफ़ किया गया charge या fee prepayment के समय पीछे से नहीं वसूला जा सकता।[^1][^2]\n\n## अभी क्या करें\n\n- अपने loan का sanction letter और KFS देखिए: ब्याज दर fixed है या floating, और pre-payment charge के बारे में क्या लिखा है।[^1][^2]\n- आपका non-business floating rate loan है और फिर भी charge माँगा जाए, तो sanction letter और KFS के साथ lender की शिकायत व्यवस्था में बात उठाइए।[^1][^2]\n- Business loan NBFC से है, तो NBFC से पूछिए कि वह किस layer में है और आपके loan पर charge का नियम क्या है।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "loan-settlement",
+      "term": "Loan Settlement",
+      "aliases": [
+        "Loan Settlements",
+        "Compromise Settlement",
+        "Compromise Settlements"
+      ],
+      "full": "क़र्ज़ का समझौता · bank बकाये का कुछ हिस्सा छोड़कर नक़द में पूरा हिसाब निपटाता है",
+      "fullEn": "Compromise Settlement of Loan",
+      "group": "क़र्ज़",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। RBI के Commercial Banks – Resolution of Stressed Assets Directions, 2025 (1 अक्टूबर 2026 तक updated) और Commercial Banks – Credit Information Reporting Directions, 2025 (1 जुलाई 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Loan settlement (RBI की भाषा में compromise settlement) यानी bank और borrower के बीच बातचीत से तय ऐसा इंतज़ाम, जिसमें bank के सारे दावे नक़द में पूरी तरह निपटाए जाते हैं, और bank बकाये का कुछ हिस्सा छोड़ सकता है। यह borrower का अधिकार नहीं, bank का फ़ैसला है; और चुकाने में असमर्थता से छूट मिली हो, तो credit report में खाता 'settled' दिखता है।",
+      "facts": [
+        {
+          "k": "Settlement का हक़",
+          "v": "नहीं",
+          "s": "bank अपने व्यापारिक फ़ैसले से करता है"
+        },
+        {
+          "k": "Credit report में",
+          "v": "'Settled'",
+          "s": "असमर्थता से मूलधन / ब्याज में छूट मिली हो"
+        },
+        {
+          "k": "उसी bank से नया loan",
+          "v": "12 महीने बाद",
+          "s": "कम से कम; खेती के क़र्ज़ में bank की policy"
+        },
+        {
+          "k": "Settlement रक़म चुकाने का समय",
+          "v": "3 महीने तक",
+          "s": "इससे ज़्यादा हो, तो restructuring माना जाता है"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "बकाया loan",
+            "s": "चुकाने में मुश्किल"
+          },
+          {
+            "t": "Compromise settlement",
+            "s": "bank की policy और मंज़ूरी से"
+          },
+          {
+            "t": "हिसाब बंद",
+            "s": "credit report में 'settled'"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "बातचीत",
+            "s": "bank कुछ रक़म छोड़ सकता है"
+          },
+          {
+            "b": "नक़द भुगतान",
+            "s": "3 महीने से ज़्यादा नहीं"
+          }
+        ],
+        "note": "Settlement borrower का हक़ नहीं; bank अपने व्यापारिक फ़ैसले से करता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Settlement माँगना मेरा हक़ है; bank मना नहीं कर सकता।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक compromise settlement borrower का अधिकार नहीं है; यह bank का अपने व्यापारिक फ़ैसले से लिया निर्णय है।[^1]"
+        },
+        {
+          "m": "\"Bank ने loan write-off कर दिया, मतलब क़र्ज़ माफ़।\"",
+          "f": "नहीं। Technical write-off सिर्फ़ bank के खातों का हिसाबी क़दम है। इसमें borrower पर दावा नहीं छूटता, वसूली का bank का हक़ बना रहता है, और borrower की क़ानूनी ज़िम्मेदारी वैसी ही रहती है।[^1]"
+        },
+        {
+          "m": "\"Settlement हो गया, तो credit report साफ़।\"",
+          "f": "नहीं। चुकाने में असमर्थता की वजह से मूलधन, ब्याज या दोनों में छूट मिली हो, तो bank खाते को 'settled' बताता है, ताकि आगे loan देने वाले को यह पता रहे।[^2]"
+        },
+        {
+          "m": "\"किस्तों में settlement भी settlement ही है, चाहे साल भर लगे।\"",
+          "f": "नहीं। तय settlement रक़म चुकाने का समय 3 महीने से ज़्यादा हो, तो उसे restructuring माना जाता है। आंशिक (part) settlement भी restructuring है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Settlement के बाद उसी bank से नया loan कब मिल सकता है?",
+          "a": "Bank की policy में तय cooling period के बाद। खेती के क़र्ज़ को छोड़कर यह कम से कम 12 महीने है, और bank इससे लंबा रख सकता है। खेती के क़र्ज़ में cooling period bank की policy तय करती है।"
+        },
+        {
+          "q": "Settlement की रक़म कैसे तय होती है?",
+          "a": "Bank की Board से मंज़ूर policy से। उसमें लिखा होता है कि अलग-अलग तरह के क़र्ज़ में कितनी छूट (sacrifice) दी जा सकती है; यह गिरवी संपत्ति की आज की वसूली-योग्य क़ीमत देखकर तय होता है, जहाँ गिरवी हो।"
+        },
+        {
+          "q": "Technical write-off क्या है?",
+          "a": "Bank का हिसाबी क़दम, जिसमें न वसूल होने वाला क़र्ज़ (पूरा या आंशिक) सिर्फ़ खातों में write-off होता है। Borrower के loan खाते में बकाया बना रहता है, और दावा नहीं छूटता।"
+        },
+        {
+          "q": "Fraud या wilful defaulter घोषित borrower से भी settlement हो सकता है?",
+          "a": "हाँ, bank कर सकता है। पर उनके ख़िलाफ़ चल रही आपराधिक कार्रवाई जारी रहती है, और fraud / wilful defaulter पर लगने वाले penal measures भी लागू रहते हैं।"
+        },
+        {
+          "q": "Lok Adalat में settlement की क्या सीमा है?",
+          "a": "Civil court की Lok Adalat में ₹20 लाख तक के मामले भेजे जा सकते हैं। DRT / DRAT की Lok Adalat में bank ₹10 लाख और उससे ऊपर के मामलों में हिस्सा ले सकता है। ₹10 लाख से कम के personal loans, credit card loans और housing loans की वसूली के लिए bank को Lok Adalat इस्तेमाल करने के लिए प्रोत्साहित (encourage) किया गया है।"
+        },
+        {
+          "q": "NBFC से लिए loan पर?",
+          "a": "इस पन्ने के नियम commercial banks के निर्देशों से हैं। NBFC के लिए RBI के अलग Resolution of Stressed Assets और Credit Information Reporting निर्देश हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Credit Report"
+        },
+        {
+          "t": "Credit Score"
+        },
+        {
+          "t": "CIBIL"
+        },
+        {
+          "t": "Credit Bureau"
+        },
+        {
+          "t": "Recovery Agent"
+        },
+        {
+          "t": "Moratorium (मोहलत)"
+        },
+        {
+          "t": "Commercial Bank"
+        },
+        {
+          "t": "NBFC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025 (RBI/DOR/2025-26/165; DOR.STR.REC.84/21.04.048/2025-26; updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/165MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks"
+            },
+            {
+              "ref": "पैरा 6(2)",
+              "c": "compromise settlement: नक़द में पूरा निपटारा; बकाये का कुछ हिस्सा छोड़ना"
+            },
+            {
+              "ref": "पैरा 6(12), 90, 91",
+              "c": "3 महीने से ज़्यादा में भुगतान, या आंशिक settlement = restructuring"
+            },
+            {
+              "ref": "पैरा 6(18), 92",
+              "c": "technical write-off में दावा नहीं छूटता"
+            },
+            {
+              "ref": "पैरा 12",
+              "c": "policy: छूट, गिरवी की क़ीमत; एक स्तर ऊपर मंज़ूरी; loan मंज़ूर करने वाला शामिल नहीं"
+            },
+            {
+              "ref": "पैरा 88",
+              "c": "settlement borrower का अधिकार नहीं, bank का फ़ैसला"
+            },
+            {
+              "ref": "पैरा 96",
+              "c": "cooling period: कम से कम 12 महीने; खेती के क़र्ज़ में policy"
+            },
+            {
+              "ref": "पैरा 98, 99",
+              "c": "fraud / wilful defaulter: आपराधिक कार्रवाई और penal measures जारी"
+            },
+            {
+              "ref": "पैरा 101, 102",
+              "c": "लंबित केस में consent decree; Lok Adalat की सीमाएँ"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Information Reporting) Directions, 2025 (RBI/DOR/2025-26/156; DOR.FIN.REC.No.75/20.16.056/2025-26; Updated as on July 01, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/156MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks"
+            },
+            {
+              "ref": "पैरा 12(2)",
+              "c": "settlement और उसकी वजह credit bureau को"
+            },
+            {
+              "ref": "पैरा 12(4)",
+              "c": "'settled' सिर्फ़ असमर्थता से छूट पर; ग़लत debit / विवादित charge 'disputed'"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Master Directions की सूची, www.rbi.org.in",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "NBFC का हिस्सा",
+              "c": "NBFC के अलग Resolution of Stressed Assets और Credit Information Reporting Directions, 2025 (12 अक्टूबर 2026 को देखी)"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nLoan settlement को RBI के निर्देशों में compromise settlement कहा गया है: borrower के साथ बातचीत से तय ऐसा इंतज़ाम, जिसमें bank के सारे दावे नक़द में पूरी तरह निपटा दिए जाते हैं। इसमें bank बकाये का कुछ हिस्सा छोड़ सकता है, और उतने दावे से हाथ खींच लेता है।[^1]\n\n- **किसके नियम:** ये नियम commercial banks के हैं; small finance, payments और local area banks पर ये निर्देश लागू नहीं।[^1][^2] NBFC के लिए RBI के अलग निर्देश हैं।[^3]\n- **Write-off अलग चीज़:** technical write-off सिर्फ़ bank के खातों का हिसाब है; इसमें borrower पर दावा नहीं छूटता।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **हक़ नहीं:** settlement borrower का अधिकार नहीं; bank इसे अपने व्यापारिक फ़ैसले से करता है।[^1]\n- **Credit report पर असर:** चुकाने में असमर्थता की वजह से मूलधन या ब्याज में छूट मिली हो, तो bank credit bureau को खाता 'settled' बताता है।[^2]\n- **नया loan:** settlement के बाद वही bank एक cooling period तक आपको नया loan नहीं देगा; खेती के क़र्ज़ को छोड़कर यह कम से कम 12 महीने है।[^1]\n\n## Settlement कैसे होता है | कैसे होता है\n\n::flow\n\n- **Bank की policy:** हर bank की Board से मंज़ूर policy में settlement की प्रक्रिया होती है, और यह भी कि किस तरह के क़र्ज़ में कितनी छूट दी जा सकती है, गिरवी संपत्ति की आज की वसूली-योग्य क़ीमत देखकर।[^1]\n- **मंज़ूरी कौन दे:** loan मंज़ूर करने वाले से कम से कम एक स्तर ऊपर का अधिकारी या समिति। जो अधिकारी loan मंज़ूर करने में शामिल था, वह उसी खाते का settlement मंज़ूर करने में किसी भी रूप में शामिल नहीं हो सकता।[^1]\n- **3 महीने की सीमा:** तय settlement रक़म चुकाने का समय 3 महीने से ज़्यादा हो, तो उसे restructuring माना जाता है। आंशिक (part) settlement भी restructuring है।[^1]\n- **लंबित केस:** bank ने किसी न्यायिक मंच पर वसूली का केस किया है और वह लंबित है, तो settlement पर वहाँ से consent decree लेना ज़रूरी है।[^1]\n\n## Credit report में क्या दिखता है | Credit report\n\n- **रिपोर्ट होता है:** bank, settlement वाले मामले और settlement की वजह, credit bureau (CIC) को तय format में भेजता है।[^2]\n- **'Settled' कब:** सिर्फ़ तब, जब चुकाने में असमर्थता की वजह से मूलधन, ब्याज या दोनों में छूट दी गई हो।[^2]\n- **'Disputed' कब:** ग़लत debit या विवादित charges वाले मामले 'settled' नहीं, 'disputed' दिखाए जाते हैं।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> ग़लत debit या जिस charge पर विवाद है, उसे bank credit bureau को 'settled' नहीं बता सकता; ऐसे मामले 'disputed' दिखाए जाते हैं।[^2] और जिस अधिकारी ने आपका loan मंज़ूर किया था, वह उसी खाते का settlement मंज़ूर नहीं कर सकता।[^1]\n\n## अभी क्या करें\n\n- Settlement से पहले देखिए कि तय रक़म कितने समय में चुकानी है: 3 महीने से ज़्यादा हुआ, तो यह restructuring माना जाएगा।[^1]\n- Settlement के बाद अपनी credit report देखिए कि खाता सही status ('settled' या 'disputed') में दिखा है।[^2]\n- वसूली का केस किसी न्यायिक मंच पर लंबित है, तो settlement पर consent decree होना चाहिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "moratorium",
+      "term": "Moratorium (मोहलत)",
+      "aliases": [
+        "Loan Moratorium"
+      ],
+      "full": "मोहलत · loan पर ब्याज या मूलधन का भुगतान कुछ समय बाद शुरू होना",
+      "fullEn": "Moratorium on Loan Repayment",
+      "group": "क़र्ज़",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। RBI के Commercial Banks – Resolution of Stressed Assets Directions, 2025 (1 अक्टूबर 2026 तक updated; आपदा वाला Chapter VI-A 1 जुलाई 2026 से) से जाँचा।"
+        }
+      ],
+      "one": "Moratorium यानी loan पर वह अवधि, जिसके बाद ब्याज या मूलधन का पहला भुगतान शुरू होता है। 1 जुलाई 2026 से commercial banks के लिए आपदा-राहत का ढाँचा है: सरकार आपदा घोषित करे, तो bankers' committee 15 दिन में बैठक कर तय कर सकती है कि प्रभावित borrowers को कितना moratorium चाहिए, अगर चाहिए; और राहत दी जाए, तो उसे घोषणा के 45 दिन में शुरू (invoke) और 135 दिन में लागू करना होता है।",
+      "facts": [
+        {
+          "k": "Bankers' committee की बैठक",
+          "v": "15 दिन में",
+          "s": "आपदा की घोषणा के बाद; SLBC / UTLBC / DCC"
+        },
+        {
+          "k": "कौन पात्र",
+          "v": "'Standard' खाता",
+          "s": "आपदा के दिन 30 दिन से ज़्यादा default नहीं"
+        },
+        {
+          "k": "राहत शुरू / लागू",
+          "v": "45 / 135 दिन",
+          "s": "घोषणा की तारीख़ से"
+        },
+        {
+          "k": "Bank ने ख़ुद राहत दी",
+          "v": "Opt out",
+          "s": "135 दिन तक बाहर निकलने का विकल्प",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आपदा की घोषणा",
+            "s": "केंद्र या राज्य सरकार"
+          },
+          {
+            "t": "SLBC / UTLBC / DCC",
+            "s": "15 दिन में बैठक; moratorium चाहिए या नहीं"
+          },
+          {
+            "t": "Bank का resolution plan",
+            "s": "45 दिन में शुरू, 135 दिन में लागू"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "बैठक",
+            "s": "असर का आकलन"
+          },
+          {
+            "b": "सिफ़ारिश",
+            "s": "bank को, और प्रचार"
+          }
+        ],
+        "note": "फ़ैसलों का प्रचार brochure, banner, अख़बार के विज्ञापन और field staff से करना है।"
+      },
+      "myths": [
+        {
+          "m": "\"Moratorium में ब्याज माफ़ हो जाता है।\"",
+          "f": "आपदा-राहत वाले chapter में ब्याज माफ़ी की बात नहीं है। Plan में भुगतान का नया schedule बन सकता है, और बने या बनने वाले ब्याज को एक दूसरी credit facility में बदला जा सकता है।[^1]"
+        },
+        {
+          "m": "\"हर बाढ़ या आपदा के बाद अपने-आप moratorium मिलता है।\"",
+          "f": "पहले केंद्र या राज्य सरकार आपदा घोषित करती है। फिर SLBC / UTLBC / DCC असर देखकर तय करती है कि राहत चाहिए या नहीं, और moratorium कितना, अगर चाहिए।[^1]"
+        },
+        {
+          "m": "\"Bank ने ख़ुद राहत लागू कर दी, तो मुझे माननी ही पड़ेगी।\"",
+          "f": "नहीं। ऐसे में bank को आपको बताना है, और आप घोषणा से 135 दिन पूरे होने तक plan से बाहर निकल (opt out) सकते हैं।[^1]"
+        },
+        {
+          "m": "\"पहले से default चल रहा हो, तब भी यही राहत मिलेगी।\"",
+          "f": "इस ढाँचे में वही borrower आते हैं, जिनका खाता आपदा के दिन 'Standard' था और किसी facility में 30 दिन से ज़्यादा का default नहीं था। बाक़ी खातों पर bank इन्हीं निर्देशों के दूसरे प्रावधानों में विचार कर सकता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आपदा की तारीख़ साफ़ न हो, तो?",
+          "a": "तब केंद्र या राज्य सरकार की घोषणा की तारीख़ को ही आपदा की तारीख़ माना जाता है।"
+        },
+        {
+          "q": "Moratorium कितने समय का होगा?",
+          "a": "इस chapter में कोई तय अवधि नहीं दी गई है। SLBC / UTLBC / DCC ज़रूरत के हिसाब से moratorium की अवधि तय कर सकती है, और bank का plan borrower की viability देखकर बनता है।"
+        },
+        {
+          "q": "मुझे पहले से राहत मिली हुई है, तो?",
+          "a": "1 जुलाई 2026 को जिन खातों को राहत पहले ही मिल चुकी थी, वे पुराने नियमों से चलते हैं। उसके बाद उन खातों में कोई नई resolution इसी ढाँचे से होगी।"
+        },
+        {
+          "q": "दंगे या अशांति में भी यही नियम?",
+          "a": "हाँ। ये नियम प्राकृतिक आपदा पर, और उसी तरह दंगे / अशांति जैसी बाहरी घटनाओं पर लागू होते हैं, जिनसे आर्थिक काम-काज का नुक़सान हो; शर्त यह है कि केंद्र या राज्य सरकार उसे घोषित करे।"
+        },
+        {
+          "q": "खेती के loan में ज़मीन के काग़ज़ खो गए, तो?",
+          "a": "जहाँ ज़मीन गिरवी है और असल title record नहीं बचा, वहाँ Revenue Department के अधिकारियों का प्रमाणपत्र माना जाता है। Constitution की Sixth Schedule वाले इलाक़ों में, जहाँ ज़मीन समुदाय की है, समुदाय के अधिकारियों का प्रमाणपत्र माना जाता है।"
+        },
+        {
+          "q": "NBFC या co-operative bank से loan हो, तो?",
+          "a": "ये निर्देश commercial banks के हैं। SLBC / UTLBC / DCC के फ़ैसलों की copy इलाक़े की NBFCs और Urban Co-operative Banks को भी भेजी जाती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "Loan Settlement"
+        },
+        {
+          "t": "Commercial Bank"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Co-operative Bank"
+        },
+        {
+          "t": "Prepayment"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025 (RBI/DOR/2025-26/165; DOR.STR.REC.84/21.04.048/2025-26; updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/165MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks"
+            },
+            {
+              "ref": "पैरा 58",
+              "c": "पहला भुगतान moratorium के बाद शुरू होता है"
+            },
+            {
+              "ref": "Chapter VI-A, फ़ुटनोट 9",
+              "c": "1 जुलाई 2026 से; Second Amendment Directions, 29 अप्रैल 2026"
+            },
+            {
+              "ref": "पैरा 124A, 124B",
+              "c": "सरकार की घोषित आपदा, दंगे; पहले से राहत वाले खाते"
+            },
+            {
+              "ref": "पैरा 124C–124H",
+              "c": "15 दिन में बैठक; moratorium की ज़रूरत; NBFC / UCB को copy; प्रचार"
+            },
+            {
+              "ref": "पैरा 124I–124K",
+              "c": "पात्रता: 'Standard', 30 दिन से ज़्यादा default नहीं; तारीख़"
+            },
+            {
+              "ref": "पैरा 124M–124O",
+              "c": "45 दिन में invoke, 135 दिन में लागू; ख़ुद लागू; opt out; 30 दिन extension"
+            },
+            {
+              "ref": "पैरा 124P–124U",
+              "c": "plan: rescheduling, ब्याज दूसरी facility में, नया loan, बीमा, subvention, ज़मीन के काग़ज़"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nMoratorium का मतलब है loan चुकाने में मोहलत की अवधि। RBI के इन निर्देशों में इसकी अलग परिभाषा नहीं है; जहाँ यह शब्द आया है, वहाँ ब्याज या मूलधन का पहला भुगतान moratorium के बाद शुरू होने की बात है।[^1]\n\n- **आपदा में राहत:** 1 जुलाई 2026 से commercial banks के लिए एक ढाँचा है, जिसमें आपदा के बाद bankers' committee यह भी तय कर सकती है कि प्रभावित borrowers को कितनी moratorium अवधि चाहिए, अगर चाहिए।[^1]\n- **किस पर:** केंद्र या राज्य सरकार की घोषित प्राकृतिक आपदा, और उसी तरह दंगे / अशांति जैसी बाहरी घटनाएँ, जिनसे आर्थिक काम-काज का नुक़सान हो।[^1]\n- **किसके नियम:** ये commercial banks के निर्देश हैं; small finance, payments और local area banks पर लागू नहीं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **माफ़ी नहीं लिखी:** आपदा-राहत वाला chapter भुगतान का नया schedule बनाने की बात करता है; बने या बनने वाले ब्याज को दूसरी credit facility में बदला जा सकता है।[^1]\n- **खाता ठीक रखिए:** राहत उन्हीं को, जिनका खाता आपदा के दिन 'Standard' हो और किसी facility में 30 दिन से ज़्यादा का default न हो।[^1]\n\n## आपदा-राहत कैसे चलती है | कैसे चलती है\n\n::flow\n\n- **बैठक:** राज्य / UT का बड़ा हिस्सा प्रभावित हो, तो SLBC / UTLBC की विशेष बैठक घोषणा के 15 दिन में; कुछ हिस्सा प्रभावित हो, तो प्रभावित ज़िले की DCC की बैठक 15 दिन में।[^1]\n- **फ़ैसला:** बैठक में असर का आकलन होता है; प्रभावित borrowers पहचानने के मापदंड और moratorium की अवधि तय की जा सकती है, अगर ज़रूरत हो।[^1]\n- **प्रचार:** फ़ैसलों का brochure, banner, अख़बार के विज्ञापन और field staff से प्रचार करना है।[^1]\n- **Bank का plan:** committee राहत की सिफ़ारिश करे, तो bank इन borrowers के लिए resolution plan लागू कर सकता है।[^1]\n\n## समय-सीमा और आपकी पसंद | समय-सीमा\n\n- **45 और 135 दिन:** resolution घोषणा के 45 दिन के भीतर invoke और 135 दिन के भीतर लागू होना है।[^1]\n- **बिना अर्ज़ी:** bank आपकी अर्ज़ी का इंतज़ार किए बिना, committee की सिफ़ारिश पर ख़ुद plan लागू कर सकता है। तब उसे आपको बताना है, और घोषणा से 135 दिन पूरे होने तक plan से बाहर निकलने (opt out) का विकल्प देना है।[^1]\n- **एक बार 30 दिन:** असाधारण हालात में committee का convenor RBI के Regional Director / Officer-in-Charge से invoke करने के लिए एक बार 30 दिन की मोहलत माँग सकता है; RBI हर मामला देखकर फ़ैसला करता है।[^1]\n\n## Plan में क्या हो सकता है | Plan में क्या\n\n- **नया schedule:** भुगतान का rescheduling, और बने या बनने वाले ब्याज को दूसरी credit facility में बदलना, borrower की viability देखकर।[^1]\n- **नया loan:** ज़रूरत हो, तो viability देखकर additional finance।[^1]\n- **बीमा:** bank loan से जुड़े बीमे के पैसे को ध्यान में रख सकता है, पर claim मिलने का इंतज़ार किए बिना restructuring और नया loan दे सकता है।[^1]\n- **सरकारी फ़ायदे:** सरकार की अधिसूचित interest subvention / prompt repayment incentive पात्र borrowers को बिना किसी अपवाद के देने हैं।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- आपके इलाक़े में आपदा घोषित हुई है, तो bank से पूछिए कि SLBC / UTLBC / DCC ने क्या राहत तय की है।[^1]\n- Bank ने ख़ुद plan लागू करने की सूचना दी है और आप उसे नहीं चाहते, तो घोषणा से 135 दिन पूरे होने से पहले bank को opt out बताइए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "fixed-vs-floating-rate",
+      "term": "Fixed vs Floating Rate",
+      "aliases": [
+        "Floating Rate",
+        "Floating Rates",
+        "Fixed Rate",
+        "Fixed Rates",
+        "Floating Interest Rate",
+        "Fixed Interest Rate"
+      ],
+      "full": "तय दर बनाम बदलने वाली दर · loan की ब्याज दर के दो प्रकार",
+      "fullEn": "Fixed vs Floating Interest Rate",
+      "group": "क़र्ज़",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। RBI के Commercial Banks – Interest Rates on Advances Directions, 2025, Commercial Banks – Responsible Business Conduct Directions, 2025 (1 अक्टूबर 2026 तक updated) और NBFC – Responsible Business Conduct Directions, 2025 (1 जुलाई 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Fixed rate loan में ब्याज दर loan की पूरी अवधि के लिए तय रहती है; floating rate loan में दर अवधि के दौरान तय नहीं रहती, क्योंकि वह एक benchmark और spread से बनती है। Commercial bank floating loan का spread मनमर्ज़ी से नहीं बदल सकता, और reset पर fixed rate का विकल्प देना lender की मर्ज़ी है।",
+      "facts": [
+        {
+          "k": "Fixed rate loan",
+          "v": "पूरी अवधि तय",
+          "s": "RBI की परिभाषा"
+        },
+        {
+          "k": "Floating दर",
+          "v": "Benchmark + spread",
+          "s": "benchmark loan contract में लिखा"
+        },
+        {
+          "k": "Spread के बाक़ी हिस्से",
+          "v": "3 साल में एक बार",
+          "s": "बाहरी benchmark वाला bank loan; घटाना पहले भी",
+          "good": true
+        },
+        {
+          "k": "Floating से fixed",
+          "v": "Lender की मर्ज़ी",
+          "s": "charges sanction letter और website पर"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Benchmark (B)",
+            "s": "जैसे Repo Rate; contract में लिखा"
+          },
+          {
+            "t": "Spread (S)",
+            "s": "bank का हिस्सा; बदलने पर रोक"
+          },
+          {
+            "t": "आपकी दर (R)",
+            "s": "R = B + S"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+",
+            "s": "जोड़ते हैं"
+          },
+          {
+            "b": "=",
+            "s": "floating दर"
+          }
+        ],
+        "note": "Fixed rate loan में दर loan की पूरी अवधि के लिए तय रहती है।"
+      },
+      "myths": [
+        {
+          "m": "\"Floating loan में bank जब चाहे अपना हिस्सा (spread) बढ़ा सकता है।\"",
+          "f": "नहीं। Commercial bank के बाहरी benchmark वाले loan में credit risk premium सिर्फ़ आपके credit assessment में बड़े बदलाव पर, contract के मुताबिक, बदल सकता है; spread के बाक़ी हिस्से 3 साल में एक बार।[^1]"
+        },
+        {
+          "m": "\"Floating से fixed पर जाना मेरा हक़ है।\"",
+          "f": "नहीं। Reset के समय fixed rate का विकल्प देना bank या NBFC की मर्ज़ी है, उनकी policy के मुताबिक। जहाँ विकल्प है, वहाँ उसके charges पहले से बताने होते हैं।[^2][^3]"
+        },
+        {
+          "m": "\"Hybrid loan पर floating के नियम नहीं लगते।\"",
+          "f": "लगते हैं। जिस loan में दर कुछ हिस्से पर fixed और कुछ पर floating हो, उसके floating हिस्से पर floating दर के नियम लागू होते हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "कौन-सा बेहतर है, fixed या floating?",
+          "a": "इन निर्देशों में किसी एक को बेहतर नहीं बताया गया है। Fixed दर पूरी अवधि तय रहती है। Floating दर benchmark के साथ बदलती है, और उसका असर EMI, अवधि या दोनों पर पड़ सकता है।"
+        },
+        {
+          "q": "Benchmark rate क्या है?",
+          "a": "वह reference दर, जिससे loan की ब्याज दर तय होती है। बाहरी benchmark में RBI का policy Repo Rate, FBIL के 3 और 6 महीने के Treasury Bill yield, या FBIL की कोई और दर आती है; internal benchmark (जैसे MCLR) bank ख़ुद तय करता है।"
+        },
+        {
+          "q": "KFS में \"25 bps\" वाला हिस्सा क्या है?",
+          "a": "Floating loan के KFS में लिखा होता है कि दर (R) में 0.25% (25 bps) बदलाव होने पर आपकी किस्त (EPI) और किस्तों की संख्या कितनी बदलेगी।"
+        },
+        {
+          "q": "MCLR वाले loan की दर कितनी बार बदलती है?",
+          "a": "MCLR वाले loan में reset की अवधि एक साल या उससे कम होती है, और सही अवधि loan contract में लिखी होती है।"
+        },
+        {
+          "q": "NBFC के floating loan पर?",
+          "a": "NBFC को भी KFS में दर का type, benchmark, spread और reset बताना है, और वह reset पर अपनी policy से fixed का विकल्प दे सकती है। Spread पर रोक वाले नियम commercial bank के निर्देशों के हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "Home Loan"
+        },
+        {
+          "t": "Prepayment"
+        },
+        {
+          "t": "APR"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Commercial Bank"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Interest Rates on Advances) Directions, 2025 (RBI/DOR/2025-26/161; DOR.CRE.REC.80./13.03.000/2025-26; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/161MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks"
+            },
+            {
+              "ref": "पैरा 5(3)–(7), Chapter III-A",
+              "c": "benchmark; बाहरी benchmark; fixed / floating की परिभाषा; internal benchmark, जिसमें MCLR"
+            },
+            {
+              "ref": "पैरा 6(3)–(5)",
+              "c": "fixed या floating, दोनों; दर = benchmark + spread; benchmark contract में"
+            },
+            {
+              "ref": "पैरा 27",
+              "c": "एक loan category में एक ही बाहरी benchmark"
+            },
+            {
+              "ref": "पैरा 31, 33",
+              "c": "spread: MCLR में credit risk बिगड़ने पर ही; बाहरी benchmark में 3 साल में एक बार"
+            },
+            {
+              "ref": "पैरा 36",
+              "c": "MCLR reset एक साल या कम; contract में"
+            },
+            {
+              "ref": "पैरा 45(4)(v)",
+              "c": "hybrid loan का floating हिस्सा floating नियमों से"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 327",
+              "c": "application में fixed ↔ floating conversion charge और reset clause"
+            },
+            {
+              "ref": "पैरा 348, Annex XIII",
+              "c": "1 अक्टूबर 2024 से retail / MSME term loan का KFS: दर का type; B, S, R, reset, 25 bps; switching charge"
+            },
+            {
+              "ref": "पैरा 349(1), (2), (4)",
+              "c": "EMI / अवधि पर असर; fixed का विकल्प bank की मर्ज़ी; charges sanction letter और website पर"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/362; DOR.MCS.REC.No.281/01-01-039/2025-26; Updated as on July 1, 2026; HFC पर भी लागू), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/362MD26CA543937BA439A97E1BCFC08CF5808.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 29, Annex I",
+              "c": "NBFC के KFS में भी दर का type, floating का ब्योरा, switching charge"
+            },
+            {
+              "ref": "पैरा 31(1), (2), (4)",
+              "c": "NBFC: EMI / अवधि पर असर; fixed का विकल्प policy से; charges पहले से"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के निर्देशों में fixed rate loan वह है, जिसकी ब्याज दर loan की पूरी अवधि के लिए तय रहती है। Floating rate loan की दर अवधि के दौरान तय नहीं रहती।[^1]\n\n- **दोनों विकल्प:** commercial bank हर तरह का loan fixed या floating दर पर दे सकता है।[^1]\n- **Hybrid:** कुछ loans में दर कुछ हिस्से पर fixed और कुछ पर floating होती है; floating हिस्से पर floating दर के नियम लागू होते हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Floating में बदलाव:** EMI वाले personal loans में benchmark बदलने का असर EMI, अवधि या दोनों पर पड़ सकता है; loan मंज़ूर करते समय bank या NBFC को यह बताना होता है।[^2][^3]\n- **काग़ज़ में लिखा:** 1 अक्टूबर 2024 या उसके बाद मंज़ूर retail और MSME term loans के KFS में लिखा होता है कि दर fixed है, floating या hybrid।[^2][^3]\n\n## Floating दर कैसे बनती है | कैसे बनती है\n\n::flow\n\n- **Benchmark + spread:** floating दर reference benchmark में spread जोड़कर बनती है; कौन-सा benchmark, यह loan contract का हिस्सा होता है।[^1]\n- **एक category, एक benchmark:** bank एक loan category में एक ही बाहरी benchmark अपनाता है; उसी category में कई benchmark नहीं चल सकते।[^1]\n- **KFS में हिसाब:** floating loan के KFS में benchmark की दर (B), spread (S), अंतिम दर (R = B + S), reset कितने महीने में, और दर 0.25% बदलने पर किस्त व किस्तों की संख्या पर असर लिखा होता है।[^2][^3]\n- **MCLR वाले loan:** reset एक साल या उससे कम में; सही अवधि loan contract में लिखी होती है।[^1]\n\n## Spread कब बदल सकता है | Spread\n\nये नियम commercial bank के हैं:[^1]\n\n- **बाहरी benchmark वाले loan:** spread bank तय करता है, पर credit risk premium तभी बदल सकता है, जब आपके credit assessment में बड़ा बदलाव हो, जैसा loan contract में तय है। Operating cost समेत spread के बाक़ी हिस्से 3 साल में एक बार बदल सकते हैं।[^1]\n- **छूट, शर्त के साथ:** bank customer बनाए रखने के लिए किसी loan category में spread के बाक़ी हिस्से 3 साल से पहले घटा सकता है: उचित आधार पर, बिना भेदभाव, और अपनी policy के मुताबिक।[^1]\n- **MCLR वाले loan:** मौजूदा borrower का spread सिर्फ़ उसकी credit risk profile बिगड़ने पर बढ़ सकता है, और उसके लिए पूरी risk profile review ज़रूरी है। यह नियम consortium / multiple banking वाले loans पर लागू नहीं।[^1]\n\n## Floating से fixed पर जाना | Fixed पर जाना\n\n- **Lender की मर्ज़ी:** EMI वाले personal loans में दर reset होने पर bank या NBFC, अपनी policy के मुताबिक, fixed rate पर जाने का विकल्प दे सकता है। Policy यह भी बता सकती है कि पूरी अवधि में कितनी बार switch कर सकेंगे।[^2][^3]\n- **Charges पहले से:** floating से fixed पर जाने के सारे charges sanction letter में, और बदलने पर भी, साफ़ बताने हैं, और website पर दिखाने हैं।[^2][^3]\n- **Application में ही:** bank को loan application के समय fixed ↔ floating बदलने का conversion charge, और interest reset clause है या नहीं, बताना है।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Commercial bank के बाहरी benchmark वाले floating loan में credit risk premium तभी बदल सकता है, जब आपके credit assessment में बड़ा बदलाव हो, जैसा contract में तय है; और spread के बाक़ी हिस्से 3 साल में एक बार ही बदल सकते हैं (घटाना इससे पहले भी हो सकता है)।[^1]\n\n## अभी क्या करें\n\n- Loan लेने से पहले KFS में देखिए: दर fixed है, floating या hybrid; floating हो, तो benchmark, spread और reset की अवधि।[^2][^3]\n- Sanction letter में देखिए कि floating से fixed पर जाने का charge क्या है, और policy में कितनी बार switch की छूट है।[^2][^3]\n- Floating दर बढ़े, तो bank से पूछिए कि बदलाव benchmark में हुआ है या spread में।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "ltv",
+      "term": "LTV",
+      "aliases": [
+        "Loan to Value",
+        "Loan-to-Value",
+        "Loan to Value Ratio",
+        "LTV ratio"
+      ],
+      "full": "Loan to Value · गिरवी security की क़ीमत के मुक़ाबले बकाया loan का अनुपात",
+      "fullEn": "Loan to Value Ratio",
+      "group": "क़र्ज़",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। RBI के Commercial Banks – Credit Facilities Directions, 2025 (1 अक्टूबर 2026 तक updated; securities पर loan वाला हिस्सा 1 जुलाई 2026 से) और NBFC – Credit Facilities Directions, 2025 (15 जुलाई 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "LTV (Loan to Value) यानी किसी दिन loan की बकाया रक़म और गिरवी रखी security की क़ीमत का अनुपात। RBI ने घर, सोने और shares / mutual fund जैसे कई गिरवी loans पर इसकी ऊपरी सीमा तय की है; जैसे 1 जुलाई 2026 से commercial bank व्यक्ति को listed shares पर 60% तक और debt mutual fund पर 85% तक loan दे सकते हैं।",
+      "facts": [
+        {
+          "k": "Listed shares पर",
+          "v": "60% तक",
+          "s": "commercial bank; व्यक्ति को loan"
+        },
+        {
+          "k": "Mutual fund (debt छोड़कर)",
+          "v": "75% तक",
+          "s": "ETF, REIT / InvIT units भी"
+        },
+        {
+          "k": "Debt mutual fund",
+          "v": "85% तक",
+          "s": "AAA rating वाली listed debt securities भी"
+        },
+        {
+          "k": "सीमा टूटे तो",
+          "v": "7 कार्य-दिवस",
+          "s": "bank को ठीक करना है; NBFC (shares) में भी"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "गिरवी security",
+            "s": "shares, mutual fund, bonds"
+          },
+          {
+            "t": "क़ीमत × LTV सीमा",
+            "s": "जैसे shares पर 60%"
+          },
+          {
+            "t": "Loan",
+            "s": "सीमा के भीतर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Valuation",
+            "s": "नियम से तय क़ीमत"
+          },
+          {
+            "b": "लगातार नज़र",
+            "s": "पूरी अवधि"
+          }
+        ],
+        "note": "क़ीमत गिरने से LTV सीमा से ऊपर जाए, तो bank को 7 कार्य-दिवस के भीतर ठीक करना है।"
+      },
+      "myths": [
+        {
+          "m": "\"Shares की आज की क़ीमत पर loan मिलेगा।\"",
+          "f": "नहीं। Listed shares और mutual fund units की क़ीमत, पिछले 6 महीने के रोज़ के closing भाव / NAV के औसत और पिछले trading दिन के भाव / NAV में से जो कम हो, वह मानी जाती है; उस पर भी LTV की सीमा लगती है।[^1]"
+        },
+        {
+          "m": "\"LTV सिर्फ़ loan देते समय देखा जाता है।\"",
+          "f": "नहीं। Securities वाले loan में LTV पर लगातार नज़र रखी जाती है, और सीमा टूटे तो bank को तुरंत, और ज़्यादा से ज़्यादा 7 कार्य-दिवस में, इसे ठीक करना है।[^1]"
+        },
+        {
+          "m": "\"किसी भी share पर loan मिल सकता है।\"",
+          "f": "नहीं। Partly paid shares पर, और lock-in वाली securities पर, bank loan नहीं दे सकता।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Margin क्या है?",
+          "a": "RBI के निर्देशों में margin वह योगदान है, जो borrower ख़ुद नक़द या दूसरी liquid संपत्ति के रूप में लगाता है, जब वह bank के पैसे से कोई security ख़रीदता है (या bank से non-fund-based सुविधा लेता है)। जैसे IPO / FPO / ESOP के loan में कम से कम 25% cash margin आपका होता है।"
+        },
+        {
+          "q": "IPO में shares के लिए कितना loan मिल सकता है?",
+          "a": "Commercial bank, पूरे banking system से एक व्यक्ति को IPO / FPO / ESOP के लिए ₹25 लाख तक, और subscription की क़ीमत का ज़्यादा से ज़्यादा 75% loan दे सकता है।"
+        },
+        {
+          "q": "Securities पर कुल कितना loan?",
+          "a": "Government securities, listed debt securities और debt mutual fund को छोड़कर बाक़ी securities पर, पूरे banking system से एक व्यक्ति को ज़्यादा से ज़्यादा ₹1 करोड़। इसी के भीतर secondary market से securities ख़रीदने के लिए ₹25 लाख तक।"
+        },
+        {
+          "q": "Government securities और Sovereign Gold Bond पर?",
+          "a": "Government securities (T-Bills समेत) पर LTV bank की policy से तय होता है। Sovereign Gold Bond पर वही सीमा लगती है, जो सोने / चाँदी गिरवी रखकर लिए loan पर लगती है।"
+        },
+        {
+          "q": "NBFC से shares पर loan लूँ, तो?",
+          "a": "₹100 करोड़ या ज़्यादा asset वाली NBFC को listed shares पर loan में 50% का LTV हर समय बनाए रखना है। Share के भाव गिरने से कमी आए, तो 7 कार्य-दिवस में पूरी करनी है।"
+        },
+        {
+          "q": "ये नियम कब से हैं?",
+          "a": "Commercial banks के लिए LTV की यह परिभाषा और securities पर loan वाले ये नियम 1 जुलाई 2026 से लागू हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Home Loan"
+        },
+        {
+          "t": "Gold Loan"
+        },
+        {
+          "t": "Mutual Fund"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Commercial Bank"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/154; DOR.CRE.REC.73/07-01-001/2025-26; Updated as on October 1, 2026; small finance, payments और local area banks पर लागू नहीं), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/154MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "लागू किस पर: commercial banks"
+            },
+            {
+              "ref": "पैरा 4(1)(xxiia), (xxiib)",
+              "c": "LTV और margin की परिभाषा; 1 जुलाई 2026 से (फ़ुटनोट 9)"
+            },
+            {
+              "ref": "पैरा 44, 111",
+              "c": "gold loan और housing loan की अपनी LTV सीमाएँ"
+            },
+            {
+              "ref": "Section Q, फ़ुटनोट 30",
+              "c": "securities पर loan वाला हिस्सा 1 जुलाई 2026 से"
+            },
+            {
+              "ref": "पैरा 219A, 219B(2), (3)",
+              "c": "policy में LTV / margin, valuation, margin call; partly paid और lock-in पर loan नहीं"
+            },
+            {
+              "ref": "पैरा 219E–219I",
+              "c": "व्यक्ति / HUF; LTV की सीमाएँ; 7 कार्य-दिवस; valuation"
+            },
+            {
+              "ref": "पैरा 219J–219M",
+              "c": "₹1 करोड़, ₹25 लाख; IPO में 75%, 25% margin"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025 (RBI/DOR/2025-26/347; DOR.CRE.REC.No.266/07-01-008/2025-26; updated as on July 15, 2026), PDF",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/347MD5CC21D3597C04354B67A42A1A4CB439C.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "पैरा 106(1)",
+              "c": "₹100 करोड़+ NBFC: shares पर 50% LTV हर समय; कमी 7 कार्य-दिवस में"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nLTV (Loan to Value) यानी किसी दिन loan की बकाया रक़म और गिरवी रखी security की क़ीमत का अनुपात।[^1] काल्पनिक उदाहरण: ₹1 लाख की security पर ₹60,000 का loan बकाया हो, तो LTV 60% है।\n\n- **Margin:** RBI के निर्देशों में margin वह योगदान है, जो borrower ख़ुद नक़द या दूसरी liquid संपत्ति से लगाता है, जब वह bank के पैसे से कोई security ख़रीदता है।[^1]\n- **Gold और home loan:** इनमें LTV की अपनी सीमाएँ हैं, जो Gold Loan और Home Loan के पन्नों पर हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पूरी क़ीमत का loan नहीं:** हर गिरवी security पर loan उसकी तय LTV सीमा तक ही मिलता है।[^1]\n- **भाव गिरे तो:** shares या mutual fund का भाव गिरने से LTV सीमा से ऊपर जाए, तो bank को तुरंत, और ज़्यादा से ज़्यादा 7 कार्य-दिवस में, इसे ठीक करने के क़दम उठाने हैं। इसके नियम, margin call समेत, bank की policy में होते हैं।[^1]\n\n## LTV कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n- **लगातार नज़र:** securities वाले loan में LTV पर पूरी अवधि नज़र रखी जाती है।[^1]\n- **क़ीमत कैसे गिनी जाती है:** listed shares और mutual fund / ETF / REIT / InvIT units की क़ीमत, पिछले 6 महीने के रोज़ के closing भाव / NAV के औसत और पिछले trading दिन के भाव / NAV में से जो कम हो, वह मानी जाती है।[^1]\n- **Bank की policy:** किन securities पर loan, LTV / margin, haircut, valuation और margin call के नियम bank की मंज़ूर policy में होते हैं।[^1]\n\n## Shares और mutual fund पर loan | Securities पर\n\n1 जुलाई 2026 से commercial bank, व्यक्ति (और जो HUF commercial इकाई नहीं) को securities पर loan इन LTV सीमाओं के भीतर देते हैं:[^1]\n\n- **Listed shares, listed convertible debt securities:** 60% तक।[^1]\n- **Mutual funds (debt MF छोड़कर), ETF, REIT / InvIT units:** 75% तक।[^1]\n- **Debt mutual funds:** 85% तक।[^1]\n- **Listed debt securities:** AAA rating पर 85% तक; AA से BBB rating पर 75% तक।[^1]\n- **Government securities (T-Bills समेत):** bank की policy से। **Sovereign Gold Bond:** सोने / चाँदी गिरवी वाले loan की सीमा।[^1]\n- **कुल सीमा:** government securities, listed debt securities और debt MF को छोड़कर बाक़ी securities पर पूरे banking system से एक व्यक्ति को ₹1 करोड़ तक; इसी के भीतर secondary market से securities ख़रीदने के लिए ₹25 लाख तक।[^1]\n- **IPO / FPO / ESOP:** ₹25 लाख तक, और subscription की क़ीमत का ज़्यादा से ज़्यादा 75%, यानी कम से कम 25% cash margin आपका।[^1]\n- **Loan नहीं:** partly paid shares पर, और lock-in वाली securities पर।[^1]\n\n## NBFC से shares पर loan | NBFC\n\n- ₹100 करोड़ या ज़्यादा asset वाली NBFC को listed shares पर loan में 50% का LTV हर समय बनाए रखना है; share के भाव गिरने से कमी आए, तो 7 कार्य-दिवस में पूरी करनी है।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Shares या mutual fund गिरवी रखकर loan ले रहे हैं, तो bank से पूछिए कि भाव गिरने पर margin call का नियम क्या है।[^1]\n- कितना loan मिल सकता है, इसका हिसाब आज के भाव से नहीं, 6 महीने के औसत और पिछले दिन के भाव में से कम वाले पर लगाइए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
     }
   ]
 }
