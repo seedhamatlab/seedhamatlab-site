@@ -8896,6 +8896,1393 @@
         }
       ],
       "body": "## मतलब\n\nLTV (Loan to Value) यानी किसी दिन loan की बकाया रक़म और गिरवी रखी security की क़ीमत का अनुपात।[^1] काल्पनिक उदाहरण: ₹1 लाख की security पर ₹60,000 का loan बकाया हो, तो LTV 60% है।\n\n- **Margin:** RBI के निर्देशों में margin वह योगदान है, जो borrower ख़ुद नक़द या दूसरी liquid संपत्ति से लगाता है, जब वह bank के पैसे से कोई security ख़रीदता है।[^1]\n- **Gold और home loan:** इनमें LTV की अपनी सीमाएँ हैं, जो Gold Loan और Home Loan के पन्नों पर हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पूरी क़ीमत का loan नहीं:** हर गिरवी security पर loan उसकी तय LTV सीमा तक ही मिलता है।[^1]\n- **भाव गिरे तो:** shares या mutual fund का भाव गिरने से LTV सीमा से ऊपर जाए, तो bank को तुरंत, और ज़्यादा से ज़्यादा 7 कार्य-दिवस में, इसे ठीक करने के क़दम उठाने हैं। इसके नियम, margin call समेत, bank की policy में होते हैं।[^1]\n\n## LTV कैसे काम करता है | कैसे काम करता है\n\n::flow\n\n- **लगातार नज़र:** securities वाले loan में LTV पर पूरी अवधि नज़र रखी जाती है।[^1]\n- **क़ीमत कैसे गिनी जाती है:** listed shares और mutual fund / ETF / REIT / InvIT units की क़ीमत, पिछले 6 महीने के रोज़ के closing भाव / NAV के औसत और पिछले trading दिन के भाव / NAV में से जो कम हो, वह मानी जाती है।[^1]\n- **Bank की policy:** किन securities पर loan, LTV / margin, haircut, valuation और margin call के नियम bank की मंज़ूर policy में होते हैं।[^1]\n\n## Shares और mutual fund पर loan | Securities पर\n\n1 जुलाई 2026 से commercial bank, व्यक्ति (और जो HUF commercial इकाई नहीं) को securities पर loan इन LTV सीमाओं के भीतर देते हैं:[^1]\n\n- **Listed shares, listed convertible debt securities:** 60% तक।[^1]\n- **Mutual funds (debt MF छोड़कर), ETF, REIT / InvIT units:** 75% तक।[^1]\n- **Debt mutual funds:** 85% तक।[^1]\n- **Listed debt securities:** AAA rating पर 85% तक; AA से BBB rating पर 75% तक।[^1]\n- **Government securities (T-Bills समेत):** bank की policy से। **Sovereign Gold Bond:** सोने / चाँदी गिरवी वाले loan की सीमा।[^1]\n- **कुल सीमा:** government securities, listed debt securities और debt MF को छोड़कर बाक़ी securities पर पूरे banking system से एक व्यक्ति को ₹1 करोड़ तक; इसी के भीतर secondary market से securities ख़रीदने के लिए ₹25 लाख तक।[^1]\n- **IPO / FPO / ESOP:** ₹25 लाख तक, और subscription की क़ीमत का ज़्यादा से ज़्यादा 75%, यानी कम से कम 25% cash margin आपका।[^1]\n- **Loan नहीं:** partly paid shares पर, और lock-in वाली securities पर।[^1]\n\n## NBFC से shares पर loan | NBFC\n\n- ₹100 करोड़ या ज़्यादा asset वाली NBFC को listed shares पर loan में 50% का LTV हर समय बनाए रखना है; share के भाव गिरने से कमी आए, तो 7 कार्य-दिवस में पूरी करनी है।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- Shares या mutual fund गिरवी रखकर loan ले रहे हैं, तो bank से पूछिए कि भाव गिरने पर margin call का नियम क्या है।[^1]\n- कितना loan मिल सकता है, इसका हिसाब आज के भाव से नहीं, 6 महीने के औसत और पिछले दिन के भाव में से कम वाले पर लगाइए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related\n"
+    },
+    {
+      "id": "nps",
+      "term": "NPS",
+      "aliases": [
+        "National Pension System"
+      ],
+      "full": "National Pension System · राष्ट्रीय पेंशन प्रणाली",
+      "fullEn": "National Pension System (NPS)",
+      "group": "सरकारी योजनाएँ",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। PFRDA के 'About NPS' और 'NPS for All Citizen Model' पन्नों, PFRDA (Exits and Withdrawals under the National Pension System) Regulations, 2015 (20 जुलाई 2026 तक संशोधित पाठ) और PFRDA के grievance पन्ने से जाँचा।"
+        }
+      ],
+      "one": "NPS (National Pension System) एक defined contribution pension system है, जिसे PFRDA regulate करता है। 18 से 85 साल का कोई भी भारतीय नागरिक या OCI इसमें अपनी मर्ज़ी से जुड़ सकता है। इसमें रिटर्न बाज़ार से जुड़ा है, और निकलते समय रक़म का एक हिस्सा annuity में लगता है।",
+      "facts": [
+        {
+          "k": "कौन जुड़ सकता है",
+          "v": "18 से 85 साल",
+          "s": "भारतीय नागरिक (resident या non-resident) या OCI"
+        },
+        {
+          "k": "जमा की ऊपरी सीमा",
+          "v": "नहीं",
+          "s": "Tier I और Tier II, दोनों खातों में"
+        },
+        {
+          "k": "60 की उम्र पर निकलें तो annuity",
+          "v": "कम से कम 20%",
+          "s": "बाक़ी एक साथ या किश्तों में; non-government subscriber"
+        },
+        {
+          "k": "कुल रक़म ₹8 लाख तक हो",
+          "v": "पूरी एक साथ",
+          "s": "सामान्य exit पर; 20 जुलाई 2026 तक संशोधित नियम",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप (subscriber)",
+            "s": "PoP या eNPS से खाता खोलते हैं"
+          },
+          {
+            "t": "Pension Fund",
+            "s": "आपकी चुनी योजना में निवेश"
+          },
+          {
+            "t": "Exit",
+            "s": "annuity, और बाक़ी एक साथ या किश्तों में"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "अंशदान",
+            "s": "Tier I खाते में"
+          },
+          {
+            "b": "60 साल या 15 साल",
+            "s": "या superannuation पर"
+          }
+        ],
+        "note": "आपके खाते का हिसाब Central Recordkeeping Agency (CRA) रखती है, और pension की रक़म की देखरेख NPS Trust करता है।"
+      },
+      "myths": [
+        {
+          "m": "\"NPS में तय pension की guarantee है।\"",
+          "f": "नहीं। PFRDA के मुताबिक NPS defined contribution pension system है, और इसमें रिटर्न बाज़ार से जुड़ा है।[^1][^2] Pension इस पर टिकी है कि कितना जमा हुआ और निवेश कितना बढ़ा।"
+        },
+        {
+          "m": "\"NPS सिर्फ़ सरकारी कर्मचारियों के लिए है।\"",
+          "f": "नहीं। 1 जनवरी 2004 या उसके बाद केंद्र सरकार में आए कर्मचारियों के लिए यह अनिवार्य है, पर 18 से 85 साल का कोई भी भारतीय नागरिक (resident या non-resident) या OCI इसमें अपनी मर्ज़ी से जुड़ सकता है।[^1][^2]"
+        },
+        {
+          "m": "\"60 की उम्र पर पूरी रक़म हाथ में आ जाती है।\"",
+          "f": "आम तौर पर नहीं। सामान्य exit पर कम से कम 20% रक़म से annuity लेनी होती है। कुल रक़म ₹8 लाख तक हो, तभी पूरी रक़म एक साथ ले सकते हैं।[^3]"
+        },
+        {
+          "m": "\"NPS में 5 साल का lock-in है।\"",
+          "f": "All Citizen Model में 5 साल की न्यूनतम अवधि (lock-in) हटा दी गई है।[^2] पर Multiple Scheme Framework की कोई scheme चुनें, तो उसमें कम से कम 15 साल का lock-in है; इस दौरान आप common NPS scheme में जा सकते हैं, पर उस framework की एक scheme से दूसरी में नहीं।[^2] और 15 साल या 60 की उम्र से पहले निकलने पर कम से कम 80% रक़म से annuity लेनी होती है।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "क्या NRI या OCI NPS खाता खोल सकते हैं?",
+          "a": "हाँ। PFRDA के मुताबिक भारतीय नागरिक (resident या non-resident) और OCI, दोनों जुड़ सकते हैं। NRI को PAN, Indian passport, पते का सबूत और NRE/NRO खाते का सबूत देना होता है; OCI को passport की जगह OCI card। Tier I खाते वाले NRI और OCI, Tier II खाता नहीं खोल सकते। HUF और PIO NPS में नहीं जुड़ सकते।"
+        },
+        {
+          "q": "क्या pension fund या निवेश का तरीक़ा बाद में बदल सकते हैं?",
+          "a": "PFRDA के मुताबिक pension fund साल में एक बार बदला जा सकता है। निवेश का तरीक़ा (Active choice या Auto choice) आप ख़ुद चुनते हैं, और asset allocation या investment choice साल में चार बार बदल सकते हैं।"
+        },
+        {
+          "q": "क्या 60 के बाद भी NPS में जुड़ सकते हैं?",
+          "a": "हाँ, 85 साल की उम्र तक। 60 के बाद जुड़ने वाले के लिए निकलते समय कम से कम 20% रक़म से annuity लेनी होती है; कुल रक़म ₹12 लाख तक हो, तो पूरी रक़म एक साथ ली जा सकती है।"
+        },
+        {
+          "q": "Subscriber की मृत्यु हो जाए तो?",
+          "a": "पूरी जमा रक़म nominee या क़ानूनी वारिसों को एक साथ मिलती है; वे चाहें तो किश्तों या annuity का विकल्प भी ले सकते हैं। Nomination दर्ज न हो, तो रक़म legal heir certificate या court के succession certificate के आधार पर दी जाती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Pension (पेंशन)"
+        },
+        {
+          "t": "APY"
+        },
+        {
+          "t": "EPS"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "Legal Heir"
+        },
+        {
+          "t": "Succession Certificate"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "PAN"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PFRDA — National Pension System: About NPS (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.pfrda.org.in/schemes/national-pension-system/about-nps",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "About NPS, पैरा 1",
+              "c": "NPS defined contribution pension system; 2004 में शुरू; PFRDA regulate करता है"
+            },
+            {
+              "ref": "About NPS, पैरा 2",
+              "c": "1 जनवरी 2004 या बाद में आए केंद्र सरकार के कर्मचारियों के लिए अनिवार्य; ज़्यादातर राज्यों ने अपनाया"
+            },
+            {
+              "ref": "NPS Architecture",
+              "c": "NPS Trust, CRA, Pension Funds, PoP, annuity service providers के काम"
+            },
+            {
+              "ref": "पन्ने का निचला हिस्सा",
+              "c": "Toll Free 1800 110 708"
+            }
+          ]
+        },
+        {
+          "label": "PFRDA — NPS for All Citizen Model (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.pfrda.org.in/web/pfrda/schemes/national-pension-system/nps-for-all-citizen-models",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Eligibility",
+              "c": "भारतीय नागरिक (resident या non-resident) या OCI; 18 से 85 साल; KYC; HUF और PIO नहीं; किसी और के नाम पर नहीं"
+            },
+            {
+              "ref": "Benefits",
+              "c": "portable; market-linked returns"
+            },
+            {
+              "ref": "Enrolment, Documents",
+              "c": "PoP या eNPS से खाता; फ़ोटो, PAN, पते का सबूत; NRI/OCI के काग़ज़"
+            },
+            {
+              "ref": "Tier I और Tier II",
+              "c": "Tier I मुख्य pension खाता; Tier II optional, कभी भी निकासी; Tier I वाले NRI/OCI को Tier II नहीं"
+            },
+            {
+              "ref": "Contribution",
+              "c": "Tier I या Tier II में जमा की कोई ऊपरी सीमा नहीं"
+            },
+            {
+              "ref": "Investment Choices",
+              "c": "pension fund साल में एक बार बदल सकते हैं; Active choice में equity अधिकतम 75%; Auto choice उम्र के हिसाब से; asset allocation / investment choice साल में चार बार"
+            },
+            {
+              "ref": "Withdrawal/Exit",
+              "c": "All Citizen Model में 5 साल का lock-in हटा; 60 से पहले 4 बार आंशिक निकासी, बीच में 4 साल; Multiple Scheme Framework की scheme में कम से कम 15 साल का lock-in"
+            }
+          ]
+        },
+        {
+          "label": "PFRDA — PFRDA (Exits and Withdrawals under the National Pension System) Regulations, 2015 (मूल अधिसूचना No. PFRDA/12/RGL/139/8), संकलित पाठ \"Last amended on 20th July 2026\" (12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.pfrda.org.in/documents/33652/184762/PFRDA+Exits+and+Withdrawals+under+the+NPS+Regulations+2015+_Last+amended+on+20+July+2026_+%281%29.pdf",
+          "issued": "2015-05-11",
+          "effective": "",
+          "used": [
+            {
+              "ref": "विनियम 4(1)(a)",
+              "c": "15 साल, 60 की उम्र या superannuation पर exit; कम से कम 20% annuity; ₹8 लाख तक पूरी रक़म; ₹8–12 लाख पर ₹6 लाख तक एक साथ; 85 तक टाल सकते हैं"
+            },
+            {
+              "ref": "विनियम 4(1)(b)",
+              "c": "पहले exit: कम से कम 80% annuity; ₹5 लाख तक पूरी रक़म"
+            },
+            {
+              "ref": "विनियम 4(1)(c)",
+              "c": "मृत्यु पर पूरी रक़म nominee/वारिस को; nomination न हो तो legal heir certificate या succession certificate"
+            },
+            {
+              "ref": "विनियम 4(1)(e)",
+              "c": "60 के बाद जुड़े: कम से कम 20% annuity; ₹12 लाख तक पूरी रक़म"
+            },
+            {
+              "ref": "विनियम 8(1)",
+              "c": "आंशिक निकासी: अपने अंशदान का अधिकतम 25%; कारण; कम से कम 3 साल; 60 से पहले 4 बार, 4 साल का अंतर"
+            },
+            {
+              "ref": "विनियम 8(2)",
+              "c": "Tier II से कभी भी पूरी या आंशिक निकासी"
+            }
+          ]
+        },
+        {
+          "label": "PFRDA — Grievance Redressal Mechanism under NPS Architecture (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.pfrda.org.in/compliance/grievance",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Level 1, 2, 3",
+              "c": "Pension Sahayak portal पर शिकायत; 30 दिन में हल नहीं तो NPS Trust; Level 2 पर 21 दिन में जवाब नहीं तो PFRDA Ombudsman"
+            },
+            {
+              "ref": "Level 4, 5",
+              "c": "Designated Member, PFRDA के पास revision; फिर Securities Appellate Tribunal"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNPS (National Pension System) एक defined contribution pension system है। भारत सरकार ने इसे 2004 में शुरू किया था, और इसे PFRDA regulate करता है। इसका मक़सद है कि नौकरी या काम के सालों में नियमित बचत हो, ताकि retirement के बाद आमदनी बनी रहे।[^1]\n\n- **सरकारी कर्मचारी:** 1 जनवरी 2004 या उसके बाद केंद्र सरकार की नौकरी में आए कर्मचारियों के लिए NPS अनिवार्य है; ज़्यादातर राज्य सरकारों ने भी इसे अपनाया है।[^1]\n- **बाक़ी सब:** 18 से 85 साल का कोई भी भारतीय नागरिक इसमें अपनी मर्ज़ी से जुड़ सकता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **कौन जुड़ सकता है:** भारतीय नागरिक (resident या non-resident) या OCI, 18 से 85 साल, KYC पूरी हो। HUF और PIO नहीं जुड़ सकते, और खाता किसी और के नाम पर नहीं खोला जा सकता।[^2]\n- **रिटर्न तय नहीं:** रिटर्न बाज़ार से जुड़ा है और आपके चुने निवेश पर टिका है।[^2]\n- **नौकरी या शहर बदले, खाता वही:** NPS खाता portable है।[^2]\n\n## NPS कैसे काम करता है | कैसे\n\n::flow\n\n- **खाता कहाँ खुलता है:** PFRDA में registered Point of Presence (PoP) पर, online या शाखा में; या NPS Trust के eNPS से।[^2]\n- **काग़ज़ (resident):** एक ताज़ा फ़ोटो, PAN और पते का सबूत।[^2]\n- **कौन क्या करता है:** Pension Fund पैसा निवेश करता है, CRA हिसाब रखती है, और NPS Trust pension की रक़म की देखरेख करता है। निकलते समय annuity, empanelled insurance companies देती हैं।[^1]\n\n## Tier I और Tier II | Tier I, II\n\n- **Tier I:** मुख्य pension खाता। इससे निकासी Exit Regulations के नियमों से ही होती है।[^2]\n- **Tier II:** अपनी मर्ज़ी का निवेश खाता, जो सिर्फ़ active Tier I वाले खोल सकते हैं। इससे कभी भी पूरी या आंशिक रक़म निकाली जा सकती है।[^2][^3] Tier I खाते वाले NRI और OCI, Tier II नहीं खोल सकते।[^2]\n- **कितना जमा:** Tier I या Tier II में जमा की कोई ऊपरी सीमा नहीं है।[^2]\n\n## पैसा कहाँ लगता है | निवेश\n\n- **Pension Fund:** PFRDA में registered किसी एक pension fund को चुनिए; इसे साल में एक बार बदला जा सकता है।[^2]\n- **Active choice:** आप ख़ुद तय करते हैं कि equity (E), corporate bonds (C) और government securities (G) में कितना जाए। Equity अधिकतम 75%, बाक़ी दोनों 100% तक।[^2]\n- **Auto choice:** उम्र के हिसाब से अपने आप बँटवारा। 35 की उम्र तक equity का हिस्सा एक जैसा रहता है, फिर उम्र के साथ घटता है।[^2]\n\n## बीच में निकासी | आंशिक निकासी\n\n- **कितना:** अपने ख़ुद के अंशदान का अधिकतम 25%। इसके लिए NPS में कम से कम 3 साल पूरे होने चाहिए।[^3]\n- **किन कामों के लिए:** बच्चों की उच्च शिक्षा या शादी, अपने नाम (या पति/पत्नी के साथ) घर ख़रीदना या बनाना (एक बार), अपना, जीवनसाथी, बच्चों या माता-पिता का इलाज, और विकलांगता के ख़र्च।[^3]\n- **कितनी बार:** 60 की उम्र से पहले 4 बार, और दो निकासी के बीच कम से कम 4 साल।[^2][^3]\n\n## NPS से निकलना | Exit\n\nये नियम non-government subscriber के लिए हैं।[^3]\n\n- **सामान्य exit:** NPS में 15 साल पूरे होने, 60 की उम्र, या superannuation पर। कम से कम 20% रक़म से annuity, बाक़ी एक साथ या किश्तों में।[^3]\n- **छोटी रक़म:** कुल रक़म ₹8 लाख तक हो, तो पूरी एक साथ। ₹8 लाख से ₹12 लाख के बीच हो, तो ₹6 लाख तक एक साथ, और बाक़ी कम से कम 6 साल की किश्तों (systematic unit redemption) या annuity में।[^3]\n- **पहले निकलना:** कम से कम 80% रक़म से annuity। कुल रक़म ₹5 लाख तक हो, तो पूरी एक साथ।[^3]\n- **टालना:** annuity या एक साथ वाली रक़म 85 की उम्र तक टाली जा सकती है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> NPS की शिकायत PFRDA के Pension Sahayak portal पर दर्ज कीजिए। 30 दिन में हल न हो, तो NPS Trust के पास escalate कर सकते हैं, और वहाँ 21 दिन में जवाब न मिले, तो PFRDA के Ombudsman के पास।[^4]\n\n- Ombudsman के फ़ैसले से संतुष्ट न हों, तो PFRDA के Designated Member के पास revision, और उसके बाद Securities Appellate Tribunal।[^4]\n\n## अभी क्या करें\n\n- खाता खोलते समय nominee ज़रूर दर्ज कीजिए। Nomination न हो, तो वारिसों को legal heir certificate या succession certificate दिखाना पड़ता है।[^3]\n- Active या Auto choice सोच-समझकर चुनिए; pension fund साल में एक बार बदला जा सकता है।[^2]\n- Exit से पहले अपनी कुल रक़म देखिए; ₹5 लाख, ₹8 लाख और ₹12 लाख की सीमाएँ तय करती हैं कि कितना एक साथ मिलेगा।[^3]\n- जानकारी के लिए PFRDA का Toll Free नंबर: 1800 110 708।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "apy",
+      "term": "APY",
+      "aliases": [
+        "Atal Pension Yojana",
+        "अटल पेंशन योजना"
+      ],
+      "full": "Atal Pension Yojana · अटल पेंशन योजना",
+      "fullEn": "Atal Pension Yojana (APY)",
+      "group": "सरकारी योजनाएँ",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। PFRDA के APY पन्ने, APY FAQs (PDF), वित्त मंत्रालय (DFS) की 10 अगस्त 2022 की राजपत्र अधिसूचना, PFRDA के APY circulars की सूची और PIB Release ID 2216718 (21 जनवरी 2026) से जाँचा।"
+        }
+      ],
+      "one": "APY (Atal Pension Yojana) भारत सरकार की pension योजना है। Bank या post office में savings खाते वाले 18 से 40 साल के नागरिक इसमें जुड़ सकते हैं, बशर्ते वे income-tax payer न हों या न रहे हों। 60 की उम्र के बाद ₹1,000 से ₹5,000 महीने तक की pension मिलती है, जिसकी guarantee केंद्र सरकार देती है।",
+      "facts": [
+        {
+          "k": "जुड़ने की उम्र",
+          "v": "18 से 40 साल",
+          "s": "40वें जन्मदिन तक"
+        },
+        {
+          "k": "Guaranteed pension",
+          "v": "₹1,000–₹5,000 महीना",
+          "s": "60 की उम्र के बाद, जीवन भर"
+        },
+        {
+          "k": "18 की उम्र में ₹1,000 pension के लिए",
+          "v": "₹42 महीना",
+          "s": "PFRDA की अंशदान तालिका; 40 की उम्र में ₹291"
+        },
+        {
+          "k": "Income-tax payer",
+          "v": "नया खाता नहीं",
+          "s": "1 अक्टूबर 2022 से"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Savings खाता",
+            "s": "bank या post office में"
+          },
+          {
+            "t": "APY खाता",
+            "s": "auto-debit से अंशदान"
+          },
+          {
+            "t": "60 की उम्र के बाद",
+            "s": "guaranteed pension, जीवन भर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "महीना, तिमाही या छमाही",
+            "s": "60 की उम्र तक"
+          },
+          {
+            "b": "60 साल",
+            "s": "pension शुरू"
+          }
+        ],
+        "note": "Subscriber के बाद जीवनसाथी को वही pension मिलती है, और दोनों के बाद nominee को 60 की उम्र तक जमा हुई रक़म।"
+      },
+      "myths": [
+        {
+          "m": "\"APY की pension बाज़ार पर निर्भर है।\"",
+          "f": "चुनी हुई न्यूनतम pension (₹1,000 से ₹5,000 महीना) की guarantee केंद्र सरकार देती है।[^1]"
+        },
+        {
+          "m": "\"Income-tax भरने वाला भी नया APY खाता खोल सकता है।\"",
+          "f": "नहीं। 1 अक्टूबर 2022 से जो नागरिक income-tax payer है या रहा है, वह APY में नहीं जुड़ सकता।[^2] जो 30 सितंबर 2022 तक जुड़ चुके थे, वे खाता जारी रख सकते हैं।[^3] जुड़ने के बाद कोई taxpayer बन जाए, तो उसके खाते पर असर नहीं पड़ता।[^3]"
+        },
+        {
+          "m": "\"किश्त छूट गई तो खाता बंद हो जाता है।\"",
+          "f": "नहीं। पैसा न भरने से APY खाता बंद नहीं होता। बकाया अंशदान overdue interest के साथ भरकर खाता कभी भी नियमित किया जा सकता है; पर तब तक खाते से रख-रखाव के charges कटते रहते हैं।[^3]"
+        },
+        {
+          "m": "\"Subscriber की मृत्यु के बाद कुछ नहीं मिलता।\"",
+          "f": "60 के बाद मृत्यु हो, तो जीवनसाथी को वही pension जीवन भर, और दोनों के बाद nominee को जमा रक़म।[^1] 60 से पहले मृत्यु हो, तो जीवनसाथी खाता आगे चला सकता है या पूरी जमा रक़म ले सकता है।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "क्या NPS वाले या सरकारी कर्मचारी भी APY में जुड़ सकते हैं?",
+          "a": "हाँ। PFRDA के APY FAQ के मुताबिक बाक़ी शर्तें पूरी करने वाला कोई भी भारतीय नागरिक, सरकारी नौकरी हो या न हो, APY में जुड़ सकता है। NPS खाताधारक भी जुड़ सकता है। APY और NPS के PRAN नंबर अलग-अलग होते हैं।"
+        },
+        {
+          "q": "एक व्यक्ति कितने APY खाते खोल सकता है?",
+          "a": "सिर्फ़ एक। परिवार के 18 से 40 साल के बाक़ी योग्य सदस्य अपना-अपना खाता खोल सकते हैं।"
+        },
+        {
+          "q": "क्या pension की रक़म बाद में बदल सकते हैं?",
+          "a": "हाँ, अंशदान के दौर में हर वित्त वर्ष में एक बार pension की रक़म बढ़ाई या घटाई जा सकती है। ग़लती सुधारने के अलावा ऐसे बदलाव पर ₹50 fee लगती है।"
+        },
+        {
+          "q": "बाद में नागरिकता छोड़ दी तो?",
+          "a": "APY सिर्फ़ भारतीय नागरिकों के लिए है। नागरिकता छोड़ने पर खाता बंद होता है, और अपने अंशदान पर कमाई (रख-रखाव charges घटाकर) लौटाई जाती है; सरकारी सह-अंशदान और उस पर कमाई नहीं लौटती।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Pension (पेंशन)"
+        },
+        {
+          "t": "NPS"
+        },
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "Jan Dhan (PMJDY)"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "PMJJBY"
+        },
+        {
+          "t": "PMSBY"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PFRDA — Atal Pension Yojana (APY) का पन्ना (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.pfrda.org.in/schemes/atal-pension-yojana-apy",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Overview",
+              "c": "1 जून 2015 से; ख़ासकर ग़रीब, वंचित और असंगठित क्षेत्र के कामगारों के लिए"
+            },
+            {
+              "ref": "Eligibility & Administration",
+              "c": "bank या डाक विभाग में savings खाते वाले नागरिक; 18 से 40 साल; 1 अक्टूबर 2022 से income-tax payer नहीं; PFRDA, NPS के ढाँचे में चलाता है"
+            },
+            {
+              "ref": "Features of APY",
+              "c": "₹1,000 से ₹5,000 महीने की केंद्र सरकार की guarantee वाली pension; फिर जीवनसाथी को; फिर nominee को 60 तक जमा रक़म; 60 तक अंशदान"
+            },
+            {
+              "ref": "Join APY",
+              "c": "bank शाखा या post office में form, या eAPY से online"
+            }
+          ]
+        },
+        {
+          "label": "भारत का राजपत्र (असाधारण), भाग I खंड 1 — वित्त मंत्रालय (DFS) की अधिसूचना F. No. 16/1/2015-PR: Atal Pension Yojana में संशोधन (PFRDA की website पर लगी प्रति; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pfrda.org.in/documents/33652/151384/Clarification+pursuant+to+change+in+the+eligibility+criteria+for+joining+Atal+Pension+Yojana-+as+per+DFS%2C+MOF+Notification+dated+10.08.202.pdf",
+          "issued": "2022-08-10",
+          "effective": "2022-10-01",
+          "used": [
+            {
+              "ref": "बिंदु I (पैरा 2 का proviso)",
+              "c": "1 अक्टूबर 2022 से जो income-tax payer है या रहा है, वह नहीं जुड़ सकता"
+            },
+            {
+              "ref": "बिंदु II (पैरा 13)",
+              "c": "बाद में पता चले, तो खाता बंद और जमा रक़म subscriber को"
+            }
+          ]
+        },
+        {
+          "label": "PFRDA — Frequently Asked Questions: Atal Pension Yojana (PDF; दस्तावेज़ पर तारीख़ नहीं है; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pfrda.org.in/documents/33652/676426/APY+FAQs.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 6, 7, 9, 15, 17",
+              "c": "30 सितंबर 2022 तक जुड़े taxpayer जारी रख सकते हैं; NPS वाले भी जुड़ सकते हैं; एक ही खाता; 40वें जन्मदिन तक; जुड़ने के बाद taxpayer बनने से खाते पर असर नहीं"
+            },
+            {
+              "ref": "सवाल 13, 14, 19, 23",
+              "c": "nomination ज़रूरी; विवाहित हो तो जीवनसाथी default nominee; नागरिकता छोड़ने पर बंद; APY और NPS के PRAN अलग"
+            },
+            {
+              "ref": "सवाल 24, 25, 29, 31",
+              "c": "अंशदान उम्र, अंतराल और pension पर; auto-debit; देरी पर हर ₹100 पर ₹1 महीना; खाता बंद नहीं होता, charges कटते रहते हैं"
+            },
+            {
+              "ref": "सवाल 35, 40",
+              "c": "साल में एक बार pension बदलना, ₹50 fee; helpline 1800-110-069 और 1800-889-1030"
+            },
+            {
+              "ref": "सवाल 44, 45",
+              "c": "60 से पहले exit पर अपना अंशदान और कमाई; 60 से पहले मृत्यु पर जीवनसाथी के दो विकल्प"
+            },
+            {
+              "ref": "अंशदान तालिका (Annexure)",
+              "c": "18 की उम्र: ₹1,000 के लिए ₹42, ₹5,000 के लिए ₹210 महीना; 40 की उम्र: ₹291 और ₹1,454; nominee को अनुमानित ₹1.7 लाख से ₹8.5 लाख"
+            }
+          ]
+        },
+        {
+          "label": "PIB (वित्त मंत्रालय) — \"Cabinet approves continuation of Atal Pension Yojana (APY) ... till 2030-31\", Release ID 2216718 (12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2216718",
+          "issued": "2026-01-21",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "Cabinet ने APY को वित्त वर्ष 2030-31 तक जारी रखने की मंज़ूरी दी"
+            },
+            {
+              "ref": "Background",
+              "c": "19 जनवरी 2026 तक 8.66 करोड़ से ज़्यादा subscribers"
+            }
+          ]
+        },
+        {
+          "label": "PFRDA — Grievance Redressal Mechanism (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.pfrda.org.in/compliance/grievance",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Level 1, 2, 3",
+              "c": "Pension Sahayak portal; 30 दिन में हल नहीं तो NPS Trust; फिर PFRDA Ombudsman (NPS और APY दोनों के लिए)"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nAPY (Atal Pension Yojana) भारत सरकार की pension योजना है, जो 1 जून 2015 से लागू है। यह ख़ासकर ग़रीब, वंचित और असंगठित क्षेत्र के कामगारों के लिए है। इसे PFRDA, NPS के ढाँचे के भीतर चलाता है, और यह banks और डाक विभाग के ज़रिए मिलती है।[^1]\n\nCabinet ने 21 जनवरी 2026 को APY को वित्त वर्ष 2030-31 तक जारी रखने की मंज़ूरी दी। PIB के मुताबिक 19 जनवरी 2026 तक 8.66 करोड़ से ज़्यादा लोग इसमें जुड़ चुके थे।[^4]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **आपको:** 60 की उम्र के बाद, जीवन भर, ₹1,000, ₹2,000, ₹3,000, ₹4,000 या ₹5,000 महीने की pension, जो आपने चुनी हो। इसकी guarantee केंद्र सरकार देती है।[^1]\n- **आपके जीवनसाथी को:** आपके बाद वही pension, जीवन भर।[^1]\n- **Nominee को:** आप दोनों के बाद, 60 की उम्र तक जमा हुई रक़म।[^1]\n\n## APY कैसे काम करता है | कैसे\n\n::flow\n\n- **कौन जुड़ सकता है:** bank या post office में savings खाते वाला भारतीय नागरिक, 18 से 40 साल।[^1] 40वें जन्मदिन तक जुड़ सकते हैं।[^3]\n- **कौन नहीं:** 1 अक्टूबर 2022 से जो income-tax payer है या रहा है।[^2] बाद में पता चले, तो खाता बंद होगा और जमा रक़म लौटा दी जाएगी।[^2] इस पर कोई penalty नहीं लगती।[^3]\n- **कहाँ:** अपनी bank शाखा या post office में form भरकर, या eAPY से online।[^1]\n- **एक व्यक्ति, एक खाता:** nominee देना ज़रूरी है; विवाहित हैं तो जीवनसाथी default nominee है।[^3]\n\n## कितना जमा करना होगा | अंशदान\n\nअंशदान तीन बातों पर टिका है: जुड़ते समय आपकी उम्र, आप हर महीने, तिमाही या छमाही भरेंगे, और कितनी pension चुनी है। पैसा आपके savings खाते से auto-debit होता है।[^3]\n\n- **18 की उम्र में जुड़ें:** ₹1,000 pension के लिए ₹42 महीना; ₹5,000 pension के लिए ₹210 महीना।[^3]\n- **40 की उम्र में जुड़ें:** ₹1,000 pension के लिए ₹291 महीना; ₹5,000 pension के लिए ₹1,454 महीना।[^3]\n- **Nominee को:** PFRDA की तालिका में अनुमानित रक़म ₹1.7 लाख (₹1,000 pension) से ₹8.5 लाख (₹5,000 pension) तक है।[^3]\n- **Pension बदलना:** हर वित्त वर्ष में एक बार बढ़ा या घटा सकते हैं; ग़लती सुधारने के अलावा ₹50 fee।[^3]\n\n## देर, exit और मृत्यु | देर और exit\n\n- **देर से भरना:** हर ₹100 के अंशदान पर हर महीने की देरी के लिए ₹1 overdue interest। यह रक़म आपके ही APY खाते में जाती है।[^3]\n- **पैसा न भरें तो:** खाता बंद नहीं होता, पर रख-रखाव के charges कटते रहते हैं, जब तक balance शून्य न हो जाए।[^3]\n- **60 से पहले ख़ुद निकलना:** सिर्फ़ अपना अंशदान और उस पर कमाई (charges घटाकर) मिलती है।[^3]\n- **60 से पहले मृत्यु:** जीवनसाथी बची अवधि तक अंशदान करके खाता चला सकता है और फिर pension ले सकता है, या पूरी जमा रक़म ले सकता है।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> 60 की उम्र के बाद आपकी चुनी हुई न्यूनतम pension केंद्र सरकार की guarantee के साथ जीवन भर मिलती है, और आपके बाद आपके जीवनसाथी को भी।[^1]\n\n- APY की शिकायत PFRDA के Pension Sahayak portal पर; 30 दिन में हल न हो, तो NPS Trust, और फिर PFRDA के Ombudsman के पास।[^5]\n\n## अभी क्या करें\n\n- जुड़ना है, तो 40वें जन्मदिन से पहले, और सिर्फ़ तब, जब आप income-tax payer नहीं हैं और न रहे हैं।[^2][^3]\n- Savings खाते में अंशदान की तारीख़ पर पैसा रखिए, ताकि overdue interest न लगे।[^3]\n- Nominee और जीवनसाथी की जानकारी सही दर्ज कराइए।[^3]\n- Helpline: नए लोगों के लिए PFRDA का 1800-110-069; मौजूदा subscribers के लिए CRA का 1800-889-1030।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "sukanya-samriddhi",
+      "term": "Sukanya Samriddhi",
+      "aliases": [
+        "Sukanya Samriddhi Account",
+        "Sukanya Samriddhi Account Scheme",
+        "Sukanya Samriddhi Yojana",
+        "सुकन्या समृद्धि"
+      ],
+      "full": "Sukanya Samriddhi Account · बेटी के नाम का खाता",
+      "fullEn": "Sukanya Samriddhi Account Scheme, 2019",
+      "group": "सरकारी योजनाएँ",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। Sukanya Samriddhi Account Scheme, 2019 (राजपत्र, G.S.R. 914(E), 12 दिसंबर 2019), India Post के Saving Schemes पन्ने (1 अक्टूबर से 31 दिसंबर 2026 की ब्याज दरें) और National Savings Institute की ब्याज दर तालिका से जाँचा।"
+        }
+      ],
+      "one": "Sukanya Samriddhi Account बेटी के नाम खुलने वाला केंद्र सरकार की बचत योजना का खाता है। अभिभावक इसे 10 साल से कम उम्र की बेटी के नाम खोलते हैं। हर वित्तीय वर्ष में ₹250 से ₹1.5 लाख तक जमा होता है, जमा 15 साल तक होती है, और खाता 21 साल में पकता है। 1 अक्टूबर से 31 दिसंबर 2026 की तिमाही के लिए ब्याज दर 8.2% सालाना है।",
+      "facts": [
+        {
+          "k": "किसके नाम",
+          "v": "10 साल से कम उम्र की बेटी",
+          "s": "अभिभावक खोलते हैं; हर बेटी का एक ही खाता"
+        },
+        {
+          "k": "हर वित्तीय वर्ष में जमा",
+          "v": "₹250 से ₹1.5 लाख",
+          "s": "₹50 के गुणक में; पहले 15 साल तक"
+        },
+        {
+          "k": "ब्याज दर",
+          "v": "8.2% सालाना",
+          "s": "1 अक्टूबर से 31 दिसंबर 2026 की तिमाही; India Post"
+        },
+        {
+          "k": "खाता पकता है",
+          "v": "21 साल में",
+          "s": "खाता खुलने की तारीख़ से"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "खाता खुला",
+            "s": "बेटी 10 साल से कम; birth certificate के साथ"
+          },
+          {
+            "t": "15 साल",
+            "s": "तक जमा"
+          },
+          {
+            "t": "21 साल",
+            "s": "खाता पकता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "हर साल ₹250 से ₹1.5 लाख",
+            "s": "₹50 के गुणक में"
+          },
+          {
+            "b": "ब्याज जुड़ता रहता है",
+            "s": "हर वित्तीय वर्ष के अंत में"
+          }
+        ],
+        "note": "बेटी 18 साल की हो जाए या 10वीं पास कर ले, तो पढ़ाई के लिए 50% तक रक़म निकाली जा सकती है।"
+      },
+      "myths": [
+        {
+          "m": "\"21 साल तक हर साल पैसा भरना पड़ता है।\"",
+          "f": "नहीं। जमा सिर्फ़ खाता खुलने से 15 साल तक होती है; खाता 21 साल में पकता है।[^1]"
+        },
+        {
+          "m": "\"किसी साल ₹250 नहीं भरे, तो खाता बेकार हो गया।\"",
+          "f": "नहीं। ऐसा खाता 'default' माना जाता है। 15 साल पूरे होने से पहले, हर default वाले साल के लिए ₹50 penalty और उस साल का न्यूनतम जमा भरकर इसे ठीक किया जा सकता है।[^1]"
+        },
+        {
+          "m": "\"एक परिवार में कितनी भी बेटियों के खाते खुल सकते हैं।\"",
+          "f": "आम तौर पर दो बेटियों तक। पहले या दूसरे जन्म में जुड़वाँ या तीन बेटियाँ हों, तो अभिभावक के affidavit और birth certificates के साथ ज़्यादा खाते खुल सकते हैं; पर पहले जन्म में ही दो या ज़्यादा बेटियाँ हों, तो दूसरे जन्म की बेटी पर यह छूट लागू नहीं।[^1]"
+        },
+        {
+          "m": "\"18 की होते ही पूरा पैसा निकाल सकते हैं।\"",
+          "f": "नहीं। 18 की उम्र या 10वीं पास होने (जो पहले हो) के बाद पढ़ाई के लिए पिछले वित्तीय वर्ष के अंत के balance का अधिकतम 50% निकाला जा सकता है। शादी के लिए खाता तभी बंद हो सकता है, जब शादी की तारीख़ पर बेटी कम से कम 18 साल की हो।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "खाता कहाँ खुलता है?",
+          "a": "योजना के Form-1 में आवेदन post office या bank, दोनों के लिए है। Form के साथ बेटी का birth certificate और अभिभावक के ज़रूरी काग़ज़ लगते हैं।"
+        },
+        {
+          "q": "ब्याज दर कौन तय करता है और कितनी है?",
+          "a": "India Post के मुताबिक दर वित्त मंत्रालय समय-समय पर तय करता है। 1 अक्टूबर से 31 दिसंबर 2026 की तिमाही के लिए दर 8.2% सालाना है, जो साल में एक बार जुड़ती है। National Savings Institute की तालिका में अप्रैल 2025 से सितंबर 2026 तक हर तिमाही यही दर है।"
+        },
+        {
+          "q": "बेटी की मृत्यु हो जाए तो?",
+          "a": "Form-2 में आवेदन और death certificate देने पर खाता तुरंत बंद होता है। मृत्यु की तारीख़ तक का balance और ब्याज अभिभावक को मिलता है; मृत्यु से खाता बंद होने तक की अवधि का ब्याज Post Office Savings Account की दर से।"
+        },
+        {
+          "q": "21 साल से पहले खाता बंद हो सकता है?",
+          "a": "हाँ, कुछ हालात में: बेटी की शादी के लिए (शादी से एक महीना पहले से तीन महीने बाद तक), या 5 साल पूरे होने के बाद गंभीर कारणों से, जैसे बेटी की जानलेवा बीमारी का इलाज या अभिभावक की मृत्यु। दूसरे मामले में accounts office पूरे काग़ज़ देखकर लिखित आदेश से अनुमति देता है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Small Savings Schemes"
+        },
+        {
+          "t": "PPF"
+        },
+        {
+          "t": "Minor (नाबालिग)"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "Savings (बचत)"
+        },
+        {
+          "t": "Death Certificate"
+        },
+        {
+          "t": "Affidavit"
+        },
+        {
+          "t": "Notary Public"
+        }
+      ],
+      "sources": [
+        {
+          "label": "भारत का राजपत्र (असाधारण), भाग II खंड 3(i) — वित्त मंत्रालय की अधिसूचना G.S.R. 914(E): Sukanya Samriddhi Account Scheme, 2019 (India Post की website पर लगी प्रति; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiapost.gov.in/documents/offerings/schemesandservices/posb/SukanyaSamriddhiAccountScheme2019English.pdf",
+          "issued": "2019-12-12",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना, पैरा 1(2)",
+              "c": "Government Savings Promotion Act, 1873 की धारा 3A के तहत केंद्र सरकार की योजना; राजपत्र में छपने की तारीख़ से लागू"
+            },
+            {
+              "ref": "पैरा 2(1)(b), (i)",
+              "c": "खाताधारक बेटी; 21 साल पर पकना"
+            },
+            {
+              "ref": "पैरा 3",
+              "c": "10 साल से कम; एक बेटी, एक खाता; Form-1 और birth certificate; दो बेटियाँ और जुड़वाँ/तीन की शर्त"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "₹250 न्यूनतम, ₹50 के गुणक; साल में ₹1.5 लाख तक; 15 साल तक जमा; default और ₹50 penalty; default पर भी ब्याज"
+            },
+            {
+              "ref": "पैरा 5(2)",
+              "c": "5 तारीख़ के बाद से महीने के अंत तक का सबसे कम balance; ब्याज वित्तीय वर्ष के अंत में"
+            },
+            {
+              "ref": "पैरा 6",
+              "c": "18 की उम्र तक अभिभावक, फिर बेटी ख़ुद खाता चलाती है"
+            },
+            {
+              "ref": "पैरा 7",
+              "c": "मृत्यु पर बंद; Post Office Savings Account की दर; 5 साल बाद गंभीर कारणों से बंद"
+            },
+            {
+              "ref": "पैरा 8",
+              "c": "पढ़ाई के लिए 50% तक; 18 या 10वीं पास; साल में एक बार, अधिकतम 5 साल; असल fees तक"
+            },
+            {
+              "ref": "पैरा 9",
+              "c": "21 साल पर पकना; शादी के लिए बंद, एक महीना पहले से तीन महीने बाद तक"
+            },
+            {
+              "ref": "Form-1",
+              "c": "आवेदन Postmaster/Manager को, post office या bank में"
+            }
+          ]
+        },
+        {
+          "label": "India Post (डाक विभाग) — Saving Schemes: Sukanya Samriddhi Account (SSA) और Interest Rates (w.e.f 01.10.2026 to 31.12.2026) (12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.indiapost.gov.in/banking-services/savings",
+          "issued": "",
+          "effective": "2026-10-01",
+          "used": [
+            {
+              "ref": "Interest Rates (New)",
+              "c": "1 अक्टूबर से 31 दिसंबर 2026: Sukanya Samriddhi 8.2%, सालाना जुड़ता है"
+            },
+            {
+              "ref": "SSA: Eligibility",
+              "c": "'resident citizen of India'"
+            },
+            {
+              "ref": "SSA: Interest",
+              "c": "दर वित्त मंत्रालय समय-समय पर तय करता है"
+            }
+          ]
+        },
+        {
+          "label": "National Savings Institute (वित्त मंत्रालय, DEA) — Interest Rate on National Savings Schemes, w.e.f. 1 April 2025 onwards (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=132",
+          "issued": "",
+          "effective": "2025-04-01",
+          "used": [
+            {
+              "ref": "2025-26 और 2026-27 की तालिका",
+              "c": "Sukanya Samriddhi Account: अप्रैल 2025 से सितंबर 2026 तक हर तिमाही 8.2%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSukanya Samriddhi Account बेटी के नाम खुलने वाला खाता है। यह केंद्र सरकार की योजना है, जो Government Savings Promotion Act, 1873 के तहत बनी Sukanya Samriddhi Account Scheme, 2019 से चलती है।[^1] खाता post office या bank में खुलता है।[^1]\n\n- **खाताधारक:** बेटी। 18 की उम्र तक खाता अभिभावक चलाते हैं; उसके बाद ज़रूरी काग़ज़ देकर बेटी ख़ुद।[^1]\n- **कौन खोल सकता है:** India Post के मुताबिक भारत के resident नागरिक।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **बेटी 10 साल से कम है:** उसके नाम खाता खुल सकता है। हर बेटी का एक ही खाता।[^1]\n- **हर साल कम से कम ₹250:** इससे कम भरा, तो खाता default में चला जाता है, पर बाद में ठीक हो सकता है।[^1]\n- **पढ़ाई और शादी:** 18 की उम्र या 10वीं के बाद पढ़ाई के लिए आंशिक निकासी, और शादी के लिए खाता बंद करने की सुविधा।[^1]\n\n## Sukanya Samriddhi कैसे काम करता है | कैसे\n\n::flow\n\n- **खाता खोलना:** Form-1 में आवेदन, बेटी के birth certificate और अभिभावक के ज़रूरी काग़ज़ों के साथ।[^1]\n- **कितनी बेटियाँ:** एक परिवार में आम तौर पर दो बेटियों तक; जुड़वाँ या तीन बेटियों पर शर्तों के साथ ज़्यादा।[^1]\n\n## जमा और ब्याज | जमा, ब्याज\n\n- **जमा:** खाता ₹250 से खुलता है, फिर ₹50 के गुणक में। हर वित्तीय वर्ष में कम से कम ₹250, ज़्यादा से ज़्यादा ₹1.5 लाख।[^1] ग़लती से ₹1.5 लाख से ज़्यादा जमा हो जाए, तो उस पर ब्याज नहीं मिलता और वह तुरंत लौटाई जाती है।[^1]\n- **कब तक:** खाता खुलने से 15 साल पूरे होने तक।[^1]\n- **ब्याज का हिसाब:** हर महीने की 5 तारीख़ के बाद से महीने के अंत तक के सबसे कम balance पर; ब्याज हर वित्तीय वर्ष के अंत में जुड़ता है।[^1]\n- **दर:** 1 अक्टूबर से 31 दिसंबर 2026 की तिमाही के लिए 8.2% सालाना।[^2] अप्रैल 2025 से सितंबर 2026 तक भी हर तिमाही यही दर थी।[^3]\n\n## निकासी और खाता बंद | निकासी, बंद\n\n- **पढ़ाई के लिए:** बेटी 18 साल की हो जाए या 10वीं पास कर ले (जो पहले हो), तो पिछले वित्तीय वर्ष के अंत के balance का अधिकतम 50%। Admission का पक्का offer या fee-slip देनी होती है; रक़म असल fees और charges तक सीमित है, एक साथ या साल में एक बार की किश्तों में, अधिकतम 5 साल।[^1]\n- **21 साल पर:** खाता पकता है, और Form-4 पर पूरी रक़म ब्याज समेत बेटी को मिलती है।[^1]\n- **शादी के लिए:** 21 साल से पहले भी बंद हो सकता है, अगर notary से attest किए non-judicial stamp paper पर declaration दिया जाए कि शादी की तारीख़ पर बेटी कम से कम 18 साल की होगी। यह शादी से एक महीना पहले से शादी के तीन महीने बाद तक ही हो सकता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Default वाला खाता 15 साल के अंदर ठीक न भी हो, तब भी पूरी जमा रक़म पर, default से पहले की जमा समेत, खाता बंद होने तक योजना की दर से ब्याज मिलता रहता है।[^1]\n\n## अभी क्या करें\n\n- बेटी 10 साल की होने से पहले खाता खुलवाइए; birth certificate तैयार रखिए।[^1]\n- हर वित्तीय वर्ष में कम से कम ₹250 ज़रूर जमा कीजिए, ताकि खाता default में न जाए; उसे बाद में ठीक कराने पर हर default वाले साल का ₹50 penalty और उस साल का न्यूनतम जमा भरना होता है।[^1]\n- हर तिमाही की ब्याज दर India Post के Saving Schemes पन्ने पर देखिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "small-savings-schemes",
+      "term": "Small Savings Schemes",
+      "aliases": [
+        "Small Savings Scheme",
+        "Small Savings",
+        "Post Office Schemes",
+        "Post Office Saving Schemes",
+        "Post Office Savings Schemes",
+        "National Savings Schemes",
+        "लघु बचत योजनाएँ"
+      ],
+      "full": "छोटी बचत योजनाएँ · Post Office Saving Schemes",
+      "fullEn": "Small Savings Schemes (National Savings Schemes)",
+      "group": "सरकारी योजनाएँ",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। India Post के Saving Schemes पन्ने (1 अक्टूबर से 31 दिसंबर 2026 की दरें), National Savings Institute की ब्याज दर तालिका, 'Schemes At a glance' और 'Distribution' पन्नों, और Government Savings Promotion General Rules, 2018 (राजपत्र, G.S.R. 1003(E)) से जाँचा।"
+        }
+      ],
+      "one": "Small Savings Schemes केंद्र सरकार की बचत योजनाएँ हैं, जैसे PPF, SCSS, Sukanya Samriddhi, NSC, Kisan Vikas Patra, Monthly Income Account, Time Deposit, Recurring Deposit और Post Office Savings Account। India Post इन्हें 'Post Office Saving Schemes' कहता है। इनकी ब्याज दर सरकार तिमाही-वार घोषित करती है; 1 अक्टूबर से 31 दिसंबर 2026 के लिए दरें 4% से 8.2% सालाना हैं।",
+      "facts": [
+        {
+          "k": "सबसे ऊँची दर",
+          "v": "8.2%",
+          "s": "SCSS और Sukanya Samriddhi; 1 अक्टूबर–31 दिसंबर 2026"
+        },
+        {
+          "k": "Post Office Savings Account",
+          "v": "4%",
+          "s": "1 अक्टूबर–31 दिसंबर 2026"
+        },
+        {
+          "k": "दर कब बदलती है",
+          "v": "तिमाही-वार",
+          "s": "केंद्र सरकार घोषित करती है"
+        },
+        {
+          "k": "कहाँ मिलती हैं",
+          "v": "Post office और banks",
+          "s": "National Savings Institute के मुताबिक"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "केंद्र सरकार",
+            "s": "योजना के नियम और ब्याज दर"
+          },
+          {
+            "t": "Post office या bank",
+            "s": "खाता खोलता और चलाता है"
+          },
+          {
+            "t": "आप",
+            "s": "जमा, ब्याज और पकने पर रक़म"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "तिमाही-वार दर",
+            "s": "वित्त मंत्रालय"
+          },
+          {
+            "b": "Passbook या certificate",
+            "s": "आपके खाते का हिसाब"
+          }
+        ],
+        "note": "हर योजना के अपने नियम हैं; जिन बातों पर योजना चुप है, वहाँ Government Savings Promotion General Rules, 2018 लागू होते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Small savings और Post Office की योजनाएँ अलग-अलग चीज़ें हैं।\"",
+          "f": "नहीं। National Savings Institute की 'National Savings Schemes' सूची की सभी नौ योजनाएँ India Post की 'Post Office Saving Schemes' सूची में भी हैं।[^1][^3]"
+        },
+        {
+          "m": "\"ये योजनाएँ सिर्फ़ post office में मिलती हैं।\"",
+          "f": "नहीं। National Savings Institute के मुताबिक ये post offices के साथ banks की शाखाओं से भी मिलती हैं।[^4]"
+        },
+        {
+          "m": "\"खाता पकने के बाद पैसा पड़ा रहे, तो योजना की ऊँची दर मिलती रहती है।\"",
+          "f": "General Rules के मुताबिक नहीं: पका हुआ पर बंद न किया गया खाता, बंद होने तक Post Office Savings Account की दर से ब्याज कमाता है।[^5] कुछ योजनाओं के अपने नियम हैं; जैसे PPF खाता पकने के बाद बिना नई जमा के भी चालू दर पर रखा जा सकता है।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "किस योजना पर अभी कितना ब्याज है?",
+          "a": "1 अक्टूबर से 31 दिसंबर 2026 के लिए: Savings Account 4%, 1/2/3/5 साल का Time Deposit 6.9%/7.0%/7.1%/7.5%, 5 साल का RD 6.7%, Monthly Income Account 7.4%, SCSS 8.2%, NSC (VIII Issue) 7.7%, PPF 7.1%, Kisan Vikas Patra 7.5% (115 महीने में पकता है), और Sukanya Samriddhi 8.2%।"
+        },
+        {
+          "q": "क्या दरें हर तिमाही बदलती हैं?",
+          "a": "दरें तिमाही-वार घोषित होती हैं, पर हर बार बदलें, यह ज़रूरी नहीं। National Savings Institute की तालिका में अप्रैल 2025 से सितंबर 2026 तक हर तिमाही सभी योजनाओं की दरें एक जैसी रहीं।"
+        },
+        {
+          "q": "Nominee कितने रख सकते हैं?",
+          "a": "General Rules के नियम 14 के मुताबिक एक से चार तक। Form 10 में हर nominee का नाम और हिस्सा लिखना होता है, और यह भी कि nominee रक़म का मालिक होगा या वारिसों के लिए trustee।"
+        },
+        {
+          "q": "PPF, SCSS और Sukanya Samriddhi के पूरे नियम कहाँ हैं?",
+          "a": "इनके अलग पन्ने हैं: PPF, SCSS और Sukanya Samriddhi। वहाँ जमा, ब्याज, निकासी और खाता बंद करने के नियम स्रोत के साथ दिए गए हैं।"
+        }
+      ],
+      "related": [
+        {
+          "t": "PPF"
+        },
+        {
+          "t": "SCSS"
+        },
+        {
+          "t": "Sukanya Samriddhi"
+        },
+        {
+          "t": "FD"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "Savings (बचत)"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "Nomination Form"
+        },
+        {
+          "t": "Passbook"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Post (डाक विभाग) — Saving Schemes: Post Office Saving Schemes और Interest Rates (w.e.f 01.10.2026 to 31.12.2026) (12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.indiapost.gov.in/banking-services/savings",
+          "issued": "",
+          "effective": "2026-10-01",
+          "used": [
+            {
+              "ref": "Post Office Saving Schemes",
+              "c": "योजनाओं की सूची"
+            },
+            {
+              "ref": "Interest Rates (New)",
+              "c": "1 अक्टूबर से 31 दिसंबर 2026 की दरें; KVP 115 महीने में पकता है"
+            }
+          ]
+        },
+        {
+          "label": "National Savings Institute (वित्त मंत्रालय, DEA) — Interest Rate on National Savings Schemes, w.e.f. 1 April 2025 onwards (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=132",
+          "issued": "",
+          "effective": "2025-04-01",
+          "used": [
+            {
+              "ref": "2025-26 और 2026-27 की तालिका",
+              "c": "तिमाही-वार दरें; अप्रैल 2025 से सितंबर 2026 तक सभी योजनाओं की दरें एक जैसी"
+            }
+          ]
+        },
+        {
+          "label": "National Savings Institute — National Savings Schemes At a glance (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=27",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "S.N. 1 से 9",
+              "c": "नौ योजनाएँ और उनकी अवधि; PPF: पकने के बाद बिना जमा के चालू दर पर रखा जा सकता है"
+            }
+          ]
+        },
+        {
+          "label": "National Savings Institute — Distribution of National Savings Schemes (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=32",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला वाक्य",
+              "c": "योजनाएँ post offices और banks की शाखाओं से मिलती हैं"
+            }
+          ]
+        },
+        {
+          "label": "भारत का राजपत्र (असाधारण), भाग II खंड 3(i) — वित्त मंत्रालय (DEA) की अधिसूचना G.S.R. 1003(E): Government Savings Promotion General Rules, 2018 (India Post की website पर लगी प्रति; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiapost.gov.in/documents/offerings/schemesandservices/posb/GSPREnglish2018.pdf",
+          "issued": "2018-10-05",
+          "effective": "",
+          "used": [
+            {
+              "ref": "नियम 2",
+              "c": "नियम Government Savings Promotion Act, 1873 की Schedule वाली योजनाओं पर लागू"
+            },
+            {
+              "ref": "नियम 9(1)",
+              "c": "ब्याज की दर केंद्र सरकार समय-समय पर अधिसूचित करती है"
+            },
+            {
+              "ref": "नियम 9(6)",
+              "c": "पका पर बंद न किया खाता: Post Office Savings Account की दर"
+            },
+            {
+              "ref": "नियम 14(1), (3), (5)",
+              "c": "एक से चार nominee; Form 10; हिस्सा; मालिक या trustee; पकने से पहले बदल सकते हैं; 1 अप्रैल 2018 से पहले के नाबालिग खातों में nomination नहीं"
+            }
+          ]
+        },
+        {
+          "label": "भारत का राजपत्र (असाधारण), भाग II खंड 3(i) — वित्त मंत्रालय (DEA) की अधिसूचना G.S.R. 214(E): Government Savings Promotion General (Amendment) Rules, 2025 (डाक विभाग के SB Order No. 05/2025, 3 अप्रैल 2025 के साथ लगी प्रति; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiapost.gov.in/documents/posb/5_25ECE_11638.pdf",
+          "issued": "2025-04-02",
+          "effective": "2025-04-02",
+          "used": [
+            {
+              "ref": "नियम 1(2), 2",
+              "c": "राजपत्र में छपने की तारीख़ से लागू; Schedule II से '(b) Cancellation or change of nomination – ₹50' हटाया"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSmall Savings Schemes (छोटी बचत योजनाएँ) केंद्र सरकार की बचत योजनाएँ हैं, जो Government Savings Promotion Act, 1873 के तहत चलती हैं।[^5] National Savings Institute इन्हें 'National Savings Schemes' कहता है, और India Post 'Post Office Saving Schemes'।[^3][^1]\n\n- **ब्याज दर:** केंद्र सरकार अधिसूचित करती है।[^5] दरें तिमाही-वार घोषित होती हैं।[^2]\n- **कहाँ:** post offices में, और banks की शाखाओं में भी।[^4]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **हर तिमाही की दर:** हर तिमाही के लिए दर तय होती है, जो India Post और National Savings Institute की तालिका में दिखती है।[^1][^2]\n- **योजनाएँ अलग-अलग:** जैसे Monthly Income Account में ब्याज हर महीने मिलता है, SCSS 60 साल और उससे ऊपर वालों (और कुछ शर्तों पर retire हुए लोगों) के लिए है, और Sukanya Samriddhi बेटी के नाम खुलता है।[^3]\n\n## ये योजनाएँ कैसे काम करती हैं | कैसे\n\n::flow\n\n## कौन-सी योजना, कितना ब्याज | योजनाएँ और दरें\n\n1 अक्टूबर से 31 दिसंबर 2026 की तिमाही की दरें (सालाना):[^1]\n\n- **Post Office Savings Account:** 4%\n- **Time Deposit:** 1 साल 6.9%, 2 साल 7.0%, 3 साल 7.1%, 5 साल 7.5%\n- **5 साल का Recurring Deposit (RD):** 6.7%\n- **Monthly Income Account (MIS):** 7.4%\n- **SCSS:** 8.2%\n- **National Savings Certificate (VIII Issue):** 7.7%\n- **PPF:** 7.1%\n- **Kisan Vikas Patra:** 7.5%; रक़म 115 महीने में पकती है\n- **Sukanya Samriddhi:** 8.2%\n\nNational Savings Institute की तालिका में अप्रैल 2025 से सितंबर 2026 तक हर तिमाही इन सभी की दरें यही थीं।[^2]\n\n## सभी योजनाओं के कुछ आम नियम | आम नियम\n\n- **पकने के बाद:** खाता पक गया पर बंद नहीं किया, तो General Rules के मुताबिक बंद होने तक सिर्फ़ Post Office Savings Account की दर मिलती है।[^5] PPF जैसी योजनाओं के अपने नियम हैं।[^3]\n- **Nominee:** एक से चार तक; खाता खोलते समय Form 10 में।[^5]\n- **नियम कहाँ:** आम नियम Government Savings Promotion General Rules, 2018 में हैं, जिन्हें वित्त मंत्रालय ने राजपत्र में अधिसूचित किया है।[^5] जिन बातों पर किसी योजना के अपने नियम चुप हैं, वहाँ ये लागू होते हैं।[^5]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> खाते में आप एक से चार nominee रख सकते हैं, और तय कर सकते हैं कि किसे कितना हिस्सा मिले। Nominee पकने से पहले कभी भी Form 10 देकर बदला जा सकता है।[^5] 2 अप्रैल 2025 से nominee बदलने या रद्द करने की ₹50 fee हटा दी गई है।[^6] (1 अप्रैल 2018 से पहले नाबालिग या मानसिक रूप से अक्षम व्यक्ति के नाम खुले खातों में nomination नहीं हो सकता।)[^5]\n\n## अभी क्या करें\n\n- कोई योजना चुनने से पहले उस तिमाही की दर India Post के Saving Schemes पन्ने पर देखिए।[^1]\n- जो खाता पक चुका है, उसे बंद करवाइए या (जहाँ नियम हो) बढ़वाइए; General Rules के तहत पड़े रहने पर ब्याज घटकर Savings Account की दर पर आ जाता है।[^5]\n- हर खाते में nominee दर्ज है या नहीं, passbook या post office/bank से जाँचिए।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "pmjjby",
+      "term": "PMJJBY",
+      "aliases": [
+        "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+        "प्रधानमंत्री जीवन ज्योति बीमा योजना"
+      ],
+      "full": "Pradhan Mantri Jeevan Jyoti Bima Yojana · प्रधानमंत्री जीवन ज्योति बीमा योजना",
+      "fullEn": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+      "group": "बीमा",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। Jan Suraksha portal के 'Revised Rules for PMJJBY (w.e.f. 1.6.2022)' और PMJJBY FAQs, DFS के 1 जून 2022 के पत्र, और DFS के PMJJBY पन्ने से जाँचा।"
+        }
+      ],
+      "one": "PMJJBY एक साल का life insurance है, जो हर साल renew होता है। Bank या post office में खाते वाले 18 से 50 साल के लोग इसमें जुड़ सकते हैं। किसी भी वजह से मृत्यु पर ₹2 लाख मिलते हैं, और premium ₹436 सालाना है, जो खाते से auto-debit होता है।",
+      "facts": [
+        {
+          "k": "मृत्यु पर",
+          "v": "₹2 लाख",
+          "s": "किसी भी वजह से"
+        },
+        {
+          "k": "सालाना premium",
+          "v": "₹436",
+          "s": "auto-debit से; cover 1 जून से 31 मई"
+        },
+        {
+          "k": "जुड़ने की उम्र",
+          "v": "18 से 50 साल",
+          "s": "cover 55 की उम्र तक, हर साल renew होने पर"
+        },
+        {
+          "k": "पहली बार जुड़ने पर",
+          "v": "30 दिन",
+          "s": "lien period: दुर्घटना के अलावा मृत्यु पर claim नहीं"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank या post office खाता",
+            "s": "18 से 50 साल"
+          },
+          {
+            "t": "Auto-debit",
+            "s": "₹436 सालाना premium"
+          },
+          {
+            "t": "₹2 लाख का cover",
+            "s": "1 जून से 31 मई"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "सहमति",
+            "s": "enrolment form पर"
+          },
+          {
+            "b": "Premium कटा",
+            "s": "cover शुरू"
+          }
+        ],
+        "note": "मृत्यु पर ₹2 लाख nominee को मिलते हैं। इसमें maturity या surrender value नहीं है।"
+      },
+      "myths": [
+        {
+          "m": "\"PMJJBY में सिर्फ़ बीमारी से मृत्यु कवर है।\"",
+          "f": "नहीं। यह किसी भी वजह से मृत्यु पर ₹2 लाख देता है।[^1] FAQ के मुताबिक प्राकृतिक आपदा, आत्महत्या और हत्या से मृत्यु भी कवर है।[^3]"
+        },
+        {
+          "m": "\"दो bank खातों से जुड़ें, तो ₹4 लाख मिलेंगे।\"",
+          "f": "नहीं। एक व्यक्ति सिर्फ़ एक खाते से जुड़ सकता है। ग़लती से एक से ज़्यादा खातों से premium कटा, तो cover ₹2 लाख तक ही रहेगा और बाक़ी premium ज़ब्त हो सकता है।[^1]"
+        },
+        {
+          "m": "\"Policy पूरी होने पर पैसा वापस मिलता है।\"",
+          "f": "नहीं। यह pure term insurance है; इसमें maturity या surrender value नहीं है, फ़ायदा सिर्फ़ मृत्यु पर nominee को मिलता है।[^3]"
+        },
+        {
+          "m": "\"Premium कटते ही पूरा cover शुरू।\"",
+          "f": "पहली बार जुड़ने वालों (और छोड़कर दोबारा जुड़ने वालों) के लिए पहले 30 दिन, दुर्घटना के अलावा किसी और वजह से मृत्यु पर claim नहीं बनता।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "साल के बीच में जुड़ें, तो कितना premium?",
+          "a": "जून, जुलाई, अगस्त में ₹436; सितंबर, अक्टूबर, नवंबर में ₹342; दिसंबर, जनवरी, फ़रवरी में ₹228; मार्च, अप्रैल, मई में ₹114। Renewal पर पूरा ₹436 लगता है।"
+        },
+        {
+          "q": "₹436 में से किसको कितना जाता है?",
+          "a": "नियमों के मुताबिक ₹395 बीमा company को, ₹30 Business Correspondent या agent को (सिर्फ़ नए enrolment पर), और ₹11 bank को प्रशासनिक ख़र्च के लिए। ख़ुद electronic तरीक़े से जुड़ें, तो जो commission नहीं देना पड़ा, वह रक़म premium घटाकर आपको दी जानी है।"
+        },
+        {
+          "q": "क्या joint खाते के सभी लोग जुड़ सकते हैं?",
+          "a": "हाँ, अगर हर व्यक्ति शर्तें पूरी करता है और अपना premium देता है। India में bank खाते वाले NRI भी जुड़ सकते हैं; claim रुपये में मिलता है।"
+        },
+        {
+          "q": "क्या यह दूसरी बीमा पॉलिसी के अलावा मिलता है?",
+          "a": "हाँ। FAQ के मुताबिक यह cover आपकी किसी भी दूसरी बीमा योजना के अलावा है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "PMSBY"
+        },
+        {
+          "t": "APY"
+        },
+        {
+          "t": "Jan Dhan (PMJDY)"
+        },
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "Joint Account"
+        },
+        {
+          "t": "Death Certificate"
+        },
+        {
+          "t": "IRDAI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Jan Suraksha portal (DFS, वित्त मंत्रालय) — Revised Rules for Pradhan Mantri Jeevan Jyoti Bima Yojana (w.e.f. 1.6.2022) (PDF; जारी होने की तारीख़ दस्तावेज़ पर नहीं; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://jansuraksha.gov.in/Files/PMJJBY/ENGLISH/Rules.pdf",
+          "issued": "",
+          "effective": "2022-06-01",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "एक साल का life cover, हर साल renew; किसी भी वजह से मृत्यु; LIC और दूसरी life insurers, banks/post office के साथ"
+            },
+            {
+              "ref": "पैरा 2, 7",
+              "c": "18 से 50 साल; कई खाते हों तो एक ही खाते से; Aadhaar मुख्य KYC"
+            },
+            {
+              "ref": "पैरा 3, 4",
+              "c": "1 जून से 31 मई; 31 मई तक सहमति; बीच में जुड़ने पर ₹342/₹228/₹114; 30 दिन का lien period"
+            },
+            {
+              "ref": "पैरा 5, 6",
+              "c": "मृत्यु पर ₹2 लाख; ₹436 सालाना, auto-debit; premium की समीक्षा claims के अनुभव पर"
+            },
+            {
+              "ref": "पैरा 9",
+              "c": "55 की उम्र पर cover ख़त्म; खाता बंद या balance कम; दोहरा cover ₹2 लाख तक; दोबारा शुरू पर नया lien period"
+            },
+            {
+              "ref": "पैरा 11",
+              "c": "₹436 का बँटवारा: ₹395, ₹30, ₹11"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय, Department of Financial Services (Insurance-II) — पत्र F. No. FI-12011/2/2015-Ins.II: PMJJBY और PMSBY के premium, संशोधित नियम और forms (Jan Suraksha portal पर लगी प्रति; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://jansuraksha.gov.in/Files/PMSBY/English/Amendment%20of%20rules%20PMJJBY.pdf",
+          "issued": "2022-06-01",
+          "effective": "2022-06-01",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "bank को ₹11 सालाना; ₹30 acquisition cost सिर्फ़ नए enrolment पर"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "संशोधित नियम और forms 1.6.2022 से लागू"
+            }
+          ]
+        },
+        {
+          "label": "Jan Suraksha portal — FAQs on Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) (PDF; दस्तावेज़ पर तारीख़ नहीं है; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://jansuraksha.gov.in/Files/PMJJBY/ENGLISH/FAQ.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 2",
+              "c": "renewal पर पूरा ₹436"
+            },
+            {
+              "ref": "सवाल 5, 14, 15",
+              "c": "single या joint खाताधारक; joint के सभी जुड़ सकते हैं; India में खाते वाले NRI, claim रुपये में"
+            },
+            {
+              "ref": "सवाल 13",
+              "c": "दूसरी बीमा योजना के अलावा"
+            },
+            {
+              "ref": "सवाल 17",
+              "c": "प्राकृतिक आपदा, आत्महत्या, हत्या से मृत्यु भी कवर"
+            },
+            {
+              "ref": "सवाल 19",
+              "c": "pure term; maturity या surrender value नहीं; फ़ायदा nominee को"
+            }
+          ]
+        },
+        {
+          "label": "Department of Financial Services (वित्त मंत्रालय) — Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) का पन्ना (पन्ने पर अलग तारीख़ नहीं; site के निचले हिस्से में \"Last Updated On: 05.02.2026\"; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://financialservices.gov.in/pradhan-mantri-jeevan-jyoti-bima-yojana-pmjjby",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा और बिंदु",
+              "c": "18 से 50 साल; ₹2 लाख; ₹436 सालाना; 1 जून से 31 मई"
+            }
+          ]
+        },
+        {
+          "label": "Jan Suraksha portal (Department of Financial Services, वित्त मंत्रालय) — Rules / Notifications पन्ना (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://jansuraksha.gov.in/Rules.aspx",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ने का निचला हिस्सा",
+              "c": "National Toll-Free 1800-180-1111 / 1800-110-001"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPMJJBY (Pradhan Mantri Jeevan Jyoti Bima Yojana) एक साल का life insurance है, जो हर साल renew होता है। इसमें किसी भी वजह से मृत्यु पर cover मिलता है। इसे LIC और दूसरी life insurance companies, banks और post office के साथ मिलकर चलाती हैं।[^1]\n\n1 जून 2022 से इसके संशोधित नियम लागू हैं।[^2] 12 अक्टूबर 2026 को DFS के PMJJBY पन्ने पर भी यही ₹436 premium और ₹2 लाख cover लिखा है।[^4]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **परिवार के लिए:** आपकी मृत्यु पर nominee को ₹2 लाख।[^1][^3]\n- **कम premium:** ₹436 सालाना, क्योंकि इसमें निवेश वाला हिस्सा नहीं है; maturity पर कुछ नहीं मिलता।[^1][^3]\n- **दूसरी बीमा के अलावा:** यह cover आपकी बाक़ी बीमा के ऊपर से है।[^3]\n\n## PMJJBY कैसे काम करता है | कैसे\n\n::flow\n\n- **कौन:** bank या post office में खाते वाले 18 से 50 साल के लोग। कई खाते हों, तो सिर्फ़ एक खाते से।[^1] Joint खाते के सभी लोग अपनी-अपनी शर्तें पूरी करके जुड़ सकते हैं।[^3]\n- **कब:** cover 1 जून से 31 मई तक; सहमति 31 मई तक देनी होती है। बाद में जुड़ने पर बचे महीनों का premium।[^1]\n- **शुरू के 30 दिन:** पहली बार जुड़ने पर, दुर्घटना के अलावा किसी वजह से मृत्यु हो, तो claim नहीं बनता। इसे *lien period* कहते हैं।[^1]\n\n## Cover कब ख़त्म होता है | Cover ख़त्म\n\n- 55 की उम्र पर (उम्र, नज़दीकी जन्मदिन से)।[^1]\n- खाता बंद होने पर, या premium कटने की तारीख़ पर balance कम होने पर।[^1]\n- बंद हुआ cover premium देकर दोबारा शुरू हो सकता है, पर उसे नया cover माना जाता है और 30 दिन का *lien period* फिर लागू होता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Premium कट चुका है और cover चालू है, तो किसी भी वजह से मृत्यु पर ₹2 लाख देय हैं; बस पहली बार जुड़ने के पहले 30 दिन में दुर्घटना के अलावा हुई मृत्यु इसमें नहीं आती।[^1]\n\n## अभी क्या करें\n\n- अपने bank या post office में PMJJBY के लिए auto-debit की सहमति दीजिए; हर साल 31 मई से पहले खाते में ₹436 रखिए।[^1]\n- एक ही खाते से जुड़िए; दोहरे premium का फ़ायदा नहीं।[^1]\n- जानकारी के लिए National Toll-Free: 1800-180-1111 या 1800-110-001।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "pmsby",
+      "term": "PMSBY",
+      "aliases": [
+        "Pradhan Mantri Suraksha Bima Yojana",
+        "प्रधानमंत्री सुरक्षा बीमा योजना"
+      ],
+      "full": "Pradhan Mantri Suraksha Bima Yojana · प्रधानमंत्री सुरक्षा बीमा योजना",
+      "fullEn": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+      "group": "बीमा",
+      "created": "2026-10-12",
+      "verified": "2026-10-12",
+      "history": [
+        {
+          "d": "2026-10-12",
+          "t": "पन्ना बना। Jan Suraksha portal के 'Rules for PMSBY (with effect from 1.6.2022)' और PMSBY FAQs, DFS के 1 जून 2022 के पत्र, और DFS के PMSBY पन्ने से जाँचा।"
+        }
+      ],
+      "one": "PMSBY एक साल का दुर्घटना बीमा है, जो हर साल renew होता है। Bank या post office में खाते वाले 18 से 70 साल के लोग इसमें जुड़ सकते हैं। दुर्घटना में मृत्यु पर ₹2 लाख, और विकलांगता पर ₹1 लाख या ₹2 लाख मिलते हैं। Premium ₹20 सालाना है।",
+      "facts": [
+        {
+          "k": "दुर्घटना में मृत्यु",
+          "v": "₹2 लाख",
+          "s": "nominee या क़ानूनी वारिस को"
+        },
+        {
+          "k": "सालाना premium",
+          "v": "₹20",
+          "s": "auto-debit से; cover 1 जून से 31 मई"
+        },
+        {
+          "k": "जुड़ने की उम्र",
+          "v": "18 से 70 साल",
+          "s": "70 की उम्र पर cover ख़त्म"
+        },
+        {
+          "k": "अस्पताल का ख़र्च",
+          "v": "नहीं मिलता",
+          "s": "सिर्फ़ मृत्यु या तय विकलांगता पर"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank या post office खाता",
+            "s": "18 से 70 साल"
+          },
+          {
+            "t": "Auto-debit",
+            "s": "₹20 सालाना premium"
+          },
+          {
+            "t": "दुर्घटना cover",
+            "s": "1 जून से 31 मई"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "सहमति",
+            "s": "enrolment form पर"
+          },
+          {
+            "b": "Premium कटा",
+            "s": "cover शुरू"
+          }
+        ],
+        "note": "1 जून के बाद premium कटे, तो cover उसी दिन से शुरू होता है जिस दिन premium कटा।"
+      },
+      "myths": [
+        {
+          "m": "\"PMSBY में बीमारी से मृत्यु भी कवर है।\"",
+          "f": "नहीं। यह सिर्फ़ दुर्घटना से मृत्यु या विकलांगता का बीमा है।[^1] किसी भी वजह से मृत्यु का cover PMJJBY देता है।"
+        },
+        {
+          "m": "\"दुर्घटना के बाद अस्पताल का बिल मिलता है।\"",
+          "f": "नहीं। FAQ के मुताबिक अस्पताल के ख़र्च की भरपाई इसमें नहीं है।[^3]"
+        },
+        {
+          "m": "\"हर bank खाते से अलग-अलग claim मिलेगा।\"",
+          "f": "नहीं। एक व्यक्ति एक ही खाते से जुड़ सकता है, और claim भी एक ही मिलता है।[^1][^3]"
+        },
+        {
+          "m": "\"आत्महत्या भी कवर है।\"",
+          "f": "नहीं। FAQ के मुताबिक आत्महत्या कवर नहीं है, पर हत्या से मृत्यु कवर है। प्राकृतिक आपदा से मृत्यु या विकलांगता भी कवर है।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "'दुर्घटना' किसे माना जाता है?",
+          "a": "FAQ के मुताबिक अचानक, अनचाही और बिना इरादे की घटना, जो बाहरी, हिंसक और दिखने वाले कारण से हो।"
+        },
+        {
+          "q": "Claim के लिए FIR ज़रूरी है?",
+          "a": "सड़क, रेल या ऐसी गाड़ी वाली दुर्घटना, डूबने, या अपराध से जुड़ी मृत्यु में police को सूचना देनी चाहिए। सांप के काटने या पेड़ से गिरने जैसे मामलों में तुरंत के अस्पताल के रिकॉर्ड से कारण साबित होना चाहिए।"
+        },
+        {
+          "q": "Claim कौन करता है और पैसा कहाँ आता है?",
+          "a": "मृत्यु पर enrolment form में दर्ज nominee/appointee, और nomination न हो तो क़ानूनी वारिस claim करते हैं; पैसा उनके bank खाते में आता है। विकलांगता का claim बीमित व्यक्ति के अपने खाते में आता है।"
+        },
+        {
+          "q": "थोड़ी-बहुत विकलांगता पर कुछ मिलता है?",
+          "a": "नहीं। एक आँख की रोशनी या एक हाथ या पैर का इस्तेमाल हमेशा के लिए न गया हो, तो कुछ नहीं मिलता।"
+        }
+      ],
+      "related": [
+        {
+          "t": "PMJJBY"
+        },
+        {
+          "t": "APY"
+        },
+        {
+          "t": "Jan Dhan (PMJDY)"
+        },
+        {
+          "t": "Savings Bank Account"
+        },
+        {
+          "t": "Nominee"
+        },
+        {
+          "t": "Legal Heir"
+        },
+        {
+          "t": "FIR"
+        },
+        {
+          "t": "Joint Account"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Jan Suraksha portal (DFS, वित्त मंत्रालय) — Rules for the Pradhan Mantri Suraksha Bima Yojana (With effect from 1.6.2022) (PDF; जारी होने की तारीख़ दस्तावेज़ पर नहीं; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://jansuraksha.gov.in/Files/PMSBY/ENGLISH/Rules.pdf",
+          "issued": "",
+          "effective": "2022-06-01",
+          "used": [
+            {
+              "ref": "Details of the scheme",
+              "c": "एक साल का दुर्घटना बीमा, हर साल renew; सरकारी और दूसरी general insurance companies, banks/post office के साथ"
+            },
+            {
+              "ref": "Scope, Eligibility",
+              "c": "18 से 70 साल; कई खाते हों तो एक ही से; Aadhaar मुख्य KYC"
+            },
+            {
+              "ref": "Enrolment Modality",
+              "c": "1 जून से 31 मई; 31 मई तक सहमति; बाद में पूरा premium"
+            },
+            {
+              "ref": "Benefits",
+              "c": "मृत्यु ₹2 लाख; दोनों आँखें/हाथ/पैर या एक आँख और एक हाथ/पैर ₹2 लाख; एक आँख या एक हाथ/पैर ₹1 लाख"
+            },
+            {
+              "ref": "Premium",
+              "c": "₹20 सालाना, auto-debit; 1 जून के बाद कटे तो cover उसी दिन से"
+            },
+            {
+              "ref": "Termination of cover",
+              "c": "70 की उम्र; खाता बंद या balance कम; एक ही खाते का cover"
+            },
+            {
+              "ref": "Appropriation of Premium",
+              "c": "₹20 बीमा company को; ₹1 commission (नए enrolment पर); ₹1 bank को"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय, Department of Financial Services (Insurance-II) — पत्र F. No. FI-12011/2/2015-Ins.II: PMJJBY और PMSBY के premium, संशोधित नियम और forms (Jan Suraksha portal पर लगी प्रति; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://jansuraksha.gov.in/Files/PMSBY/English/Amendment%20of%20rules%20PMJJBY.pdf",
+          "issued": "2022-06-01",
+          "effective": "2022-06-01",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "PMSBY में bank को ₹1 सालाना; ₹1 acquisition cost सिर्फ़ नए enrolment पर"
+            },
+            {
+              "ref": "पैरा 4",
+              "c": "संशोधित नियम और forms 1.6.2022 से लागू"
+            }
+          ]
+        },
+        {
+          "label": "Jan Suraksha portal — FAQs on Pradhan Mantri Suraksha Bima Yojana (PMSBY) (PDF; दस्तावेज़ पर तारीख़ नहीं है; 12 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://jansuraksha.gov.in/Files/PMSBY/ENGLISH/FAQ.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 3",
+              "c": "'accident' का मतलब"
+            },
+            {
+              "ref": "सवाल 13, 14",
+              "c": "दूसरी बीमा के अलावा; प्राकृतिक आपदा और हत्या कवर, आत्महत्या नहीं"
+            },
+            {
+              "ref": "सवाल 18",
+              "c": "अस्पताल के ख़र्च की भरपाई नहीं"
+            },
+            {
+              "ref": "सवाल 19, 20",
+              "c": "nominee/appointee या वारिस claim करते हैं; पैसा किसके खाते में"
+            },
+            {
+              "ref": "सवाल 22, 24, 25",
+              "c": "police को सूचना और अस्पताल का रिकॉर्ड; आंशिक विकलांगता पर कुछ नहीं; एक ही claim"
+            }
+          ]
+        },
+        {
+          "label": "Department of Financial Services (वित्त मंत्रालय) — Pradhan Mantri Suraksha Bima Yojana (PMSBY) का पन्ना (पन्ने पर अलग तारीख़ नहीं; site के निचले हिस्से में \"Last Updated On: 05.02.2026\"; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://financialservices.gov.in/pradhan-mantri-suraksha-bima-yojana-pmsby",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा और बिंदु",
+              "c": "18 से 70 साल; ₹20 सालाना; 1 जून से 31 मई; ₹2 लाख और ₹1 लाख"
+            }
+          ]
+        },
+        {
+          "label": "Jan Suraksha portal (Department of Financial Services, वित्त मंत्रालय) — Rules / Notifications पन्ना (पन्ने पर तारीख़ नहीं है; 12 अक्टूबर 2026 को देखा)",
+          "url": "https://jansuraksha.gov.in/Rules.aspx",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ने का निचला हिस्सा",
+              "c": "National Toll-Free 1800-180-1111 / 1800-110-001"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPMSBY (Pradhan Mantri Suraksha Bima Yojana) एक साल का दुर्घटना बीमा है, जो हर साल renew होता है। यह दुर्घटना से मृत्यु या विकलांगता पर पैसा देता है। इसे सरकारी और दूसरी general insurance companies, banks और post office के साथ मिलकर चलाती हैं।[^1]\n\n1 जून 2022 से इसके संशोधित नियम लागू हैं।[^2] 12 अक्टूबर 2026 को DFS के PMSBY पन्ने पर भी यही ₹20 premium और ₹2 लाख / ₹1 लाख का cover लिखा है।[^4]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **₹20 सालाना:** दुर्घटना में मृत्यु पर परिवार को ₹2 लाख।[^1]\n- **विकलांगता पर भी:** कुछ तय हालात में ₹2 लाख या ₹1 लाख, जो आपके अपने खाते में आते हैं।[^1][^3]\n- **दूसरी बीमा के अलावा:** यह cover आपकी बाक़ी बीमा के ऊपर से है।[^3]\n\n## PMSBY कैसे काम करता है | कैसे\n\n::flow\n\n- **कौन:** bank या post office में खाते वाले 18 से 70 साल के लोग। कई खाते हों, तो सिर्फ़ एक खाते से।[^1]\n- **कब:** cover 1 जून से 31 मई तक; सहमति 31 मई तक। बाद में जुड़ने पर भी पूरा ₹20 लगता है।[^1]\n\n## कितना मिलता है | फ़ायदे\n\n- **दुर्घटना में मृत्यु:** ₹2 लाख।[^1]\n- **दोनों आँखों की रोशनी, या दोनों हाथ या पैर का इस्तेमाल हमेशा के लिए जाना, या एक आँख और एक हाथ/पैर:** ₹2 लाख।[^1]\n- **एक आँख की रोशनी, या एक हाथ या पैर का इस्तेमाल हमेशा के लिए जाना:** ₹1 लाख।[^1]\n- **Cover कब ख़त्म:** 70 की उम्र पर, खाता बंद होने पर, या premium की तारीख़ पर balance कम होने पर।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Subscriber ने nominee दर्ज न किया हो, तब भी उसके क़ानूनी वारिस दुर्घटना में मृत्यु का claim कर सकते हैं।[^3]\n\n## अभी क्या करें\n\n- अपने bank या post office में PMSBY के लिए auto-debit की सहमति दीजिए; हर साल premium की तारीख़ पर खाते में पैसा रखिए।[^1]\n- Enrolment form में nominee ज़रूर लिखिए।[^3]\n- सड़क, रेल या ऐसी गाड़ी वाली दुर्घटना, डूबने या अपराध से जुड़ी मृत्यु हो, तो police को सूचना दीजिए; सांप के काटने या पेड़ से गिरने जैसे मामलों में तुरंत के अस्पताल के काग़ज़ सँभालकर रखिए।[^3]\n- जानकारी के लिए National Toll-Free: 1800-180-1111 या 1800-110-001।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
