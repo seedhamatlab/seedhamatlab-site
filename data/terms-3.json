@@ -10285,6 +10285,210 @@
       "body": "## मतलब\n\nPMSBY (Pradhan Mantri Suraksha Bima Yojana) एक साल का दुर्घटना बीमा है, जो हर साल renew होता है। यह दुर्घटना से मृत्यु या विकलांगता पर पैसा देता है। इसे सरकारी और दूसरी general insurance companies, banks और post office के साथ मिलकर चलाती हैं।[^1]\n\n1 जून 2022 से इसके संशोधित नियम लागू हैं।[^2] 12 अक्टूबर 2026 को DFS के PMSBY पन्ने पर भी यही ₹20 premium और ₹2 लाख / ₹1 लाख का cover लिखा है।[^4]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **₹20 सालाना:** दुर्घटना में मृत्यु पर परिवार को ₹2 लाख।[^1]\n- **विकलांगता पर भी:** कुछ तय हालात में ₹2 लाख या ₹1 लाख, जो आपके अपने खाते में आते हैं।[^1][^3]\n- **दूसरी बीमा के अलावा:** यह cover आपकी बाक़ी बीमा के ऊपर से है।[^3]\n\n## PMSBY कैसे काम करता है | कैसे\n\n::flow\n\n- **कौन:** bank या post office में खाते वाले 18 से 70 साल के लोग। कई खाते हों, तो सिर्फ़ एक खाते से।[^1]\n- **कब:** cover 1 जून से 31 मई तक; सहमति 31 मई तक। बाद में जुड़ने पर भी पूरा ₹20 लगता है।[^1]\n\n## कितना मिलता है | फ़ायदे\n\n- **दुर्घटना में मृत्यु:** ₹2 लाख।[^1]\n- **दोनों आँखों की रोशनी, या दोनों हाथ या पैर का इस्तेमाल हमेशा के लिए जाना, या एक आँख और एक हाथ/पैर:** ₹2 लाख।[^1]\n- **एक आँख की रोशनी, या एक हाथ या पैर का इस्तेमाल हमेशा के लिए जाना:** ₹1 लाख।[^1]\n- **Cover कब ख़त्म:** 70 की उम्र पर, खाता बंद होने पर, या premium की तारीख़ पर balance कम होने पर।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Subscriber ने nominee दर्ज न किया हो, तब भी उसके क़ानूनी वारिस दुर्घटना में मृत्यु का claim कर सकते हैं।[^3]\n\n## अभी क्या करें\n\n- अपने bank या post office में PMSBY के लिए auto-debit की सहमति दीजिए; हर साल premium की तारीख़ पर खाते में पैसा रखिए।[^1]\n- Enrolment form में nominee ज़रूर लिखिए।[^3]\n- सड़क, रेल या ऐसी गाड़ी वाली दुर्घटना, डूबने या अपराध से जुड़ी मृत्यु हो, तो police को सूचना दीजिए; सांप के काटने या पेड़ से गिरने जैसे मामलों में तुरंत के अस्पताल के काग़ज़ सँभालकर रखिए।[^3]\n- जानकारी के लिए National Toll-Free: 1800-180-1111 या 1800-110-001।[^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
+      "id": "mudra-loan",
+      "term": "Mudra Loan",
+      "aliases": [
+        "Mudra Loans",
+        "PMMY",
+        "Pradhan Mantri MUDRA Yojana",
+        "Pradhan Mantri Mudra Yojana"
+      ],
+      "full": "Pradhan Mantri MUDRA Yojana (PMMY) · छोटे कारोबार का loan",
+      "fullEn": "Pradhan Mantri MUDRA Yojana (PMMY) loan",
+      "group": "क़र्ज़",
+      "created": "2026-10-13",
+      "verified": "2026-10-13",
+      "history": [
+        {
+          "d": "2026-10-13",
+          "t": "पन्ना बना। Department of Financial Services के PMMY पन्ने और MUDRA (Micro Units Development & Refinance Agency Ltd.) के FAQ पन्ने से जाँचा।"
+        }
+      ],
+      "one": "Mudra Loan, Pradhan Mantri MUDRA Yojana (PMMY) के तहत छोटे कारोबार (micro enterprises) को मिलने वाला loan है। यह ₹20 लाख तक, चार श्रेणियों (Shishu, Kishor, Tarun, Tarun Plus) में, bank, NBFC और MFI देते हैं। DFS के मुताबिक इसके लिए collateral ज़रूरी नहीं।",
+      "facts": [
+        {
+          "k": "Shishu",
+          "v": "₹50,000 तक",
+          "s": "Kishor: ₹50,000 से ऊपर ₹5 लाख तक"
+        },
+        {
+          "k": "Tarun",
+          "v": "₹5 लाख से ₹10 लाख",
+          "s": "Tarun Plus: ₹10 लाख से ₹20 लाख"
+        },
+        {
+          "k": "Collateral",
+          "v": "ज़रूरी नहीं",
+          "s": "DFS के PMMY पन्ने के मुताबिक",
+          "good": true
+        },
+        {
+          "k": "MUDRA ख़ुद loan देता है?",
+          "v": "नहीं",
+          "s": "bank, NBFC, MFI देते हैं; MUDRA उन्हें refinance करता है"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप (छोटा कारोबारी)",
+            "s": "कमाई वाले काम की योजना के साथ"
+          },
+          {
+            "t": "Bank, NBFC या MFI",
+            "s": "loan देते हैं"
+          },
+          {
+            "t": "MUDRA",
+            "s": "इन्हें refinance करता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "आवेदन",
+            "s": "Shishu, Kishor, Tarun, Tarun Plus"
+          },
+          {
+            "b": "Refinance",
+            "s": "MUDRA से पैसा"
+          }
+        ],
+        "note": "MUDRA कोई agent या बिचौलिया नहीं रखता। ख़ुद को MUDRA का agent बताने वालों से दूर रहिए।"
+      },
+      "myths": [
+        {
+          "m": "\"Mudra loan सीधे MUDRA से या उसके agent से मिलता है।\"",
+          "f": "नहीं। MUDRA refinance करने वाली संस्था है, सीधे loan नहीं देती। Loan bank, NBFC या MFI की शाखा से मिलता है, और MUDRA ने कोई agent या बिचौलिया नहीं रखा है।[^2]"
+        },
+        {
+          "m": "\"Mudra loan पर सरकारी subsidy मिलती है।\"",
+          "f": "नहीं। FAQ के मुताबिक PMMY में कोई subsidy नहीं है। हाँ, loan किसी ऐसी सरकारी योजना से जुड़ा हो जिसमें capital subsidy है, तो वह मिल सकती है।[^2]"
+        },
+        {
+          "m": "\"Mudra loan की ब्याज दर सरकार तय करती है।\"",
+          "f": "नहीं। FAQ के मुताबिक ब्याज दरें deregulated हैं; banks को RBI के निर्देशों के भीतर उचित ब्याज लेने को कहा गया है।[^2]"
+        },
+        {
+          "m": "\"कोई भी सीधे ₹20 लाख का Mudra loan ले सकता है।\"",
+          "f": "नहीं। ₹10 लाख से ₹20 लाख वाली Tarun Plus श्रेणी उन्हीं के लिए है, जिन्होंने Tarun श्रेणी का पिछला loan लेकर ठीक से चुका दिया है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mudra loan किस काम के लिए मिलता है?",
+          "a": "DFS के मुताबिक खेती के अलावा कमाई वाले कामों के लिए, जिनमें poultry, dairy, मधुमक्खी पालन जैसे खेती से जुड़े काम भी शामिल हैं। Term loan और working capital, दोनों की ज़रूरत पूरी हो सकती है।"
+        },
+        {
+          "q": "Mudra Card क्या है?",
+          "a": "MUDRA के FAQ के मुताबिक यह working capital के लिए CC/OD सुविधा है, जो RuPay debit card के रूप में मिलती है। इससे ATM, Business Correspondent या PoS से पैसा लिया जा सकता है, और पैसा बचे तो लौटाकर ब्याज घटाया जा सकता है।"
+        },
+        {
+          "q": "क्या PAN या life insurance ज़रूरी है?",
+          "a": "FAQ के मुताबिक PAN अनिवार्य नहीं, पर loan देने वाली संस्था की KYC शर्तें पूरी करनी होती हैं। Life insurance भी अनिवार्य नहीं, पर शर्तें संस्था की lending policy पर टिकी हैं।"
+        },
+        {
+          "q": "कौन आवेदन कर सकता है?",
+          "a": "FAQ के मुताबिक कोई भी भारतीय नागरिक, जिसके पास खेती के अलावा कमाई वाले काम की योजना हो और ज़रूरत ₹20 लाख तक हो। महिलाएँ, proprietary concern, partnership firm, private limited company या कोई और इकाई भी आवेदन कर सकती है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Small Finance Bank"
+        },
+        {
+          "t": "Current Account"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "PAN"
+        },
+        {
+          "t": "RuPay"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "Loan Scam"
+        },
+        {
+          "t": "Credit Score"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Department of Financial Services (वित्त मंत्रालय) — Pradhan Mantri MUDRA Yojana (PMMY) का पन्ना (पन्ने पर अलग तारीख़ नहीं; site के निचले हिस्से में \"Last Updated On: 05.02.2026\"; 13 अक्टूबर 2026 को फिर देखा)",
+          "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला वाक्य",
+              "c": "8.4.2015 को शुरू; micro enterprises को बिना collateral संस्थागत क़र्ज़"
+            },
+            {
+              "ref": "Purposes",
+              "c": "खेती के अलावा, poultry, dairy, मधुमक्खी पालन जैसे काम भी; term loan और working capital"
+            },
+            {
+              "ref": "Categories",
+              "c": "Shishu ₹50,000 तक; Kishor ₹5 लाख तक; Tarun ₹10 लाख तक; Tarun Plus ₹20 लाख तक, 24.10.2024 से, Tarun loan चुकाने वालों को"
+            },
+            {
+              "ref": "MLIs",
+              "c": "सरकारी, निजी, विदेशी banks, RRB, Small Finance Banks, NBFC, MFI"
+            },
+            {
+              "ref": "आख़िरी बिंदु",
+              "c": "Collateral not required"
+            }
+          ]
+        },
+        {
+          "label": "MUDRA (Micro Units Development & Refinance Agency Ltd.) — FAQ पन्ना (पन्ने पर तारीख़ नहीं; सवाल अंग्रेज़ी सवालों के नंबर से; 13 अक्टूबर 2026 को देखा)",
+          "url": "https://www.mudra.org.in/FAQ",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 1, 20",
+              "c": "MUDRA refinance agency है, सीधे loan नहीं देती"
+            },
+            {
+              "ref": "सवाल 14, 18, 38",
+              "c": "कौन loan देता है; भारतीय नागरिक, खेती के अलावा कमाई वाला काम, ₹20 लाख तक; किस तरह के आवेदक"
+            },
+            {
+              "ref": "सवाल 19, 32",
+              "c": "subsidy नहीं; ब्याज दरें deregulated, RBI के निर्देशों के भीतर"
+            },
+            {
+              "ref": "सवाल 21",
+              "c": "Mudra Card: CC/OD, RuPay debit card"
+            },
+            {
+              "ref": "सवाल 24, 33, 34",
+              "c": "शिकायत bank के Regional/Zonal/Head Office में; दूसरे bank, NBFC या MFI के पास जा सकते हैं"
+            },
+            {
+              "ref": "सवाल 30, 31",
+              "c": "life insurance और PAN अनिवार्य नहीं; KYC ज़रूरी"
+            },
+            {
+              "ref": "पन्ने का निचला हिस्सा",
+              "c": "MUDRA ने कोई agent या बिचौलिया नहीं रखा"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nMudra Loan, Pradhan Mantri MUDRA Yojana (PMMY) के तहत मिलने वाला loan है। यह योजना 8 अप्रैल 2015 को शुरू हुई, ताकि छोटे कारोबार (micro enterprises) को बिना collateral के संस्थागत क़र्ज़ मिल सके।[^1]\n\nMUDRA (Micro Units Development & Refinance Agency Ltd.) ख़ुद loan नहीं देती; यह loan देने वाले banks, NBFC और MFI को refinance करती है।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **छोटा कारोबार:** खेती के अलावा कमाई वाले काम (manufacturing, trading, service) के लिए, और poultry, dairy, मधुमक्खी पालन जैसे खेती से जुड़े कामों के लिए भी।[^1]\n- **Collateral:** DFS के मुताबिक ज़रूरी नहीं।[^1]\n- **ब्याज:** तय सरकारी दर नहीं; loan देने वाली संस्था RBI के निर्देशों के भीतर तय करती है।[^2]\n\n## Mudra Loan कैसे मिलता है | कैसे\n\n::flow\n\n- **कौन देता है:** सरकारी, निजी और विदेशी banks, Regional Rural Banks, Small Finance Banks, NBFC, MFI और NBFC-MFI।[^1]\n- **काग़ज़:** loan की शर्तें और ज़रूरी काग़ज़ loan देने वाली संस्था के नियम और RBI के व्यापक निर्देश तय करते हैं।[^2]\n\n## चार श्रेणियाँ | श्रेणियाँ\n\n- **Shishu:** ₹50,000 तक।[^1]\n- **Kishor:** ₹50,000 से ऊपर, ₹5 लाख तक।[^1]\n- **Tarun:** ₹5 लाख से ऊपर, ₹10 लाख तक।[^1]\n- **Tarun Plus:** ₹10 लाख से ऊपर, ₹20 लाख तक; 24 अक्टूबर 2024 से, उनके लिए जिन्होंने Tarun का पिछला loan लेकर ठीक से चुका दिया है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Mudra loan पर विचार न हो, या bank collateral माँगे, तो उस bank के Regional, Zonal या Head Office में शिकायत कर सकते हैं। आप उसी इलाक़े के दूसरे bank, NBFC या MFI के पास भी जा सकते हैं।[^2]\n\n## अभी क्या करें\n\n- अपने कारोबार की योजना और ज़रूरी रक़म लेकर पास के bank, NBFC या MFI की शाखा में जाइए।[^2]\n- किसी 'agent' को पैसे मत दीजिए; MUDRA ने कोई agent या बिचौलिया नहीं रखा है।[^2]\n- Loan की शर्तें, ब्याज और चुकाने का तरीक़ा लिखित में लीजिए; ये loan देने वाली संस्था तय करती है।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
       "id": "ais",
       "term": "AIS",
       "aliases": [
