@@ -10493,17 +10493,24 @@
       "term": "AIS",
       "aliases": [
         "TIS",
-        "Taxpayer Information Summary"
+        "Taxpayer Information Summary",
+        "Form 26AS",
+        "Form No. 168",
+        "Form 168"
       ],
       "full": "Annual Information Statement · आपकी आमदनी और लेन-देन का सालाना ब्योरा",
       "fullEn": "Annual Information Statement (AIS)",
       "group": "बैंकिंग",
       "created": "2026-10-12",
-      "verified": "2026-10-12",
+      "verified": "2026-10-13",
       "history": [
         {
           "d": "2026-10-12",
           "t": "पन्ना बना। Income Tax Department के e-filing portal के AIS FAQ (सवाल 1 से 14), AY 2026-27 के salaried individuals वाले पन्ने और ITR-1 (Sahaj) FAQ से जाँचा।"
+        },
+        {
+          "d": "2026-10-13",
+          "t": "'1 अप्रैल 2026 के बाद: Form No. 168' हिस्सा और दो सवाल जोड़े; Form 26AS और Form No. 168 को इस पन्ने के दूसरे नाम बनाया। CBDT के transition FAQ (सवाल 2.24, 3.28, 6.25–6.28), Income-tax Rules, 2026 के नियम 245, और Income-tax Act, 2025 की धारा 510 से जाँचा।"
         }
       ],
       "one": "AIS (Annual Information Statement) Income Tax Department के e-filing portal पर मिलने वाला ब्योरा है, जिसमें bank, employer जैसी जगहों से विभाग को मिली आपकी आमदनी और लेन-देन की जानकारी दिखती है। इसी के अंदर TIS (Taxpayer Information Summary) है, जो यही जानकारी salary, ब्याज जैसी श्रेणियों में जोड़कर दिखाता है।",
@@ -10618,7 +10625,15 @@
         },
         {
           "q": "क्या यह जानकारी नए Income-tax Act, 2025 के हिसाब से है?",
-          "a": "यह पन्ना e-filing portal के AIS FAQ पर है, जिसमें किसी Act की धारा का ज़िक्र नहीं है।[^1] Form 26AS का पूरा नाम ITR-1 FAQ में पुराने Income-tax Act, 1961 की धारा 285BB के साथ लिखा है।[^3] नए क़ानून में forms के नए नंबर TDS वाले पन्ने पर हैं।"
+          "a": "यह पन्ना e-filing portal के AIS FAQ पर है, जिसमें किसी Act की धारा का ज़िक्र नहीं है।[^1] Form 26AS का पूरा नाम ITR-1 FAQ में पुराने Income-tax Act, 1961 की धारा 285BB के साथ लिखा है।[^3] Tax year 2026-27 से AIS की जगह Form No. 168 है, जो Income-tax Act, 2025 की धारा 510 के तहत है।[^4][^6]"
+        },
+        {
+          "q": "Form No. 168 क्या है?",
+          "a": "CBDT के transition FAQ के मुताबिक, tax year 2026-27 से Annual Information Statement की जगह Form No. 168 है। AY 2026-27 तक के सालों के लिए AIS ही चलेगा, और दोनों साल के statement अलग-अलग, e-filing portal पर मिलेंगे।[^4] Income-tax Rules, 2026 के नियम 245 के मुताबिक इसमें TDS/TCS, specified financial transaction, tax भुगतान, demand और refund, pending और पूरी हुई proceedings की जानकारी होती है।[^5]"
+        },
+        {
+          "q": "FY 2025-26 और tax year 2026-27 का TDS कहाँ दिखेगा?",
+          "a": "FY 2025-26 में कटा TDS, AY 2026-27 के AIS में दिखेगा और उसी साल की return में claim होगा। Tax year 2026-27 (अप्रैल 2026 से) में कटा TDS, Form No. 168 में दिखेगा।[^4]"
         }
       ],
       "related": [
@@ -10699,9 +10714,65 @@
               "c": "Form 26AS = Annual Information Statement under Section 285BB of the Income Tax Act, 1961"
             }
           ]
+        },
+        {
+          "label": "CBDT (Directorate of Income Tax, O&MS) — FAQs on Interplay and Transition from the Income Tax Act, 1961 to the Income Tax Act, 2025 (updated PDF; दस्तावेज़ पर तारीख़ नहीं; 13 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/documents/81799/11848482/Updated-FQAs-on-Interplay&Transitions.pdf/e10ad2b6-9495-de90-58d3-20606d8954ae",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 2.24",
+              "c": "AIS, 1961 के Act वाले सालों (AY 2026-27 तक) के लिए; tax year 2026-27 से Form No. 168, 'evolved Annual Information Statement'"
+            },
+            {
+              "ref": "सवाल 6.25, 6.27, 6.28",
+              "c": "FY 2025-26 का TDS, AY 2026-27 के AIS में; tax year 2026-27 का Form No. 168 में; दोनों अलग, दोनों e-filing portal पर"
+            },
+            {
+              "ref": "सवाल 3.28",
+              "c": "हर साल का Form 26AS / Annual Tax Statement अलग से मिलाना"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department — Income-tax Rules, 2026 (13 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/income-tax-rule-2026",
+          "issued": "",
+          "effective": "2026-04-01",
+          "used": [
+            {
+              "ref": "नियम 245(1), (2)",
+              "c": "धारा 510 के तहत Form No. 168: TDS/TCS, specified financial transaction, tax भुगतान, demand-refund, pending और पूरी proceedings, और Board की तय दूसरी जानकारी; जानकारी मिलने वाले महीने के अंत से 90 दिन में upload"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department — Income-tax Act, 2025 (Finance Act, 2026 तक के बदलावों के साथ; 13 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/income-tax-act-2025",
+          "issued": "2025-08-21",
+          "effective": "2026-04-01",
+          "used": [
+            {
+              "ref": "धारा 510",
+              "c": "annual information statement, assessee के registered (e-filing) account में upload"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department — Utility to check provisions of Income-tax Act, 1961 vis-a-vis Income-tax Act, 2025 (13 अक्टूबर 2026 को देखा)",
+          "url": "https://www.incometaxindia.gov.in/utility-to-check-provisions-of-income-tax-act-1961-vis-a-vis-income-tax-act-2025",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "धारा 285BB",
+              "c": "1961 की धारा 285BB (Annual information statement) = 2025 की धारा 510"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\nAIS (Annual Information Statement) किसी taxpayer की जानकारी का पूरा ब्योरा है, जो Income Tax Department के e-filing portal पर मिलता है। इसमें TDS, SFT (Statement of Financial Transaction), जमा tax जैसी वह जानकारी दिखती है जो विभाग के पास पहुँची है, ताकि return भरने से पहले आप उसे देख सकें और ज़रूरत हो तो feedback दे सकें।[^1]\n\nAIS के अंदर ही TIS (Taxpayer Information Summary) है: वही जानकारी salary, ब्याज, dividend जैसी श्रेणियों में जोड़कर।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Return से पहले जाँच:** AIS और Form 26AS download करके असली TDS / TCS और जमा tax मिलाइए; फ़र्क़ दिखे तो employer, TDS काटने वाले या bank से मिलान कराइए।[^3]\n- **पहले से भरी return:** TIS में आपकी मानी हुई या source से पक्की हुई value, जहाँ लागू हो, return पहले से भरने में काम आती है।[^1]\n- **ज़िम्मेदारी आपकी:** AIS में वही जानकारी है जो अभी विभाग के पास है; बाक़ी लेन-देन भी return में सही-सही लिखने हैं।[^1]\n\n## AIS में क्या-क्या दिखता है | क्या दिखता है\n\n::flow\n\n- **Part A:** PAN, masked Aadhaar नंबर, नाम, जन्म-तारीख़, mobile, e-mail और पता।[^1]\n- **TDS / TCS:** काटे या वसूले गए tax की जानकारी।[^1]\n- **SFT:** reporting entities से Statement of Financial Transaction के ज़रिए मिली जानकारी।[^1]\n- **Tax का भुगतान:** साल में जमा advance tax, self-assessment tax जैसी रक़म।[^1]\n- **Demand और refund:** refund की जानकारी; FAQ के मुताबिक demand की जानकारी अभी उपलब्ध नहीं है।[^1]\n- **दूसरी जानकारी:** जैसे refund पर ब्याज, विदेश भेजा पैसा या विदेशी मुद्रा की ख़रीद, और GST turnover।[^1]\n\n## AIS, TIS और Form 26AS | 26AS से फ़र्क़\n\n- **TIS:** हर श्रेणी में दो value: system की processed value, और आपकी मानी हुई या source से पक्की हुई value।[^1]\n- **Form 26AS:** AY 2023-24 से TRACES पर मिलने वाला Form 26AS सिर्फ़ TDS / TCS दिखाता है; बाक़ी जानकारी AIS में है।[^1] e-filing portal पर यह View Form 26AS से खुलता है।[^2]\n- **नाम पर ध्यान:** ITR-1 FAQ की शब्दावली में Form 26AS का पूरा नाम भी \"Annual Information Statement under Section 285BB of the Income Tax Act, 1961\" लिखा है।[^3] इसलिए नाम के बजाय देखिए कि document कहाँ से खुला।\n\n## ग़लत जानकारी हो तो | Feedback\n\n- **Feedback:** TDS / TCS, SFT या दूसरी जानकारी वाली entry पर feedback दे सकते हैं।[^1]\n- **उसके बाद:** reported value के साथ बदली हुई value दिखती है; acknowledgement receipt मिलती है; e-mail और SMS से पुष्टि आती है।[^1]\n- **कितनी बार:** FAQ के मुताबिक अभी feedback बदलने की कोई सीमा नहीं है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- e-filing portal पर login करके AIS menu, फिर Proceed, फिर AIS tile खोलिए।[^1]\n- AIS को PDF, JSON या CSV में download कर लीजिए।[^1]\n- Return भरने से पहले AIS और Form 26AS की TDS / TCS रक़म अपने काग़ज़ों से मिलाइए; फ़र्क़ हो तो काटने वाले से बात कीजिए।[^3]\n- कोई entry ग़लत लगे, तो AIS में feedback दीजिए और acknowledgement सँभालकर रखिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nAIS (Annual Information Statement) किसी taxpayer की जानकारी का पूरा ब्योरा है, जो Income Tax Department के e-filing portal पर मिलता है। इसमें TDS, SFT (Statement of Financial Transaction), जमा tax जैसी वह जानकारी दिखती है जो विभाग के पास पहुँची है, ताकि return भरने से पहले आप उसे देख सकें और ज़रूरत हो तो feedback दे सकें।[^1]\n\nAIS के अंदर ही TIS (Taxpayer Information Summary) है: वही जानकारी salary, ब्याज, dividend जैसी श्रेणियों में जोड़कर।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Return से पहले जाँच:** AIS और Form 26AS download करके असली TDS / TCS और जमा tax मिलाइए; फ़र्क़ दिखे तो employer, TDS काटने वाले या bank से मिलान कराइए।[^3]\n- **पहले से भरी return:** TIS में आपकी मानी हुई या source से पक्की हुई value, जहाँ लागू हो, return पहले से भरने में काम आती है।[^1]\n- **ज़िम्मेदारी आपकी:** AIS में वही जानकारी है जो अभी विभाग के पास है; बाक़ी लेन-देन भी return में सही-सही लिखने हैं।[^1]\n\n## AIS में क्या-क्या दिखता है | क्या दिखता है\n\n::flow\n\n- **Part A:** PAN, masked Aadhaar नंबर, नाम, जन्म-तारीख़, mobile, e-mail और पता।[^1]\n- **TDS / TCS:** काटे या वसूले गए tax की जानकारी।[^1]\n- **SFT:** reporting entities से Statement of Financial Transaction के ज़रिए मिली जानकारी।[^1]\n- **Tax का भुगतान:** साल में जमा advance tax, self-assessment tax जैसी रक़म।[^1]\n- **Demand और refund:** refund की जानकारी; FAQ के मुताबिक demand की जानकारी अभी उपलब्ध नहीं है।[^1]\n- **दूसरी जानकारी:** जैसे refund पर ब्याज, विदेश भेजा पैसा या विदेशी मुद्रा की ख़रीद, और GST turnover।[^1]\n\n## AIS, TIS और Form 26AS | 26AS से फ़र्क़\n\n- **TIS:** हर श्रेणी में दो value: system की processed value, और आपकी मानी हुई या source से पक्की हुई value।[^1]\n- **Form 26AS:** AY 2023-24 से TRACES पर मिलने वाला Form 26AS सिर्फ़ TDS / TCS दिखाता है; बाक़ी जानकारी AIS में है।[^1] e-filing portal पर यह View Form 26AS से खुलता है।[^2]\n- **नाम पर ध्यान:** ITR-1 FAQ की शब्दावली में Form 26AS का पूरा नाम भी \"Annual Information Statement under Section 285BB of the Income Tax Act, 1961\" लिखा है।[^3] इसलिए नाम के बजाय देखिए कि document कहाँ से खुला।\n\n## 1 अप्रैल 2026 के बाद: Form No. 168 | Form 168\n\n- **AY 2026-27 तक AIS:** CBDT के transition FAQ के मुताबिक, 1961 के Act वाले सालों (AY 2026-27 तक) के लिए AIS चलता रहेगा।[^4]\n- **Tax year 2026-27 से Form No. 168:** उसके बाद Annual Information Statement, Form No. 168 के रूप में मिलेगा। दोनों साल के statement अलग बनेंगे और दोनों e-filing portal पर मिलेंगे।[^4]\n- **Form No. 168 में क्या:** TDS/TCS, specified financial transaction, tax भुगतान, demand और refund, pending और पूरी हुई proceedings, और Board की तय की हुई दूसरी जानकारी। जानकारी मिलने वाले महीने के अंत से 90 दिन के अंदर यह आपके e-filing account में डाली जाती है।[^5]\n- **क़ानून:** Income-tax Act, 2025 की धारा 510; 1961 के Act में यही धारा 285BB थी।[^6][^7]\n\n## ग़लत जानकारी हो तो | Feedback\n\n- **Feedback:** TDS / TCS, SFT या दूसरी जानकारी वाली entry पर feedback दे सकते हैं।[^1]\n- **उसके बाद:** reported value के साथ बदली हुई value दिखती है; acknowledgement receipt मिलती है; e-mail और SMS से पुष्टि आती है।[^1]\n- **कितनी बार:** FAQ के मुताबिक अभी feedback बदलने की कोई सीमा नहीं है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## अभी क्या करें\n\n- e-filing portal पर login करके AIS menu, फिर Proceed, फिर AIS tile खोलिए।[^1]\n- AIS को PDF, JSON या CSV में download कर लीजिए।[^1]\n- Return भरने से पहले AIS और Form 26AS की TDS / TCS रक़म अपने काग़ज़ों से मिलाइए; फ़र्क़ हो तो काटने वाले से बात कीजिए।[^3]\n- कोई entry ग़लत लगे, तो AIS में feedback दीजिए और acknowledgement सँभालकर रखिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "itr",
