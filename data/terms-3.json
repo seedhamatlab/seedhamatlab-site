@@ -11405,6 +11405,231 @@
         }
       ],
       "body": "## मतलब\n\nStandard deduction वह तय रक़म है, जो \"Salaries\" head की आय गिनते समय salary में से घटाई जाती है।[^1][^2]\n\n- **नई कर-व्यवस्था:** ₹75,000 या salary, जो कम हो।[^1][^2]\n- **पुरानी कर-व्यवस्था:** ₹50,000 या salary, जो कम हो।[^1][^2]\n\n**किस साल पर कौन-सा क़ानून:** FY 2025-26 (AY 2026-27) के लिए Income-tax Act, 1961 की धारा 16(ia); tax year 2026-27 (1 अप्रैल 2026 से) के लिए Income-tax Act, 2025 की धारा 19(1), Table क्रम 2। दोनों में रक़म एक जैसी है।[^1][^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Salary वालों को सीधा फ़ायदा:** salary की कर-योग्य आय ₹75,000 (नई) या ₹50,000 (पुरानी) तक कम हो जाती है।[^1][^2]\n- **सिर्फ़ salary पर:** FD का ब्याज, किराया या कारोबार की आय इससे नहीं घटती।[^1][^2]\n\n## कैसे घटता है | कैसे\n\n::flow\n\n## Standard deduction, rebate और दूसरी कटौतियाँ | फ़र्क़\n\n- **Rebate अलग है:** यह आय नहीं, गिने हुए tax को घटाती है। नई व्यवस्था में कुल आय ₹12 लाख तक हो, तो ₹60,000 तक; पुरानी में ₹5 लाख तक हो, तो ₹12,500 तक।[^1][^2][^3]\n- **Professional tax:** salary से कटे professional tax की कटौती सिर्फ़ पुरानी व्यवस्था में।[^1][^2]\n- **Family pension:** इस पर अलग कटौती \"Income from other sources\" में है; tax year 2026-27 में एक-तिहाई या ₹25,000 (नई) / ₹15,000 (बाक़ी), जो कम हो।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Salary की आय हो, तो नई और पुरानी, दोनों कर-व्यवस्थाओं में standard deduction आपको मिलता है; नई व्यवस्था में यह ₹75,000 तक है।[^1][^2]\n\n## अभी क्या करें\n\n- Return भरते समय देखिए कि आपने कौन-सी कर-व्यवस्था चुनी है; उसी के हिसाब से ₹75,000 या ₹50,000 घटेगा।[^1][^2]\n- Salary के अलावा आय है, तो उस पर standard deduction की उम्मीद मत रखिए।[^1][^2]\n- FY 2025-26 और tax year 2026-27 के नियम अलग क़ानूनों में हैं; धारा का हवाला देते समय साल ज़रूर देखिए।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "form-16",
+      "term": "Form 16",
+      "aliases": [
+        "Form No. 130",
+        "Form 130"
+      ],
+      "full": "Form 16 / Form No. 130 · salary के TDS का certificate",
+      "fullEn": "Form 16 / Form No. 130 (TDS certificate on salary)",
+      "group": "बैंकिंग",
+      "created": "2026-10-13",
+      "verified": "2026-10-13",
+      "history": [
+        {
+          "d": "2026-10-13",
+          "t": "पन्ना बना। CBDT के 'FAQs on Interplay and Transition' (सवाल 6.14, 6.15, 6.22–6.29), Form No. 130 के FAQ, Form No. 130–133 के guidance note, Income-tax Rules, 2026 के नियम 215 और Income-tax Act, 2025 की धारा 395(4) से जाँचा।"
+        }
+      ],
+      "one": "Form 16 वह certificate है, जो employer salary से काटे गए TDS के बारे में employee को देता है। FY 2025-26 की salary के लिए यह पुराने नियमों वाला Form 16 है, जिसे 15 जून 2026 तक देना था। 1 अप्रैल 2026 से शुरू tax year 2026-27 की salary के लिए इसकी जगह Form No. 130 है, जिसे 15 जून 2027 तक देना है।",
+      "facts": [
+        {
+          "k": "FY 2025-26 की salary",
+          "v": "Form 16",
+          "s": "Income-tax Act, 1961 के तहत; 15 जून 2026 तक"
+        },
+        {
+          "k": "Tax year 2026-27 की salary",
+          "v": "Form No. 130",
+          "s": "Income-tax Act, 2025 के तहत; 15 जून 2027 तक"
+        },
+        {
+          "k": "Form No. 130 कहाँ से बनता है",
+          "v": "सिर्फ़ TRACES",
+          "s": "वहीं से download होकर signature के साथ; दूसरे तरीक़े से बना मान्य नहीं"
+        },
+        {
+          "k": "Return के साथ लगाना",
+          "v": "नहीं",
+          "s": "पर सँभालकर रखना है",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Employer",
+            "s": "salary से TDS काटता है"
+          },
+          {
+            "t": "TDS statement",
+            "s": "हर तिमाही (tax year 2026-27 से Form No. 138)"
+          },
+          {
+            "t": "Certificate",
+            "s": "TRACES से, employee को"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "जमा और statement",
+            "s": "सरकार के खाते में"
+          },
+          {
+            "b": "Download",
+            "s": "Form 16 / Form No. 130"
+          }
+        ],
+        "note": "Form No. 130 तभी बनता है, जब employer ने तिमाही का TDS statement भर दिया हो।"
+      },
+      "myths": [
+        {
+          "m": "\"Form 16 बंद हो गया, इसलिए इस बार कोई certificate नहीं मिलेगा।\"",
+          "f": "नहीं। FY 2025-26 की salary के लिए पुराने नियमों वाला Form 16 ही मिलना था (15 जून 2026 तक)। Tax year 2026-27 की salary के लिए Form No. 130 मिलेगा (15 जून 2027 तक)।[^1]"
+        },
+        {
+          "m": "\"Employer अपने software से बनाकर दे दे, वही certificate मान्य है।\"",
+          "f": "नहीं। Form No. 130, employer को TRACES से download करके, digital या हाथ के signature के साथ देना होता है; किसी और तरीक़े से बनाया certificate क़ानूनी रूप से मान्य Form No. 130 नहीं है।[^2][^3]"
+        },
+        {
+          "m": "\"साल में नौकरी बदली, तो एक ही certificate मिलेगा।\"",
+          "f": "नहीं। Form No. 130 में हर employer अपनी नौकरी की अवधि के लिए Part A और Part B अलग देता है; Part C हर employer दे सकता है या employee चाहे तो आख़िरी employer।[^2][^4]"
+        },
+        {
+          "m": "\"Form 16 को return के साथ upload करना होता है।\"",
+          "f": "नहीं। Form No. 130 return के साथ नहीं लगाना है, पर रिकॉर्ड के लिए सँभालकर रखना है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Form No. 130 में क्या-क्या होता है?",
+          "a": "तीन हिस्से: Part A में employer (या specified bank) और employee (या specified senior citizen) का ब्योरा; Part B में दी गई रक़म और काटे गए TDS का सार; Part C में Annexure-I (salary का पूरा हिसाब: gross salary, छूट, कटौतियाँ, कर-योग्य आय, tax) और Annexure-II (specified senior citizen की pension और ब्याज का हिसाब)।[^2][^3]"
+        },
+        {
+          "q": "क्या pension पाने वालों को भी यह मिलता है?",
+          "a": "Form No. 130 के FAQ के मुताबिक यह salaried employee या pensioner को मिलता है। Specified senior citizen की pension या ब्याज पर specified bank TDS काटे, तो वह bank यह certificate देता है (Annexure-II के साथ)।[^2]"
+        },
+        {
+          "q": "Employer के लिए देना ज़रूरी है?",
+          "a": "हाँ। TDS काटकर जमा हो जाए, तो Form No. 130 देना अनिवार्य है। यह तिमाही के TDS statement (Form No. 138) के process होने से बनता है, इसलिए statement भरे बिना यह नहीं बन सकता।[^2]"
+        },
+        {
+          "q": "Certificate में ग़लती हो तो?",
+          "a": "Employer को revised TDS statement (Form No. 138) भरना होता है; उसके process होने के बाद सही Form No. 130 download करके दिया जाता है।[^2] FY 2025-26 या उससे पहले के TDS statement की correction पुराने Act के ढाँचे में ही भरी जाती है।[^1]"
+        },
+        {
+          "q": "Certificate खो जाए तो?",
+          "a": "Employee के कहने पर employer duplicate certificate दे सकता है, जिस पर 'duplicate' लिखा होना चाहिए।[^2][^4]"
+        },
+        {
+          "q": "मेरा TDS credit कहाँ दिखेगा?",
+          "a": "FY 2025-26 (AY 2026-27) में कटा TDS, AY 2026-27 के Annual Information Statement (AIS) में दिखेगा, और उसका credit उसी साल की return में मिलेगा। Tax year 2026-27 का TDS, Form No. 168 में दिखेगा। Mismatch हो, तो employer को बताइए; employer को revised TDS statement भरना होगा।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "TDS"
+        },
+        {
+          "t": "ITR"
+        },
+        {
+          "t": "AIS"
+        },
+        {
+          "t": "PAN"
+        },
+        {
+          "t": "Income-tax Act, 2025"
+        },
+        {
+          "t": "Standard Deduction"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CBDT (Directorate of Income Tax, O&MS) — FAQs on Interplay and Transition from the Income Tax Act, 1961 to the Income Tax Act, 2025 (updated PDF; दस्तावेज़ पर तारीख़ नहीं; 13 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/documents/81799/11848482/Updated-FQAs-on-Interplay&Transitions.pdf/e10ad2b6-9495-de90-58d3-20606d8954ae",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 6.15",
+              "c": "FY 2025-26 की salary: Form 16, 1961 का Act, 15 जून 2026; TY 2026-27: Form No. 130, 2025 का Act, 15 जून 2027"
+            },
+            {
+              "ref": "सवाल 6.14",
+              "c": "31 मार्च 2026 तक की अवधि के TDS statement की correction पुराने Act के ढाँचे में"
+            },
+            {
+              "ref": "सवाल 6.25, 6.28, 6.29",
+              "c": "AY 2026-27 का credit AIS में; TY 2026-27 का Form No. 168 में; mismatch पर employer revised statement भरे"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department — Form No. 130 (Earlier Form No. 16): Frequently Asked Questions (PDF; दस्तावेज़ पर तारीख़ नहीं; 13 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/documents/d/guest/form-130-faqs",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "शुरुआती तालिका",
+              "c": "Form 16 (Rules 1962, धारा 203, नियम 31) = Form No. 130 (Rules 2026, धारा 395(4)(b), नियम 215(1))"
+            },
+            {
+              "ref": "सवाल 1–5",
+              "c": "क्या है; salaried या pensioner; Part A, B, C (Annexure-I, II); specified bank; जमा होने पर देना अनिवार्य"
+            },
+            {
+              "ref": "सवाल 6–8",
+              "c": "Form No. 138 के process से बनता है; सिर्फ़ TRACES से, signature के साथ; 15 जून की due date"
+            },
+            {
+              "ref": "सवाल 9–12",
+              "c": "correction: revised Form No. 138; return के साथ नहीं लगाना; कई employers; duplicate"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department — Form No. 130_131_132_133 (Earlier Form No. 16/16A/16B/16C/16D/16E/27D): guidance note (PDF; दस्तावेज़ पर तारीख़ नहीं; 13 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/documents/d/guest/fn-130-131-132-133",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 2, क्रम 1",
+              "c": "Form No. 130, Form No. 138 के आधार पर; 15 जून की due date; Part A, B, C (Annexure-I, II)"
+            },
+            {
+              "ref": "Other Salient Features",
+              "c": "TRACES से बना और signature वाला certificate ही मान्य"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department — Income-tax Rules, 2026 (IT (Fifth Amdt.) Rules, 2026 तक के बदलावों के साथ; 13 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/income-tax-rule-2026",
+          "issued": "",
+          "effective": "2026-04-01",
+          "used": [
+            {
+              "ref": "नियम 215(1), Table क्रम 1",
+              "c": "धारा 392 और 393(1) [Table: क्रम 8(iii)] का certificate: Form No. 130, tax year के बाद वाले वित्त वर्ष की 15 जून तक; TRACES से generate और download"
+            },
+            {
+              "ref": "नियम 215(2), (3)",
+              "c": "एक से ज़्यादा employer: Part A, B हर employer; Part C हर employer या आख़िरी, employee की मर्ज़ी से; duplicate certificate"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department — Income-tax Act, 2025 (Finance Act, 2026 तक के बदलावों के साथ; 13 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/income-tax-act-2025",
+          "issued": "2025-08-21",
+          "effective": "2026-04-01",
+          "used": [
+            {
+              "ref": "धारा 395(4)(a), (b)",
+              "c": "TDS काटने वाला certificate देगा (tax की रक़म, दर, बाक़ी ब्योरा, तय समय में); employer के ख़ुद tax भरने पर भी certificate"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nForm 16, salary पर काटे गए TDS का certificate है, जो employer, employee को देता है। इसमें बताया जाता है कि salary कितनी दी गई, कितना tax काटा गया और सरकार के खाते में जमा हुआ।[^2]\n\n**किस साल का कौन-सा form:**[^1]\n\n- **FY 2025-26 (AY 2026-27) की salary:** पुराने Income-tax Act, 1961 के तहत Form 16, जिसकी due date 15 जून 2026 थी।\n- **Tax year 2026-27 (1 अप्रैल 2026 से) की salary:** नए Income-tax Act, 2025 के तहत Form No. 130, जिसकी due date 15 जून 2027 है।\n\nForm No. 130, पुराने Form 16 की जगह आया है। नया certificate Act की धारा 395(4)(b) और Rules, 2026 के नियम 215 में है।[^2][^5]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **TDS का सबूत:** यह बताता है कि आपकी salary से कटा tax सरकार के खाते में जमा हुआ, और इसी से आप उस TDS का credit ले पाते हैं।[^2]\n- **Return भरने में मदद:** Part C में salary, छूट, कटौतियों और tax का पूरा हिसाब होता है।[^2]\n- **Return के साथ नहीं लगाना:** पर रिकॉर्ड के लिए सँभालकर रखना है।[^2]\n\n## Certificate कैसे बनता है | कैसे\n\n::flow\n\n- **सिर्फ़ TRACES से:** employer को Form No. 130, TRACES से download करके digital या हाथ के signature के साथ देना होता है।[^2][^3]\n- **Statement ज़रूरी:** tax year 2026-27 से salary के TDS का तिमाही statement Form No. 138 है (पहले Form 24Q); certificate उसी के process होने से बनता है।[^1][^2]\n\n## Form No. 130 के हिस्से | हिस्से\n\n- **Part A:** employer (या specified bank) और employee (या specified senior citizen) का ब्योरा।[^2]\n- **Part B:** दी गई रक़म और काटे गए TDS का सार।[^2]\n- **Part C, Annexure-I:** salary का पूरा हिसाब: gross salary, छूट, कटौतियाँ, कर-योग्य आय, tax।[^2]\n- **Part C, Annexure-II:** specified senior citizen की pension और bank ब्याज का हिसाब, जब specified bank TDS काटे।[^2]\n- **एक से ज़्यादा employer:** हर employer अपनी अवधि के Part A और B देता है; Part C हर employer या, employee चाहे तो, आख़िरी employer।[^2][^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Salary से TDS कटकर जमा हुआ है, तो employer को आपको certificate देना ही है: tax year 2026-27 के लिए Form No. 130, 15 जून 2027 तक।[^1][^2]\n\n## अभी क्या करें\n\n- FY 2025-26 का Form 16 नहीं मिला, तो employer से माँगिए; उसकी due date 15 जून 2026 थी।[^1]\n- Certificate का TDS, AIS (AY 2026-27) या Form No. 168 (tax year 2026-27) से मिलाइए; फ़र्क़ हो तो employer को बताइए।[^1]\n- Certificate खो जाए, तो employer से duplicate माँगिए।[^2][^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
