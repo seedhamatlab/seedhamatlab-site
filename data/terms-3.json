@@ -10489,6 +10489,210 @@
       "body": "## मतलब\n\nMudra Loan, Pradhan Mantri MUDRA Yojana (PMMY) के तहत मिलने वाला loan है। यह योजना 8 अप्रैल 2015 को शुरू हुई, ताकि छोटे कारोबार (micro enterprises) को बिना collateral के संस्थागत क़र्ज़ मिल सके।[^1]\n\nMUDRA (Micro Units Development & Refinance Agency Ltd.) ख़ुद loan नहीं देती; यह loan देने वाले banks, NBFC और MFI को refinance करती है।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **छोटा कारोबार:** खेती के अलावा कमाई वाले काम (manufacturing, trading, service) के लिए, और poultry, dairy, मधुमक्खी पालन जैसे खेती से जुड़े कामों के लिए भी।[^1]\n- **Collateral:** DFS के मुताबिक ज़रूरी नहीं।[^1]\n- **ब्याज:** तय सरकारी दर नहीं; loan देने वाली संस्था RBI के निर्देशों के भीतर तय करती है।[^2]\n\n## Mudra Loan कैसे मिलता है | कैसे\n\n::flow\n\n- **कौन देता है:** सरकारी, निजी और विदेशी banks, Regional Rural Banks, Small Finance Banks, NBFC, MFI और NBFC-MFI।[^1]\n- **काग़ज़:** loan की शर्तें और ज़रूरी काग़ज़ loan देने वाली संस्था के नियम और RBI के व्यापक निर्देश तय करते हैं।[^2]\n\n## चार श्रेणियाँ | श्रेणियाँ\n\n- **Shishu:** ₹50,000 तक।[^1]\n- **Kishor:** ₹50,000 से ऊपर, ₹5 लाख तक।[^1]\n- **Tarun:** ₹5 लाख से ऊपर, ₹10 लाख तक।[^1]\n- **Tarun Plus:** ₹10 लाख से ऊपर, ₹20 लाख तक; 24 अक्टूबर 2024 से, उनके लिए जिन्होंने Tarun का पिछला loan लेकर ठीक से चुका दिया है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Mudra loan पर विचार न हो, या bank collateral माँगे, तो उस bank के Regional, Zonal या Head Office में शिकायत कर सकते हैं। आप उसी इलाक़े के दूसरे bank, NBFC या MFI के पास भी जा सकते हैं।[^2]\n\n## अभी क्या करें\n\n- अपने कारोबार की योजना और ज़रूरी रक़म लेकर पास के bank, NBFC या MFI की शाखा में जाइए।[^2]\n- किसी 'agent' को पैसे मत दीजिए; MUDRA ने कोई agent या बिचौलिया नहीं रखा है।[^2]\n- Loan की शर्तें, ब्याज और चुकाने का तरीक़ा लिखित में लीजिए; ये loan देने वाली संस्था तय करती है।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
+      "id": "business-correspondent",
+      "term": "Business Correspondent",
+      "aliases": [
+        "Business Correspondents",
+        "Business Correspondent Model",
+        "Bank Mitra",
+        "बैंक मित्र"
+      ],
+      "full": "बिज़नेस कॉरेस्पॉन्डेंट · bank की ओर से सेवा देने वाला व्यक्ति या संस्था",
+      "fullEn": "Business Correspondent (BC)",
+      "group": "बैंकिंग",
+      "created": "2026-10-14",
+      "verified": "2026-10-14",
+      "history": [
+        {
+          "d": "2026-10-14",
+          "t": "पन्ना बना। RBI की (Commercial Banks – Branch Authorisation) Directions, 2025 (1 अक्टूबर 2026 तक updated) के Chapter V (पैरा 65 से 87) और PMJDY portal से जाँचा।"
+        }
+      ],
+      "one": "Business Correspondent (BC) वह व्यक्ति या संस्था है, जिसे bank अपनी ओर से छोटी जमा, छोटे loan, पैसे भेजने जैसी सेवाएँ लोगों तक पहुँचाने के लिए रखता है। RBI के निर्देशों के मुताबिक BC के काम की पूरी ज़िम्मेदारी bank की है, और BC आपसे सीधे कोई fee नहीं ले सकता।",
+      "facts": [
+        {
+          "k": "ज़िम्मेदारी",
+          "v": "Bank की",
+          "s": "BC और उसके outlet के हर काम की"
+        },
+        {
+          "k": "BC की fee",
+          "v": "सीधे नहीं",
+          "s": "service charge सिर्फ़ bank ले सकता है"
+        },
+        {
+          "k": "BC के पास cash",
+          "v": "Bank का पैसा",
+          "s": "उसका बीमा bank की ज़िम्मेदारी"
+        },
+        {
+          "k": "दूसरा नाम",
+          "v": "Bank Mitra",
+          "s": "PMJDY portal के मुताबिक"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आप",
+            "s": "जमा, निकासी, पैसे भेजना"
+          },
+          {
+            "t": "BC का outlet",
+            "s": "bank से जुड़े device पर लेन-देन"
+          },
+          {
+            "t": "आपका bank",
+            "s": "उसी समय खाते में दर्ज"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Cash या आवेदन",
+            "s": "bank की ओर से रसीद"
+          },
+          {
+            "b": "Real time",
+            "s": "Core Banking से जुड़ा"
+          }
+        ],
+        "note": "RBI के निर्देशों के मुताबिक BC के लेन-देन आम तौर पर bank के Core Banking System से जुड़े handheld device या mobile से होते हैं, उसी समय खाते में दर्ज होते हैं, और आपको उसी वक़्त screen पर या slip से पुष्टि मिलती है।"
+      },
+      "myths": [
+        {
+          "m": "\"BC अपनी सेवा के लिए मुझसे fee ले सकता है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक bank और BC के समझौते में BC को ग्राहकों से सीधे कोई fee लेने से साफ़ मना किया जाना चाहिए। BC को commission bank देता है; ग्राहक से उचित service charge सिर्फ़ bank ले सकता है, और वह भी पारदर्शी ढंग से।[^1]"
+        },
+        {
+          "m": "\"BC ने गड़बड़ की तो bank ज़िम्मेदार नहीं।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक BC और उसके retail outlet / sub-agent के कामों की पूरी ज़िम्मेदारी bank की है, और ग्राहक के साथ bank के हर समझौते में BC की चूक या ग़लती के लिए bank की ज़िम्मेदारी लिखी होनी चाहिए।[^1]"
+        },
+        {
+          "m": "\"BC को दिया cash जब तक खाते में न पहुँचे, मेरे जोखिम पर है।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक BC जो cash संभालता है, वह bank का cash है, और उसका बीमा कराने की ज़िम्मेदारी bank की है। BC को cash लेने पर bank की ओर से रसीद देनी होती है।[^1]"
+        },
+        {
+          "m": "\"BC से सेवा लेनी है तो उसका कोई product भी ख़रीदना पड़ेगा।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक BC के outlet की वित्तीय सेवाएँ उस company के किसी product की बिक्री से बाँधी नहीं जा सकतीं, और BC bank की मंज़ूरी के बिना कोई product या तरीक़ा शुरू नहीं कर सकता।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Business Correspondent क्या-क्या कर सकता है?",
+          "a": "RBI के निर्देशों के मुताबिक BC के काम में ये शामिल हो सकते हैं: loan लेने वालों की पहचान, loan आवेदन इकट्ठा करना और शुरुआती जाँच, बचत और पैसों के बारे में जानकारी देना, Self Help Group / Joint Liability Group बनाना और उनकी निगरानी, loan वसूली में follow-up, छोटे loan बाँटना और किस्त / ब्याज वसूलना, छोटी जमा लेना, micro insurance / mutual fund / pension जैसे products बेचना, छोटी रकम भेजना और पाना, और नोट-सिक्के बाँटना। ये सब bank के सामान्य कामकाज के दायरे में होने चाहिए।[^1]"
+        },
+        {
+          "q": "BC कौन बन सकता है?",
+          "a": "RBI के निर्देशों के मुताबिक bank इन्हें BC बना सकता है: retired bank कर्मचारी, retired शिक्षक, retired सरकारी कर्मचारी, पूर्व सैनिक, किराना / medical / राशन (Fair Price) दुकान के मालिक, PCO चलाने वाले, Small Savings या बीमा agent, petrol pump मालिक, bank से जुड़े Self Help Group के अधिकृत सदस्य, Common Service Centre चलाने वाले समेत कोई भी व्यक्ति; Societies / Trust Act या Section 8 वाली NGO / MFI; सहकारी समितियाँ; Post Office; Payments Bank; बड़े retail नेटवर्क वाली company (NBFC के अलावा); और कुछ शर्तों के साथ जमा न लेने वाली NBFC।[^1]"
+        },
+        {
+          "q": "BC के outlet को कैसे पहचानें?",
+          "a": "RBI के निर्देशों के मुताबिक BC के हर retail outlet / sub-agent पर स्थानीय भाषा में बोर्ड होना चाहिए, जिसमें लिखा हो कि वह किस bank का सेवा देने वाला है, BC का नाम, उसके base Banking Outlet या bank के controlling office का फ़ोन नंबर और email, Banking Ombudsman की जानकारी, और वहाँ मिलने वाली हर सेवा की fees। Charges की brochure भी outlet पर मिलनी चाहिए।[^1]"
+        },
+        {
+          "q": "क्या BC के पास KYC और खाता खुलवाना सुरक्षित है?",
+          "a": "RBI के निर्देशों के मुताबिक bank खाता खोलने के शुरुआती काम और KYC update के लिए BC की मदद ले सकता है, पर KYC और AML नियमों के पालन की ज़िम्मेदारी bank की ही रहती है। BC के पास आई ग्राहक की जानकारी की सुरक्षा और गोपनीयता भी bank को पक्की करनी होती है।[^1]"
+        },
+        {
+          "q": "Jan Dhan खाता BC के पास खुल सकता है?",
+          "a": "हाँ। PMJDY portal के मुताबिक, जिसके पास कोई और bank खाता नहीं, वह किसी भी bank शाखा या Business Correspondent (Bank Mitra) के outlet पर basic savings (BSBD) खाता खोल सकता है।[^2]"
+        },
+        {
+          "q": "ये नियम किन banks पर लागू हैं?",
+          "a": "यहाँ लिखे नियम RBI की (Commercial Banks – Branch Authorisation) Directions, 2025 के हैं, जो Commercial Banks पर लागू हैं। इन Directions की परिभाषा में Small Finance Banks, Payments Banks और Local Area Banks शामिल नहीं हैं।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Commercial Bank"
+        },
+        {
+          "t": "Jan Dhan (PMJDY)"
+        },
+        {
+          "t": "BSBD"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Payments Bank"
+        },
+        {
+          "t": "Bank Charges"
+        },
+        {
+          "t": "RBI Ombudsman"
+        },
+        {
+          "t": "Mudra Loan"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Branch Authorisation) Directions, 2025, RBI/DoR/2025-26/147, DoR.LIC.REC.No.66/22-01-001/2025-26, 28 नवंबर 2025 (Updated as on October 01, 2026; 14 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/147MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Commercial Banks पर लागू; Small Finance Banks, Payment Banks, Local Area Banks इस परिभाषा में नहीं"
+            },
+            {
+              "ref": "पैरा 65, 68, 70",
+              "c": "financial inclusion के लिए BC model; हर BC outlet किसी base Banking Outlet से जुड़ा"
+            },
+            {
+              "ref": "पैरा 71",
+              "c": "कौन BC बन सकता है"
+            },
+            {
+              "ref": "पैरा 73",
+              "c": "BC और उसके outlet / sub-agent के कामों की पूरी ज़िम्मेदारी bank की"
+            },
+            {
+              "ref": "पैरा 74",
+              "c": "BC के काम का दायरा (13 बातें)"
+            },
+            {
+              "ref": "पैरा 75, 76",
+              "c": "KYC / AML की ज़िम्मेदारी bank की; BC के पास जानकारी की गोपनीयता"
+            },
+            {
+              "ref": "पैरा 80, 81",
+              "c": "BC को commission bank देता है; BC ग्राहक से सीधे fee नहीं ले सकता; service charge सिर्फ़ bank"
+            },
+            {
+              "ref": "पैरा 82, 83",
+              "c": "CBS से जुड़े device, real-time, तुरंत पुष्टि; cash की रसीद; BC का cash bank का, बीमा bank का; ग्राहक के प्रति bank की ज़िम्मेदारी"
+            },
+            {
+              "ref": "पैरा 85",
+              "c": "bank की मंज़ूरी के बिना product नहीं; स्थानीय भाषा में बोर्ड, संपर्क, Banking Ombudsman, fees; सेवाएँ product बिक्री से बँधी नहीं; charges की brochure"
+            },
+            {
+              "ref": "पैरा 86",
+              "c": "bank की शिकायत व्यवस्था; ठुकराने या 30 दिन में जवाब न मिलने पर RBI Ombudsman"
+            }
+          ]
+        },
+        {
+          "label": "PMJDY portal (Department of Financial Services, वित्त मंत्रालय) — Scheme Details (पन्ने पर तारीख़ नहीं है; 14 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://pmjdy.gov.in/scheme",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "BSBD खाता किसी भी bank शाखा या 'Business Correspondent (Bank Mitra) outlet' पर"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nBusiness Correspondent (BC) वह व्यक्ति या संस्था है, जिसे bank financial inclusion के लिए, यानी ज़्यादा लोगों तक banking पहुँचाने के लिए, अपनी ओर से सेवाएँ देने को रखता है।[^1] PMJDY portal पर इसे 'Bank Mitra' भी कहा गया है।[^2]\n\nBC का हर retail outlet या sub-agent, bank के किसी एक Banking Outlet से जुड़ा होता है, जिसे bank के कर्मचारी चलाते हैं और जो उस पर नज़र रखता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ज़िम्मेदारी bank की:** BC और उसके outlet के कामों की पूरी ज़िम्मेदारी उस bank की है, जिसने BC रखा है।[^1]\n- **BC fee नहीं ले सकता:** BC को commission bank देता है; BC आपसे सीधे fee नहीं ले सकता। उचित service charge सिर्फ़ bank ले सकता है।[^1]\n- **Cash bank का:** BC को दिया cash bank का cash माना जाता है, और उसका बीमा bank की ज़िम्मेदारी है।[^1]\n\n## BC पर लेन-देन कैसे होता है | कैसे\n\n::flow\n\n- **रसीद:** cash देने पर BC को bank की ओर से रसीद देनी होती है।[^1]\n- **Offline लेन-देन:** offline हुए लेन-देन भी उसी दिन के अंत तक bank के खातों में दर्ज होने चाहिए।[^1]\n- **सीमा:** BC के पास cash रखने की, और एक ग्राहक के लेन-देन की, सीमाएँ bank और BC के समझौते में तय होती हैं।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> BC की सेवा से शिकायत हो, तो उस bank की शिकायत व्यवस्था में शिकायत कीजिए; bank को अपने Grievance Redressal Officer का नाम और नंबर बताना होता है। Bank शिकायत पूरी या आंशिक ठुकरा दे, आप जवाब से संतुष्ट न हों, या 30 दिन में जवाब न मिले, तो आप RBI Ombudsman के पास जा सकते हैं।[^1]\n\n## अभी क्या करें\n\n- BC के outlet पर लगा बोर्ड देखिए: किस bank का outlet है, शिकायत का नंबर और हर सेवा की fees।[^1]\n- Cash देने पर bank की ओर से रसीद, और लेन-देन की पुष्टि screen पर या slip से, ज़रूर लीजिए।[^1]\n- BC अलग से fee माँगे, तो मत दीजिए और bank से शिकायत कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
       "id": "ais",
       "term": "AIS",
       "aliases": [
