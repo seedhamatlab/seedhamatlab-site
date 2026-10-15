@@ -11343,6 +11343,218 @@
       "body": "## मतलब\n\nCash Credit (CC) bank की क़र्ज़ सुविधा (credit facility) है। इसमें bank एक सीमा, यानी sanctioned limit / drawing power, तय करता है, और उसके भीतर पैसा निकाला और जमा किया जाता है।[^1][^2]\n\nRBI के नियमों में CC और Overdraft (OD) खातों के लिए 'out of order', NPA, penal charges और पहले बंद करने के charge के नियम एक जैसे हैं।[^1][^2] MUDRA के FAQ में Mudra Card को working capital के लिए CC / OD की सुविधा बताया गया है।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Stock statement समय पर दीजिए:** drawing power ताज़ा stock statement से तय होती है; 3 महीने से पुराने statement पर बकाया 'irregular' माना जाता है।[^1]\n- **सीमा में रहिए और जमा करते रहिए:** 90 दिन वाली शर्तें टूटीं, तो खाता 'out of order' और फिर NPA हो जाता है।[^1]\n- **Renewal पर नज़र:** सीमा तय तारीख़ से 180 दिन में review / renew न हुई, तो खाता NPA माना जाता है।[^1]\n\n## CC कैसे चलता है | कैसे\n\n::flow\n\n- **Penal charges:** चूक पर penal charge लग सकता है, penal interest नहीं, और उस पर ब्याज नहीं जुड़ता।[^2]\n- **पहले बंद करना:** 1 जनवरी 2026 से मंज़ूर या renew हुई CC पर charge sanctioned limit से ज़्यादा रक़म पर नहीं।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Penal charge की रक़म और कारण loan agreement और KFS में पहले से लिखे होने चाहिए, और हर बार लगने पर कारण बताया जाना चाहिए।[^2] CC खाते से online ठगी हो, ग़लती न bank की हो न आपकी बल्कि system में कहीं और की हो, और आप 4 से 7 working day में bank को बता दें, तो आपकी देनदारी हर लेन-देन पर ₹10,000 या ₹25,000 तक सीमित है, खाते के प्रकार के हिसाब से।[^2]\n\n## अभी क्या करें\n\n- अपनी CC की sanctioned limit, renewal की तारीख़ और penal charges, sanction letter और KFS में देखिए।[^1][^2]\n- Stock statement हर बार समय पर दीजिए, ताकि drawing power ताज़ा रहे।[^1]\n- CC आगे नहीं चाहिए, तो agreement में तय समय से पहले bank को लिखकर बता दीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
+      "id": "term-loan",
+      "term": "Term Loan",
+      "aliases": [
+        "Term Loans",
+        "टर्म लोन",
+        "सावधि ऋण"
+      ],
+      "full": "टर्म लोन · तय अवधि वाला क़र्ज़",
+      "fullEn": "Term Loan",
+      "group": "क़र्ज़",
+      "created": "2026-10-15",
+      "verified": "2026-10-15",
+      "history": [
+        {
+          "d": "2026-10-15",
+          "t": "पन्ना बना। RBI की Commercial Banks के लिए Interest Rates on Advances, Income Recognition, Asset Classification and Provisioning, और Responsible Business Conduct Directions, 2025 से जाँचा।"
+        }
+      ],
+      "one": "Term Loan वह क़र्ज़ है, जो RBI की परिभाषा में एक तय अवधि (term) के बाद चुकाना होता है, और जिसकी किस्तों की तारीख़ें loan agreement में लिखी होनी चाहिए। RBI के नियमों के मुताबिक किस्त या ब्याज 90 दिन से ज़्यादा बकाया रहे, तो term loan NPA हो जाता है; उससे पहले खाता SMA-1 और SMA-2 में गिना जाता है।",
+      "facts": [
+        {
+          "k": "SMA-1",
+          "v": "30 दिन",
+          "s": "लगातार बकाया रहने पर"
+        },
+        {
+          "k": "SMA-2",
+          "v": "60 दिन",
+          "s": "लगातार बकाया रहने पर"
+        },
+        {
+          "k": "NPA",
+          "v": "90 दिन से ज़्यादा",
+          "s": "किस्त या ब्याज बकाया"
+        },
+        {
+          "k": "Floating rate loan",
+          "v": "Prepayment charge नहीं",
+          "s": "व्यक्ति के निजी काम का, या व्यक्ति / MSE का कारोबारी",
+          "good": true
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "किस्त की तारीख़",
+            "s": "पैसा नहीं आया: overdue"
+          },
+          {
+            "t": "SMA-1, फिर SMA-2",
+            "s": "30 और 60 दिन लगातार overdue"
+          },
+          {
+            "t": "NPA",
+            "s": "90 दिन से ज़्यादा"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "30 दिन",
+            "s": "लगातार बकाया"
+          },
+          {
+            "b": "और 30 दिन",
+            "s": "फिर भी बकाया"
+          }
+        ],
+        "note": "RBI के उदाहरण में: किस्त 31 मार्च 2021 को थी और उस दिन के day-end तक पूरी रक़म नहीं आई, तो खाता उसी दिन overdue; लगातार बकाया रहने पर 30 अप्रैल को SMA-1, 30 मई को SMA-2, और 29 जून को NPA। वर्गीकरण उसी दिन के day-end process में होता है।"
+      },
+      "myths": [
+        {
+          "m": "\"एक-दो किस्त देर से गई, तो कुछ नहीं होता; NPA तो सालों में होता है।\"",
+          "f": "नहीं। RBI के नियमों के मुताबिक term loan की किस्त या ब्याज 90 दिन से ज़्यादा बकाया रहे, तो खाता NPA हो जाता है। उससे पहले, लगातार 30 दिन बकाया पर SMA-1 और 60 दिन पर SMA-2।[^2]"
+        },
+        {
+          "m": "\"NPA हो गया, तो थोड़ा पैसा जमा करके फिर से ठीक हो जाएगा।\"",
+          "f": "नहीं। RBI के नियमों के मुताबिक NPA खाता 'standard' तभी होता है, जब ब्याज और मूलधन का पूरा बकाया चुका दिया जाए।[^2]"
+        },
+        {
+          "m": "\"Term loan जल्दी चुकाया तो पूरी बाक़ी रक़म पर penalty लगेगी।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक व्यक्तियों को निजी काम के लिए दिए floating rate loan पर, और व्यक्तियों व MSE को कारोबार के लिए दिए floating rate loan पर, pre-payment charge नहीं लगता (1 जनवरी 2026 से मंज़ूर या renew loans पर)। बाक़ी term loans में charge लगे, तो सिर्फ़ उस रक़म पर, जो पहले चुकाई जा रही है।[^3]"
+        },
+        {
+          "m": "\"किस्त में देरी पर bank ब्याज दर बढ़ाकर penal interest लगाएगा।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक देरी पर सिर्फ़ penal charges लग सकते हैं, penal interest नहीं, और उन पर आगे ब्याज नहीं जुड़ता। हाँ, बिना चुकाए ब्याज और EMI पर तय ब्याज दर से ब्याज लगता रहता है।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Term loan का मतलब क्या है?",
+          "a": "RBI की परिभाषा के मुताबिक term loan वह loan है, जो एक तय अवधि (term period) के बाद चुकाना होता है।[^1]"
+        },
+        {
+          "q": "मेरे loan की किस्त की तारीख़ और SMA / NPA की तारीख़ कहाँ लिखी होगी?",
+          "a": "RBI के नियमों के मुताबिक 31 दिसंबर 2021 या उसके बाद मंज़ूर हर loan के agreement में किस्त की सही तारीख़ें, कितनी बार किस्त, मूलधन और ब्याज का हिस्सा, और SMA / NPA की तारीख़ों के उदाहरण साफ़ लिखे होने चाहिए, और loan मंज़ूर होते समय ये आपको बताए जाने चाहिए। Moratorium हो, तो किस्त शुरू होने की सही तारीख़ भी।[^2]"
+        },
+        {
+          "q": "SMA और NPA की तारीख़ कैसे तय होती है?",
+          "a": "RBI के नियमों के मुताबिक यह bank के उसी दिन के day-end process में तय होती है, और वही calendar तारीख़ SMA या NPA की तारीख़ मानी जाती है।[^2]"
+        },
+        {
+          "q": "पहले चुकाने पर charge लगेगा?",
+          "a": "1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुए loans पर: व्यक्तियों के निजी काम वाले, और व्यक्तियों व MSE के कारोबारी floating rate loan पर कोई charge नहीं, किसी भी स्रोत के पैसे से और बिना lock-in के। 31 दिसंबर 2025 से पहले मंज़ूर, व्यक्तियों के निजी काम वाले floating rate term loan पर भी charge नहीं। बाक़ी मामलों में bank की policy के हिसाब से, और term loan में सिर्फ़ पहले चुकाई जा रही रक़म पर। Bank के कहने पर पहले चुकाया हो, तो कोई charge नहीं।[^3]"
+        },
+        {
+          "q": "Floating rate वाली EMI बढ़ जाए तो?",
+          "a": "RBI के निर्देशों के मुताबिक EMI वाले personal loans में, benchmark rate बदलने से EMI या अवधि बढ़े तो bank को तुरंत बताना होता है, और आपको EMI बढ़ाने, अवधि बढ़ाने, या पहले चुकाने का विकल्प मिलता है; bank की policy हो तो fixed rate पर जाने का भी।[^3]"
+        },
+        {
+          "q": "ये नियम किन banks पर लागू हैं?",
+          "a": "यहाँ लिखे RBI के तीनों निर्देश Commercial Banks के लिए हैं; इनकी परिभाषा में Small Finance Banks, Payments Banks और Local Area Banks शामिल नहीं हैं।[^1][^2][^3]"
+        }
+      ],
+      "related": [
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "Prepayment"
+        },
+        {
+          "t": "Fixed vs Floating Rate"
+        },
+        {
+          "t": "Moratorium (मोहलत)"
+        },
+        {
+          "t": "Loan Statement"
+        },
+        {
+          "t": "Cash Credit"
+        },
+        {
+          "t": "Overdraft"
+        },
+        {
+          "t": "Mudra Loan"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Interest Rates on Advances) Directions, 2025 (RBI/DOR/2025-26/161; DOR.CRE.REC.80./13.03.000/2025-26; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/161MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Commercial Banks पर लागू; SFB, Payment Banks, LAB इस परिभाषा में नहीं"
+            },
+            {
+              "ref": "पैरा 5(11)",
+              "c": "'Term loan' वह loan, जो तय अवधि के बाद चुकाना हो"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 (RBI/DOR/2025-26/164; DOR.STR.REC.83./21.04.048/2025-26; Updated as on October 01, 2026; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/164MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Commercial Banks पर लागू"
+            },
+            {
+              "ref": "पैरा 13",
+              "c": "31.12.2021 से मंज़ूर loans: agreement में किस्त की तारीख़ें, SMA / NPA के उदाहरण; मंज़ूरी के समय बताना; moratorium में शुरू होने की तारीख़"
+            },
+            {
+              "ref": "पैरा 30, 31 और Illustration I",
+              "c": "day-end process में overdue / SMA / NPA; 30 दिन SMA-1, 60 दिन SMA-2, उसके बाद NPA का उदाहरण"
+            },
+            {
+              "ref": "पैरा 42(1)",
+              "c": "term loan में ब्याज / किस्त 90 दिन से ज़्यादा overdue हो तो NPA"
+            },
+            {
+              "ref": "पैरा 69",
+              "c": "NPA खाता 'standard' तभी, जब ब्याज और मूलधन का पूरा बकाया चुके"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Commercial Banks पर लागू"
+            },
+            {
+              "ref": "पैरा 349",
+              "c": "EMI वाले personal loans: rate बदलने पर तुरंत सूचना; EMI / अवधि बढ़ाने या पहले चुकाने का विकल्प; fixed rate पर जाने का विकल्प bank की policy से"
+            },
+            {
+              "ref": "पैरा 351(1)",
+              "c": "penal charges, penal interest नहीं; उन पर ब्याज नहीं; बकाया ब्याज / EMI पर तय दर से ब्याज"
+            },
+            {
+              "ref": "पैरा 352, 353",
+              "c": "pre-payment charges: व्यक्तियों के निजी और व्यक्तियों / MSE के कारोबारी floating rate loan पर नहीं; term loan में सिर्फ़ पहले चुकाई रक़म पर; bank के कहने पर चुकाया तो नहीं"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nTerm Loan वह क़र्ज़ है, जो एक तय अवधि के बाद चुकाना होता है।[^1] RBI के नियमों के मुताबिक loan चुकाने की सही तारीख़ें, कितनी बार किस्त होगी, और मूलधन व ब्याज का हिस्सा loan agreement में लिखा होना चाहिए।[^2]\n\nCash credit या overdraft से फ़र्क़ यह है कि वहाँ सीमा के भीतर पैसा निकाला-जमा होता रहता है, जबकि term loan में RBI के NPA नियम किस्त या ब्याज के बकाया रहने के दिनों से चलते हैं।[^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **किस्त समय पर:** लगातार 30 दिन बकाया पर SMA-1, 60 दिन पर SMA-2, और 90 दिन से ज़्यादा पर NPA।[^2]\n- **NPA से वापसी:** पूरा बकाया ब्याज और मूलधन चुकाने पर ही खाता 'standard' होता है।[^2]\n- **पहले चुकाना:** कई floating rate loans पर pre-payment charge नहीं; बाक़ी term loans में charge सिर्फ़ पहले चुकाई जा रही रक़म पर।[^3]\n\n## किस्त छूटे तो क्या होता है | कैसे\n\n::flow\n\n- **तारीख़ कैसे गिनी जाती है:** overdue, SMA और NPA उसी दिन के day-end process में तय होते हैं।[^2]\n- **Penal charges:** देरी पर penal charge लग सकता है, penal interest नहीं, और उस पर ब्याज नहीं जुड़ता।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> 31 दिसंबर 2021 या उसके बाद मंज़ूर loan के agreement में किस्त की तारीख़ें और SMA / NPA की तारीख़ों के उदाहरण लिखे होने चाहिए, और मंज़ूरी के समय आपको बताए जाने चाहिए।[^2] Bank के कहने पर पहले चुकाया हो, तो कोई pre-payment charge नहीं।[^3]\n\n## अभी क्या करें\n\n- अपने loan agreement में किस्त की तारीख़ें और SMA / NPA के उदाहरण देखिए।[^2]\n- किस्त की तारीख़ से पहले खाते में पैसा रखिए; overdue उसी दिन के day-end से गिना जाता है।[^2]\n- Loan पहले चुकाना हो, तो sanction letter में pre-payment charge की शर्त देखिए।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
       "id": "ais",
       "term": "AIS",
       "aliases": [
