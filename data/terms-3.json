@@ -10693,6 +10693,249 @@
       "body": "## मतलब\n\nBusiness Correspondent (BC) वह व्यक्ति या संस्था है, जिसे bank financial inclusion के लिए, यानी ज़्यादा लोगों तक banking पहुँचाने के लिए, अपनी ओर से सेवाएँ देने को रखता है।[^1] PMJDY portal पर इसे 'Bank Mitra' भी कहा गया है।[^2]\n\nBC का हर retail outlet या sub-agent, bank के किसी एक Banking Outlet से जुड़ा होता है, जिसे bank के कर्मचारी चलाते हैं और जो उस पर नज़र रखता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ज़िम्मेदारी bank की:** BC और उसके outlet के कामों की पूरी ज़िम्मेदारी उस bank की है, जिसने BC रखा है।[^1]\n- **BC fee नहीं ले सकता:** BC को commission bank देता है; BC आपसे सीधे fee नहीं ले सकता। उचित service charge सिर्फ़ bank ले सकता है।[^1]\n- **Cash bank का:** BC को दिया cash bank का cash माना जाता है, और उसका बीमा bank की ज़िम्मेदारी है।[^1]\n\n## BC पर लेन-देन कैसे होता है | कैसे\n\n::flow\n\n- **रसीद:** cash देने पर BC को bank की ओर से रसीद देनी होती है।[^1]\n- **Offline लेन-देन:** offline हुए लेन-देन भी उसी दिन के अंत तक bank के खातों में दर्ज होने चाहिए।[^1]\n- **सीमा:** BC के पास cash रखने की, और एक ग्राहक के लेन-देन की, सीमाएँ bank और BC के समझौते में तय होती हैं।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> BC की सेवा से शिकायत हो, तो उस bank की शिकायत व्यवस्था में शिकायत कीजिए; bank को अपने Grievance Redressal Officer का नाम और नंबर बताना होता है। Bank शिकायत पूरी या आंशिक ठुकरा दे, आप जवाब से संतुष्ट न हों, या 30 दिन में जवाब न मिले, तो आप RBI Ombudsman के पास जा सकते हैं।[^1]\n\n## अभी क्या करें\n\n- BC के outlet पर लगा बोर्ड देखिए: किस bank का outlet है, शिकायत का नंबर और हर सेवा की fees।[^1]\n- Cash देने पर bank की ओर से रसीद, और लेन-देन की पुष्टि screen पर या slip से, ज़रूर लीजिए।[^1]\n- BC अलग से fee माँगे, तो मत दीजिए और bank से शिकायत कीजिए।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
+      "id": "regional-rural-bank",
+      "term": "Regional Rural Bank",
+      "aliases": [
+        "Regional Rural Banks",
+        "RRB",
+        "RRBs",
+        "क्षेत्रीय ग्रामीण बैंक"
+      ],
+      "full": "रीजनल रूरल बैंक · क्षेत्रीय ग्रामीण बैंक",
+      "fullEn": "Regional Rural Bank (RRB)",
+      "group": "बैंकिंग",
+      "created": "2026-10-15",
+      "verified": "2026-10-15",
+      "history": [
+        {
+          "d": "2026-10-15",
+          "t": "पन्ना बना। Regional Rural Banks Act, 1976 (2015 तक के संशोधनों वाला text, DFS की site से), DFS के RRB पन्ने और RRB की सूची, DICGC के FAQ, और Reserve Bank – Integrated Ombudsman Scheme, 2026 से जाँचा।"
+        }
+      ],
+      "one": "Regional Rural Bank (RRB) Regional Rural Banks Act, 1976 के तहत बना bank है, जिसका मक़सद गाँवों में छोटे किसानों, खेतिहर मज़दूरों, कारीगरों और छोटे उद्यमियों तक क़र्ज़ और दूसरी सुविधाएँ पहुँचाना है। DFS के मुताबिक अभी 28 राज्यों / UT में 28 RRB काम कर रहे हैं।",
+      "facts": [
+        {
+          "k": "कितने RRB",
+          "v": "28",
+          "s": "28 राज्य / UT में, DFS के मुताबिक"
+        },
+        {
+          "k": "शाखाएँ",
+          "v": "22,000+",
+          "s": "700 ज़िलों में, DFS के मुताबिक"
+        },
+        {
+          "k": "पूँजी (Act में)",
+          "v": "50 : 15 : 35",
+          "s": "केंद्र : राज्य : Sponsor Bank"
+        },
+        {
+          "k": "जमा बीमा",
+          "v": "₹5 लाख तक",
+          "s": "DICGC, हर जमाकर्ता, हर bank"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Sponsor Bank",
+            "s": "केंद्र सरकार से अनुरोध"
+          },
+          {
+            "t": "केंद्र सरकार",
+            "s": "Gazette notification"
+          },
+          {
+            "t": "Regional Rural Bank",
+            "s": "तय इलाक़े में काम"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "अनुरोध",
+            "s": "RRB बनाने का"
+          },
+          {
+            "b": "Notification",
+            "s": "नाम और इलाक़ा तय"
+          }
+        ],
+        "note": "Regional Rural Banks Act, 1976 की धारा 3 के मुताबिक केंद्र सरकार, Sponsor Bank के अनुरोध पर, Gazette notification से किसी राज्य या UT में RRB बनाती है और उसके काम का इलाक़ा (notified area) तय करती है। Sponsor Bank RRB की पूँजी में हिस्सा लेता है, उसके कर्मचारियों को training देता है, और तय बातों पर प्रबंधन और पैसों की मदद करता है।"
+      },
+      "myths": [
+        {
+          "m": "\"RRB पूरा bank नहीं है, इसमें पैसा कम सुरक्षित है।\"",
+          "f": "नहीं। Act की धारा 18 के मुताबिक हर RRB, Banking Regulation Act, 1949 वाला banking का कारोबार करता है।[^3] DICGC के FAQ के मुताबिक regional rural banks भी DICGC से insured हैं, और हर जमाकर्ता की जमा एक bank में ₹5 लाख तक insured है।[^4]"
+        },
+        {
+          "m": "\"RRB सिर्फ़ किसानों को loan देता है।\"",
+          "f": "नहीं। Act की धारा 18 के मुताबिक RRB ख़ास तौर पर छोटे और सीमांत किसानों और खेतिहर मज़दूरों को, और कारीगरों, छोटे उद्यमियों और व्यापार, उद्योग या दूसरे कमाई वाले काम करने वाले कम साधन वाले लोगों को भी loan दे सकता है।[^3]"
+        },
+        {
+          "m": "\"RRB अपने Sponsor Bank की ही एक शाखा है।\"",
+          "f": "नहीं। Act की धारा 3 के मुताबिक हर RRB अपने आप में एक अलग body corporate है, जो अपने नाम से अनुबंध कर सकता है और मुक़दमा कर या झेल सकता है। Sponsor Bank का काम उसकी पूँजी में हिस्सा लेना, training देना और मदद करना है।[^3]"
+        },
+        {
+          "m": "\"RRB का merger हुआ तो मेरी जमा या loan ख़त्म।\"",
+          "f": "नहीं। Act की धारा 23B के मुताबिक merger का notification जमाकर्ताओं और लेनदारों पर भी लागू होता है, और पुराने RRB का कारोबार, संपत्ति और देनदारियाँ नए RRB में चली जाती हैं। पुराने RRB के नाम वाले काग़ज़ों में उसकी जगह नया RRB माना जाता है।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "RRB कब और क्यों शुरू हुए?",
+          "a": "DFS के मुताबिक RRB इसलिए बनाए गए, ताकि खेती और गाँव के लिए सहकारी क़र्ज़ ढाँचे के अलावा संस्थागत क़र्ज़ का एक और रास्ता हो। 1975 में 5 RRB से शुरुआत हुई; पहला RRB 2 अक्टूबर 1975 को, 26 सितंबर 1975 के अध्यादेश के तहत बना।[^1] Act ख़ुद 26 सितंबर 1975 से लागू माना गया है।[^3]"
+        },
+        {
+          "q": "Sponsor Bank क्या होता है?",
+          "a": "वह bank जिसने RRB को sponsor किया है। Act की धारा 3(3) के मुताबिक Sponsor Bank का काम है RRB की पूँजी में हिस्सा लेना, उसके कर्मचारियों को training देना, और आपसी सहमति से प्रबंधन और पैसों की मदद करना।[^3]"
+        },
+        {
+          "q": "RRB की पूँजी किसकी है?",
+          "a": "Act की धारा 6(2) के मुताबिक जारी पूँजी का 50% केंद्र सरकार, 15% संबंधित राज्य सरकार और 35% Sponsor Bank देता है। धारा 6(2A) के मुताबिक केंद्र सरकार, Sponsor Bank और राज्य सरकार से सलाह करके, notification से यह हिस्सा बदल सकती है; और बाहर से पूँजी जुटाने पर भी केंद्र सरकार और Sponsor Bank का मिलाकर हिस्सा 51% से कम नहीं हो सकता।[^3]"
+        },
+        {
+          "q": "उत्तर प्रदेश में कौन-सा RRB है?",
+          "a": "DFS की सूची के मुताबिक उत्तर प्रदेश में Uttar Pradesh Gramin Bank है, जिसका मुख्यालय लखनऊ में है और Sponsor Bank, Bank of Baroda है।[^2]"
+        },
+        {
+          "q": "अपने राज्य का RRB कैसे पता करें?",
+          "a": "DFS की 'List of Regional Rural Banks functioning in the country' में हर RRB का नाम, राज्य / UT, मुख्यालय, Sponsor Bank और website दी है।[^2]"
+        },
+        {
+          "q": "RRB की शिकायत कहाँ करें?",
+          "a": "Reserve Bank – Integrated Ombudsman Scheme, 2026 Regional Rural Banks पर भी लागू है। पहले उसी RRB से लिखित या किसी और तरीक़े से शिकायत कीजिए, जिसका सबूत रहे। 30 दिन में जवाब न मिले, या जवाब से संतुष्ट न हों, तो RBI Ombudsman के पास शिकायत कर सकते हैं।[^5]"
+        },
+        {
+          "q": "RRB का merger कौन करता है?",
+          "a": "Act की धारा 23A के मुताबिक केंद्र सरकार, NABARD, राज्य सरकार और Sponsor Bank से सलाह करके, Gazette notification से दो या ज़्यादा RRB को मिलाकर एक RRB बना सकती है। Notification में merger लागू होने की तारीख़ लिखी होती है।[^3]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Commercial Bank"
+        },
+        {
+          "t": "Co-operative Bank"
+        },
+        {
+          "t": "Small Finance Bank"
+        },
+        {
+          "t": "Local Area Bank"
+        },
+        {
+          "t": "DICGC"
+        },
+        {
+          "t": "RBI Ombudsman"
+        },
+        {
+          "t": "Banking Regulation Act"
+        },
+        {
+          "t": "Business Correspondent"
+        },
+        {
+          "t": "Mudra Loan"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Department of Financial Services (वित्त मंत्रालय) — Regional Rural Banks (पन्ने पर तारीख़ नहीं है; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://financialservices.gov.in/regional-rural-banks-0",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "RRB Act, 1976 के तहत; सहकारी क़र्ज़ ढाँचे के अलावा दूसरा रास्ता; 1975 में 5 RRB; पहला RRB 2 अक्टूबर 1975, 26 सितंबर 1975 के अध्यादेश से"
+            },
+            {
+              "ref": "दूसरा पैरा",
+              "c": "अभी 28 RRB, 28 राज्य / UT में; 22,000 से ज़्यादा शाखाएँ, 700 ज़िलों में"
+            }
+          ]
+        },
+        {
+          "label": "Department of Financial Services — List of Regional Rural Banks functioning in the country (पन्ने पर तारीख़ नहीं है; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "क्रम 26",
+              "c": "Uttar Pradesh Gramin Bank; मुख्यालय लखनऊ; Sponsor Bank: Bank of Baroda"
+            },
+            {
+              "ref": "पूरी सूची",
+              "c": "28 RRB: नाम, राज्य / UT, मुख्यालय, Sponsor Bank, website"
+            }
+          ]
+        },
+        {
+          "label": "The Regional Rural Banks Act, 1976 (Act No. 21 of 1976; 2015 के संशोधन, Act 14 of 2015 तक का text, DFS की site पर PDF; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://financialservices.gov.in/dfs/sites/default/files/2026-01/Regional-Rural-Banks-Act-1976-7.pdf",
+          "issued": "1976-02-09",
+          "effective": "1975-09-26",
+          "used": [
+            {
+              "ref": "धारा 1(3)",
+              "c": "26 सितंबर 1975 से लागू माना गया"
+            },
+            {
+              "ref": "धारा 3(1), 3(2), 3(3)",
+              "c": "Sponsor Bank के अनुरोध पर केंद्र सरकार notification से RRB बनाती है; अलग body corporate; Sponsor Bank की ज़िम्मेदारियाँ"
+            },
+            {
+              "ref": "धारा 6(2), 6(2A)",
+              "c": "पूँजी 50% केंद्र, 15% राज्य, 35% Sponsor Bank; notification से बदलाव; केंद्र + Sponsor Bank कम से कम 51%"
+            },
+            {
+              "ref": "धारा 18",
+              "c": "banking का कारोबार; छोटे / सीमांत किसान, खेतिहर मज़दूर, कारीगर, छोटे उद्यमी"
+            },
+            {
+              "ref": "धारा 23A, 23B",
+              "c": "merger केंद्र सरकार के notification से; जमाकर्ताओं पर लागू; संपत्ति और देनदारियाँ नए RRB में"
+            }
+          ]
+        },
+        {
+          "label": "DICGC — FAQs, Depositors (पन्ने पर तारीख़ नहीं है; सवालों पर नंबर नहीं, ऊपर से गिने गए; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.dicgc.org.in/FAQs",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 1",
+              "c": "regional rural banks भी DICGC से insured"
+            },
+            {
+              "ref": "सवाल 3",
+              "c": "हर जमाकर्ता, एक bank में, ₹5,00,000 तक (मूल और ब्याज)"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank – Integrated Ombudsman Scheme, 2026 (scheme का पूरा पाठ; 1 जुलाई 2026 से लागू; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/SCHEME16012026_A.pdf",
+          "issued": "",
+          "effective": "2026-07-01",
+          "used": [
+            {
+              "ref": "खंड 1(3)(a)",
+              "c": "scheme Regional Rural Banks की सेवाओं पर भी लागू"
+            },
+            {
+              "ref": "खंड 10(1)(e), (f)",
+              "c": "पहले bank से शिकायत; 30 दिन में जवाब न मिले या जवाब से संतुष्ट न हों, तब RBI Ombudsman"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRegional Rural Bank (RRB) Regional Rural Banks Act, 1976 के तहत बना bank है। Act का मक़सद गाँवों में खेती, व्यापार, उद्योग और दूसरे कमाई वाले कामों के लिए क़र्ज़ और दूसरी सुविधाएँ देना है, ख़ास तौर पर छोटे और सीमांत किसानों, खेतिहर मज़दूरों, कारीगरों और छोटे उद्यमियों को।[^3]\n\nDFS के मुताबिक अभी 28 RRB, 28 राज्यों / UT में काम कर रहे हैं, और इनकी 22,000 से ज़्यादा शाखाएँ 700 ज़िलों में हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पूरा bank:** RRB, Banking Regulation Act, 1949 में बताया गया banking का कारोबार करता है।[^3]\n- **जमा का बीमा:** DICGC के मुताबिक regional rural banks भी insured हैं; हर जमाकर्ता की एक bank में जमा ₹5 लाख तक insured है।[^4]\n- **क़र्ज़ किसे:** ख़ास तौर पर छोटे किसान, खेतिहर मज़दूर, कारीगर, छोटे उद्यमी और छोटे व्यापारी।[^3]\n\n## RRB कैसे बनता और चलता है | कैसे\n\n::flow\n\n- **पूँजी:** Act के मुताबिक 50% केंद्र सरकार, 15% राज्य सरकार, 35% Sponsor Bank; केंद्र सरकार notification से यह हिस्सा बदल सकती है।[^3]\n- **इलाक़ा:** हर RRB अपने notified area में काम करता है, और उसी इलाक़े में शाखाएँ खोल सकता है।[^3]\n- **Merger:** केंद्र सरकार notification से दो या ज़्यादा RRB को मिला सकती है।[^3]\n\n## उत्तर प्रदेश और दूसरे राज्य | राज्य\n\n- **उत्तर प्रदेश:** Uttar Pradesh Gramin Bank; मुख्यालय लखनऊ; Sponsor Bank: Bank of Baroda।[^2]\n- **हर राज्य की सूची:** DFS की सूची में सभी 28 RRB का नाम, मुख्यालय, Sponsor Bank और website है।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> RRB का merger हो, तो Act के मुताबिक पुराने RRB की देनदारियाँ, यानी आपकी जमा भी, नए RRB में चली जाती हैं, और पुराने RRB के साथ हुए काग़ज़ों में उसकी जगह नया RRB माना जाता है।[^3] आपकी जमा DICGC से ₹5 लाख तक insured है।[^4] RRB की सेवा से शिकायत हो, तो पहले उसी bank से शिकायत कीजिए; 30 दिन में जवाब न मिले या जवाब से संतुष्ट न हों, तो RBI Ombudsman के पास जा सकते हैं।[^5]\n\n## अभी क्या करें\n\n- अपने राज्य का RRB, उसकी website और Sponsor Bank DFS की सूची में देखिए।[^2]\n- RRB के merger की ख़बर आए, तो पासबुक और FD रसीद संभालकर रखिए; Act के मुताबिक आपकी जमा नए RRB में चली जाती है।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
       "id": "ais",
       "term": "AIS",
       "aliases": [
