@@ -11140,6 +11140,209 @@
       "body": "## मतलब\n\nOverdraft (OD) एक क़र्ज़ की सुविधा (credit facility) है। इसमें bank एक तय सीमा, यानी sanctioned limit या drawing power, देता है, और आप उस सीमा के भीतर ज़रूरत के हिसाब से पैसा निकालते और जमा करते रहते हैं।[^1][^2]\n\nRBI के नियमों में OD और cash credit (CC) के खाते साथ-साथ गिने जाते हैं: 'out of order', NPA, penal charges और पहले बंद करने के charge के नियम दोनों पर लागू हैं।[^1][^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **सीमा में रहिए:** बकाया लगातार 90 दिन सीमा से ऊपर रहा, तो खाता 'out of order' और फिर NPA हो जाता है।[^1]\n- **जमा करते रहिए:** बकाया सीमा के भीतर हो, तब भी 90 दिन कोई जमा न आए, या जमा लगे हुए ब्याज जितनी भी न हो, तो खाता 'out of order' हो जाता है।[^1]\n- **Renewal पर नज़र:** सीमा तय तारीख़ से 180 दिन के भीतर review / renew न हुई, तो भी खाता NPA माना जाता है।[^1]\n\n## OD कैसे चलता है | कैसे\n\n::flow\n\n- **Penal charges:** चूक पर penal charge लग सकता है, पर penal interest के रूप में नहीं, और उस पर ब्याज नहीं जुड़ता।[^2]\n- **पहले बंद करना:** 1 जनवरी 2026 से मंज़ूर या renew हुई CC / OD सुविधा पर, पहले बंद करने का charge sanctioned limit से ज़्यादा रक़म पर नहीं लग सकता।[^2]\n\n## Jan Dhan खाते का OD | Jan Dhan\n\n- **सीमा:** ₹5,000 से बढ़ाकर ₹10,000।[^3]\n- **₹2,000 तक:** कोई शर्त नहीं।[^3]\n- **उम्र:** 18 से 65 साल।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Penal charge की रक़म और कारण loan agreement और KFS में पहले से साफ़ लिखे होने चाहिए, और जब भी penal charge लगे, उसका कारण आपको बताया जाना चाहिए। 1 जनवरी 2026 से मंज़ूर या renew हुई OD सुविधा पर, अगर आप agreement में तय समय से पहले bank को बता दें कि renew नहीं कराना, और सुविधा तय तारीख़ पर बंद हो, तो कोई pre-payment charge नहीं।[^2]\n\n## अभी क्या करें\n\n- अपने OD की sanctioned limit, renewal की तारीख़ और penal charges, sanction letter और KFS में देखिए।[^1][^2]\n- बकाया को सीमा के भीतर रखिए और समय-समय पर इतना जमा करते रहिए कि कम से कम लगा ब्याज ढक जाए।[^1]\n- OD आगे नहीं चाहिए, तो agreement में तय समय से पहले bank को लिखकर बता दीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
+      "id": "cash-credit",
+      "term": "Cash Credit",
+      "aliases": [
+        "Cash Credit facility",
+        "Cash Credit account",
+        "कैश क्रेडिट"
+      ],
+      "full": "कैश क्रेडिट · तय सीमा तक चलने वाला क़र्ज़ खाता",
+      "fullEn": "Cash Credit (CC)",
+      "group": "क़र्ज़",
+      "created": "2026-10-15",
+      "verified": "2026-10-15",
+      "history": [
+        {
+          "d": "2026-10-15",
+          "t": "पन्ना बना। RBI की Commercial Banks के लिए Income Recognition, Asset Classification and Provisioning Directions, 2025 और Responsible Business Conduct Directions, 2025 (दोनों 1 अक्टूबर 2026 तक updated), और MUDRA के FAQ से जाँचा।"
+        }
+      ],
+      "one": "Cash Credit (CC) bank की क़र्ज़ सुविधा है, जिसमें एक तय सीमा (sanctioned limit / drawing power) तक पैसा निकाला और जमा किया जाता है। RBI के नियमों में CC और Overdraft खातों के लिए 'out of order' और NPA के नियम एक जैसे हैं, और working capital खातों में drawing power ताज़ा stock statement से तय होती है।",
+      "facts": [
+        {
+          "k": "'Out of order'",
+          "v": "90 दिन",
+          "s": "सीमा से ऊपर, या जमा नहीं, या ब्याज जितनी जमा नहीं"
+        },
+        {
+          "k": "Stock statement",
+          "v": "3 महीने तक",
+          "s": "इससे पुराने पर बकाया 'irregular'"
+        },
+        {
+          "k": "सीमा का review",
+          "v": "180 दिन",
+          "s": "तय तारीख़ से इतने में न हुआ तो NPA"
+        },
+        {
+          "k": "ठगी में देनदारी",
+          "v": "₹10,000 तक",
+          "s": "system की ग़लती, 4–7 working day में बताने पर; MSME / ₹25 लाख तक वाले व्यक्ति"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank सीमा मंज़ूर करता है",
+            "s": "sanctioned limit"
+          },
+          {
+            "t": "Stock statement",
+            "s": "उससे drawing power"
+          },
+          {
+            "t": "निकासी और जमा",
+            "s": "drawing power के भीतर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Current assets",
+            "s": "stock वग़ैरह"
+          },
+          {
+            "b": "लगातार",
+            "s": "जमा भी, निकासी भी"
+          }
+        ],
+        "note": "RBI के नियमों के मुताबिक working capital खातों में निकासी current assets से ढकी होनी चाहिए, और drawing power ताज़ा stock statement से तय होती है। बड़े borrowers की दिक़्क़तों को देखते हुए भी stock statement 3 महीने से पुराना नहीं होना चाहिए; उससे पुराने statement पर निकली drawing power वाला बकाया 'irregular' माना जाता है।"
+      },
+      "myths": [
+        {
+          "m": "\"CC की limit मंज़ूर है, तो पूरी रक़म कभी भी निकाल सकते हैं।\"",
+          "f": "नहीं। RBI के नियमों के मुताबिक working capital खाते में निकासी current assets से ढकी होनी चाहिए, और drawing power ताज़ा stock statement से तय होती है। 3 महीने से पुराने stock statement पर आधारित बकाया 'irregular' माना जाता है।[^1]"
+        },
+        {
+          "m": "\"Limit renew न कराई, तो भी खाता वैसे ही चलता रहेगा।\"",
+          "f": "नहीं। RBI के नियमों के मुताबिक regular और ad hoc सीमाएँ तय तारीख़ से 3 महीने के भीतर review होनी चाहिए, और तय तारीख़ से 180 दिन में review / renew न हुई, तो खाता NPA माना जाता है।[^1]"
+        },
+        {
+          "m": "\"CC में चूक पर ब्याज दर बढ़ाकर penal interest लगेगा।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक cash credit पर भी penal charges लगते हैं, penal interest नहीं, और उन पर आगे ब्याज नहीं जोड़ा जाता।[^2]"
+        },
+        {
+          "m": "\"CC पहले बंद किया तो पूरी limit पर charge लगेगा।\"",
+          "f": "नहीं। 1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुई cash credit / overdraft सुविधा को पहले बंद करने पर charge sanctioned limit से ज़्यादा रक़म पर नहीं लग सकता। Agreement में तय समय से पहले non-renewal बता दें और सुविधा तय तारीख़ पर बंद हो, तो कोई charge नहीं।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CC खाता 'out of order' कब होता है?",
+          "a": "RBI के नियमों के मुताबिक तीन में से कोई एक बात हो तो: बकाया लगातार 90 दिन sanctioned limit / drawing power से ऊपर रहे; या बकाया सीमा से कम हो पर 90 दिन लगातार कोई जमा न आए; या बकाया सीमा से कम हो पर पिछले 90 दिन की जमा उस दौरान लगे ब्याज को भी पूरा न करे।[^1]"
+        },
+        {
+          "q": "CC खाता NPA कब बनता है?",
+          "a": "RBI के नियमों के मुताबिक जब खाता 'out of order' रहे; जब working capital खाते में लगातार 90 दिन irregular निकासी होने दी जाए, भले कारोबार चल रहा हो; या जब सीमा तय तारीख़ से 180 दिन में review / renew न हो।[^1]"
+        },
+        {
+          "q": "Stock statement इतना ज़रूरी क्यों है?",
+          "a": "क्योंकि RBI के नियमों के मुताबिक working capital खाते की drawing power ताज़ा stock statement से तय होती है। 3 महीने से पुराने statement पर आधारित बकाया 'irregular' माना जाता है।[^1]"
+        },
+        {
+          "q": "CC खाते से online ठगी हो जाए तो?",
+          "a": "RBI के निर्देशों के मुताबिक अगर ग़लती न bank की हो, न आपकी, बल्कि system में कहीं और की हो, और आप 4 से 7 working day के भीतर bank को बता दें, तो हर लेन-देन पर आपकी देनदारी लेन-देन की रक़म या इस सीमा तक, जो कम हो: MSME के, या ₹25 लाख तक के औसत balance / limit वाले व्यक्तियों के CC खाते में ₹10,000, और बाक़ी CC खातों में ₹25,000।[^2]"
+        },
+        {
+          "q": "Mudra Card में CC का क्या रोल है?",
+          "a": "MUDRA के FAQ के मुताबिक Mudra Card, working capital के लिए CC / OD के रूप में सुविधा देता है। पैसा बचे तो जब चाहें लौटाया जा सकता है, जिससे ब्याज का ख़र्च घटता है।[^3]"
+        },
+        {
+          "q": "ये नियम किन banks पर लागू हैं?",
+          "a": "यहाँ लिखे RBI के दोनों निर्देश Commercial Banks के लिए हैं; इनकी परिभाषा में Small Finance Banks, Payments Banks और Local Area Banks शामिल नहीं हैं।[^1][^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Overdraft"
+        },
+        {
+          "t": "Mudra Loan"
+        },
+        {
+          "t": "Current Account"
+        },
+        {
+          "t": "Prepayment"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "Net Banking"
+        },
+        {
+          "t": "Regional Rural Bank"
+        },
+        {
+          "t": "Business Correspondent"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 (RBI/DOR/2025-26/164; DOR.STR.REC.83./21.04.048/2025-26; Updated as on October 01, 2026; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/164MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Commercial Banks पर लागू; SFB, Payment Banks, LAB इस परिभाषा में नहीं"
+            },
+            {
+              "ref": "पैरा 5(7)",
+              "c": "CC / OD 'out of order' की तीन शर्तें (90 दिन)"
+            },
+            {
+              "ref": "पैरा 15, 16",
+              "c": "working capital: निकासी current assets से ढकी; drawing power ताज़ा stock statement से; 3 महीने से पुराना statement तो बकाया irregular; सीमा 3 महीने में review"
+            },
+            {
+              "ref": "पैरा 42(2), 42(3), 42(5)",
+              "c": "NPA: 'out of order' CC / OD; 90 दिन लगातार irregular निकासी; सीमा 180 दिन में review / renew नहीं"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Commercial Banks पर लागू"
+            },
+            {
+              "ref": "पैरा 68(2), Table 1",
+              "c": "4–7 working day में बताने पर देनदारी: MSME और ₹25 लाख तक वाले व्यक्तियों के CC खाते ₹10,000; बाक़ी CC खाते ₹25,000"
+            },
+            {
+              "ref": "पैरा 351",
+              "c": "penal charges cash credit पर भी; penal interest नहीं; उन पर ब्याज नहीं"
+            },
+            {
+              "ref": "पैरा 353(5), 353(6)",
+              "c": "1 जनवरी 2026 से: CC / OD पहले बंद करने पर charge sanctioned limit से ज़्यादा पर नहीं; समय पर non-renewal बताने पर charge नहीं"
+            }
+          ]
+        },
+        {
+          "label": "MUDRA (Micro Units Development & Refinance Agency Ltd.) — FAQ पन्ना (पन्ने पर तारीख़ नहीं; सवाल अंग्रेज़ी सवालों के नंबर से; 15 अक्टूबर 2026 को फिर पढ़ा)",
+          "url": "https://www.mudra.org.in/FAQ",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 21",
+              "c": "Mudra Card: working capital के लिए CC / OD; पैसा बचने पर लौटाकर ब्याज घटाना"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCash Credit (CC) bank की क़र्ज़ सुविधा (credit facility) है। इसमें bank एक सीमा, यानी sanctioned limit / drawing power, तय करता है, और उसके भीतर पैसा निकाला और जमा किया जाता है।[^1][^2]\n\nRBI के नियमों में CC और Overdraft (OD) खातों के लिए 'out of order', NPA, penal charges और पहले बंद करने के charge के नियम एक जैसे हैं।[^1][^2] MUDRA के FAQ में Mudra Card को working capital के लिए CC / OD की सुविधा बताया गया है।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Stock statement समय पर दीजिए:** drawing power ताज़ा stock statement से तय होती है; 3 महीने से पुराने statement पर बकाया 'irregular' माना जाता है।[^1]\n- **सीमा में रहिए और जमा करते रहिए:** 90 दिन वाली शर्तें टूटीं, तो खाता 'out of order' और फिर NPA हो जाता है।[^1]\n- **Renewal पर नज़र:** सीमा तय तारीख़ से 180 दिन में review / renew न हुई, तो खाता NPA माना जाता है।[^1]\n\n## CC कैसे चलता है | कैसे\n\n::flow\n\n- **Penal charges:** चूक पर penal charge लग सकता है, penal interest नहीं, और उस पर ब्याज नहीं जुड़ता।[^2]\n- **पहले बंद करना:** 1 जनवरी 2026 से मंज़ूर या renew हुई CC पर charge sanctioned limit से ज़्यादा रक़म पर नहीं।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Penal charge की रक़म और कारण loan agreement और KFS में पहले से लिखे होने चाहिए, और हर बार लगने पर कारण बताया जाना चाहिए।[^2] CC खाते से online ठगी हो, ग़लती न bank की हो न आपकी बल्कि system में कहीं और की हो, और आप 4 से 7 working day में bank को बता दें, तो आपकी देनदारी हर लेन-देन पर ₹10,000 या ₹25,000 तक सीमित है, खाते के प्रकार के हिसाब से।[^2]\n\n## अभी क्या करें\n\n- अपनी CC की sanctioned limit, renewal की तारीख़ और penal charges, sanction letter और KFS में देखिए।[^1][^2]\n- Stock statement हर बार समय पर दीजिए, ताकि drawing power ताज़ा रहे।[^1]\n- CC आगे नहीं चाहिए, तो agreement में तय समय से पहले bank को लिखकर बता दीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
       "id": "ais",
       "term": "AIS",
       "aliases": [
