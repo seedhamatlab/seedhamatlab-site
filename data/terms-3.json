@@ -10936,6 +10936,210 @@
       "body": "## मतलब\n\nRegional Rural Bank (RRB) Regional Rural Banks Act, 1976 के तहत बना bank है। Act का मक़सद गाँवों में खेती, व्यापार, उद्योग और दूसरे कमाई वाले कामों के लिए क़र्ज़ और दूसरी सुविधाएँ देना है, ख़ास तौर पर छोटे और सीमांत किसानों, खेतिहर मज़दूरों, कारीगरों और छोटे उद्यमियों को।[^3]\n\nDFS के मुताबिक अभी 28 RRB, 28 राज्यों / UT में काम कर रहे हैं, और इनकी 22,000 से ज़्यादा शाखाएँ 700 ज़िलों में हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पूरा bank:** RRB, Banking Regulation Act, 1949 में बताया गया banking का कारोबार करता है।[^3]\n- **जमा का बीमा:** DICGC के मुताबिक regional rural banks भी insured हैं; हर जमाकर्ता की एक bank में जमा ₹5 लाख तक insured है।[^4]\n- **क़र्ज़ किसे:** ख़ास तौर पर छोटे किसान, खेतिहर मज़दूर, कारीगर, छोटे उद्यमी और छोटे व्यापारी।[^3]\n\n## RRB कैसे बनता और चलता है | कैसे\n\n::flow\n\n- **पूँजी:** Act के मुताबिक 50% केंद्र सरकार, 15% राज्य सरकार, 35% Sponsor Bank; केंद्र सरकार notification से यह हिस्सा बदल सकती है।[^3]\n- **इलाक़ा:** हर RRB अपने notified area में काम करता है, और उसी इलाक़े में शाखाएँ खोल सकता है।[^3]\n- **Merger:** केंद्र सरकार notification से दो या ज़्यादा RRB को मिला सकती है।[^3]\n\n## उत्तर प्रदेश और दूसरे राज्य | राज्य\n\n- **उत्तर प्रदेश:** Uttar Pradesh Gramin Bank; मुख्यालय लखनऊ; Sponsor Bank: Bank of Baroda।[^2]\n- **हर राज्य की सूची:** DFS की सूची में सभी 28 RRB का नाम, मुख्यालय, Sponsor Bank और website है।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> RRB का merger हो, तो Act के मुताबिक पुराने RRB की देनदारियाँ, यानी आपकी जमा भी, नए RRB में चली जाती हैं, और पुराने RRB के साथ हुए काग़ज़ों में उसकी जगह नया RRB माना जाता है।[^3] आपकी जमा DICGC से ₹5 लाख तक insured है।[^4] RRB की सेवा से शिकायत हो, तो पहले उसी bank से शिकायत कीजिए; 30 दिन में जवाब न मिले या जवाब से संतुष्ट न हों, तो RBI Ombudsman के पास जा सकते हैं।[^5]\n\n## अभी क्या करें\n\n- अपने राज्य का RRB, उसकी website और Sponsor Bank DFS की सूची में देखिए।[^2]\n- RRB के merger की ख़बर आए, तो पासबुक और FD रसीद संभालकर रखिए; Act के मुताबिक आपकी जमा नए RRB में चली जाती है।[^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
+      "id": "overdraft",
+      "term": "Overdraft",
+      "aliases": [
+        "Overdrafts",
+        "Overdraft facility",
+        "ओवरड्राफ्ट"
+      ],
+      "full": "ओवरड्राफ्ट · तय सीमा तक खाते से पैसा निकालने की क़र्ज़ सुविधा",
+      "fullEn": "Overdraft (OD)",
+      "group": "क़र्ज़",
+      "created": "2026-10-15",
+      "verified": "2026-10-15",
+      "history": [
+        {
+          "d": "2026-10-15",
+          "t": "पन्ना बना। RBI की Commercial Banks के लिए Income Recognition, Asset Classification and Provisioning Directions, 2025 और Responsible Business Conduct Directions, 2025 (दोनों 1 अक्टूबर 2026 तक updated), और PMJDY के 'Continuation of PMJDY' दस्तावेज़ से जाँचा।"
+        }
+      ],
+      "one": "Overdraft (OD) एक क़र्ज़ की सुविधा है, जिसमें bank एक तय सीमा (sanctioned limit) देता है और आप उस सीमा तक पैसा निकाल सकते हैं। RBI के नियमों में OD खाता 90 दिन की कुछ शर्तों पर 'out of order' माना जाता है, और 'out of order' रहने पर वह NPA हो जाता है।",
+      "facts": [
+        {
+          "k": "'Out of order'",
+          "v": "90 दिन",
+          "s": "सीमा से ऊपर, या जमा नहीं, या ब्याज जितनी जमा नहीं"
+        },
+        {
+          "k": "चूक पर",
+          "v": "Penal charges",
+          "s": "penal interest नहीं; उन पर ब्याज नहीं",
+          "good": true
+        },
+        {
+          "k": "Jan Dhan OD",
+          "v": "₹10,000 तक",
+          "s": "₹2,000 तक बिना शर्त; उम्र 18–65"
+        },
+        {
+          "k": "नाबालिग का खाता",
+          "v": "OD नहीं",
+          "s": "हमेशा credit balance में रहे"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank सीमा तय करता है",
+            "s": "sanctioned limit / drawing power"
+          },
+          {
+            "t": "आप पैसा निकालते हैं",
+            "s": "उस सीमा के भीतर"
+          },
+          {
+            "t": "आप पैसा जमा करते हैं",
+            "s": "कम से कम लगा ब्याज ढके"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "निकासी",
+            "s": "ज़रूरत के हिसाब से"
+          },
+          {
+            "b": "जमा",
+            "s": "लगातार"
+          }
+        ],
+        "note": "RBI के नियमों के मुताबिक OD खाता 'out of order' माना जाता है, अगर: बकाया लगातार 90 दिन sanctioned limit / drawing power से ऊपर रहे; या बकाया सीमा से कम हो पर 90 दिन लगातार कोई जमा न आए; या बकाया सीमा से कम हो पर पिछले 90 दिन की जमा, उस दौरान लगे ब्याज जितनी भी न हो।"
+      },
+      "myths": [
+        {
+          "m": "\"OD में सीमा से ऊपर भी जितना चाहे निकाल सकते हैं, कोई फ़र्क़ नहीं पड़ता।\"",
+          "f": "नहीं। RBI के नियमों के मुताबिक बकाया लगातार 90 दिन sanctioned limit / drawing power से ऊपर रहे, तो खाता 'out of order' हो जाता है, और 'out of order' OD खाता NPA माना जाता है।[^1]"
+        },
+        {
+          "m": "\"OD में चूक हुई तो bank ब्याज दर बढ़ाकर penal interest लगाएगा।\"",
+          "f": "नहीं। RBI के निर्देशों के मुताबिक penal charges, cash credit और overdraft पर भी लागू नियमों में, 'penal interest' के रूप में नहीं लगते, और उन पर आगे ब्याज भी नहीं जोड़ा जाता। Bank ब्याज दर में कोई अलग हिस्सा नहीं जोड़ सकता।[^2]"
+        },
+        {
+          "m": "\"OD पहले बंद किया तो पूरी सीमा पर charge लगेगा।\"",
+          "f": "नहीं। 1 जनवरी 2026 या उसके बाद मंज़ूर या renew हुई cash credit / overdraft सुविधा को तय तारीख़ से पहले बंद करने पर charge, sanctioned limit से ज़्यादा रक़म पर नहीं लग सकता। और अगर आपने agreement में तय समय से पहले bank को बता दिया कि renew नहीं कराना है, और सुविधा तय तारीख़ पर बंद हो, तो कोई pre-payment charge नहीं।[^2]"
+        },
+        {
+          "m": "\"Jan Dhan खाते में overdraft सिर्फ़ ₹5,000 तक है।\"",
+          "f": "नहीं। 'Continuation of PMJDY' दस्तावेज़ के मुताबिक OD की सीमा ₹5,000 से बढ़ाकर ₹10,000 की गई; ₹2,000 तक के OD पर कोई शर्त नहीं, और उम्र सीमा 18 से 65 साल है।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "OD खाता 'out of order' कब होता है?",
+          "a": "RBI के नियमों के मुताबिक तीन में से कोई एक बात हो तो: (1) बकाया लगातार 90 दिन sanctioned limit / drawing power से ऊपर रहे; (2) बकाया सीमा से कम हो, पर 90 दिन लगातार कोई जमा न आए; (3) बकाया सीमा से कम हो, पर पिछले 90 दिन की जमा उस दौरान लगे ब्याज को भी पूरा न करे। यह परिभाषा उन OD पर भी लागू है, जो कारोबार के लिए नहीं हैं।[^1]"
+        },
+        {
+          "q": "OD खाता NPA कब बनता है?",
+          "a": "RBI के नियमों के मुताबिक जब OD / cash credit खाता 'out of order' रहे। साथ ही, जिस खाते की regular या ad hoc सीमा तय तारीख़ से 180 दिन के भीतर review / renew न हो, वह भी NPA माना जाता है।[^1]"
+        },
+        {
+          "q": "OD पर penal charges के नियम क्या हैं?",
+          "a": "RBI के निर्देशों के मुताबिक penal charges, penal interest के रूप में नहीं लगते; उन पर ब्याज नहीं जुड़ता; और पुराने penal charges पर नया penal charge नहीं लगता। रक़म और कारण loan agreement और KFS में पहले से साफ़ बताए जाने चाहिए, और जब भी penal charge लगे, उसका कारण भी बताया जाना चाहिए।[^2]"
+        },
+        {
+          "q": "छोटा OD बिना ज़मानत मिल सकता है?",
+          "a": "RBI के निर्देशों के मुताबिक जिन ग्राहकों का लेन-देन संतोषजनक रहा है, उन्हें branch manager अपने विवेक से छोटी रक़म का clean overdraft दे सकता है, और bank इसके लिए योजना बना सकता है। यानी यह bank और branch manager के फ़ैसले पर है, हक़ नहीं।[^2]"
+        },
+        {
+          "q": "नाबालिग के खाते में OD मिल सकता है?",
+          "a": "नहीं। RBI के निर्देशों के मुताबिक नाबालिग का खाता, चाहे वह ख़ुद चलाए या guardian, overdraw नहीं होने दिया जाता और हमेशा credit balance में रहना चाहिए।[^2]"
+        },
+        {
+          "q": "ये नियम किन banks पर लागू हैं?",
+          "a": "यहाँ लिखे RBI के दोनों निर्देश Commercial Banks के लिए हैं; इनकी परिभाषा में Small Finance Banks, Payments Banks और Local Area Banks शामिल नहीं हैं।[^1][^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Jan Dhan (PMJDY)"
+        },
+        {
+          "t": "Prepayment"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "Current Account"
+        },
+        {
+          "t": "Minor (नाबालिग)"
+        },
+        {
+          "t": "Debit Card"
+        },
+        {
+          "t": "Mudra Loan"
+        },
+        {
+          "t": "Cash Credit"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 (RBI/DOR/2025-26/164; DOR.STR.REC.83./21.04.048/2025-26; Updated as on October 01, 2026; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/164MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Commercial Banks पर लागू; SFB, Payment Banks, LAB इस परिभाषा में नहीं"
+            },
+            {
+              "ref": "पैरा 5(7)",
+              "c": "CC / OD 'out of order' की तीन शर्तें (90 दिन); Explanation 2: बिना कारोबार वाले OD पर भी"
+            },
+            {
+              "ref": "पैरा 42(2), 42(5)",
+              "c": "'out of order' OD / CC खाता NPA; सीमा 180 दिन में review / renew न हो तो NPA"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 (RBI/DOR/2025-26/170; DOR.MCS.REC.No.89/01-01-032/2025-26; Updated as on October 1, 2026; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/170MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "Commercial Banks पर लागू; SFB, Payments Banks, LAB इस परिभाषा में नहीं"
+            },
+            {
+              "ref": "पैरा 190",
+              "c": "नाबालिग का खाता overdraw नहीं; हमेशा credit balance में"
+            },
+            {
+              "ref": "पैरा 351",
+              "c": "penal charges cash credit / overdraft पर भी; penal interest नहीं; capitalisation नहीं; पहले से बताना; हर बार कारण बताना"
+            },
+            {
+              "ref": "पैरा 353(5), 353(6)",
+              "c": "1 जनवरी 2026 से मंज़ूर / renew सुविधाओं पर: CC / OD पहले बंद करने पर charge sanctioned limit से ज़्यादा पर नहीं; समय से पहले non-renewal बताने पर charge नहीं"
+            },
+            {
+              "ref": "पैरा 456",
+              "c": "छोटी रक़म का clean overdraft, branch manager के विवेक से, संतोषजनक लेन-देन वालों को"
+            }
+          ]
+        },
+        {
+          "label": "PMJDY portal (Department of Financial Services) — Continuation of Pradhan Mantri Jan Dhan Yojana (PMJDY), e-Document (PDF; दस्तावेज़ पर तारीख़ नहीं है; 15 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://pmjdy.gov.in/files/E-Documents/Continuation_of_PMJDY.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1(b), 1(c), 1(d)",
+              "c": "OD सीमा ₹5,000 से ₹10,000; ₹2,000 तक बिना शर्त; उम्र 18–60 से 18–65"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nOverdraft (OD) एक क़र्ज़ की सुविधा (credit facility) है। इसमें bank एक तय सीमा, यानी sanctioned limit या drawing power, देता है, और आप उस सीमा के भीतर ज़रूरत के हिसाब से पैसा निकालते और जमा करते रहते हैं।[^1][^2]\n\nRBI के नियमों में OD और cash credit (CC) के खाते साथ-साथ गिने जाते हैं: 'out of order', NPA, penal charges और पहले बंद करने के charge के नियम दोनों पर लागू हैं।[^1][^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **सीमा में रहिए:** बकाया लगातार 90 दिन सीमा से ऊपर रहा, तो खाता 'out of order' और फिर NPA हो जाता है।[^1]\n- **जमा करते रहिए:** बकाया सीमा के भीतर हो, तब भी 90 दिन कोई जमा न आए, या जमा लगे हुए ब्याज जितनी भी न हो, तो खाता 'out of order' हो जाता है।[^1]\n- **Renewal पर नज़र:** सीमा तय तारीख़ से 180 दिन के भीतर review / renew न हुई, तो भी खाता NPA माना जाता है।[^1]\n\n## OD कैसे चलता है | कैसे\n\n::flow\n\n- **Penal charges:** चूक पर penal charge लग सकता है, पर penal interest के रूप में नहीं, और उस पर ब्याज नहीं जुड़ता।[^2]\n- **पहले बंद करना:** 1 जनवरी 2026 से मंज़ूर या renew हुई CC / OD सुविधा पर, पहले बंद करने का charge sanctioned limit से ज़्यादा रक़म पर नहीं लग सकता।[^2]\n\n## Jan Dhan खाते का OD | Jan Dhan\n\n- **सीमा:** ₹5,000 से बढ़ाकर ₹10,000।[^3]\n- **₹2,000 तक:** कोई शर्त नहीं।[^3]\n- **उम्र:** 18 से 65 साल।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Penal charge की रक़म और कारण loan agreement और KFS में पहले से साफ़ लिखे होने चाहिए, और जब भी penal charge लगे, उसका कारण आपको बताया जाना चाहिए। 1 जनवरी 2026 से मंज़ूर या renew हुई OD सुविधा पर, अगर आप agreement में तय समय से पहले bank को बता दें कि renew नहीं कराना, और सुविधा तय तारीख़ पर बंद हो, तो कोई pre-payment charge नहीं।[^2]\n\n## अभी क्या करें\n\n- अपने OD की sanctioned limit, renewal की तारीख़ और penal charges, sanction letter और KFS में देखिए।[^1][^2]\n- बकाया को सीमा के भीतर रखिए और समय-समय पर इतना जमा करते रहिए कि कम से कम लगा ब्याज ढक जाए।[^1]\n- OD आगे नहीं चाहिए, तो agreement में तय समय से पहले bank को लिखकर बता दीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
       "id": "ais",
       "term": "AIS",
       "aliases": [
