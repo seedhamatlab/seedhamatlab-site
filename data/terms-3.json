@@ -11167,11 +11167,15 @@
       "fullEn": "Cash Credit (CC)",
       "group": "क़र्ज़",
       "created": "2026-10-15",
-      "verified": "2026-10-15",
+      "verified": "2026-10-16",
       "history": [
         {
           "d": "2026-10-15",
           "t": "पन्ना बना। RBI की Commercial Banks के लिए Income Recognition, Asset Classification and Provisioning Directions, 2025 और Responsible Business Conduct Directions, 2025 (दोनों 1 अक्टूबर 2026 तक updated), और MUDRA के FAQ से जाँचा।"
+        },
+        {
+          "d": "2026-10-16",
+          "t": "ठगी में देनदारी वाली बातों में 1 जनवरी 2027 से लागू RBI के Responsible Business Conduct Third Amendment Directions, 2026 (24 जून 2026) के नियम जोड़े; पुरानी सीमा 31 दिसंबर 2026 तक के लेनदेन के लिए चिह्नित की।"
         }
       ],
       "one": "Cash Credit (CC) bank की क़र्ज़ सुविधा है, जिसमें एक तय सीमा (sanctioned limit / drawing power) तक पैसा निकाला और जमा किया जाता है। RBI के नियमों में CC और Overdraft खातों के लिए 'out of order' और NPA के नियम एक जैसे हैं, और working capital खातों में drawing power ताज़ा stock statement से तय होती है।",
@@ -11194,7 +11198,7 @@
         {
           "k": "ठगी में देनदारी",
           "v": "₹10,000 तक",
-          "s": "system की ग़लती, 4–7 working day में बताने पर; MSME / ₹25 लाख तक वाले व्यक्ति"
+          "s": "31.12.2026 तक; 4–7 working day में बताने पर; MSME / ₹25 लाख तक वाले व्यक्ति"
         }
       ],
       "flow": {
@@ -11257,7 +11261,7 @@
         },
         {
           "q": "CC खाते से online ठगी हो जाए तो?",
-          "a": "RBI के निर्देशों के मुताबिक अगर ग़लती न bank की हो, न आपकी, बल्कि system में कहीं और की हो, और आप 4 से 7 working day के भीतर bank को बता दें, तो हर लेन-देन पर आपकी देनदारी लेन-देन की रक़म या इस सीमा तक, जो कम हो: MSME के, या ₹25 लाख तक के औसत balance / limit वाले व्यक्तियों के CC खाते में ₹10,000, और बाक़ी CC खातों में ₹25,000।[^2]"
+          "a": "31 दिसंबर 2026 तक के लेनदेन पर, RBI के निर्देशों के मुताबिक अगर ग़लती न bank की हो, न आपकी, बल्कि system में कहीं और की हो, और आप 4 से 7 working day के भीतर bank को बता दें, तो हर लेन-देन पर आपकी देनदारी लेन-देन की रक़म या इस सीमा तक, जो कम हो: MSME के, या ₹25 लाख तक के औसत balance / limit वाले व्यक्तियों के CC खाते में ₹10,000, और बाक़ी CC खातों में ₹25,000।[^2] 1 जनवरी 2027 या उसके बाद के लेनदेन पर यह सीमा-तालिका नहीं रहेगी: चूक bank की हो, तो देनदारी शून्य; चूक तीसरे पक्ष की हो और आप लेनदेन की तारीख़ से 5 calendar दिन में बताएँ, तो शून्य, उसके बाद bank की नीति से; लापरवाही आपकी हो, तो सूचना देने तक का नुक़सान आपका। ₹50,000 तक की लापरवाही वाली ठगी में व्यक्ति (sole proprietor समेत) को, 5 calendar दिन में bank और 1930 / cybercrime.gov.in पर बताने पर, जीवन में एक बार 85% या ₹25,000 (जो कम हो) तक मुआवज़ा मिल सकता है।[^4]"
         },
         {
           "q": "Mudra Card में CC का क्या रोल है?",
@@ -11292,6 +11296,9 @@
         },
         {
           "t": "Business Correspondent"
+        },
+        {
+          "t": "Zero Liability"
         }
       ],
       "sources": [
@@ -11331,7 +11338,7 @@
             },
             {
               "ref": "पैरा 68(2), Table 1",
-              "c": "4–7 working day में बताने पर देनदारी: MSME और ₹25 लाख तक वाले व्यक्तियों के CC खाते ₹10,000; बाक़ी CC खाते ₹25,000"
+              "c": "4–7 working day में बताने पर देनदारी: MSME और ₹25 लाख तक वाले व्यक्तियों के CC खाते ₹10,000; बाक़ी CC खाते ₹25,000 (31.12.2026 तक के लेनदेन)"
             },
             {
               "ref": "पैरा 351",
@@ -11354,9 +11361,28 @@
               "c": "Mudra Card: working capital के लिए CC / OD; पैसा बचने पर लौटाकर ब्याज घटाना"
             }
           ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Third Amendment Directions, 2026 (RBI/2026-27/167; DOR.MCS.REC.No.130/01-01-032/2026-27; 24 जून 2026; 1 जनवरी 2027 या उसके बाद के लेनदेन पर लागू; 16 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13543&Mode=0",
+          "issued": "2026-06-24",
+          "used": [
+            {
+              "ref": "पैरा 3(2); 4(8)",
+              "c": "1.1.2027 या बाद के लेनदेन पर लागू; पुराने पैरा 64–76 (Table 1 समेत) हटाकर नए पैरा 76A–76V"
+            },
+            {
+              "ref": "नए पैरा 76L, 76M, 76N",
+              "c": "bank की चूक: शून्य; तीसरा पक्ष + 5 calendar दिन: शून्य, बाद में bank की नीति; लापरवाही: बताने तक ग्राहक"
+            },
+            {
+              "ref": "नए पैरा 76T(1); 76U",
+              "c": "₹50,000 तक की bona fide ठगी (लापरवाही वाले मामले): व्यक्ति, sole proprietor समेत; 85% या ₹25,000, जो कम; जीवन में एक बार; 5 calendar दिन में NCRP / 1930 और bank; 1.1.2027 से एक साल"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\nCash Credit (CC) bank की क़र्ज़ सुविधा (credit facility) है। इसमें bank एक सीमा, यानी sanctioned limit / drawing power, तय करता है, और उसके भीतर पैसा निकाला और जमा किया जाता है।[^1][^2]\n\nRBI के नियमों में CC और Overdraft (OD) खातों के लिए 'out of order', NPA, penal charges और पहले बंद करने के charge के नियम एक जैसे हैं।[^1][^2] MUDRA के FAQ में Mudra Card को working capital के लिए CC / OD की सुविधा बताया गया है।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Stock statement समय पर दीजिए:** drawing power ताज़ा stock statement से तय होती है; 3 महीने से पुराने statement पर बकाया 'irregular' माना जाता है।[^1]\n- **सीमा में रहिए और जमा करते रहिए:** 90 दिन वाली शर्तें टूटीं, तो खाता 'out of order' और फिर NPA हो जाता है।[^1]\n- **Renewal पर नज़र:** सीमा तय तारीख़ से 180 दिन में review / renew न हुई, तो खाता NPA माना जाता है।[^1]\n\n## CC कैसे चलता है | कैसे\n\n::flow\n\n- **Penal charges:** चूक पर penal charge लग सकता है, penal interest नहीं, और उस पर ब्याज नहीं जुड़ता।[^2]\n- **पहले बंद करना:** 1 जनवरी 2026 से मंज़ूर या renew हुई CC पर charge sanctioned limit से ज़्यादा रक़म पर नहीं।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Penal charge की रक़म और कारण loan agreement और KFS में पहले से लिखे होने चाहिए, और हर बार लगने पर कारण बताया जाना चाहिए।[^2] CC खाते से online ठगी हो, ग़लती न bank की हो न आपकी बल्कि system में कहीं और की हो, और आप 4 से 7 working day में bank को बता दें, तो आपकी देनदारी हर लेन-देन पर ₹10,000 या ₹25,000 तक सीमित है, खाते के प्रकार के हिसाब से।[^2]\n\n## अभी क्या करें\n\n- अपनी CC की sanctioned limit, renewal की तारीख़ और penal charges, sanction letter और KFS में देखिए।[^1][^2]\n- Stock statement हर बार समय पर दीजिए, ताकि drawing power ताज़ा रहे।[^1]\n- CC आगे नहीं चाहिए, तो agreement में तय समय से पहले bank को लिखकर बता दीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nCash Credit (CC) bank की क़र्ज़ सुविधा (credit facility) है। इसमें bank एक सीमा, यानी sanctioned limit / drawing power, तय करता है, और उसके भीतर पैसा निकाला और जमा किया जाता है।[^1][^2]\n\nRBI के नियमों में CC और Overdraft (OD) खातों के लिए 'out of order', NPA, penal charges और पहले बंद करने के charge के नियम एक जैसे हैं।[^1][^2] MUDRA के FAQ में Mudra Card को working capital के लिए CC / OD की सुविधा बताया गया है।[^3]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Stock statement समय पर दीजिए:** drawing power ताज़ा stock statement से तय होती है; 3 महीने से पुराने statement पर बकाया 'irregular' माना जाता है।[^1]\n- **सीमा में रहिए और जमा करते रहिए:** 90 दिन वाली शर्तें टूटीं, तो खाता 'out of order' और फिर NPA हो जाता है।[^1]\n- **Renewal पर नज़र:** सीमा तय तारीख़ से 180 दिन में review / renew न हुई, तो खाता NPA माना जाता है।[^1]\n\n## CC कैसे चलता है | कैसे\n\n::flow\n\n- **Penal charges:** चूक पर penal charge लग सकता है, penal interest नहीं, और उस पर ब्याज नहीं जुड़ता।[^2]\n- **पहले बंद करना:** 1 जनवरी 2026 से मंज़ूर या renew हुई CC पर charge sanctioned limit से ज़्यादा रक़म पर नहीं।[^2]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Penal charge की रक़म और कारण loan agreement और KFS में पहले से लिखे होने चाहिए, और हर बार लगने पर कारण बताया जाना चाहिए।[^2] 31 दिसंबर 2026 तक के लेनदेन में, CC खाते से online ठगी हो, ग़लती न bank की हो न आपकी बल्कि system में कहीं और की हो, और आप 4 से 7 working day में bank को बता दें, तो आपकी देनदारी हर लेन-देन पर ₹10,000 या ₹25,000 तक सीमित है, खाते के प्रकार के हिसाब से।[^2] 1 जनवरी 2027 या उसके बाद के लेनदेन पर यह सीमा-तालिका नहीं रहेगी: bank की चूक पर देनदारी शून्य, और तीसरे पक्ष की चूक में लेनदेन की तारीख़ से 5 calendar दिन में बताने पर भी शून्य।[^4]\n\n## अभी क्या करें\n\n- अपनी CC की sanctioned limit, renewal की तारीख़ और penal charges, sanction letter और KFS में देखिए।[^1][^2]\n- Stock statement हर बार समय पर दीजिए, ताकि drawing power ताज़ा रहे।[^1]\n- CC आगे नहीं चाहिए, तो agreement में तय समय से पहले bank को लिखकर बता दीजिए।[^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "term-loan",
