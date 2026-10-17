@@ -17782,9 +17782,7 @@
       "aliases": [
         "राजकोषीय घाटा",
         "Gross Fiscal Deficit",
-        "Revenue Deficit",
-        "Primary Deficit",
-        "राजस्व घाटा"
+        "Primary Deficit"
       ],
       "full": "राजकोषीय घाटा · सरकार का कुल ख़र्च, उसकी उस कमाई से कितना ज़्यादा है जो क़र्ज़ नहीं है",
       "fullEn": "Fiscal Deficit",
@@ -18269,10 +18267,6 @@
         "G-Secs",
         "Government Security",
         "सरकारी प्रतिभूति",
-        "Treasury Bills",
-        "Treasury Bill",
-        "T-Bills",
-        "T-Bill",
         "State Development Loans",
         "SDL",
         "Dated Securities",
@@ -22588,6 +22582,2781 @@
         }
       ],
       "body": "## मतलब\n\nMoSPI यानी Ministry of Statistics and Programme Implementation (सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय)। MoSPI की Annual Report 2025-26 के मुताबिक यह 15 अक्टूबर 1999 को Department of Statistics और Department of Programme Implementation को मिलाकर स्वतंत्र मंत्रालय बना।[^1]\n\n## MoSPI कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: MoSPI 15.10.1999; दो wings — Statistics (NSO) और Programme Implementation (MPLADS); GDP, CPI, IIP, PLFS। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "iip",
+      "term": "IIP",
+      "aliases": [
+        "Index of Industrial Production",
+        "औद्योगिक उत्पादन सूचकांक",
+        "Use-Based Index"
+      ],
+      "full": "Index of Industrial Production · उद्योगों के उत्पादन की मात्रा में बदलाव का सूचकांक",
+      "fullEn": "Index of Industrial Production",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। MoSPI की 28 सितंबर 2026 की IIP release (अगस्त 2026, Base 2022-23) से जाँचा।"
+        }
+      ],
+      "one": "IIP (Index of Industrial Production / औद्योगिक उत्पादन सूचकांक) बताता है कि देश के उद्योगों — खनन, manufacturing, बिजली-गैस, पानी-सीवरेज — का उत्पादन पिछले साल के उसी महीने के मुक़ाबले कितना बढ़ा या घटा। इसे MoSPI का National Statistics Office (NSO) हर महीने जारी करता है; नई series का base year 2022-23 है।",
+      "facts": [
+        {
+          "k": "IIP growth, अगस्त 2026",
+          "v": "8.0%",
+          "s": "Quick Estimate"
+        },
+        {
+          "k": "Manufacturing",
+          "v": "9.0%",
+          "s": "weight 76.062"
+        },
+        {
+          "k": "Base year",
+          "v": "2022-23 = 100",
+          "s": "नई series"
+        },
+        {
+          "k": "अगली release",
+          "v": "28 अक्टूबर 2026",
+          "s": "सितंबर के आँकड़े"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "कारख़ाने / इकाइयाँ",
+            "s": "उत्पादन के आँकड़े"
+          },
+          {
+            "t": "Source agencies",
+            "s": "आँकड़े जुटाती हैं"
+          },
+          {
+            "t": "NSO, MoSPI",
+            "s": "IIP बनाकर जारी"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "MoSPI की release के मुताबिक index उन source agencies के आँकड़ों से बनता है, जो उत्पादन करने वाली factories / establishments से आँकड़े लेती हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"IIP में सिर्फ़ तीन हिस्से हैं: खनन, manufacturing, बिजली।\"",
+          "f": "नई series (2022-23) में चार हिस्से हैं: Mining & Quarrying (weight 11.053), Manufacturing (76.062), Electricity & Gas Supply (10.865) और Water Supply, Sewerage & Waste Management (2.020)।[^1]"
+        },
+        {
+          "m": "\"IIP का पहला आँकड़ा पक्का होता है।\"",
+          "f": "नहीं। पहला आँकड़ा Quick Estimate है, जो बाद में revise होता है; जैसे जुलाई 2026 का Quick Estimate 6.7% था।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "IIP आसान भाषा में?",
+          "a": "फ़ैक्ट्रियों, खदानों और बिजलीघरों ने इस महीने पिछले साल से कितना ज़्यादा या कम बनाया — उसका एक अंक।"
+        },
+        {
+          "q": "अगस्त 2026 में क्या रहा?",
+          "a": "MoSPI के मुताबिक अगस्त 2026 में IIP growth 8.0% रही; Mining (-)5.6%, Manufacturing 9.0%, Electricity & Gas Supply 12.3%; general index 123.3।[^1]"
+        },
+        {
+          "q": "Use-based classification क्या है?",
+          "a": "इसमें सामान को इस्तेमाल के हिसाब से बाँटा जाता है; अगस्त 2026 में growth: Primary goods 3.5%, Capital goods 16.9%, Intermediate goods 13.7%, Infrastructure / Construction goods 6.4%, Consumer durables 11.1%, Consumer non-durables 2.1%।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "MoSPI"
+        },
+        {
+          "t": "GDP"
+        },
+        {
+          "t": "GVA"
+        },
+        {
+          "t": "WPI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "MoSPI (NSO) — Quick Estimates of IIP and Use-Based Index for August 2026 (Base 2022-23=100), 28.09.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1790590696008_1b346687-0a5f-445a-83a2-28283c586094_IIP_Press_Release_August_2026.pdf",
+          "issued": "2026-09-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "शीर्षक; पैरा 1, 2(i), 2(ii), 2(ix); Statement I",
+              "c": "Base 2022-23; source agencies; अगस्त 8.0% (जुलाई QE 6.7%); index 123.3; Mining −5.6, Mfg 9.0, Electricity & Gas 12.3; चार sectors के weights; use-based growth; अगली release 28.10.2026"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIIP यानी Index of Industrial Production (औद्योगिक उत्पादन सूचकांक)। MoSPI का National Statistics Office इसे हर महीने 'Quick Estimate' के रूप में जारी करता है, साथ में use-based index भी।[^1]\n\n## IIP कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: NSO, MoSPI; base 2022-23 = 100; चार sectors (Manufacturing weight 76.062 सबसे बड़ा); हर महीने Quick Estimate; अगस्त 2026: 8.0%।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "plfs",
+      "term": "PLFS",
+      "aliases": [
+        "Periodic Labour Force Survey",
+        "आवधिक श्रम बल सर्वेक्षण",
+        "Unemployment Rate",
+        "बेरोज़गारी दर",
+        "LFPR",
+        "Labour Force Participation Rate",
+        "Worker Population Ratio",
+        "Current Weekly Status"
+      ],
+      "full": "Periodic Labour Force Survey · रोज़गार और बेरोज़गारी के आँकड़ों का सरकारी सर्वे",
+      "fullEn": "Periodic Labour Force Survey",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। MoSPI की 15 अक्टूबर 2026 की PLFS Monthly Bulletin (सितंबर 2026) से जाँचा।"
+        }
+      ],
+      "one": "PLFS (Periodic Labour Force Survey) MoSPI का National Statistics Office (NSO) करता है। इससे पता चलता है कि कितने लोग काम कर रहे हैं या काम ढूँढ रहे हैं, और बेरोज़गारी दर कितनी है। अब इसका monthly bulletin भी आता है; सितंबर 2026 में 15 साल और उससे ऊपर के लोगों की बेरोज़गारी दर (CWS) 5.0% रही।",
+      "facts": [
+        {
+          "k": "बेरोज़गारी दर (CWS), सितंबर 2026",
+          "v": "5.0%",
+          "s": "15+ उम्र, अखिल भारत"
+        },
+        {
+          "k": "गाँव / शहर",
+          "v": "4.2% / 6.9%",
+          "s": "बेरोज़गारी दर"
+        },
+        {
+          "k": "LFPR",
+          "v": "55.5%",
+          "s": "15+ उम्र"
+        },
+        {
+          "k": "WPR",
+          "v": "52.7%",
+          "s": "15+ उम्र"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "घरों का सर्वे",
+            "s": "NSO, MoSPI"
+          },
+          {
+            "t": "पिछले 7 दिन की गतिविधि",
+            "s": "Current Weekly Status"
+          },
+          {
+            "t": "LFPR, WPR, बेरोज़गारी दर",
+            "s": "हर महीने"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "PLFS press note के मुताबिक सर्वे से ठीक पहले के 7 दिनों की गतिविधि के आधार पर तय स्थिति को Current Weekly Status (CWS) कहते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"बेरोज़गारी दर का एक ही आँकड़ा होता है।\"",
+          "f": "नहीं। PLFS में गाँव और शहर के आँकड़े अलग आते हैं; सितंबर 2026 में गाँव में 4.2% और शहर में 6.9% बेरोज़गारी दर (CWS) रही।[^1]"
+        },
+        {
+          "m": "\"PLFS कोई निजी सर्वे है।\"",
+          "f": "नहीं। press note के मुताबिक PLFS NSO, MoSPI करता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "LFPR, WPR, UR क्या हैं?",
+          "a": "press note में तीन संकेतक हैं: Labour Force Participation Rate (LFPR), Worker Population Ratio (WPR) और Unemployment Rate (UR)। मोटे तौर पर LFPR काम करने या ढूँढने वालों का हिस्सा, WPR काम कर रहे लोगों का हिस्सा और UR काम ढूँढने वालों में बेरोज़गारों का हिस्सा है। (यह आसान भाषा का अर्थ है; औपचारिक परिभाषा PLFS की वार्षिक report में है।)[^1]"
+        },
+        {
+          "q": "सितंबर 2026 के आँकड़े?",
+          "a": "MoSPI के मुताबिक 15+ उम्र के लिए: बेरोज़गारी दर 5.0% (गाँव 4.2%, शहर 6.9%), LFPR 55.5%, WPR 52.7%।[^1]"
+        },
+        {
+          "q": "CWS का मतलब?",
+          "a": "सर्वे की तारीख़ से पहले के 7 दिनों के आधार पर व्यक्ति की गतिविधि-स्थिति।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "MoSPI"
+        },
+        {
+          "t": "GDP"
+        },
+        {
+          "t": "IIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "MoSPI (NSO) — Press Note on PLFS Monthly Bulletin, September 2026, 15.10.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1792060004197_6c3ba64d-1853-4b3d-98fb-d750d5ec8a5d_Monthly_Press_note_PLFS_Sep_2026.pdf",
+          "issued": "2026-10-15",
+          "effective": "",
+          "used": [
+            {
+              "ref": "परिचय; पन्ना 2–6; footnote 1",
+              "c": "NSO, MoSPI; UR (CWS) 15+: 5.0 / गाँव 4.2 / शहर 6.9; LFPR 55.5; WPR 52.7; CWS = पिछले 7 दिन; LFPR, WPR, UR नाम"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPLFS यानी Periodic Labour Force Survey (आवधिक श्रम बल सर्वेक्षण)। MoSPI के मुताबिक यह NSO का सर्वे है, जिसके monthly bulletin में LFPR, WPR और बेरोज़गारी दर (UR) Current Weekly Status के आधार पर दी जाती है।[^1]\n\n## PLFS कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: NSO, MoSPI; CWS = पिछले 7 दिन; LFPR, WPR, UR; सितंबर 2026: UR 5.0% (15+)।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "finance-commission",
+      "term": "Finance Commission",
+      "aliases": [
+        "वित्त आयोग",
+        "Sixteenth Finance Commission",
+        "16th Finance Commission",
+        "FC-16",
+        "Article 280"
+      ],
+      "full": "वित्त आयोग · केंद्र और राज्यों के बीच कर के पैसे के बँटवारे की सिफ़ारिश करने वाला संवैधानिक आयोग",
+      "fullEn": "Finance Commission",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। संविधान के अनुच्छेद 280, 16वें वित्त आयोग की report और वित्त मंत्रालय के 1 फ़रवरी 2026 के Explanatory Memorandum से जाँचा।"
+        }
+      ],
+      "one": "Finance Commission (वित्त आयोग) संविधान के अनुच्छेद 280 के तहत राष्ट्रपति हर पाँच साल पर (या ज़रूरत हो तो पहले) बनाते हैं। यह सिफ़ारिश करता है कि केंद्र के करों की कुल कमाई में से राज्यों को कितना हिस्सा मिले, और राज्यों के बीच वह कैसे बँटे। 16वें वित्त आयोग ने 2026-27 से 2030-31 के लिए राज्यों का हिस्सा 41% रखने की सिफ़ारिश की है।",
+      "facts": [
+        {
+          "k": "संविधान",
+          "v": "अनुच्छेद 280",
+          "s": "अध्यक्ष + चार सदस्य"
+        },
+        {
+          "k": "16वाँ आयोग, अध्यक्ष",
+          "v": "डॉ. अरविंद पनगढ़िया",
+          "s": "report पैरा 1.3"
+        },
+        {
+          "k": "Award अवधि",
+          "v": "2026-27 से 2030-31",
+          "s": "1 अप्रैल 2026 से"
+        },
+        {
+          "k": "राज्यों का हिस्सा",
+          "v": "41%",
+          "s": "divisible pool का"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "केंद्र के कर",
+            "s": "net proceeds"
+          },
+          {
+            "t": "Divisible pool",
+            "s": "बाँटने योग्य हिस्सा"
+          },
+          {
+            "t": "राज्यों को 41%",
+            "s": "फिर राज्यों में बँटवारा"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "वित्त आयोग की सिफ़ारिश",
+            "s": ""
+          }
+        ],
+        "note": "अनुच्छेद 280(3) के मुताबिक आयोग केंद्र और राज्यों के बीच करों की net proceeds के बँटवारे, राज्यों के बीच हिस्सों, और Consolidated Fund से राज्यों को grants-in-aid के सिद्धांतों पर राष्ट्रपति को सिफ़ारिश करता है।"
+      },
+      "myths": [
+        {
+          "m": "\"वित्त आयोग सरकार का स्थायी विभाग है।\"",
+          "f": "नहीं। अनुच्छेद 280(1) के मुताबिक राष्ट्रपति हर पाँचवें साल की समाप्ति पर (या पहले) आदेश से आयोग बनाते हैं, जिसमें एक अध्यक्ष और चार अन्य सदस्य होते हैं।[^1]"
+        },
+        {
+          "m": "\"वित्त आयोग पैसा ख़ुद बाँटता है।\"",
+          "f": "नहीं। अनुच्छेद 280(3) के मुताबिक आयोग राष्ट्रपति को सिफ़ारिश करता है; सरकार उस पर की गई कार्रवाई का Explanatory Memorandum संसद में रखती है।[^1][^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "वित्त आयोग आसान भाषा में?",
+          "a": "केंद्र और राज्यों के बीच 'कर की कमाई का बँटवारा' तय करने की सिफ़ारिश करने वाली संवैधानिक संस्था।[^1]"
+        },
+        {
+          "q": "16वाँ वित्त आयोग कब बना और report कब दी?",
+          "a": "report के मुताबिक राष्ट्रपति ने इसे 31 दिसंबर 2023 की notification S.O. 5533(E) से बनाया; वित्त मंत्रालय के मुताबिक इसने 17 नवंबर 2025 को राष्ट्रपति को report सौंपी।[^3][^2]"
+        },
+        {
+          "q": "पंचायत और नगरपालिका का क्या?",
+          "a": "अनुच्छेद 280(3) के मुताबिक आयोग पंचायतों और नगरपालिकाओं के संसाधन बढ़ाने के उपायों पर भी सिफ़ारिश करता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "Fiscal Deficit"
+        },
+        {
+          "t": "Revenue Deficit"
+        },
+        {
+          "t": "NITI Aayog"
+        }
+      ],
+      "sources": [
+        {
+          "label": "भारत का संविधान, भाग XII, अनुच्छेद 280 (विदेश मंत्रालय पर भारत सरकार की प्रति) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.mea.gov.in/Images/pdf1/Part12.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "अनुच्छेद 280(1), (3)(a)–(d)",
+              "c": "हर पाँचवें साल; अध्यक्ष + चार सदस्य; करों का बँटवारा; grants-in-aid; पंचायत / नगरपालिका; दूसरे मामले"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — Explanatory Memorandum on Action Taken on the Recommendations of the Sixteenth Finance Commission, 01.02.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/16fc.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1–3",
+              "c": "report 17.11.2025; 2026-27 से 2030-31; राज्यों का हिस्सा 41%"
+            }
+          ]
+        },
+        {
+          "label": "Sixteenth Finance Commission — Report, Vol. I (पैरा 1.2, 1.3) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://fincomindia.nic.in/asset/doc/commission-reports/16th-FC/reports/Vol1-Main-Report.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1.2, 1.3",
+              "c": "S.O. 5533(E) 31.12.2023; अध्यक्ष डॉ. अरविंद पनगढ़िया"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nFinance Commission यानी वित्त आयोग। संविधान के अनुच्छेद 280 के मुताबिक राष्ट्रपति हर पाँचवें साल की समाप्ति पर, या ज़रूरत हो तो पहले, वित्त आयोग बनाते हैं, जो केंद्र-राज्य के बीच करों के बँटवारे पर सिफ़ारिश करता है।[^1]\n\n## बँटवारा कैसे होता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: अनुच्छेद 280; अध्यक्ष + 4 सदस्य; 16वाँ आयोग: अध्यक्ष डॉ. अरविंद पनगढ़िया, report 17.11.2025, अवधि 2026-31, राज्यों का हिस्सा 41%।[^1][^2][^3] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "niti-aayog",
+      "term": "NITI Aayog",
+      "aliases": [
+        "नीति आयोग",
+        "National Institution for Transforming India",
+        "Planning Commission",
+        "योजना आयोग"
+      ],
+      "full": "National Institution for Transforming India · योजना आयोग की जगह बना सरकार का 'think tank'",
+      "fullEn": "NITI Aayog",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। NITI Aayog की Annual Report 2014-15 (पैरा 1.1–1.7) से जाँचा।"
+        }
+      ],
+      "one": "NITI Aayog (National Institution for Transforming India) 1 जनवरी 2015 के Cabinet Resolution से बना, और इसने योजना आयोग (Planning Commission) की जगह ली। इसके अध्यक्ष (Chairperson) प्रधानमंत्री होते हैं। यह सरकार का 'think tank' है, जो सभी स्तर की सरकारों को विशेषज्ञ सलाह देता है और सहकारी संघवाद (cooperative federalism) को बढ़ावा देता है।",
+      "facts": [
+        {
+          "k": "बना",
+          "v": "1 जनवरी 2015",
+          "s": "Cabinet Resolution"
+        },
+        {
+          "k": "किसकी जगह",
+          "v": "योजना आयोग",
+          "s": "Planning Commission"
+        },
+        {
+          "k": "अध्यक्ष",
+          "v": "प्रधानमंत्री",
+          "s": "Chairperson"
+        },
+        {
+          "k": "भूमिका",
+          "v": "Think tank",
+          "s": "सलाह, cooperative federalism"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "योजना आयोग",
+            "s": "पहले"
+          },
+          {
+            "t": "1.1.2015 का Resolution",
+            "s": "Cabinet"
+          },
+          {
+            "t": "NITI Aayog",
+            "s": "think tank"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "NITI Aayog की report के मुताबिक यह सभी स्तर की सरकारों को domain knowledge और strategic expertise देने वाला think tank है, और cooperative federalism के सिद्धांत को व्यवहार में लाने का काम करता है।"
+      },
+      "myths": [
+        {
+          "m": "\"NITI Aayog भी योजना आयोग की तरह राज्यों को पैसा बाँटता है।\"",
+          "f": "NITI Aayog की report इसे 'think tank' बताती है, जो विशेषज्ञ सलाह देता है; केंद्र के करों में राज्यों के हिस्से की सिफ़ारिश संवैधानिक वित्त आयोग (अनुच्छेद 280) करता है।[^1]"
+        },
+        {
+          "m": "\"NITI Aayog संविधान से बना है।\"",
+          "f": "नहीं। report के मुताबिक यह 1 जनवरी 2015 के Resolution से बना।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "NITI Aayog आसान भाषा में?",
+          "a": "सरकार का 'सोच-विचार करने वाला दफ़्तर' (think tank): नीतियों पर अध्ययन और सलाह, केंद्र और राज्यों के साथ।[^1]"
+        },
+        {
+          "q": "अध्यक्ष कौन होते हैं?",
+          "a": "report के मुताबिक भारत के प्रधानमंत्री NITI Aayog के Chairperson हैं।[^1]"
+        },
+        {
+          "q": "NITI का पूरा नाम?",
+          "a": "National Institution for Transforming India।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Finance Commission"
+        },
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "GDP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NITI Aayog — Annual Report 2014-15 (पैरा 1.1–1.7) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://niti.gov.in/sites/default/files/2018-12/Niti_annual_report-2014-15.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1.1, 1.3, 1.5(b), 1.6(a), 1.7",
+              "c": "योजना आयोग की जगह, Resolution 1.1.2015; think tank; cooperative federalism; प्रधानमंत्री Chairperson"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNITI Aayog यानी National Institution for Transforming India। इसकी Annual Report 2014-15 के मुताबिक योजना आयोग की जगह 1 जनवरी 2015 के Resolution से यह नई संस्था बनी।[^1]\n\n## NITI Aayog कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 1.1.2015 (Cabinet Resolution); योजना आयोग की जगह; Chairperson = प्रधानमंत्री; think tank; cooperative federalism।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "revenue-deficit",
+      "term": "Revenue Deficit",
+      "aliases": [
+        "राजस्व घाटा",
+        "Effective Revenue Deficit"
+      ],
+      "full": "राजस्व घाटा · सरकार का राजस्व ख़र्च, राजस्व कमाई से जितना ज़्यादा हो",
+      "fullEn": "Revenue Deficit",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। वित्त मंत्रालय के Budget at a Glance 2026-27 से जाँचा। (FRBM Act की धारा 2 का India Code वाला पाठ भी देखा: उसमें revenue deficit की परिभाषा वाला खंड अब हटा हुआ (omitted) है, इसलिए परिभाषा Budget at a Glance से ली।)"
+        }
+      ],
+      "one": "Revenue Deficit (राजस्व घाटा) तब होता है, जब सरकार का राजस्व ख़र्च (जैसे वेतन, ब्याज, subsidy — ऐसे ख़र्च जिनसे कोई संपत्ति नहीं बनती) उसकी राजस्व कमाई (कर और ग़ैर-कर आय) से ज़्यादा हो। Budget 2026-27 में केंद्र का राजस्व घाटा GDP का 1.5% अनुमानित है।",
+      "facts": [
+        {
+          "k": "BE 2026-27",
+          "v": "GDP का 1.5%",
+          "s": "₹5,92,344 करोड़"
+        },
+        {
+          "k": "RE 2025-26",
+          "v": "GDP का 1.5%",
+          "s": "₹5,26,764 करोड़"
+        },
+        {
+          "k": "Actuals 2024-25",
+          "v": "GDP का 1.7%",
+          "s": "₹5,64,296 करोड़"
+        },
+        {
+          "k": "Effective revenue deficit, BE 2026-27",
+          "v": "GDP का 0.3%",
+          "s": ""
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "राजस्व ख़र्च",
+            "s": "revenue expenditure"
+          },
+          {
+            "t": "− राजस्व कमाई",
+            "s": "revenue receipts"
+          },
+          {
+            "t": "= राजस्व घाटा",
+            "s": "अगर ख़र्च ज़्यादा"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "Budget at a Glance के मुताबिक Revenue Deficit राजस्व ख़र्च का राजस्व कमाई से ज़्यादा होना है।"
+      },
+      "myths": [
+        {
+          "m": "\"राजस्व घाटा और राजकोषीय घाटा एक ही हैं।\"",
+          "f": "नहीं। Budget at a Glance 2026-27 के मुताबिक BE 2026-27 में fiscal deficit GDP का 4.3% और revenue deficit 1.5% है — दोनों अलग पैमाने हैं।[^1]"
+        },
+        {
+          "m": "\"घाटा हमेशा उधार लेकर नई संपत्ति बनाने से होता है।\"",
+          "f": "राजस्व घाटा उस ख़र्च से जुड़ा है, जो राजस्व खाते में है; यानी यह दिखाता है कि रोज़मर्रा का ख़र्च भी राजस्व कमाई से पूरा नहीं हो रहा।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "जैसे घर का रोज़ का ख़र्च (राशन, बिल) महीने की कमाई से ज़्यादा हो जाए — वह कमी 'राजस्व घाटा' जैसी है। (समझाने का उदाहरण।)"
+        },
+        {
+          "q": "Effective Revenue Deficit क्या है?",
+          "a": "Budget at a Glance में राजस्व घाटे में से पूँजीगत संपत्ति बनाने के लिए दिए grants घटाकर Effective Revenue Deficit दिखाया जाता है; BE 2026-27 में यह GDP का 0.3% है।[^1]"
+        },
+        {
+          "q": "ताज़ा आँकड़े?",
+          "a": "Budget at a Glance 2026-27 के मुताबिक राजस्व घाटा: Actuals 2024-25 1.7%, BE 2025-26 1.5%, RE 2025-26 1.5%, BE 2026-27 1.5% (GDP का)।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Fiscal Deficit"
+        },
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "Finance Commission"
+        },
+        {
+          "t": "GDP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "वित्त मंत्रालय — Budget at a Glance 2026-27 (फ़रवरी 2026) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/budget_at_a_glance.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "परिभाषाएँ (पन्ना i); पन्ना 1, 4",
+              "c": "Revenue Deficit = revenue expenditure का revenue receipts से ज़्यादा होना; ₹ करोड़ और % GDP: 2024-25, BE / RE 2025-26, BE 2026-27; fiscal deficit 4.3%; effective revenue deficit 0.3%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRevenue Deficit यानी राजस्व घाटा। वित्त मंत्रालय के Budget at a Glance के मुताबिक यह राजस्व ख़र्च (revenue expenditure) का राजस्व कमाई (revenue receipts) से ज़्यादा होना है।[^1]\n\n## राजस्व घाटा कैसे निकलता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: राजस्व घाटा = revenue expenditure − revenue receipts; BE 2026-27: GDP का 1.5% (₹5,92,344 करोड़); effective revenue deficit 0.3%; fiscal deficit 4.3%।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "direct-indirect-tax",
+      "term": "Direct और Indirect Tax",
+      "aliases": [
+        "Direct Tax",
+        "Direct Taxes",
+        "Indirect Tax",
+        "Indirect Taxes",
+        "प्रत्यक्ष कर",
+        "अप्रत्यक्ष कर",
+        "CBDT",
+        "CBIC",
+        "Central Board of Direct Taxes",
+        "Central Board of Indirect Taxes and Customs"
+      ],
+      "full": "प्रत्यक्ष और अप्रत्यक्ष कर · केंद्र के करों के दो बड़े वर्ग",
+      "fullEn": "Direct and Indirect Taxes",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। वित्त मंत्रालय के Department of Revenue की site और India Code पर Central Boards of Revenue Act, 1963 से जाँचा।"
+        }
+      ],
+      "one": "केंद्र सरकार के कर दो बड़े वर्गों में संभाले जाते हैं: Direct taxes (प्रत्यक्ष कर), जैसे income tax और corporation tax, जिन्हें CBDT (Central Board of Direct Taxes) देखता है; और Indirect taxes (अप्रत्यक्ष कर), जैसे GST, customs duty और central excise, जिन्हें CBIC देखता है। दोनों Boards Central Boards of Revenue Act, 1963 के तहत बने हैं।",
+      "facts": [
+        {
+          "k": "Direct tax",
+          "v": "CBDT",
+          "s": "income tax, corporation tax…"
+        },
+        {
+          "k": "Indirect tax",
+          "v": "CBIC",
+          "s": "GST, customs, excise"
+        },
+        {
+          "k": "क़ानून",
+          "v": "Central Boards of Revenue Act, 1963",
+          "s": "Act No. 54"
+        },
+        {
+          "k": "विभाग",
+          "v": "Department of Revenue",
+          "s": "वित्त मंत्रालय"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Department of Revenue",
+            "s": "वित्त मंत्रालय"
+          },
+          {
+            "t": "CBDT",
+            "s": "प्रत्यक्ष कर"
+          },
+          {
+            "t": "CBIC",
+            "s": "अप्रत्यक्ष कर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "Central Boards of Revenue Act, 1963 की प्रस्तावना के मुताबिक यह Act Direct Taxes और Indirect Taxes and Customs के लिए अलग Boards of Revenue बनाने के लिए है।"
+      },
+      "myths": [
+        {
+          "m": "\"GST direct tax है, क्योंकि हम ख़ुद भरते हैं।\"",
+          "f": "नहीं। Department of Revenue के मुताबिक GST, customs और central excise जैसे indirect taxes CBIC देखता है।[^1]"
+        },
+        {
+          "m": "\"Income tax और GST एक ही विभाग वसूलता है।\"",
+          "f": "दोनों Department of Revenue के तहत हैं, पर अलग Boards: direct taxes CBDT और GST जैसे indirect taxes CBIC।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में फ़र्क़?",
+          "a": "मोटे तौर पर direct tax आपकी आय / मुनाफ़े पर सीधे लगता है (जैसे income tax); indirect tax सामान-सेवा की बिक्री या आयात पर लगता है और क़ीमत में जुड़कर आप तक पहुँचता है (जैसे GST)। (यह समझाने का तरीक़ा है; official site दोनों की सूची देती है, परिभाषा नहीं।)"
+        },
+        {
+          "q": "CBDT कौन-से कर देखता है?",
+          "a": "Department of Revenue के मुताबिक सभी direct taxes, जैसे corporation tax, capital gains tax (और पुराने estate duty, wealth tax, gift tax वग़ैरह)।[^1]"
+        },
+        {
+          "q": "CBIC कौन-से कर देखता है?",
+          "a": "Department of Revenue के मुताबिक GST, customs duty, central excise duties और दूसरे indirect taxes।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Income Tax"
+        },
+        {
+          "t": "GST"
+        },
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "Capital Gains"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Department of Revenue, वित्त मंत्रालय — About Department (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://dor.gov.in/about-department",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "About Department",
+              "c": "दोनों Boards 1963 के Act से; CBDT: direct taxes (corporation tax, capital gains tax…); CBIC: GST, customs, central excise, दूसरे indirect taxes"
+            }
+          ]
+        },
+        {
+          "label": "India Code — The Central Boards of Revenue Act, 1963 (Act No. 54 of 1963; प्रस्तावना) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/5b64ccdf-d145-4658-a1ac-20c6bca8cdeb",
+          "issued": "1963-12-30",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना",
+              "c": "Act No. 54 of 1963, 30.12.1963; Direct Taxes और Indirect Taxes and Customs के लिए अलग Boards"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nDirect Tax यानी प्रत्यक्ष कर और Indirect Tax यानी अप्रत्यक्ष कर। Department of Revenue के मुताबिक direct taxes की वसूली CBDT और GST, customs, central excise जैसे indirect taxes की वसूली CBIC देखता है।[^1]\n\n## कर कैसे बँटे हैं | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: CBDT = direct (income tax, corporation tax); CBIC = indirect (GST, customs, excise); Central Boards of Revenue Act, 1963।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "money-supply",
+      "term": "Money Supply",
+      "aliases": [
+        "M3",
+        "M1",
+        "M0",
+        "Broad Money",
+        "Narrow Money",
+        "Reserve Money",
+        "मुद्रा आपूर्ति",
+        "Base Money"
+      ],
+      "full": "मुद्रा आपूर्ति · अर्थव्यवस्था में लोगों के पास कुल कितना पैसा है, उसके पैमाने (M0, M1, M3)",
+      "fullEn": "Money Supply",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के Comprehensive Guide for Current Statistics of the RBI Monthly Bulletin (8 अक्टूबर 2026) से जाँचा।"
+        }
+      ],
+      "one": "Money Supply (मुद्रा आपूर्ति) बताता है कि अर्थव्यवस्था में लोगों के पास कुल कितना 'पैसा' है। RBI इसे कई पैमानों में नापता है: M1 (Narrow Money) = लोगों के पास नक़द + demand deposits + RBI के पास 'other deposits'; M3 (Broad Money) = M1 + banks में time deposits। Reserve Money (M0) RBI की मौद्रिक देनदारी है, जिससे मुद्रा आपूर्ति बढ़ने की नींव बनती है।",
+      "facts": [
+        {
+          "k": "M1",
+          "v": "Narrow Money",
+          "s": "नक़द + demand deposits + other deposits with RBI"
+        },
+        {
+          "k": "M3",
+          "v": "Broad Money",
+          "s": "M1 + time deposits"
+        },
+        {
+          "k": "M0",
+          "v": "Reserve / Base Money",
+          "s": "RBI की देनदारी"
+        },
+        {
+          "k": "स्रोत",
+          "v": "RBI",
+          "s": "Monthly Bulletin"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "M0",
+            "s": "चलन में मुद्रा + banks की RBI में जमा"
+          },
+          {
+            "t": "M1",
+            "s": "लोगों का नक़द + demand deposits"
+          },
+          {
+            "t": "M3",
+            "s": "M1 + time deposits"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "नींव",
+            "s": ""
+          },
+          {
+            "b": "+ FD जैसी जमा",
+            "s": ""
+          }
+        ],
+        "note": "RBI के मुताबिक M3 के स्रोत हैं: सरकार को net bank credit, commercial sector को bank credit, net foreign exchange assets, और जनता के प्रति सरकार की मुद्रा देनदारी।"
+      },
+      "myths": [
+        {
+          "m": "\"Money supply = सिर्फ़ छपे हुए नोट।\"",
+          "f": "नहीं। RBI के मुताबिक M1 में लोगों के पास नक़द के साथ demand deposits भी हैं, और M3 में banks की time deposits भी।[^1]"
+        },
+        {
+          "m": "\"M0 और M3 एक ही हैं।\"",
+          "f": "नहीं। RBI के मुताबिक M0 (Reserve Money) में चलन में मुद्रा, banks की RBI में जमा और RBI के पास other deposits हैं; M3 लोगों के पास कुल broad money है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "लोगों की जेब का नक़द, उनके बचत / चालू खातों का पैसा और FD — इन सबको जोड़कर 'देश में कितना पैसा है' का पैमाना।[^1]"
+        },
+        {
+          "q": "M2 और M4 क्या हैं?",
+          "a": "RBI के मुताबिक M2 = M1 + post office savings deposits; M4 = M3 + कुल post office deposits।[^1]"
+        },
+        {
+          "q": "Currency with the public क्या है?",
+          "a": "RBI के मुताबिक चलन में मुद्रा, banks के पास रखे नक़द को घटाकर।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Monetary Policy"
+        },
+        {
+          "t": "CRR"
+        },
+        {
+          "t": "Inflation"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Comprehensive Guide for Current Statistics of the RBI Monthly Bulletin, 08.10.2026 (पैरा 3.1–3.4) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=24094",
+          "issued": "2026-10-08",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3.1",
+              "c": "M1, M2, M3, M4 की परिभाषा; M3 के स्रोत"
+            },
+            {
+              "ref": "पैरा 3.3, 3.4",
+              "c": "M0 = base money: चलन में मुद्रा, bankers' deposits, other deposits; RBI की मौद्रिक देनदारी; currency with the public की परिभाषा"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nMoney Supply यानी मुद्रा आपूर्ति। RBI के मुताबिक monetary aggregates मुद्रा आपूर्ति के पैमाने हैं, जो जनता के प्रति banking व्यवस्था की देनदारियाँ दिखाते हैं (banks के आपसी लेन-देन को छोड़कर)।[^1]\n\n## Money supply कैसे गिनते हैं | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: M0 = reserve / base money; M1 = नक़द + demand deposits + other deposits with RBI; M2 = M1 + PO savings; M3 = M1 + time deposits; M4 = M3 + कुल PO deposits।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "call-money",
+      "term": "Call Money",
+      "aliases": [
+        "Call Money Market",
+        "Notice Money",
+        "Term Money",
+        "WACR",
+        "Weighted Average Call Rate",
+        "कॉल मनी"
+      ],
+      "full": "Call Money · banks के बीच एक रात (overnight) के लिए बिना गिरवी उधार",
+      "fullEn": "Call Money",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के Call, Notice and Term Money Markets Directions, 2021 और 30 सितंबर 2025 की press release (Revised Liquidity Management Framework) से जाँचा।"
+        }
+      ],
+      "one": "Call Money का मतलब है banks और कुछ दूसरी संस्थाओं के बीच एक रात (overnight) के लिए बिना गिरवी (unsecured) पैसा उधार लेना या देना। 14 दिन तक का ऐसा उधार Notice Money और 14 दिन से एक साल तक का Term Money कहलाता है। इस बाज़ार की औसत दर, WACR, RBI की monetary policy का operating target है।",
+      "facts": [
+        {
+          "k": "Call Money",
+          "v": "Overnight",
+          "s": "बिना गिरवी"
+        },
+        {
+          "k": "Notice Money",
+          "v": "14 दिन तक",
+          "s": "overnight छोड़कर"
+        },
+        {
+          "k": "Term Money",
+          "v": "14 दिन से 1 साल",
+          "s": ""
+        },
+        {
+          "k": "WACR",
+          "v": "Operating target",
+          "s": "monetary policy"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank A के पास फ़ालतू पैसा",
+            "s": "lender"
+          },
+          {
+            "t": "Call money market",
+            "s": "overnight, बिना गिरवी"
+          },
+          {
+            "t": "Bank B की कमी पूरी",
+            "s": "borrower"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "RBI के 30 सितंबर 2025 के फ़ैसले के मुताबिक overnight WACR monetary policy का operating target बना रहेगा; RBI दूसरे overnight money market segments की दरों पर भी नज़र रखता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Call money में कोई भी व्यक्ति पैसा दे सकता है।\"",
+          "f": "नहीं। RBI के मुताबिक इस बाज़ार में scheduled commercial banks (Local Area Banks छोड़कर), Payments Banks, Small Finance Banks, RRB, co-operative banks और Primary Dealers ही borrower और lender दोनों बन सकते हैं।[^1]"
+        },
+        {
+          "m": "\"Call money में गिरवी देनी होती है।\"",
+          "f": "नहीं। RBI की परिभाषा के मुताबिक call money overnight आधार पर unsecured (बिना गिरवी) उधार है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "Banks के बीच 'आज लो, कल लौटाओ' वाला छोटा उधार, जिससे दिन के अंत में पैसों की कमी-बढ़ती संभाली जाती है।[^1]"
+        },
+        {
+          "q": "ब्याज दर कौन तय करता है?",
+          "a": "RBI के मुताबिक भाग लेने वाली संस्थाएँ call, notice और term money में ब्याज दर ख़ुद तय करने को स्वतंत्र हैं।[^1]"
+        },
+        {
+          "q": "WACR क्यों अहम है?",
+          "a": "RBI के मुताबिक overnight weighted average call rate monetary policy का operating target है, यानी RBI liquidity संभालकर इसे policy repo rate के पास रखने की कोशिश करता है।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "LAF"
+        },
+        {
+          "t": "Monetary Policy"
+        },
+        {
+          "t": "SDF"
+        },
+        {
+          "t": "MSF"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Master Direction: Reserve Bank of India (Call, Notice and Term Money Markets) Directions, 2021 (FMRD.DIRD.01/14.01.001/2021-22, 01.04.2021; 08.06.2023 तक updated) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12061",
+          "issued": "2021-04-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2(a)(ii), (ix), (xiv)",
+              "c": "Call = overnight unsecured; Notice = 14 दिन तक (overnight छोड़कर); Term = 14 दिन से 1 साल"
+            },
+            {
+              "ref": "पैरा 3, 5(a)",
+              "c": "participants: SCB (LAB छोड़कर), Payments Banks, SFB, RRB, co-op banks, Primary Dealers; ब्याज दर ख़ुद तय"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Revised Liquidity Management Framework, 30.09.2025 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61317",
+          "issued": "2025-09-30",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "overnight WACR operating target बना रहेगा; दूसरे overnight segments पर नज़र"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCall Money यानी overnight उधार। RBI के Directions के मुताबिक 'Call Money' का मतलब है overnight आधार पर unsecured funds उधार लेना या देना।[^1]\n\n## Call money market कैसे चलता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Call = overnight; Notice = 14 दिन तक; Term = 14 दिन–1 साल; सब unsecured; WACR = monetary policy का operating target (30.9.2025 को दोहराया)।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "treasury-bill",
+      "term": "Treasury Bill",
+      "aliases": [
+        "Treasury Bills",
+        "T-Bill",
+        "T-Bills",
+        "ट्रेज़री बिल"
+      ],
+      "full": "Treasury Bill · भारत सरकार का एक साल से कम का, discount पर जारी क़र्ज़-पत्र",
+      "fullEn": "Treasury Bill",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के FAQ 'Government Securities Market in India – A Primer' (पैरा 1.3, 3.3) से जाँचा।"
+        }
+      ],
+      "one": "Treasury Bill (T-Bill) भारत सरकार का छोटी अवधि का क़र्ज़-पत्र (money market instrument) है, जो अभी तीन अवधियों में आता है: 91 दिन, 182 दिन और 364 दिन। इस पर अलग से ब्याज नहीं मिलता; यह कम क़ीमत (discount) पर जारी होता है और अवधि पूरी होने पर पूरी face value मिलती है। RBI आम तौर पर हर बुधवार इसकी नीलामी करता है।",
+      "facts": [
+        {
+          "k": "अवधि",
+          "v": "91, 182, 364 दिन",
+          "s": ""
+        },
+        {
+          "k": "ब्याज",
+          "v": "नहीं (zero coupon)",
+          "s": "discount पर जारी"
+        },
+        {
+          "k": "जारी करने वाला",
+          "v": "भारत सरकार",
+          "s": "RBI नीलामी करता है"
+        },
+        {
+          "k": "नीलामी",
+          "v": "आम तौर पर हर बुधवार",
+          "s": "settlement T+1"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "₹98.20 में ख़रीदा",
+            "s": "discount पर"
+          },
+          {
+            "t": "91 दिन रखा",
+            "s": ""
+          },
+          {
+            "t": "₹100 मिले",
+            "s": "face value"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "RBI के उदाहरण के मुताबिक ₹100 face value वाला 91 दिन का T-bill ₹98.20 पर जारी हो सकता है; ₹1.80 का फ़र्क़ ही निवेशक की कमाई है।"
+      },
+      "myths": [
+        {
+          "m": "\"T-bill पर हर महीने ब्याज मिलता है।\"",
+          "f": "नहीं। RBI के मुताबिक T-bills zero coupon securities हैं, जिन पर ब्याज नहीं मिलता; ये discount पर जारी होकर face value पर redeem होते हैं।[^1]"
+        },
+        {
+          "m": "\"T-bill लंबे समय का निवेश है।\"",
+          "f": "नहीं। RBI के मुताबिक ये short term debt instruments हैं, अभी 91, 182 और 364 दिन के।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "सरकार को कुछ महीनों के लिए उधार देना: आज थोड़ा कम दीजिए, अवधि पूरी होने पर पूरा पैसा लीजिए।[^1]"
+        },
+        {
+          "q": "T-bill और G-Sec में फ़र्क़?",
+          "a": "RBI के primer के मुताबिक T-bills short term (एक साल से कम) money market instruments हैं; लंबी अवधि के सरकारी क़र्ज़-पत्र dated securities कहलाते हैं — Government Securities पन्ना देखिए।[^1]"
+        },
+        {
+          "q": "नीलामी कब होती है?",
+          "a": "RBI के मुताबिक आम तौर पर हर बुधवार, और settlement अगले कामकाजी दिन (T+1)।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Government Securities"
+        },
+        {
+          "t": "Bond (बॉन्ड)"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Call Money"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — FAQ: Government Securities Market in India – A Primer (पैरा 1.3, 3.3) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/FS_FAQs.aspx?Id=79",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1.3",
+              "c": "T-bills: money market, short term, भारत सरकार; 91 / 182 / 364 दिन; zero coupon, discount; ₹98.20 का उदाहरण"
+            },
+            {
+              "ref": "पैरा 3.3",
+              "c": "RBI आम तौर पर हर बुधवार नीलामी; T+1 settlement"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nTreasury Bill यानी T-Bill। RBI के मुताबिक T-bills money market instruments हैं, यानी भारत सरकार के short term debt instruments, जो अभी 91, 182 और 364 दिन की अवधि में जारी होते हैं।[^1]\n\n## T-bill कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 91 / 182 / 364 दिन; zero coupon, discount पर; भारत सरकार के; RBI हर बुधवार (आम तौर पर) नीलामी; T+1।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "certificate-of-deposit",
+      "term": "Certificate of Deposit",
+      "aliases": [
+        "Certificate of Deposits",
+        "Certificates of Deposit",
+        "CDs",
+        "जमा प्रमाणपत्र"
+      ],
+      "full": "Certificate of Deposit (CD) · bank का थोड़ी अवधि का, बेचा-ख़रीदा जा सकने वाला जमा-पत्र",
+      "fullEn": "Certificate of Deposit",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के Certificate of Deposit Directions, 2021 (4 जून 2021) से जाँचा।"
+        }
+      ],
+      "one": "Certificate of Deposit (CD) money market का एक साधन है, जिससे bank थोड़ी अवधि के लिए पैसा जुटाते हैं। RBI के मुताबिक CD scheduled commercial banks, Regional Rural Banks और Small Finance Banks जारी कर सकते हैं; अवधि 7 दिन से 1 साल; न्यूनतम ₹5 लाख और उसके गुणकों में; सिर्फ़ demat रूप में।",
+      "facts": [
+        {
+          "k": "कौन जारी करे",
+          "v": "SCB, RRB, SFB",
+          "s": "पैरा 3(a)"
+        },
+        {
+          "k": "अवधि",
+          "v": "7 दिन से 1 साल",
+          "s": ""
+        },
+        {
+          "k": "न्यूनतम",
+          "v": "₹5 लाख",
+          "s": "फिर ₹5 लाख के गुणक"
+        },
+        {
+          "k": "रूप",
+          "v": "सिर्फ़ demat",
+          "s": "SEBI-registered depository"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank",
+            "s": "पैसे की ज़रूरत"
+          },
+          {
+            "t": "CD जारी",
+            "s": "discount या coupon पर"
+          },
+          {
+            "t": "निवेशक",
+            "s": "भारत में रहने वाले"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "RBI के मुताबिक CD भारत में रहने वाले सभी व्यक्तियों / संस्थाओं को जारी हो सकता है, और face value से discount पर भी।"
+      },
+      "myths": [
+        {
+          "m": "\"CD और आम FD एक ही हैं।\"",
+          "f": "नहीं। CD RBI के अलग Directions के तहत money market instrument है, जो सिर्फ़ demat रूप में, कम-से-कम ₹5 लाख का और 7 दिन से 1 साल की अवधि का होता है।[^1]"
+        },
+        {
+          "m": "\"कोई भी bank या NBFC CD जारी कर सकता है।\"",
+          "f": "नहीं। RBI के 2021 Directions के मुताबिक scheduled commercial banks, RRB और Small Finance Banks जारी कर सकते हैं; All India Financial Institutions के CD के लिए अलग निर्देश हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "Bank का बड़ा, थोड़े समय का 'जमा-पत्र', जिसे निवेशक ख़रीदते हैं और बाज़ार में बेच भी सकते हैं।[^1]"
+        },
+        {
+          "q": "CD किसे जारी हो सकता है?",
+          "a": "RBI के मुताबिक भारत में रहने वाले सभी persons को।[^1]"
+        },
+        {
+          "q": "ब्याज कैसे मिलता है?",
+          "a": "RBI के मुताबिक CD face value से discount पर जारी हो सकता है (या coupon के साथ, Directions के नियमों से)।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Commercial Paper"
+        },
+        {
+          "t": "Treasury Bill"
+        },
+        {
+          "t": "FD"
+        },
+        {
+          "t": "Small Finance Bank"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Master Direction: Reserve Bank of India (Certificate of Deposit) Directions, 2021 (FMRD.DIRD.03/14.01.003/2021-22, 04.06.2021) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12108",
+          "issued": "2021-06-04",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3, 4",
+              "c": "SCB, RRB, SFB; AIFI के CD अलग निर्देश; भारत में रहने वाले सभी persons"
+            },
+            {
+              "ref": "पैरा 5(a), 5(b)",
+              "c": "सिर्फ़ demat; न्यूनतम ₹5 लाख और गुणक; अवधि 7 दिन से 1 साल; T+1; discount पर"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCertificate of Deposit यानी जमा प्रमाणपत्र (CD)। RBI के Certificate of Deposit Directions, 2021 के मुताबिक CD scheduled commercial banks, Regional Rural Banks और Small Finance Banks जारी कर सकते हैं।[^1]\n\n## CD कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: SCB / RRB / SFB; 7 दिन–1 साल; न्यूनतम ₹5 लाख; demat; discount पर; Directions 2021।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "commercial-paper",
+      "term": "Commercial Paper",
+      "aliases": [
+        "Commercial Papers",
+        "CPs",
+        "वाणिज्यिक पत्र"
+      ],
+      "full": "Commercial Paper (CP) · कंपनियों का एक साल तक का बिना गिरवी उधार-पत्र",
+      "fullEn": "Commercial Paper",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के Commercial Paper and Non-Convertible Debentures (upto one year) Directions, 2024 से जाँचा।"
+        }
+      ],
+      "one": "Commercial Paper (CP) money market का साधन है, जिससे कंपनियाँ, NBFC, InvIT / REIT, All India Financial Institutions जैसी संस्थाएँ थोड़े समय के लिए पैसा जुटाती हैं। RBI के मुताबिक CP की अवधि 7 दिन से 1 साल, न्यूनतम ₹5 लाख, सिर्फ़ demat रूप में, और कम-से-कम 'A3' credit rating ज़रूरी है।",
+      "facts": [
+        {
+          "k": "अवधि",
+          "v": "7 दिन से 1 साल",
+          "s": ""
+        },
+        {
+          "k": "न्यूनतम",
+          "v": "₹5 लाख",
+          "s": "फिर ₹5 लाख के गुणक"
+        },
+        {
+          "k": "न्यूनतम rating",
+          "v": "A3",
+          "s": "SEBI के rating symbol"
+        },
+        {
+          "k": "रूप",
+          "v": "सिर्फ़ demat",
+          "s": ""
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "कंपनी / NBFC",
+            "s": "थोड़े समय की ज़रूरत"
+          },
+          {
+            "t": "Credit rating ≥ A3",
+            "s": "CRA से"
+          },
+          {
+            "t": "CP जारी",
+            "s": "निवेशक ख़रीदते हैं"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "RBI के मुताबिक CP तभी जारी हो सकता है, जब जारी करने वाले की banks / AIFIs / NBFCs से ली गई सभी fund-based सुविधाएँ 'Standard' श्रेणी में हों।"
+      },
+      "myths": [
+        {
+          "m": "\"Commercial paper सिर्फ़ बड़ी कंपनियों के शेयर हैं।\"",
+          "f": "नहीं। CP एक साल तक का उधार-पत्र (debt instrument) है, शेयर नहीं; RBI के Directions इसकी अवधि 7 दिन से 1 साल तय करते हैं।[^1]"
+        },
+        {
+          "m": "\"Rating के बिना भी CP जारी हो सकता है।\"",
+          "f": "नहीं। RBI के मुताबिक CP के लिए Credit Rating Agency की न्यूनतम rating 'A3' ज़रूरी है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "कंपनी का बाज़ार से थोड़े समय का उधार, एक 'पर्ची' (paper) के ज़रिए, जिसे निवेशक ख़रीदते हैं।"
+        },
+        {
+          "q": "कौन जारी कर सकता है?",
+          "a": "RBI के मुताबिक कंपनियाँ; HFC समेत NBFC; InvIT और REIT; AIFI; ₹100 करोड़ net-worth वाली दूसरी body corporate; और ₹100 करोड़ net-worth वाली co-operative societies / LLP।[^1]"
+        },
+        {
+          "q": "कौन ख़रीद सकता है?",
+          "a": "RBI के मुताबिक सभी residents; non-residents FEMA की सीमा तक।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Certificate of Deposit"
+        },
+        {
+          "t": "Treasury Bill"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Credit Rating Agency"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Master Direction: Reserve Bank of India (Commercial Paper and Non-Convertible Debentures of original or initial maturity upto one year) Directions, 2024 (FMRD.DIRD.09/14.02.001/2023-24, 03.01.2024) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12592",
+          "issued": "2024-01-03",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3(a), (b), 4",
+              "c": "issuers: companies, NBFC/HFC, InvIT/REIT, AIFI, ₹100 करोड़ वाली body corporate, co-op society / LLP; fund-based सुविधाएँ Standard; investors: residents, non-residents FEMA तक"
+            },
+            {
+              "ref": "पैरा 5(a), 5(e)",
+              "c": "demat; ₹5 लाख; CP 7 दिन–1 साल; न्यूनतम rating A3"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCommercial Paper यानी वाणिज्यिक पत्र (CP)। RBI के 2024 के Directions के मुताबिक CP की अवधि कम-से-कम 7 दिन और ज़्यादा-से-ज़्यादा एक साल होती है।[^1]\n\n## CP कैसे जारी होता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 7 दिन–1 साल; ₹5 लाख; demat; rating ≥ A3; issuers: कंपनी, NBFC, AIFI…; Directions 2024 (1.4.2024 से)।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "bank-nationalisation",
+      "term": "Bank Nationalisation",
+      "aliases": [
+        "बैंक राष्ट्रीयकरण",
+        "Nationalisation of Banks",
+        "Bank Nationalization",
+        "Corresponding New Bank",
+        "Corresponding New Banks"
+      ],
+      "full": "बैंक राष्ट्रीयकरण · 1969 और 1980 में बड़े निजी banks का सरकार के हाथ में आना",
+      "fullEn": "Bank Nationalisation",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। India Code पर Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 और 1980 की प्रस्तावना और धारा 1 से जाँचा।"
+        }
+      ],
+      "one": "Bank Nationalisation यानी बड़े निजी banks का सरकारी स्वामित्व में आना। Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 से 14 बड़े banks के उपक्रम (undertakings) सरकार के अधीन 'corresponding new banks' बने; यह Act 19 जुलाई 1969 से लागू माना गया। फिर 1980 के ऐसे ही Act से 6 और banks, 15 अप्रैल 1980 से।",
+      "facts": [
+        {
+          "k": "पहला दौर",
+          "v": "19 जुलाई 1969",
+          "s": "14 banks"
+        },
+        {
+          "k": "क़ानून",
+          "v": "Act No. 5 of 1970",
+          "s": "31.3.1970"
+        },
+        {
+          "k": "दूसरा दौर",
+          "v": "15 अप्रैल 1980",
+          "s": "6 banks"
+        },
+        {
+          "k": "क़ानून",
+          "v": "Act No. 40 of 1980",
+          "s": "11.7.1980"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "निजी banking company",
+            "s": "बड़े banks"
+          },
+          {
+            "t": "उपक्रम का अधिग्रहण",
+            "s": "Act से"
+          },
+          {
+            "t": "Corresponding new bank",
+            "s": "सरकारी स्वामित्व"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "धारा 3",
+            "s": ""
+          }
+        ],
+        "note": "दोनों Acts की धारा 3 के मुताबिक Act शुरू होते ही First Schedule में दिए 'corresponding new banks' बने।"
+      },
+      "myths": [
+        {
+          "m": "\"1969 में सारे निजी banks सरकारी हो गए।\"",
+          "f": "नहीं। 1970 के Act की First Schedule में 14 banks थे; 1980 के Act से 6 और banks आए। बाक़ी निजी banks निजी ही रहे।[^1][^2]"
+        },
+        {
+          "m": "\"राष्ट्रीयकरण का क़ानून 1969 में ही बना।\"",
+          "f": "1970 का Act (Act No. 5 of 1970) 31 मार्च 1970 को बना, पर इसकी धारा 1(2) के मुताबिक यह 19 जुलाई 1969 से लागू माना गया।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "राष्ट्रीयकरण क्यों हुआ?",
+          "a": "1970 के Act की प्रस्तावना के मुताबिक banks के आकार, संसाधन और पहुँच को देखते हुए, अर्थव्यवस्था की ऊँचाइयों (heights of the economy) पर नियंत्रण और राष्ट्रीय नीति के मुताबिक विकास की ज़रूरतें बेहतर पूरी करने के लिए।[^1]"
+        },
+        {
+          "q": "1969 के 14 banks कौन थे?",
+          "a": "1970 के Act की First Schedule में: Central Bank of India, Bank of India, Punjab National Bank, Bank of Baroda, United Commercial Bank, Canara Bank, United Bank of India, Dena Bank, Syndicate Bank, Union Bank of India, Allahabad Bank, Indian Bank, Bank of Maharashtra और Indian Overseas Bank।[^1]"
+        },
+        {
+          "q": "1980 के 6 banks?",
+          "a": "1980 के Act की First Schedule में: Andhra Bank, Corporation Bank, New Bank of India, Oriental Bank of Commerce, Punjab and Sind Bank और Vijaya Bank। (इनमें से कई का बाद में दूसरे banks में विलय हो चुका है।)[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Commercial Bank"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Banking Regulation Act"
+        },
+        {
+          "t": "Lead Bank Scheme"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 (Act No. 5 of 1970; प्रस्तावना, धारा 1, 3, First Schedule) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/c7de62b7-04ab-4944-8438-b3a2040ae11d",
+          "issued": "1970-03-31",
+          "effective": "1969-07-19",
+          "used": [
+            {
+              "ref": "प्रस्तावना; धारा 1(2); धारा 3(1); First Schedule",
+              "c": "Act No. 5, 31.3.1970; मक़सद; 19.7.1969 से लागू; corresponding new banks; 14 banks के नाम"
+            }
+          ]
+        },
+        {
+          "label": "India Code — The Banking Companies (Acquisition and Transfer of Undertakings) Act, 1980 (Act No. 40 of 1980; प्रस्तावना, धारा 1, 3, First Schedule) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/2ebf38e4-f13d-4c6f-ab33-af2b1a559830",
+          "issued": "1980-07-11",
+          "effective": "1980-04-15",
+          "used": [
+            {
+              "ref": "प्रस्तावना; धारा 1(2); धारा 3(1); First Schedule",
+              "c": "Act No. 40, 11.7.1980; 15.4.1980 से लागू; corresponding new banks; 6 banks के नाम"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nBank Nationalisation यानी बैंक राष्ट्रीयकरण। Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 की प्रस्तावना के मुताबिक यह Act कुछ banking companies के उपक्रमों के अधिग्रहण और हस्तांतरण के लिए बना।[^1]\n\n## राष्ट्रीयकरण कैसे हुआ | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 1970 Act (No. 5) → 19.7.1969 से, 14 banks; 1980 Act (No. 40) → 15.4.1980 से, 6 banks; 'corresponding new banks' (धारा 3)।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "nbfc-mfi",
+      "term": "NBFC-MFI",
+      "aliases": [
+        "NBFC-MFIs",
+        "NBFC Microfinance Institution",
+        "Microfinance Institution",
+        "MFI",
+        "MFIs"
+      ],
+      "full": "NBFC-MFI · वह NBFC, जिसकी कम-से-कम 60% संपत्ति microfinance loans में हो",
+      "fullEn": "Non-Banking Financial Company – Microfinance Institution",
+      "group": "क़र्ज़",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के NBFC – Microfinance Institution Directions, 2025 और NBFC – Credit Facilities Directions, 2025 से जाँचा।"
+        }
+      ],
+      "one": "NBFC-MFI वह NBFC है, जो जमा (deposit) नहीं लेती और जिसकी कुल संपत्ति (intangible assets घटाकर) का कम-से-कम 60% हमेशा 'microfinance loans' में लगा रहता है। RBI के मुताबिक microfinance loan वह बिना गिरवी (collateral-free) loan है, जो ₹3,00,000 तक सालाना आय वाले परिवार को दिया जाए।",
+      "facts": [
+        {
+          "k": "न्यूनतम हिस्सा",
+          "v": "60%",
+          "s": "कुल संपत्ति का, microfinance में"
+        },
+        {
+          "k": "जमा लेती है?",
+          "v": "नहीं",
+          "s": "non-deposit taking"
+        },
+        {
+          "k": "Microfinance loan",
+          "v": "₹3 लाख तक की पारिवारिक आय",
+          "s": "बिना गिरवी"
+        },
+        {
+          "k": "Directions",
+          "v": "28 नवंबर 2025",
+          "s": "RBI"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "NBFC (बिना जमा)",
+            "s": ""
+          },
+          {
+            "t": "60%+ संपत्ति microfinance में",
+            "s": "लगातार"
+          },
+          {
+            "t": "NBFC-MFI",
+            "s": "RBI registration"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "RBI के मुताबिक अगर qualifying assets लगातार चार तिमाहियों तक 60% से कम रहें, तो NBFC-MFI को सुधार की योजना लेकर RBI के पास जाना होता है।"
+      },
+      "myths": [
+        {
+          "m": "\"NBFC-MFI के लिए 75% संपत्ति microfinance में ज़रूरी है।\"",
+          "f": "अब नहीं। RBI के 2025 Directions के मुताबिक यह न्यूनतम सीमा 60% है।[^1]"
+        },
+        {
+          "m": "\"Microfinance loan पर गिरवी ली जा सकती है।\"",
+          "f": "नहीं। RBI के मुताबिक microfinance loan collateral-free होता है, और उसे borrower के जमा खाते पर lien से भी नहीं जोड़ा जा सकता।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "ग़रीब / कम आय वाले परिवारों को छोटे, बिना गिरवी loan देने वाली विशेष NBFC।[^1][^2]"
+        },
+        {
+          "q": "'परिवार' का मतलब?",
+          "a": "RBI के मुताबिक household यानी एक परिवार इकाई: पति, पत्नी और उनके अविवाहित बच्चे।[^2]"
+        },
+        {
+          "q": "क्या सिर्फ़ NBFC-MFI ही microfinance loan देती है?",
+          "a": "नहीं। RBI के मुताबिक ₹3,00,000 तक आय वाले परिवारों को दिया गया हर collateral-free loan microfinance loan माना जाता है, चाहे किसी भी माध्यम से दिया जाए; Microfinance पन्ना भी देखिए।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Microfinance"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "Mudra Loan"
+        },
+        {
+          "t": "Self-Help Group"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Microfinance Institution) Directions, 2025 (DOR.FIN.REC.290/03-10-038/2025-26, 28.11.2025) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12933",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 8(3), 12",
+              "c": "NBFC-MFI = non-deposit taking, 60% संपत्ति microfinance loans में; 4 तिमाही कम रहने पर remediation plan"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025 (DOR.CRE.REC.No.266/07-01-008/2025-26, 28.11.2025; 15.07.2026 तक updated) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=12957",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "अध्याय V, पैरा 51",
+              "c": "microfinance loan = collateral-free, ₹3,00,000 तक पारिवारिक आय; household = पति, पत्नी, अविवाहित बच्चे; हर माध्यम; deposit पर lien नहीं"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNBFC-MFI यानी Non-Banking Financial Company – Microfinance Institution। RBI के 2025 Directions के मुताबिक यह वह non-deposit taking NBFC है, जिसकी कुल संपत्ति (intangible assets घटाकर) का कम-से-कम 60% लगातार 'microfinance loans' में लगा हो।[^1]\n\n## NBFC-MFI कैसे पहचानें | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: non-deposit taking NBFC; 60% संपत्ति microfinance में; microfinance loan = collateral-free, पारिवारिक आय ₹3 लाख तक; Directions 28.11.2025।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "sovereign-gold-bond",
+      "term": "Sovereign Gold Bond",
+      "aliases": [
+        "Sovereign Gold Bonds",
+        "SGB",
+        "SGBs",
+        "सॉवरेन गोल्ड बॉन्ड"
+      ],
+      "full": "Sovereign Gold Bond (SGB) · भारत सरकार की ओर से RBI का जारी, सोने के ग्राम में गिना जाने वाला bond",
+      "fullEn": "Sovereign Gold Bond",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की 20 अप्रैल 2017 (SGB 2017-18 Series I) और 9 फ़रवरी 2024 (SGB 2023-24 Series IV) की press releases से जाँचा।"
+        }
+      ],
+      "one": "Sovereign Gold Bond (SGB) भारत सरकार की ओर से RBI जारी करता है। इसकी इकाई सोने का ग्राम है (कम-से-कम 1 ग्राम), यानी पैसा सोने के भाव से जुड़ा रहता है, पर सोना हाथ में नहीं आता। RBI की 2017 की release के मुताबिक इस पर 2.50% सालाना ब्याज (हर छह महीने) मिलता था, अवधि 8 साल, और 5वें साल से निकलने का विकल्प।",
+      "facts": [
+        {
+          "k": "जारी करने वाला",
+          "v": "RBI",
+          "s": "भारत सरकार की ओर से"
+        },
+        {
+          "k": "इकाई",
+          "v": "1 ग्राम सोना",
+          "s": "ग्राम के गुणक"
+        },
+        {
+          "k": "अवधि",
+          "v": "8 साल",
+          "s": "5वें साल से निकासी"
+        },
+        {
+          "k": "ब्याज (2017-18 Series I)",
+          "v": "2.50% सालाना",
+          "s": "हर छह महीने"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "निवेशक पैसा देता है",
+            "s": "ग्राम के हिसाब से"
+          },
+          {
+            "t": "RBI bond जारी",
+            "s": "सरकार की ओर से"
+          },
+          {
+            "t": "परिपक्वता पर",
+            "s": "उस समय के सोने के भाव से"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "बीच में ब्याज",
+            "s": ""
+          }
+        ],
+        "note": "RBI की 2017 की release के मुताबिक SGB को loan के लिए गिरवी (collateral) भी रखा जा सकता है।"
+      },
+      "myths": [
+        {
+          "m": "\"SGB ख़रीदने पर असली सोना घर आता है।\"",
+          "f": "नहीं। RBI के मुताबिक SGB ग्राम में गिना जाने वाला bond है, जिसे सरकार की ओर से RBI जारी करता है; यह सोने का कागज़ी / digital रूप है।[^1]"
+        },
+        {
+          "m": "\"SGB की नई किश्त हर महीने खुलती है।\"",
+          "f": "RBI की 9 फ़रवरी 2024 की release के मुताबिक SGB 2023-24 Series IV 12–16 फ़रवरी 2024 को खुली थी। इसके बाद RBI की site पर हमें किसी नई किश्त की सूचना नहीं मिली (17 अक्टूबर 2026 तक)।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "सोने में निवेश, पर सरकार के bond के रूप में: भाव सोने से जुड़ा, ऊपर से तय ब्याज।[^1]"
+        },
+        {
+          "q": "कौन ख़रीद सकता था?",
+          "a": "RBI की 2017 की release के मुताबिक बिक्री भारत में रहने वाले व्यक्तियों, HUF, trusts वग़ैरह तक सीमित थी।[^1]"
+        },
+        {
+          "q": "अभी नया SGB मिल सकता है?",
+          "a": "हमें RBI की site पर फ़रवरी 2024 की Series IV के बाद किसी नई किश्त की सूचना नहीं मिली। नई किश्त आए तो वह RBI / सरकार की official सूचना से ही पक्की मानिए।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Bond (बॉन्ड)"
+        },
+        {
+          "t": "Government Securities"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Gold Loan"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Press Release: Sovereign Gold Bond Scheme 2017-18 – Series I, 20.04.2017 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40227",
+          "issued": "2017-04-20",
+          "effective": "",
+          "used": [
+            {
+              "ref": "तालिका: 2, 3, 4, 5, 6, 14, 15",
+              "c": "RBI सरकार की ओर से; resident व्यक्ति / HUF / trust; ग्राम, 1 ग्राम इकाई; 8 साल, 5वें साल से निकासी; न्यूनतम 1 ग्राम; 2.50% छमाही; collateral"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Sovereign Gold Bond Scheme 2023-24 Series IV – Issue Price, 09.02.2024 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57299",
+          "issued": "2024-02-09",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "SGB 2023-24 Series IV, 12–16 फ़रवरी 2024"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSovereign Gold Bond यानी SGB। RBI की 2017 की press release के मुताबिक ये bonds भारत सरकार की ओर से RBI जारी करता है, और ये सोने के ग्राम (1 ग्राम की मूल इकाई) में गिने जाते हैं।[^1]\n\n## SGB कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: RBI, सरकार की ओर से; ग्राम में; 8 साल (5वें साल से निकासी); 2.50% ब्याज (2017-18 Series I); आख़िरी सूचना वाली किश्त: 2023-24 Series IV (फ़रवरी 2024)।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "sensex-nifty",
+      "term": "Sensex और Nifty",
+      "aliases": [
+        "Sensex",
+        "BSE Sensex",
+        "Nifty",
+        "Nifty 50",
+        "NIFTY 50",
+        "सेंसेक्स",
+        "निफ़्टी",
+        "निफ्टी"
+      ],
+      "full": "Sensex और Nifty 50 · भारत के शेयर बाज़ार के दो मुख्य सूचकांक",
+      "fullEn": "BSE SENSEX and Nifty 50",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। BSE Indices Methodology (मई 2026) और NSE Indices की Nifty 50 factsheet (30 सितंबर 2026) से जाँचा।"
+        }
+      ],
+      "one": "Sensex और Nifty 50 शेयर बाज़ार के 'थर्मामीटर' जैसे सूचकांक (index) हैं। BSE SENSEX में 30 कंपनियाँ हैं (base year 1978-79 = 100), और NSE का Nifty 50 50 कंपनियों का index है (base date 3 नवंबर 1995, base value 1000)। दोनों free-float market capitalisation पर आधारित हैं।",
+      "facts": [
+        {
+          "k": "SENSEX",
+          "v": "30 कंपनियाँ",
+          "s": "BSE 100 में से"
+        },
+        {
+          "k": "SENSEX base",
+          "v": "1978-79 = 100",
+          "s": "launch 2 जनवरी 1986"
+        },
+        {
+          "k": "Nifty 50",
+          "v": "50 कंपनियाँ",
+          "s": "NSE Indices"
+        },
+        {
+          "k": "Nifty base",
+          "v": "3.11.1995 = 1000",
+          "s": "launch 22 अप्रैल 1996"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "बड़ी listed कंपनियाँ",
+            "s": "शर्तों पर चुनी"
+          },
+          {
+            "t": "Free-float market cap",
+            "s": "से weight"
+          },
+          {
+            "t": "Index का अंक",
+            "s": "रोज़ बदलता"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "BSE की methodology के मुताबिक SENSEX की कंपनियाँ BSE 100 से चुनी जाती हैं; DVR होने पर stocks 30 से ज़्यादा हो सकते हैं, पर कंपनियाँ 30 ही रहती हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Sensex ऊपर गया, यानी हर शेयर ऊपर गया।\"",
+          "f": "नहीं। Sensex सिर्फ़ 30 कंपनियों का index है (Nifty 50 कंपनियों का); बाक़ी शेयर अलग चल सकते हैं।[^1][^2]"
+        },
+        {
+          "m": "\"Sensex और Nifty एक ही index हैं।\"",
+          "f": "नहीं। SENSEX BSE Index Services का 30 कंपनियों वाला index है; Nifty 50 NSE Indices का 50 कंपनियों वाला।[^1][^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "बाज़ार की बड़ी कंपनियों के शेयरों का औसत-जैसा अंक, जिससे पता चलता है कि आज बाज़ार कुल मिलाकर ऊपर गया या नीचे।"
+        },
+        {
+          "q": "Free-float market cap क्या है?",
+          "a": "कंपनी के वे शेयर जो बाज़ार में ख़रीद-बिक्री के लिए उपलब्ध हैं, उनकी कुल क़ीमत; Nifty factsheet के मुताबिक Nifty 50 इसी तरीक़े से गिना जाता है।[^2]"
+        },
+        {
+          "q": "Nifty 50 का इस्तेमाल कहाँ?",
+          "a": "NSE Indices के मुताबिक fund portfolios की तुलना (benchmark), index funds, ETFs और structured products के लिए।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "SEBI"
+        },
+        {
+          "t": "Mutual Fund"
+        },
+        {
+          "t": "SIP"
+        },
+        {
+          "t": "IPO"
+        }
+      ],
+      "sources": [
+        {
+          "label": "BSE Index Services — BSE Indices Methodology (मई 2026; पन्ना 12, 72) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.bseindia.com/downloads1/BSE_Indices_Methodology.pdf",
+          "issued": "2026-05-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 12 (BSE SENSEX)",
+              "c": "BSE 100 से; 30 कंपनियाँ (DVR से stocks ज़्यादा); float-adjusted market cap"
+            },
+            {
+              "ref": "पन्ना 72 (Base Dates)",
+              "c": "SENSEX: launch 02-Jan-86, base 1978-79, base value 100"
+            }
+          ]
+        },
+        {
+          "label": "NSE Indices — Nifty 50 Factsheet (30.09.2026) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.niftyindices.com/Factsheet/Ind_Nifty50.pdf",
+          "issued": "2026-09-30",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 1",
+              "c": "50 companies index; free float market cap; launch 22.4.1996; base date 3.11.1995; base value 1000; उपयोग"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSensex (BSE SENSEX) और Nifty 50 शेयर बाज़ार के सूचकांक हैं। BSE की methodology के मुताबिक SENSEX में कंपनियों की संख्या 30 तय है; NSE Indices के मुताबिक Nifty 50 50 कंपनियों का विविध index है, जो बाज़ार की कुल हालत दिखाता है।[^1][^2]\n\n## Index कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: SENSEX: 30 कंपनियाँ, base 1978-79 = 100, launch 2.1.1986; Nifty 50: 50 कंपनियाँ, base 3.11.1995 = 1000, launch 22.4.1996; free-float market cap।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "ipo",
+      "term": "IPO",
+      "aliases": [
+        "Initial Public Offer",
+        "Initial Public Offering",
+        "आईपीओ",
+        "ASBA",
+        "Application Supported by Blocked Amount"
+      ],
+      "full": "Initial Public Offer · किसी unlisted कंपनी का पहली बार आम जनता को शेयर बेचना",
+      "fullEn": "Initial Public Offer",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। SEBI (ICDR) Regulations, 2018 (5 दिसंबर 2025 तक संशोधित) की regulation 2(1)(d) और 2(1)(w) से जाँचा।"
+        }
+      ],
+      "one": "IPO (Initial Public Offer) तब होता है, जब कोई कंपनी, जो अभी शेयर बाज़ार में listed नहीं है, पहली बार आम जनता को अपने शेयर (specified securities) ख़रीदने का प्रस्ताव देती है। SEBI के ICDR Regulations के मुताबिक इसमें कंपनी के मौजूदा शेयरधारकों का जनता को शेयर बेचना (offer for sale) भी शामिल है। आवेदन ASBA से होता है, जिसमें पैसा आपके खाते में ही 'block' रहता है।",
+      "facts": [
+        {
+          "k": "नियम",
+          "v": "SEBI ICDR Regulations, 2018",
+          "s": "reg. 2(1)(w)"
+        },
+        {
+          "k": "किसका",
+          "v": "Unlisted कंपनी",
+          "s": "पहली बार जनता को"
+        },
+        {
+          "k": "शामिल",
+          "v": "Offer for sale भी",
+          "s": "मौजूदा शेयरधारक"
+        },
+        {
+          "k": "आवेदन",
+          "v": "ASBA",
+          "s": "पैसा block, कटता नहीं"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Unlisted कंपनी",
+            "s": ""
+          },
+          {
+            "t": "IPO: जनता को शेयर",
+            "s": "नया issue / offer for sale"
+          },
+          {
+            "t": "Listing",
+            "s": "शेयर बाज़ार में"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "ICDR की regulation 2(1)(d) के मुताबिक ASBA वह आवेदन है, जिसके साथ आप bank (self-certified syndicate bank) को आवेदन की रक़म अपने खाते में block करने की अनुमति देते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"IPO का सारा पैसा हमेशा कंपनी को मिलता है।\"",
+          "f": "ज़रूरी नहीं। SEBI की परिभाषा के मुताबिक IPO में मौजूदा शेयरधारकों का offer for sale भी हो सकता है, जिसका पैसा उन शेयरधारकों को जाता है।[^1]"
+        },
+        {
+          "m": "\"IPO में आवेदन करते ही पैसा कट जाता है।\"",
+          "f": "ASBA में रक़म आपके bank खाते में block होती है (SEBI की परिभाषा, reg. 2(1)(d)); शेयर मिलने पर ही वह इस्तेमाल होती है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "कंपनी का पहली बार आम लोगों को अपना हिस्सा (शेयर) बेचना, ताकि वह शेयर बाज़ार में आ सके।[^1]"
+        },
+        {
+          "q": "Listed और unlisted में फ़र्क़?",
+          "a": "Listed कंपनी के शेयर stock exchange पर ख़रीदे-बेचे जाते हैं; IPO unlisted कंपनी को listed बनने का रास्ता देता है।[^1]"
+        },
+        {
+          "q": "IPO में पैसा लगाना सुरक्षित है?",
+          "a": "हर IPO में जोखिम है; कंपनी का offer document पढ़िए और SEBI-registered माध्यम से ही आवेदन कीजिए। Investment Scam पन्ना भी देखिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "SEBI"
+        },
+        {
+          "t": "Sensex और Nifty"
+        },
+        {
+          "t": "Mutual Fund"
+        },
+        {
+          "t": "Investment Scam"
+        },
+        {
+          "t": "UPI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SEBI — (Issue of Capital and Disclosure Requirements) Regulations, 2018 (05.12.2025 तक संशोधित; regulation 2(1)(d), 2(1)(w)) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/legal/regulations/dec-2025/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018-last-amended-on-december-05-2025-_98695.html",
+          "issued": "2018-09-11",
+          "effective": "",
+          "used": [
+            {
+              "ref": "reg. 2(1)(d)",
+              "c": "ASBA = आवेदन + self-certified syndicate bank को रक़म block करने की अनुमति"
+            },
+            {
+              "ref": "reg. 2(1)(w)",
+              "c": "IPO = unlisted issuer का जनता को offer; मौजूदा holders का offer for sale शामिल"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIPO यानी Initial Public Offer। SEBI (ICDR) Regulations, 2018 की regulation 2(1)(w) के मुताबिक 'initial public offer' का मतलब है किसी unlisted issuer का जनता को specified securities ख़रीदने का प्रस्ताव, जिसमें मौजूदा holders का offer for sale भी शामिल है।[^1]\n\n## IPO कैसे होता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: SEBI ICDR 2018, reg. 2(1)(w) (IPO), 2(1)(d) (ASBA); unlisted → listed; offer for sale शामिल।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "credit-rating-agency",
+      "term": "Credit Rating Agency",
+      "aliases": [
+        "Credit Rating Agencies",
+        "Credit Rating",
+        "क्रेडिट रेटिंग एजेंसी"
+      ],
+      "full": "Credit Rating Agency · listed (या होने वाली) securities की rating करने वाली SEBI-registered कंपनी",
+      "fullEn": "Credit Rating Agency",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। SEBI (Credit Rating Agencies) Regulations, 1999 (15 जनवरी 2026 तक संशोधित) की regulation 2(1)(h) और 3(1) से, और RBI के CP Directions से जाँचा।"
+        }
+      ],
+      "one": "Credit Rating Agency (CRA) वह कंपनी है, जो bonds, debentures, commercial paper जैसी securities की rating करती है — यानी बताती है कि क़र्ज़ लौटने का भरोसा कितना है। SEBI के नियमों के मुताबिक इसके लिए SEBI से registration ज़रूरी है। यह आपका व्यक्तिगत credit score देने वाले Credit Bureau (जैसे CIBIL) से अलग है।",
+      "facts": [
+        {
+          "k": "नियम",
+          "v": "SEBI CRA Regulations, 1999",
+          "s": "15.1.2026 तक संशोधित"
+        },
+        {
+          "k": "परिभाषा",
+          "v": "reg. 2(1)(h)",
+          "s": "listed / होने वाली securities"
+        },
+        {
+          "k": "Registration",
+          "v": "SEBI से",
+          "s": "reg. 3(1)"
+        },
+        {
+          "k": "उदाहरण",
+          "v": "CP के लिए न्यूनतम 'A3'",
+          "s": "RBI Directions"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "कंपनी bond / CP लाती है",
+            "s": ""
+          },
+          {
+            "t": "CRA rating देती है",
+            "s": "SEBI-registered"
+          },
+          {
+            "t": "निवेशक फ़ैसला लेते हैं",
+            "s": "जोखिम समझकर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "RBI के CP Directions के मुताबिक commercial paper जारी करने के लिए किसी Credit Rating Agency की कम-से-कम 'A3' rating ज़रूरी है।"
+      },
+      "myths": [
+        {
+          "m": "\"Credit Rating Agency ही मेरा CIBIL score बनाती है।\"",
+          "f": "नहीं। SEBI की परिभाषा के मुताबिक CRA securities की rating करती है; आपका व्यक्तिगत credit score Credit Bureau (Credit Information Company) देता है — Credit Bureau पन्ना देखिए।[^1]"
+        },
+        {
+          "m": "\"कोई भी कंपनी rating देने लगे।\"",
+          "f": "नहीं। reg. 3(1) के मुताबिक CRA का काम शुरू करने के लिए SEBI से certificate of registration लेना ज़रूरी है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "Bond या कंपनी के क़र्ज़-पत्र का 'report card': कितना भरोसेमंद है कि पैसा समय पर लौटेगा।"
+        },
+        {
+          "q": "SEBI की परिभाषा क्या है?",
+          "a": "reg. 2(1)(h) के मुताबिक CRA वह body corporate है, जो किसी recognised stock exchange पर listed या listing के लिए प्रस्तावित securities की rating का काम करती है या करना चाहती है।[^1]"
+        },
+        {
+          "q": "Rating का कहीं इस्तेमाल अनिवार्य है?",
+          "a": "हाँ, कई जगह; जैसे RBI के मुताबिक CP के लिए न्यूनतम 'A3' rating ज़रूरी है — Commercial Paper पन्ना देखिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Commercial Paper"
+        },
+        {
+          "t": "Bond (बॉन्ड)"
+        },
+        {
+          "t": "SEBI"
+        },
+        {
+          "t": "Credit Bureau"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SEBI — (Credit Rating Agencies) Regulations, 1999 (15.01.2026 तक संशोधित; regulation 2(1)(h), 3(1)) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/legal/regulations/jan-2026/securities-and-exchange-board-of-india-credit-rating-agencies-regulations-1999-last-amended-on-january-15-2026-_99126.html",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "reg. 2(1)(h) (पन्ना 3)",
+              "c": "CRA = listed / listing के लिए प्रस्तावित securities की rating करने वाली body corporate"
+            },
+            {
+              "ref": "reg. 3(1) (पन्ना 5)",
+              "c": "काम शुरू करने से पहले SEBI से registration का आवेदन"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCredit Rating Agency यानी क्रेडिट रेटिंग एजेंसी। SEBI (Credit Rating Agencies) Regulations, 1999 की regulation 2(1)(h) के मुताबिक यह वह body corporate है, जो stock exchange पर listed या listing के लिए प्रस्तावित securities की rating का काम करती है।[^1]\n\n## Rating कैसे काम करती है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: SEBI CRA Regulations 1999; reg. 2(1)(h) परिभाषा; reg. 3(1) registration; CP के लिए न्यूनतम A3 (RBI)।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "pm-kisan",
+      "term": "PM-KISAN",
+      "aliases": [
+        "PM KISAN",
+        "PM-Kisan",
+        "Pradhan Mantri Kisan Samman Nidhi",
+        "प्रधानमंत्री किसान सम्मान निधि",
+        "किसान सम्मान निधि"
+      ],
+      "full": "प्रधानमंत्री किसान सम्मान निधि · ज़मीन वाले किसान परिवारों को सालाना ₹6,000 की आय सहायता",
+      "fullEn": "Pradhan Mantri Kisan Samman Nidhi",
+      "group": "सरकारी योजनाएँ",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। PIB की 20 जून 2026 की PM-KISAN (23वीं किश्त) backgrounder से जाँचा।"
+        }
+      ],
+      "one": "PM-KISAN (प्रधानमंत्री किसान सम्मान निधि) 24 फ़रवरी 2019 को शुरू हुई योजना है, जिसमें खेती लायक ज़मीन वाले हर पात्र किसान परिवार को साल में ₹6,000 मिलते हैं — ₹2,000 की तीन बराबर किश्तों में, सीधे Aadhaar-seeded bank खाते में (DBT)। 20 जून 2026 को 23वीं किश्त जारी हुई।",
+      "facts": [
+        {
+          "k": "सालाना सहायता",
+          "v": "₹6,000",
+          "s": "हर पात्र किसान परिवार"
+        },
+        {
+          "k": "किश्तें",
+          "v": "3 × ₹2,000",
+          "s": "DBT से"
+        },
+        {
+          "k": "शुरुआत",
+          "v": "24 फ़रवरी 2019",
+          "s": ""
+        },
+        {
+          "k": "23वीं किश्त",
+          "v": "20 जून 2026",
+          "s": "₹18,880 करोड़ से ज़्यादा"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "पात्र किसान परिवार",
+            "s": "खेती लायक ज़मीन"
+          },
+          {
+            "t": "Aadhaar-seeded bank खाता",
+            "s": ""
+          },
+          {
+            "t": "₹2,000 × 3",
+            "s": "DBT"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "PIB के मुताबिक 23 किश्तों में अब तक ₹4.46 लाख करोड़ से ज़्यादा पात्र किसान परिवारों को दिए जा चुके हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"PM-KISAN का पैसा नक़द या एजेंट से मिलता है।\"",
+          "f": "नहीं। PIB के मुताबिक पैसा DBT से सीधे Aadhaar-seeded bank खाते में जाता है।[^1]"
+        },
+        {
+          "m": "\"PM-KISAN हर किसान को मिलता है, ज़मीन हो या न हो।\"",
+          "f": "PIB के मुताबिक योजना का मक़सद खेती लायक ज़मीन वाले (landholding) किसान परिवारों को आय सहायता देना है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "सरकार की ओर से ज़मीन वाले किसान परिवार को हर साल ₹6,000, तीन बार में ₹2,000 करके, सीधे खाते में।[^1]"
+        },
+        {
+          "q": "किश्त नहीं आई तो?",
+          "a": "पहले देखिए कि bank खाता Aadhaar-seeded है (Aadhaar Seeding पन्ना), फिर योजना के official portal या helpline से स्थिति पूछिए। कोई फ़ोन / link पर OTP या पैसे माँगे, तो वह धोखा हो सकता है।[^1]"
+        },
+        {
+          "q": "ताज़ा किश्त कब आई?",
+          "a": "PIB के मुताबिक 23वीं किश्त 20 जून 2026 को जारी हुई, ₹18,880 करोड़ से ज़्यादा, 9.44 करोड़ से ज़्यादा किसानों को।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "DBT"
+        },
+        {
+          "t": "Aadhaar Seeding"
+        },
+        {
+          "t": "Kisan Credit Card"
+        },
+        {
+          "t": "MSP"
+        },
+        {
+          "t": "PMFBY"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PIB — 23rd Instalment of PM-KISAN (backgrounder), 20.06.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jun/doc2026620898101.pdf",
+          "issued": "2026-06-20",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 1–2",
+              "c": "23वीं किश्त 20.6.2026, ₹18,880 करोड़+, 9.44 करोड़ किसान; 24.2.2019 को शुरू; landholding परिवार; ₹6,000, 3 × ₹2,000; DBT, Aadhaar-seeded खाते; ₹4.46 लाख करोड़+"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPM-KISAN यानी प्रधानमंत्री किसान सम्मान निधि। PIB के मुताबिक यह 24 फ़रवरी 2019 को शुरू हुई, और इसका मक़सद खेती लायक ज़मीन वाले किसान परिवारों को पक्की आय सहायता देना है।[^1]\n\n## पैसा कैसे मिलता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 24.2.2019; ₹6,000 / साल, 3 × ₹2,000; DBT, Aadhaar-seeded खाता; 23वीं किश्त 20.6.2026।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "pmfby",
+      "term": "PMFBY",
+      "aliases": [
+        "Pradhan Mantri Fasal Bima Yojana",
+        "प्रधानमंत्री फ़सल बीमा योजना",
+        "प्रधानमंत्री फसल बीमा योजना",
+        "फ़सल बीमा"
+      ],
+      "full": "प्रधानमंत्री फ़सल बीमा योजना · प्राकृतिक आपदा से फ़सल के नुक़सान पर किसानों का बीमा",
+      "fullEn": "Pradhan Mantri Fasal Bima Yojana",
+      "group": "सरकारी योजनाएँ",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। PIB की 11 अगस्त 2025 की PMFBY backgrounder से जाँचा।"
+        }
+      ],
+      "one": "PMFBY (प्रधानमंत्री फ़सल बीमा योजना) 18 फ़रवरी 2016 को शुरू हुई फ़सल बीमा योजना है। इसमें किसान बहुत कम premium देता है: ख़रीफ़ की खाद्य और तिलहन फ़सलों पर अधिकतम 2%, रबी पर 1.5%, और सालाना commercial / बाग़वानी फ़सलों पर 5%; बाक़ी premium केंद्र और राज्य सरकारें मिलकर भरती हैं।",
+      "facts": [
+        {
+          "k": "शुरुआत",
+          "v": "18 फ़रवरी 2016",
+          "s": ""
+        },
+        {
+          "k": "ख़रीफ़ premium",
+          "v": "अधिकतम 2%",
+          "s": "खाद्य और तिलहन"
+        },
+        {
+          "k": "रबी premium",
+          "v": "अधिकतम 1.5%",
+          "s": "खाद्य और तिलहन"
+        },
+        {
+          "k": "Commercial / बाग़वानी",
+          "v": "अधिकतम 5%",
+          "s": "सालाना फ़सलें"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "किसान थोड़ा premium देता है",
+            "s": "2% / 1.5% / 5%"
+          },
+          {
+            "t": "बाक़ी premium",
+            "s": "केंद्र + राज्य (50:50)"
+          },
+          {
+            "t": "नुक़सान पर दावा",
+            "s": "बीमा भुगतान"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "PIB के मुताबिक बाक़ी (95% से 98.5%) actuarial premium केंद्र और राज्य 50:50 भरते हैं; पूर्वोत्तर राज्यों (ख़रीफ़ 2020 से) और हिमालयी राज्यों (ख़रीफ़ 2023 से) के लिए अलग अनुपात है।"
+      },
+      "myths": [
+        {
+          "m": "\"फ़सल बीमा का पूरा premium किसान को भरना पड़ता है।\"",
+          "f": "नहीं। PIB के मुताबिक किसान का हिस्सा अधिकतम 2% / 1.5% / 5% है; बाक़ी केंद्र और राज्य मिलकर भरते हैं।[^1]"
+        },
+        {
+          "m": "\"PMFBY सिर्फ़ loan लेने वाले किसानों के लिए है।\"",
+          "f": "नहीं। PIB के मुताबिक non-loanee किसानों के आवेदन 2014-15 के 20 लाख से बढ़कर 2024-25 में 522 लाख हो गए।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "सूखा, बाढ़, कीट जैसी आपदा से फ़सल बर्बाद हो, तो बीमा का पैसा मिले — और premium का ज़्यादातर हिस्सा सरकार भरे।[^1]"
+        },
+        {
+          "q": "अब तक कितने दावे?",
+          "a": "PIB के मुताबिक 2016 से 78.41 करोड़ आवेदन बीमित हुए और ₹1.83 लाख करोड़ के दावे दिए गए (अगस्त 2025 तक)।[^1]"
+        },
+        {
+          "q": "योजना कब तक है?",
+          "a": "PIB के मुताबिक केंद्रीय मंत्रिमंडल ने जनवरी 2025 में PMFBY और RWBCIS को 2025-26 तक जारी रखने की मंज़ूरी दी। उसके बाद की स्थिति हमने अभी official स्रोत से नहीं जाँची।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Kisan Credit Card"
+        },
+        {
+          "t": "MSP"
+        },
+        {
+          "t": "PM-KISAN"
+        },
+        {
+          "t": "IRDAI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PIB — Empowering Annadatas: Pradhan Mantri Fasal Bima Yojana (backgrounder), 11.08.2025 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025811604501.pdf",
+          "issued": "2025-08-11",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Key Takeaway; पन्ना 2, 4",
+              "c": "18.2.2016; 78.41 करोड़ आवेदन, ₹1.83 लाख करोड़; non-loanee 20 लाख → 522 लाख; premium 2% / 1.5% / 5%; बाक़ी 50:50, NE और हिमालयी राज्य अलग; जनवरी 2025: 2025-26 तक, ₹69,515.71 करोड़"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPMFBY यानी प्रधानमंत्री फ़सल बीमा योजना। PIB के मुताबिक 18 फ़रवरी 2016 को शुरू हुई यह भारत सरकार की प्रमुख योजना है, जिसका मक़सद किसानों को सरल, किफ़ायती और व्यापक फ़सल बीमा देना है।[^1]\n\n## बीमा कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 18.2.2016; किसान premium: ख़रीफ़ 2%, रबी 1.5%, commercial / बाग़वानी 5%; बाक़ी केंद्र + राज्य; 2025-26 तक जारी (जनवरी 2025 की मंज़ूरी)।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "self-help-group",
+      "term": "Self-Help Group",
+      "aliases": [
+        "Self Help Group",
+        "Self-Help Groups",
+        "Self Help Groups",
+        "SHG",
+        "SHGs",
+        "स्वयं सहायता समूह",
+        "DAY-NRLM",
+        "SHG-Bank Linkage"
+      ],
+      "full": "स्वयं सहायता समूह (SHG) · आपसी भरोसे पर बना लोगों का छोटा समूह, जो मिलकर बचत करता और bank से क़र्ज़ लेता है",
+      "fullEn": "Self-Help Group",
+      "group": "क़र्ज़",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के Master Circular – DAY-NRLM (1 अप्रैल 2025) से जाँचा।"
+        }
+      ],
+      "one": "Self-Help Group (SHG / स्वयं सहायता समूह) आपसी भरोसे (affinity) पर बना लोगों का छोटा समूह है, जो मिलकर बचत करता है और bank से क़र्ज़ लेता है। RBI के DAY-NRLM वाले Master Circular के मुताबिक DAY-NRLM में महिलाओं के SHG में 10-20 सदस्य होते हैं, और ₹10 लाख तक के SHG loan पर कोई गिरवी (collateral) या margin नहीं ली जाती।",
+      "facts": [
+        {
+          "k": "सदस्य (DAY-NRLM)",
+          "v": "10-20",
+          "s": "कठिन क्षेत्रों में कम-से-कम 5"
+        },
+        {
+          "k": "₹10 लाख तक loan",
+          "v": "न collateral, न margin",
+          "s": "पैरा 7.3.6(i)"
+        },
+        {
+          "k": "₹10–20 लाख",
+          "v": "न collateral",
+          "s": "CGFMU cover"
+        },
+        {
+          "k": "योजना",
+          "v": "DAY-NRLM",
+          "s": "ग्रामीण आजीविका मिशन"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "10-20 महिलाएँ",
+            "s": "समूह बनाती हैं"
+          },
+          {
+            "t": "मिलकर बचत",
+            "s": "SHG का bank खाता"
+          },
+          {
+            "t": "Bank loan",
+            "s": "₹10 लाख तक बिना गिरवी"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "SHG-Bank linkage",
+            "s": ""
+          }
+        ],
+        "note": "RBI के मुताबिक ₹10 लाख तक के SHG loan पर SHG के बचत खाते पर lien भी नहीं लगाना चाहिए, और deposit की शर्त नहीं रखनी चाहिए।"
+      },
+      "myths": [
+        {
+          "m": "\"SHG को loan के लिए गिरवी देनी पड़ती है।\"",
+          "f": "नहीं। RBI के मुताबिक ₹10 लाख तक के loan पर न collateral, न margin; ₹10–20 लाख पर भी collateral नहीं।[^1]"
+        },
+        {
+          "m": "\"SHG में सिर्फ़ महिलाएँ ही हो सकती हैं।\"",
+          "f": "DAY-NRLM मुख्य रूप से महिलाओं के SHG बनाता है; RBI के मुताबिक दिव्यांगों और बुज़ुर्गों / transgenders जैसी विशेष श्रेणियों के समूहों में पुरुष और महिलाएँ दोनों हो सकते हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "गाँव / मोहल्ले की 10-20 महिलाओं का समूह, जो हर महीने थोड़ा-थोड़ा बचाता है, आपस में उधार देता है, और फिर bank से बड़ा loan लेता है।[^1]"
+        },
+        {
+          "q": "सदस्य के अपने कारोबार के लिए loan?",
+          "a": "RBI के मुताबिक bank अच्छे प्रदर्शन वाले परिपक्व SHG (2 साल से पुराने, समय पर चुकाया एक loan) के सदस्यों को अपनी नीति से ₹10 लाख तक का व्यक्तिगत loan दे सकते हैं।[^1]"
+        },
+        {
+          "q": "यह किस योजना से जुड़ा है?",
+          "a": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM) से; RBI का Master Circular इसी पर है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Joint Liability Group"
+        },
+        {
+          "t": "Microfinance"
+        },
+        {
+          "t": "NBFC-MFI"
+        },
+        {
+          "t": "Financial Inclusion"
+        },
+        {
+          "t": "Lead Bank Scheme"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Master Circular – DAY-NRLM (RBI/2025-26/02, FIDD.GSSD.CO.BC.No.01/09.01.003/2025-26, 01.04.2025) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/SCRIPTs/BS_ViewMasCirculardetails.aspx?id=12806",
+          "issued": "2025-04-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2.1, 2.2",
+              "c": "affinity-based महिला SHG; विशेष श्रेणी में पुरुष-महिला दोनों; 10-20 सदस्य, विशेष SHG में कम-से-कम 5"
+            },
+            {
+              "ref": "पैरा 7.3.6(i), (ii)",
+              "c": "₹10 लाख तक: न collateral, न margin, न lien; ₹10–20 लाख: न collateral, CGFMU cover"
+            },
+            {
+              "ref": "सदस्यों को व्यक्तिगत loan",
+              "c": "2 साल से पुराने, समय पर चुकाया loan वाले SHG के सदस्यों को ₹10 लाख तक"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSelf-Help Group यानी स्वयं सहायता समूह। RBI के DAY-NRLM Master Circular के मुताबिक DAY-NRLM आपसी भरोसे (affinity) पर आधारित महिलाओं के Self Help Groups को बढ़ावा देता है।[^1]\n\n## SHG कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: DAY-NRLM; महिला SHG 10-20 सदस्य (विशेष में 5); ₹10 लाख तक बिना collateral / margin; ₹10–20 लाख बिना collateral (CGFMU); RBI Master Circular 1.4.2025।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "joint-liability-group",
+      "term": "Joint Liability Group",
+      "aliases": [
+        "Joint Liability Groups",
+        "JLG",
+        "JLGs",
+        "संयुक्त देयता समूह",
+        "Bhoomi Heen Kisan"
+      ],
+      "full": "Joint Liability Group (JLG) · 4-10 लोगों का अनौपचारिक समूह, जो एक-दूसरे की गारंटी पर bank loan लेता है",
+      "fullEn": "Joint Liability Group",
+      "group": "क़र्ज़",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के 13 नवंबर 2014 के circular (Financing of Joint Farming groups of ‘Bhoomi Heen Kisan’) से जाँचा।"
+        }
+      ],
+      "one": "Joint Liability Group (JLG) 4-10 लोगों का अनौपचारिक समूह है, जो आपसी गारंटी (mutual guarantee) पर bank से loan लेता है — अकेले-अकेले या समूह के ज़रिए। आम तौर पर सदस्य एक जैसा काम करते हैं। RBI ने इसे ख़ास तौर पर उन भूमिहीन किसानों के लिए बढ़ावा दिया, जो बँटाईदार, मौखिक पट्टेदार या tenant farmer के रूप में खेती करते हैं।",
+      "facts": [
+        {
+          "k": "सदस्य",
+          "v": "4-10",
+          "s": "अनौपचारिक समूह"
+        },
+        {
+          "k": "गारंटी",
+          "v": "आपसी (mutual)",
+          "s": "गिरवी की जगह"
+        },
+        {
+          "k": "किसके लिए",
+          "v": "भूमिहीन किसान",
+          "s": "tenant, oral lessee, sharecropper"
+        },
+        {
+          "k": "RBI circular",
+          "v": "13 नवंबर 2014",
+          "s": "RBI/2014-15/304"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "4-10 किसान",
+            "s": "एक जैसा काम"
+          },
+          {
+            "t": "आपसी गारंटी",
+            "s": "joint liability"
+          },
+          {
+            "t": "Bank loan",
+            "s": "व्यक्तिगत या समूह से"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "RBI के मुताबिक JLG financing की प्रगति SLBC, DCC और BLBC की बैठकों के agenda में नियमित रूप से रखी जानी चाहिए।"
+      },
+      "myths": [
+        {
+          "m": "\"JLG और SHG एक ही हैं।\"",
+          "f": "नहीं। RBI के मुताबिक JLG 4-10 लोगों का अनौपचारिक समूह है, जो आपसी गारंटी पर loan लेता है; DAY-NRLM के महिला SHG में आम तौर पर 10-20 सदस्य होते हैं और उनमें मिलकर बचत भी होती है — Self-Help Group पन्ना देखिए।[^1]"
+        },
+        {
+          "m": "\"ज़मीन के काग़ज़ के बिना किसान को loan नहीं मिल सकता।\"",
+          "f": "RBI ने JLG के ज़रिए ख़ास तौर पर उन भूमिहीन किसानों को क़र्ज़ देने पर ज़ोर दिया, जो tenant farmer, मौखिक पट्टेदार या बँटाईदार के रूप में खेती करते हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में?",
+          "a": "कुछ किसान मिलकर समूह बनाते हैं और एक-दूसरे की ज़मानत लेते हैं, ताकि bank बिना ज़मीन की गिरवी के भी loan दे सके।[^1]"
+        },
+        {
+          "q": "Loan किसके नाम?",
+          "a": "RBI के मुताबिक loan व्यक्तिगत रूप से (individual basis) या समूह के ज़रिए, दोनों तरह से लिया जा सकता है।[^1]"
+        },
+        {
+          "q": "यह किस योजना से जुड़ा था?",
+          "a": "RBI का 2014 का circular Budget 2014-15 की घोषणा पर था: 'Bhoomi Heen Kisan' के संयुक्त खेती समूहों को financing।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Self-Help Group"
+        },
+        {
+          "t": "Kisan Credit Card"
+        },
+        {
+          "t": "Microfinance"
+        },
+        {
+          "t": "Lead Bank Scheme"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Circular: Financing of Joint Farming groups of ‘Bhoomi Heen Kisan’ (RBI/2014-15/304, FIDD.CO.FSD.BC 42/05.02.02/2014-15, 13.11.2014) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_CircularIndexDisplay.aspx?Id=9336",
+          "issued": "2014-11-13",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Appendix पैरा 1, 2",
+              "c": "tenant farmers, oral lessees, sharecroppers; JLG = 4-10 लोगों का अनौपचारिक समूह, व्यक्तिगत या समूह loan, mutual guarantee, एक जैसा काम"
+            },
+            {
+              "ref": "monitoring",
+              "c": "SLBC, DCC, BLBC बैठकों के agenda में"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nJoint Liability Group यानी संयुक्त देयता समूह (JLG)। RBI के मुताबिक JLG 4-10 लोगों का अनौपचारिक समूह है, जो व्यक्तिगत रूप से या समूह के ज़रिए, आपसी गारंटी के बदले bank loan लेने के लिए साथ आते हैं।[^1]\n\n## JLG कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 4-10 सदस्य; mutual guarantee; भूमिहीन / tenant / बँटाईदार किसान; RBI circular 13.11.2014; SLBC / DCC / BLBC में निगरानी।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
