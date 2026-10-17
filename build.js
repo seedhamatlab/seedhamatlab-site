@@ -1577,14 +1577,14 @@ const DISCLAIMER = {
 const PK_T = (ids) => ids.map((id) => `[${TERM_TITLE[id] || id}](/shabdkosh/${id}/)`).join(" · ");
 const TERM_TITLE = {};
 const PK_GROUPS = [
-  { h: "अर्थव्यवस्था के पैमाने: GDP और महँगाई", tag: "UPSC Prelims · GS-III · IBPS / SBI", ids: ["gdp", "inflation", "cpi"] },
+  { h: "अर्थव्यवस्था के पैमाने: GDP और महँगाई", tag: "UPSC Prelims · GS-III · IBPS / SBI", ids: ["mospi", "gdp", "gva", "inflation", "cpi", "wpi", "basis-point", "balance-of-payments", "current-account-deficit", "fdi-fpi"] },
   { h: "मौद्रिक नीति, RBI और बैंकिंग ढाँचा", tag: "UPSC GS-III · IBPS / SBI", ids: ["monetary-policy", "rbi", "rbi-act", "mpc", "repo-rate", "bank-rate", "msf", "sdf", "reverse-repo", "laf", "omo", "government-securities", "crr", "slr", "ndtl", "eblr", "mclr", "banking-regulation-act", "commercial-bank", "co-operative-bank", "regional-rural-bank", "small-finance-bank", "payments-bank", "local-area-bank", "nbfc", "dicgc"] },
-  { h: "क़र्ज़, NPA और वसूली", tag: "UPSC GS-III · IBPS / SBI", ids: ["npa", "sarfaesi", "ibc", "wilful-defaulter", "collateral", "term-loan", "cash-credit", "overdraft", "personal-loan", "home-loan", "gold-loan", "kfs", "penal-charges", "digital-lending", "credit-bureau", "cibil"] },
-  { h: "समावेशी विकास और वित्तीय समावेशन", tag: "UPSC Prelims · GS-II · GS-III", ids: ["priority-sector-lending", "kisan-credit-card", "nabard", "sidbi", "pmjdy", "bsbd", "small-account", "business-correspondent", "mudra-loan", "msme", "microfinance", "apy", "pmjjby", "pmsby", "nps", "sukanya-samriddhi", "small-savings-schemes", "aadhaar-seeding", "aeps", "digisaathi"] },
-  { h: "सरकारी बजट और कर", tag: "UPSC GS-III", ids: ["union-budget", "fiscal-deficit", "income-tax", "capital-gains", "income-tax-act-2025", "tax-regime", "standard-deduction", "tds", "itr", "ais", "form-16"] },
+  { h: "क़र्ज़, NPA और वसूली", tag: "UPSC GS-III · IBPS / SBI", ids: ["npa", "sarfaesi", "ibc", "ibbi", "arc", "capital-adequacy-ratio", "wilful-defaulter", "collateral", "term-loan", "cash-credit", "overdraft", "personal-loan", "home-loan", "gold-loan", "kfs", "penal-charges", "digital-lending", "credit-bureau", "cibil"] },
+  { h: "समावेशी विकास और वित्तीय समावेशन", tag: "UPSC Prelims · GS-II · GS-III", ids: ["financial-inclusion", "lead-bank-scheme", "dbt", "msp", "priority-sector-lending", "kisan-credit-card", "nabard", "sidbi", "pmjdy", "bsbd", "small-account", "business-correspondent", "mudra-loan", "msme", "microfinance", "apy", "pmjjby", "pmsby", "nps", "sukanya-samriddhi", "small-savings-schemes", "aadhaar-seeding", "aeps", "digisaathi"] },
+  { h: "सरकारी बजट और कर", tag: "UPSC GS-III", ids: ["union-budget", "fiscal-deficit", "gst", "income-tax", "capital-gains", "income-tax-act-2025", "tax-regime", "standard-deduction", "tds", "itr", "ais", "form-16"] },
   { h: "नियामक और शिकायत संस्थाएँ", tag: "UPSC GS-II", ids: ["rbi", "irdai", "uidai", "npci", "trai", "cert-in", "i4c", "dicgc", "sebi", "pfrda", "sebi-scores", "rbi-ombudsman", "internal-ombudsman"] },
   { h: "Digital भुगतान", tag: "IBPS · SBI", ids: ["upi", "upi-lite", "cbdc", "neft", "rtgs", "imps", "nach", "aeps", "rupay", "pss-act", "payment-aggregator", "account-aggregator", "fastag", "wallet", "zero-liability"] },
-  { h: "Cyber security और money-laundering", tag: "UPSC GS-III", ids: ["cert-in", "i4c", "1930", "cybercrime-gov-in", "pmla", "cfcfrms", "mule-account", "suspect-registry", "kyc", "ckycr", "v-cip"] },
+  { h: "Cyber security और money-laundering", tag: "UPSC GS-III", ids: ["cert-in", "i4c", "1930", "cybercrime-gov-in", "pmla", "fiu-ind", "fatf", "cfcfrms", "mule-account", "suspect-registry", "kyc", "ckycr", "v-cip"] },
   { h: "निवेश", tag: "UPSC GS-III (आंशिक)", ids: ["sebi", "bond", "mutual-fund", "sip"] },
 ];
 const PK_PSC = [

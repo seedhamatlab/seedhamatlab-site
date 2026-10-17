@@ -20235,6 +20235,2359 @@
         }
       ],
       "body": "## मतलब\n\nPFRDA यानी Pension Fund Regulatory and Development Authority। PFRDA Act, 2013 की प्रस्तावना के मुताबिक इसे pension funds बनाकर, बढ़ाकर और regulate करके बुढ़ापे की आय की सुरक्षा को बढ़ावा देने, और pension fund योजनाओं के subscribers के हितों की रक्षा के लिए बनाया गया।[^1]\n\n## PFRDA कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: PFRDA Act, 2013 (Act No. 23, 18.9.2013); मुख्यालय NCR (धारा 3); काम धारा 14; NPS 1.1.2004 से (धारा 20); NPS में individual pension account, CRA, कई pension funds, 100% G-Sec विकल्प। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "gst",
+      "term": "GST",
+      "aliases": [
+        "Goods and Services Tax",
+        "वस्तु एवं सेवा कर",
+        "CGST",
+        "SGST",
+        "IGST",
+        "GST Council",
+        "Input Tax Credit"
+      ],
+      "full": "Goods and Services Tax · माल और सेवाओं की सप्लाई पर लगने वाला कर",
+      "fullEn": "Goods and Services Tax",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। India Code पर CGST Act, 2017 की धारा 1, 2 और 9 के पाठ से जाँचा।"
+        }
+      ],
+      "one": "GST (Goods and Services Tax) माल (goods) और सेवाओं (services) की सप्लाई पर लगने वाला कर है। एक ही राज्य के अंदर की सप्लाई पर केंद्र का CGST और राज्य का State tax (SGST) लगता है, और दूसरे राज्य में सप्लाई पर integrated tax (IGST)। दरें GST Council की सिफ़ारिश पर notify होती हैं।",
+      "facts": [
+        {
+          "k": "केंद्रीय क़ानून",
+          "v": "CGST Act, 2017",
+          "s": "Act No. 12, 12.4.2017"
+        },
+        {
+          "k": "CGST की अधिकतम दर",
+          "v": "20%",
+          "s": "धारा 9(1)"
+        },
+        {
+          "k": "दरें कौन तय",
+          "v": "GST Council की सिफ़ारिश",
+          "s": "सरकार notify करती है"
+        },
+        {
+          "k": "GST Council",
+          "v": "अनुच्छेद 279A",
+          "s": "संविधान; धारा 2(36)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "व्यापारी ने माल / सेवा बेची",
+            "s": "सप्लाई"
+          },
+          {
+            "t": "राज्य के अंदर",
+            "s": "CGST + SGST"
+          },
+          {
+            "t": "दूसरे राज्य में",
+            "s": "IGST"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "intra-State",
+            "s": ""
+          },
+          {
+            "b": "inter-State",
+            "s": ""
+          }
+        ],
+        "note": "धारा 2(62), 2(63) के मुताबिक व्यापारी ने अपनी ख़रीद पर जो GST दिया (input tax), उसका credit (input tax credit) उसे नियमों के मुताबिक मिल सकता है।"
+      },
+      "myths": [
+        {
+          "m": "\"GST सिर्फ़ केंद्र सरकार का कर है।\"",
+          "f": "नहीं। CGST Act के मुताबिक केंद्र का central tax (धारा 9) है, और State tax राज्य के GST क़ानून से लगता है (धारा 2(104)); दूसरे राज्य की सप्लाई पर integrated tax (धारा 2(58))।[^1]"
+        },
+        {
+          "m": "\"Petrol-diesel पर GST पहले से लगता है।\"",
+          "f": "नहीं। धारा 9(2) के मुताबिक petroleum crude, diesel, petrol, natural gas और aviation turbine fuel पर central tax उस तारीख़ से लगेगा, जो सरकार GST Council की सिफ़ारिश पर notify करे।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "GST आसान भाषा में क्या है?",
+          "a": "आप जो सामान ख़रीदते हैं या सेवा लेते हैं, उसकी सप्लाई पर लगने वाला कर। बेचने वाला इसे वसूलकर सरकार को जमा करता है। (समझाने का उदाहरण।)[^1]"
+        },
+        {
+          "q": "Reverse charge क्या है?",
+          "a": "धारा 9(3) के मुताबिक कुछ notify की गई सप्लाई में tax बेचने वाला नहीं, बल्कि ख़रीदने वाला (recipient) भरता है।[^1]"
+        },
+        {
+          "q": "शराब पर GST?",
+          "a": "धारा 9(1) के मुताबिक मानव उपभोग वाली शराब (alcoholic liquor) की सप्लाई पर central tax नहीं लगता।[^1]"
+        },
+        {
+          "q": "GST Council क्या है?",
+          "a": "CGST Act की धारा 2(36) के मुताबिक संविधान के अनुच्छेद 279A के तहत बनी Goods and Services Tax Council। धारा 9 के मुताबिक दरें इसी की सिफ़ारिश पर notify होती हैं।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "Fiscal Deficit"
+        },
+        {
+          "t": "Income Tax"
+        },
+        {
+          "t": "PAN"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Central Goods and Services Tax Act, 2017 (Act No. 12 of 2017; धारा 1, 2 और 9 का पाठ) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/1f98f6d0-ec9d-42f0-bd50-dc34d25998e1",
+          "issued": "2017-04-12",
+          "effective": "",
+          "used": [
+            {
+              "ref": "धारा 1",
+              "c": "नाम; पूरे भारत पर"
+            },
+            {
+              "ref": "धारा 2(21), 2(36), 2(58), 2(62), 2(63), 2(104)",
+              "c": "central tax; Council = अनुच्छेद 279A; integrated tax; input tax; input tax credit; State tax"
+            },
+            {
+              "ref": "धारा 9(1)–(3)",
+              "c": "intra-State सप्लाई पर CGST, दर 20% तक, Council की सिफ़ारिश; शराब बाहर; petroleum बाद में notify; reverse charge"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nGST यानी Goods and Services Tax (वस्तु एवं सेवा कर)। CGST Act, 2017 की धारा 9 के मुताबिक राज्य के अंदर (intra-State) माल या सेवाओं की सप्लाई पर केंद्र 'central goods and services tax' लगाता है, GST Council की सिफ़ारिश पर notify दरों से, जो 20% से ज़्यादा नहीं हो सकतीं।[^1]\n\n## GST कैसे लगता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: CGST Act, 2017 (Act No. 12); CGST धारा 9, अधिकतम 20%; Council अनुच्छेद 279A; intra-State = CGST + SGST, inter-State = IGST; reverse charge धारा 9(3); petroleum पर बाद में।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "wpi",
+      "term": "WPI",
+      "aliases": [
+        "Wholesale Price Index",
+        "थोक मूल्य सूचकांक",
+        "WPI inflation",
+        "थोक महँगाई"
+      ],
+      "full": "Wholesale Price Index · थोक बाज़ार के दामों में औसत बदलाव का सूचकांक",
+      "fullEn": "Wholesale Price Index",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। DPIIT (Office of the Economic Adviser) की सितंबर 2026 की WPI release और नई series के FAQ से जाँचा।"
+        }
+      ],
+      "one": "WPI (थोक मूल्य सूचकांक) बताता है कि थोक बाज़ार में, यानी बड़ी मात्रा की पहली बिक्री पर, सामान के दाम औसतन कितने बदले। इसे वाणिज्य मंत्रालय के DPIIT का Office of the Economic Adviser जारी करता है। नई series का base year 2022-23 है, और इसमें सिर्फ़ सामान (goods) हैं, सेवाएँ नहीं।",
+      "facts": [
+        {
+          "k": "Base year",
+          "v": "2022-23",
+          "s": "नई series"
+        },
+        {
+          "k": "Items",
+          "v": "957",
+          "s": "पुरानी series में 697"
+        },
+        {
+          "k": "WPI महँगाई, सितंबर 2026",
+          "v": "11.39%",
+          "s": "अनंतिम; अगस्त 9.92%"
+        },
+        {
+          "k": "सबसे बड़ा हिस्सा",
+          "v": "Manufactured products",
+          "s": "weight 63.13"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "थोक दाम",
+            "s": "पहली बिक्री"
+          },
+          {
+            "t": "957 items का सूचकांक",
+            "s": "तीन major groups"
+          },
+          {
+            "t": "WPI महँगाई",
+            "s": "पिछले साल से बदलाव"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "weights",
+            "s": "उत्पादन के मूल्य से"
+          },
+          {
+            "b": "हर महीने",
+            "s": ""
+          }
+        ],
+        "note": "FAQ के मुताबिक तीन major groups के weight: Primary Articles 22.76, Fuel & Power 14.11, Manufactured Products 63.13।"
+      },
+      "myths": [
+        {
+          "m": "\"WPI और CPI एक ही महँगाई बताते हैं।\"",
+          "f": "नहीं। DPIIT के FAQ के मुताबिक WPI पहली बिक्री (थोक) के दाम देखता है, CPI उपभोक्ता के खुदरा दाम; WPI के weights उत्पादन के मूल्य से हैं, CPI के घरों के ख़र्च से; और CPI में मकान, शिक्षा, इलाज जैसी सेवाएँ हैं, जो WPI में नहीं।[^2]"
+        },
+        {
+          "m": "\"RBI का महँगाई target WPI पर है।\"",
+          "f": "नहीं। RBI का 4% का target CPI महँगाई पर है; इसकी जानकारी CPI पन्ने पर है।"
+        }
+      ],
+      "faq": [
+        {
+          "q": "WPI आसान भाषा में क्या है?",
+          "a": "फ़ैक्ट्री या थोक बाज़ार में बड़ी मात्रा में बिकने वाले सामान के दाम का औसत पैमाना। इससे दिखता है कि दुकान तक पहुँचने से पहले दाम कितने बदल रहे हैं।[^2]"
+        },
+        {
+          "q": "ताज़ा आँकड़ा क्या है?",
+          "a": "DPIIT की 14 अक्टूबर 2026 की release के मुताबिक सितंबर 2026 में अखिल भारतीय WPI महँगाई 11.39% (अनंतिम) रही, अगस्त 2026 में 9.92%।[^1]"
+        },
+        {
+          "q": "WPI में सेवाएँ क्यों नहीं?",
+          "a": "FAQ के मुताबिक WPI सिर्फ़ सामान को कवर करता है; सेवाओं के लिए अलग से Producer Price Index है।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Inflation"
+        },
+        {
+          "t": "CPI"
+        },
+        {
+          "t": "GDP"
+        },
+        {
+          "t": "Monetary Policy"
+        }
+      ],
+      "sources": [
+        {
+          "label": "DPIIT, Office of the Economic Adviser — Provisional WPI (Base Year 2022-23) for September 2026, 14.10.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://eaindustry.nic.in/press_release/press_release_202609.pdf",
+          "issued": "2026-10-14",
+          "effective": "",
+          "used": [
+            {
+              "ref": "मुख्य पैरा; Annexure-I",
+              "c": "सितंबर 2026 WPI महँगाई 11.39%, अगस्त 9.92%; base 2022-23; तीन major groups और weights"
+            }
+          ]
+        },
+        {
+          "label": "DPIIT, Office of the Economic Adviser — New Series of WPI (Base year 2022-23): FAQs (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://eaindustry.nic.in/uploaded_files/wpi/WPI_FAQS.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "FAQ",
+              "c": "WPI क्या मापता है; 957 items (पहले 697); weights 22.76 / 14.11 / 63.13; सिर्फ़ goods, Producer Price Index में services; WPI बनाम CPI"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nWPI यानी Wholesale Price Index (थोक मूल्य सूचकांक)। DPIIT के FAQ के मुताबिक WPI थोक बाज़ार में होने वाले लेन-देन के दामों का औसत बदलाव मापता है, यानी बड़ी मात्रा की पहली बिक्री के दाम।[^2]\n\n## WPI कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: base year 2022-23; 957 items; तीन major groups (Primary 22.76, Fuel & Power 14.11, Manufactured 63.13); सिर्फ़ goods; जारी करने वाला DPIIT का Office of the Economic Adviser; सितंबर 2026: 11.39%।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "gva",
+      "term": "GVA",
+      "aliases": [
+        "Gross Value Added",
+        "सकल मूल्य वर्धन",
+        "Real GVA",
+        "Nominal GVA"
+      ],
+      "full": "Gross Value Added · अर्थव्यवस्था के अलग-अलग क्षेत्रों का जोड़ा हुआ कुल मूल्य",
+      "fullEn": "Gross Value Added",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। MoSPI के 5 जून 2026 के Provisional Estimates (PIB) और नई GDP series के FAQ से जाँचा।"
+        }
+      ],
+      "one": "GVA (Gross Value Added) का शाब्दिक मतलब है 'कुल जोड़ा गया मूल्य': खेती, उद्योग और सेवाओं जैसे क्षेत्रों ने अपने काम से कितना मूल्य जोड़ा। MoSPI हर बार GDP के साथ GVA भी जारी करता है, क्षेत्रवार (sector-wise)। नई series का base year 2022-23 है।",
+      "facts": [
+        {
+          "k": "Real GVA 2025-26",
+          "v": "₹294.91 लाख करोड़",
+          "s": "growth 7.9% (PE)"
+        },
+        {
+          "k": "Nominal GVA 2025-26",
+          "v": "₹314.87 लाख करोड़",
+          "s": "growth 9.1% (PE)"
+        },
+        {
+          "k": "Base year",
+          "v": "2022-23",
+          "s": "पहले 2011-12"
+        },
+        {
+          "k": "जारी करने वाला",
+          "v": "MoSPI",
+          "s": "NSO"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Primary sector",
+            "s": "खेती, पशुपालन, खनन"
+          },
+          {
+            "t": "Secondary sector",
+            "s": "manufacturing, बिजली, निर्माण"
+          },
+          {
+            "t": "Tertiary sector",
+            "s": "व्यापार, परिवहन, वित्त, सेवाएँ"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+",
+            "s": ""
+          },
+          {
+            "b": "+",
+            "s": ""
+          }
+        ],
+        "note": "MoSPI की release के मुताबिक GVA तीन बड़े हिस्सों में दिखाया जाता है: Primary (खेती, पशुपालन, वन, मछली, खनन), Secondary (manufacturing, बिजली-गैस-पानी, निर्माण) और Tertiary (व्यापार, होटल, परिवहन, संचार, वित्त, real estate, सरकारी और दूसरी सेवाएँ)।"
+      },
+      "myths": [
+        {
+          "m": "\"GVA और GDP एक ही आँकड़ा है।\"",
+          "f": "नहीं। MoSPI दोनों अलग जारी करता है: 2025-26 में real GDP ₹323.12 लाख करोड़ (7.7%) और real GVA ₹294.91 लाख करोड़ (7.9%) अनुमानित है।[^1]"
+        },
+        {
+          "m": "\"ये आँकड़े पक्के हैं।\"",
+          "f": "नहीं। 2025-26 के आँकड़े Provisional Estimates (PE) हैं, जो आगे revise हो सकते हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "GVA आसान भाषा में क्या है?",
+          "a": "किसान, फ़ैक्ट्री, दुकान, bank — सबने अपने काम से जो मूल्य जोड़ा, उसका कुल जोड़। इससे पता चलता है कि कौन-सा क्षेत्र कितना बढ़ रहा है।"
+        },
+        {
+          "q": "Real और Nominal GVA में फ़र्क़?",
+          "a": "Nominal मौजूदा दामों पर, Real स्थिर (base year 2022-23) दामों पर। MoSPI के मुताबिक 2025-26 में nominal GVA ₹314.87 लाख करोड़ (9.1%) और real ₹294.91 लाख करोड़ (7.9%)।[^1]"
+        },
+        {
+          "q": "नई series कब आई?",
+          "a": "MoSPI ने 27 फ़रवरी 2026 को base year 2022-23 वाली नई series जारी की; PIB के FAQ के मुताबिक base year 2011-12 से बदलकर 2022-23 किया गया।[^1][^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "GDP"
+        },
+        {
+          "t": "Inflation"
+        },
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "Fiscal Deficit"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PIB (MoSPI) — Provisional Estimates of GDP for 2025-26 and Q4, 05.06.2026 (Release ID 2269286) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269286",
+          "issued": "2026-06-05",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Key Highlights I",
+              "c": "real GVA ₹294.91 लाख करोड़ (7.9%), nominal ₹314.87 लाख करोड़ (9.1%); real GDP ₹323.12 लाख करोड़ (7.7%); PE; नई series 27.2.2026"
+            },
+            {
+              "ref": "Fig. 3 (sectors)",
+              "c": "Primary, Secondary, Tertiary में क्या आता है"
+            }
+          ]
+        },
+        {
+          "label": "PIB — FAQ: Understanding the New Series of GDP (27.02.2026; 08.08.2026 तक updated) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/FaqDetails.aspx?ModuleId=4&NoteId=157582&id=157582&reg=3&lang=2",
+          "issued": "2026-02-27",
+          "effective": "",
+          "used": [
+            {
+              "ref": "FAQ",
+              "c": "base year 2011-12 से 2022-23"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nGVA यानी Gross Value Added (सकल मूल्य वर्धन)। MoSPI GDP के साथ GVA के अनुमान भी जारी करता है, क्षेत्रवार, स्थिर (2022-23) और मौजूदा दामों पर।[^1]\n\n## GVA कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: GVA क्षेत्रवार (Primary / Secondary / Tertiary); 2025-26 PE: real GVA 7.9%, nominal 9.1%; base year 2022-23 (27.2.2026 से)।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "current-account-deficit",
+      "term": "Current Account Deficit",
+      "aliases": [
+        "CAD",
+        "चालू खाता घाटा",
+        "Current Account Balance"
+      ],
+      "full": "चालू खाता घाटा · देश के सामान, सेवाओं, आय और transfers के लेन-देन में बाहर ज़्यादा पैसा जाना",
+      "fullEn": "Current Account Deficit",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की 1 सितंबर 2026 (Q1 2026-27) और 15 अक्टूबर 2026 (अगस्त 2026) की Balance of Payments releases से जाँचा।"
+        }
+      ],
+      "one": "Balance of Payments के 'चालू खाते' में चार चीज़ें आती हैं: सामान (goods) का आयात-निर्यात, सेवाएँ, primary income (जैसे निवेश पर ब्याज / मुनाफ़ा) और secondary income (जैसे विदेश से आए remittances)। जब इन सबमें देश से बाहर गया पैसा अंदर आए पैसे से ज़्यादा हो, तो उसे Current Account Deficit (CAD) कहते हैं। RBI इसे GDP के प्रतिशत में भी बताता है।",
+      "facts": [
+        {
+          "k": "CAD, Q1 2026-27",
+          "v": "US$ 4.2 अरब",
+          "s": "GDP का 0.5%"
+        },
+        {
+          "k": "एक साल पहले (Q1 2025-26)",
+          "v": "US$ 3.4 अरब",
+          "s": "GDP का 0.4%"
+        },
+        {
+          "k": "Merchandise trade deficit",
+          "v": "US$ 86.1 अरब",
+          "s": "Q1 2026-27"
+        },
+        {
+          "k": "Net services receipts",
+          "v": "US$ 51.6 अरब",
+          "s": "Q1 2026-27"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "सामान का घाटा",
+            "s": "आयात > निर्यात"
+          },
+          {
+            "t": "सेवाएँ और remittances",
+            "s": "कमाई अंदर"
+          },
+          {
+            "t": "बचा घाटा = CAD",
+            "s": "US$ 4.2 अरब (Q1)"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "घटाइए",
+            "s": ""
+          },
+          {
+            "b": "नतीजा",
+            "s": ""
+          }
+        ],
+        "note": "RBI के Q1 2026-27 आँकड़ों में: goods −86.1, services +51.6, primary income −10.5, secondary income +40.8 (US$ अरब); कुल −4.2।"
+      },
+      "myths": [
+        {
+          "m": "\"CAD का मतलब सरकार का बजट घाटा है।\"",
+          "f": "नहीं। CAD देश के बाक़ी दुनिया से लेन-देन (Balance of Payments) का हिस्सा है; सरकार के बजट का घाटा Fiscal Deficit है।[^1]"
+        },
+        {
+          "m": "\"सामान का घाटा ही CAD है।\"",
+          "f": "नहीं। RBI के मुताबिक Q1 2026-27 में सामान का घाटा US$ 86.1 अरब था, पर सेवाओं (+51.6) और remittances (secondary income +40.8) से CAD सिर्फ़ US$ 4.2 अरब रहा।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CAD आसान भाषा में क्या है?",
+          "a": "जैसे किसी घर की कमाई से ख़र्च ज़्यादा हो, वैसे ही देश का दुनिया से रोज़मर्रा के लेन-देन में बाहर ज़्यादा पैसा जाना। (समझाने का उदाहरण।)"
+        },
+        {
+          "q": "Remittances का क्या रोल है?",
+          "a": "RBI के मुताबिक विदेश में काम करने वाले भारतीयों के personal transfers Q1 2026-27 में बढ़कर US$ 42.9 अरब रहे (एक साल पहले 33.2), जो secondary income में आते हैं।[^1]"
+        },
+        {
+          "q": "अब हर महीने भी आँकड़े आते हैं?",
+          "a": "हाँ। RBI ने अगस्त 2026 के महीने के BoP आँकड़े 15 अक्टूबर 2026 को जारी किए: अगस्त 2026 में चालू खाते का net −5.2 और अप्रैल-अगस्त 2026 में −18.3 (US$ अरब, preliminary)।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "GDP"
+        },
+        {
+          "t": "Fiscal Deficit"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Press Release: Developments in India’s Balance of Payments during the First Quarter (April-June) of 2026-27, 01.09.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63493",
+          "issued": "2026-09-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Key Features; Table 1",
+              "c": "CAD US$ 4.2 अरब (0.5% GDP) बनाम 3.4 (0.4%); goods −86.1; services +51.6; primary income −10.5; secondary +40.8; personal transfers 42.9 (33.2)"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Developments in India’s Balance of Payments for the Month of August 2026, 15.10.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63813",
+          "issued": "2026-10-15",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Table",
+              "c": "अगस्त 2026 चालू खाता −5.2; अप्रैल-अगस्त 2026 −18.3; preliminary"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCurrent Account Deficit यानी चालू खाते का घाटा। RBI की Balance of Payments release में चालू खाते के हिस्से हैं: goods, services, primary income और secondary income। इनका net नकारात्मक हो तो घाटा (deficit) है।[^1]\n\n## CAD कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: चालू खाता = goods + services + primary income + secondary income; Q1 2026-27 CAD US$ 4.2 अरब (GDP का 0.5%); RBI अब मासिक BoP भी जारी करता है।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "balance-of-payments",
+      "term": "Balance of Payments",
+      "aliases": [
+        "BoP",
+        "भुगतान संतुलन",
+        "Capital Account",
+        "Financial Account"
+      ],
+      "full": "भुगतान संतुलन · किसी अवधि में देश और बाक़ी दुनिया के बीच हुए सारे आर्थिक लेन-देन का हिसाब",
+      "fullEn": "Balance of Payments",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की 1 सितंबर 2026 (Q1 2026-27) और 15 अक्टूबर 2026 (अगस्त 2026) की Balance of Payments releases से जाँचा।"
+        }
+      ],
+      "one": "Balance of Payments (BoP) देश और बाक़ी दुनिया के बीच किसी अवधि के सारे लेन-देन का हिसाब है। RBI की release में इसके दो बड़े हिस्से हैं: चालू खाता (सामान, सेवाएँ, आय, transfers) और capital और financial account (FDI, FPI, NRI deposits, विदेशी क़र्ज़ वग़ैरह)। इनका नतीजा देश के विदेशी मुद्रा भंडार (forex reserves) के बढ़ने या घटने में दिखता है।",
+      "facts": [
+        {
+          "k": "जारी करने वाला",
+          "v": "RBI",
+          "s": "तिमाही और अब मासिक"
+        },
+        {
+          "k": "चालू खाता, Q1 2026-27",
+          "v": "−US$ 4.2 अरब",
+          "s": "GDP का 0.5%"
+        },
+        {
+          "k": "Forex reserves, Q1 2026-27",
+          "v": "US$ 8.1 अरब घटे",
+          "s": "BoP basis"
+        },
+        {
+          "k": "FPI, Q1 2026-27",
+          "v": "US$ 9.6 अरब बाहर",
+          "s": "net outflow"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "चालू खाता",
+            "s": "goods, services, income"
+          },
+          {
+            "t": "Capital और financial account",
+            "s": "FDI, FPI, NRI deposits, ECB"
+          },
+          {
+            "t": "Overall balance",
+            "s": "reserves में बदलाव से बराबर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+",
+            "s": ""
+          },
+          {
+            "b": "=",
+            "s": ""
+          }
+        ],
+        "note": "RBI की मासिक table में Overall Balance = चालू खाता (A) + Capital Account (B), और इसका उलटा Monetary Movements (D) में दिखता है। Q1 2026-27 में चालू खाता −4.2 था; FDI +6.1, FPI −9.6, NRI deposits +2.8, ECB +3.3; और reserves 8.1 घटे (US$ अरब)।"
+      },
+      "myths": [
+        {
+          "m": "\"BoP सिर्फ़ आयात-निर्यात का हिसाब है।\"",
+          "f": "नहीं। RBI की release में सामान के साथ सेवाएँ, आय, remittances, FDI, FPI, NRI deposits, विदेशी क़र्ज़ (ECB) और reserves भी आते हैं।[^1]"
+        },
+        {
+          "m": "\"Reserves घटे तो सब बुरा, बढ़े तो सब अच्छा।\"",
+          "f": "यह अकेले से तय नहीं होता। RBI के आँकड़े सिर्फ़ यह बताते हैं कि किस अवधि में कितना पैसा आया-गया; Q1 2026-27 में reserves US$ 8.1 अरब घटे, जबकि एक साल पहले 4.5 अरब बढ़े थे।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "BoP आसान भाषा में क्या है?",
+          "a": "देश के बही-खाते जैसा हिसाब: दुनिया से कितना पैसा आया और कितना गया, किस वजह से। (समझाने का उदाहरण।)"
+        },
+        {
+          "q": "Release में '−' और '+' का reserves के लिए क्या मतलब है?",
+          "a": "RBI की table में reserve assets के लिए '−' का मतलब बढ़ोतरी और '+' का मतलब कमी है।[^1]"
+        },
+        {
+          "q": "अगस्त 2026 में क्या रहा?",
+          "a": "RBI के 15 अक्टूबर 2026 के मासिक आँकड़ों के मुताबिक अगस्त 2026 में चालू खाता −5.2, capital account +50.6 और overall balance +45.4 (US$ अरब, preliminary)।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Current Account Deficit"
+        },
+        {
+          "t": "FDI और FPI"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "GDP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Press Release: Developments in India’s Balance of Payments during the First Quarter (April-June) of 2026-27, 01.09.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63493",
+          "issued": "2026-09-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Key Features; Table 1",
+              "c": "चालू खाता −4.2; capital और financial account 2.6; FDI 6.1; FPI −9.6; NRI deposits 2.8; ECB 3.3; reserves 8.1 घटे; E&O 1.6; '−' बढ़ोतरी"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Developments in India’s Balance of Payments for the Month of August 2026, 15.10.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63813",
+          "issued": "2026-10-15",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Table",
+              "c": "अगस्त 2026: चालू खाता −5.2, capital account 50.6, overall balance (A+B) 45.4; Monetary Movements ('−' बढ़ोतरी)"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nBalance of Payments यानी भुगतान संतुलन। RBI इसके आँकड़े Statements में देता है: चालू खाता, capital और financial account, errors & omissions, और reserve assets।[^1]\n\n## BoP कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Overall Balance = चालू खाता + Capital Account, जिसका उलटा Monetary Movements (reserves) में; table में reserves के लिए '−' = बढ़ोतरी; RBI तिमाही और अब मासिक आँकड़े देता है; Q1 2026-27 में reserves US$ 8.1 अरब घटे।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "fdi-fpi",
+      "term": "FDI और FPI",
+      "aliases": [
+        "FDI",
+        "FPI",
+        "Foreign Direct Investment",
+        "Foreign Portfolio Investment",
+        "Foreign Portfolio Investor",
+        "विदेशी प्रत्यक्ष निवेश",
+        "Automatic Route",
+        "Government Route"
+      ],
+      "full": "विदेशी प्रत्यक्ष निवेश और विदेशी portfolio निवेश · विदेश से भारतीय कंपनियों में पैसा लगाने के दो तरीक़े",
+      "fullEn": "Foreign Direct Investment and Foreign Portfolio Investment",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के Master Direction – Foreign Investment in India (15 जून 2026 तक updated) और 1 सितंबर 2026 की BoP release से जाँचा।"
+        }
+      ],
+      "one": "जब भारत से बाहर रहने वाला कोई व्यक्ति / संस्था किसी भारतीय कंपनी के शेयर (equity instruments) में पैसा लगाता है, तो RBI के Master Direction के मुताबिक: unlisted कंपनी में, या listed कंपनी की 10% या ज़्यादा पूँजी में निवेश FDI है; listed कंपनी में 10% से कम निवेश FPI (Foreign Portfolio Investment) है।",
+      "facts": [
+        {
+          "k": "FDI की सीमा-रेखा",
+          "v": "listed कंपनी में 10% या ज़्यादा",
+          "s": "या कोई भी unlisted कंपनी"
+        },
+        {
+          "k": "FPI",
+          "v": "listed कंपनी में 10% से कम",
+          "s": "पैरा 2.9"
+        },
+        {
+          "k": "FDI, Q1 2026-27",
+          "v": "US$ 6.1 अरब (net)",
+          "s": "RBI BoP"
+        },
+        {
+          "k": "FPI, Q1 2026-27",
+          "v": "US$ 9.6 अरब बाहर",
+          "s": "net outflow"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "विदेशी निवेशक",
+            "s": "भारत से बाहर का person"
+          },
+          {
+            "t": "Automatic route",
+            "s": "सरकार की पहले से मंज़ूरी नहीं"
+          },
+          {
+            "t": "Government route",
+            "s": "पहले सरकारी मंज़ूरी"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "क्षेत्र के नियम",
+            "s": "sectoral cap"
+          },
+          {
+            "b": "या",
+            "s": ""
+          }
+        ],
+        "note": "Master Direction के पैरा 5.1 के मुताबिक विदेशी निवेश दो रास्तों से आता है: automatic route (सरकार की पहले से मंज़ूरी की ज़रूरत नहीं) और government route (पहले मंज़ूरी ज़रूरी)।"
+      },
+      "myths": [
+        {
+          "m": "\"विदेशी पैसा कोई भी हो, FDI ही कहलाता है।\"",
+          "f": "नहीं। RBI के मुताबिक listed कंपनी की 10% से कम पूँजी में निवेश FPI है; 10% या ज़्यादा, या unlisted कंपनी में निवेश FDI।[^1]"
+        },
+        {
+          "m": "\"10% से नीचे आते ही FDI, FPI बन जाता है।\"",
+          "f": "नहीं। पैरा 2.8.1 के मुताबिक अगर पहले से FDI वाला निवेश बाद में 10% से नीचे आ जाए, तो भी वह FDI ही माना जाता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आसान भाषा में फ़र्क़?",
+          "a": "FDI आम तौर पर कंपनी में बड़ी, लंबी हिस्सेदारी है; FPI शेयर बाज़ार में छोटी हिस्सेदारी वाला निवेश। (RBI की परिभाषा 10% की रेखा पर है।)[^1]"
+        },
+        {
+          "q": "Foreign Portfolio Investor कौन है?",
+          "a": "पैरा 2.10 के मुताबिक वह person, जो SEBI (Foreign Portfolio Investors) Regulations के तहत registered है।[^1]"
+        },
+        {
+          "q": "ताज़ा आँकड़े?",
+          "a": "RBI के मुताबिक Q1 2026-27 में FDI का net inflow US$ 6.1 अरब (एक साल पहले 5.2) और FPI का net outflow US$ 9.6 अरब (एक साल पहले 1.6 inflow) रहा।[^2]"
+        },
+        {
+          "q": "यह किस क़ानून से चलता है?",
+          "a": "Master Direction के मुताबिक भारत में विदेशी निवेश FEMA, 1999 की धारा 6(2A) और 47 के साथ Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 से regulate होता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Balance of Payments"
+        },
+        {
+          "t": "SEBI"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Mutual Fund"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Master Direction – Foreign Investment in India (FED Master Direction No.11/2017-18; 15.06.2026 तक updated) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11200",
+          "issued": "2018-01-04",
+          "effective": "",
+          "used": [
+            {
+              "ref": "शुरुआत",
+              "c": "FEMA धारा 6(2A), 47; NDI Rules, 2019"
+            },
+            {
+              "ref": "पैरा 2.8, 2.8.1, 2.9, 2.10",
+              "c": "FDI: unlisted या listed में 10%+; नीचे आने पर भी FDI; FPI: 10% से कम; FPI = SEBI registered"
+            },
+            {
+              "ref": "पैरा 5.1",
+              "c": "automatic route और government route"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Developments in India’s Balance of Payments during the First Quarter (April-June) of 2026-27, 01.09.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63493",
+          "issued": "2026-09-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Key Features",
+              "c": "FDI net 6.1 (5.2); FPI net outflow 9.6 (पहले 1.6 inflow)"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nFDI यानी Foreign Direct Investment और FPI यानी Foreign Portfolio Investment। RBI के Master Direction के मुताबिक दोनों में भारत से बाहर रहने वाला person भारतीय कंपनी के equity instruments में निवेश करता है; फ़र्क़ हिस्सेदारी की 10% की रेखा से होता है।[^1]\n\n## विदेशी निवेश कैसे आता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: FDI = unlisted में कोई भी, या listed में 10%+; FPI = listed में 10% से कम; automatic बनाम government route; FEMA + NDI Rules 2019।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "basis-point",
+      "term": "Basis Point",
+      "aliases": [
+        "Basis Points",
+        "bps",
+        "बेसिस पॉइंट",
+        "आधार अंक"
+      ],
+      "full": "Basis Point · 1% का सौवाँ हिस्सा, यानी 0.01%",
+      "fullEn": "Basis Point",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI Glossary और 7 अक्टूबर 2026 के MPC resolution से जाँचा।"
+        }
+      ],
+      "one": "Basis point (bps) ब्याज दर या yield के बदलाव को नापने की इकाई है। RBI Glossary के मुताबिक 1 basis point = एक प्रतिशत का सौवाँ हिस्सा, यानी 0.01%। इसलिए 25 basis points = 0.25% और 100 basis points = 1%।",
+      "facts": [
+        {
+          "k": "1 bps",
+          "v": "0.01%",
+          "s": "1% का सौवाँ हिस्सा"
+        },
+        {
+          "k": "25 bps",
+          "v": "0.25%",
+          "s": ""
+        },
+        {
+          "k": "100 bps",
+          "v": "1%",
+          "s": ""
+        },
+        {
+          "k": "7.10.2026 को Repo Rate",
+          "v": "+25 bps",
+          "s": "5.50% हुआ"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Repo Rate 5.25%",
+            "s": "पहले"
+          },
+          {
+            "t": "+25 basis points",
+            "s": "MPC का फ़ैसला"
+          },
+          {
+            "t": "Repo Rate 5.50%",
+            "s": "7.10.2026 से"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "RBI के 7 अक्टूबर 2026 के resolution के मुताबिक MPC ने Repo Rate 25 basis points बढ़ाकर 5.50% किया।"
+      },
+      "myths": [
+        {
+          "m": "\"25 basis points बढ़े, यानी ब्याज 25% बढ़ा।\"",
+          "f": "नहीं। RBI Glossary के मुताबिक 1 basis point = 0.01%, इसलिए 25 basis points = 0.25 प्रतिशत-अंक।[^1]"
+        },
+        {
+          "m": "\"Basis point सिर्फ़ Repo Rate के लिए होता है।\"",
+          "f": "नहीं। RBI Glossary के मुताबिक इसका इस्तेमाल ब्याज दर या yield के किसी भी बदलाव को नापने में होता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Basis point आसान भाषा में?",
+          "a": "प्रतिशत का सौवाँ टुकड़ा। 100 basis points मिलकर 1% बनाते हैं।[^1]"
+        },
+        {
+          "q": "ख़बरों में 'bps' क्यों लिखते हैं?",
+          "a": "क्योंकि 0.25% की जगह '25 bps' कहना साफ़ और छोटा है; RBI भी अपने resolution में basis points लिखता है।[^2]"
+        },
+        {
+          "q": "Loan की EMI पर 25 bps का असर?",
+          "a": "यह loan की रक़म, अवधि और bank की benchmark व्यवस्था पर निर्भर है; इसका हिसाब EMI पन्ने पर समझिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "Monetary Policy"
+        },
+        {
+          "t": "EMI"
+        },
+        {
+          "t": "EBLR"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Glossary (Basis Point) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/Glossary.aspx",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Basis Point",
+              "c": "एक प्रतिशत का सौवाँ हिस्सा; 1 bps = 0.01%; ब्याज दर / yield के बदलाव के लिए"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Resolution of the Monetary Policy Committee, October 5 to 7, 2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+          "issued": "2026-10-07",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "Repo Rate 25 basis points बढ़कर 5.50%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nBasis Point यानी 'आधार अंक'। RBI Glossary के मुताबिक यह एक प्रतिशत का सौवाँ हिस्सा है: 1 basis point = 0.01%, और इसका इस्तेमाल ब्याज दर या yield के बदलाव नापने में होता है।[^1]\n\n## Basis point कैसे गिनें | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 1 bps = 0.01%; 25 bps = 0.25%; 100 bps = 1%; 7.10.2026 को Repo Rate +25 bps → 5.50%।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "financial-inclusion",
+      "term": "Financial Inclusion",
+      "aliases": [
+        "वित्तीय समावेशन",
+        "FI-Index",
+        "Financial Inclusion Index"
+      ],
+      "full": "वित्तीय समावेशन · हर व्यक्ति तक bank, बीमा, निवेश, pension जैसी वित्तीय सेवाओं की पहुँच",
+      "fullEn": "Financial Inclusion",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की FI-Index वाली 17 अगस्त 2021 और 16 जुलाई 2026 की press releases से जाँचा।"
+        }
+      ],
+      "one": "Financial Inclusion (वित्तीय समावेशन) का मतलब है कि हर व्यक्ति तक bank खाता, क़र्ज़, बीमा, निवेश और pension जैसी वित्तीय सेवाएँ पहुँचें, और वह उनका इस्तेमाल कर सके। इसे नापने के लिए RBI ने Financial Inclusion Index (FI-Index) बनाया है, जो 0 से 100 के बीच होता है; मार्च 2026 में यह 70.0 रहा।",
+      "facts": [
+        {
+          "k": "FI-Index, मार्च 2026",
+          "v": "70.0",
+          "s": "मार्च 2025 में 67.0"
+        },
+        {
+          "k": "पैमाना",
+          "v": "0 से 100",
+          "s": "100 = पूरा समावेशन"
+        },
+        {
+          "k": "शुरुआत में तीन हिस्से",
+          "v": "Access, Usage, Quality",
+          "s": "35%, 45%, 20% (2021)"
+        },
+        {
+          "k": "कब छपता है",
+          "v": "हर साल जुलाई",
+          "s": "RBI"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Access",
+            "s": "सेवा तक पहुँच"
+          },
+          {
+            "t": "Usage",
+            "s": "इस्तेमाल"
+          },
+          {
+            "t": "Quality",
+            "s": "साक्षरता, सुरक्षा"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+",
+            "s": ""
+          },
+          {
+            "b": "=",
+            "s": "FI-Index"
+          }
+        ],
+        "note": "RBI के 2021 के मुताबिक FI-Index में bank, निवेश, बीमा, डाक और pension, सबके 97 indicators थे; इसका कोई base year नहीं है।"
+      },
+      "myths": [
+        {
+          "m": "\"Financial inclusion = सिर्फ़ bank खाता खुलवाना।\"",
+          "f": "नहीं। RBI का FI-Index पहुँच (Access) के साथ इस्तेमाल (Usage) और गुणवत्ता (Quality: वित्तीय साक्षरता, उपभोक्ता सुरक्षा) भी नापता है।[^1]"
+        },
+        {
+          "m": "\"FI-Index सिर्फ़ banking का पैमाना है।\"",
+          "f": "नहीं। RBI के मुताबिक इसमें banking, निवेश, बीमा, डाक और pension क्षेत्र शामिल हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Financial inclusion आसान भाषा में?",
+          "a": "गाँव-शहर, अमीर-ग़रीब, हर किसी के पास सुरक्षित तरीक़े से पैसा रखने, भेजने, उधार लेने, बीमा और pension की सुविधा होना।"
+        },
+        {
+          "q": "ताज़ा FI-Index क्या है?",
+          "a": "RBI के 16 जुलाई 2026 के मुताबिक मार्च 2026 का FI-Index 70.0 है (मार्च 2025 में 67.0); सुधार मुख्य रूप से Usage बढ़ने से आया।[^2]"
+        },
+        {
+          "q": "FI-Index कब शुरू हुआ?",
+          "a": "RBI ने इसे 17 अगस्त 2021 को जारी किया; मार्च 2021 का index 53.9 था (मार्च 2017 में 43.4)।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Jan Dhan (PMJDY)"
+        },
+        {
+          "t": "BSBD"
+        },
+        {
+          "t": "Business Correspondent"
+        },
+        {
+          "t": "Lead Bank Scheme"
+        },
+        {
+          "t": "DBT"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Press Release: Reserve Bank of India introduces the Financial Inclusion Index, 17.08.2021 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52068",
+          "issued": "2021-08-17",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पूरी release",
+              "c": "0–100; Access 35%, Usage 45%, Quality 20%; 97 indicators; banking, निवेश, बीमा, डाक, pension; कोई base year नहीं; मार्च 2021 53.9, मार्च 2017 43.4; हर साल जुलाई"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Financial Inclusion Index for March 2026, 16.07.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63164",
+          "issued": "2026-07-16",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पूरी release",
+              "c": "मार्च 2026: 70.0; मार्च 2025: 67.0; सभी sub-indices में बढ़त; मुख्य वजह Usage"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nFinancial Inclusion यानी वित्तीय समावेशन। RBI के मुताबिक FI-Index वित्तीय समावेशन के कई पहलुओं को 0 से 100 के एक अंक में दिखाता है, जहाँ 0 का मतलब पूरी तरह बाहर और 100 का मतलब पूरा समावेशन।[^1]\n\n## समावेशन कैसे नापा जाता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: FI-Index 2021 में शुरू; 0–100; Access / Usage / Quality (शुरुआत में 35/45/20); मार्च 2026: 70.0; हर साल जुलाई।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "lead-bank-scheme",
+      "term": "Lead Bank Scheme",
+      "aliases": [
+        "Lead Bank",
+        "LBS",
+        "SLBC",
+        "State Level Bankers' Committee",
+        "District Consultative Committee",
+        "Lead District Manager",
+        "LDM",
+        "लीड बैंक"
+      ],
+      "full": "लीड बैंक योजना · हर ज़िले में एक bank को बैंकिंग विकास के तालमेल की ज़िम्मेदारी",
+      "fullEn": "Lead Bank Scheme",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के Master Circular – Lead Bank Scheme (1 अप्रैल 2025) से जाँचा।"
+        }
+      ],
+      "one": "Lead Bank Scheme (LBS) RBI ने दिसंबर 1969 में शुरू की। इसमें हर ज़िले के लिए एक bank को 'Lead Bank' बनाया जाता है, जो banks और सरकारी विभागों के बीच तालमेल करके उस ज़िले में priority sector और विकास के लिए क़र्ज़ बढ़ाने में अगुवाई करता है। ज़िले में District Consultative Committee (DCC) और राज्य में State Level Bankers' Committee (SLBC) इसके मंच हैं।",
+      "facts": [
+        {
+          "k": "शुरुआत",
+          "v": "दिसंबर 1969",
+          "s": "RBI"
+        },
+        {
+          "k": "ज़िले (31.3.2025)",
+          "v": "782",
+          "s": "12 सरकारी + 2 निजी bank"
+        },
+        {
+          "k": "ज़िला स्तर",
+          "v": "DCC",
+          "s": "अध्यक्ष: ज़िलाधिकारी (Collector)"
+        },
+        {
+          "k": "राज्य स्तर",
+          "v": "SLBC",
+          "s": "अप्रैल 1977 से"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "BLBC (block)",
+            "s": "अध्यक्ष: LDM"
+          },
+          {
+            "t": "DCC (ज़िला)",
+            "s": "अध्यक्ष: Collector"
+          },
+          {
+            "t": "SLBC (राज्य)",
+            "s": "convenor bank"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "ऊपर",
+            "s": ""
+          },
+          {
+            "b": "ऊपर",
+            "s": ""
+          }
+        ],
+        "note": "Master Circular के मुताबिक block स्तर पर Block Level Bankers' Committee (हर तिमाही), ज़िले में DCC, और राज्य में SLBC; credit plan नीचे से ऊपर (bottom-up) बनता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Lead Bank का मतलब ज़िले का सबसे बड़ा या अकेला bank।\"",
+          "f": "नहीं। RBI के मुताबिक Lead Bank की ज़िम्मेदारी तालमेल और अगुवाई की है; RBI एक तय प्रक्रिया से यह ज़िम्मेदारी किसी bank को सौंपता है।[^1]"
+        },
+        {
+          "m": "\"Lead Bank सिर्फ़ सरकारी bank होते हैं।\"",
+          "f": "ज़्यादातर हैं, पर सब नहीं। RBI के मुताबिक 31 मार्च 2025 को 12 सरकारी bank और दो निजी bank (Jammu & Kashmir Bank और ICICI Bank) 782 ज़िलों में Lead Bank थे।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "यह योजना क्यों बनी?",
+          "a": "RBI के मुताबिक 1969 में Gadgil Study Group ने पाया कि गाँवों में commercial banks की पर्याप्त मौजूदगी नहीं थी, और 'Area Approach' सुझाया; Nariman Committee ने हर bank को कुछ ज़िलों में 'Lead Bank' बनाने की सिफ़ारिश की।[^1]"
+        },
+        {
+          "q": "DCC में कौन होते हैं?",
+          "a": "RBI के मुताबिक अध्यक्ष ज़िलाधिकारी (Collector); सदस्य RBI, NABARD, सभी commercial banks, RRB, co-operative banks और राज्य सरकार के विभाग; बैठक Lead District Manager (LDM) बुलाता है।[^1]"
+        },
+        {
+          "q": "आख़िरी बड़ी समीक्षा कब हुई?",
+          "a": "RBI के मुताबिक 2009 में Usha Thorat की अध्यक्षता वाली High Level Committee ने; 2018 में RBI की Committee of Executive Directors की सिफ़ारिशों पर 'action points' जारी हुए।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Priority Sector Lending"
+        },
+        {
+          "t": "NABARD"
+        },
+        {
+          "t": "Regional Rural Bank"
+        },
+        {
+          "t": "Financial Inclusion"
+        },
+        {
+          "t": "DBT"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Master Circular – Lead Bank Scheme (FIDD.CO.LBS.BC.No.03/02.01.001/2025-26, 01.04.2025) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasterCirculars.aspx?Id=12808&Mode=0",
+          "issued": "2025-04-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Introduction (i)–(vii)",
+              "c": "Gadgil Study Group (अक्टूबर 1969), Area Approach; Nariman Committee (नवंबर 1969); दिसंबर 1969 में शुरू; मक़सद; Usha Thorat 2009; action points 6.4.2018"
+            },
+            {
+              "ref": "पैरा 2.1, 2.2.1, 2.3.1",
+              "c": "BLBC (LDM अध्यक्ष, तिमाही); DCC (Collector अध्यक्ष, सदस्य); SLBC अप्रैल 1977"
+            },
+            {
+              "ref": "पैरा 3.1, 4",
+              "c": "bottom-up planning; 31.3.2025 को 12 सरकारी + J&K Bank, ICICI Bank, 782 ज़िले"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nLead Bank Scheme यानी लीड बैंक योजना। RBI के मुताबिक इसका मक़सद अलग-अलग मंचों के ज़रिए banks और विकास एजेंसियों के कामों में तालमेल करना है, ताकि priority sector और दूसरे क्षेत्रों में bank क़र्ज़ बढ़े और गाँवों के विकास में banks की भूमिका बढ़े।[^1]\n\n## योजना कैसे चलती है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: शुरुआत दिसंबर 1969 (Gadgil, Nariman); BLBC → DCC (Collector) → SLBC (1977); 31.3.2025: 782 ज़िले; LDM।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "dbt",
+      "term": "DBT",
+      "aliases": [
+        "Direct Benefit Transfer",
+        "प्रत्यक्ष लाभ अंतरण",
+        "JAM Trinity",
+        "JAM"
+      ],
+      "full": "Direct Benefit Transfer · सरकारी योजनाओं का पैसा / लाभ सीधे लाभार्थी तक",
+      "fullEn": "Direct Benefit Transfer",
+      "group": "सरकारी योजनाएँ",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। DBT Mission की official site और India Code पर Aadhaar Act, 2016 की धारा 7 से जाँचा।"
+        }
+      ],
+      "one": "DBT (Direct Benefit Transfer) सरकारी योजनाओं का लाभ सीधे लाभार्थी तक पहुँचाने की व्यवस्था है, ताकि बीच में देरी, दोहराव और गड़बड़ी कम हो। DBT Mission के मुताबिक यह 1 जनवरी 2013 को शुरू हुआ, और Jan Dhan, Aadhaar और Mobile (JAM) इसके सहायक हैं।",
+      "facts": [
+        {
+          "k": "शुरुआत",
+          "v": "1 जनवरी 2013",
+          "s": "DBT Mission"
+        },
+        {
+          "k": "DBT Mission कहाँ",
+          "v": "Cabinet Secretariat",
+          "s": "14.9.2015 से"
+        },
+        {
+          "k": "सहायक",
+          "v": "JAM",
+          "s": "Jan Dhan, Aadhaar, Mobile"
+        },
+        {
+          "k": "Aadhaar की क़ानूनी जगह",
+          "v": "Aadhaar Act धारा 7",
+          "s": "subsidy / लाभ के लिए"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "सरकारी योजना",
+            "s": "केंद्र / राज्य"
+          },
+          {
+            "t": "पहचान की जाँच",
+            "s": "Aadhaar या दूसरा तरीक़ा"
+          },
+          {
+            "t": "लाभार्थी का खाता",
+            "s": "सीधा पैसा"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "DBT",
+            "s": ""
+          }
+        ],
+        "note": "Aadhaar Act की धारा 7 के मुताबिक Consolidated Fund से दिए जाने वाले subsidy / लाभ के लिए सरकार पहचान के तौर पर Aadhaar authentication माँग सकती है; पर जिसे Aadhaar नहीं मिला, उसे पहचान का दूसरा व्यावहारिक तरीक़ा देना होगा।"
+      },
+      "myths": [
+        {
+          "m": "\"Aadhaar नहीं है, तो सरकारी लाभ बिल्कुल नहीं मिलेगा।\"",
+          "f": "Aadhaar Act की धारा 7 के proviso के मुताबिक जिसे Aadhaar number नहीं मिला, उसे पहचान के दूसरे व्यावहारिक तरीक़े दिए जाने चाहिए।[^2]"
+        },
+        {
+          "m": "\"DBT सिर्फ़ पैसे के लिए है।\"",
+          "f": "DBT Mission के मुताबिक इसका मक़सद कल्याण योजनाओं की पूरी delivery व्यवस्था सुधारना है, ताकि सही लाभार्थी तक पहुँच हो, दोहरे लाभार्थी हटें और धोखाधड़ी घटे।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "DBT आसान भाषा में?",
+          "a": "सरकार का पैसा या लाभ बिचौलिए के बिना सीधे आपके bank खाते / आप तक। (समझाने का तरीक़ा।)[^1]"
+        },
+        {
+          "q": "JAM क्या है?",
+          "a": "DBT Mission के मुताबिक Jan Dhan, Aadhaar और Mobile — ये DBT को संभव बनाने वाले तीन सहायक हैं।[^1]"
+        },
+        {
+          "q": "DBT में पैसा न आए तो?",
+          "a": "पहले देखिए कि bank खाता सक्रिय है और Aadhaar seeding ठीक है; इसकी जानकारी Aadhaar Seeding पन्ने पर है, और शिकायत योजना वाले विभाग से।"
+        }
+      ],
+      "related": [
+        {
+          "t": "Aadhaar Seeding"
+        },
+        {
+          "t": "Jan Dhan (PMJDY)"
+        },
+        {
+          "t": "Aadhaar Act"
+        },
+        {
+          "t": "Financial Inclusion"
+        },
+        {
+          "t": "Lead Bank Scheme"
+        }
+      ],
+      "sources": [
+        {
+          "label": "DBT Mission, Government of India — About DBT (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://dbtbharat.gov.in/static-page-content/spagecont?id=1",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "About DBT",
+              "c": "1 जनवरी 2013; delivery व्यवस्था का सुधार, सही लाभार्थी, दोहराव और धोखाधड़ी घटाना; DBT Mission Cabinet Secretariat में (14.9.2015); JAM सहायक"
+            }
+          ]
+        },
+        {
+          "label": "India Code — The Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016 (धारा 7 का पाठ) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/fcd3b406-8eae-4130-950f-b94cfb11d2d0",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "धारा 7 और proviso",
+              "c": "Consolidated Fund से subsidy / लाभ के लिए Aadhaar authentication; Aadhaar न हो तो दूसरा व्यावहारिक तरीक़ा"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nDBT यानी Direct Benefit Transfer (प्रत्यक्ष लाभ अंतरण)। DBT Mission के मुताबिक यह कल्याण योजनाओं की मौजूदा प्रक्रिया को बदलकर सरकारी delivery व्यवस्था सुधारने के लिए 1 जनवरी 2013 को शुरू हुआ।[^1]\n\n## DBT कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: शुरुआत 1.1.2013; DBT Mission Cabinet Secretariat में (2015); JAM = Jan Dhan + Aadhaar + Mobile; Aadhaar Act धारा 7 (Aadhaar न हो तो दूसरा तरीक़ा)।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "msp",
+      "term": "MSP",
+      "aliases": [
+        "Minimum Support Price",
+        "न्यूनतम समर्थन मूल्य",
+        "Rabi MSP",
+        "Kharif MSP"
+      ],
+      "full": "Minimum Support Price · सरकार की घोषित फ़सलों का न्यूनतम समर्थन मूल्य",
+      "fullEn": "Minimum Support Price",
+      "group": "सरकारी योजनाएँ",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। PIB की 30 सितंबर 2026 की release (Rabi MSP 2027-28) से जाँचा।"
+        }
+      ],
+      "one": "MSP (न्यूनतम समर्थन मूल्य) वह दाम है, जो सरकार तय फ़सलों के लिए हर सीज़न घोषित करती है, ताकि किसानों को उपज का लाभकारी दाम मिले। Cabinet Committee on Economic Affairs (CCEA) इसे मंज़ूरी देती है। 30 सितंबर 2026 को Rabi Marketing Season 2027-28 के लिए गेहूँ का MSP ₹2,610 प्रति quintal तय हुआ।",
+      "facts": [
+        {
+          "k": "गेहूँ, RMS 2027-28",
+          "v": "₹2,610 / quintal",
+          "s": "+₹25"
+        },
+        {
+          "k": "सबसे ज़्यादा बढ़ोतरी",
+          "v": "कुसुम (Safflower)",
+          "s": "+₹675"
+        },
+        {
+          "k": "सरसों",
+          "v": "₹6,613 / quintal",
+          "s": "+₹413"
+        },
+        {
+          "k": "नियम",
+          "v": "लागत का कम-से-कम 1.5 गुना",
+          "s": "Budget 2018-19 की घोषणा"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "उत्पादन की लागत",
+            "s": "अखिल भारतीय औसत"
+          },
+          {
+            "t": "CCEA मंज़ूरी",
+            "s": "हर सीज़न"
+          },
+          {
+            "t": "MSP घोषित",
+            "s": "रबी / ख़रीफ़"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "कम-से-कम 1.5×",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "PIB के मुताबिक RMS 2027-28 में लागत पर अनुमानित margin: गेहूँ 106%, सरसों 96%, मसूर 92%, चना 59%, जौ 58%, कुसुम 50%।"
+      },
+      "myths": [
+        {
+          "m": "\"MSP हर फ़सल का होता है।\"",
+          "f": "नहीं। MSP तय (mandated) फ़सलों के लिए घोषित होता है; रबी 2027-28 में छह फ़सलें: गेहूँ, जौ, चना, मसूर, सरसों और कुसुम।[^1]"
+        },
+        {
+          "m": "\"लागत में सिर्फ़ बीज-खाद गिने जाते हैं।\"",
+          "f": "नहीं। PIB के मुताबिक लागत में मज़दूरी, बैल / मशीन, ठेके की ज़मीन का किराया, बीज, खाद, सिंचाई, औज़ारों का घिसाव, कार्यशील पूँजी पर ब्याज, डीज़ल / बिजली, और परिवार के श्रम का अनुमानित मूल्य भी है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "MSP आसान भाषा में?",
+          "a": "सरकार का घोषित वह दाम, जिस पर वह तय फ़सल ख़रीदने का भरोसा देती है, ताकि किसान को कम-से-कम इतना दाम मिल सके।"
+        },
+        {
+          "q": "रबी 2027-28 के सभी MSP?",
+          "a": "PIB के मुताबिक (₹ प्रति quintal): गेहूँ 2,610; जौ 2,286; चना 5,958; मसूर 7,390; सरसों 6,613; कुसुम 7,215।[^1]"
+        },
+        {
+          "q": "1.5 गुना वाला नियम कहाँ से?",
+          "a": "PIB के मुताबिक Union Budget 2018-19 में घोषणा हुई कि MSP अखिल भारतीय भारित औसत उत्पादन लागत का कम-से-कम 1.5 गुना होगा।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Kisan Credit Card"
+        },
+        {
+          "t": "Inflation"
+        },
+        {
+          "t": "WPI"
+        },
+        {
+          "t": "Union Budget"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PIB — Cabinet approves Minimum Support Prices (MSP) for Rabi Crops for Marketing Season 2027-28, 30.09.2026 (Release ID 2316941) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2316941",
+          "issued": "2026-09-30",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पूरी release; table",
+              "c": "CCEA; छह रबी फ़सलें; MSP, लागत, margin; बढ़ोतरी; लागत में क्या शामिल; 1.5 गुना (Budget 2018-19)"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nMSP यानी Minimum Support Price (न्यूनतम समर्थन मूल्य)। PIB के मुताबिक सरकार ने रबी फ़सलों का MSP बढ़ाया, ताकि किसानों को उनकी उपज का लाभकारी दाम मिले और फ़सलों में विविधता आए।[^1]\n\n## MSP कैसे तय होता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: CCEA मंज़ूरी; लागत का कम-से-कम 1.5 गुना (Budget 2018-19); RMS 2027-28: गेहूँ ₹2,610 (+25), कुसुम +₹675 सबसे ज़्यादा; छह रबी फ़सलें।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "capital-adequacy-ratio",
+      "term": "Capital Adequacy Ratio",
+      "aliases": [
+        "CAR",
+        "CRAR",
+        "Capital to Risk-weighted Assets Ratio",
+        "Basel III",
+        "CET1",
+        "Common Equity Tier 1",
+        "Capital Conservation Buffer",
+        "Tier 1 Capital",
+        "Tier 2 Capital",
+        "पूँजी पर्याप्तता"
+      ],
+      "full": "Capital Adequacy Ratio (CRAR) · bank की पूँजी, उसके जोखिम वाले assets के मुक़ाबले कितनी है",
+      "fullEn": "Capital to Risk-weighted Assets Ratio",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के Commercial Banks - Prudential Norms on Capital Adequacy Directions, 2025 (7 अक्टूबर 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Capital Adequacy Ratio (CRAR) बताता है कि bank के पास अपने जोखिम-भारित assets (risk-weighted assets, RWAs) के मुक़ाबले कितनी पूँजी है, ताकि नुक़सान झेल सके। RBI के Basel III आधारित नियमों के मुताबिक commercial bank का CRAR हमेशा कम-से-कम 9% होना चाहिए, और इसके ऊपर 2.5% का Capital Conservation Buffer।",
+      "facts": [
+        {
+          "k": "न्यूनतम CRAR",
+          "v": "9%",
+          "s": "RWAs का"
+        },
+        {
+          "k": "न्यूनतम CET1",
+          "v": "5.5%",
+          "s": "सबसे मज़बूत पूँजी"
+        },
+        {
+          "k": "न्यूनतम Tier 1",
+          "v": "7%",
+          "s": "AT1 अधिकतम 1.5%"
+        },
+        {
+          "k": "CRAR + CCB",
+          "v": "11.5%",
+          "s": "CCB 2.5% (CET1 में)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank की पूँजी",
+            "s": "Tier 1 + Tier 2"
+          },
+          {
+            "t": "÷ RWAs",
+            "s": "credit + market + operational risk"
+          },
+          {
+            "t": "CRAR",
+            "s": "कम-से-कम 9%"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "=",
+            "s": ""
+          }
+        ],
+        "note": "RBI के मुताबिक RWAs = credit risk RWAs + market risk RWAs + operational risk RWAs; Tier 1 'going-concern' और Tier 2 'gone-concern' पूँजी है।"
+      },
+      "myths": [
+        {
+          "m": "\"9% CRAR रखना ही काफ़ी है।\"",
+          "f": "नहीं। RBI के मुताबिक 9% के ऊपर 2.5% का Capital Conservation Buffer (CET1 में) भी रखना है, यानी कुल 11.5%; और RBI Pillar 2 के तहत किसी bank के लिए ज़्यादा भी तय कर सकता है।[^1]"
+        },
+        {
+          "m": "\"CRAR में bank की कुल जमा-पूँजी (deposits) गिनी जाती है।\"",
+          "f": "नहीं। CRAR में bank की अपनी regulatory पूँजी (जैसे शेयर पूँजी, reserves) गिनी जाती है, और उसे risk-weighted assets से भाग दिया जाता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CRAR आसान भाषा में?",
+          "a": "Bank का 'सुरक्षा कुशन': उसने जितना जोखिम लिया है, उसके मुक़ाबले उसकी अपनी पूँजी कितनी है, ताकि नुक़सान हो तो जमाकर्ता सुरक्षित रहें। (समझाने का उदाहरण।)"
+        },
+        {
+          "q": "Basel III के तीन pillars?",
+          "a": "RBI के मुताबिक Pillar 1: न्यूनतम पूँजी; Pillar 2: Supervisory Review and Evaluation Process (SREP); Pillar 3: Market Discipline।[^1]"
+        },
+        {
+          "q": "ये नियम किन banks पर हैं?",
+          "a": "यह Directions commercial banks पर लागू है (Small Finance, Payments और Local Area Banks को छोड़कर, जिनके अलग Directions हैं)।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Commercial Bank"
+        },
+        {
+          "t": "NPA"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Banking Regulation Act"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Directions, 2025 (DOR.CAP.REC.70/21-01-002/2025-26, 28.11.2025; 07.10.2026 तक updated) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/151MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1–3",
+              "c": "नाम; तुरंत लागू; commercial banks (SFB, PB, LAB छोड़कर)"
+            },
+            {
+              "ref": "पैरा 9",
+              "c": "तीन pillars; न्यूनतम Pillar 1 CRAR 9%; Pillar 2 में ज़्यादा; RWAs = credit + market + operational"
+            },
+            {
+              "ref": "पैरा 10, 11; Table 1",
+              "c": "Tier 1 going-concern, Tier 2 gone-concern; CRAR 9%, CET1 5.5%, Tier 1 7%, AT1 1.5%, Tier 2 2%; CCB 2.5%; CET1+CCB 8%; कुल 11.5%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCapital Adequacy Ratio यानी पूँजी पर्याप्तता अनुपात, जिसे CRAR (Capital to Risk-weighted Assets Ratio) भी कहते हैं। RBI के मुताबिक bank को Pillar 1 के तहत कम-से-कम 9% CRAR लगातार बनाए रखना है।[^1]\n\n## CRAR कैसे गिनते हैं | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: CRAR 9%; CET1 5.5%; Tier 1 7%; CCB 2.5% → कुल 11.5%; तीन pillars (न्यूनतम पूँजी, SREP, market discipline); Directions 28.11.2025।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "arc",
+      "term": "ARC (Asset Reconstruction Company)",
+      "aliases": [
+        "Asset Reconstruction Company",
+        "Asset Reconstruction Companies",
+        "ARCs",
+        "Security Receipt",
+        "Security Receipts",
+        "एसेट रिकंस्ट्रक्शन कंपनी"
+      ],
+      "full": "Asset Reconstruction Company · banks के डूबे / फँसे क़र्ज़ ख़रीदकर उनसे वसूली करने वाली RBI-registered कंपनी",
+      "fullEn": "Asset Reconstruction Company",
+      "group": "क़र्ज़",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। India Code पर SARFAESI Act की धारा 2, 3, 5, 7 और RBI के ARC Directions, 2025 (10 मार्च 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "ARC (Asset Reconstruction Company) वह कंपनी है, जो RBI से SARFAESI Act की धारा 3 के तहत registration लेकर banks और वित्तीय संस्थाओं के 'financial assets' (आम तौर पर फँसे हुए क़र्ज़) ख़रीदती है और उनसे वसूली या उनका पुनर्गठन करती है। इसके लिए वह निवेशकों को Security Receipts (SRs) जारी करती है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "SARFAESI Act, 2002",
+          "s": "धारा 2(1)(ba), 3"
+        },
+        {
+          "k": "Registration",
+          "v": "RBI से",
+          "s": "धारा 3"
+        },
+        {
+          "k": "न्यूनतम NOF",
+          "v": "₹300 करोड़",
+          "s": "RBI Directions पैरा 14"
+        },
+        {
+          "k": "न्यूनतम capital adequacy",
+          "v": "15%",
+          "s": "risk-weighted assets का"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank का फँसा क़र्ज़",
+            "s": "financial asset"
+          },
+          {
+            "t": "ARC ख़रीदती है",
+            "s": "धारा 5"
+          },
+          {
+            "t": "वसूली / पुनर्गठन",
+            "s": "SR धारकों के लिए"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "बिक्री",
+            "s": ""
+          },
+          {
+            "b": "Security Receipts",
+            "s": "qualified buyers"
+          }
+        ],
+        "note": "धारा 7 के मुताबिक ARC qualified buyers से schemes बनाकर पैसा जुटा सकती है; RBI के पैरा 81 के मुताबिक ARC को हर scheme के SRs में ख़ुद भी कम-से-कम निवेश रखना है (transferor के निवेश का 15% या कुल SRs का 2.5%, जो ज़्यादा हो)।"
+      },
+      "myths": [
+        {
+          "m": "\"ARC को कोई भी कंपनी चला सकती है।\"",
+          "f": "नहीं। SARFAESI Act की धारा 3 के मुताबिक बिना RBI registration certificate के कोई ARC securitisation या asset reconstruction का काम शुरू नहीं कर सकती।[^1]"
+        },
+        {
+          "m": "\"ARC कोई भी कारोबार कर सकती है।\"",
+          "f": "नहीं। RBI Directions के पैरा 17 के मुताबिक ARC सिर्फ़ securitisation और asset reconstruction के काम कर सकती है, जो Act की धारा 10 में दिए हैं।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "ARC आसान भाषा में?",
+          "a": "Bank अपना फँसा क़र्ज़ किसी विशेषज्ञ कंपनी को बेच देता है, और वह कंपनी उधार लेने वाले से वसूली करने की कोशिश करती है। (समझाने का उदाहरण।)"
+        },
+        {
+          "q": "Security Receipt क्या है?",
+          "a": "धारा 2(1)(zg) के मुताबिक ARC की ओर से qualified buyer को जारी receipt, जो दिखाती है कि धारक का securitisation वाले financial asset में अविभाजित हक़ / हिस्सा है।[^1]"
+        },
+        {
+          "q": "मेरा loan ARC को बिक गया, तो?",
+          "a": "Loan की वसूली अब ARC करेगी; अपनी बक़ाया रक़म और settlement की बात उसी से करें, और लिखित में लें। RBI के मुताबिक ARC के पास Fair Practices Code और recovery agents के code of conduct वाली Board-मंज़ूर policies होनी चाहिए।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "SARFAESI Act"
+        },
+        {
+          "t": "NPA"
+        },
+        {
+          "t": "IBC"
+        },
+        {
+          "t": "Recovery Agent"
+        },
+        {
+          "t": "Loan Settlement"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The SARFAESI Act, 2002 (धारा 2(1)(ba), 2(1)(zg), 3, 5 और 7 का पाठ) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/c0e184ad-4538-4520-8981-3bd47bb7f80e",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "धारा 2(1)(ba), 2(1)(zg)",
+              "c": "ARC = धारा 3 में RBI-registered कंपनी; security receipt"
+            },
+            {
+              "ref": "धारा 3",
+              "c": "बिना registration certificate काम नहीं"
+            },
+            {
+              "ref": "धारा 5, 7",
+              "c": "bank / FI के financial assets ख़रीदना; qualified buyers से schemes से पैसा, SRs"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Asset Reconstruction Companies) Directions, 2025 (DoR.FIN.REC.No.293/26.03.001/2025-26, 28.11.2025; 10.03.2026 तक updated) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12930",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1, 2, 6",
+              "c": "नाम; Board-मंज़ूर policies: Fair Practices Code, recovery agents का code"
+            },
+            {
+              "ref": "पैरा 14, 15, 17",
+              "c": "न्यूनतम NOF ₹300 करोड़; मौजूदा ARCs 31.3.2026 तक; सिर्फ़ धारा 10 वाले काम"
+            },
+            {
+              "ref": "पैरा 81, 93",
+              "c": "SRs में 15% / 2.5% (जो ज़्यादा); capital adequacy 15%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nARC यानी Asset Reconstruction Company। SARFAESI Act की धारा 2(1)(ba) के मुताबिक वह कंपनी, जो securitisation या asset reconstruction (या दोनों) के काम के लिए धारा 3 के तहत RBI में registered है।[^1]\n\n## ARC कैसे काम करती है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: SARFAESI धारा 2(1)(ba), 3, 5, 7; RBI registration; NOF ₹300 करोड़; CAR 15%; SRs qualified buyers को; ARC Directions 28.11.2025।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "ibbi",
+      "term": "IBBI",
+      "aliases": [
+        "Insolvency and Bankruptcy Board of India",
+        "भारतीय दिवाला और शोधन अक्षमता बोर्ड",
+        "Insolvency Professional",
+        "Insolvency Professionals",
+        "Information Utility"
+      ],
+      "full": "Insolvency and Bankruptcy Board of India · IBC के तहत insolvency व्यवस्था का नियामक",
+      "fullEn": "Insolvency and Bankruptcy Board of India",
+      "group": "क़र्ज़",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। India Code पर Insolvency and Bankruptcy Code, 2016 की प्रस्तावना और धारा 188, 196 के पाठ से जाँचा।"
+        }
+      ],
+      "one": "IBBI (Insolvency and Bankruptcy Board of India) Insolvency and Bankruptcy Code, 2016 के तहत बना नियामक है। यह insolvency professionals, insolvency professional agencies और information utilities को register और regulate करता है, और उनके लिए नियम (regulations) बनाता है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "IBC, 2016",
+          "s": "धारा 188"
+        },
+        {
+          "k": "मुख्यालय",
+          "v": "National Capital Region",
+          "s": "धारा 188(3)"
+        },
+        {
+          "k": "किसे regulate",
+          "v": "IPs, IPAs, IUs",
+          "s": "धारा 196(1)"
+        },
+        {
+          "k": "दर्जा",
+          "v": "Body corporate",
+          "s": "धारा 188(2)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "IBBI",
+            "s": "नियामक"
+          },
+          {
+            "t": "Insolvency professionals, agencies, information utilities",
+            "s": "registration"
+          },
+          {
+            "t": "Insolvency मामले",
+            "s": "NCLT में"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Regulate",
+            "s": "धारा 196"
+          },
+          {
+            "b": "काम करते हैं",
+            "s": ""
+          }
+        ],
+        "note": "धारा 196(1) के मुताबिक IBBI इनका registration, renewal, निलंबन और रद्द करना; न्यूनतम योग्यता; standards; insolvency professionals की परीक्षा का पाठ्यक्रम; और जाँच-निरीक्षण करता है।"
+      },
+      "myths": [
+        {
+          "m": "\"IBBI ही insolvency के मुक़दमे का फ़ैसला करता है।\"",
+          "f": "नहीं। कंपनियों के मामलों में Adjudicating Authority NCLT है (IBC धारा 60); IBBI इस व्यवस्था के professionals और संस्थाओं का नियामक है (धारा 196)।[^1]"
+        },
+        {
+          "m": "\"Insolvency professional बनने के लिए कोई परीक्षा नहीं।\"",
+          "f": "नहीं। धारा 196(1)(e) के मुताबिक IBBI regulations से insolvency professionals की परीक्षा का न्यूनतम पाठ्यक्रम तय करता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "IBBI आसान भाषा में?",
+          "a": "IBC वाली दिवाला प्रक्रिया को चलाने वाले पेशेवरों (insolvency professionals) और संस्थाओं का 'regulator' — जैसे शेयर बाज़ार का SEBI।[^1]"
+        },
+        {
+          "q": "IBBI किस क़ानून से बना?",
+          "a": "IBC, 2016 की प्रस्तावना में ही Insolvency and Bankruptcy Board of India की स्थापना का ज़िक्र है, और धारा 188 में इसकी स्थापना का प्रावधान है।[^1]"
+        },
+        {
+          "q": "मुख्यालय कहाँ?",
+          "a": "धारा 188(3) के मुताबिक National Capital Region में, जहाँ केंद्र सरकार notify करे।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "IBC"
+        },
+        {
+          "t": "NPA"
+        },
+        {
+          "t": "SARFAESI Act"
+        },
+        {
+          "t": "SEBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Insolvency and Bankruptcy Code, 2016 (Act No. 31 of 2016; प्रस्तावना, धारा 188 और 196 का पाठ) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/37c94edf-7892-4c4f-a284-0c24613a4bf5",
+          "issued": "2016-05-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना",
+              "c": "IBBI की स्थापना"
+            },
+            {
+              "ref": "धारा 188(1)–(4)",
+              "c": "नाम; body corporate; मुख्यालय NCR; दूसरे दफ़्तर"
+            },
+            {
+              "ref": "धारा 196(1)(a)–(f)",
+              "c": "IPAs, IPs, IUs का registration; नियमन; न्यूनतम योग्यता; fee; standards; परीक्षा पाठ्यक्रम; जाँच"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIBBI यानी Insolvency and Bankruptcy Board of India। IBC, 2016 की धारा 188 के मुताबिक केंद्र सरकार की notification से स्थापित यह Board एक body corporate है, जिसका मुख्यालय National Capital Region में है।[^1]\n\n## IBBI कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: IBC धारा 188 (स्थापना, NCR), धारा 196 (काम: IPs, IPAs, IUs का registration और नियमन, परीक्षा पाठ्यक्रम); मुक़दमे NCLT में।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "fiu-ind",
+      "term": "FIU-IND",
+      "aliases": [
+        "Financial Intelligence Unit",
+        "Financial Intelligence Unit – India",
+        "FIU India",
+        "STR",
+        "Suspicious Transaction Report",
+        "CTR",
+        "Cash Transaction Report"
+      ],
+      "full": "Financial Intelligence Unit – India · संदिग्ध / नक़द लेन-देन की रिपोर्टें लेकर जाँच एजेंसियों तक पहुँचाने वाली राष्ट्रीय एजेंसी",
+      "fullEn": "Financial Intelligence Unit – India",
+      "group": "साइबर सुरक्षा",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। FIU-IND की official site (About FIU-IND) से जाँचा।"
+        }
+      ],
+      "one": "FIU-IND (Financial Intelligence Unit – India) भारत सरकार ने 18 नवंबर 2004 के Office Memorandum से बनाई। यह वित्तीय लेन-देन की जानकारी — जैसे Cash Transaction Reports (CTR) और Suspicious Transaction Reports (STR) — लेने, जाँचने, विश्लेषण करने और ज़रूरत पर जाँच / प्रवर्तन एजेंसियों तक पहुँचाने वाली केंद्रीय राष्ट्रीय एजेंसी है।",
+      "facts": [
+        {
+          "k": "स्थापना",
+          "v": "18 नवंबर 2004",
+          "s": "Office Memorandum"
+        },
+        {
+          "k": "किसे रिपोर्ट करती है",
+          "v": "Economic Intelligence Council",
+          "s": "अध्यक्ष: वित्त मंत्री"
+        },
+        {
+          "k": "मुख्य रिपोर्टें",
+          "v": "CTR, STR",
+          "s": "और दूसरी"
+        },
+        {
+          "k": "काम",
+          "v": "लेना, विश्लेषण, आगे भेजना",
+          "s": "agencies को"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank / reporting entity",
+            "s": "CTR, STR भेजते हैं"
+          },
+          {
+            "t": "FIU-IND",
+            "s": "विश्लेषण"
+          },
+          {
+            "t": "जाँच / प्रवर्तन एजेंसियाँ",
+            "s": "ज़रूरत पर जानकारी"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "रिपोर्ट",
+            "s": ""
+          },
+          {
+            "b": "dissemination",
+            "s": ""
+          }
+        ],
+        "note": "FIU-IND के मुताबिक इसका मुख्य काम नक़द / संदिग्ध लेन-देन की रिपोर्टें लेना, उनका विश्लेषण करना और उपयोगी वित्तीय जानकारी intelligence / enforcement एजेंसियों तक पहुँचाना है।"
+      },
+      "myths": [
+        {
+          "m": "\"FIU-IND ख़ुद लोगों को गिरफ़्तार करती है।\"",
+          "f": "FIU-IND के मुताबिक इसका काम जानकारी लेना, विश्लेषण करना और एजेंसियों तक पहुँचाना है; कार्रवाई जाँच / प्रवर्तन एजेंसियाँ करती हैं।[^1]"
+        },
+        {
+          "m": "\"STR का मतलब है कि ग्राहक दोषी है।\"",
+          "f": "नहीं। STR एक संदेह की रिपोर्ट है, जिसका FIU-IND विश्लेषण करती है; यह किसी को दोषी साबित नहीं करती।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "FIU-IND आसान भाषा में?",
+          "a": "Money-laundering और आतंकी फ़ंडिंग पकड़ने के लिए वित्तीय लेन-देन की 'ख़ुफ़िया इकाई': banks वग़ैरह से रिपोर्टें लेकर उनका विश्लेषण करती है।[^1]"
+        },
+        {
+          "q": "FIU-IND स्वतंत्र है?",
+          "a": "FIU-IND के मुताबिक यह एक स्वतंत्र संस्था है, जो सीधे Economic Intelligence Council (अध्यक्ष: वित्त मंत्री) को रिपोर्ट करती है।[^1]"
+        },
+        {
+          "q": "PMLA से रिश्ता?",
+          "a": "PMLA के तहत banks जैसी reporting entities को कुछ लेन-देन का record रखना और रिपोर्ट करना होता है; इसकी जानकारी PMLA पन्ने पर है।"
+        }
+      ],
+      "related": [
+        {
+          "t": "PMLA"
+        },
+        {
+          "t": "FATF"
+        },
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Mule Account"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIU-IND — About FIU-IND (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://fiuindia.gov.in/files/About_FIU-IND/About_FIUIND.html",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "About FIU-IND",
+              "c": "O.M. 18.11.2004; केंद्रीय राष्ट्रीय एजेंसी; स्वतंत्र, Economic Intelligence Council (वित्त मंत्री) को रिपोर्ट; CTR / STR लेना, विश्लेषण, dissemination"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nFIU-IND यानी Financial Intelligence Unit – India। FIU-IND के मुताबिक यह संदिग्ध वित्तीय लेन-देन की जानकारी लेने, उसे process और analyse करने, और आगे पहुँचाने वाली केंद्रीय राष्ट्रीय एजेंसी है।[^1]\n\n## FIU-IND कैसे काम करती है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: स्थापना O.M. 18.11.2004; Economic Intelligence Council (वित्त मंत्री) को रिपोर्ट; CTR, STR; विश्लेषण और dissemination।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "fatf",
+      "term": "FATF",
+      "aliases": [
+        "Financial Action Task Force",
+        "वित्तीय कार्रवाई कार्य बल",
+        "FATF grey list",
+        "Jurisdictions under Increased Monitoring",
+        "Mutual Evaluation"
+      ],
+      "full": "Financial Action Task Force · money-laundering और आतंकी फ़ंडिंग रोकने के अंतरराष्ट्रीय मानक बनाने वाली संस्था",
+      "fullEn": "Financial Action Task Force",
+      "group": "साइबर सुरक्षा",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। FATF की official site (Who we are; India country page) से जाँचा।"
+        }
+      ],
+      "one": "FATF (Financial Action Task Force) money-laundering और आतंकवाद की फ़ंडिंग पर नज़र रखने वाली अंतर-सरकारी संस्था है, जो 1989 में बनी और Paris में है। यह इन्हें रोकने के अंतरराष्ट्रीय मानक (FATF Standards) बनाती है। भारत 2010 से इसका सदस्य है।",
+      "facts": [
+        {
+          "k": "स्थापना",
+          "v": "1989",
+          "s": "Paris में"
+        },
+        {
+          "k": "सदस्य",
+          "v": "40",
+          "s": "FATF के मुताबिक"
+        },
+        {
+          "k": "भारत",
+          "v": "2010 से सदस्य",
+          "s": ""
+        },
+        {
+          "k": "भारत का ताज़ा mutual evaluation",
+          "v": "19 सितंबर 2024",
+          "s": "'good results'"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "FATF Standards",
+            "s": "अंतरराष्ट्रीय मानक"
+          },
+          {
+            "t": "देश अपने क़ानून बनाते हैं",
+            "s": "जैसे भारत में PMLA"
+          },
+          {
+            "t": "Mutual evaluation",
+            "s": "देश की जाँच"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "लागू करना",
+            "s": ""
+          },
+          {
+            "b": "जाँच",
+            "s": ""
+          }
+        ],
+        "note": "FATF के मुताबिक 200 से ज़्यादा देशों / क्षेत्रों ने इसके मानक लागू करने का वादा किया है; जो देश कमज़ोर पाए जाते हैं, वे 'Jurisdictions under Increased Monitoring' या 'High-Risk Jurisdictions subject to a Call for Action' सूची में आ सकते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"FATF भारत की कोई सरकारी संस्था है।\"",
+          "f": "नहीं। FATF एक अंतरराष्ट्रीय अंतर-सरकारी संस्था है, Paris में; भारत उसका सदस्य है (2010 से)।[^1][^2]"
+        },
+        {
+          "m": "\"FATF सीधे क़ानून बनाकर देशों पर लागू करता है।\"",
+          "f": "FATF मानक (Standards) बनाता है और देशों में क़ानूनी सुधार के लिए राजनीतिक इच्छाशक्ति बनाने का काम करता है; क़ानून हर देश ख़ुद बनाता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "FATF आसान भाषा में?",
+          "a": "Money-laundering और आतंकी फ़ंडिंग के ख़िलाफ़ दुनिया का 'निगरानी करने वाला' (watchdog): नियम-मानक बनाता है और देखता है कि देश उन्हें कितना लागू कर रहे हैं।[^1]"
+        },
+        {
+          "q": "भारत का mutual evaluation क्या कहता है?",
+          "a": "FATF के मुताबिक 19 सितंबर 2024 को प्रकाशित report में कहा गया कि भारत ने AML/CFT ढाँचा लागू किया है, जो 'अच्छे नतीजे' दे रहा है।[^2]"
+        },
+        {
+          "q": "भारत में इससे जुड़े संस्थान कौन?",
+          "a": "भारत में money-laundering का क़ानून PMLA है, और संदिग्ध लेन-देन की रिपोर्टें FIU-IND लेती है; इनके अलग पन्ने देखिए।"
+        }
+      ],
+      "related": [
+        {
+          "t": "PMLA"
+        },
+        {
+          "t": "FIU-IND"
+        },
+        {
+          "t": "KYC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FATF — Who we are (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.fatf-gafi.org/en/the-fatf/who-we-are.html",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Who we are",
+              "c": "global watchdog; अंतर-सरकारी; Standards; 1989, Paris; 40 सदस्य; 200+ देश; सूचियाँ"
+            }
+          ]
+        },
+        {
+          "label": "FATF — Country page: India (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.fatf-gafi.org/en/countries/detail/India.html",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "India",
+              "c": "2010 से सदस्य; mutual evaluation 19.9.2024: AML/CFT ढाँचा, good results"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nFATF यानी Financial Action Task Force। FATF के मुताबिक यह money-laundering और आतंकवाद की फ़ंडिंग पर वैश्विक निगरानी करने वाली अंतर-सरकारी संस्था है, जो इन्हें रोकने के अंतरराष्ट्रीय मानक बनाती है।[^1]\n\n## FATF कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 1989, Paris; 40 सदस्य; FATF Standards; भारत 2010 से सदस्य; भारत का mutual evaluation 19.9.2024; 'Increased Monitoring' सूची।[^1][^2] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "mospi",
+      "term": "MoSPI",
+      "aliases": [
+        "Ministry of Statistics and Programme Implementation",
+        "Ministry of Statistics & Programme Implementation",
+        "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय",
+        "NSO",
+        "National Statistics Office",
+        "राष्ट्रीय सांख्यिकी कार्यालय"
+      ],
+      "full": "Ministry of Statistics and Programme Implementation · भारत सरकार का सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय",
+      "fullEn": "Ministry of Statistics and Programme Implementation",
+      "group": "पैसे की बुनियाद",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। MoSPI की Annual Report 2025-26 (अध्याय 1) और PIB पर MoSPI की 5 जून 2026 की GDP release से जाँचा।"
+        }
+      ],
+      "one": "MoSPI (Ministry of Statistics and Programme Implementation) भारत सरकार का वह मंत्रालय है, जो देश के अहम आँकड़े बनाता और जारी करता है, जैसे GDP और CPI (खुदरा महँगाई)। इसके दो हिस्से (wings) हैं: Statistics Wing, जिसे National Statistics Office (NSO) कहते हैं, और Programme Implementation Wing, जो सांसद निधि (MPLADS) जैसे काम देखता है।",
+      "facts": [
+        {
+          "k": "स्वतंत्र मंत्रालय",
+          "v": "15 अक्टूबर 1999 से",
+          "s": "दो विभाग मिलाकर"
+        },
+        {
+          "k": "दो wings",
+          "v": "Statistics, Programme Implementation",
+          "s": "पैरा 1.2"
+        },
+        {
+          "k": "Statistics Wing",
+          "v": "NSO",
+          "s": "National Statistics Office"
+        },
+        {
+          "k": "मुख्य आँकड़े",
+          "v": "GDP, CPI, IIP",
+          "s": "पैरा 1.5–1.10"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "MoSPI",
+            "s": "मंत्रालय"
+          },
+          {
+            "t": "NSO (Statistics Wing)",
+            "s": "GDP, CPI, IIP, सर्वे"
+          },
+          {
+            "t": "PI Wing",
+            "s": "MPLADS, project निगरानी"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "MoSPI की Annual Report के मुताबिक NSO देश में सांख्यिकी गतिविधियों का तालमेल करता है; इसके विभागों में Price Statistics Division, Field Operations Division, Social Statistics Division, Data Informatics and Innovation Division और National Accounts Division हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"GDP का आँकड़ा RBI जारी करता है।\"",
+          "f": "नहीं। MoSPI की Annual Report के मुताबिक GDP के सालाना और तिमाही अनुमान MoSPI जारी करता है; 2025-26 के Provisional Estimates भी MoSPI ने 5 जून 2026 को जारी किए।[^1][^2]"
+        },
+        {
+          "m": "\"MoSPI सिर्फ़ आँकड़े बनाता है।\"",
+          "f": "नहीं। Annual Report के मुताबिक इसका Programme Implementation Wing सांसद स्थानीय क्षेत्र विकास योजना (MPLADS) और Infrastructure and Project Monitoring भी देखता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "MoSPI आसान भाषा में क्या है?",
+          "a": "देश का 'आँकड़ों वाला मंत्रालय': अर्थव्यवस्था कितनी बढ़ी (GDP), महँगाई कितनी (CPI), उद्योग का उत्पादन (IIP), रोज़गार के सर्वे — ये सब इसी से आते हैं।[^1]"
+        },
+        {
+          "q": "NSO क्या है?",
+          "a": "MoSPI की Annual Report के मुताबिक मंत्रालय का Statistics Wing ही National Statistics Office (NSO) कहलाता है, जो देश में सांख्यिकी के काम का तालमेल करता है।[^1]"
+        },
+        {
+          "q": "MPLADS क्या है?",
+          "a": "Annual Report के मुताबिक Members of Parliament Local Area Development Scheme एक Central Sector Scheme है, जिसका पूरा पैसा भारत सरकार देती है; इसे MoSPI का PI Wing देखता है।[^1]"
+        },
+        {
+          "q": "रोज़गार के आँकड़े कहाँ से?",
+          "a": "Annual Report के मुताबिक Periodic Labour Force Survey (PLFS) देश में रोज़गार / श्रम के आँकड़ों का मुख्य स्रोत है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "GDP"
+        },
+        {
+          "t": "GVA"
+        },
+        {
+          "t": "CPI"
+        },
+        {
+          "t": "Inflation"
+        },
+        {
+          "t": "WPI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "MoSPI — Annual Report 2025-26 (Chapter 1: Introduction, पैरा 1.1–1.17) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.mospi.gov.in/uploads/publications_reports/publications_reports1780639521826_07b8c57c-dff9-4c75-a7fb-d28c10dd1c75_MoSPI_Annual_Report_English_2025-26.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1.1, 1.2, 1.4",
+              "c": "15.10.1999 को स्वतंत्र मंत्रालय (Department of Statistics और Department of Programme Implementation मिलाकर); दो wings; Statistics Wing = NSO, तालमेल"
+            },
+            {
+              "ref": "पैरा 1.5, 1.6, 1.9, 1.10, 1.11, 1.15",
+              "c": "GDP के सालाना और तिमाही अनुमान; CPI; PSD, FOD; IIP; SSD; DIID"
+            },
+            {
+              "ref": "पैरा 1.16, 1.17; पैरा 3.17; अध्याय 2",
+              "c": "PI Wing: MPLADS (Central Sector Scheme, पूरा पैसा केंद्र) और Infrastructure and Project Monitoring; PLFS श्रम आँकड़ों का मुख्य स्रोत; National Accounts Division"
+            }
+          ]
+        },
+        {
+          "label": "PIB (MoSPI) — Provisional Estimates of GDP for 2025-26 and Q4, 05.06.2026 (Release ID 2269286) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269286",
+          "issued": "2026-06-05",
+          "effective": "",
+          "used": [
+            {
+              "ref": "शुरुआत",
+              "c": "MoSPI ने 2025-26 के Provisional Estimates 5.6.2026 को जारी किए"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nMoSPI यानी Ministry of Statistics and Programme Implementation (सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय)। MoSPI की Annual Report 2025-26 के मुताबिक यह 15 अक्टूबर 1999 को Department of Statistics और Department of Programme Implementation को मिलाकर स्वतंत्र मंत्रालय बना।[^1]\n\n## MoSPI कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: MoSPI 15.10.1999; दो wings — Statistics (NSO) और Programme Implementation (MPLADS); GDP, CPI, IIP, PLFS। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
