@@ -27928,6 +27928,1074 @@
         }
       ],
       "body": "## मतलब\n\nRBI की RTGS FAQ के मुताबिक RTGS वह system है, जिसमें fund-transfers का settlement लगातार और real-time होता है, हर transaction अलग-अलग, बिना netting के।[^1] RBI की NEFT FAQ के मुताबिक NEFT आधे-आधे घंटे के batches में चलता है।[^2]\n\n## पैसा कैसे पहुँचता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** RTGS ऐसी taxi है, जो हर सवारी को उसी पल अकेले मंज़िल तक पहुँचा देती है। NEFT ऐसी bus है, जो हर आधे घंटे पर छूटती है — उस बीच आई सारी सवारियाँ एक साथ जाती हैं। सवारी (आपका पैसा) का मंज़िल (पाने वाले के bank) तक सच में पहुँच जाना ही settlement है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: RTGS = real-time, gross (एक-एक करके) settlement; NEFT = half-hourly batches; दोनों 24x7x365, inward मुफ़्त। UPSC Prelims 2025 का सवाल 68 इसी पर था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "hedge-fund",
+      "term": "Hedge Fund",
+      "aliases": [
+        "Hedge Funds",
+        "हेज फ़ंड"
+      ],
+      "full": "Hedge Fund · जटिल trading करने वाला निवेश कोष",
+      "fullEn": "Hedge Fund",
+      "group": "निवेश",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। SEBI AIF Regulations, 2012 (14.07.2026 तक संशोधित) के नियम 3(4)(c) से जाँचा।"
+        }
+      ],
+      "one": "Hedge fund ऐसा निवेश कोष है, जो अलग-अलग या जटिल trading तरीक़े अपनाता है और उधार (leverage) लेकर भी दाँव लगा सकता है, ताकि कम समय में मुनाफ़ा कमाए। भारत में SEBI के नियमों के मुताबिक hedge funds Category III AIF में आते हैं।",
+      "facts": [
+        {
+          "k": "भारत में दर्जा",
+          "v": "Category III AIF",
+          "s": "नियम 3(4)(c)"
+        },
+        {
+          "k": "तरीक़ा",
+          "v": "जटिल trading",
+          "s": "derivatives भी"
+        },
+        {
+          "k": "Leverage",
+          "v": "ले सकता है",
+          "s": "उधार से दाँव"
+        },
+        {
+          "k": "Regulator",
+          "v": "SEBI",
+          "s": ""
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "निवेशक",
+            "s": "पैसा लगाते हैं"
+          },
+          {
+            "t": "Hedge fund",
+            "s": "Category III AIF"
+          },
+          {
+            "t": "जटिल trading",
+            "s": "leverage, derivatives"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "SEBI के नियम 3(4)(c) के मुताबिक Category III AIF अलग-अलग या जटिल trading तरीक़े अपनाता है और listed या unlisted derivatives के ज़रिए भी leverage ले सकता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Hedge fund का मतलब जोखिम से पूरी हिफ़ाज़त (hedge) है।\"",
+          "f": "नाम से ऐसा लगता है, पर SEBI के नियमों में ऐसे fund को जटिल trading और leverage वाला Category III AIF बताया गया है — यानी जोखिम ज़्यादा हो सकता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "क्या hedge fund AIF है?",
+          "a": "हाँ। SEBI के नियम 3(4)(c) की Explanation के मुताबिक hedge funds जैसे fund Category III AIF में आएँगे।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "AIF"
+        },
+        {
+          "t": "Venture Capital"
+        },
+        {
+          "t": "F&O"
+        },
+        {
+          "t": "SEBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SEBI (Alternative Investment Funds) Regulations, 2012 — 14 जुलाई 2026 तक संशोधित पाठ (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2026/1785301664601.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "नियम 3(4)(c) और Explanation",
+              "c": "Category III: जटिल trading तरीक़े, leverage (derivatives से भी); hedge funds इसी में"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSEBI (AIF) Regulations, 2012 के नियम 3(4)(c) के मुताबिक Category III AIF वह है, जो अलग-अलग या जटिल trading तरीक़े अपनाता है और listed या unlisted derivatives में निवेश के ज़रिए भी leverage ले सकता है। इसकी Explanation कहती है कि hedge funds जैसे fund इसी category में आएँगे।[^1]\n\n## कैसे काम करता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** आम निवेशक share ख़रीदकर सालों रखता है। Hedge fund चलाने वाला ऐसे खिलाड़ी जैसा है, जो कम समय में बड़ा फ़ायदा कमाने के लिए उधार लेकर भी बड़े और पेचीदा दाँव लगाता है — कभी भाव गिरने पर भी कमाने वाले सौदे करता है। दाँव सही बैठा तो बड़ा मुनाफ़ा; ग़लत हुआ तो उधार के कारण नुक़सान भी बड़ा।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Hedge fund = Category III AIF (SEBI); जटिल trading और leverage। UPSC Prelims 2025 का सवाल 1 इससे जुड़ा था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "pension-fund",
+      "term": "Pension Fund (NPS)",
+      "aliases": [
+        "pension funds",
+        "pension fund management"
+      ],
+      "full": "Pension Fund · NPS का पैसा संभालने वाली PFRDA-registered संस्था",
+      "fullEn": "Pension Fund (under NPS)",
+      "group": "निवेश",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। PFRDA की website के 'Pension Funds' पन्ने से जाँचा।"
+        }
+      ],
+      "one": "NPS में Pension Fund वह संस्था है, जिसे PFRDA ने registration दिया है और जो subscribers का pension का पैसा (corpus) PFRDA के निवेश दिशानिर्देशों के मुताबिक अलग-अलग schemes में लगाकर संभालती है। यह काम PFRDA के तहत pension funds करते हैं, RBI नहीं।",
+      "facts": [
+        {
+          "k": "Registration",
+          "v": "PFRDA Act धारा 27(3)",
+          "s": "PFRDA से"
+        },
+        {
+          "k": "काम",
+          "v": "Pension corpus का प्रबंधन",
+          "s": "NPS schemes में"
+        },
+        {
+          "k": "नियम",
+          "v": "PFRDA के निवेश दिशानिर्देश",
+          "s": ""
+        },
+        {
+          "k": "Regulator",
+          "v": "PFRDA",
+          "s": ""
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Subscriber",
+            "s": "NPS में योगदान"
+          },
+          {
+            "t": "Pension Fund",
+            "s": "PFRDA में registered"
+          },
+          {
+            "t": "निवेश",
+            "s": "PFRDA के दिशानिर्देश के मुताबिक"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "पैसा",
+            "s": ""
+          },
+          {
+            "b": "लगाता है",
+            "s": ""
+          }
+        ],
+        "note": "PFRDA के मुताबिक pension funds, National Pension System की अलग-अलग schemes के ज़रिए pension corpus का प्रबंधन करते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Pension fund management RBI की कमाई का ज़रिया है।\"",
+          "f": "नहीं। NPS में pension corpus का प्रबंधन PFRDA में registered pension funds करते हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Pension fund को registration कौन देता है?",
+          "a": "PFRDA के मुताबिक pension fund वह intermediary है, जिसे Authority (PFRDA) ने धारा 27(3) के तहत certificate of registration दिया है।[^1]"
+        },
+        {
+          "q": "Pension fund क्या-क्या करता है?",
+          "a": "PFRDA के मुताबिक यह योगदान लेता है, उन्हें जमा करता और बढ़ाता है, और subscribers को भुगतान करता है; निवेश PFRDA के दिशानिर्देशों के मुताबिक होता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "PFRDA"
+        },
+        {
+          "t": "NPS"
+        },
+        {
+          "t": "APY"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PFRDA — Intermediaries: Pension Funds (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://pfrda.org.in/web/pfrda/intermediaries/pension-funds",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना",
+              "c": "धारा 27(3) के तहत registered intermediary; योगदान लेना, जमा करना, भुगतान; NPS schemes में pension corpus का प्रबंधन; PFRDA के निवेश दिशानिर्देश"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPFRDA की website के मुताबिक pension fund वह intermediary है, जिसे PFRDA ने धारा 27(3) के तहत certificate of registration दिया है। यह योगदान लेता है, उसे जमा करके बढ़ाता है और subscribers को भुगतान करता है; और National Pension System की schemes के ज़रिए pension corpus का प्रबंधन PFRDA के निवेश दिशानिर्देशों के मुताबिक करता है।[^1]\n\n## कैसे काम करता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** आप हर महीने अपनी कमाई में से थोड़ा-थोड़ा बुढ़ापे के लिए एक गुल्लक में डालते हैं। NPS में वह 'गुल्लक' pension fund संभालता है — पैसे को सिर्फ़ रखता नहीं, बल्कि PFRDA के बनाए निवेश नियमों के हिसाब से NPS की schemes में लगाकर बढ़ाता है, ताकि retirement पर ज़्यादा रक़म मिले।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Pension fund = NPS का पैसा संभालने वाली PFRDA-registered संस्था; RBI का काम नहीं। UPSC Prelims 2025 का सवाल 2 इससे जुड़ा था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "foreign-exchange-reserves",
+      "term": "Foreign Exchange Reserves",
+      "aliases": [
+        "Forex Reserves",
+        "foreign currency",
+        "Foreign Currency Assets",
+        "विदेशी मुद्रा भंडार"
+      ],
+      "full": "Foreign Exchange Reserves · विदेशी मुद्रा भंडार",
+      "fullEn": "Foreign Exchange Reserves",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की 44वीं (05.05.2025) और 46वीं (30.04.2026) half-yearly report वाली press releases से जाँचा।"
+        }
+      ],
+      "one": "Foreign Exchange Reserves (विदेशी मुद्रा भंडार) देश के पास रखी विदेशी संपत्तियाँ हैं, जिन्हें RBI संभालता है। RBI के मुताबिक इसके चार हिस्से हैं: Foreign Currency Assets, सोना (Gold), Special Drawing Rights (SDRs) और IMF में Reserve Tranche Position।",
+      "facts": [
+        {
+          "k": "31.3.2026 के आसपास",
+          "v": "USD 691.11 billion",
+          "s": "46वीं report"
+        },
+        {
+          "k": "सबसे बड़ा हिस्सा",
+          "v": "Foreign Currency Assets",
+          "s": ""
+        },
+        {
+          "k": "चार हिस्से",
+          "v": "FCA, Gold, SDR, RTP",
+          "s": "RBI"
+        },
+        {
+          "k": "Report",
+          "v": "हर छह महीने",
+          "s": "फ़रवरी 2004 से"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Foreign Currency Assets",
+            "s": "विदेशी मुद्रा में संपत्ति"
+          },
+          {
+            "t": "Gold + SDR + RTP",
+            "s": "सोना, IMF से जुड़े हिस्से"
+          },
+          {
+            "t": "Forex Reserves",
+            "s": "कुल भंडार"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+",
+            "s": ""
+          },
+          {
+            "b": "=",
+            "s": ""
+          }
+        ],
+        "note": "RBI की 05.05.2025 की press release के मुताबिक 25 अप्रैल 2025 को भंडार USD 688.13 billion था: FCA 580.66, Gold 84.37, SDRs 18.59 और RTP 4.51 (USD billion)।"
+      },
+      "myths": [
+        {
+          "m": "\"विदेशी मुद्रा भंडार मतलब सिर्फ़ dollar के नोट।\"",
+          "f": "नहीं। RBI के मुताबिक इसमें Foreign Currency Assets के साथ सोना, SDRs और IMF में Reserve Tranche Position भी है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "हाल में भंडार कितना रहा?",
+          "a": "RBI की 46वीं half-yearly report (30.04.2026) के मुताबिक अक्टूबर 2025 से मार्च 2026 के बीच भंडार USD 700.09 billion से घटकर USD 691.11 billion रहा।[^2]"
+        },
+        {
+          "q": "RBI इसकी जानकारी कैसे देता है?",
+          "a": "RBI ने फ़रवरी 2004 से इसके प्रबंधन पर half-yearly report सार्वजनिक करना शुरू किया।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Balance of Payments"
+        },
+        {
+          "t": "Current Account Deficit"
+        },
+        {
+          "t": "FDI और FPI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Press Release 2025-2026/253: 44th Half Yearly Report on Management of Foreign Exchange Reserves (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60368",
+          "issued": "2025-05-05",
+          "effective": "",
+          "used": [
+            {
+              "ref": "तालिका",
+              "c": "25.04.2025: कुल USD 688.13 bn = FCA 580.66 + Gold 84.37 + SDRs 18.59 + RTP 4.51"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release 2026-2027/189: 46th Half-Yearly Report on Management of Foreign Exchange Reserves (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62667",
+          "issued": "2026-04-30",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पूरी release",
+              "c": "अक्टूबर 2025–मार्च 2026 में भंडार USD 700.09 bn से USD 691.11 bn; फ़रवरी 2004 से half-yearly report"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI की 5 मई 2025 की press release के मुताबिक भारत के विदेशी मुद्रा भंडार के चार हिस्से हैं: Foreign Currency Assets (FCA), Gold, Special Drawing Rights (SDRs) और Reserve Tranche Position (RTP)। 25 अप्रैल 2025 को कुल भंडार USD 688.13 billion था।[^1] RBI की 30 अप्रैल 2026 की release के मुताबिक अक्टूबर 2025 से मार्च 2026 के बीच भंडार USD 700.09 billion से घटकर USD 691.11 billion रहा।[^2]\n\n## बनावट | बनावट\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** जैसे घर में किसी आपात ज़रूरत के लिए अलमारी में कुछ नक़द और सोना रखा जाता है, वैसे ही देश विदेश से सामान ख़रीदने या मुसीबत के वक़्त के लिए dollar जैसी विदेशी मुद्राएँ और सोना जमा रखता है। यह भंडार RBI संभालता है। RBI की Annual Report के मुताबिक RBI की आमदनी का बड़ा हिस्सा विदेशी स्रोतों से आता है — UPSC 2025 के सवाल 2 में 'buying and selling foreign currency' इसी से जुड़ा था।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Forex reserves = FCA + Gold + SDRs + RTP; RBI संभालता है; मार्च 2026 तक USD 691.11 billion। UPSC Prelims 2025 का सवाल 2 इससे जुड़ा था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "fugitive-economic-offender",
+      "term": "Fugitive Economic Offender",
+      "aliases": [
+        "Fugitive Economic Offenders",
+        "Fugitive Economic Offenders Act",
+        "FEOA",
+        "भगोड़ा आर्थिक अपराधी"
+      ],
+      "full": "Fugitive Economic Offender · भगोड़ा आर्थिक अपराधी",
+      "fullEn": "Fugitive Economic Offender (FEOA, 2018)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। Fugitive Economic Offenders Act, 2018 के विधायी विभाग वाले पाठ से जाँचा।"
+        }
+      ],
+      "one": "Fugitive Economic Offender (भगोड़ा आर्थिक अपराधी) वह व्यक्ति है, जिसके ख़िलाफ़ ₹100 करोड़ या उससे ज़्यादा के तय आर्थिक अपराध (Scheduled Offence) में गिरफ़्तारी का warrant जारी हुआ हो, और जो मुक़दमे से बचने के लिए भारत छोड़ गया हो या विदेश में रहते हुए लौटने से मना कर दे।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "FEOA, 2018",
+          "s": "Act No. 17 of 2018"
+        },
+        {
+          "k": "रक़म की शर्त",
+          "v": "₹100 करोड़ या ज़्यादा",
+          "s": "धारा 2(1)(m)"
+        },
+        {
+          "k": "कौन घोषित करता है",
+          "v": "Special Court",
+          "s": "धारा 12(1)"
+        },
+        {
+          "k": "नतीजा",
+          "v": "संपत्ति ज़ब्त हो सकती है",
+          "s": "धारा 12(2)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "₹100 करोड़+ का अपराध",
+            "s": "warrant जारी"
+          },
+          {
+            "t": "भारत छोड़ा / लौटने से इनकार",
+            "s": ""
+          },
+          {
+            "t": "Special Court की घोषणा",
+            "s": "संपत्ति ज़ब्ती"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "फिर",
+            "s": ""
+          },
+          {
+            "b": "तो",
+            "s": ""
+          }
+        ],
+        "note": "Act की धारा 14 के मुताबिक भगोड़ा आर्थिक अपराधी घोषित होने पर भारत की कोई अदालत या tribunal उसे civil दावे में बचाव का मौक़ा नहीं देगी।"
+      },
+      "myths": [
+        {
+          "m": "\"यह क़ानून गृह मंत्रालय का कोई विभाग लागू करता है।\"",
+          "f": "ED की website के मुताबिक FEOA, 2018 लागू करने वाला Directorate of Enforcement वित्त मंत्रालय के राजस्व विभाग के तहत है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "हर भागे हुए आरोपी पर यह लागू होता है?",
+          "a": "नहीं। Act की धारा 2(1)(m) के मुताबिक Scheduled Offence में कुल रक़म ₹100 करोड़ या उससे ज़्यादा होनी चाहिए।[^1]"
+        },
+        {
+          "q": "घोषणा के बाद क्या होता है?",
+          "a": "धारा 12(2) के मुताबिक Special Court संपत्तियों को केंद्र सरकार के पक्ष में ज़ब्त करने का आदेश दे सकती है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Enforcement Directorate"
+        },
+        {
+          "t": "PMLA"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Fugitive Economic Offenders Act, 2018 (Act No. 17 of 2018) — विधायी विभाग, क़ानून मंत्रालय (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://lddashboard.legislative.gov.in/sites/default/files/A2018-17.pdf",
+          "issued": "2018-07-31",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Long title; धारा 2(1)(f), 2(1)(m)",
+              "c": "क़ानून का मक़सद; warrant जारी, भारत छोड़ना या लौटने से इनकार; Scheduled Offence ₹100 करोड़ या ज़्यादा"
+            },
+            {
+              "ref": "धारा 12(1), 12(2), 14",
+              "c": "Special Court की घोषणा; संपत्ति ज़ब्ती; civil दावे में बचाव का हक़ नहीं"
+            }
+          ]
+        },
+        {
+          "label": "Directorate of Enforcement — What We Do (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://enforcementdirectorate.gov.in/about-us/what-we-do/",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "What We Do",
+              "c": "ED, Department of Revenue, Ministry of Finance के तहत; FEOA, 2018 लागू करता है"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nFugitive Economic Offenders Act, 2018 की धारा 2(1)(f) के मुताबिक fugitive economic offender वह व्यक्ति है, जिसके ख़िलाफ़ किसी Scheduled Offence में भारत की अदालत ने गिरफ़्तारी का warrant जारी किया हो, और जो (i) मुक़दमे से बचने के लिए भारत छोड़ गया हो, या (ii) विदेश में रहते हुए मुक़दमे का सामना करने भारत लौटने से मना कर दे। धारा 2(1)(m) के मुताबिक Scheduled Offence तभी, जब उसमें कुल रक़म ₹100 करोड़ या उससे ज़्यादा हो।[^1]\n\n## प्रक्रिया | प्रक्रिया\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** कोई व्यापारी bank से ₹500 करोड़ का loan लेकर चुकाता नहीं, धोखाधड़ी का केस बनता है और warrant निकलता है — पर वह विदेश भाग जाता है और बुलाने पर भी नहीं लौटता। तब ED अदालत से उसे 'भगोड़ा आर्थिक अपराधी' घोषित करवा सकता है, और अदालत उसकी संपत्ति ज़ब्त करने का आदेश दे सकती है, ताकि भागकर बच निकलना फ़ायदे का सौदा न रहे।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: FEOA, 2018: ₹100 करोड़+ का Scheduled Offence, भारत छोड़ा या लौटने से इनकार; Special Court घोषणा; संपत्ति ज़ब्ती; ED लागू करता है। UPSC Prelims 2025 का सवाल 3 इससे जुड़ा था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "coir-board",
+      "term": "Coir Board",
+      "aliases": [
+        "कॉयर बोर्ड",
+        "Coir Industry Act"
+      ],
+      "full": "Coir Board · नारियल रेशा (coir) उद्योग का विकास बोर्ड",
+      "fullEn": "Coir Board",
+      "group": "सरकारी योजनाएँ",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। Coir Industry Act, 1953 (India Code) और MSME मंत्रालय की Annual Report 2025-26 से जाँचा।"
+        }
+      ],
+      "one": "Coir Board नारियल के रेशे (coir) से बनने वाले सामान के उद्योग का विकास करने वाला सरकारी बोर्ड है। यह Coir Industry Act, 1953 से बना statutory body है और MSME मंत्रालय (Ministry of Micro, Small and Medium Enterprises) के तहत आता है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "Coir Industry Act, 1953",
+          "s": "Act No. 45 of 1953"
+        },
+        {
+          "k": "दर्जा",
+          "v": "Statutory body",
+          "s": "क़ानून से बना"
+        },
+        {
+          "k": "मंत्रालय",
+          "v": "MSME",
+          "s": "Heavy Industries नहीं"
+        },
+        {
+          "k": "काम",
+          "v": "Coir उद्योग का विकास",
+          "s": "धारा 10(1)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Coir Industry Act, 1953",
+            "s": "क़ानून"
+          },
+          {
+            "t": "Coir Board",
+            "s": "धारा 4"
+          },
+          {
+            "t": "MSME मंत्रालय",
+            "s": "के तहत"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "से बना",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "MSME मंत्रालय की Annual Report 2025-26 के मुताबिक मंत्रालय दो statutory bodies का प्रशासन देखता है: KVIC और Coir Board।"
+      },
+      "myths": [
+        {
+          "m": "\"Coir Board, Ministry of Heavy Industries के तहत है।\"",
+          "f": "नहीं। MSME मंत्रालय की Annual Report के मुताबिक Coir Board, MSME मंत्रालय के तहत statutory body है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Coir Board का मुख्य काम क्या है?",
+          "a": "Coir Industry Act की धारा 10(1) के मुताबिक केंद्र सरकार के नियंत्रण में coir उद्योग के विकास को बढ़ावा देना।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "MSME"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Coir Industry Act, 1953 (Act No. 45 of 1953) — India Code (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2179/1/aA195345.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Long title; धारा 4(1), 10(1)",
+              "c": "Coir उद्योग के विकास के लिए Board; 'Coir Board' की स्थापना; Board का कर्तव्य coir उद्योग का विकास"
+            }
+          ]
+        },
+        {
+          "label": "Ministry of MSME — Annual Report 2025-26, पैरा 1.3.3 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.msme.gov.in/static/uploads/2026/05/1bfda06b460e72543530b40817573495.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1.3.3, पन्ना 4",
+              "c": "मंत्रालय के दो statutory bodies: KVIC और Coir Board"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCoir Industry Act, 1953 coir उद्योग के विकास के लिए एक Board बनाने का क़ानून है; इसकी धारा 4(1) से 'Coir Board' बना, और धारा 10(1) के मुताबिक Board का कर्तव्य केंद्र सरकार के नियंत्रण में coir उद्योग के विकास को बढ़ावा देना है।[^1] MSME मंत्रालय की Annual Report 2025-26 के मुताबिक Coir Board इस मंत्रालय के तहत statutory body है।[^2]\n\n## कहाँ आता है | कहाँ\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** नारियल के छिलके से निकलने वाले रेशे से पायदान (doormat), रस्सी, गद्दे जैसी चीज़ें बनती हैं — यही coir उद्योग है। इसका बोर्ड छोटे और मझोले उद्योगों वाले MSME मंत्रालय के तहत है, Heavy Industries मंत्रालय के तहत नहीं — UPSC 2025 के सवाल 57 में यही जाल था।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Coir Board = Coir Industry Act, 1953 से बना statutory body; MSME मंत्रालय के तहत। UPSC Prelims 2025 का सवाल 57 इससे जुड़ा था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "national-automotive-board",
+      "term": "National Automotive Board",
+      "aliases": [
+        "राष्ट्रीय ऑटोमोटिव बोर्ड"
+      ],
+      "full": "National Automotive Board (NAB) · वाहन क्षेत्र की तकनीकी संस्था",
+      "fullEn": "National Automotive Board",
+      "group": "सरकारी योजनाएँ",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। National Automotive Board की Annual Report 2024-25 (Ministry of Heavy Industries की site पर) से जाँचा।"
+        }
+      ],
+      "one": "National Automotive Board (NAB) Ministry of Heavy Industries के तहत एक autonomous society है, जो वाहन (automotive) क्षेत्र की तकनीकी जानकारी और विशेषज्ञता को एक मंच पर लाती है। यह 2013 में Societies Registration Act, 1860 के तहत registered हुई।",
+      "facts": [
+        {
+          "k": "मंत्रालय",
+          "v": "Heavy Industries",
+          "s": "Commerce नहीं"
+        },
+        {
+          "k": "दर्जा",
+          "v": "Autonomous society",
+          "s": ""
+        },
+        {
+          "k": "Registration",
+          "v": "27 अगस्त 2013",
+          "s": "S/ND/311/2013"
+        },
+        {
+          "k": "काम",
+          "v": "Automotive data, test मानक",
+          "s": ""
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Ministry of Heavy Industries",
+            "s": ""
+          },
+          {
+            "t": "National Automotive Board",
+            "s": "autonomous society"
+          },
+          {
+            "t": "Automotive क्षेत्र",
+            "s": "तकनीकी सलाह, data"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "के तहत",
+            "s": ""
+          },
+          {
+            "b": "के लिए",
+            "s": ""
+          }
+        ],
+        "note": "NAB की Annual Report के मुताबिक इसका एक उद्देश्य NAB के तहत आने वाले केंद्रों में test procedures और protocols का मानकीकरण करना है।"
+      },
+      "myths": [
+        {
+          "m": "\"NAB, Ministry of Commerce and Industry के तहत है।\"",
+          "f": "नहीं। NAB की Annual Report के मुताबिक यह Ministry of Heavy Industries के तहत autonomous society है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "NAB क्या करता है?",
+          "a": "Annual Report के मुताबिक यह automotive क्षेत्र के data, domain knowledge और विशेषज्ञता का राष्ट्रीय भंडार बनना और सलाह व तकनीकी जानकारी देना चाहता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "MSME"
+        }
+      ],
+      "sources": [
+        {
+          "label": "National Automotive Board — Annual Report 2024-25 (Ministry of Heavy Industries की site पर), पन्ने 5–7 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://heavyindustries.gov.in/sites/default/files/2025-12/nab_annual_report_2024-25_english.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 5",
+              "c": "Ministry of Heavy Industries के तहत autonomous society; 27.08.2013 को S/ND/311/2013 से Societies Registration Act, 1860 में registration; automotive विशेषज्ञता एक मंच पर"
+            },
+            {
+              "ref": "पन्ने 6–7",
+              "c": "Automotive data का राष्ट्रीय भंडार; test procedures का मानकीकरण; सलाह और तकनीकी जानकारी"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNational Automotive Board की Annual Report 2024-25 के मुताबिक NAB, Ministry of Heavy Industries के तहत एक autonomous society है, जो 27 अगस्त 2013 को Societies Registration Act, 1860 के तहत registered हुई। इसका मक़सद automotive क्षेत्र की तकनीकी और domain विशेषज्ञता को एक मंच पर लाना है।[^1]\n\n## कहाँ आता है | कहाँ\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** जैसे किसी school में सारे विषयों के अच्छे शिक्षकों की एक 'विशेषज्ञ समिति' हो, जो बाक़ी शिक्षकों को सलाह दे और परीक्षा के नियम एक जैसे रखे — वैसे ही NAB गाड़ियों से जुड़े विशेषज्ञों और data को एक जगह लाकर सरकार को तकनीकी सलाह देता है और vehicle testing के तरीक़े एक जैसे रखने में मदद करता है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: NAB = Ministry of Heavy Industries के तहत autonomous society (2013)। UPSC Prelims 2025 का सवाल 57 इससे जुड़ा था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "divisible-pool",
+      "term": "Divisible Pool",
+      "aliases": [
+        "Tax Devolution",
+        "net proceeds of Union taxes",
+        "विभाज्य पूल",
+        "कर हस्तांतरण"
+      ],
+      "full": "Divisible Pool · केंद्र और राज्यों में बँटने वाला टैक्स का हिस्सा",
+      "fullEn": "Divisible Pool (net proceeds of Union taxes)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। 16वें वित्त आयोग पर सरकार के Explanatory Memorandum (फ़रवरी 2026) और संविधान के अनुच्छेद 270, 279 से जाँचा।"
+        }
+      ],
+      "one": "Divisible Pool केंद्र के उन टैक्सों की 'शुद्ध कमाई' (net proceeds) है, जो केंद्र और राज्यों के बीच बाँटी जाती है। वित्त आयोग बताता है कि इसमें से कितना हिस्सा राज्यों को मिले — 15वें और 16वें, दोनों आयोगों ने यह हिस्सा 41% रखा। राज्यों को यह हिस्सा देना 'tax devolution' कहलाता है।",
+      "facts": [
+        {
+          "k": "राज्यों का हिस्सा",
+          "v": "41%",
+          "s": "16वाँ वित्त आयोग"
+        },
+        {
+          "k": "अवधि",
+          "v": "2026-27 से 2030-31",
+          "s": ""
+        },
+        {
+          "k": "Net proceeds",
+          "v": "वसूली − वसूली का ख़र्च",
+          "s": "अनुच्छेद 279"
+        },
+        {
+          "k": "आधार",
+          "v": "अनुच्छेद 270",
+          "s": "संविधान"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "केंद्र के टैक्स",
+            "s": "वसूली"
+          },
+          {
+            "t": "Divisible pool",
+            "s": "net proceeds"
+          },
+          {
+            "t": "41% राज्यों को",
+            "s": "आपस में फ़ॉर्मूले से"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "ख़र्च घटाकर",
+            "s": ""
+          },
+          {
+            "b": "बँटवारा",
+            "s": ""
+          }
+        ],
+        "note": "16वें वित्त आयोग के मुताबिक राज्यों में आपसी बँटवारे के आधार हैं: population, demographic performance, area, forest, per-capita-income-distance और GDP में राज्य का योगदान।"
+      },
+      "myths": [
+        {
+          "m": "\"15वें वित्त आयोग ने केंद्रीय टैक्स का 45% राज्यों को देने को कहा।\"",
+          "f": "नहीं। 15वें आयोग ने 41% रखा;[^3] 16वें आयोग ने भी 41% ही रखा।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "'Net proceeds' का मतलब?",
+          "a": "संविधान के अनुच्छेद 279(1) के मुताबिक किसी टैक्स की वसूली में से उसे वसूलने का ख़र्च घटाने पर बची रक़म।[^2]"
+        },
+        {
+          "q": "इसका संवैधानिक आधार क्या है?",
+          "a": "अनुच्छेद 270 के मुताबिक केंद्र के टैक्स केंद्र वसूलता है और वे केंद्र व राज्यों में बाँटे जाते हैं; राज्यों का हिस्सा वित्त आयोग की सिफ़ारिश पर विचार के बाद राष्ट्रपति तय करते हैं।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Finance Commission"
+        },
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "GST"
+        },
+        {
+          "t": "Direct और Indirect Tax"
+        }
+      ],
+      "sources": [
+        {
+          "label": "वित्त मंत्रालय — Explanatory Memorandum: 16वें वित्त आयोग की सिफ़ारिशों पर कार्रवाई (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/16fc.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3, 5",
+              "c": "राज्यों का हिस्सा net proceeds (divisible pool) का 41%; आपसी बँटवारे के आधार"
+            }
+          ]
+        },
+        {
+          "label": "भारत का संविधान, भाग XII (विदेश मंत्रालय की site पर) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.mea.gov.in/Images/pdf1/Part12.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "अनुच्छेद 270, 279(1)",
+              "c": "केंद्र के टैक्स का केंद्र-राज्य बँटवारा; राज्यों का हिस्सा वित्त आयोग की सिफ़ारिश पर विचार के बाद; net proceeds = वसूली − वसूली का ख़र्च"
+            }
+          ]
+        },
+        {
+          "label": "PIB (Finance Commission) — The Report of the Fifteenth Finance Commission, Release ID 1693868 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1693868",
+          "issued": "2021-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Vertical devolution",
+              "c": "15वें आयोग ने vertical devolution 41% रखा"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\n16वें वित्त आयोग पर सरकार के Explanatory Memorandum (फ़रवरी 2026) के मुताबिक आयोग ने राज्यों का हिस्सा केंद्रीय टैक्सों की net proceeds (divisible pool) का 41% रखने की सिफ़ारिश की, जिसे सरकार ने मान लिया।[^1] संविधान के अनुच्छेद 279(1) के मुताबिक 'net proceeds' यानी टैक्स की वसूली में से वसूली का ख़र्च घटाकर बची रक़म।[^2]\n\n## बँटवारा कैसे | बँटवारा\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** एक संयुक्त परिवार में बड़े भाई की कमाई घर के साझा बर्तन में आती है। उसमें से पहले कमाई का ख़र्च (आने-जाने का किराया) निकाला, फिर जो बचा, उसका तय हिस्सा — मान लीजिए 41% — छोटे भाइयों के परिवारों में बाँटा गया; किसे कितना मिलेगा, यह परिवार के सदस्यों की गिनती और ज़रूरत जैसे नियमों से तय हुआ। देश में केंद्र 'बड़ा भाई', राज्य 'छोटे भाई', साझा बर्तन 'divisible pool' और नियम बताने वाला 'वित्त आयोग' है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Divisible pool = केंद्रीय टैक्सों की net proceeds; राज्यों का हिस्सा 41% (15वाँ और 16वाँ आयोग)। UPSC Prelims 2025 का सवाल 66 इससे जुड़ा था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "middle-income-country",
+      "term": "Middle Income Country",
+      "aliases": [
+        "middle income countries",
+        "middle-income countries",
+        "मध्यम आय वाले देश"
+      ],
+      "full": "Middle Income Country · World Bank की आय-श्रेणी",
+      "fullEn": "Middle Income Country (World Bank classification)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। World Bank Data Help Desk के 'World Bank Country and Lending Groups' पन्ने से जाँचा।"
+        }
+      ],
+      "one": "World Bank देशों को उनकी प्रति व्यक्ति सकल राष्ट्रीय आय (GNI per capita) के हिसाब से चार समूहों में बाँटता है: low, lower-middle, upper-middle और high income। 'Middle income' में lower-middle और upper-middle, दोनों आते हैं।",
+      "facts": [
+        {
+          "k": "Lower-middle",
+          "v": "$1,176–$4,635",
+          "s": "2025 की GNI per capita"
+        },
+        {
+          "k": "Upper-middle",
+          "v": "$4,636–$14,375",
+          "s": ""
+        },
+        {
+          "k": "Low income",
+          "v": "$1,175 या कम",
+          "s": ""
+        },
+        {
+          "k": "लागू",
+          "v": "वित्त वर्ष 2027",
+          "s": "World Bank"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Low income",
+            "s": "$1,175 या कम"
+          },
+          {
+            "t": "Middle income",
+            "s": "$1,176 से $14,375"
+          },
+          {
+            "t": "High income",
+            "s": "$14,375 से ज़्यादा"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "आगे",
+            "s": ""
+          },
+          {
+            "b": "आगे",
+            "s": ""
+          }
+        ],
+        "note": "World Bank के मुताबिक ये सीमाएँ Atlas method से निकली 2025 की GNI per capita पर हैं और उसके मौजूदा 2027 वित्त वर्ष के लिए हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Middle income का मतलब एक ही तय रक़म है।\"",
+          "f": "नहीं। इसके दो हिस्से हैं — lower-middle ($1,176–$4,635) और upper-middle ($4,636–$14,375)।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "IBRD का middle income देशों से क्या रिश्ता?",
+          "a": "World Bank के मुताबिक IBRD मध्यम आय वाले देशों (और साख वाले ग़रीब देशों) को loans और guarantees देता है।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "World Bank (IBRD)"
+        },
+        {
+          "t": "IDA"
+        },
+        {
+          "t": "GDP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Bank Data Help Desk — World Bank Country and Lending Groups (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Income thresholds",
+              "c": "वित्त वर्ष 2027 के लिए 2025 की GNI per capita (Atlas method): low ≤$1,175; lower-middle $1,176–$4,635; upper-middle $4,636–$14,375; high >$14,375"
+            }
+          ]
+        },
+        {
+          "label": "World Bank — International Bank for Reconstruction and Development (IBRD) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.worldbank.org/en/who-we-are/ibrd",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "IBRD पन्ना",
+              "c": "मध्यम आय वाले देशों को loans, guarantees"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nWorld Bank के मुताबिक उसके मौजूदा 2027 वित्त वर्ष के लिए देशों की आय-श्रेणियाँ 2025 की GNI per capita (Atlas method) पर हैं: low income $1,175 या कम; lower-middle $1,176 से $4,635; upper-middle $4,636 से $14,375; और high income $14,375 से ज़्यादा।[^1]\n\n## चार समूह | समूह\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** जैसे school में बच्चों को marks के हिसाब से A, B, C, D grade मिलते हैं, वैसे ही World Bank हर साल देशों को उनकी प्रति व्यक्ति कमाई के हिसाब से 'grade' देता है। बीच वाले दो grade — lower-middle और upper-middle — मिलकर 'middle income' कहलाते हैं। कमाई बढ़ने या घटने पर देश का grade बदल भी सकता है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: World Bank की चार श्रेणियाँ (GNI per capita): low, lower-middle, upper-middle, high; IBRD का मुख्य ग्राहक middle income देश। UPSC Prelims 2025 का सवाल 67 इससे जुड़ा था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "id": "ida",
+      "term": "IDA",
+      "aliases": [
+        "International Development Association",
+        "अंतरराष्ट्रीय विकास संघ"
+      ],
+      "full": "International Development Association · World Bank का सबसे ग़रीब देशों वाला हिस्सा",
+      "fullEn": "International Development Association",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। World Bank के 'Everything you need to know about IDA' (3 मई 2024) और IBRD पन्ने से जाँचा।"
+        }
+      ],
+      "one": "IDA (International Development Association) World Bank का वह हिस्सा है, जो दुनिया के 75 सबसे ग़रीब देशों को grants और कम ब्याज वाले loans देकर ग़रीबी घटाने में मदद करता है। यह 1960 में बना। IBRD और IDA मिलकर 'World Bank' कहलाते हैं।",
+      "facts": [
+        {
+          "k": "बना",
+          "v": "1960",
+          "s": ""
+        },
+        {
+          "k": "किसके लिए",
+          "v": "75 सबसे ग़रीब देश",
+          "s": ""
+        },
+        {
+          "k": "क्या देता है",
+          "v": "Grants, कम ब्याज के loans",
+          "s": ""
+        },
+        {
+          "k": "World Bank",
+          "v": "IBRD + IDA",
+          "s": ""
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "IBRD",
+            "s": "मध्यम आय वाले देश"
+          },
+          {
+            "t": "IDA",
+            "s": "सबसे ग़रीब देश"
+          },
+          {
+            "t": "World Bank",
+            "s": "दोनों मिलकर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+",
+            "s": ""
+          },
+          {
+            "b": "=",
+            "s": ""
+          }
+        ],
+        "note": "World Bank के मुताबिक IBRD, IDA (सबसे ग़रीब देशों के लिए उसका fund) के साथ मिलकर World Bank बनाता है।"
+      },
+      "myths": [
+        {
+          "m": "\"World Bank का हर loan एक जैसी शर्तों पर मिलता है।\"",
+          "f": "नहीं। सबसे ग़रीब देशों को IDA grants और कम ब्याज वाले loans देता है, जबकि IBRD मध्यम आय वाले देशों को loans देता है।[^1][^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "IDA कब बना?",
+          "a": "1960 में।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "World Bank (IBRD)"
+        },
+        {
+          "t": "Middle Income Country"
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Bank — Everything you need to know about the International Development Association (IDA) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://thedocs.worldbank.org/en/doc/7bb20579fde2489e1c12e638bf212316-0410012024/everything-you-need-to-know-about-international-development-association-ida",
+          "issued": "2024-05-03",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पूरा दस्तावेज़",
+              "c": "World Bank का हिस्सा; 75 सबसे ग़रीब देश; grants और कम ब्याज के loans; 1960 में स्थापना"
+            }
+          ]
+        },
+        {
+          "label": "World Bank — International Bank for Reconstruction and Development (IBRD) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.worldbank.org/en/who-we-are/ibrd",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "IBRD पन्ना",
+              "c": "IBRD, IDA के साथ मिलकर World Bank; IBRD मध्यम आय वाले देशों को loan"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nWorld Bank के मुताबिक International Development Association (IDA) World Bank का हिस्सा है, जो दुनिया के 75 सबसे ग़रीब देशों के लिए मदद का एक बड़ा स्रोत है और grants व कम ब्याज वाले loans देकर ग़रीबी घटाने पर काम करता है। IDA 1960 में बना।[^1] IBRD और IDA मिलकर World Bank कहलाते हैं।[^2]\n\n## World Bank में जगह | जगह\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** गाँव की एक सहकारी समिति के दो काउंटर हैं: पहला उन किसानों को ठीक-ठाक ब्याज पर loan देता है, जो चुका सकते हैं (IBRD जैसा); दूसरा सबसे ग़रीब परिवारों को बहुत कम ब्याज पर या कभी-कभी मुफ़्त मदद (grant) देता है (IDA जैसा)। दोनों काउंटर मिलकर पूरी समिति (World Bank) बनाते हैं।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: IDA: 1960; 75 सबसे ग़रीब देश; grants और कम ब्याज के loans; IBRD + IDA = World Bank। UPSC Prelims 2025 का सवाल 67 इससे जुड़ा था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
