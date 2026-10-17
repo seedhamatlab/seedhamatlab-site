@@ -221,6 +221,7 @@ button{font:inherit;color:inherit}
 .excard[data-c="psc"]{background:linear-gradient(152deg,#0E1116 0%,#13262A 58%,#124038 100%)}
 .excard[data-c="rbi"]{background:linear-gradient(152deg,#140F06 0%,#2A2210 58%,#4A3A12 100%)}
 .excard[data-c="sbi"]{background:linear-gradient(152deg,#07121A 0%,#0C2A3E 58%,#0D4466 100%)}
+.excard[data-c="ssc"]{background:linear-gradient(152deg,#0C1410 0%,#16301F 58%,#1F4A2E 100%)}
 .excard[data-c="ibps"]{background:linear-gradient(152deg,#130D1A 0%,#2A1838 58%,#45215C 100%)}
 .excard .ex-eb{display:block;font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
 .excard h3{margin:6px 0 4px;font-size:clamp(20px,3.4vw,25px);line-height:1.25;letter-spacing:-.02em;color:#fff}
@@ -635,7 +636,7 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
   <a href="/">Home</a><a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/about/">About</a><a href="/#contact">Contact</a>
 </nav>
 ${TERM_LINKS.re && !home && canonical !== `${SITE.url}/shabdkosh/` ? `<a class="koshbar" href="/shabdkosh/"><span class="kb-ic" aria-hidden="true"><img src="/shabdkosh-emblem.webp" width="96" height="75" alt=""></span><span class="kb-t"><b>शब्दकोश <i>|</i> Shabdkosh</b><span>पैसे के ज़रूरी शब्दों का सीधा मतलब</span></span><span class="kb-go">खोलिए →</span></a>` : ""}
-${canonical !== `${SITE.url}/pariksha/` ? `<a class="exambar" href="/pariksha/"><span class="eb-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/><path d="M22 9v6"/></svg></span><span class="eb-t"><b>परीक्षा के लिए<i>।</i>For Examination</b><span>UPSC, राज्य PSC और Banking परीक्षाओं के Economy / Banking शब्द</span></span><span class="eb-go">खोलिए →</span></a>` : ""}
+${canonical !== `${SITE.url}/pariksha/` ? `<a class="exambar" href="/pariksha/"><span class="eb-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/><path d="M22 9v6"/></svg></span><span class="eb-t"><b>परीक्षा के लिए<i>।</i>For Examination</b><span>UPSC, SSC, राज्य PSC और Banking परीक्षाओं के Economy / Banking शब्द</span></span><span class="eb-go">खोलिए →</span></a>` : ""}
 ${hero}
 </div>
 </div>
@@ -1654,6 +1655,15 @@ const PK_EXAMS = [
     ],
     psc: true,
     src: ["UPSC — State Public Service Commissions (सूची)", "https://www.upsc.gov.in/external-links/state-public-service-commissions"] },
+  { c: "ssc", eb: "SSC · Combined Graduate Level", h: "SSC CGL 2026", sub: "Staff Selection Commission की Combined Graduate Level Examination, 2026 (notice 21.05.2026)। Tier-I और Tier-II में General Awareness; Tier-II का Paper-III (General Studies – Finance and Economics) सिर्फ़ Assistant Audit Officer / Assistant Accounts Officer के लिए shortlisted उम्मीदवारों का है।",
+    lines: [
+      { h: "Tier-I · General Awareness (notice पन्ना 30–31)", q: "...India and its neighboring countries especially pertaining History, Culture, Geography, Economic Scene, General Policy & Scientific Research.", ids: ["gdp", "inflation", "union-budget", "rbi", "repo-rate", "gst", "upi", "pmjdy"] },
+      { h: "Tier-II · Paper-III, Part B: Economics and Governance (पन्ना 35)", q: "Finance Commission - Role and functions.", ids: ["finance-commission"] },
+      { h: "Paper-III · Indian Economy (पन्ना 36)", q: "National Income of India-Concepts of national income, Different methods of measuring national income. ... Poverty and unemployment...", ids: ["gdp", "gva", "mospi", "plfs"] },
+      { h: "Paper-III · Economic Reforms in India (पन्ना 36)", q: "Economic reforms since 1991; Liberalisation, Privatisation, Globalisation and Disinvestment.", ids: ["fdi-fpi", "balance-of-payments"] },
+      { h: "Paper-III · Money and Banking (पन्ना 36)", q: "Monetary/ Fiscal policy- Role and functions of Reserve Bank of India; functions of commercial Banks/RRB/Payment Banks. ... Budget and Fiscal deficits and Balance of payments. ... Fiscal Responsibility and Budget Management Act, 2003.", ids: ["monetary-policy", "rbi", "commercial-bank", "regional-rural-bank", "payments-bank", "union-budget", "fiscal-deficit", "revenue-deficit", "balance-of-payments"] },
+    ],
+    src: ["SSC — Notice: Combined Graduate Level Examination, 2026 (F. No. HQ-C11018/1/2026-C-1, 21.05.2026)", "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf"] },
   { c: "rbi", eb: "RBI · Grade B (DR) · General", h: "RBI Grade B अधिकारी", sub: "Officers in Grade ‘B’ (DR) – General cadre, Panel Year 2026: Phase-I में General Awareness, English, Quantitative Aptitude और Reasoning; Phase-II में Paper-I (Economic and Social Issues), Paper-II (English) और Paper-III (General Finance and Management)। नीचे Phase-II की Economy / Banking वाली official पंक्तियाँ हैं।",
     lines: [
       { h: "Phase-II · Paper-I: Economic and Social Issues (विज्ञापन पन्ना 36)", q: "Growth and Development – Measurement of growth: National Income and per capita income – Poverty Alleviation and Employment Generation in India...", ids: ["gdp", "gva", "mospi", "plfs", "iip"] },
@@ -1664,26 +1674,45 @@ const PK_EXAMS = [
       { h: "Paper-III · General Topics (पन्ना 37)", q: "Financial Risk Management ... Financial Inclusion ... The Union Budget – Concepts, approach and broad trends ... Inflation: Definition, trends, estimates, consequences and remedies (control): WPI- CPI - components and trends...", ids: ["capital-adequacy-ratio", "npa", "financial-inclusion", "pmjdy", "priority-sector-lending", "lead-bank-scheme", "union-budget", "inflation", "wpi", "cpi"] },
     ],
     src: ["RBI Services Board — Advt. No. RBISB/DA/01/2026-27 (29.04.2026), Appendix-II", "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4997"] },
+  { c: "rbi", eb: "RBI · Grade B (DR) · DEPR / DSIM", h: "RBI Grade B: DEPR और DSIM", sub: "DEPR (Department of Economic and Policy Research) में Economics और DSIM (Department of Statistics and Information Management) में Statistics की post-graduate स्तर की पढ़ाई पूछी जाती है। नीचे सिर्फ़ वे पंक्तियाँ हैं, जिनसे शब्दकोश के पन्ने सीधे जुड़ते हैं।",
+    lines: [
+      { h: "DEPR · Phase-I Paper-I (विज्ञापन पन्ना 41)", q: "Current developments in Indian Economy (Growth, inflation, poverty, unemployment, financial sector developments, external sector developments, fiscal developments, agriculture, industry, infrastructure, and services)", ids: ["gdp", "inflation", "cpi", "plfs", "iip", "fiscal-deficit", "union-budget", "balance-of-payments", "msp"] },
+      { h: "DEPR · Phase-II Paper-II (पन्ना 42)", q: "Monetary Policy in India: Evolution, Functions of the Reserve Bank of India, Monetary-Fiscal coordination, Inflation targeting, Operating framework of Monetary Policy, Current trends", ids: ["monetary-policy", "mpc", "rbi", "rbi-act", "repo-rate", "laf", "sdf", "msf", "call-money", "omo"] },
+      { h: "DEPR · Phase-II Paper-II (पन्ना 42)", q: "Banking and financial sector development in India: Banks and other constituents of Indian financial markets and related developments, Current trends", ids: ["commercial-bank", "nbfc", "sebi", "government-securities", "treasury-bill", "certificate-of-deposit", "commercial-paper"] },
+      { h: "DEPR · Phase-II Paper-II (पन्ना 42)", q: "External sector developments in India: Exchange rate management, external debt, Balance of payments, Current trends", ids: ["balance-of-payments", "current-account-deficit", "fdi-fpi"] },
+      { h: "DSIM · Paper-I और II (पन्ना 45)", q: "Definition and construction of index numbers, Standard index numbers; ... Basics of macroeconomics and national accounts.", ids: ["cpi", "wpi", "iip", "gdp", "gva", "mospi"] },
+    ],
+    src: ["RBI Services Board — Advt. No. RBISB/DA/01/2026-27 (29.04.2026), Appendix-III", "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4997"] },
   { c: "sbi", eb: "SBI · Probationary Officer", h: "SBI PO", sub: "State Bank of India की Probationary Officer भर्ती 2026-27।",
     lines: [
       { h: "Main परीक्षा का test (विज्ञापन पन्ना 7)", q: "General Awareness / Economy/ Banking Knowledge", ids: ["rbi", "monetary-policy", "repo-rate", "crr", "slr", "npa", "sarfaesi", "ibc", "capital-adequacy-ratio", "priority-sector-lending", "kisan-credit-card", "nabard", "sidbi", "dicgc", "kyc", "upi", "neft", "rtgs", "imps", "cbdc", "certificate-of-deposit", "commercial-paper", "treasury-bill", "bank-nationalisation", "gdp", "inflation", "union-budget", "gst"] },
     ],
     src: ["SBI — Advt. No. CRPD/PO/2026-27/09", "https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1"] },
+  { c: "sbi", eb: "SBI · Junior Associate (Clerk)", h: "SBI Clerk (Junior Associates)", sub: "State Bank of India की Junior Associates (Customer Support & Sales) भर्ती, Advt. No. CRPD/CR/2026-27/17।",
+    lines: [
+      { h: "Main परीक्षा का test (विज्ञापन पन्ना 5)", q: "General/ Financial Awareness", ids: ["rbi", "repo-rate", "crr", "slr", "npa", "kyc", "dicgc", "upi", "neft", "rtgs", "imps", "atm", "debit-card", "cheque", "pmjdy", "mudra-loan", "kisan-credit-card", "inflation", "gdp", "union-budget"] },
+    ],
+    src: ["SBI — Advt. No. CRPD/CR/2026-27/17 (Junior Associates)", "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf"] },
   { c: "ibps", eb: "IBPS · PO/MT", h: "IBPS PO/MT (CRP-XVI)", sub: "IBPS की Probationary Officer / Management Trainee भर्ती, notification 30.06.2026।",
     lines: [
       { h: "Main परीक्षा का test (notification पन्ना 15)", q: "General/ Economy/ Banking Awareness / Digital/ Financial Awareness including RBI circulars", ids: ["rbi", "monetary-policy", "repo-rate", "basis-point", "npa", "capital-adequacy-ratio", "priority-sector-lending", "lead-bank-scheme", "regional-rural-bank", "small-finance-bank", "payments-bank", "nbfc-mfi", "call-money", "certificate-of-deposit", "commercial-paper", "gdp", "inflation", "fiscal-deficit"] },
       { h: "उसी test का Digital / Financial हिस्सा", ids: ["upi", "upi-lite", "cbdc", "neft", "rtgs", "imps", "nach", "aeps", "rupay", "account-aggregator", "zero-liability", "rbi-ombudsman", "kyc", "v-cip"] },
     ],
     src: ["IBPS — CRP PO/MT-XVI Notification (30.06.2026)", "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf"] },
+  { c: "ibps", eb: "IBPS · CSA (Clerk)", h: "IBPS Clerk (CRP CSA-XVI)", sub: "IBPS की Customer Service Associates भर्ती (सरकारी banks, vacancies 2027-28); online registration 01.08.2026 से 21.08.2026।",
+    lines: [
+      { h: "Main परीक्षा का test (notification पन्ना 17)", q: "General/ Financial Awareness", ids: ["rbi", "repo-rate", "crr", "slr", "npa", "kyc", "dicgc", "regional-rural-bank", "small-finance-bank", "payments-bank", "upi", "neft", "rtgs", "imps", "nach", "aeps", "rupay", "pmjdy", "apy", "pmjjby", "pmsby"] },
+    ],
+    src: ["IBPS — Notification CRP CSA-XVI", "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf"] },
 ];
 const PK_CHIPS = (ids) => `<ul>${ids.map((id) => `<li><a href="/shabdkosh/${id}/">${esc(TERM_TITLE[id] || id)}</a></li>`).join("")}</ul>`;
 const PARIKSHA = {
   slug: "pariksha",
   title: "परीक्षा के लिए: Economy और Banking",
-  desc: "UPSC, राज्य PSC और Banking परीक्षाओं के Economy / Banking हिस्से से जुड़े शब्द — हर syllabus पंक्ति official notification से, हर शब्द का अपना पन्ना।",
+  desc: "UPSC, SSC, राज्य PSC और Banking परीक्षाओं के Economy / Banking हिस्से से जुड़े शब्द — हर syllabus पंक्ति official notification से, हर शब्द का अपना पन्ना।",
   body: `## यह पन्ना किसके लिए
 
-यह पन्ना उन विद्यार्थियों के लिए है, जो UPSC, राज्य लोक सेवा आयोग या Banking परीक्षाओं के **Economy और Banking** हिस्से की तैयारी कर रहे हैं। नीचे हर परीक्षा का अपना box है: उसमें official syllabus की पंक्ति (मूल अंग्रेज़ी में, पन्ना नंबर के साथ), और उससे जुड़े शब्दकोश के पन्ने। हर शब्द-पन्ने पर RBI, सरकार या संबंधित संस्था का मूल स्रोत दिया है।
+यह पन्ना उन विद्यार्थियों के लिए है, जो UPSC, SSC, राज्य लोक सेवा आयोग या Banking परीक्षाओं के **Economy और Banking** हिस्से की तैयारी कर रहे हैं। नीचे हर परीक्षा का अपना box है: उसमें official syllabus की पंक्ति (मूल अंग्रेज़ी में, पन्ना नंबर के साथ), और उससे जुड़े शब्दकोश के पन्ने। हर शब्द-पन्ने पर RBI, सरकार या संबंधित संस्था का मूल स्रोत दिया है।
 
 यह coaching नहीं है, और हम परीक्षा में आने वाले सवालों का अनुमान नहीं लगाते। Syllabus हर साल बदल सकता है — अपनी परीक्षा का ताज़ा notification आयोग या संस्था की official website पर ज़रूर देखिए।
 
