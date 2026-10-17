@@ -1,0 +1,833 @@
+{
+  "sets": [
+    {
+      "slug": "upsc-prelims-2025-economy",
+      "exam": "upsc",
+      "checked": "2026-10-17",
+      "checkedText": "17 अक्टूबर 2026",
+      "title": "UPSC Prelims 2025: Economy के सवाल",
+      "short": "UPSC Prelims 2025 · Economy के 16 सवाल",
+      "desc": "Civil Services (Preliminary) Examination 2025, General Studies Paper-I के Economy / Finance वाले 16 सवाल — UPSC की official answer key के उत्तर और आसान व्याख्या के साथ।",
+      "paper": {
+        "label": "UPSC — CSP 2025, General Studies Paper-I (Series A)",
+        "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf"
+      },
+      "key": {
+        "label": "UPSC — CS(P)-2025, GS Paper-I Answer Key (Series A)",
+        "url": "https://upsc.gov.in/sites/default/files/AnsKeyCivilServicesP-Exam-2025-GeneralStudies-I-130526.pdf",
+        "ans": "BAABDCAAAACCBABCBDBCBCDDCCACCCBCBAACDCBBCDCCBBCDDACCAACDDADBDADCACCABDBCBACBAACDAABBAACDDADDCDADAAAB"
+      },
+      "credit": "सवाल और उत्तर: संघ लोक सेवा आयोग (UPSC)। व्याख्या: सीधा मतलब।",
+      "intro": [
+        "यहाँ UPSC Civil Services (Preliminary) Examination 2025, General Studies Paper-I (Booklet Series A) के वे 16 सवाल हैं, जो Economy, Banking और Finance से जुड़े हैं। सवाल UPSC के official प्रश्न-पत्र से मूल अंग्रेज़ी में हैं, और उत्तर UPSC की official answer key से।[^1][^2]",
+        "UPSC की answer key के मुताबिक इस paper में एक भी सवाल हटाया (drop) नहीं गया, और सभी 100 सवाल अंकों में गिने गए।[^2]",
+        "हर सवाल के नीचे 'उत्तर और आसान व्याख्या देखें' दबाइए। व्याख्या हमारी है, पर उसकी हर बात के पीछे सरकार या संबंधित संस्था का मूल दस्तावेज़ है (नीचे स्रोत-सूची में)। जहाँ परीक्षा के बाद नियम या आँकड़े बदले हैं, वहाँ अलग से लिखा है। कौन-सा सवाल Economy का है, यह छाँटना हमारी अपनी व्यवस्था है।"
+      ],
+      "qs": [
+        {
+          "n": 1,
+          "topic": "निवेश · Alternative Investment Fund",
+          "a": "b",
+          "q": [
+            "With reference to investments, consider the following :",
+            "  I. Bonds",
+            "  II. Hedge Funds",
+            "  III. Stocks",
+            "  IV. Venture Capital",
+            "How many of the above are treated as Alternative Investment Funds?"
+          ],
+          "o": [
+            "Only one",
+            "Only two",
+            "Only three",
+            "All the four"
+          ],
+          "ex": [
+            "SEBI के AIF नियमों (नियम 2(1)(b)) के मुताबिक Alternative Investment Fund एक fund है: कई निवेशकों का पैसा मिलाकर बना 'privately pooled investment vehicle', जो तय निवेश-नीति के हिसाब से पैसा लगाता है।[^3]",
+            "**II. Hedge Funds — AIF हैं।** नियम 3(4)(c) की Explanation में लिखा है कि hedge funds जैसे fund Category III AIF में आएँगे।[^3]",
+            "**IV. Venture Capital — AIF है।** नियम 3(4)(a) के मुताबिक Category I AIF में venture capital funds शामिल हैं।[^3]",
+            "**I. Bonds और III. Stocks — AIF नहीं।** ये अपने आप में fund नहीं हैं, बल्कि वे चीज़ें हैं जिनमें fund पैसा लगाते हैं। इसलिए AIF सिर्फ़ दो हैं, यानी उत्तर (b)।"
+          ]
+        },
+        {
+          "n": 2,
+          "topic": "RBI · आमदनी के स्रोत",
+          "a": "a",
+          "q": [
+            "Which of the following are the sources of income for the Reserve Bank of India?",
+            "  I. Buying and selling Government bonds",
+            "  II. Buying and selling foreign currency",
+            "  III. Pension fund management",
+            "  IV. Lending to private companies",
+            "  V. Printing and distributing currency notes",
+            "Select the correct answer using the code given below."
+          ],
+          "o": [
+            "I and II only",
+            "II, III and IV",
+            "I, III, IV and V",
+            "I, II and V"
+          ],
+          "ex": [
+            "RBI की Annual Report 2025-26 (पैरा XII.7) के मुताबिक RBI की आमदनी के दो हिस्से हैं: 'Interest' और 'Other Income', जिसमें discount, exchange, commission जैसे heads आते हैं।[^5]",
+            "**I सही:** घरेलू आमदनी में सबसे बड़ा हिस्सा सरकारी securities (Rupee Securities) पर ब्याज का है — 2025-26 में ₹1,17,739.57 करोड़ (पैरा XII.10)। इन securities को बेचने और भुनाने से हुआ लाभ भी आमदनी में है (पैरा XII.12)।[^5]",
+            "**II सही:** विदेशी स्रोतों से आमदनी 2025-26 में ₹3,27,655.54 करोड़ रही (पैरा XII.8)।[^5]",
+            "**V ग़लत:** नोट छापना RBI की आमदनी नहीं, ख़र्च है। पैरा XII.18(iv) के मुताबिक 2025-26 में नोट छपाई पर ₹4,875.20 करोड़ ख़र्च हुए।[^5]",
+            "**III और IV:** RBI की आमदनी के heads में pension fund management या private companies को loan देने का कोई head नहीं है; पैरा XII.15 में loans and advances पर ब्याज केंद्र और राज्य सरकारों को दिए loans का बताया गया है।[^5] इसलिए उत्तर (a)।"
+          ]
+        },
+        {
+          "n": 3,
+          "topic": "संस्थाएँ · ED, DRI, DGSDM",
+          "a": "a",
+          "q": [
+            "With reference to the Government of India, consider the following information :",
+            "  (Organization · Some of its functions · It works under)",
+            "  I. Directorate of Enforcement · Enforcement of the Fugitive Economic Offenders Act, 2018 · Internal Security Division–I, Ministry of Home Affairs",
+            "  II. Directorate of Revenue Intelligence · Enforces the Provisions of the Customs Act, 1962 · Department of Revenue, Ministry of Finance",
+            "  III. Directorate General of Systems and Data Management · Carrying out big data analytics to assist tax officers for better policy and nabbing tax evaders · Department of Revenue, Ministry of Finance",
+            "In how many of the above rows is the information correctly matched?"
+          ],
+          "o": [
+            "Only one",
+            "Only two",
+            "All the three",
+            "None"
+          ],
+          "ex": [
+            "**पंक्ति I ग़लत:** ED Fugitive Economic Offenders Act, 2018 लागू करता है, पर ED की website के मुताबिक यह Department of Revenue, Ministry of Finance के तहत है, गृह मंत्रालय के तहत नहीं।[^6]",
+            "**पंक्ति II सही:** DRI की website के मुताबिक यह CBIC, Department of Revenue, Ministry of Finance के तहत है और Customs Act, 1962 लागू करती है।[^7]",
+            "**पंक्ति III:** UPSC की key के मुताबिक सिर्फ़ एक पंक्ति सही है, यानी पंक्ति III को ग़लत माना गया। राजस्व विभाग के CBIC वाले दस्तावेज़ में Directorate General of Systems and Data Management के अंदर Systems का काम customs और central excise के computerisation projects बताया गया है, और Data Management का काम indirect tax के राजस्व के आँकड़े इकट्ठा करना।[^8] CBIC में data analytics और risk management का apex body DGARM (Directorate General of Analytics and Risk Management) है।[^9]",
+            "ध्यान दें: UPSC ने पंक्ति III को ग़लत मानने का कारण अलग से नहीं बताया है; ऊपर की बातें सिर्फ़ official दस्तावेज़ों से हैं।"
+          ]
+        },
+        {
+          "n": 4,
+          "topic": "SEBI · BRSR",
+          "a": "b",
+          "q": [
+            "Consider the following statements :",
+            "  I. The Reserve Bank of India mandates all the listed companies in India to submit a Business Responsibility and Sustainability Report (BRSR).",
+            "  II. In India, a company submitting a BRSR makes disclosures in the report that are largely non-financial in nature.",
+            "Which of the statements given above is/are correct?"
+          ],
+          "o": [
+            "I only",
+            "II only",
+            "Both I and II",
+            "Neither I nor II"
+          ],
+          "ex": [
+            "**I ग़लत (दो वजह से):** BRSR RBI नहीं, SEBI माँगता है; और ज़रूरी सभी listed कंपनियों के लिए नहीं, सिर्फ़ market capitalisation के हिसाब से top 1000 listed कंपनियों के लिए है (SEBI LODR नियम 34(2)(f), वित्त वर्ष 2022-23 से)। बाक़ी कंपनियाँ चाहें तो दे सकती हैं।[^4]",
+            "**II सही:** SEBI के मुताबिक BRSR में ESG (पर्यावरण, समाज, governance) पर मात्रात्मक और मानक disclosures होते हैं, और कंपनी 'National Guidelines on Responsible Business Conduct' के नौ सिद्धांतों पर अपना प्रदर्शन बताती है — यानी ज़्यादातर ग़ैर-वित्तीय जानकारी।[^4] इसलिए उत्तर (b)।"
+          ]
+        },
+        {
+          "n": 5,
+          "topic": "Income tax · Agricultural Income",
+          "a": "d",
+          "q": [
+            "Consider the following statements :",
+            "Statement I :",
+            "  In India, income from allied agricultural activities like poultry farming and wool rearing in rural areas is exempted from any tax.",
+            "Statement II :",
+            "  In India, rural agricultural land is not considered a capital asset under the provisions of the Income-tax Act, 1961.",
+            "Which one of the following is correct in respect of the above statements?"
+          ],
+          "o": [
+            "Both Statement I and Statement II are correct and Statement II explains Statement I",
+            "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+            "Statement I is correct but Statement II is not correct",
+            "Statement I is not correct but Statement II is correct"
+          ],
+          "ex": [
+            "**Statement II सही:** Income-tax Act, 1961 की धारा 2(14)(iii) agricultural land को 'capital asset' से बाहर रखती थी (शहर की सीमा और तय दूरी के अंदर की ज़मीन को छोड़कर)।[^11]",
+            "**Statement I ग़लत:** Income tax क़ानून में agricultural income ज़मीन से जुड़ी है। CBDT की FAQ के मुताबिक तीन शर्तें हैं: आय ज़मीन से rent या revenue के रूप में आए, ज़मीन भारत में हो, और ज़मीन खेती में इस्तेमाल हो।[^10] 1961 के Act की धारा 2(1A) की परिभाषा भी ज़मीन से शुरू होती है।[^11] Poultry या ऊन (wool) वाली आय इन शर्तों (खेती में इस्तेमाल ज़मीन से rent या revenue) में नहीं आती, इसलिए उसे 'किसी भी tax से छूट' वाली कहना ग़लत है; UPSC की key ने भी Statement I को ग़लत माना है। उत्तर (d)।"
+          ],
+          "chg": "1 अप्रैल 2026 से Income-tax Act, 2025 लागू है। CBDT की FAQ के मुताबिक अब agricultural income की छूट इस नए Act की Schedule II [Table S. No. 1] में है, और rural agricultural land अब भी capital asset नहीं है।[^10] पहले यह छूट 1961 के Act की धारा 10(1) में थी।[^12]"
+        },
+        {
+          "n": 7,
+          "topic": "निवेश · Bond बनाम Share",
+          "a": "a",
+          "q": [
+            "Consider the following statements :",
+            "Statement I :",
+            "  As regards returns from an investment in a company, generally, bondholders are considered to be relatively at lower risk than stockholders.",
+            "Statement II :",
+            "  Bondholders are lenders to a company whereas stockholders are its owners.",
+            "Statement III :",
+            "  For repayment purpose, bond-holders are prioritized over stockholders by a company.",
+            "Which one of the following is correct in respect of the above statements?"
+          ],
+          "o": [
+            "Both Statement II and Statement III are correct and both of them explain Statement I",
+            "Both Statement I and Statement II are correct and Statement I explains Statement II",
+            "Only one of the Statements II and III is correct and that explains Statement I",
+            "Neither Statement II nor Statement III is correct"
+          ],
+          "ex": [
+            "**Statement II सही:** SEBI की FAQ के मुताबिक equity में पैसा लगाने वाला कंपनी का मालिक बनता है, और debt में पैसा लगाने वाला कंपनी को उधार देने वाला (lender)।[^14]",
+            "**Statement III सही:** SEBI की booklet के मुताबिक bondholder को अपना पैसा वापस पाने में shareholders पर तरजीह (preference) मिलती है; FAQ के मुताबिक कंपनी के दिवालिया होने पर lender का दावा shareholder से ज़्यादा होता है।[^13][^14]",
+            "**Statement I सही, और II व III दोनों उसकी वजह:** SEBI की booklet कहती है कि आम नियम से corporate bonds, equity shares से कम जोखिम वाले हैं।[^13] Lender होना और पैसा पहले वापस मिलना, यही दोनों कम जोखिम की वजह हैं। उत्तर (a)।"
+          ]
+        },
+        {
+          "n": 8,
+          "topic": "शेयर बाज़ार · F&O",
+          "a": "a",
+          "q": [
+            "Consider the following statements :",
+            "  I. India accounts for a very large portion of all equity option contracts traded globally thus exhibiting a great boom.",
+            "  II. India's stock market has grown rapidly in the recent past even overtaking Hong Kong's at some point of time.",
+            "  III. There is no regulatory body either to warn the small investors about the risks of options trading or to act on unregistered financial advisors in this regard.",
+            "Which of the statements given above are correct?"
+          ],
+          "o": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "ex": [
+            "**III ग़लत:** SEBI ही यह regulator है। उसने 2016 में जनता को सिर्फ़ SEBI-registered investment advisers से सलाह लेने की चेतावनी दी और बिना registration सलाह देने वाली 10 entities पर कार्रवाई की।[^17] 2024 में SEBI ने बताया कि FY22–FY24 में 93% individual F&O traders को नुक़सान हुआ।[^15]",
+            "**I:** SEBI के जुलाई 2025 के अध्ययन के मुताबिक, World Federation of Exchanges के मार्च 2025 के data में traded contracts की संख्या में भारतीय exchange दुनिया में सबसे ऊपर है, दूसरे नंबर से 4.3 गुना से ज़्यादा।[^16]",
+            "**II:** Hong Kong से आगे निकलने वाली बात हमें किसी official भारतीय स्रोत (SEBI, RBI या वित्त मंत्रालय) में नहीं मिली। यहाँ उत्तर UPSC की key के मुताबिक है: (a) I and II only।[^2]"
+          ],
+          "chg": "SEBI के अगस्त 2026 के अध्ययन के मुताबिक नुक़सान उठाने वाले individual traders का हिस्सा FY25 के 90.9% से घटकर FY26 में 87.7% रहा।[^18]"
+        },
+        {
+          "n": 10,
+          "topic": "सरकारी बजट · Capital Receipts",
+          "a": "a",
+          "q": [
+            "Consider the following statements :",
+            "  I. Capital receipts create a liability or cause a reduction in the assets of the Government.",
+            "  II. Borrowings and disinvestment are capital receipts.",
+            "  III. Interest received on loans creates a liability of the Government.",
+            "Which of the statements given above are correct?"
+          ],
+          "o": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "ex": [
+            "**I सही:** Key to Budget Documents 2026-27 के मुताबिक capital receipts में सरकार के लिए गए loans (इनसे देनदारी बढ़ती है) और राज्यों व दूसरों को दिए loans की वसूली (इससे सरकार की संपत्ति घटती है) आते हैं।[^19]",
+            "**II सही:** Borrowings (Market Loans, Treasury Bills) capital receipts हैं।[^19] Key to Budget Documents 2017-18 में 'disinvestment receipts' भी capital receipts की सूची में हैं;[^20] अब Budget में ये 'Miscellaneous Capital Receipts' में दिखती हैं।[^21]",
+            "**III ग़लत:** सरकार को मिला ब्याज revenue receipt है। Key 2026-27 के मुताबिक non-tax receipts में मुख्य रूप से ब्याज और dividend आते हैं, और Receipt Budget में 'Interest receipts' Non-Tax Revenue में हैं।[^19][^21] यह देनदारी नहीं बनाता। उत्तर (a)।"
+          ]
+        },
+        {
+          "n": 57,
+          "topic": "संस्थाएँ और मंत्रालय",
+          "a": "d",
+          "q": [
+            "With reference to India, consider the following pairs :",
+            "  (Organization : Union Ministry)",
+            "  I. The National Automotive Board : Ministry of Commerce and Industry",
+            "  II. The Coir Board : Ministry of Heavy Industries",
+            "  III. The National Centre for Trade Information : Ministry of Micro, Small and Medium Enterprises",
+            "How many of the above pairs are correctly matched?"
+          ],
+          "o": [
+            "Only one",
+            "Only two",
+            "All the three",
+            "None"
+          ],
+          "ex": [
+            "**I ग़लत:** National Automotive Board की Annual Report के मुताबिक NAB, Ministry of Heavy Industries के तहत autonomous society है।[^23]",
+            "**II ग़लत:** MSME मंत्रालय की Annual Report 2025-26 के मुताबिक Coir Board, MSME मंत्रालय के तहत statutory body है।[^24]",
+            "**III ग़लत:** Department of Commerce की Annual Report के मुताबिक NCTI, ITPO (जो Department of Commerce के तहत है) और National Informatics Centre का 50:50 joint venture है।[^25] तीनों जोड़े ग़लत, उत्तर (d)।"
+          ],
+          "chg": "Department of Commerce की Annual Report 2024-25 के मुताबिक Union Cabinet ने 30.06.2021 को NCTI को बंद (winding up / voluntary liquidation) करने की मंज़ूरी दी, और NCTI liquidation की प्रक्रिया में है।[^25]"
+        },
+        {
+          "n": 60,
+          "topic": "नियामक · PNGRB",
+          "a": "b",
+          "q": [
+            "Consider the following activities :",
+            "  I. Production of crude oil",
+            "  II. Refining, storage and distribution of petroleum",
+            "  III. Marketing and sale of petroleum products",
+            "  IV. Production of natural gas",
+            "How many of the above activities are regulated by the Petroleum and Natural Gas Regulatory Board in our country?"
+          ],
+          "o": [
+            "Only one",
+            "Only two",
+            "Only three",
+            "All the four"
+          ],
+          "ex": [
+            "PNGRB Act, 2006 के long title के मुताबिक Board petroleum, petroleum products और natural gas की refining, processing, storage, transportation, distribution, marketing और sale को regulate करता है, लेकिन crude oil और natural gas का उत्पादन इसमें शामिल नहीं।[^26] PNGRB की FAQ में भी यही लिखा है।[^27]",
+            "इसलिए II (refining, storage, distribution) और III (marketing, sale) PNGRB के दायरे में हैं; I और IV (उत्पादन) नहीं। उत्तर (b)।"
+          ]
+        },
+        {
+          "n": 61,
+          "topic": "सरकारी बजट · घाटे का हिसाब",
+          "a": "d",
+          "q": [
+            "Suppose the revenue expenditure is ₹ 80,000 crores and the revenue receipts of the Government are ₹ 60,000 crores. The Government budget also shows borrowings of ₹ 10,000 crores and interest payments of ₹ 6,000 crores. Which of the following statements are correct?",
+            "  I. Revenue deficit is ₹ 20,000 crores.",
+            "  II. Fiscal deficit is ₹ 10,000 crores.",
+            "  III. Primary deficit is ₹ 4,000 crores.",
+            "Select the correct answer using the code given below."
+          ],
+          "o": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "ex": [
+            "Budget at a Glance 2026-27 की परिभाषाएँ:[^22]",
+            "**Revenue Deficit** = revenue expenditure − revenue receipts = ₹80,000 − ₹60,000 = **₹20,000 करोड़।** I सही।",
+            "**Fiscal Deficit** सरकार की कुल उधारी की ज़रूरत दिखाता है; यहाँ उधारी ₹10,000 करोड़ है, यानी **Fiscal Deficit ₹10,000 करोड़।** II सही।",
+            "**Primary Deficit** = Fiscal Deficit − ब्याज भुगतान = ₹10,000 − ₹6,000 = **₹4,000 करोड़।** III सही। उत्तर (d)।"
+          ]
+        },
+        {
+          "n": 65,
+          "topic": "सरकारी बजट · Primary Deficit",
+          "a": "a",
+          "q": [
+            "A country's fiscal deficit stands at ₹ 50,000 crores. It is receiving ₹ 10,000 crores through non-debt creating capital receipts. The country's interest liabilities are ₹ 1,500 crores. What is the gross primary deficit?"
+          ],
+          "o": [
+            "₹ 48,500 crores",
+            "₹ 51,500 crores",
+            "₹ 58,500 crores",
+            "None of the above"
+          ],
+          "ex": [
+            "Key to Budget Documents 2017-18 के मुताबिक gross primary deficit = gross fiscal deficit − gross interest payments।[^20]",
+            "तो: ₹50,000 − ₹1,500 = **₹48,500 करोड़**। उत्तर (a)।",
+            "₹10,000 करोड़ की non-debt capital receipts यहाँ जाल है: Key 2026-27 की परिभाषा में fiscal deficit निकालते समय ये पहले ही घटाई जा चुकी होती हैं, इसलिए primary deficit निकालते समय इन्हें दोबारा नहीं घटाया जाता।[^19]"
+          ]
+        },
+        {
+          "n": 66,
+          "topic": "Finance Commission · 15वाँ आयोग",
+          "a": "c",
+          "q": [
+            "Which of the following statements with regard to recommendations of the 15th Finance Commission of India are correct?",
+            "  I. It has recommended grants of ₹ 4,800 crores from the year 2022-23 to the year 2025-26 for incentivizing States to enhance educational outcomes.",
+            "  II. 45% of the net proceeds of Union taxes are to be shared with States.",
+            "  III. ₹ 45,000 crores are to be kept as performance-based incentive for all States for carrying out agricultural reforms.",
+            "  IV. It reintroduced tax effort criteria to reward fiscal performance.",
+            "Select the correct answer using the code given below."
+          ],
+          "o": [
+            "I, II and III",
+            "I, II and IV",
+            "I, III and IV",
+            "II, III and IV"
+          ],
+          "ex": [
+            "PIB की 1 फ़रवरी 2021 की release के मुताबिक 15वें वित्त आयोग ने:[^28]",
+            "**I सही:** 2022-23 से 2025-26 तक शिक्षा के नतीजे बेहतर करने के लिए राज्यों को ₹4,800 करोड़ (₹1,200 करोड़ हर साल) के grants।",
+            "**II ग़लत:** राज्यों का हिस्सा 45% नहीं, **41%** रखा गया।",
+            "**III सही:** कृषि सुधारों के लिए ₹45,000 करोड़ performance-based incentive।",
+            "**IV सही:** 'tax effort' का आधार फिर से शामिल किया गया। उत्तर (c)।"
+          ],
+          "chg": "अब 16वाँ वित्त आयोग (2026-31) लागू है। सरकार के Explanatory Memorandum के मुताबिक इसने भी राज्यों का हिस्सा 41% पर रखा, और राज्यों में बँटवारे के आधारों की सूची में 'tax effort' नहीं है।[^29]"
+        },
+        {
+          "n": 67,
+          "topic": "अंतरराष्ट्रीय संस्था · IBRD",
+          "a": "c",
+          "q": [
+            "Consider the following statements in respect of the International Bank for Reconstruction and Development (IBRD) :",
+            "  I. It provides loans and guarantees to middle income countries.",
+            "  II. It works single-handedly to help developing countries to reduce poverty.",
+            "  III. It was established to help Europe rebuild after the World War II.",
+            "Which of the statements given above are correct?"
+          ],
+          "o": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "ex": [
+            "World Bank की website के मुताबिक:[^30]",
+            "**I सही:** IBRD मध्यम आय वाले देशों (और साख वाले ग़रीब देशों) को loans, guarantees और risk management products देता है।",
+            "**III सही:** इसे 1944 में दूसरे विश्व युद्ध के बाद यूरोप के पुनर्निर्माण के लिए बनाया गया।",
+            "**II ग़लत:** IBRD अकेले काम नहीं करता; यह IDA के साथ मिलकर World Bank बनाता है। उत्तर (c)।"
+          ]
+        },
+        {
+          "n": 68,
+          "topic": "Digital भुगतान · RTGS और NEFT",
+          "a": "a",
+          "q": [
+            "Consider the following statements in respect of RTGS and NEFT :",
+            "  I. In RTGS, the settlement time is instantaneous while in case of NEFT, it takes some time to settle payments.",
+            "  II. In RTGS, the customer is charged for inward transactions while that is not the case for NEFT.",
+            "  III. Operating hours for RTGS are restricted on certain days while this is not true for NEFT.",
+            "Which of the statements given above is/are correct?"
+          ],
+          "o": [
+            "I only",
+            "I and II",
+            "I and III",
+            "III only"
+          ],
+          "ex": [
+            "**I सही:** RBI की RTGS FAQ के मुताबिक RTGS में हर transaction का real-time, लगातार settlement होता है।[^31] NEFT FAQ के मुताबिक NEFT आधे-आधे घंटे के batches में चलता है।[^32]",
+            "**II ग़लत:** दोनों में inward transaction मुफ़्त है — RTGS FAQ: 'Inward transactions – Free'; NEFT FAQ: inward transactions पर कोई charge नहीं।[^31][^32]",
+            "**III ग़लत:** RTGS 14 दिसंबर 2020 से 24x7x365 उपलब्ध है, और NEFT भी 24x7x365।[^31][^32] उत्तर (a)।"
+          ]
+        },
+        {
+          "n": 69,
+          "topic": "Digital भुगतान · UPI विदेश में",
+          "a": "b",
+          "q": [
+            "Consider the following countries :",
+            "  I. United Arab Emirates",
+            "  II. France",
+            "  III. Germany",
+            "  IV. Singapore",
+            "  V. Bangladesh",
+            "How many countries amongst the above are there other than India where international merchant payments are accepted under UPI?"
+          ],
+          "o": [
+            "Only two",
+            "Only three",
+            "Only four",
+            "All the five"
+          ],
+          "ex": [
+            "PIB (वित्त मंत्रालय) की 24 मार्च 2025 की release के मुताबिक तब UPI सात देशों में चालू था: UAE, Singapore, Bhutan, Nepal, Sri Lanka, France और Mauritius।[^33]",
+            "दिए गए पाँच में से UAE, France और Singapore इस सूची में हैं; Germany और Bangladesh नहीं। उत्तर (b) — सिर्फ़ तीन।"
+          ],
+          "chg": "PIB की 24 अगस्त 2026 की release के मुताबिक अब UPI 11 देशों में चालू है: UAE, France, Bhutan, Sri Lanka, Nepal, Singapore, Mauritius, Qatar, Cambodia, Greece और Maldives। Germany और Bangladesh इस सूची में भी नहीं हैं।[^34]"
+        }
+      ],
+      "sources": [
+        {
+          "label": "UPSC — Civil Services (Preliminary) Examination 2025, General Studies Paper-I: प्रश्न-पत्र (Booklet Series A) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 1–10, 57, 60–61, 65–69",
+              "c": "सवाल का मूल अंग्रेज़ी पाठ"
+            }
+          ]
+        },
+        {
+          "label": "UPSC — CS(P)-2025, Paper ONE (GS-I): Answer Key, Series A (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://upsc.gov.in/sites/default/files/AnsKeyCivilServicesP-Exam-2025-GeneralStudies-I-130526.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 1 (Series A)",
+              "c": "हर सवाल का उत्तर; No. of Questions Dropped: 0; No. of Questions taken for Scoring: 100"
+            }
+          ]
+        },
+        {
+          "label": "SEBI (Alternative Investment Funds) Regulations, 2012 — 14 जुलाई 2026 तक संशोधित पाठ (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2026/1785301664601.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "नियम 2(1)(b), 3(4)(a), 3(4)(c)",
+              "c": "AIF की परिभाषा; Category I में venture capital funds; Category III में hedge funds"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Master Circular SEBI/HO/CFD/PoD2/CIR/P/2023/120, अध्याय IV-B, पन्ना 23 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2023/1689087475880.pdf",
+          "issued": "2023-07-11",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1–4",
+              "c": "Top 1000 listed entities के लिए BRSR (LODR नियम 34(2)(f)); ESG पर disclosures"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Annual Report 2025-26, अध्याय XII: The Reserve Bank's Accounts (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/AnnualReport/PDFs/12ACCOUNTS290520267DCFE3C4E9DA4C808B5779DCC11AAEE4.PDF",
+          "issued": "2026-05-29",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा XII.7–XII.10, XII.12, XII.15, XII.18(iv)",
+              "c": "Income के हिस्से; विदेशी और घरेलू स्रोत; Rupee Securities पर ब्याज और बिक्री का लाभ; नोट छपाई का ख़र्च"
+            }
+          ]
+        },
+        {
+          "label": "Directorate of Enforcement — What We Do (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://enforcementdirectorate.gov.in/about-us/what-we-do/",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "What We Do",
+              "c": "Department of Revenue, Ministry of Finance के तहत; PMLA, FEMA, FEOA"
+            }
+          ]
+        },
+        {
+          "label": "Directorate of Revenue Intelligence — What We Do (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://dri.nic.in/main/whatwedo",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "What We Do",
+              "c": "CBIC, Department of Revenue, Ministry of Finance के तहत; Customs Act, 1962"
+            }
+          ]
+        },
+        {
+          "label": "Department of Revenue — Central Board of Indirect Taxes and Customs (CBIC) का परिचय-दस्तावेज़ (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://dor.gov.in/sites/default/files/inline-documents/CBIC.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1.4.2 के बाद का Note; पैरा 1.5.1 (7), (8)",
+              "c": "Directorate General of Systems and Data Management; Systems = customs/central excise computerisation; Data Management = indirect tax राजस्व के आँकड़े"
+            }
+          ]
+        },
+        {
+          "label": "PIB (वित्त मंत्रालय) — Detection of GST Evasion, Release ID 1559126 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1559126",
+          "issued": "2019-01-08",
+          "effective": "",
+          "used": [
+            {
+              "ref": "DGARM वाला पैरा",
+              "c": "DGARM, CBIC का data analytics और risk management का apex body"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department (CBDT) — FAQs on Agricultural Income (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/documents/d/guest/faqs-on-agricultural-income",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 1, 12, 13",
+              "c": "Agricultural income की तीन शर्तें; Income-tax Act 2025 की Schedule II में छूट; rural agricultural land capital asset नहीं"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department — Income-tax Act, 1961, धारा 2 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/w/section-2-63",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "धारा 2(1A), 2(14)(iii)",
+              "c": "Agricultural income की परिभाषा; agricultural land capital asset से बाहर"
+            }
+          ]
+        },
+        {
+          "label": "Income Tax Department — What is the tax treatment of agriculture income? (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/w/what-is-the-tax-treatment-of-agriculture-income-",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "उत्तर",
+              "c": "1961 के Act की धारा 10(1) में agricultural income पर छूट"
+            }
+          ]
+        },
+        {
+          "label": "SEBI Investor Education — Corporate Bonds (booklet), पन्ना 4 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://investor.sebi.gov.in/pdf/reference-material/corporatebonds.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 4",
+              "c": "Shareholder part owner, bondholder lender; bondholder को preference; bonds equity से कम जोखिम वाले"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — FAQs on Corporate Bond Market, सवाल 6 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jan-2023/1674793029919.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 6",
+              "c": "Equity = owner; debt = lender; दिवालिया होने पर lender का ज़्यादा दावा"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — PR No. 22/2024: Equity F&O में individual traders का अध्ययन (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2024/1727086965496.pdf",
+          "issued": "2024-09-23",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 1",
+              "c": "FY22–FY24 में 93% individual F&O traders को नुक़सान"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Comparative study of growth in Equity Derivatives Segment vis-à-vis Cash Market (जुलाई 2025) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1751900271726.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 6, पैरा 16",
+              "c": "WFE, मार्च 2025: traded contracts की संख्या में भारतीय exchange दुनिया में शीर्ष पर"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — PR No. 112/2016: SEBI cautions public to deal with only SEBI registered investment advisers and research analysts (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/media/press-releases/jun-2016/sebi-cautions-public-to-deal-with-only-sebi-registered-investment-advisers-and-research-analysts_32627.html",
+          "issued": "2016-06-09",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पूरी release",
+              "c": "सिर्फ़ registered advisers से सलाह लेने की चेतावनी; बिना registration सलाह देने वाली 10 entities पर कार्रवाई"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Profitability and Losses of Individual Traders in Equity Derivatives (अगस्त 2026) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1787233506209.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 5",
+              "c": "नुक़सान वाले individuals FY26 में 87.7% (FY25 में 90.9%)"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — Key to Budget Documents 2026-27 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/Key_to_Budget_Document_2026.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 11, (v) और (vi)",
+              "c": "Non-tax receipts में ब्याज और dividend; capital receipts में loans, T-Bills, loan वसूली, विविध पूँजीगत प्राप्तियाँ"
+            },
+            {
+              "ref": "भाग H (i), पन्ना 15–16",
+              "c": "Gross fiscal deficit और primary deficit की परिभाषा"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — Key to Budget Documents 2017-18 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiabudget.gov.in/budget2017-2018/ub2017-18/keybud/keybud2017.pdf",
+          "issued": "2017-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 11",
+              "c": "Capital receipts में 'disinvestment receipts'"
+            },
+            {
+              "ref": "पन्ना 14, 3(M)(i)",
+              "c": "'Gross primary deficit is gross fiscal deficit reduced by the gross interest payments'"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — Receipt Budget 2026-27 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/rec/allrec.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Abstract; Capital Receipts Note 2",
+              "c": "Interest receipts Non-Tax Revenue में; Non-debt और Debt receipts; Miscellaneous Capital Receipts = equity निवेश और सार्वजनिक संपत्तियों का प्रबंधन"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — Budget at a Glance 2026-27, प्रस्तावना पैरा 2 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/budget_at_a_glance.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "Fiscal, Revenue और Primary Deficit की परिभाषा"
+            }
+          ]
+        },
+        {
+          "label": "Ministry of Heavy Industries — National Automotive Board, Annual Report 2024-25, पन्ना 5 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://heavyindustries.gov.in/sites/default/files/2025-12/nab_annual_report_2024-25_english.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 5",
+              "c": "NAB, Ministry of Heavy Industries के तहत autonomous society"
+            }
+          ]
+        },
+        {
+          "label": "Ministry of MSME — Annual Report 2025-26, पैरा 1.3.3 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.msme.gov.in/static/uploads/2026/05/1bfda06b460e72543530b40817573495.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1.3.3, पन्ना 4",
+              "c": "MSME मंत्रालय के दो statutory bodies: KVIC और Coir Board"
+            }
+          ]
+        },
+        {
+          "label": "Department of Commerce — Annual Report 2024-25 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.commerce.gov.in/files/2025-08/Commerce_AR-2024-25-English-1.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 19, 26",
+              "c": "ITPO (Department of Commerce के तहत) का NIC के साथ 50:50 joint venture NCTI; 30.06.2021 को winding up की मंज़ूरी, liquidation जारी"
+            }
+          ]
+        },
+        {
+          "label": "Petroleum and Natural Gas Regulatory Board Act, 2006 (No. 19 of 2006) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://pngrb.gov.in/pdf/Act/ACT_PNGRB.pdf",
+          "issued": "2006-03-31",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Long title",
+              "c": "Refining से sale तक का regulation, crude oil और natural gas का उत्पादन छोड़कर"
+            }
+          ]
+        },
+        {
+          "label": "PNGRB — FAQs: What is PNGRB? (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://pngrb.gov.in/eng-web/faqs.html",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "What is PNGRB?",
+              "c": "'excluding production of crude oil and natural gas'"
+            }
+          ]
+        },
+        {
+          "label": "PIB (Finance Commission) — The Report of the Fifteenth Finance Commission, Release ID 1693868 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1693868",
+          "issued": "2021-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Vertical devolution; horizontal criteria; performance incentives",
+              "c": "41%; tax effort criterion फिर से; शिक्षा के लिए ₹4,800 करोड़; कृषि सुधार के लिए ₹45,000 करोड़"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — Explanatory Memorandum: Sixteenth Finance Commission की सिफ़ारिशों पर की गई कार्रवाई (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/16fc.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3, 5",
+              "c": "राज्यों का हिस्सा 41% पर; बँटवारे के आधार: population, demographic performance, area, forest, per-capita-income-distance, GDP में योगदान"
+            }
+          ]
+        },
+        {
+          "label": "World Bank — International Bank for Reconstruction and Development (IBRD) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.worldbank.org/en/who-we-are/ibrd",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "IBRD पन्ना",
+              "c": "1944 में यूरोप के पुनर्निर्माण के लिए; मध्यम आय वाले देशों को loans, guarantees; IDA के साथ मिलकर World Bank"
+            }
+          ]
+        },
+        {
+          "label": "RBI — FAQs: Real Time Gross Settlement (RTGS) System (14 अक्टूबर 2026 तक अद्यतन) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/FAQDisplay.aspx?Id=65",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 1, 5 और charges",
+              "c": "Real-time, एक-एक transaction का settlement; 14.12.2020 से 24x7x365; inward transactions मुफ़्त"
+            }
+          ]
+        },
+        {
+          "label": "RBI — FAQs: National Electronic Funds Transfer (NEFT) System (2 सितंबर 2024 तक अद्यतन) (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbi.org.in/Scripts/faqview.aspx?Id=60",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "सवाल 10, 12",
+              "c": "24x7x365; आधे-आधे घंटे के batches; inward transactions पर कोई charge नहीं"
+            }
+          ]
+        },
+        {
+          "label": "PIB (वित्त मंत्रालय) — Advancing Cashless India, Release ID 2114335 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2114335",
+          "issued": "2025-03-24",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Global Expansion",
+              "c": "UPI सात देशों में: UAE, Singapore, Bhutan, Nepal, Sri Lanka, France, Mauritius"
+            }
+          ]
+        },
+        {
+          "label": "PIB — UPI पर release (24 अगस्त 2026), Release ID 2302657 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2302657",
+          "issued": "2026-08-24",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Cross-border भुगतान वाला हिस्सा",
+              "c": "UPI 11 देशों में: UAE, France, Bhutan, Sri Lanka, Nepal, Singapore, Mauritius, Qatar, Cambodia, Greece, Maldives"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -238,6 +238,33 @@ button{font:inherit;color:inherit}
 .excard details{margin:0 0 12px}
 .excard summary{cursor:pointer;font-size:14px;font-weight:700;color:#fff}
 .excard details ul{margin-top:10px}
+.excard .ex-pyq{margin:0 0 14px;padding:12px 0 0;border-top:1px solid rgba(255,255,255,.12)}
+.excard .ex-pyq h4{margin:0 0 6px;font:600 12.5px var(--sans);color:#D9E2EE}
+.excard .ex-pyq a{display:inline-block;padding:7px 13px;border-radius:10px;background:var(--gold);color:var(--gold-ink);font-size:14px;font-weight:700;text-decoration:none}
+.excard .ex-pyq a:hover,.excard .ex-pyq a:focus-visible{background:#F3CC6B}
+/* ---- PYQ: pichhle saal ke sawal ---- */
+.pyqmeta{display:grid;gap:6px;margin:0 0 18px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-size:14px;line-height:1.55}
+.pyqmeta a{color:var(--ink);text-underline-offset:3px}
+.pyqnav{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 22px;padding:0;list-style:none}
+.pyqnav a{display:inline-block;min-width:38px;padding:5px 9px;border:1px solid var(--line);border-radius:8px;background:var(--surface);text-align:center;font-family:var(--mono);font-size:13px;color:var(--ink);text-decoration:none}
+.pyqnav a:hover,.pyqnav a:focus-visible{border-color:#1F4FA6;color:#1F4FA6}
+.pyq{margin:0 0 22px;padding:16px 16px 6px;border:1px solid var(--line);border-left:4px solid #1E3478;border-radius:12px;background:var(--surface);scroll-margin-top:16px}
+.pyq-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:0 0 10px}
+.pyq-n{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.08em;color:#1E3478}
+.pyq-t{font-size:13px;color:var(--ink-2)}
+.pyq-q p{margin:0 0 8px;font-size:15.5px;line-height:1.6}
+.pyq-q .pyq-l{margin:0 0 4px;padding-left:14px}
+.pyq-o{margin:6px 0 12px;padding-left:34px;font-size:15px;line-height:1.55;list-style:none;counter-reset:o}
+.pyq-o li{position:relative;margin:0 0 3px;counter-increment:o}
+.pyq-o li:before{content:"(" counter(o,lower-alpha) ")";position:absolute;left:-30px;font-style:italic;color:var(--ink-2)}
+.pyq-a{margin:0 0 10px;border-top:1px dashed var(--line);padding-top:10px}
+.pyq-a summary{cursor:pointer;font-weight:700;color:#1F4FA6;font-size:15px}
+.pyq-a[open] summary{margin-bottom:10px}
+.pyq-ans{margin:0 0 10px;padding:9px 12px;border-radius:8px;background:#E7F1EF;color:var(--ink);font-size:15px}
+.pyq-a p{font-size:15.5px;line-height:1.7}
+.pyq-chg{padding:9px 12px;border-radius:8px;background:#FFF4DE;font-size:14.5px}
+.pyq a.tl{color:#1F4FA6;text-decoration:none;border-bottom:1px solid rgba(31,79,166,.35)}
+.pyq a.tl:hover,.pyq a.tl:focus-visible{background:#EEF1FB;border-bottom-color:#1F4FA6}
 /* ---- Shabdkosh: menu ke bahar patti + homepage box + SM mascot ---- */
 .koshbar{display:flex;align-items:center;gap:12px;margin:0 0 14px;padding:10px 14px 10px 10px;border:1px solid rgba(233,185,73,.55);border-radius:14px;background:linear-gradient(100deg,rgba(233,185,73,.16),rgba(233,185,73,.05));text-decoration:none;color:var(--on-dark)}
 .koshbar:hover,.koshbar:focus-visible{border-color:var(--gold);background:linear-gradient(100deg,rgba(233,185,73,.26),rgba(233,185,73,.08))}
@@ -1617,11 +1644,11 @@ const PK_GROUPS = [
   { h: "मौद्रिक नीति, RBI और बैंकिंग ढाँचा", tag: "UPSC GS-III · IBPS / SBI", ids: ["monetary-policy", "rbi", "rbi-act", "mpc", "repo-rate", "bank-rate", "msf", "sdf", "reverse-repo", "laf", "omo", "call-money", "government-securities", "treasury-bill", "certificate-of-deposit", "commercial-paper", "crr", "slr", "ndtl", "eblr", "mclr", "banking-regulation-act", "bank-nationalisation", "commercial-bank", "co-operative-bank", "regional-rural-bank", "small-finance-bank", "payments-bank", "local-area-bank", "nbfc", "dicgc"] },
   { h: "क़र्ज़, NPA और वसूली", tag: "UPSC GS-III · IBPS / SBI", ids: ["npa", "sarfaesi", "ibc", "ibbi", "arc", "capital-adequacy-ratio", "wilful-defaulter", "collateral", "term-loan", "cash-credit", "overdraft", "personal-loan", "home-loan", "gold-loan", "kfs", "penal-charges", "digital-lending", "credit-bureau", "cibil"] },
   { h: "समावेशी विकास और वित्तीय समावेशन", tag: "UPSC Prelims · GS-II · GS-III", ids: ["financial-inclusion", "lead-bank-scheme", "dbt", "msp", "priority-sector-lending", "kisan-credit-card", "nabard", "sidbi", "pmjdy", "bsbd", "small-account", "business-correspondent", "mudra-loan", "msme", "microfinance", "nbfc-mfi", "self-help-group", "joint-liability-group", "pm-kisan", "pmfby", "apy", "pmjjby", "pmsby", "nps", "sukanya-samriddhi", "small-savings-schemes", "aadhaar-seeding", "aeps", "digisaathi"] },
-  { h: "सरकारी बजट और कर", tag: "UPSC GS-III", ids: ["union-budget", "fiscal-deficit", "revenue-deficit", "finance-commission", "niti-aayog", "direct-indirect-tax", "gst", "income-tax", "capital-gains", "income-tax-act-2025", "tax-regime", "standard-deduction", "tds", "itr", "ais", "form-16"] },
-  { h: "नियामक और शिकायत संस्थाएँ", tag: "UPSC GS-II", ids: ["rbi", "irdai", "uidai", "npci", "trai", "cert-in", "i4c", "dicgc", "sebi", "pfrda", "sebi-scores", "rbi-ombudsman", "internal-ombudsman"] },
+  { h: "सरकारी बजट और कर", tag: "UPSC GS-III", ids: ["union-budget", "fiscal-deficit", "revenue-deficit", "finance-commission", "niti-aayog", "direct-indirect-tax", "gst", "income-tax", "capital-gains", "income-tax-act-2025", "tax-regime", "standard-deduction", "tds", "itr", "ais", "form-16", "capital-receipts", "agricultural-income"] },
+  { h: "नियामक और शिकायत संस्थाएँ", tag: "UPSC GS-II", ids: ["rbi", "irdai", "uidai", "npci", "trai", "cert-in", "i4c", "dicgc", "sebi", "pfrda", "sebi-scores", "rbi-ombudsman", "internal-ombudsman", "pngrb"] },
   { h: "Digital भुगतान", tag: "IBPS · SBI", ids: ["upi", "upi-lite", "cbdc", "neft", "rtgs", "imps", "nach", "aeps", "rupay", "pss-act", "payment-aggregator", "account-aggregator", "fastag", "wallet", "zero-liability"] },
-  { h: "Cyber security और money-laundering", tag: "UPSC GS-III", ids: ["cert-in", "i4c", "1930", "cybercrime-gov-in", "pmla", "fiu-ind", "fatf", "cfcfrms", "mule-account", "suspect-registry", "kyc", "ckycr", "v-cip"] },
-  { h: "निवेश", tag: "UPSC GS-III (आंशिक)", ids: ["sebi", "bond", "mutual-fund", "sip", "sovereign-gold-bond", "sensex-nifty", "ipo", "credit-rating-agency"] },
+  { h: "Cyber security और money-laundering", tag: "UPSC GS-III", ids: ["cert-in", "i4c", "1930", "cybercrime-gov-in", "pmla", "fiu-ind", "fatf", "cfcfrms", "mule-account", "suspect-registry", "kyc", "ckycr", "v-cip", "enforcement-directorate", "dri"] },
+  { h: "निवेश", tag: "UPSC GS-III (आंशिक)", ids: ["sebi", "bond", "equity-share", "mutual-fund", "sip", "aif", "fno", "sovereign-gold-bond", "sensex-nifty", "ipo", "credit-rating-agency", "brsr"] },
 ];
 const PK_PSC = [
   ["आंध्र प्रदेश", "https://psc.ap.gov.in/"], ["अरुणाचल प्रदेश", "https://appsc.gov.in/"], ["असम", "https://apsc.nic.in/"],
@@ -1639,14 +1666,14 @@ const PK_EXAMS = [
   { c: "upsc", eb: "UPSC · Civil Services", h: "UPSC सिविल सेवा परीक्षा", sub: "Prelims और Mains (GS-II, GS-III) में Economy से जुड़ी official पंक्तियाँ, और उनसे जुड़े शब्द।",
     lines: [
       { h: "Prelims · General Studies Paper I (पन्ना 32)", q: "Economic and Social Development-Sustainable Development, Poverty, Inclusion, Demographics, Social Sector Initiatives, etc.", ids: ["gdp", "gva", "inflation", "cpi", "plfs", "financial-inclusion", "dbt", "pmjdy", "self-help-group", "apy", "nps", "pmjjby", "pmsby"] },
-      { h: "Mains · GS-II (पन्ना 34–35)", q: "Statutory, regulatory and various quasi-judicial bodies", ids: ["rbi", "sebi", "irdai", "pfrda", "ibbi", "uidai", "trai", "nabard", "sidbi", "finance-commission"] },
+      { h: "Mains · GS-II (पन्ना 34–35)", q: "Statutory, regulatory and various quasi-judicial bodies", ids: ["rbi", "sebi", "irdai", "pfrda", "ibbi", "uidai", "trai", "nabard", "sidbi", "finance-commission", "pngrb"] },
       { h: "Mains · GS-II (पन्ना 34–35)", q: "Welfare schemes for vulnerable sections of the population by the Centre and States...", ids: ["pmjdy", "dbt", "pm-kisan", "apy", "pmjjby", "pmsby", "sukanya-samriddhi", "mudra-loan"] },
       { h: "Mains · GS-III (पन्ना 35)", q: "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.", ids: ["mospi", "niti-aayog", "gdp", "gva", "iip", "plfs", "monetary-policy", "money-supply", "repo-rate", "inflation", "wpi", "balance-of-payments", "current-account-deficit", "fdi-fpi", "bank-nationalisation"] },
       { h: "Mains · GS-III (पन्ना 35)", q: "Inclusive growth and issues arising from it.", ids: ["financial-inclusion", "priority-sector-lending", "lead-bank-scheme", "kisan-credit-card", "mudra-loan", "msme", "microfinance", "nbfc-mfi", "self-help-group", "joint-liability-group", "business-correspondent"] },
-      { h: "Mains · GS-III (पन्ना 35)", q: "Government Budgeting.", ids: ["union-budget", "fiscal-deficit", "revenue-deficit", "finance-commission", "direct-indirect-tax", "gst", "income-tax", "government-securities", "treasury-bill"] },
+      { h: "Mains · GS-III (पन्ना 35)", q: "Government Budgeting.", ids: ["union-budget", "capital-receipts", "fiscal-deficit", "revenue-deficit", "finance-commission", "direct-indirect-tax", "gst", "income-tax", "agricultural-income", "government-securities", "treasury-bill"] },
       { h: "Mains · GS-III (पन्ना 35)", q: "Issues related to direct and indirect farm subsidies and minimum support prices...", ids: ["msp", "pm-kisan", "pmfby", "kisan-credit-card", "nabard"] },
-      { h: "Mains · GS-III (पन्ना 35)", q: "Investment models.", ids: ["fdi-fpi", "bond", "sovereign-gold-bond", "ipo", "sensex-nifty", "mutual-fund", "sebi"] },
-      { h: "Mains · GS-III (पन्ना 36)", q: "...basics of cyber security; money-laundering and its prevention.", ids: ["pmla", "fiu-ind", "fatf", "cert-in", "i4c", "kyc", "mule-account"] },
+      { h: "Mains · GS-III (पन्ना 35)", q: "Investment models.", ids: ["fdi-fpi", "bond", "equity-share", "aif", "fno", "sovereign-gold-bond", "ipo", "sensex-nifty", "mutual-fund", "sebi", "brsr"] },
+      { h: "Mains · GS-III (पन्ना 36)", q: "...basics of cyber security; money-laundering and its prevention.", ids: ["pmla", "enforcement-directorate", "fiu-ind", "fatf", "cert-in", "i4c", "kyc", "mule-account"] },
     ],
     src: ["UPSC — CSE 2026 Notification (Notice No. 05/2026-CSE, 04.02.2026)", "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf"] },
   { c: "psc", eb: "State PSC · सभी राज्य", h: "राज्य लोक सेवा आयोग", sub: "हर राज्य का syllabus अलग है और बदलता रहता है, इसलिए यहाँ किसी राज्य के syllabus पर कोई दावा नहीं है। अपनी परीक्षा का syllabus अपने आयोग की official website पर मिलाइए।",
@@ -1668,7 +1695,7 @@ const PK_EXAMS = [
     lines: [
       { h: "Phase-II · Paper-I: Economic and Social Issues (विज्ञापन पन्ना 36)", q: "Growth and Development – Measurement of growth: National Income and per capita income – Poverty Alleviation and Employment Generation in India...", ids: ["gdp", "gva", "mospi", "plfs", "iip"] },
       { h: "Paper-I: Economic and Social Issues (पन्ना 36)", q: "...Monetary and Fiscal Policy since reforms of 1991 – Priorities and recommendations of Economic Survey and Union Budget – Indian Money and Financial Markets: Linkages with the economy – Role of Indian banks and Reserve Bank in the development process - Public Finance...", ids: ["monetary-policy", "repo-rate", "money-supply", "rbi", "bank-nationalisation", "union-budget", "fiscal-deficit", "revenue-deficit", "finance-commission", "direct-indirect-tax"] },
-      { h: "Paper-I: Economic and Social Issues (पन्ना 36)", q: "Globalization – Opening up of the Indian Economy – Balance of Payments, Export-Import Policy – International Economic Institutions...", ids: ["balance-of-payments", "current-account-deficit", "fdi-fpi", "fatf"] },
+      { h: "Paper-I: Economic and Social Issues (पन्ना 36)", q: "Globalization – Opening up of the Indian Economy – Balance of Payments, Export-Import Policy – International Economic Institutions...", ids: ["balance-of-payments", "current-account-deficit", "fdi-fpi", "fatf", "world-bank"] },
       { h: "Paper-III: General Finance and Management · Financial System (पन्ना 36–37)", q: "Functions of Reserve Bank of India ... Banking System in India – Structure and Developments, Financial Institutions – SIDBI, EXIM Bank, NABARD, NHB, NaBFID etc. ... Non-Banking System ... Developments in Digital Payments", ids: ["rbi", "rbi-act", "commercial-bank", "regional-rural-bank", "small-finance-bank", "payments-bank", "sidbi", "nabard", "nbfc", "nbfc-mfi", "upi", "cbdc", "neft", "rtgs"] },
       { h: "Paper-III · Financial Markets (पन्ना 37)", q: "Primary and Secondary Markets (Forex, Money, Bond, Equity, etc.), functions, instruments, recent developments.", ids: ["call-money", "treasury-bill", "certificate-of-deposit", "commercial-paper", "government-securities", "bond", "ipo", "sensex-nifty", "sebi", "credit-rating-agency"] },
       { h: "Paper-III · General Topics (पन्ना 37)", q: "Financial Risk Management ... Financial Inclusion ... The Union Budget – Concepts, approach and broad trends ... Inflation: Definition, trends, estimates, consequences and remedies (control): WPI- CPI - components and trends...", ids: ["capital-adequacy-ratio", "npa", "financial-inclusion", "pmjdy", "priority-sector-lending", "lead-bank-scheme", "union-budget", "inflation", "wpi", "cpi"] },
@@ -1722,7 +1749,7 @@ const PARIKSHA = {
 <span class="ex-eb">${esc(e.eb)}</span>
 <h3>${esc(e.h)}</h3>
 <p class="ex-sub">${esc(e.sub)}</p>
-${e.note ? `<p class="ex-note">${esc(e.note)}</p>` : ""}${e.lines.map((l) => `<div class="ex-line"><h4>${esc(l.h)}</h4>${l.q ? `<q lang="en">${esc(l.q)}</q>` : ""}${PK_CHIPS(l.ids)}</div>`).join("")}
+${e.note ? `<p class="ex-note">${esc(e.note)}</p>` : ""}${e.lines.map((l) => `<div class="ex-line"><h4>${esc(l.h)}</h4>${l.q ? `<q lang="en">${esc(l.q)}</q>` : ""}${PK_CHIPS(l.ids)}</div>`).join("")}${PYQ.filter((p) => p.exam === e.c).map((p) => `<div class="ex-pyq"><h4>पिछले साल के सवाल (PYQ), उत्तर और आसान व्याख्या के साथ</h4><a href="/pariksha/pyq/${p.slug}/">${esc(p.short)} →</a></div>`).join("")}
 ${e.psc ? `<details><summary>सभी ${PK_PSC.length} राज्य लोक सेवा आयोगों की official website</summary><ul>${PK_PSC.map(([st, u]) => `<li><a href="${esc(u)}" rel="noopener" target="_blank">${esc(st)}</a></li>`).join("")}</ul></details>` : ""}
 <small class="ex-src">स्रोत: <a href="${esc(e.src[1])}" rel="noopener" target="_blank">${esc(e.src[0])}</a> · 17 अक्टूबर 2026 को जाँचा</small>
 </section>`).join("\n")}</div>`;
@@ -1742,6 +1769,57 @@ ${PK_GROUPS.map((g) => `### ${g.h}\n\n**Syllabus से मेल:** ${g.tag}\n\
 };
 
 const PAGES = [ABOUT, SOURCE_POLICY, HOW_TO_CHECK, CONTACT, PRIVACY, DISCLAIMER, PARIKSHA];
+
+/* ---- PYQ: data/pyq.json -> /pariksha/pyq/<slug>/ ---- */
+let PYQ = [];
+function checkPYQ(p) {
+  const n = p.sources.length, used = new Set();
+  const scan = (x) => String(x || "").replace(/\[\^(\d+)\]/g, (_m, d) => { const k = +d; if (k < 1 || k > n) throw new Error(`PYQ ${p.slug}: [^${k}] ka srot nahi`); used.add(k); return ""; });
+  (p.intro || []).forEach(scan);
+  p.qs.forEach((q) => {
+    if (!/^[abcd]$/.test(q.a) || q.o.length !== 4) throw new Error(`PYQ ${p.slug} Q${q.n}: uttar/vikalp galat`);
+    if (p.key && p.key.ans && p.key.ans[q.n - 1] !== q.a.toUpperCase()) throw new Error(`PYQ ${p.slug} Q${q.n}: answer key se mel nahi`);
+    q.ex.forEach(scan); scan(q.chg);
+  });
+  for (let k = 1; k <= n; k++) if (!used.has(k)) throw new Error(`PYQ ${p.slug}: srot [${k}] kahin istemal nahi`);
+}
+function renderPYQ(p) {
+  const qs = p.qs.map((q) => {
+    const ctx = { self: null, seen: new Set() };
+    const il = (x) => autolink(inline(x), ctx);
+    const L = "abcd";
+    return `<section class="pyq" id="q${q.n}" aria-label="प्रश्न ${q.n}">
+<div class="pyq-h"><span class="pyq-n">प्रश्न ${q.n}</span><span class="pyq-t">${esc(q.topic)}</span></div>
+<div class="pyq-q" lang="en">${q.q.map((l) => l.startsWith("  ") ? `<p class="pyq-l">${il(l.trim())}</p>` : `<p>${il(l)}</p>`).join("")}<ol class="pyq-o" type="a">${q.o.map((o) => `<li>${inline(o)}</li>`).join("")}</ol></div>
+<details class="pyq-a"><summary>उत्तर और आसान व्याख्या देखें</summary>
+<p class="pyq-ans">UPSC की official answer key के मुताबिक़ सही उत्तर: <strong>(${q.a}) ${inline(q.o[L.indexOf(q.a)])}</strong></p>
+${q.ex.map((x) => `<p>${il(x)}</p>`).join("")}${q.chg ? `<p class="pyq-chg"><strong>परीक्षा के बाद क्या बदला:</strong> ${il(q.chg)}</p>` : ""}
+</details>
+</section>`;
+  }).join("\n");
+  return head({ title: `${p.title} — ${SITE.name}`, desc: p.desc, canonical: `${SITE.url}/pariksha/pyq/${p.slug}/` }) + `
+<main id="main">
+  <a class="back" href="/pariksha/">← परीक्षा के लिए</a>
+  <article>
+    <header>
+      <h1>${esc(p.title)}</h1>
+      <p class="standfirst">${esc(p.desc)}</p>
+    </header>
+    <div class="pyqmeta">
+      <span>प्रश्न-पत्र: <a href="${esc(p.paper.url)}" target="_blank" rel="noopener">${esc(p.paper.label)} ↗</a></span>
+      <span>उत्तर: <a href="${esc(p.key.url)}" target="_blank" rel="noopener">${esc(p.key.label)} ↗</a></span>
+      <span>${esc(p.credit)}</span>
+    </div>
+    <div class="prose">${(p.intro || []).map((x) => `<p>${inline(x)}</p>`).join("")}</div>
+    <ul class="pyqnav" aria-label="सवाल पर जाएँ">${p.qs.map((q) => `<li><a href="#q${q.n}">${q.n}</a></li>`).join("")}</ul>
+    ${qs}
+    <div class="prose"><h2>स्रोत</h2></div>
+    ${sourcesHTML(p.sources)}
+    <div class="prose"><p>हर स्रोत ${esc(p.checkedText)} को खोलकर जाँचा गया। नीला शब्द दबाइए, उसका अपना आसान पन्ना खुलेगा।</p></div>
+    <div class="postfoot"><a class="btn" href="/pariksha/">परीक्षा के लिए: सारे box</a></div>
+  </article>
+</main>` + foot();
+}
 
 /* ------------------------------------------------------------------ hubs */
 
@@ -2064,6 +2142,8 @@ function main() {
   terms.forEach((t) => { TERM_TITLE[t.id] = t.term; });
   for (const g of PK_GROUPS) for (const id of g.ids) if (!seenIds.has(id)) throw new Error(`Pariksha: unknown term id ${id}`);
   for (const e of PK_EXAMS) for (const l of e.lines) for (const id of l.ids) if (!seenIds.has(id)) throw new Error(`Pariksha exam box: unknown term id ${id}`);
+  const pyqPath = path.join(__dirname, "data", "pyq.json");
+  if (fs.existsSync(pyqPath)) { PYQ = JSON.parse(fs.readFileSync(pyqPath, "utf8")).sets; PYQ.forEach(checkPYQ); }
   const mwPath = path.join(__dirname, "data", "mascot-welcome.json");
   if (fs.existsSync(mwPath)) {
     MW = JSON.parse(fs.readFileSync(mwPath, "utf8"));
@@ -2079,6 +2159,7 @@ function main() {
   fs.mkdirSync(path.join(__dirname, "dist", "post-og"), { recursive: true });
   posts.forEach((p) => fs.writeFileSync(path.join(__dirname, "dist", "post-og", `${p.id}.png`), Buffer.from(ogCards[p.id], "base64")));
   PAGES.forEach((pg) => write(path.join(pg.slug, "index.html"), renderPage(pg)));
+  PYQ.forEach((p) => write(path.join("pariksha", "pyq", p.slug, "index.html"), renderPYQ(p)));
   HUBS.forEach((h) => write(path.join(h.slug, "index.html"), renderHub(h, posts)));
   write(path.join("faq", "index.html"), renderFAQ());
   terms.forEach((t) => write(path.join("shabdkosh", t.id, "index.html"), renderTerm(t, posts)));
@@ -2113,6 +2194,7 @@ function main() {
     ...terms.map((t) => ({ loc: `${SITE.url}/shabdkosh/${encodeURIComponent(t.id)}/`, lastmod: t.verified || t.created })),
     ...HUBS.map((h) => ({ loc: `${SITE.url}/${h.slug}/` })),
     ...PAGES.map((pg) => ({ loc: `${SITE.url}/${pg.slug}/` })),
+    ...PYQ.map((p) => ({ loc: `${SITE.url}/pariksha/pyq/${p.slug}/`, lastmod: p.checked })),
   ];
   write("sitemap.xml",
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
