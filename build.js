@@ -598,7 +598,7 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
   <div class="header-actions"><a class="contact-top" href="mailto:${esc(SITE.email)}">Contact</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Menu खोलें">☰ <span>Menu</span></button></div>
 </header>
 <nav id="site-menu" class="site-menu" aria-label="मुख्य menu" hidden>
-  <a href="/">Home</a><a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/about/">About</a><a href="/#contact">Contact</a>
+  <a href="/">Home</a><a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/pariksha/">परीक्षा के लिए</a><a href="/about/">About</a><a href="/#contact">Contact</a>
 </nav>
 ${TERM_LINKS.re && !home && canonical !== `${SITE.url}/shabdkosh/` ? `<a class="koshbar" href="/shabdkosh/"><span class="kb-ic" aria-hidden="true"><img src="/shabdkosh-emblem.webp" width="96" height="75" alt=""></span><span class="kb-t"><b>शब्दकोश <i>|</i> Shabdkosh</b><span>पैसे के ज़रूरी शब्दों का सीधा मतलब</span></span><span class="kb-go">खोलिए →</span></a>` : ""}
 ${hero}
@@ -645,6 +645,7 @@ function foot() {
         <a href="/scam-safety/">संदिग्ध message और स्कैम</a>
         <a href="/paise-ke-adhikar/">पैसे पर आपके अधिकार</a>
         <a href="/faq/">सवाल-जवाब</a>
+        <a href="/pariksha/">परीक्षा के लिए</a>
         ${TERM_LINKS.re ? `<a href="/shabdkosh/">पैसे का शब्दकोश</a>` : ""}
         <a href="/about/">हमारे बारे में</a>
         <a href="/source-policy/">स्रोत नीति</a>
@@ -1571,7 +1572,79 @@ const DISCLAIMER = {
 अगर अभी धोखाधड़ी हुई है, तो यह पन्ना पढ़ते रहने का समय नहीं है — **1930** पर कॉल कीजिए या **[cybercrime.gov.in](https://cybercrime.gov.in)** पर report कीजिए, और बैंक को उसके आधिकारिक नंबर से तुरंत बताइए।`,
 };
 
-const PAGES = [ABOUT, SOURCE_POLICY, HOW_TO_CHECK, CONTACT, PRIVACY, DISCLAIMER];
+/* ------------------------------------------------------- pariksha (exam) hub */
+/* Sirf Economy / Banking / Finance wala hissa. Har syllabus pankti official notification se; har shabd link build ke samay jaancha jaata hai. */
+const PK_T = (ids) => ids.map((id) => `[${TERM_TITLE[id] || id}](/shabdkosh/${id}/)`).join(" · ");
+const TERM_TITLE = {};
+const PK_GROUPS = [
+  { h: "अर्थव्यवस्था के पैमाने: GDP और महँगाई", tag: "UPSC Prelims · GS-III · IBPS / SBI", ids: ["gdp", "inflation", "cpi"] },
+  { h: "मौद्रिक नीति, RBI और बैंकिंग ढाँचा", tag: "UPSC GS-III · IBPS / SBI", ids: ["monetary-policy", "rbi", "rbi-act", "mpc", "repo-rate", "bank-rate", "msf", "sdf", "reverse-repo", "laf", "omo", "government-securities", "crr", "slr", "ndtl", "eblr", "mclr", "banking-regulation-act", "commercial-bank", "co-operative-bank", "regional-rural-bank", "small-finance-bank", "payments-bank", "local-area-bank", "nbfc", "dicgc"] },
+  { h: "क़र्ज़, NPA और वसूली", tag: "UPSC GS-III · IBPS / SBI", ids: ["npa", "sarfaesi", "ibc", "wilful-defaulter", "collateral", "term-loan", "cash-credit", "overdraft", "personal-loan", "home-loan", "gold-loan", "kfs", "penal-charges", "digital-lending", "credit-bureau", "cibil"] },
+  { h: "समावेशी विकास और वित्तीय समावेशन", tag: "UPSC Prelims · GS-II · GS-III", ids: ["priority-sector-lending", "kisan-credit-card", "nabard", "sidbi", "pmjdy", "bsbd", "small-account", "business-correspondent", "mudra-loan", "msme", "microfinance", "apy", "pmjjby", "pmsby", "nps", "sukanya-samriddhi", "small-savings-schemes", "aadhaar-seeding", "aeps", "digisaathi"] },
+  { h: "सरकारी बजट और कर", tag: "UPSC GS-III", ids: ["union-budget", "fiscal-deficit", "income-tax", "capital-gains", "income-tax-act-2025", "tax-regime", "standard-deduction", "tds", "itr", "ais", "form-16"] },
+  { h: "नियामक और शिकायत संस्थाएँ", tag: "UPSC GS-II", ids: ["rbi", "irdai", "uidai", "npci", "trai", "cert-in", "i4c", "dicgc", "sebi", "pfrda", "sebi-scores", "rbi-ombudsman", "internal-ombudsman"] },
+  { h: "Digital भुगतान", tag: "IBPS · SBI", ids: ["upi", "upi-lite", "cbdc", "neft", "rtgs", "imps", "nach", "aeps", "rupay", "pss-act", "payment-aggregator", "account-aggregator", "fastag", "wallet", "zero-liability"] },
+  { h: "Cyber security और money-laundering", tag: "UPSC GS-III", ids: ["cert-in", "i4c", "1930", "cybercrime-gov-in", "pmla", "cfcfrms", "mule-account", "suspect-registry", "kyc", "ckycr", "v-cip"] },
+  { h: "निवेश", tag: "UPSC GS-III (आंशिक)", ids: ["sebi", "bond", "mutual-fund", "sip"] },
+];
+const PK_PSC = [
+  ["आंध्र प्रदेश", "https://psc.ap.gov.in/"], ["अरुणाचल प्रदेश", "https://appsc.gov.in/"], ["असम", "https://apsc.nic.in/"],
+  ["बिहार", "https://bpsc.bihar.gov.in/"], ["छत्तीसगढ़", "https://psc.cg.gov.in/"], ["गोवा", "https://gpsc.goa.gov.in/"],
+  ["गुजरात", "https://gpsc.gujarat.gov.in/"], ["हरियाणा", "https://hpsc.gov.in/"], ["हिमाचल प्रदेश", "https://hppsc.hp.gov.in/"],
+  ["जम्मू-कश्मीर", "https://jkpsc.nic.in/"], ["झारखंड", "https://www.jpsc.gov.in/"], ["कर्नाटक", "https://kpsc.karnataka.gov.in/"],
+  ["केरल", "https://www.keralapsc.gov.in/"], ["मध्य प्रदेश", "https://mppsc.mp.gov.in/"], ["महाराष्ट्र", "https://mpsc.gov.in/"],
+  ["मणिपुर", "https://mpscmanipur.gov.in/"], ["मेघालय", "https://mpsc.meghalaya.gov.in/"], ["मिज़ोरम", "https://mpsc.mizoram.gov.in/"],
+  ["नागालैंड", "https://npsc.nagaland.gov.in/"], ["ओडिशा", "https://www.opsc.gov.in/"], ["पंजाब", "https://www.ppsc.gov.in/"],
+  ["राजस्थान", "https://rpsc.rajasthan.gov.in/"], ["सिक्किम", "https://spsc.sikkim.gov.in/"], ["तमिलनाडु", "https://www.tnpsc.gov.in/"],
+  ["तेलंगाना", "https://www.tgpsc.gov.in/"], ["त्रिपुरा", "https://tpsc.tripura.gov.in/"], ["उत्तर प्रदेश", "https://uppsc.up.nic.in/"],
+  ["उत्तराखंड", "https://psc.uk.gov.in/"], ["पश्चिम बंगाल", "https://psc.wb.gov.in/"],
+];
+const PARIKSHA = {
+  slug: "pariksha",
+  title: "परीक्षा के लिए: Economy और Banking",
+  desc: "UPSC, राज्य PSC और Banking परीक्षाओं के Economy / Banking हिस्से से जुड़े शब्द — हर syllabus पंक्ति official notification से, हर शब्द का अपना पन्ना।",
+  get body() {
+    return `## यह पन्ना किसके लिए
+
+यह पन्ना उन विद्यार्थियों के लिए है, जो UPSC, राज्य लोक सेवा आयोग या Banking परीक्षाओं के **Economy और Banking** हिस्से की तैयारी कर रहे हैं। नीचे हर परीक्षा के official syllabus की पंक्ति है, और उससे जुड़े शब्दकोश के पन्ने। हर शब्द-पन्ने पर RBI, NPCI, सरकार या संबंधित संस्था का मूल स्रोत दिया है।
+
+यह coaching नहीं है, और हम परीक्षा में आने वाले सवालों का अनुमान नहीं लगाते। Syllabus हर साल बदल सकता है — अपनी परीक्षा का ताज़ा notification आयोग या संस्था की official website पर ज़रूर देखिए।
+
+## UPSC (सिविल सेवा परीक्षा)
+
+UPSC के Civil Services Examination 2026 के notification (Notice No. 05/2026-CSE, 04.02.2026) में Economy से जुड़ी पंक्तियाँ:
+
+- **Prelims, General Studies Paper I (पन्ना 32):** "Economic and Social Development-Sustainable Development, Poverty, Inclusion, Demographics, Social Sector Initiatives, etc."
+- **Mains GS-II (पन्ना 34–35):** "Statutory, regulatory and various quasi-judicial bodies" और "Welfare schemes for vulnerable sections of the population by the Centre and States..."
+- **Mains GS-III (पन्ना 35):** "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment", "Inclusive growth and issues arising from it", "Government Budgeting" और "Investment models"
+- **Mains GS-III (पन्ना 36):** "...basics of cyber security; money-laundering and its prevention"
+
+मूल notification: [UPSC — CSE 2026 Notification (PDF)](https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf)
+
+## राज्य लोक सेवा आयोग (सभी राज्य)
+
+हर राज्य का syllabus अलग है, और समय-समय पर बदलता है, इसलिए यहाँ किसी राज्य के syllabus पर कोई दावा नहीं किया गया है। भारतीय अर्थव्यवस्था और banking के बुनियादी शब्द नीचे की सूची में हैं; अपनी परीक्षा का syllabus अपने आयोग की official website पर मिलाइए।
+
+सभी आयोगों की सूची UPSC के पन्ने [State Public Service Commissions](https://www.upsc.gov.in/external-links/state-public-service-commissions) से ली गई है। हर link 17 अक्टूबर 2026 को खोलकर जाँचा गया; जहाँ आयोग की site सुरक्षित (https) पते पर खुलती है, वही पता दिया है। कर्नाटक का UPSC सूची वाला पुराना पता नहीं खुला, इसलिए वहाँ आयोग की मौजूदा official site दी है।
+
+${PK_PSC.map(([s, u]) => `- [${s} लोक सेवा आयोग](${u})`).join("\n")}
+
+## Banking परीक्षाएँ
+
+- **IBPS PO/MT (CRP PO/MT-XVI, notification 30.06.2026, पन्ना 15):** Main परीक्षा का एक test "General/ Economy/ Banking Awareness / Digital/ Financial Awareness including RBI circulars" है। [IBPS notification (PDF)](https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf)
+- **SBI PO (Advt. No. CRPD/PO/2026-27/09, पन्ना 7):** Main परीक्षा का test "General Awareness / Economy/ Banking Knowledge" है। [SBI विज्ञापन (PDF)](https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1)
+
+${PK_GROUPS.map((g) => `## ${g.h}\n\n**Syllabus से मेल:** ${g.tag}\n\n${PK_T(g.ids)}`).join("\n\n")}
+
+## ध्यान रखें
+
+- यहाँ हर syllabus पंक्ति ऊपर लिखे official notification से ली गई है, 17 अक्टूबर 2026 को जाँची गई।
+- शब्दों को topic में रखना हमारी अपनी व्यवस्था है, आयोग की नहीं।
+- नियम और दरें बदलती रहती हैं; हर शब्द-पन्ने पर "स्रोत से जाँचा" की तारीख़ देखिए।`;
+  },
+};
+
+const PAGES = [ABOUT, SOURCE_POLICY, HOW_TO_CHECK, CONTACT, PRIVACY, DISCLAIMER, PARIKSHA];
 
 /* ------------------------------------------------------------------ hubs */
 
@@ -1891,6 +1964,8 @@ function main() {
   const seenIds = new Set();
   terms.forEach((t) => { if (seenIds.has(t.id)) throw new Error(`Duplicate term id: ${t.id}`); seenIds.add(t.id); });
   setTermLinks(terms);
+  terms.forEach((t) => { TERM_TITLE[t.id] = t.term; });
+  for (const g of PK_GROUPS) for (const id of g.ids) if (!seenIds.has(id)) throw new Error(`Pariksha: unknown term id ${id}`);
   const mwPath = path.join(__dirname, "data", "mascot-welcome.json");
   if (fs.existsSync(mwPath)) {
     MW = JSON.parse(fs.readFileSync(mwPath, "utf8"));

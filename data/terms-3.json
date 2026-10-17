@@ -16709,6 +16709,3532 @@
         }
       ],
       "body": "## मतलब\n\nForm 16, salary पर काटे गए TDS का certificate है, जो employer, employee को देता है। इसमें बताया जाता है कि salary कितनी दी गई, कितना tax काटा गया और सरकार के खाते में जमा हुआ।[^2]\n\n**किस साल का कौन-सा form:**[^1]\n\n- **FY 2025-26 (AY 2026-27) की salary:** पुराने Income-tax Act, 1961 के तहत Form 16, जिसकी due date 15 जून 2026 थी।\n- **Tax year 2026-27 (1 अप्रैल 2026 से) की salary:** नए Income-tax Act, 2025 के तहत Form No. 130, जिसकी due date 15 जून 2027 है।\n\nForm No. 130, पुराने Form 16 की जगह आया है। नया certificate Act की धारा 395(4)(b) और Rules, 2026 के नियम 215 में है।[^2][^5]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **TDS का सबूत:** यह बताता है कि आपकी salary से कटा tax सरकार के खाते में जमा हुआ, और इसी से आप उस TDS का credit ले पाते हैं।[^2]\n- **Return भरने में मदद:** Part C में salary, छूट, कटौतियों और tax का पूरा हिसाब होता है।[^2]\n- **Return के साथ नहीं लगाना:** पर रिकॉर्ड के लिए सँभालकर रखना है।[^2]\n\n## Certificate कैसे बनता है | कैसे\n\n::flow\n\n- **सिर्फ़ TRACES से:** employer को Form No. 130, TRACES से download करके digital या हाथ के signature के साथ देना होता है।[^2][^3]\n- **Statement ज़रूरी:** tax year 2026-27 से salary के TDS का तिमाही statement Form No. 138 है (पहले Form 24Q); certificate उसी के process होने से बनता है।[^1][^2]\n\n## Form No. 130 के हिस्से | हिस्से\n\n- **Part A:** employer (या specified bank) और employee (या specified senior citizen) का ब्योरा।[^2]\n- **Part B:** दी गई रक़म और काटे गए TDS का सार।[^2]\n- **Part C, Annexure-I:** salary का पूरा हिसाब: gross salary, छूट, कटौतियाँ, कर-योग्य आय, tax।[^2]\n- **Part C, Annexure-II:** specified senior citizen की pension और bank ब्याज का हिसाब, जब specified bank TDS काटे।[^2]\n- **एक से ज़्यादा employer:** हर employer अपनी अवधि के Part A और B देता है; Part C हर employer या, employee चाहे तो, आख़िरी employer।[^2][^4]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## आपका अधिकार\n\n> Salary से TDS कटकर जमा हुआ है, तो employer को आपको certificate देना ही है: tax year 2026-27 के लिए Form No. 130, 15 जून 2027 तक।[^1][^2]\n\n## अभी क्या करें\n\n- FY 2025-26 का Form 16 नहीं मिला, तो employer से माँगिए; उसकी due date 15 जून 2026 थी।[^1]\n- Certificate का TDS, AIS (AY 2026-27) या Form No. 168 (tax year 2026-27) से मिलाइए; फ़र्क़ हो तो employer को बताइए।[^1]\n- Certificate खो जाए, तो employer से duplicate माँगिए।[^2][^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "inflation",
+      "term": "Inflation",
+      "aliases": [
+        "महँगाई",
+        "महंगाई",
+        "मुद्रास्फीति",
+        "Inflation Target",
+        "Retail Inflation"
+      ],
+      "full": "महँगाई · चीज़ों और सेवाओं के दाम का समय के साथ बढ़ना",
+      "fullEn": "Inflation",
+      "group": "पैसे की बुनियाद",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की Monetary Policy वाली official जानकारी और MoSPI की CPI (Base 2024=100) press release से जाँचा।"
+        }
+      ],
+      "one": "Inflation यानी महँगाई: रोज़मर्रा की चीज़ों और सेवाओं के दाम का समय के साथ बढ़ना। भारत में इसे CPI से नापा जाता है। सरकार ने RBI से सलाह करके 1 अप्रैल 2026 से 31 मार्च 2031 तक के लिए CPI महँगाई का target 4% रखा है, जिसमें ऊपर 6% और नीचे 2% तक की छूट है।",
+      "facts": [
+        {
+          "k": "नापते किससे हैं",
+          "v": "CPI",
+          "s": "Consumer Price Index"
+        },
+        {
+          "k": "Target",
+          "v": "4% CPI महँगाई",
+          "s": "ऊपर 6%, नीचे 2% तक छूट"
+        },
+        {
+          "k": "Target की अवधि",
+          "v": "1.4.2026 – 31.3.2031",
+          "s": "25 मार्च 2026 को तय"
+        },
+        {
+          "k": "Target कौन तय करता है",
+          "v": "केंद्र सरकार",
+          "s": "RBI से सलाह करके; RBI Act धारा 45ZA"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "दाम बढ़े",
+            "s": "CPI ऊपर गया"
+          },
+          {
+            "t": "MPC की बैठक",
+            "s": "Repo Rate पर फ़ैसला"
+          },
+          {
+            "t": "क़र्ज़ की ब्याज दर",
+            "s": "मांग पर असर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "महँगाई का आँकड़ा",
+            "s": "हर महीने"
+          },
+          {
+            "b": "Repo Rate",
+            "s": "बदल सकता है"
+          }
+        ],
+        "note": "RBI के मुताबिक MPC का काम है Repo Rate तय करना, ताकि महँगाई का target हासिल हो। RBI का मुख्य मक़सद दाम स्थिर रखना है, पर विकास (growth) का ध्यान रखते हुए।"
+      },
+      "myths": [
+        {
+          "m": "\"Inflation का मतलब है हर चीज़ महँगी हो जाना।\"",
+          "f": "ज़रूरी नहीं। Inflation पूरी टोकरी के औसत दाम का बढ़ना है; उसी समय कुछ चीज़ें सस्ती भी हो सकती हैं। जैसे MoSPI के जनवरी 2026 के आँकड़ों में लहसुन, प्याज़ और आलू के दाम एक साल पहले से कम थे, जबकि कुल CPI फिर भी ऊपर था।[^2]"
+        },
+        {
+          "m": "\"RBI का target है कि महँगाई शून्य हो जाए।\"",
+          "f": "नहीं। Target 4% है, शून्य नहीं; और 2% से 6% के बीच रहना छूट के भीतर माना जाता है।[^1]"
+        },
+        {
+          "m": "\"महँगाई का target RBI ख़ुद तय करता है।\"",
+          "f": "नहीं। RBI Act की धारा 45ZA के तहत target केंद्र सरकार RBI से सलाह करके पाँच साल में एक बार तय करती है और Official Gazette में notify करती है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Inflation आसान भाषा में क्या है?",
+          "a": "मान लीजिए पिछले साल ₹100 में जितना सामान आता था, आज उतने ही सामान के लिए ₹104 देने पड़ रहे हैं; तो दाम लगभग 4% बढ़े। यही inflation है। (यह सिर्फ़ समझाने का उदाहरण है।)"
+        },
+        {
+          "q": "भारत में महँगाई कैसे नापी जाती है?",
+          "a": "RBI के मुताबिक inflation target Consumer Price Index (CPI) के हिसाब से तय होता है। CPI को सांख्यिकी मंत्रालय (MoSPI) हर महीने जारी करता है।[^1][^2]"
+        },
+        {
+          "q": "Inflation target कितना है?",
+          "a": "RBI के मुताबिक 4% CPI महँगाई, ऊपरी छूट 6% और निचली 2%। यह target पहली बार 5 अगस्त 2016 को notify हुआ, 31 मार्च 2021 को अगले पाँच साल के लिए बना रहा, और 25 मार्च 2026 को फिर 1 अप्रैल 2026 से 31 मार्च 2031 तक के लिए बनाए रखा गया।[^1]"
+        },
+        {
+          "q": "Target से चूकना कब माना जाता है?",
+          "a": "RBI के मुताबिक जब औसत महँगाई लगातार तीन तिमाही (quarter) तक 6% से ऊपर रहे, या लगातार तीन तिमाही तक 2% से नीचे रहे। तब RBI को सरकार को report देनी होती है: चूक की वजह, क्या क़दम उठाएगा, और कितने समय में target पर लौटेगा।[^1]"
+        },
+        {
+          "q": "महँगाई काबू करने में Repo Rate का क्या रोल है?",
+          "a": "RBI के मुताबिक छह सदस्यों वाली Monetary Policy Committee (MPC) Repo Rate तय करती है, ताकि inflation target हासिल हो। Repo Rate के बदलाव का असर पूरे financial system में ब्याज दरों और मांग पर पहुँचता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "CPI"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "MPC"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Monetary Policy (Functions > Overview): Monetary Policy Framework, Monetary Policy Committee, Instruments of Monetary Policy (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=2752",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "The Monetary Policy Framework",
+              "c": "मुख्य मक़सद दाम की स्थिरता, growth का ध्यान; धारा 45ZA; CPI में target; पाँच साल में एक बार; 5.8.2016 (4%, 6%, 2%); 31.3.2021 और 25.3.2026 को बनाए रखा; 1.4.2026–31.3.2031"
+            },
+            {
+              "ref": "Failure to Maintain Inflation Target",
+              "c": "लगातार तीन तिमाही 6% से ऊपर या 2% से नीचे; RBI की report: वजह, क़दम, समय"
+            },
+            {
+              "ref": "The Monetary Policy Committee",
+              "c": "धारा 45ZB, छह सदस्य; Repo Rate तय करती है"
+            }
+          ]
+        },
+        {
+          "label": "MoSPI (PIB के ज़रिए) — First Press Release of Consumer Price Index on Base 2024=100, 12 फ़रवरी 2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227012&reg=3&lang=1",
+          "issued": "2026-02-12",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Key Statistics; Top 5 items with low inflation",
+              "c": "CPI से साल-दर-साल महँगाई; जनवरी 2026 में लहसुन, प्याज़, आलू के दाम एक साल पहले से कम"
+            }
+          ]
+        },
+        {
+          "label": "UPSC — Civil Services Examination 2026, Notice No. 05/2026-CSE, 04.02.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+          "issued": "2026-02-04",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 35, Mains GS-III",
+              "c": "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nInflation यानी महँगाई। जब समय के साथ रोज़मर्रा की चीज़ों और सेवाओं के दाम औसतन बढ़ते हैं, तो उसी पैसे में पहले से कम सामान आता है। भारत में यह CPI से नापी जाती है, जिसे सांख्यिकी मंत्रालय (MoSPI) हर महीने जारी करता है।[^1][^2]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **पैसे की ताक़त घटती है:** महँगाई जितनी ज़्यादा, उतना ही आपके ₹100 से कम सामान आएगा।\n- **ब्याज दरों पर असर:** RBI महँगाई काबू करने के लिए Repo Rate बदल सकता है, जिससे loan की EMI और FD की ब्याज दरों पर असर पड़ सकता है।[^1]\n- **बचत पर असर:** अगर बचत पर मिलने वाला ब्याज महँगाई से कम है, तो पैसे की असली ताक़त घटती है।\n\n## महँगाई कैसे काबू होती है | कैसे\n\n::flow\n\n- **Target:** केंद्र सरकार, RBI से सलाह करके, पाँच साल में एक बार CPI के हिसाब से target तय करती है। अभी यह 4% है, और 2% से 6% के बीच रहना छूट के भीतर है।[^1]\n- **चूक:** लगातार तीन तिमाही तक यह छूट टूटे, तो RBI को सरकार को कारण और सुधार की योजना बतानी होती है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> UPSC Mains GS-III के syllabus में \"Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment\" लिखा है;[^3] banking परीक्षाओं में Economy / Banking Awareness का हिस्सा होता है। इनकी पूरी सूची [परीक्षा के लिए](/pariksha/) पन्ने पर है। याद रखने लायक़: धारा 45ZA (target), धारा 45ZB (MPC), 4% ± 2%, अवधि 1.4.2026 – 31.3.2031।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "cpi",
+      "term": "CPI",
+      "aliases": [
+        "Consumer Price Index",
+        "उपभोक्ता मूल्य सूचकांक",
+        "CFPI",
+        "Consumer Food Price Index"
+      ],
+      "full": "उपभोक्ता मूल्य सूचकांक · आम परिवार जो चीज़ें और सेवाएँ ख़रीदते हैं, उनके दाम का पैमाना",
+      "fullEn": "Consumer Price Index",
+      "group": "पैसे की बुनियाद",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। MoSPI की CPI (Base 2024=100) की पहली press release (12 फ़रवरी 2026) और RBI की Monetary Policy वाली official जानकारी से जाँचा।"
+        }
+      ],
+      "one": "CPI (Consumer Price Index) एक पैमाना है, जो बताता है कि आम परिवार जो चीज़ें और सेवाएँ ख़रीदते हैं, उनके दाम कितने बदले। इसे सांख्यिकी मंत्रालय (MoSPI) हर महीने जारी करता है। फ़रवरी 2026 से नई series आई है, जिसका base year 2024 है, और इसी CPI के हिसाब से RBI का महँगाई target तय होता है।",
+      "facts": [
+        {
+          "k": "कौन जारी करता है",
+          "v": "MoSPI",
+          "s": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        {
+          "k": "Base year",
+          "v": "2024 = 100",
+          "s": "12 फ़रवरी 2026 से नई series"
+        },
+        {
+          "k": "टोकरी में items",
+          "v": "358",
+          "s": "पहले 299 थे"
+        },
+        {
+          "k": "दाम कहाँ से",
+          "v": "1407 शहरी बाज़ार, 1465 गाँव",
+          "s": "हर हफ़्ते, field staff"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "दाम इकट्ठा",
+            "s": "शहरी बाज़ार और गाँव"
+          },
+          {
+            "t": "Index बनता है",
+            "s": "base 2024 = 100"
+          },
+          {
+            "t": "महँगाई दर",
+            "s": "साल-दर-साल बदलाव"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "हर हफ़्ते",
+            "s": "NSO field staff"
+          },
+          {
+            "b": "हर महीने",
+            "s": "MoSPI जारी करता है"
+          }
+        ],
+        "note": "MoSPI के मुताबिक नई series में सामान का वज़न (weight) Household Consumption Expenditure Survey 2023-24 से लिया गया है, यानी परिवार किस चीज़ पर कितना ख़र्च करते हैं, उसी हिसाब से।"
+      },
+      "myths": [
+        {
+          "m": "\"CPI 104 है, तो महँगाई 104% है।\"",
+          "f": "नहीं। CPI एक index है, जो base year (2024 = 100) से तुलना करता है। महँगाई दर अलग निकाली जाती है: इस महीने का CPI पिछले साल के इसी महीने के CPI से कितना प्रतिशत ज़्यादा है। जैसे MoSPI के मुताबिक जनवरी 2026 में CPI 104.46 था, और महँगाई दर 2.75%।[^1]"
+        },
+        {
+          "m": "\"CPI में सिर्फ़ खाने-पीने की चीज़ें गिनी जाती हैं।\"",
+          "f": "नहीं। MoSPI के मुताबिक नई टोकरी में 358 items हैं, जिनमें 308 सामान और 50 सेवाएँ हैं, जैसे किराया, फ़ोन, रेल और हवाई किराया, OTT subscription। खाने की महँगाई अलग से CFPI (Consumer Food Price Index) से भी दिखाई जाती है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "CPI आसान भाषा में क्या है?",
+          "a": "सोचिए एक बड़ी टोकरी है, जिसमें वो सब है जो एक आम परिवार ख़रीदता है: अनाज, सब्ज़ी, कपड़े, किराया, फ़ोन वग़ैरह। CPI बताता है कि इस पूरी टोकरी के दाम base year के मुक़ाबले कितने बदले।"
+        },
+        {
+          "q": "Base year 2024 = 100 का क्या मतलब है?",
+          "a": "MoSPI के मुताबिक नई series में 2024 के दामों को 100 माना गया है। अगर किसी महीने CPI 104 है, तो मोटे तौर पर टोकरी 2024 के मुक़ाबले करीब 4% महँगी है।[^1]"
+        },
+        {
+          "q": "नई series में क्या बदला?",
+          "a": "MoSPI के मुताबिक base 2012 से 2024 हुआ; 6 groups की जगह 12 divisions (संयुक्त राष्ट्र के COICOP 2018 वर्गीकरण के मुताबिक); items 299 से 358; पहली बार गाँव के मकान का किराया जोड़ा गया; OTT जैसी नई सेवाएँ जुड़ीं, और VCR / DVD player, radio जैसी पुरानी चीज़ें हटीं।[^1]"
+        },
+        {
+          "q": "CPI कब जारी होता है?",
+          "a": "MoSPI की press release के मुताबिक CPI हर महीने जारी होता है; जैसे फ़रवरी 2026 का CPI 12 मार्च 2026 को जारी होना था (12 तारीख़ को छुट्टी हो, तो अगले working दिन)।[^1]"
+        },
+        {
+          "q": "CPI और RBI का क्या रिश्ता है?",
+          "a": "RBI के मुताबिक केंद्र सरकार महँगाई का target CPI के हिसाब से तय करती है: अभी 4%, छूट 2% से 6%। RBI की MPC इसी target को ध्यान में रखकर Repo Rate तय करती है।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Inflation"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "MPC"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "MoSPI (PIB के ज़रिए) — First Press Release of Consumer Price Index on Base 2024=100, 12 फ़रवरी 2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227012&reg=3&lang=1",
+          "issued": "2026-02-12",
+          "effective": "",
+          "used": [
+            {
+              "ref": "What's New; Key Statistics",
+              "c": "base 2012 से 2024; HCES 2023-24; 12 divisions, COICOP 2018; नए और हटे items; जनवरी 2026: CPI 104.46, महँगाई 2.75%; CFPI"
+            },
+            {
+              "ref": "Response Rate; अगली release",
+              "c": "1407 शहरी बाज़ार (online समेत), 1465 गाँव; NSO field staff, हर हफ़्ते; फ़रवरी 2026 CPI 12 मार्च 2026 को"
+            },
+            {
+              "ref": "Technical Note: Reference Period; Revision of Item Basket",
+              "c": "2024 base year; base-period दाम जनवरी–दिसंबर 2024; items 299 से 358 (सामान 308, सेवाएँ 50); गाँव का किराया पहली बार"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Monetary Policy (Functions > Overview): Monetary Policy Framework, Monetary Policy Committee, Instruments of Monetary Policy (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=2752",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "The Monetary Policy Framework",
+              "c": "धारा 45ZA: target CPI में; 4%, 6%, 2%; MPC Repo Rate तय करती है"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCPI यानी Consumer Price Index (उपभोक्ता मूल्य सूचकांक)। यह एक नंबर है, जो बताता है कि आम परिवार जो चीज़ें और सेवाएँ ख़रीदते हैं, उनकी पूरी टोकरी के दाम base year के मुक़ाबले कितने बदले। भारत में इसे सांख्यिकी मंत्रालय (MoSPI) हर महीने जारी करता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **महँगाई का आधिकारिक पैमाना:** ख़बरों में \"retail महँगाई\" का आँकड़ा CPI से ही आता है।[^1]\n- **RBI के फ़ैसले:** RBI का महँगाई target CPI में है, इसलिए CPI से Repo Rate पर असर पड़ सकता है।[^2]\n\n## CPI कैसे बनता है | कैसे\n\n::flow\n\n- **नई series:** 12 फ़रवरी 2026 से base year 2024 = 100; टोकरी में 358 items, जिनमें 50 सेवाएँ।[^1]\n- **खाने की महँगाई:** इसके लिए अलग पैमाना CFPI (Consumer Food Price Index) भी जारी होता है।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: जारी करता है MoSPI; base year 2024 = 100 (12 फ़रवरी 2026 से, पहले 2012); weights HCES 2023-24 से; 12 divisions (COICOP 2018); 358 items। Economy वाले बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "sdf",
+      "term": "SDF",
+      "aliases": [
+        "Standing Deposit Facility",
+        "SDF rate",
+        "स्टैंडिंग डिपॉज़िट फ़ैसिलिटी"
+      ],
+      "full": "Standing Deposit Facility · bank अपना फ़ालतू पैसा रातभर के लिए RBI के पास रखते हैं, बिना कुछ गिरवी लिए",
+      "fullEn": "Standing Deposit Facility",
+      "group": "बैंकिंग",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की Instruments of Monetary Policy वाली जानकारी और 7 अक्टूबर 2026 के MPC resolution से जाँचा।"
+        }
+      ],
+      "one": "SDF (Standing Deposit Facility) वह सुविधा है, जिसमें bank अपना फ़ालतू पैसा रातभर (overnight) के लिए RBI के पास जमा कर सकते हैं, और RBI इसके बदले कोई security गिरवी नहीं देता। SDF rate, Repo Rate से 0.25% कम रखा जाता है; 7 अक्टूबर 2026 से यह 5.25% है।",
+      "facts": [
+        {
+          "k": "किसके लिए",
+          "v": "LAF में शामिल संस्थाएँ",
+          "s": "जैसे bank"
+        },
+        {
+          "k": "अवधि",
+          "v": "रातभर (overnight)",
+          "s": "बिना collateral"
+        },
+        {
+          "k": "दर",
+          "v": "Repo Rate − 0.25%",
+          "s": "25 basis points कम"
+        },
+        {
+          "k": "7.10.2026 से",
+          "v": "5.25%",
+          "s": "Repo Rate 5.50%"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank के पास फ़ालतू पैसा",
+            "s": "रातभर के लिए"
+          },
+          {
+            "t": "RBI के पास जमा",
+            "s": "SDF में"
+          },
+          {
+            "t": "ब्याज मिलता है",
+            "s": "SDF rate पर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "जमा",
+            "s": "कोई गिरवी नहीं"
+          },
+          {
+            "b": "अगले दिन",
+            "s": "पैसा वापस"
+          }
+        ],
+        "note": "RBI के मुताबिक SDF, LAF corridor का निचला सिरा (floor) है; ऊपरी सिरा MSF है, और बीच में Repo Rate।"
+      },
+      "myths": [
+        {
+          "m": "\"SDF और Reverse Repo एक ही चीज़ है।\"",
+          "f": "नहीं। RBI के मुताबिक अप्रैल 2022 में SDF आने के बाद, SDF rate ने fixed reverse repo rate की जगह LAF corridor के निचले सिरे के रूप में ले ली। Reverse Repo में RBI पैसा लेते समय सरकारी securities गिरवी देता है, जबकि SDF में कोई गिरवी नहीं होती। Fixed rate reverse repo अब RBI की मर्ज़ी से, तय कामों के लिए होता है।[^1]"
+        },
+        {
+          "m": "\"SDF आम लोगों की जमा योजना है।\"",
+          "f": "नहीं। RBI के मुताबिक यह LAF में शामिल संस्थाओं, जैसे bank, के लिए है; आम ग्राहक इसमें पैसा नहीं रखते।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "SDF आसान भाषा में क्या है?",
+          "a": "दिन के आख़िर में किसी bank के पास ज़रूरत से ज़्यादा पैसा बचे, तो वह उसे रातभर के लिए RBI के पास रख सकता है और उस पर SDF rate से ब्याज पाता है। RBI इसके बदले कोई security नहीं देता।[^1]"
+        },
+        {
+          "q": "SDF rate कितना है?",
+          "a": "RBI के मुताबिक SDF rate, Repo Rate से 25 basis points (यानी 0.25%) नीचे रहता है। 7 अक्टूबर 2026 को Repo Rate 5.50% हुआ, तो SDF rate 5.25% हो गया।[^1][^2]"
+        },
+        {
+          "q": "Basis point क्या होता है?",
+          "a": "1 basis point = 0.01%। इसलिए 25 basis points = 0.25%। (यह गिनती का एक तरीक़ा है।)"
+        },
+        {
+          "q": "SDF का मक़सद क्या है?",
+          "a": "RBI के मुताबिक SDF से RBI बाज़ार का फ़ालतू पैसा (liquidity) सोखता है, और यह financial stability का औज़ार भी है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "LAF"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "MSF"
+        },
+        {
+          "t": "OMO"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Monetary Policy (Functions > Overview): Instruments of Monetary Policy (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=2752",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Standing Deposit Facility (SDF) Rate",
+              "c": "LAF participants से overnight, बिना collateral जमा; financial stability tool; Repo से 25 bps नीचे; अप्रैल 2022 से fixed reverse repo की जगह floor"
+            },
+            {
+              "ref": "LAF Corridor; Reverse Repo Rate",
+              "c": "MSF ऊपर, SDF नीचे, Repo बीच में; reverse repo में securities गिरवी; fixed rate reverse repo RBI की मर्ज़ी से"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Monetary Policy Statement, 2026-27, Resolution of the Monetary Policy Committee, October 5 to 7, 2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+          "issued": "2026-10-07",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "Repo Rate 25 bps बढ़कर 5.50%; SDF 5.25%; MSF और Bank Rate 5.75%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSDF यानी Standing Deposit Facility। RBI के मुताबिक यह वह दर है, जिस पर RBI, LAF में शामिल संस्थाओं (जैसे bank) से रातभर के लिए पैसा जमा लेता है, बिना कोई security गिरवी दिए।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **सीधा असर नहीं:** यह bank और RBI के बीच की सुविधा है, आम ग्राहक की जमा योजना नहीं।[^1]\n- **दरों के दायरे का निचला सिरा:** RBI के मुताबिक SDF rate, LAF corridor का floor है; ऊपर MSF और बीच में Repo Rate।[^1]\n\n## SDF कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: SDF अप्रैल 2022 में आया; बिना collateral; Repo − 25 bps; LAF corridor का floor (ऊपर MSF); 7 अक्टूबर 2026 से 5.25%। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "laf",
+      "term": "LAF",
+      "aliases": [
+        "Liquidity Adjustment Facility",
+        "LAF corridor",
+        "लिक्विडिटी एडजस्टमेंट फ़ैसिलिटी"
+      ],
+      "full": "Liquidity Adjustment Facility · RBI के वो रोज़ाना के औज़ार, जिनसे वह bank व्यवस्था में पैसा डालता या खींचता है",
+      "fullEn": "Liquidity Adjustment Facility",
+      "group": "बैंकिंग",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की Instruments of Monetary Policy वाली जानकारी और 7 अक्टूबर 2026 के MPC resolution से जाँचा।"
+        }
+      ],
+      "one": "LAF (Liquidity Adjustment Facility) RBI के वो काम हैं, जिनसे वह bank व्यवस्था में पैसा (liquidity) डालता या उससे खींचता है। इसमें repo, reverse repo, SDF और MSF आते हैं। इनकी दरें एक 'corridor' बनाती हैं: नीचे SDF, बीच में Repo Rate, ऊपर MSF।",
+      "facts": [
+        {
+          "k": "पैसा डालना",
+          "v": "Repo, MSF",
+          "s": "bank RBI से लेते हैं"
+        },
+        {
+          "k": "पैसा खींचना",
+          "v": "SDF, reverse repo",
+          "s": "bank RBI के पास रखते हैं"
+        },
+        {
+          "k": "Corridor (7.10.2026)",
+          "v": "5.25% – 5.50% – 5.75%",
+          "s": "SDF – Repo – MSF"
+        },
+        {
+          "k": "छोटी अवधि का मुख्य औज़ार",
+          "v": "7-दिन का variable rate repo / reverse repo",
+          "s": "RBI की मर्ज़ी से 1 से 14 दिन"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "SDF (नीचे)",
+            "s": "Repo − 0.25%"
+          },
+          {
+            "t": "Repo Rate (बीच)",
+            "s": "MPC तय करती है"
+          },
+          {
+            "t": "MSF (ऊपर)",
+            "s": "Repo + 0.25%"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Corridor",
+            "s": "दरों का दायरा"
+          },
+          {
+            "b": "Corridor",
+            "s": "दरों का दायरा"
+          }
+        ],
+        "note": "RBI के मुताबिक LAF से RBI कोशिश करता है कि बाज़ार की रातभर वाली ब्याज दर (weighted average call rate, WACR) Repo Rate के आसपास रहे।"
+      },
+      "myths": [
+        {
+          "m": "\"LAF का मतलब सिर्फ़ Repo Rate है।\"",
+          "f": "नहीं। RBI के मुताबिक LAF में रातभर और लंबी अवधि (term) के repo / reverse repo, SDF और MSF, सब आते हैं।[^1]"
+        },
+        {
+          "m": "\"Liquidity संभालने का RBI के पास सिर्फ़ LAF है।\"",
+          "f": "नहीं। RBI के मुताबिक LAF के अलावा OMO (सरकारी securities की ख़रीद-बिक्री), forex swaps और Market Stabilisation Scheme (MSS) भी हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Liquidity आसान भाषा में क्या है?",
+          "a": "Bank व्यवस्था में उपलब्ध नक़द पैसा, जिससे bank एक-दूसरे को और ग्राहकों को उधार देते हैं। ज़रूरत से कम हो, तो RBI पैसा डालता है; ज़्यादा हो, तो खींचता है।[^1]"
+        },
+        {
+          "q": "LAF corridor क्या है?",
+          "a": "RBI के मुताबिक MSF rate ऊपरी सीमा, SDF rate निचली सीमा, और Repo Rate बीच में। 7 अक्टूबर 2026 से ये 5.75%, 5.25% और 5.50% हैं।[^1][^2]"
+        },
+        {
+          "q": "7-दिन वाला repo क्या है?",
+          "a": "RBI के मुताबिक छोटी अवधि की liquidity मुख्य रूप से 7-दिन के variable rate repo / reverse repo auction से संभाली जाती है, और ज़रूरत पड़ने पर रातभर से 14 दिन तक के auction भी होते हैं।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "SDF"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "MSF"
+        },
+        {
+          "t": "OMO"
+        },
+        {
+          "t": "MPC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Monetary Policy (Functions > Overview): Instruments of Monetary Policy (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=2752",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Liquidity Adjustment Facility (LAF); LAF Corridor",
+              "c": "RBI liquidity डालता / खींचता है; overnight और term repo / reverse repo, SDF, MSF; OMO, forex swaps, MSS; corridor: MSF ऊपर, SDF नीचे, Repo बीच"
+            },
+            {
+              "ref": "Liquidity Management Tool; operating framework",
+              "c": "7-दिन variable rate repo / reverse repo; overnight से 14 दिन; WACR को Repo के साथ"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Monetary Policy Statement, 2026-27, Resolution of the Monetary Policy Committee, October 5 to 7, 2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+          "issued": "2026-10-07",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "Repo 5.50%; SDF 5.25%; MSF और Bank Rate 5.75%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nLAF यानी Liquidity Adjustment Facility। RBI के मुताबिक ये RBI के वो काम हैं, जिनसे वह bank व्यवस्था में पैसा (liquidity) डालता है या उससे खींचता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **ब्याज दरों पर असर:** RBI की कोशिश रहती है कि बाज़ार की रातभर वाली दर Repo Rate के आसपास रहे, ताकि Repo Rate का बदलाव पूरे financial system तक पहुँचे।[^1]\n\n## LAF corridor | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: LAF = repo + reverse repo + SDF + MSF; corridor का floor SDF, ceiling MSF; operating target WACR। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "omo",
+      "term": "OMO",
+      "aliases": [
+        "Open Market Operations",
+        "Open Market Operation",
+        "ओपन मार्केट ऑपरेशन"
+      ],
+      "full": "Open Market Operations · RBI का सरकारी securities ख़रीदना या बेचना, ताकि लंबे समय के लिए पैसा डाले या खींचे",
+      "fullEn": "Open Market Operations",
+      "group": "बैंकिंग",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की Instruments of Monetary Policy वाली जानकारी से जाँचा।"
+        }
+      ],
+      "one": "OMO (Open Market Operations) में RBI बाज़ार से सरकारी securities ख़रीदता या उन्हें बेचता है। ख़रीदने पर bank व्यवस्था में लंबे समय (durable) के लिए पैसा आता है, और बेचने पर पैसा बाहर खिंचता है।",
+      "facts": [
+        {
+          "k": "RBI ख़रीदे",
+          "v": "पैसा अंदर",
+          "s": "liquidity बढ़ती है"
+        },
+        {
+          "k": "RBI बेचे",
+          "v": "पैसा बाहर",
+          "s": "liquidity घटती है"
+        },
+        {
+          "k": "किस चीज़ में",
+          "v": "सरकारी securities",
+          "s": "outright ख़रीद-बिक्री"
+        },
+        {
+          "k": "असर की अवधि",
+          "v": "लंबा (durable)",
+          "s": "LAF छोटी अवधि के लिए"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "RBI",
+            "s": "सरकारी securities"
+          },
+          {
+            "t": "बाज़ार / bank",
+            "s": "ख़रीद या बिक्री"
+          },
+          {
+            "t": "Bank व्यवस्था में पैसा",
+            "s": "बढ़ता या घटता"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "ख़रीदा",
+            "s": "पैसा अंदर"
+          },
+          {
+            "b": "बेचा",
+            "s": "पैसा बाहर"
+          }
+        ],
+        "note": "RBI के मुताबिक OMO से durable (टिकाऊ) liquidity डाली या खींची जाती है, जबकि छोटी अवधि की ज़रूरत LAF से संभाली जाती है।"
+      },
+      "myths": [
+        {
+          "m": "\"OMO का मतलब शेयर बाज़ार में शेयर ख़रीदना है।\"",
+          "f": "नहीं। RBI के मुताबिक OMO में सरकारी securities की outright ख़रीद-बिक्री होती है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "OMO आसान भाषा में क्या है?",
+          "a": "RBI जब बाज़ार से सरकारी bond (securities) ख़रीदता है, तो बेचने वालों को पैसा देता है, यानी व्यवस्था में पैसा आता है। जब बेचता है, तो ख़रीदार RBI को पैसा देते हैं, यानी पैसा व्यवस्था से बाहर जाता है।[^1]"
+        },
+        {
+          "q": "OMO और LAF में फ़र्क़?",
+          "a": "RBI के मुताबिक LAF मुख्य रूप से छोटी अवधि की liquidity के लिए है, और OMO durable liquidity डालने या खींचने के लिए। दोनों RBI के liquidity संभालने के औज़ार हैं।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "LAF"
+        },
+        {
+          "t": "SDF"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Monetary Policy (Functions > Overview): Instruments of Monetary Policy (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=2752",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Open Market Operations (OMOs)",
+              "c": "सरकारी securities की outright ख़रीद / बिक्री; durable liquidity डालना / खींचना"
+            },
+            {
+              "ref": "Liquidity Adjustment Facility (LAF); Liquidity Management Tool",
+              "c": "LAF के अलावा OMO, forex swaps, MSS; छोटी अवधि की liquidity LAF से"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nOMO यानी Open Market Operations। RBI के मुताबिक इसमें RBI सरकारी securities ख़रीदता या बेचता है, ताकि bank व्यवस्था में टिकाऊ (durable) liquidity डाले या खींचे।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **Bank व्यवस्था का पैसा:** OMO से bank व्यवस्था की टिकाऊ liquidity बढ़ या घट सकती है।[^1]\n\n## OMO कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: OMO = सरकारी securities की outright ख़रीद-बिक्री; durable liquidity; ख़रीद = injection, बिक्री = absorption। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "gdp",
+      "term": "GDP",
+      "aliases": [
+        "Gross Domestic Product",
+        "सकल घरेलू उत्पाद",
+        "Real GDP",
+        "Nominal GDP",
+        "GDP growth"
+      ],
+      "full": "सकल घरेलू उत्पाद · एक तय अवधि में देश के अंदर बने अंतिम सामान और सेवाओं का कुल मूल्य",
+      "fullEn": "Gross Domestic Product",
+      "group": "पैसे की बुनियाद",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। MoSPI की नई GDP series (base year 2022-23, 27 फ़रवरी 2026) और 2025-26 के Provisional Estimates (5 जून 2026) की press release से जाँचा।"
+        }
+      ],
+      "one": "GDP (Gross Domestic Product) यानी एक तय अवधि में देश के अंदर बने अंतिम (final) सामान और सेवाओं का कुल मूल्य। भारत में इसे सांख्यिकी मंत्रालय (MoSPI) जारी करता है। 27 फ़रवरी 2026 से नई series आई है, जिसका base year 2022-23 है; उसके मुताबिक 2025-26 में Real GDP 7.7% बढ़ा।",
+      "facts": [
+        {
+          "k": "कौन जारी करता है",
+          "v": "MoSPI",
+          "s": "सांख्यिकी मंत्रालय"
+        },
+        {
+          "k": "Base year",
+          "v": "2022-23",
+          "s": "27.2.2026 से; पहले 2011-12"
+        },
+        {
+          "k": "Real GDP 2025-26",
+          "v": "₹323.12 लाख करोड़",
+          "s": "वृद्धि 7.7% (Provisional)"
+        },
+        {
+          "k": "Nominal GDP 2025-26",
+          "v": "₹346.36 लाख करोड़",
+          "s": "वृद्धि 8.9% (Provisional)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "देश में उत्पादन",
+            "s": "खेती, उद्योग, सेवाएँ"
+          },
+          {
+            "t": "अंतिम सामान और सेवाएँ",
+            "s": "कुल मूल्य"
+          },
+          {
+            "t": "GDP",
+            "s": "साल या तिमाही का"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "आँकड़े",
+            "s": "अलग-अलग indicators"
+          },
+          {
+            "b": "MoSPI",
+            "s": "हिसाब और release"
+          }
+        ],
+        "note": "MoSPI के मुताबिक तिमाही और सालाना अनुमान 'Benchmark-Indicator' तरीक़े से बनते हैं: पिछले साल के अनुमान को अलग-अलग क्षेत्रों के indicators (जैसे cement उत्पादन, steel की खपत) से आगे बढ़ाया जाता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Real GDP और Nominal GDP एक ही हैं।\"",
+          "f": "नहीं। MoSPI के मुताबिक Nominal GDP मौजूदा दामों (current prices) पर है, और Real GDP स्थिर दामों (constant prices, base year 2022-23 के दाम) पर। इसलिए महँगाई का असर हटाकर असली बढ़त Real GDP से दिखती है। जैसे 2025-26 में Nominal GDP 8.9% बढ़ा, Real GDP 7.7%।[^2]"
+        },
+        {
+          "m": "\"GDP में हर ख़रीद-बिक्री जोड़ दी जाती है।\"",
+          "f": "नहीं। MoSPI के मुताबिक GDP अंतिम (final) सामान और सेवाओं का मूल्य है, यानी बीच के कच्चे माल को दोबारा नहीं गिना जाता।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "GDP आसान भाषा में क्या है?",
+          "a": "एक साल (या तिमाही) में देश के अंदर जितना भी अंतिम सामान बना और जितनी सेवाएँ दी गईं, उन सबका कुल मूल्य। जैसे एक रोटी बेचने वाले की रोटी गिनी जाएगी, पर उसमें लगा आटा अलग से नहीं, क्योंकि वह रोटी में शामिल है। (यह समझाने का उदाहरण है।)[^3]"
+        },
+        {
+          "q": "Base year 2022-23 क्यों चुना गया?",
+          "a": "MoSPI के मुताबिक 2022-23 COVID के बाद का एक हाल का 'सामान्य' साल है, और इसके लिए सभी क्षेत्रों का पक्का और व्यापक data उपलब्ध है।[^1]"
+        },
+        {
+          "q": "Base year बदलने से क्या होता है?",
+          "a": "MoSPI के मुताबिक base year बदलते समय अर्थव्यवस्था के ढाँचे में आए बदलाव पकड़े जाते हैं, नए data स्रोत जोड़े जाते हैं, और हिसाब का तरीक़ा व दायरा बेहतर किया जाता है। नई series में घरेलू कामगारों (hired domestic workers) की सेवाएँ भी GDP में गिनी गई हैं।[^1][^3]"
+        },
+        {
+          "q": "2025-26 में GDP कितना रहा?",
+          "a": "MoSPI के Provisional Estimates (5 जून 2026) के मुताबिक Real GDP ₹323.12 लाख करोड़ (वृद्धि 7.7%) और Nominal GDP ₹346.36 लाख करोड़ (वृद्धि 8.9%)। ये अनुमान आगे revise हो सकते हैं।[^2]"
+        },
+        {
+          "q": "GDP कितनी बार आता है?",
+          "a": "MoSPI सालाना और तिमाही (quarterly), दोनों अनुमान जारी करता है; साल के लिए पहले advance, फिर provisional और बाद में revised अनुमान आते हैं।[^1][^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Inflation"
+        },
+        {
+          "t": "CPI"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "MSME"
+        }
+      ],
+      "sources": [
+        {
+          "label": "MoSPI (PIB के ज़रिए) — New Series of Gross Domestic Product (GDP) Estimates with Base Year 2022-23, 27 फ़रवरी 2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2233518&reg=48&lang=2",
+          "issued": "2026-02-27",
+          "effective": "",
+          "used": [
+            {
+              "ref": "शुरुआती हिस्सा",
+              "c": "base 2011-12 की जगह 2022-23; base revision के मक़सद; 2022-23 क्यों; Part A/B/C"
+            },
+            {
+              "ref": "III Methodology and Major Data Sources",
+              "c": "Benchmark-Indicator तरीक़ा; IMF Quarterly National Accounts Manual 2017"
+            }
+          ]
+        },
+        {
+          "label": "MoSPI (PIB के ज़रिए) — Provisional Estimates of Annual GDP for 2025-26 and Quarterly Estimates for Q4 (January-March) of 2025-26, 5 जून 2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269286&reg=48&lang=1",
+          "issued": "2026-06-05",
+          "effective": "",
+          "used": [
+            {
+              "ref": "I Annual GDP Estimates and Growth Rates",
+              "c": "Real GDP (constant prices) ₹323.12 लाख करोड़, 7.7%; Nominal GDP (current prices) ₹346.36 लाख करोड़, 8.9%; 2024-25 FRE"
+            }
+          ]
+        },
+        {
+          "label": "PIB — Redefining Growth: India's Revised GDP Estimates and the New Measurement Framework, 27 फ़रवरी 2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2233792&reg=3&lang=1",
+          "issued": "2026-02-27",
+          "effective": "",
+          "used": [
+            {
+              "ref": "GDP की परिभाषा",
+              "c": "\"GDP is the value of final goods and services produced within a country in an accounting period\""
+            },
+            {
+              "ref": "Inclusion of Hired Domestic Workers",
+              "c": "घरेलू कामगारों की सेवाएँ GDP में शामिल"
+            }
+          ]
+        },
+        {
+          "label": "UPSC — Civil Services Examination 2026, Notice No. 05/2026-CSE, 04.02.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+          "issued": "2026-02-04",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 35, Mains GS-III",
+              "c": "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nGDP यानी Gross Domestic Product (सकल घरेलू उत्पाद)। सरकार की परिभाषा में, एक तय अवधि में देश के अंदर बने अंतिम (final) सामान और सेवाओं का कुल मूल्य।[^3] भारत में इसे सांख्यिकी मंत्रालय (MoSPI) जारी करता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **अर्थव्यवस्था की सेहत:** GDP बढ़ने का मतलब है कि देश में पहले से ज़्यादा सामान और सेवाएँ बनीं।[^3]\n- **विकास दर:** MoSPI ने 2025-26 के लिए Real GDP की वृद्धि दर 7.7% बताई है (Provisional)।[^2]\n\n## GDP कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> UPSC Mains GS-III में \"growth, development and employment\" लिखा है।[^4] याद रखने लायक़: नई series 27 फ़रवरी 2026 से, base year 2022-23 (पहले 2011-12); Real = constant prices, Nominal = current prices; 2025-26 (Provisional): Real 7.7%, Nominal 8.9%। बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "union-budget",
+      "term": "Union Budget",
+      "aliases": [
+        "केंद्रीय बजट",
+        "Annual Financial Statement",
+        "Revenue Budget",
+        "Capital Budget",
+        "Consolidated Fund of India",
+        "Contingency Fund of India",
+        "Public Account of India"
+      ],
+      "full": "केंद्रीय बजट · साल भर में सरकार की अनुमानित कमाई और ख़र्च का हिसाब, जो संसद में रखा जाता है",
+      "fullEn": "Union Budget (Annual Financial Statement)",
+      "group": "पैसे की बुनियाद",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। वित्त मंत्रालय के Key to the Budget Documents 2026-27 और Key Features of Budget 2026-27 से जाँचा।"
+        }
+      ],
+      "one": "Union Budget यानी केंद्र सरकार का सालाना हिसाब: आने वाले साल में सरकार कितना कमाएगी (receipts) और कितना ख़र्च करेगी (expenditure)। संविधान के Article 112 में इसे Annual Financial Statement कहा गया है। इसके दो हिस्से हैं: Revenue Budget और Capital Budget।",
+      "facts": [
+        {
+          "k": "संविधान में",
+          "v": "Article 112",
+          "s": "Annual Financial Statement"
+        },
+        {
+          "k": "दो हिस्से",
+          "v": "Revenue + Capital",
+          "s": "मिलकर Union Budget"
+        },
+        {
+          "k": "Demands for Grants 2026-27",
+          "v": "102",
+          "s": "Article 113; Lok Sabha में"
+        },
+        {
+          "k": "Finance Bill",
+          "v": "Article 110(a)",
+          "s": "टैक्स के प्रस्ताव"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Annual Financial Statement",
+            "s": "Article 112"
+          },
+          {
+            "t": "Demands for Grants",
+            "s": "Article 113, Lok Sabha"
+          },
+          {
+            "t": "Finance Bill",
+            "s": "टैक्स के प्रस्ताव"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "साथ में",
+            "s": "संसद में"
+          },
+          {
+            "b": "साथ में",
+            "s": "संसद में"
+          }
+        ],
+        "note": "वित्त मंत्रालय के मुताबिक Annual Financial Statement, Demands for Grants और Finance Bill, ये तीन दस्तावेज़ संविधान के Article 112, 113 और 110(a) के तहत ज़रूरी हैं; बाक़ी बजट दस्तावेज़ इन्हें समझाने के लिए होते हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"बजट का पूरा पैसा सरकार का अपना होता है।\"",
+          "f": "पूरा नहीं। वित्त मंत्रालय के मुताबिक Public Account में रखा पैसा, जैसे Provident Fund और Small Savings की जमा, सरकार का नहीं होता; वह कभी-न-कभी जमा करने वालों को लौटाना होता है।[^1]"
+        },
+        {
+          "m": "\"Revenue ख़र्च और Capital ख़र्च एक ही हैं।\"",
+          "f": "नहीं। वित्त मंत्रालय के मुताबिक जिस ख़र्च से सरकार की कोई संपत्ति (asset) नहीं बनती, जैसे विभाग चलाना, ब्याज, subsidy, वह revenue ख़र्च है। ज़मीन, इमारत, मशीनरी जैसी संपत्ति बनाने, शेयर में निवेश और loan देने वाला ख़र्च capital ख़र्च है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Budget आसान भाषा में क्या है?",
+          "a": "जैसे घर में साल की शुरुआत में अंदाज़ा लगाते हैं कि कितनी कमाई होगी और कहाँ कितना ख़र्च होगा, वैसे ही सरकार पूरे देश के लिए हिसाब बनाकर संसद में रखती है। (यह समझाने का उदाहरण है।)"
+        },
+        {
+          "q": "Consolidated Fund of India क्या है?",
+          "a": "वित्त मंत्रालय के मुताबिक यह Article 266 से बना है। सरकार की सारी कमाई, उसके लिए क़र्ज़ और दिए loan की वसूली इसी में आती है, और सरकार का सारा ख़र्च इसी से होता है; संसद की मंज़ूरी के बिना इससे पैसा नहीं निकल सकता।[^1]"
+        },
+        {
+          "q": "Contingency Fund of India क्या है?",
+          "a": "वित्त मंत्रालय के मुताबिक Article 267 के तहत यह फ़ंड राष्ट्रपति के पास रहता है, ताकि अचानक आए ज़रूरी ख़र्च संसद की मंज़ूरी से पहले हो सकें; मंज़ूरी बाद में ली जाती है। इसका आकार अभी ₹30,000 करोड़ है।[^1]"
+        },
+        {
+          "q": "Revenue Budget और Capital Budget में क्या है?",
+          "a": "वित्त मंत्रालय के मुताबिक Revenue Budget में टैक्स और non-tax कमाई (जैसे ब्याज, dividend, fees) और revenue ख़र्च आते हैं। Capital Budget में सरकार के लिए क़र्ज़ (market loans, Treasury Bills, विदेशी loan), loan की वसूली, और संपत्ति बनाने व loan देने वाले ख़र्च आते हैं।[^1]"
+        },
+        {
+          "q": "Budget में कितने दस्तावेज़ होते हैं?",
+          "a": "वित्त मंत्रालय के मुताबिक 2026-27 में बजट भाषण के अलावा 12 दस्तावेज़ रखे गए, जैसे Annual Financial Statement, Demands for Grants, Finance Bill, FRBM Act वाले Fiscal Policy Statements, Budget at a Glance। सब indiabudget.gov.in पर हैं।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Fiscal Deficit"
+        },
+        {
+          "t": "GDP"
+        },
+        {
+          "t": "Tax Regime"
+        },
+        {
+          "t": "Small Savings Schemes"
+        },
+        {
+          "t": "Income-tax Act, 2025"
+        }
+      ],
+      "sources": [
+        {
+          "label": "वित्त मंत्रालय (Budget Division) — Key to the Budget Documents 2026-2027, फ़रवरी 2026 (17 अक्टूबर 2026 को पढ़ा; पन्ना नंबर PDF के)",
+          "url": "https://www.indiabudget.gov.in/doc/Key_to_Budget_Document_2026.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 1 (PDF पन्ना 2)",
+              "c": "12 दस्तावेज़ों की सूची; A, B, C Article 112, 113, 110(a) से; D FRBM Act से; बाक़ी समझाने वाले"
+            },
+            {
+              "ref": "पैरा 2.1 A (i)–(vi) (PDF पन्ना 2–4)",
+              "c": "AFS, Article 112; तीन हिस्से; Revenue + Capital = Union Budget; CFI Article 266; Contingency Fund Article 267, ₹30,000 करोड़; Public Account 266(2), PF और Small Savings; revenue और capital ख़र्च का फ़र्क़"
+            },
+            {
+              "ref": "Demands for Grants (PDF पन्ना 5)",
+              "c": "Lok Sabha में; 2026-27 में 102 Demands"
+            }
+          ]
+        },
+        {
+          "label": "UPSC — Civil Services Examination 2026, Notice No. 05/2026-CSE, 04.02.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+          "issued": "2026-02-04",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 35, Mains GS-III",
+              "c": "Government Budgeting"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nUnion Budget केंद्र सरकार का सालाना वित्तीय हिसाब है। वित्त मंत्रालय के मुताबिक संविधान के Article 112 के तहत Annual Financial Statement में भारत सरकार की अगले साल की अनुमानित कमाई और ख़र्च, मौजूदा साल के अनुमान और पिछले साल के असली आँकड़े दिखाए जाते हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **टैक्स के बदलाव:** टैक्स से जुड़े प्रस्ताव Finance Bill में आते हैं।[^1]\n- **आपकी जमा का हिसाब:** Provident Fund और Small Savings की जमा Public Account में रहती है; यह पैसा सरकार का नहीं, जमा करने वालों का है।[^1]\n\n## बजट के मुख्य दस्तावेज़ | कैसे\n\n::flow\n\n- **सरकारी खाते के तीन हिस्से:** Consolidated Fund of India, Contingency Fund of India और Public Account of India।[^1]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> UPSC Mains GS-III के syllabus में \"Government Budgeting\" अलग से लिखा है।[^2] याद रखने लायक़: Article 112 (AFS), 113 (Demands for Grants), 110(a) (Finance Bill), 266 (CFI और Public Account), 267 (Contingency Fund, ₹30,000 करोड़); 2026-27 में 102 Demands for Grants। बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "fiscal-deficit",
+      "term": "Fiscal Deficit",
+      "aliases": [
+        "राजकोषीय घाटा",
+        "Gross Fiscal Deficit",
+        "Revenue Deficit",
+        "Primary Deficit",
+        "राजस्व घाटा"
+      ],
+      "full": "राजकोषीय घाटा · सरकार का कुल ख़र्च, उसकी उस कमाई से कितना ज़्यादा है जो क़र्ज़ नहीं है",
+      "fullEn": "Fiscal Deficit",
+      "group": "पैसे की बुनियाद",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। वित्त मंत्रालय के Key to the Budget Documents 2026-27 और Key Features of Budget 2026-27 से जाँचा।"
+        }
+      ],
+      "one": "Fiscal Deficit (राजकोषीय घाटा) बताता है कि सरकार का कुल ख़र्च उसकी उस कमाई से कितना ज़्यादा है, जो क़र्ज़ से नहीं आई; यानी यह कमी पूरी करने के लिए सरकार को कितना उधार लेना पड़ेगा। Budget 2026-27 में इसका अनुमान GDP का 4.3% है।",
+      "facts": [
+        {
+          "k": "2026-27 (Budget अनुमान)",
+          "v": "GDP का 4.3%",
+          "s": "Fiscal Deficit"
+        },
+        {
+          "k": "2025-26 (संशोधित अनुमान)",
+          "v": "GDP का 4.4%",
+          "s": "Budget अनुमान के बराबर"
+        },
+        {
+          "k": "क़र्ज़ / GDP, 2026-27",
+          "v": "55.6%",
+          "s": "2025-26 RE में 56.1%"
+        },
+        {
+          "k": "क़र्ज़ का लक्ष्य",
+          "v": "50 ± 1% GDP",
+          "s": "2030 तक"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "कुल ख़र्च",
+            "s": "revenue + capital + loan (वापसी घटाकर)"
+          },
+          {
+            "t": "क़र्ज़ के बिना कमाई",
+            "s": "revenue + ग़ैर-क़र्ज़ capital receipts"
+          },
+          {
+            "t": "Fiscal Deficit",
+            "s": "दोनों का अंतर"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "घटाइए",
+            "s": ""
+          },
+          {
+            "b": "बराबर",
+            "s": "उधार की ज़रूरत"
+          }
+        ],
+        "note": "वित्त मंत्रालय के मुताबिक Revenue Deficit = revenue ख़र्च − revenue कमाई; Primary Deficit = Fiscal Deficit − ब्याज का भुगतान।"
+      },
+      "myths": [
+        {
+          "m": "\"Fiscal Deficit का मतलब है सरकार का घाटे में चलना, यानी नुक़सान।\"",
+          "f": "यह कंपनी वाले 'नुक़सान' जैसा नहीं है। वित्त मंत्रालय की परिभाषा में यह ख़र्च और क़र्ज़ के बिना वाली कमाई का अंतर है; इसमें संपत्ति बनाने वाला capital ख़र्च और दिए गए loan भी शामिल हैं।[^1]"
+        },
+        {
+          "m": "\"Fiscal Deficit और Revenue Deficit एक ही हैं।\"",
+          "f": "नहीं। वित्त मंत्रालय के मुताबिक Revenue Deficit सिर्फ़ revenue ख़र्च और revenue कमाई का अंतर है; Fiscal Deficit में capital ख़र्च और loan भी आते हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Fiscal Deficit आसान भाषा में क्या है?",
+          "a": "मान लीजिए किसी परिवार का साल का ख़र्च ₹12 लाख है और कमाई ₹10 लाख; बाक़ी ₹2 लाख उसे उधार लेने होंगे। सरकार के लिए यही 'उधार की ज़रूरत' Fiscal Deficit है। (यह समझाने का उदाहरण है।)"
+        },
+        {
+          "q": "इसे GDP के प्रतिशत में क्यों बताते हैं?",
+          "a": "FRBM Act, 2003 के तहत सरकार fiscal deficit, revenue deficit, primary deficit, टैक्स और non-tax कमाई और केंद्र सरकार के क़र्ज़ के तीन साल के rolling target, GDP (market prices) के अनुपात में तय करती है।[^1]"
+        },
+        {
+          "q": "Budget 2026-27 में Fiscal Deficit कितना है?",
+          "a": "वित्त मंत्रालय के मुताबिक 2025-26 के संशोधित अनुमान (RE) में यह GDP का 4.4% रहा, यानी Budget अनुमान के बराबर; और 2026-27 के Budget अनुमान (BE) में GDP का 4.3%।[^2]"
+        },
+        {
+          "q": "सरकार का क़र्ज़ कितना है?",
+          "a": "वित्त मंत्रालय के मुताबिक केंद्र सरकार का क़र्ज़ 2026-27 (BE) में GDP का 55.6% अनुमानित है, जबकि 2025-26 (RE) में 56.1%। सरकार का लक्ष्य 2030 तक इसे GDP के 50 ± 1% पर लाना है।[^2]"
+        },
+        {
+          "q": "Primary Deficit क्या है?",
+          "a": "वित्त मंत्रालय के मुताबिक Fiscal Deficit में से ब्याज के भुगतान को घटा दें, तो Primary Deficit बचता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "GDP"
+        },
+        {
+          "t": "Inflation"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "वित्त मंत्रालय (Budget Division) — Key to the Budget Documents 2026-2027, फ़रवरी 2026 (17 अक्टूबर 2026 को पढ़ा; पन्ना नंबर PDF के)",
+          "url": "https://www.indiabudget.gov.in/doc/Key_to_Budget_Document_2026.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "D. Fiscal Policy Statements (PDF पन्ना 6)",
+              "c": "FRBM Act, 2003 धारा 3; GDP (market prices) के अनुपात में तीन साल के rolling target: fiscal, revenue, primary deficit, टैक्स, non-tax, क़र्ज़"
+            },
+            {
+              "ref": "Receipt / Expenditure Profile वाला हिस्सा (PDF पन्ना 8–9)",
+              "c": "Revenue Deficit, Gross Fiscal Deficit और Primary Deficit की परिभाषा"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — Key Features of Budget 2026-2027 (Budget Highlights), फ़रवरी 2026 (17 अक्टूबर 2026 को पढ़ा; पन्ना नंबर PDF के)",
+          "url": "https://www.indiabudget.gov.in/doc/bh1.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Fiscal matters; Deficit Trends (PDF पन्ना 17)",
+              "c": "FD 2025-26 RE 4.4% (BE के बराबर); 2026-27 BE 4.3%; क़र्ज़ / GDP 55.6% (BE 2026-27), 56.1% (RE 2025-26); 2030 तक 50 ± 1%"
+            }
+          ]
+        },
+        {
+          "label": "UPSC — Civil Services Examination 2026, Notice No. 05/2026-CSE, 04.02.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+          "issued": "2026-02-04",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 35, Mains GS-III",
+              "c": "Government Budgeting"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nFiscal Deficit यानी राजकोषीय घाटा। वित्त मंत्रालय की परिभाषा में: सरकार का कुल ख़र्च (revenue, capital और दिए गए loan, वापसी घटाकर) और उसकी revenue कमाई व उन capital receipts के जोड़ का अंतर, जो क़र्ज़ नहीं हैं। आसान शब्दों में, कमी पूरी करने के लिए सरकार को कितना उधार चाहिए।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **सरकार का उधार:** घाटा जितना बड़ा, सरकार को उतना ज़्यादा उधार लेना पड़ता है; Budget में सरकार इसे GDP के अनुपात में घटाने का रास्ता बताती है।[^1][^2]\n\n## घाटा कैसे निकलता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> UPSC Mains GS-III में \"Government Budgeting\" लिखा है।[^3] याद रखने लायक़: FRBM Act, 2003; FD 2026-27 (BE) 4.3%, 2025-26 (RE) 4.4%; Primary Deficit = FD − ब्याज; क़र्ज़ / GDP 55.6% (BE 2026-27), लक्ष्य 2030 तक 50 ± 1%। बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "sebi",
+      "term": "SEBI",
+      "aliases": [
+        "Securities and Exchange Board of India",
+        "सेबी",
+        "SEBI Act",
+        "SEBI Act, 1992"
+      ],
+      "full": "भारतीय प्रतिभूति और विनिमय बोर्ड · शेयर बाज़ार और securities market का नियामक",
+      "fullEn": "Securities and Exchange Board of India",
+      "group": "निवेश",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। India Code पर SEBI Act, 1992 (Act No. 15 of 1992) की प्रस्तावना, धारा 3 और धारा 11 के पाठ से जाँचा।"
+        }
+      ],
+      "one": "SEBI (Securities and Exchange Board of India) शेयर बाज़ार और बाक़ी securities market का नियामक (regulator) है। SEBI Act, 1992 के मुताबिक इसका काम है securities में निवेश करने वालों के हितों की रक्षा करना, securities market का विकास करना, और उसे regulate करना।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "SEBI Act, 1992",
+          "s": "Act No. 15 of 1992"
+        },
+        {
+          "k": "मुख्य दफ़्तर",
+          "v": "Mumbai",
+          "s": "Act में 'Bombay'; धारा 3(3)"
+        },
+        {
+          "k": "तीन काम",
+          "v": "निवेशक की रक्षा, विकास, regulation",
+          "s": "धारा 11(1)"
+        },
+        {
+          "k": "किस पर नज़र",
+          "v": "Stock exchange, broker, mutual fund…",
+          "s": "धारा 11(2)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "SEBI",
+            "s": "नियामक"
+          },
+          {
+            "t": "Stock exchange, broker, mutual fund",
+            "s": "registration और regulation"
+          },
+          {
+            "t": "निवेशक",
+            "s": "हितों की रक्षा"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "नियम और जाँच",
+            "s": "धारा 11"
+          },
+          {
+            "b": "सुरक्षित बाज़ार",
+            "s": ""
+          }
+        ],
+        "note": "SEBI Act की धारा 11(2) के मुताबिक SEBI stock exchanges का कारोबार regulate करता है; stock brokers, investment advisers जैसे बिचौलियों और mutual funds का registration और regulation करता है; insider trading पर रोक लगाता है; और निवेशकों की शिक्षा को बढ़ावा देता है।"
+      },
+      "myths": [
+        {
+          "m": "\"SEBI सिर्फ़ शेयर बाज़ार देखता है, mutual fund नहीं।\"",
+          "f": "नहीं। SEBI Act की धारा 11(2)(c) के मुताबिक mutual funds समेत collective investment schemes का registration और regulation भी SEBI करता है।[^1]"
+        },
+        {
+          "m": "\"SEBI सरकार का एक विभाग है।\"",
+          "f": "नहीं। SEBI Act की धारा 3 के मुताबिक SEBI एक body corporate है, यानी क़ानून से बनी अलग संस्था, जो अपने नाम से संपत्ति रख सकती है, अनुबंध कर सकती है, और मुक़दमा कर सकती है या उस पर मुक़दमा हो सकता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "SEBI आसान भाषा में क्या है?",
+          "a": "शेयर बाज़ार का 'रेफ़री'। जैसे खेल में रेफ़री नियम लागू करता है, वैसे ही SEBI शेयर, mutual fund और दूसरे निवेश के बाज़ार में नियम बनाता और लागू करता है, ताकि निवेशकों के साथ धोखा न हो। (यह समझाने का उदाहरण है।)"
+        },
+        {
+          "q": "SEBI किस क़ानून से बना?",
+          "a": "Securities and Exchange Board of India Act, 1992 (Act No. 15 of 1992, 4 अप्रैल 1992) से। इसकी धारा 3 के मुताबिक SEBI की स्थापना केंद्र सरकार की notification से तय तारीख़ से हुई।[^1]"
+        },
+        {
+          "q": "SEBI किन लोगों और संस्थाओं को regulate करता है?",
+          "a": "धारा 11(2) के मुताबिक जैसे: stock exchanges; stock brokers, sub-brokers, merchant bankers, portfolio managers, investment advisers; depositories और credit rating agencies; venture capital funds और mutual funds।[^1]"
+        },
+        {
+          "q": "SEBI से शिकायत कैसे करें?",
+          "a": "Securities market से जुड़ी शिकायत SEBI के SCORES portal पर की जाती है; उसका तरीक़ा हमारे SEBI SCORES पन्ने पर है।"
+        },
+        {
+          "q": "Insider trading पर SEBI का क्या रोल है?",
+          "a": "SEBI Act की धारा 11(2)(g) के मुताबिक securities में insider trading पर रोक लगाना SEBI के कामों में शामिल है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "SEBI SCORES"
+        },
+        {
+          "t": "Mutual Fund"
+        },
+        {
+          "t": "SIP"
+        },
+        {
+          "t": "Investment Scam"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "IRDAI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Securities and Exchange Board of India Act, 1992 (Act No. 15 of 1992; प्रस्तावना, धारा 3 और 11 का पाठ; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/a646ef79-0891-473c-a048-eb6d37bb5555",
+          "issued": "1992-04-04",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना (long title)",
+              "c": "निवेशकों के हितों की रक्षा, securities market का विकास और regulation; 4 अप्रैल 1992"
+            },
+            {
+              "ref": "धारा 3(1)–(4)",
+              "c": "notification से स्थापना; body corporate, संपत्ति, अनुबंध, मुक़दमा; head office Bombay; दूसरी जगह दफ़्तर"
+            },
+            {
+              "ref": "धारा 11(1), 11(2)(a), (b), (ba), (c), (f), (g), (h)",
+              "c": "तीन कर्तव्य; stock exchange; brokers, investment advisers आदि; depositories, credit rating agencies; venture capital और mutual funds; निवेशक शिक्षा; insider trading पर रोक; takeover regulation"
+            }
+          ]
+        },
+        {
+          "label": "UPSC — Civil Services Examination 2026, Notice No. 05/2026-CSE, 04.02.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+          "issued": "2026-02-04",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 34, Mains GS-II",
+              "c": "Statutory, regulatory and various quasi-judicial bodies"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSEBI यानी Securities and Exchange Board of India (भारतीय प्रतिभूति और विनिमय बोर्ड)। SEBI Act, 1992 के मुताबिक इसका कर्तव्य है securities में निवेश करने वालों के हितों की रक्षा करना, securities market का विकास करना और उसे regulate करना।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **निवेश से पहले जाँच:** broker, investment adviser या portfolio manager जैसे बिचौलियों का registration और regulation SEBI करता है।[^1]\n- **Mutual fund भी SEBI के दायरे में:** mutual funds का registration और regulation SEBI करता है।[^1]\n- **शिकायत:** securities market की शिकायत SEBI SCORES पर।\n\n## SEBI कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> UPSC Mains GS-II में \"Statutory, regulatory and various quasi-judicial bodies\" लिखा है।[^2] याद रखने लायक़: SEBI Act, 1992 (Act No. 15 of 1992); statutory body; धारा 3 (स्थापना, head office Mumbai), धारा 11 (कर्तव्य और काम)। बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "pmla",
+      "term": "PMLA",
+      "aliases": [
+        "Prevention of Money-laundering Act",
+        "Prevention of Money-Laundering Act, 2002",
+        "Money Laundering",
+        "Money-laundering",
+        "मनी लॉन्ड्रिंग",
+        "धन-शोधन",
+        "Proceeds of Crime"
+      ],
+      "full": "धन-शोधन निवारण अधिनियम, 2002 · अपराध की कमाई को 'साफ़' दिखाने पर रोक का क़ानून",
+      "fullEn": "Prevention of Money-laundering Act, 2002",
+      "group": "साइबर सुरक्षा",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। India Code पर Prevention of Money-laundering Act, 2002 (Act No. 15 of 2003) की प्रस्तावना और धारा 1, 2, 3, 4 और 12 के पाठ से जाँचा।"
+        }
+      ],
+      "one": "Money-laundering यानी अपराध से कमाए पैसे या संपत्ति को छिपाना, रखना, इस्तेमाल करना या उसे 'साफ़' (untainted) बताकर पेश करना। PMLA, 2002 इसे अपराध बनाता है: सज़ा कम-से-कम 3 साल और ज़्यादा-से-ज़्यादा 7 साल की कठोर क़ैद और जुर्माना (कुछ मामलों में 10 साल तक)। Bank जैसे 'reporting entity' को लेनदेन और ग्राहक की पहचान का record रखना होता है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "PMLA, 2002",
+          "s": "Act No. 15 of 2003; 17 जनवरी 2003"
+        },
+        {
+          "k": "अपराध",
+          "v": "धारा 3",
+          "s": "अपराध की कमाई को छिपाना / 'साफ़' बताना"
+        },
+        {
+          "k": "सज़ा",
+          "v": "3 से 7 साल",
+          "s": "कठोर क़ैद + जुर्माना; कुछ मामलों में 10 साल तक"
+        },
+        {
+          "k": "Bank का record",
+          "v": "5 साल",
+          "s": "लेनदेन और पहचान के काग़ज़; धारा 12"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "अपराध",
+            "s": "scheduled offence"
+          },
+          {
+            "t": "अपराध की कमाई",
+            "s": "proceeds of crime"
+          },
+          {
+            "t": "छिपाना / 'साफ़' दिखाना",
+            "s": "money-laundering"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "से कमाई",
+            "s": ""
+          },
+          {
+            "b": "धारा 3",
+            "s": "अपराध"
+          }
+        ],
+        "note": "PMLA की परिभाषा में 'proceeds of crime' वह संपत्ति है, जो किसी व्यक्ति को सीधे या घुमा-फिराकर किसी scheduled offence से जुड़ी आपराधिक गतिविधि से मिली हो, या उसके बराबर मूल्य की संपत्ति।"
+      },
+      "myths": [
+        {
+          "m": "\"Money-laundering सिर्फ़ बड़े अपराधी करते हैं; अपना खाता किसी को देने में क्या हर्ज़?\"",
+          "f": "PMLA की धारा 3 के मुताबिक जो भी जानबूझकर अपराध की कमाई से जुड़े किसी काम में मदद करता है या उसमें शामिल होता है, वह भी money-laundering का दोषी है। ठगी का पैसा घुमाने के लिए किसी और को खाता देना (mule account) इसी जोखिम में डालता है।[^1]"
+        },
+        {
+          "m": "\"पैसा एक बार छिपा दिया, तो अपराध वहीं ख़त्म।\"",
+          "f": "नहीं। धारा 3 के स्पष्टीकरण के मुताबिक यह लगातार चलने वाली गतिविधि है, जो तब तक चलती रहती है जब तक व्यक्ति अपराध की कमाई का किसी भी तरह फ़ायदा उठा रहा है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Money-laundering आसान भाषा में क्या है?",
+          "a": "'काले' पैसे को 'सफ़ेद' दिखाना। जैसे ठगी से आया पैसा कई खातों में घुमाकर, या उससे संपत्ति ख़रीदकर, ऐसा दिखाना कि वह ईमानदारी की कमाई है। (यह समझाने का उदाहरण है।)"
+        },
+        {
+          "q": "PMLA में सज़ा कितनी है?",
+          "a": "धारा 4 के मुताबिक कम-से-कम 3 साल और ज़्यादा-से-ज़्यादा 7 साल की कठोर क़ैद, और जुर्माना। अगर अपराध की कमाई Schedule के Part A के paragraph 2 वाले अपराध से जुड़ी है, तो ऊपरी सीमा 10 साल।[^1]"
+        },
+        {
+          "q": "Bank को PMLA में क्या करना होता है?",
+          "a": "धारा 12 के मुताबिक bank जैसी हर 'reporting entity' को सभी लेनदेन का record रखना होता है, तय लेनदेन की जानकारी इस क़ानून के तहत Director को देनी होती है, और ग्राहक व beneficial owner की पहचान के काग़ज़ रखने होते हैं। लेनदेन का record लेनदेन से 5 साल तक, और पहचान का record रिश्ता या खाता बंद होने के 5 साल बाद तक रखना होता है।[^1]"
+        },
+        {
+          "q": "यह क़ानून क्यों बना?",
+          "a": "PMLA की प्रस्तावना के मुताबिक इसे संयुक्त राष्ट्र महासभा की 1990 की Political Declaration और Global Programme of Action, और 1998 की Political Declaration को लागू करने के लिए बनाया गया, जिसमें देशों से money-laundering के ख़िलाफ़ क़ानून बनाने को कहा गया था।[^1]"
+        },
+        {
+          "q": "मेरी जानकारी bank से बाहर तो नहीं जाएगी?",
+          "a": "धारा 12(2) के मुताबिक रखी या दी गई हर जानकारी गोपनीय रखी जाती है, जब तक कोई दूसरा क़ानून कुछ और न कहे।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "KYC"
+        },
+        {
+          "t": "Mule Account"
+        },
+        {
+          "t": "CKYCR"
+        },
+        {
+          "t": "Investment Scam"
+        },
+        {
+          "t": "1930"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Prevention of Money-laundering Act, 2002 (Act No. 15 of 2003; प्रस्तावना, धारा 1, 2(1), 3, 4 और 12 का पाठ; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/3babfe62-c9c8-49b3-8247-052834d2dfa4",
+          "issued": "2003-01-17",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना",
+              "c": "money-laundering रोकना, संपत्ति ज़ब्त करना; UN 1990 और 1998 की Political Declaration"
+            },
+            {
+              "ref": "धारा 2(1): 'proceeds of crime', 'reporting entity'",
+              "c": "scheduled offence से जुड़ी आपराधिक गतिविधि से मिली संपत्ति या उसका मूल्य; bank, वित्तीय संस्था, intermediary आदि"
+            },
+            {
+              "ref": "धारा 3 और स्पष्टीकरण",
+              "c": "छिपाना, रखना, हासिल करना, इस्तेमाल, 'untainted' बताना; जानबूझकर मदद भी अपराध; लगातार चलने वाली गतिविधि"
+            },
+            {
+              "ref": "धारा 4",
+              "c": "3 से 7 साल कठोर क़ैद और जुर्माना; Schedule Part A para 2 वाले अपराध में 10 साल तक"
+            },
+            {
+              "ref": "धारा 12(1)–(4)",
+              "c": "सभी लेनदेन का record; Director को जानकारी; पहचान और beneficial owner के काग़ज़; गोपनीयता; 5 साल"
+            }
+          ]
+        },
+        {
+          "label": "UPSC — Civil Services Examination 2026, Notice No. 05/2026-CSE, 04.02.2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+          "issued": "2026-02-04",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 36, Mains GS-III",
+              "c": "basics of cyber security; money-laundering and its prevention"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPMLA यानी Prevention of Money-laundering Act, 2002 (धन-शोधन निवारण अधिनियम)। इसकी धारा 3 के मुताबिक जो कोई अपराध की कमाई (proceeds of crime) को छिपाने, रखने, हासिल करने, इस्तेमाल करने या उसे 'साफ़' बताकर पेश करने के काम में सीधे या घुमा-फिराकर शामिल होता है, या जानबूझकर मदद करता है, वह money-laundering का दोषी है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **खाता किसी को मत दीजिए:** अपराध की कमाई घुमाने में जानबूझकर मदद करना भी इस क़ानून में अपराध है।[^1]\n- **KYC का कारण:** bank को ग्राहक की पहचान के काग़ज़ और लेनदेन का record रखना इसी क़ानून की धारा 12 से भी ज़रूरी है।[^1]\n\n## Money-laundering कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> UPSC Mains GS-III में \"money-laundering and its prevention\" सीधे लिखा है।[^2] याद रखने लायक़: PMLA, 2002 (Act No. 15 of 2003); धारा 3 (अपराध), धारा 4 (3–7 साल, कुछ मामलों में 10), धारा 12 (record, 5 साल); प्रस्तावना में UN की 1990 और 1998 की घोषणाएँ। बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "government-securities",
+      "term": "Government Securities",
+      "aliases": [
+        "G-Sec",
+        "G-Secs",
+        "Government Security",
+        "सरकारी प्रतिभूति",
+        "Treasury Bills",
+        "Treasury Bill",
+        "T-Bills",
+        "T-Bill",
+        "State Development Loans",
+        "SDL",
+        "Dated Securities",
+        "Retail Direct",
+        "RBI Retail Direct",
+        "Retail Direct Gilt"
+      ],
+      "full": "सरकारी प्रतिभूति · सरकार के क़र्ज़ का काग़ज़, जिसे ख़रीदकर आप सरकार को उधार देते हैं",
+      "fullEn": "Government Securities (G-Sec)",
+      "group": "निवेश",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के 'Government Securities Market in India – A Primer' और Retail Direct Scheme के FAQ से जाँचा।"
+        }
+      ],
+      "one": "Government Security (G-Sec) केंद्र या राज्य सरकार का जारी किया वह काग़ज़ है, जिसे ख़रीदा-बेचा जा सकता है और जो सरकार के क़र्ज़ को मानता है। एक साल से कम वाले Treasury Bills कहलाते हैं, और एक साल या उससे ज़्यादा वाले dated securities; राज्य सरकारों वाले State Development Loans (SDL)। आम लोग RBI के Retail Direct portal से इन्हें सीधे ख़रीद सकते हैं।",
+      "facts": [
+        {
+          "k": "कौन जारी करता है",
+          "v": "केंद्र और राज्य सरकार",
+          "s": "राज्य सिर्फ़ dated (SDL)"
+        },
+        {
+          "k": "Treasury Bills",
+          "v": "91, 182, 364 दिन",
+          "s": "छूट (discount) पर, ब्याज नहीं"
+        },
+        {
+          "k": "Dated G-Sec",
+          "v": "आम तौर पर 5 से 40 साल",
+          "s": "ब्याज (coupon) छमाही"
+        },
+        {
+          "k": "Retail Direct",
+          "v": "RBI में मुफ़्त खाता",
+          "s": "rbiretaildirect.org.in"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "सरकार",
+            "s": "पैसा उधार लेती है"
+          },
+          {
+            "t": "G-Sec",
+            "s": "auction से जारी"
+          },
+          {
+            "t": "निवेशक",
+            "s": "ब्याज और मूलधन"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "जारी",
+            "s": "RBI के ज़रिए"
+          },
+          {
+            "b": "ख़रीद",
+            "s": "auction या बाज़ार"
+          }
+        ],
+        "note": "RBI के मुताबिक G-Sec की registry और depository RBI का Public Debt Office (PDO) है, जो जारी करने, ब्याज देने और परिपक्वता पर मूलधन लौटाने का काम देखता है।"
+      },
+      "myths": [
+        {
+          "m": "\"G-Sec में कोई जोखिम नहीं, बीच में बेचें तब भी पूरा पैसा मिलेगा।\"",
+          "f": "पूरी तरह नहीं। RBI के मुताबिक G-Sec में default (न चुकाने) का जोखिम लगभग नहीं है, पर परिपक्वता से पहले बेचने पर बाज़ार का जोखिम है, यानी दाम कम-ज़्यादा हो सकता है।[^2]"
+        },
+        {
+          "m": "\"Treasury Bill पर हर महीने ब्याज आता है।\"",
+          "f": "नहीं। RBI के मुताबिक T-Bills पर ब्याज नहीं मिलता; ये छूट पर जारी होते हैं और परिपक्वता पर पूरी face value मिलती है। जैसे ₹100 का 91-दिन वाला T-Bill ₹98.20 में जारी होकर ₹100 पर लौटे, तो ₹1.80 कमाई।[^1]"
+        },
+        {
+          "m": "\"आम आदमी G-Sec नहीं ख़रीद सकता।\"",
+          "f": "ख़रीद सकता है। RBI की Retail Direct Scheme में व्यक्ति RBI के पास मुफ़्त Retail Direct Gilt (RDG) खाता खोलकर auction में और बाज़ार से G-Sec ख़रीद-बेच सकते हैं।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "G-Sec आसान भाषा में क्या है?",
+          "a": "सरकार को उधार देने की रसीद। आप सरकार को पैसा देते हैं, सरकार तय समय पर ब्याज देती है और अंत में पैसा लौटाती है। (यह समझाने का उदाहरण है।)"
+        },
+        {
+          "q": "'7.17% GS 2028' का क्या मतलब है?",
+          "a": "RBI के primer के उदाहरण में: 7.17% coupon (face value पर ब्याज), जारी करने वाली भारत सरकार, और 2028 में परिपक्वता; ब्याज साल में दो बार।[^1]"
+        },
+        {
+          "q": "Retail Direct खाता कौन खोल सकता है?",
+          "a": "RBI के FAQ के मुताबिक व्यक्ति (individual) जिनके पास भारत में rupee savings खाता, PAN, KYC के लिए कोई Officially Valid Document, email और registered mobile number हो; FEMA के तहत पात्र NRI भी। एक व्यक्ति एक ही RDG खाता खोल सकता है, और यह मुफ़्त है।[^2]"
+        },
+        {
+          "q": "कम-से-कम कितना निवेश?",
+          "a": "RBI के FAQ (12 नवंबर 2021 की स्थिति) के मुताबिक T-Bills, dated G-Sec और SDL में ₹10,000।[^2]"
+        },
+        {
+          "q": "Cash Management Bill क्या है?",
+          "a": "RBI के मुताबिक 2010 में सरकार ने RBI से सलाह करके यह छोटी अवधि का काग़ज़ शुरू किया, जो 91 दिन से कम के लिए होता है, ताकि सरकार के नक़द प्रवाह की अस्थायी कमी पूरी हो।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Bond (बॉन्ड)"
+        },
+        {
+          "t": "OMO"
+        },
+        {
+          "t": "SLR"
+        },
+        {
+          "t": "Fiscal Deficit"
+        },
+        {
+          "t": "Small Savings Schemes"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Government Securities Market in India – A Primer (FAQ; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/FAQView.aspx?Id=79",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रश्न 1 (1.2–1.5)",
+              "c": "G-Sec की परिभाषा; T-Bill और dated; SDL; risk-free gilt-edged; T-Bills 91 / 182 / 364 दिन, discount, ₹98.20 उदाहरण; CMB 2010; dated 5–40 साल, छमाही coupon; PDO; 7.17% GS 2028"
+            },
+            {
+              "ref": "प्रश्न 2",
+              "c": "संप्रभु वादा, demat, 91 दिन से 40 साल, बाज़ार में बेचना, repo में collateral"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Retail Direct Scheme (FAQ, 12 नवंबर 2021; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/FAQView.aspx?Id=145",
+          "issued": "2021-11-12",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रश्न 1–5, 12",
+              "c": "Retail Direct, RDG खाता, rbiretaildirect.org.in; T-Bills, dated G-Sec, SDL; पात्रता; एक खाता; मुफ़्त"
+            },
+            {
+              "ref": "प्रश्न 27, 29",
+              "c": "credit risk free, बेचने पर market risk; न्यूनतम ₹10,000 (12.11.2021)"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nGovernment Security (G-Sec) केंद्र या राज्य सरकार का जारी किया ऐसा काग़ज़ है, जिसे ख़रीदा-बेचा जा सकता है और जो सरकार के क़र्ज़ की स्वीकृति है। RBI के मुताबिक एक साल से कम वाले Treasury Bills और एक साल या ज़्यादा वाले dated securities (या Government bonds) होते हैं; राज्य सरकारें सिर्फ़ dated securities जारी करती हैं, जिन्हें State Development Loans (SDL) कहते हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **सुरक्षित निवेश:** RBI के मुताबिक इनमें सरकार का ब्याज और मूलधन चुकाने का वादा होता है, इसलिए default का जोखिम लगभग नहीं।[^1]\n- **सीधे RBI से:** Retail Direct portal पर मुफ़्त खाता खोलकर ख़रीद सकते हैं।[^2]\n- **बीच में बेचना:** परिपक्वता से पहले बेचें, तो दाम ऊपर-नीचे हो सकता है।[^2]\n\n## G-Sec कैसे चलता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: T-Bills 91 / 182 / 364 दिन, discount पर, zero coupon; CMB 91 दिन से कम (2010); dated G-Sec 5–40 साल, छमाही coupon; SDL = राज्य; registry RBI का PDO; Retail Direct (RDG खाता)। बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "bond",
+      "term": "Bond (बॉन्ड)",
+      "aliases": [
+        "Government Bonds",
+        "corporate bonds",
+        "बॉन्ड"
+      ],
+      "full": "बॉन्ड · क़र्ज़ का काग़ज़: निवेशक पैसा उधार देता है, जारी करने वाला तय समय तक ब्याज देता है",
+      "fullEn": "Bond",
+      "group": "निवेश",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के 'Government Securities Market in India – A Primer' से जाँचा।"
+        }
+      ],
+      "one": "Bond एक क़र्ज़ का काग़ज़ (debt instrument) है: निवेशक किसी कंपनी या सरकार को तय समय के लिए पैसा उधार देता है, और बदले में तय या बदलती दर से ब्याज पाता है। Bond रखने वाला उस संस्था का लेनदार (creditor) होता है।",
+      "facts": [
+        {
+          "k": "क्या है",
+          "v": "क़र्ज़ का काग़ज़",
+          "s": "debt instrument"
+        },
+        {
+          "k": "कौन जारी करता है",
+          "v": "कंपनी, नगरपालिका, राज्य, केंद्र सरकार",
+          "s": ""
+        },
+        {
+          "k": "ब्याज",
+          "v": "Coupon",
+          "s": "तय या बदलती दर"
+        },
+        {
+          "k": "Bond रखने वाला",
+          "v": "लेनदार (creditor)",
+          "s": "मालिक नहीं"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "निवेशक",
+            "s": "पैसा देता है"
+          },
+          {
+            "t": "जारी करने वाला",
+            "s": "कंपनी या सरकार"
+          },
+          {
+            "t": "वापसी",
+            "s": "ब्याज + अंत में मूलधन"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "उधार",
+            "s": "तय अवधि"
+          },
+          {
+            "b": "Coupon",
+            "s": "ब्याज"
+          }
+        ],
+        "note": "RBI के मुताबिक कंपनियाँ, नगरपालिकाएँ, राज्य और केंद्र सरकारें अलग-अलग परियोजनाओं के लिए पैसा जुटाने को bond जारी करती हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Bond ख़रीदने से आप कंपनी के हिस्सेदार बन जाते हैं।\"",
+          "f": "नहीं। RBI के मुताबिक bond रखने वाले जारी करने वाले के लेनदार (debt holders / creditors) होते हैं, यानी आपने उधार दिया है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bond आसान भाषा में क्या है?",
+          "a": "उधार का लिखा हुआ वादा। आप किसी कंपनी या सरकार को पैसा उधार देते हैं; वह तय समय तक ब्याज देती है और अंत में आपका पैसा लौटाती है। (यह समझाने का उदाहरण है।)"
+        },
+        {
+          "q": "Coupon क्या है?",
+          "a": "RBI के मुताबिक dated G-Sec पर face value पर मिलने वाला ब्याज coupon कहलाता है, जो तय (fixed) या बदलता (floating) हो सकता है।[^1]"
+        },
+        {
+          "q": "सरकारी bond और कंपनी के bond में फ़र्क़?",
+          "a": "RBI के मुताबिक सरकारी securities में सरकार का वादा होता है, इसलिए default का जोखिम लगभग नहीं; इन्हें risk-free gilt-edged कहा जाता है। सरकारी securities के बारे में अलग पन्ना है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Government Securities"
+        },
+        {
+          "t": "Mutual Fund"
+        },
+        {
+          "t": "Interest (ब्याज)"
+        },
+        {
+          "t": "SEBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Government Securities Market in India – A Primer (FAQ; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/FAQView.aspx?Id=79",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रश्न 1 (1.1, 1.2, 1.5)",
+              "c": "bond की परिभाषा; कौन जारी करता है; bond रखने वाले लेनदार; G-Sec risk-free gilt-edged; coupon fixed या floating"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nRBI के मुताबिक bond एक debt instrument है, जिसमें निवेशक किसी संस्था (आम तौर पर कंपनी या सरकार) को तय अवधि के लिए, तय या बदलती ब्याज दर पर पैसा उधार देता है। Bond रखने वाले जारी करने वाले के लेनदार होते हैं।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **आप उधार देने वाले हैं:** bond में आप हिस्सेदार नहीं, लेनदार होते हैं।[^1]\n- **सरकारी bond:** सबसे सुरक्षित माने जाते हैं; इनके बारे में Government Securities पन्ना देखिए।[^1]\n\n## Bond कैसे चलता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "income-tax",
+      "term": "Income Tax",
+      "aliases": [
+        "Income-tax",
+        "आयकर",
+        "इनकम टैक्स",
+        "Heads of Income",
+        "Total Income",
+        "कुल आय"
+      ],
+      "full": "आयकर · एक tax year में आपकी कुल आय पर लगने वाला सरकारी कर",
+      "fullEn": "Income Tax",
+      "group": "बैंकिंग",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। Income Tax Department की site पर Income-tax Act, 2025 (Finance Act, 2026 तक के बदलावों के साथ) की धारा 4, 5 और 13 के पाठ से जाँचा।"
+        }
+      ],
+      "one": "Income Tax यानी आयकर: हर व्यक्ति (और दूसरे 'person') की एक tax year की कुल आय (total income) पर लगने वाला कर। Income-tax Act, 2025 के मुताबिक आय पाँच हिस्सों (heads) में गिनी जाती है: वेतन, मकान से आय, कारोबार या पेशे से मुनाफ़ा, capital gains, और दूसरे स्रोत। दरें संसद का केंद्रीय क़ानून (जैसे Finance Act, 2026) तय करता है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "Income-tax Act, 2025",
+          "s": "1 अप्रैल 2026 से"
+        },
+        {
+          "k": "किस पर",
+          "v": "Tax year की कुल आय",
+          "s": "धारा 4(2)"
+        },
+        {
+          "k": "आय के हिस्से",
+          "v": "5 heads",
+          "s": "धारा 13"
+        },
+        {
+          "k": "दरें",
+          "v": "Finance Act से",
+          "s": "धारा 4(1)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "आपकी आय",
+            "s": "अलग-अलग स्रोत"
+          },
+          {
+            "t": "5 heads में गिनती",
+            "s": "धारा 13"
+          },
+          {
+            "t": "कुल आय पर tax",
+            "s": "Finance Act की दरें"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "बाँटिए",
+            "s": ""
+          },
+          {
+            "b": "जोड़कर",
+            "s": "total income"
+          }
+        ],
+        "note": "धारा 4(5) के मुताबिक tax का कुछ हिस्सा आय के समय ही कटता (TDS) या वसूला (TCS) जाता है, या पहले से (advance tax) भरा जाता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Tax सिर्फ़ salary पर लगता है।\"",
+          "f": "नहीं। Income-tax Act, 2025 की धारा 13 के मुताबिक पाँच तरह की आय गिनी जाती है: वेतन, मकान से आय, कारोबार या पेशे से मुनाफ़ा, capital gains, और दूसरे स्रोतों से आय।[^1]"
+        },
+        {
+          "m": "\"TDS कट गया, तो tax का हिसाब ख़त्म।\"",
+          "f": "ज़रूरी नहीं। धारा 4 के मुताबिक tax पूरी tax year की कुल आय पर लगता है; TDS, TCS और advance tax उसी tax को पहले से वसूलने के तरीक़े हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Income Tax आसान भाषा में क्या है?",
+          "a": "साल भर में आपने जितना कमाया, उस कुल कमाई पर सरकार का हिस्सा। कमाई के अलग-अलग स्रोत जोड़कर 'कुल आय' बनती है, और उस पर उस साल की दरों से tax लगता है।[^1]"
+        },
+        {
+          "q": "Tax year क्या है?",
+          "a": "Income-tax Act, 2025 में पुराने 'previous year / assessment year' की जगह 'tax year' है। इसका पूरा मतलब हमारे Income-tax Act, 2025 वाले पन्ने पर है।"
+        },
+        {
+          "q": "आय के पाँच heads कौन से हैं?",
+          "a": "धारा 13 के मुताबिक: (a) वेतन (Salaries), (b) मकान से आय (Income from house property), (c) कारोबार या पेशे से मुनाफ़ा, (d) Capital gains, और (e) दूसरे स्रोतों से आय।[^1]"
+        },
+        {
+          "q": "भारत के बाहर की आय पर भी tax लगता है?",
+          "a": "धारा 5 के मुताबिक भारत में resident व्यक्ति की कुल आय में दुनिया भर की आय आती है (कुछ शर्तों के साथ); non-resident की कुल आय में सिर्फ़ वह आय, जो भारत में मिली हो या भारत में बनी हो।[^1]"
+        },
+        {
+          "q": "Tax की दरें कहाँ से तय होती हैं?",
+          "a": "धारा 4(1) के मुताबिक जब कोई केंद्रीय क़ानून किसी tax year के लिए दरें तय करता है, तो उन्हीं दरों से tax लगता है; यह काम Finance Act करता है। नई और पुरानी कर-व्यवस्था के बारे में Tax Regime पन्ना देखिए।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Income-tax Act, 2025"
+        },
+        {
+          "t": "Tax Regime"
+        },
+        {
+          "t": "TDS"
+        },
+        {
+          "t": "ITR"
+        },
+        {
+          "t": "PAN"
+        },
+        {
+          "t": "Standard Deduction"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Income Tax Department — Income-tax Act, 2025 (Finance Act, 2026 तक के बदलावों के साथ; धारा 4, 5 और 13 का पाठ; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/income-tax-act-2025",
+          "issued": "",
+          "effective": "2026-04-01",
+          "used": [
+            {
+              "ref": "धारा 4(1)–(5)",
+              "c": "केंद्रीय क़ानून की दरों से tax; हर person की tax year की total income पर; TDS / TCS / advance tax"
+            },
+            {
+              "ref": "धारा 5(1), (2)",
+              "c": "resident: हर स्रोत की आय (not ordinarily resident पर शर्त); non-resident: भारत में मिली या बनी आय"
+            },
+            {
+              "ref": "धारा 13",
+              "c": "पाँच heads: Salaries; house property; business or profession; capital gains; other sources"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIncome Tax यानी आयकर। Income-tax Act, 2025 की धारा 4 के मुताबिक हर person की tax year की कुल आय (total income) पर tax लगता है, उन दरों पर जो संसद का कोई केंद्रीय क़ानून (जैसे Finance Act) तय करता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **सारी आय जोड़िए:** वेतन के अलावा किराया, कारोबार, capital gains और दूसरे स्रोतों की आय भी गिनी जाती है।[^1]\n- **TDS भी इसी tax का हिस्सा:** साल के अंत में कुल आय पर हिसाब बनता है।[^1]\n\n## Tax कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Income-tax Act, 2025 (1 अप्रैल 2026 से); धारा 4 (charge), धारा 5 (scope: resident / non-resident), धारा 13 (पाँच heads)। बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "capital-gains",
+      "term": "Capital Gains",
+      "aliases": [
+        "Capital Gain",
+        "पूँजीगत लाभ",
+        "Long-term Capital Gain",
+        "Short-term Capital Gain",
+        "LTCG",
+        "STCG",
+        "Capital Asset"
+      ],
+      "full": "पूँजीगत लाभ · कोई संपत्ति (capital asset) बेचने या ट्रांसफ़र करने पर हुआ मुनाफ़ा",
+      "fullEn": "Capital Gains",
+      "group": "बैंकिंग",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। Income Tax Department की site पर Income-tax Act, 2025 (Finance Act, 2026 तक के बदलावों के साथ) की धारा 2(22), 2(67), 2(101), 67, 196 और 197 के पाठ से जाँचा।"
+        }
+      ],
+      "one": "Capital Gains यानी कोई capital asset (जैसे ज़मीन, मकान, शेयर, mutual fund units, सोने के गहने) बेचने या transfer करने पर हुआ मुनाफ़ा। Income-tax Act, 2025 के मुताबिक यह आय के पाँच heads में से एक है, और जिस tax year में transfer हुआ, उसी साल की आय मानी जाती है। Asset कितने समय रखा, इससे वह short-term या long-term बनता है।",
+      "facts": [
+        {
+          "k": "आय का head",
+          "v": "Capital gains",
+          "s": "धारा 13(d), 67(1)"
+        },
+        {
+          "k": "Short-term (आम)",
+          "v": "24 महीने तक रखा",
+          "s": "धारा 2(101)(a)"
+        },
+        {
+          "k": "Short-term (listed शेयर, equity fund)",
+          "v": "12 महीने तक रखा",
+          "s": "धारा 2(101)(b)"
+        },
+        {
+          "k": "Long-term पर tax",
+          "v": "12.5%",
+          "s": "धारा 197(1)(b)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Capital asset ख़रीदा",
+            "s": "ज़मीन, शेयर, units…"
+          },
+          {
+            "t": "बेचा / transfer",
+            "s": "किसी tax year में"
+          },
+          {
+            "t": "मुनाफ़ा = Capital gain",
+            "s": "उसी साल की आय"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "रखने की अवधि",
+            "s": "short या long-term"
+          },
+          {
+            "b": "धारा 67",
+            "s": "tax"
+          }
+        ],
+        "note": "धारा 2(101) के मुताबिक आम तौर पर 24 महीने तक रखी asset short-term है; listed security, UTI की unit, equity-oriented fund की unit और zero-coupon bond में यह सीमा 12 महीने है। इससे ज़्यादा रखी asset long-term है (धारा 2(67))।"
+      },
+      "myths": [
+        {
+          "m": "\"घर की हर चीज़ बेचने पर capital gains tax लगता है।\"",
+          "f": "नहीं। धारा 2(22) के मुताबिक 'personal effects', यानी निजी इस्तेमाल का चल सामान (जैसे कपड़े, furniture), capital asset नहीं है; पर गहने, कलाकृतियाँ, paintings जैसी चीज़ें इससे बाहर हैं, यानी वे capital asset मानी जाती हैं।[^1]"
+        },
+        {
+          "m": "\"खेती की हर ज़मीन capital asset नहीं है।\"",
+          "f": "पूरी तरह नहीं। धारा 2(22) के मुताबिक भारत में खेती की ज़मीन capital asset नहीं है, पर तब नहीं जब वह 10,000 या ज़्यादा आबादी वाली नगरपालिका / cantonment की सीमा में हो, या उससे तय दूरी (2, 6 या 8 km, आबादी के हिसाब से) के भीतर हो।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Capital gains आसान भाषा में क्या है?",
+          "a": "आपने कोई ज़मीन ₹10 लाख में ख़रीदी और बाद में ₹15 लाख में बेची, तो मोटे तौर पर ₹5 लाख का मुनाफ़ा capital gain है। (यह समझाने का उदाहरण है; असली हिसाब में ख़र्च वग़ैरह के नियम हैं।)"
+        },
+        {
+          "q": "Short-term और long-term का फ़र्क़ क्या है?",
+          "a": "धारा 2(101) के मुताबिक जो capital asset transfer से ठीक पहले 24 महीने या उससे कम रखी गई, वह short-term है; listed security, UTI unit, equity-oriented fund की unit और zero-coupon bond के लिए यह 12 महीने है। बाक़ी long-term हैं।[^1]"
+        },
+        {
+          "q": "Long-term capital gain पर कितना tax?",
+          "a": "धारा 197(1) के मुताबिक long-term capital gain पर 12.5% की दर से tax, और बाक़ी आय पर आम दरों से। 23 जुलाई 2024 से पहले ख़रीदी ज़मीन / मकान बेचने वाले resident व्यक्ति / HUF के लिए धारा 197(3) में अलग राहत का हिसाब है।[^1]"
+        },
+        {
+          "q": "शेयर पर short-term capital gain कितना?",
+          "a": "धारा 196 के मुताबिक listed equity share, equity-oriented fund या business trust की unit, जिसकी बिक्री पर securities transaction tax (STT) लगता है, उसके short-term capital gain पर 20%।[^1]"
+        },
+        {
+          "q": "Capital gain किस साल की आय गिना जाता है?",
+          "a": "धारा 67(1) के मुताबिक उसी tax year की, जिसमें transfer हुआ।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Income Tax"
+        },
+        {
+          "t": "Income-tax Act, 2025"
+        },
+        {
+          "t": "Mutual Fund"
+        },
+        {
+          "t": "Tax Regime"
+        },
+        {
+          "t": "ITR"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Income Tax Department — Income-tax Act, 2025 (Finance Act, 2026 तक के बदलावों के साथ; धारा 2, 13, 67, 196, 197 का पाठ; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.incometaxindia.gov.in/income-tax-act-2025",
+          "issued": "",
+          "effective": "2026-04-01",
+          "used": [
+            {
+              "ref": "धारा 2(22)",
+              "c": "capital asset; personal effects बाहर (गहने, कलाकृति आदि छोड़कर); खेती की ज़मीन बाहर (नगरपालिका सीमा / 2, 6, 8 km छोड़कर)"
+            },
+            {
+              "ref": "धारा 2(67), 2(101)",
+              "c": "long-term = short-term नहीं; short-term: 24 महीने, listed security / UTI / equity fund / zero-coupon bond में 12 महीने"
+            },
+            {
+              "ref": "धारा 13, 67(1)",
+              "c": "head 'Capital gains'; transfer वाले tax year की आय"
+            },
+            {
+              "ref": "धारा 196(1)",
+              "c": "STT वाले equity share / equity fund / business trust unit पर short-term gain 20%"
+            },
+            {
+              "ref": "धारा 197(1), (3)",
+              "c": "long-term gain 12.5%; 23.7.2024 से पहले की ज़मीन / मकान पर resident व्यक्ति / HUF के लिए राहत"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCapital Gains यानी पूँजीगत लाभ। Income-tax Act, 2025 की धारा 67(1) के मुताबिक किसी capital asset के transfer से हुआ मुनाफ़ा 'Capital gains' head में tax होता है, और जिस tax year में transfer हुआ, उसी की आय माना जाता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **बेचने से पहले अवधि देखिए:** asset कितने महीने रखी, इससे short-term या long-term तय होता है, और दर बदलती है।[^1]\n- **हर सामान capital asset नहीं:** निजी इस्तेमाल का सामान बाहर है, पर गहने और कलाकृतियाँ अंदर।[^1]\n\n## Capital gain कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "monetary-policy",
+      "term": "Monetary Policy",
+      "aliases": [
+        "मौद्रिक नीति",
+        "Monetary Policy Framework",
+        "Monetary Policy Report",
+        "Flexible Inflation Targeting",
+        "Interest Rate Transmission",
+        "Policy Stance"
+      ],
+      "full": "मौद्रिक नीति · RBI का ब्याज दरों और पैसे की उपलब्धता से दाम स्थिर रखने का काम",
+      "fullEn": "Monetary Policy",
+      "group": "पैसे की बुनियाद",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की Monetary Policy वाली official जानकारी और 7 अक्टूबर 2026 के MPC resolution से जाँचा।"
+        }
+      ],
+      "one": "Monetary Policy (मौद्रिक नीति) RBI का वह काम है, जिसमें वह ब्याज दरों (मुख्य रूप से Repo Rate) और bank व्यवस्था में पैसे की उपलब्धता के ज़रिए दाम स्थिर रखने की कोशिश करता है, विकास का ध्यान रखते हुए। 2016 से भारत में यह 'flexible inflation targeting' ढाँचे में चलती है: target 4% CPI महँगाई, और Repo Rate छह सदस्यों वाली MPC तय करती है।",
+      "facts": [
+        {
+          "k": "मुख्य मक़सद",
+          "v": "दाम की स्थिरता",
+          "s": "growth का ध्यान रखते हुए"
+        },
+        {
+          "k": "क़ानूनी आधार",
+          "v": "RBI Act (2016 का संशोधन)",
+          "s": "धारा 45ZA, 45ZB"
+        },
+        {
+          "k": "MPC की बैठक",
+          "v": "साल में कम-से-कम 4",
+          "s": "quorum 4 सदस्य"
+        },
+        {
+          "k": "Repo Rate (7.10.2026)",
+          "v": "5.50%",
+          "s": "stance: calibrated tightening"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "MPC",
+            "s": "Repo Rate तय"
+          },
+          {
+            "t": "बाज़ार की दरें",
+            "s": "WACR, loan, जमा"
+          },
+          {
+            "t": "मांग और महँगाई",
+            "s": "target 4%"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Transmission",
+            "s": "LAF से"
+          },
+          {
+            "b": "असर",
+            "s": "aggregate demand"
+          }
+        ],
+        "note": "RBI के मुताबिक operating target 'weighted average call rate (WACR)' है; RBI liquidity संभालकर इसे Repo Rate के पास रखता है, ताकि Repo Rate का बदलाव पूरी financial system में पहुँचे और मांग पर असर डाले।"
+      },
+      "myths": [
+        {
+          "m": "\"Monetary policy सरकार बनाती है, RBI सिर्फ़ लागू करता है।\"",
+          "f": "नहीं। RBI के मुताबिक महँगाई का target केंद्र सरकार RBI से सलाह करके तय करती है, पर उस target के लिए Repo Rate RBI की Monetary Policy Committee तय करती है।[^1]"
+        },
+        {
+          "m": "\"MPC में Governor अकेले फ़ैसला करते हैं।\"",
+          "f": "नहीं। RBI के मुताबिक MPC में छह सदस्य हैं, हर सदस्य का एक वोट है; बराबरी होने पर ही Governor का दूसरा (casting) वोट होता है। हर सदस्य अपने वोट की वजह लिखकर देता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Monetary policy आसान भाषा में क्या है?",
+          "a": "जब महँगाई ज़्यादा हो, तो RBI ब्याज दर बढ़ाकर उधार महँगा कर सकता है, ताकि ख़र्च और मांग थोड़ी ठंडी हो; और जब ज़रूरत हो, तो दरें घटा सकता है। (यह समझाने का उदाहरण है; हर फ़ैसला MPC हालात देखकर करती है।)[^1]"
+        },
+        {
+          "q": "MPC में कौन होते हैं?",
+          "a": "RBI के मुताबिक: RBI Governor (अध्यक्ष), monetary policy देखने वाले Deputy Governor, RBI के Central Board का नामित एक अधिकारी, और केंद्र सरकार के नियुक्त तीन बाहरी सदस्य (चार साल के लिए)।[^1]"
+        },
+        {
+          "q": "MPC के फ़ैसले कब और कैसे पता चलते हैं?",
+          "a": "RBI के मुताबिक बैठकों का साल भर का कार्यक्रम पहले घोषित होता है; हर बैठक के बाद resolution जारी होता है, और 14वें दिन शाम 5 बजे minutes, जिनमें हर सदस्य का वोट और उसकी वजह होती है।[^1]"
+        },
+        {
+          "q": "Monetary Policy Report क्या है?",
+          "a": "RBI के मुताबिक RBI हर छह महीने में यह report जारी करता है, जिसमें पिछले छह महीने की महँगाई, आगे का अनुमान, growth और महँगाई के projections, और अर्थव्यवस्था का आकलन होता है।[^1]"
+        },
+        {
+          "q": "अभी नीति क्या है?",
+          "a": "RBI के 7 अक्टूबर 2026 के resolution के मुताबिक MPC ने सर्वसम्मति से Repo Rate 25 basis points बढ़ाकर 5.50% किया (SDF 5.25%, MSF और Bank Rate 5.75%), और stance बदलकर 'calibrated tightening' किया।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "MPC"
+        },
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "Inflation"
+        },
+        {
+          "t": "LAF"
+        },
+        {
+          "t": "SDF"
+        },
+        {
+          "t": "OMO"
+        },
+        {
+          "t": "CRR"
+        },
+        {
+          "t": "SLR"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Monetary Policy (Functions > Overview): Monetary Policy Framework, Monetary Policy Committee, Instruments, Monetary Policy Process (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=2752",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "शुरुआत; The Monetary Policy Framework",
+              "c": "मुख्य मक़सद दाम की स्थिरता, growth का ध्यान; मई 2016 का संशोधन, flexible inflation targeting; धारा 45ZA, 45ZB; operating target WACR; transmission"
+            },
+            {
+              "ref": "The Monetary Policy Committee",
+              "c": "छह सदस्य, कौन-कौन; बाहरी सदस्य चार साल; साल में कम-से-कम 4 बैठक; quorum 4; एक वोट, बराबरी पर Governor का casting वोट; लिखित वजह"
+            },
+            {
+              "ref": "The Monetary Policy Process",
+              "c": "कार्यक्रम पहले से; resolution; 14वें दिन शाम 5 बजे minutes; हर छह महीने Monetary Policy Report"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Press Release: Resolution of the Monetary Policy Committee, October 5 to 7, 2026 (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+          "issued": "2026-10-07",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2",
+              "c": "सर्वसम्मति; Repo 5.50%; SDF 5.25%; MSF और Bank Rate 5.75%; stance calibrated tightening"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nMonetary Policy यानी मौद्रिक नीति। RBI के मुताबिक RBI को monetary policy चलाने की ज़िम्मेदारी मिली है, जिसका मुख्य मक़सद दाम की स्थिरता है, विकास (growth) का ध्यान रखते हुए। मई 2016 में RBI Act में संशोधन करके इसे flexible inflation targeting का क़ानूनी ढाँचा दिया गया।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **आपकी EMI और जमा:** Repo Rate का बदलाव पूरे financial system तक पहुँचाने की कोशिश होती है, जिससे loan और जमा की दरों पर असर पड़ सकता है।[^1]\n- **महँगाई पर नज़र:** नीति का लक्ष्य 4% CPI महँगाई है।[^1]\n\n## Monetary policy कैसे काम करती है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: flexible inflation targeting (2016); धारा 45ZA (target), 45ZB (MPC); MPC के 6 सदस्य, quorum 4, साल में कम-से-कम 4 बैठक; minutes 14वें दिन; operating target WACR; MPR हर छह महीने। बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "reverse-repo",
+      "term": "Reverse Repo",
+      "aliases": [
+        "Reverse Repo Rate",
+        "Fixed Rate Reverse Repo",
+        "Variable Rate Reverse Repo",
+        "रिवर्स रेपो"
+      ],
+      "full": "रिवर्स रेपो · RBI का सरकारी securities गिरवी देकर banks से पैसा (liquidity) खींचना",
+      "fullEn": "Reverse Repo",
+      "group": "बैंकिंग",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI की Monetary Policy वाली official जानकारी (Instruments of Monetary Policy) से जाँचा।"
+        }
+      ],
+      "one": "Reverse Repo वह तरीक़ा है, जिसमें RBI banks से कुछ समय के लिए पैसा लेता है और बदले में उन्हें सरकारी securities गिरवी (collateral) देता है। इससे bank व्यवस्था का फ़ालतू पैसा (liquidity) RBI के पास चला जाता है। RBI के मुताबिक अप्रैल 2022 में SDF आने के बाद LAF corridor का निचला सिरा SDF rate है, और fixed rate reverse repo अब RBI की मर्ज़ी से, तय कामों के लिए होता है।",
+      "facts": [
+        {
+          "k": "काम",
+          "v": "liquidity खींचना",
+          "s": "LAF के तहत"
+        },
+        {
+          "k": "गिरवी",
+          "v": "सरकारी securities",
+          "s": "RBI देता है"
+        },
+        {
+          "k": "Corridor का floor",
+          "v": "अब SDF",
+          "s": "अप्रैल 2022 से"
+        },
+        {
+          "k": "अवधि",
+          "v": "रातभर से 14 दिन",
+          "s": "variable rate auction"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank के पास फ़ालतू पैसा",
+            "s": "surplus liquidity"
+          },
+          {
+            "t": "Bank RBI को पैसा देता है",
+            "s": "reverse repo"
+          },
+          {
+            "t": "RBI securities गिरवी देता है",
+            "s": "ब्याज के साथ वापसी"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "RBI की operation",
+            "s": "LAF"
+          },
+          {
+            "b": "collateral",
+            "s": "G-Sec"
+          }
+        ],
+        "note": "RBI के मुताबिक छोटी अवधि की liquidity मुख्य रूप से 7-दिन के variable rate repo / reverse repo auction से, और ज़रूरत पर रातभर से 14 दिन तक के auction से संभाली जाती है।"
+      },
+      "myths": [
+        {
+          "m": "\"Reverse repo rate आज भी LAF corridor का निचला सिरा है।\"",
+          "f": "नहीं। RBI के मुताबिक अप्रैल 2022 में SDF आने के बाद SDF rate ने fixed reverse repo rate की जगह corridor के floor के रूप में ले ली।[^1]"
+        },
+        {
+          "m": "\"Reverse repo में भी RBI बिना गिरवी पैसा लेता है।\"",
+          "f": "नहीं। RBI के मुताबिक reverse repo में RBI योग्य सरकारी securities गिरवी देकर पैसा खींचता है; बिना गिरवी वाली सुविधा SDF है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Reverse repo आसान भाषा में क्या है?",
+          "a": "Repo में bank RBI से उधार लेते हैं; reverse repo उसका उल्टा है: bank अपना फ़ालतू पैसा RBI के पास रखते हैं, और RBI बदले में सरकारी securities गिरवी देता है। (यह समझाने का तरीक़ा है; असली शर्तें RBI तय करता है।)[^1]"
+        },
+        {
+          "q": "Reverse repo rate क्या है?",
+          "a": "RBI के मुताबिक वह ब्याज दर, जिस पर RBI LAF के तहत योग्य सरकारी securities के collateral के बदले banks से liquidity खींचता है।[^1]"
+        },
+        {
+          "q": "SDF और reverse repo में फ़र्क़?",
+          "a": "RBI के मुताबिक SDF में RBI बिना collateral, रातभर के लिए जमा लेता है, और SDF rate Repo से 25 basis points नीचे होता है; reverse repo में securities गिरवी दी जाती हैं।[^1]"
+        },
+        {
+          "q": "Fixed rate reverse repo अब कब होता है?",
+          "a": "RBI के मुताबिक SDF आने के बाद fixed rate reverse repo RBI की मर्ज़ी से, समय-समय पर तय कामों के लिए होता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Repo Rate"
+        },
+        {
+          "t": "SDF"
+        },
+        {
+          "t": "LAF"
+        },
+        {
+          "t": "MSF"
+        },
+        {
+          "t": "Government Securities"
+        },
+        {
+          "t": "Monetary Policy"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Monetary Policy (Functions > Overview): Instruments of Monetary Policy (17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=2752",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Reverse Repo Rate",
+              "c": "LAF के तहत योग्य सरकारी securities के collateral पर liquidity खींचने की दर; SDF के बाद fixed rate reverse repo RBI की मर्ज़ी से, तय कामों के लिए"
+            },
+            {
+              "ref": "Standing Deposit Facility (SDF) Rate; LAF; LAF Corridor",
+              "c": "SDF: बिना collateral, overnight, Repo − 25 bps; अप्रैल 2022 से fixed reverse repo की जगह floor; LAF में overnight / term repo और reverse repo"
+            },
+            {
+              "ref": "Liquidity Management Tool",
+              "c": "7-दिन variable rate repo / reverse repo auction; overnight से 14 दिन"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nReverse Repo का मतलब है 'उल्टा repo'। RBI के मुताबिक reverse repo rate वह ब्याज दर है, जिस पर RBI LAF के तहत योग्य सरकारी securities के collateral के बदले banks से liquidity खींचता है।[^1]\n\n## Reverse repo कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: reverse repo = RBI liquidity खींचता है, collateral सरकारी securities; अप्रैल 2022 से LAF corridor का floor SDF (reverse repo नहीं); fixed rate reverse repo अब RBI की मर्ज़ी से; variable rate auction रातभर से 14 दिन। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "priority-sector-lending",
+      "term": "Priority Sector Lending",
+      "aliases": [
+        "PSL",
+        "Priority Sector",
+        "Priority Sector Loans",
+        "प्राथमिकता क्षेत्र",
+        "प्राथमिकता क्षेत्र ऋण",
+        "ANBC",
+        "Adjusted Net Bank Credit",
+        "PSLC",
+        "Priority Sector Lending Certificates"
+      ],
+      "full": "प्राथमिकता क्षेत्र ऋण · RBI के तय किए क्षेत्रों (खेती, छोटे उद्योग आदि) को bank के क़र्ज़ का एक तय हिस्सा देना",
+      "fullEn": "Priority Sector Lending",
+      "group": "क़र्ज़",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के PSL Master Directions, 2025 (11 सितंबर 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "Priority Sector Lending (PSL) का मतलब है: banks को अपने क़र्ज़ का एक तय हिस्सा उन क्षेत्रों को देना है, जिन्हें RBI 'priority sector' मानता है, जैसे खेती, सूक्ष्म-लघु-मध्यम उद्यम (MSME), export credit, शिक्षा, मकान, social infrastructure, renewable energy और कुछ दूसरे। RBI के मुताबिक मक़सद उन वर्गों तक क़र्ज़ पहुँचाना है, जिनकी ज़रूरत साख (creditworthy) होने के बावजूद पूरी नहीं हो पाती।",
+      "facts": [
+        {
+          "k": "कुल target (घरेलू commercial bank)",
+          "v": "ANBC का 40%",
+          "s": "या CEOBSE, जो ज़्यादा हो"
+        },
+        {
+          "k": "खेती",
+          "v": "18%",
+          "s": "इसमें 10% छोटे और सीमांत किसान"
+        },
+        {
+          "k": "सूक्ष्म उद्यम",
+          "v": "7.5%",
+          "s": "Micro Enterprises"
+        },
+        {
+          "k": "कमज़ोर वर्ग",
+          "v": "12%",
+          "s": "Weaker Sections"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Bank का क़र्ज़",
+            "s": "ANBC का हिसाब"
+          },
+          {
+            "t": "Priority sector को तय हिस्सा",
+            "s": "खेती, MSME…"
+          },
+          {
+            "t": "कमी रही तो",
+            "s": "RIDF जैसे fund में पैसा"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "RBI के target",
+            "s": "पैरा 7"
+          },
+          {
+            "b": "हर तिमाही जाँच",
+            "s": "साल का औसत"
+          }
+        ],
+        "note": "RBI के मुताबिक जो bank target / sub-target से पीछे रहते हैं, उन्हें कमी की रक़म NABARD, NHB, SIDBI, MUDRA Ltd. के पास RIDF और दूसरे fund में देनी होती है; उस पर Bank Rate से 2 से 4 प्रतिशत-अंक कम ब्याज मिलता है।"
+      },
+      "myths": [
+        {
+          "m": "\"PSL का मतलब सरकारी योजना का मुफ़्त या सस्ता loan है।\"",
+          "f": "नहीं। PSL banks के लिए RBI का target है कि क़र्ज़ का कितना हिस्सा किन क्षेत्रों में जाए। RBI के मुताबिक इसका मक़सद इन क्षेत्रों तक पर्याप्त क़र्ज़ पहुँचाना है; ब्याज दर अलग नियमों से तय होती है।[^1]"
+        },
+        {
+          "m": "\"हर bank का target 40% ही है।\"",
+          "f": "नहीं। RBI के मुताबिक घरेलू commercial bank और 20 या ज़्यादा branch वाले विदेशी bank के लिए 40%, Regional Rural Bank के लिए 75%, Small Finance Bank और Urban Co-operative Bank के लिए 60% है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Priority sector में कौन-से क्षेत्र आते हैं?",
+          "a": "RBI के मुताबिक आठ: खेती (Agriculture), सूक्ष्म-लघु-मध्यम उद्यम, Export Credit, शिक्षा, मकान (Housing), Social Infrastructure, Renewable Energy, और 'Others'।[^1]"
+        },
+        {
+          "q": "ANBC क्या है?",
+          "a": "Adjusted Net Bank Credit: bank के भारत में दिए क़र्ज़ से निकाला गया एक आँकड़ा, जिस पर PSL target गिना जाता है। RBI के मुताबिक target पिछले साल की उसी तारीख़ के ANBC या CEOBSE (off-balance sheet exposure का credit equivalent), जो भी ज़्यादा हो, पर लगता है।[^1]"
+        },
+        {
+          "q": "छोटे किसान के लिए अलग target है?",
+          "a": "हाँ। RBI के मुताबिक खेती के 18% में से 14% गैर-corporate किसानों के लिए है, और उसमें से 10% छोटे और सीमांत किसानों (SMF) के लिए।[^1]"
+        },
+        {
+          "q": "कम PSL वाले ज़िलों के लिए क्या है?",
+          "a": "RBI के मुताबिक FY 2024-25 से, जिन ज़िलों में प्रति व्यक्ति PSL ₹9,000 से कम है, वहाँ नए PSL क़र्ज़ को 125% weight मिलता है, और ₹42,000 से ज़्यादा वाले ज़िलों में 90%। यह सूची FY 2026-27 तक है।[^1]"
+        },
+        {
+          "q": "ये नियम कब से लागू हैं?",
+          "a": "RBI के मुताबिक PSL Master Directions, 2025 1 अप्रैल 2025 से लागू हैं और 2020 वाले Directions की जगह लेते हैं।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "MSME"
+        },
+        {
+          "t": "Regional Rural Bank"
+        },
+        {
+          "t": "Small Finance Bank"
+        },
+        {
+          "t": "Co-operative Bank"
+        },
+        {
+          "t": "Mudra Loan"
+        },
+        {
+          "t": "Microfinance"
+        },
+        {
+          "t": "Bank Rate"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Master Directions: Reserve Bank of India (Priority Sector Lending – Targets and Classification) Directions, 2025 (FIDD.CO.PSD.BC.13/04.09.001/2024-25, 24.03.2025; 11.09.2026 तक updated; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12799",
+          "issued": "2025-03-24",
+          "effective": "2025-04-01",
+          "used": [
+            {
+              "ref": "पैरा 1, 2, 3",
+              "c": "नाम; 1 अप्रैल 2025 से, 2020 वाले Directions की जगह; किस bank पर लागू; मक़सद: underserved पर creditworthy वर्ग"
+            },
+            {
+              "ref": "पैरा 5, 6",
+              "c": "आठ category; ANBC का हिसाब"
+            },
+            {
+              "ref": "पैरा 7.1, 7.2",
+              "c": "40% (घरेलू SCB, 20+ branch वाले विदेशी bank); विदेशी bank <20 branch 40% (export 32% तक); RRB 75%; SFB 60%; UCB 60%; खेती 18% (NCF 14%, SMF 10%); micro 7.5%; weaker sections 12% (RRB 15%)"
+            },
+            {
+              "ref": "पैरा 8.1",
+              "c": "FY 2024-25 से ज़िले: प्रति व्यक्ति PSL ₹9,000 से कम पर 125%, ₹42,000 से ज़्यादा पर 90%; सूची FY 2026-27 तक"
+            },
+            {
+              "ref": "पैरा 29",
+              "c": "कमी पर RIDF और NABARD / NHB / SIDBI / MUDRA के fund; तिमाही औसत; Bank Rate − 2/3/4 प्रतिशत-अंक"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPriority Sector Lending यानी प्राथमिकता क्षेत्र को क़र्ज़। RBI के मुताबिक ये Directions bank व्यवस्था से उन क्षेत्रों तक पर्याप्त क़र्ज़ पहुँचाने के लिए हैं, जो सामाजिक-आर्थिक विकास के लिए अहम हैं, ख़ासकर उन वर्गों तक जिनकी क़र्ज़ की ज़रूरत साख होने के बावजूद पूरी नहीं होती।[^1]\n\n## PSL कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 8 category; घरेलू SCB 40% ANBC / CEOBSE (जो ज़्यादा); RRB 75%; SFB 60%; UCB 60%; खेती 18% (SMF 10%); micro 7.5%; weaker sections 12%; कमी पर RIDF (NABARD); Directions 2025, 1.4.2025 से। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "kisan-credit-card",
+      "term": "Kisan Credit Card",
+      "aliases": [
+        "KCC",
+        "KCC Scheme",
+        "Kisan Credit Card Scheme",
+        "किसान क्रेडिट कार्ड",
+        "Flexi KCC"
+      ],
+      "full": "किसान क्रेडिट कार्ड · खेती और उससे जुड़े कामों की ज़रूरतों के लिए bank की एक मिली-जुली (composite) क़र्ज़ सुविधा",
+      "fullEn": "Kisan Credit Card (KCC)",
+      "group": "क़र्ज़",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के Commercial Banks - KCC Scheme Directions, 2026 (19 जून 2026) से जाँचा।"
+        }
+      ],
+      "one": "Kisan Credit Card (KCC) किसानों के लिए bank की एक मिली-जुली क़र्ज़ सुविधा है: फ़सल उगाने का ख़र्च, पशुपालन और मछली पालन जैसे जुड़े काम, कटाई के बाद का ख़र्च, घर की ज़रूरतें, बीमा का premium, और खेती में निवेश, सब एक ही limit में। RBI के 19 जून 2026 के नए Directions के मुताबिक यह सुविधा छह साल की होती है; ये Directions 1 जनवरी 2027 से मंज़ूर होने वाले KCC loans पर लागू होंगे।",
+      "facts": [
+        {
+          "k": "अवधि",
+          "v": "6 साल",
+          "s": "composite facility"
+        },
+        {
+          "k": "बिना collateral",
+          "v": "₹2 लाख तक",
+          "s": "खेती और जुड़े काम"
+        },
+        {
+          "k": "Flexi KCC (सीमांत किसान)",
+          "v": "₹10,000 – ₹50,000",
+          "s": "ज़मीन की क़ीमत से जोड़े बिना"
+        },
+        {
+          "k": "नए Directions",
+          "v": "1 जनवरी 2027 से",
+          "s": "उससे पहले के loans पुराने नियमों पर"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "किसान आवेदन करता है",
+            "s": "ज़मीन / बँटाई का काग़ज़"
+          },
+          {
+            "t": "Bank limit तय करता है",
+            "s": "Scale of Finance × रक़बा"
+          },
+          {
+            "t": "KCC से ज़रूरत पर निकासी",
+            "s": "UPI, debit card, BC"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "हिसाब",
+            "s": "+10% घर, +20% रख-रखाव"
+          },
+          {
+            "b": "revolving cash credit",
+            "s": "short-term हिस्सा"
+          }
+        ],
+        "note": "RBI के मुताबिक फ़सल के लिए drawing limit = फ़सल का Scale of Finance × खेती का रक़बा, उसका 10% कटाई के बाद और घर की ज़रूरत के लिए, 20% रख-रखाव और तकनीकी सेवाओं के लिए, और बीमा premium। Short-term हिस्सा revolving cash credit है।"
+      },
+      "myths": [
+        {
+          "m": "\"KCC सिर्फ़ ज़मीन के मालिक किसान को मिलता है।\"",
+          "f": "नहीं। RBI के मुताबिक बँटाईदार (sharecroppers), किराए पर खेती करने वाले (tenant farmers, oral lessees), और किसानों के SHG / JLG भी पात्र हैं; पशुपालक और मछुआरे जुड़े कामों के लिए।[^1]"
+        },
+        {
+          "m": "\"KCC एक बार का फ़सल loan है।\"",
+          "f": "नहीं। RBI के मुताबिक short-term हिस्सा revolving cash credit है, जिसमें पैसा निकालने और जमा करने की गिनती पर कोई रोक नहीं; पूरी सुविधा छह साल की है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "KCC से किन ज़रूरतों के लिए पैसा मिलता है?",
+          "a": "RBI के मुताबिक: फ़सल उगाना; पशुपालन, मछली पालन, मधुमक्खी पालन जैसे जुड़े काम; कटाई के बाद का ख़र्च; किसान परिवार की ज़रूरतें; खेती की चीज़ों का रख-रखाव और मिट्टी जाँच; फ़सल, दुर्घटना, स्वास्थ्य और संपत्ति बीमा; उपज बेचने के लिए loan; और खेती में निवेश।[^1]"
+        },
+        {
+          "q": "सीमांत और छोटा किसान कौन?",
+          "a": "RBI के मुताबिक सीमांत किसान: 1 hectare तक ज़मीन; छोटा किसान: 1 से 2 hectare।[^1]"
+        },
+        {
+          "q": "Collateral (अलग गिरवी) कब तक नहीं चाहिए?",
+          "a": "RBI के मुताबिक खेती और जुड़े कामों के ₹2 लाख तक के loan पर collateral और margin माफ़; फ़सल / stock गिरवी और वसूली के tie-up वाले KCC loan में ₹3 लाख तक collateral माफ़ किया जा सकता है।[^1]"
+        },
+        {
+          "q": "KCC खाता कैसे चलता है?",
+          "a": "RBI के मुताबिक bank branch, business correspondent, ATM / micro-ATM / PoS, और खाताधारक की साफ़ सहमति के बाद UPI, debit card, mobile banking, internet banking, NEFT, RTGS और CBDC से।[^1]"
+        },
+        {
+          "q": "ब्याज दर कौन तय करता है?",
+          "a": "RBI के मुताबिक ब्याज RBI के advances पर ब्याज दर वाले Directions और खेती के क़र्ज़ से जुड़े दूसरे निर्देशों के मुताबिक; interest subvention और समय पर चुकाने का incentive समय-समय पर लागू निर्देशों के मुताबिक।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Cash Credit"
+        },
+        {
+          "t": "Collateral"
+        },
+        {
+          "t": "Term Loan"
+        },
+        {
+          "t": "Regional Rural Bank"
+        },
+        {
+          "t": "Business Correspondent"
+        },
+        {
+          "t": "NPA"
+        },
+        {
+          "t": "UPI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India [Commercial Banks - Kisan Credit Card (KCC) Scheme] Directions, 2026 (FIDD.CO.FSD.BC.No.04/05.05.010/2026-27, 19.06.2026; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13522",
+          "issued": "2026-06-19",
+          "effective": "2027-01-01",
+          "used": [
+            {
+              "ref": "पैरा 1–4",
+              "c": "नाम; 1.1.2027 से मंज़ूर loans पर, पहले वाले पुराने नियमों पर maturity / renewal तक; मक़सद; commercial banks पर लागू"
+            },
+            {
+              "ref": "पैरा 6",
+              "c": "सीमांत किसान 1 hectare तक; छोटा 1–2 hectare; फ़सल सीज़न 12 / 18 महीने"
+            },
+            {
+              "ref": "पैरा 8–11",
+              "c": "छह साल की composite facility; ज़रूरतों की सूची; short-term revolving cash credit"
+            },
+            {
+              "ref": "पैरा 12, 13, 15",
+              "c": "पात्र: मालिक, tenant, oral lessee, sharecropper, SHG / JLG; drawing limit = SoF × रक़बा + 10% + 20% + बीमा; Flexi KCC ₹10,000–₹50,000"
+            },
+            {
+              "ref": "पैरा 21, 23, 25, 34, 35, 37",
+              "c": "ब्याज दर के नियम; ₹2 लाख तक collateral माफ़; tie-up में ₹3 लाख; delivery channels; UPI, debit card, CBDC; interest subvention"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nKisan Credit Card यानी किसान क्रेडिट कार्ड। RBI के मुताबिक इसका मक़सद खेती और जुड़े कामों में लगे लोगों को उनकी working capital और निवेश की ज़रूरतों के लिए, आसान और एक जैसी प्रक्रिया वाली एक मिली-जुली सुविधा से, समय पर पर्याप्त क़र्ज़ देना है।[^1]\n\n> ध्यान दें: यहाँ लिखी बातें RBI के 19 जून 2026 के Directions से हैं, जो 1 जनवरी 2027 से मंज़ूर होने वाले KCC loans पर लागू होंगे। उससे पहले मंज़ूर loans maturity या अगले renewal तक पुराने निर्देशों पर चलेंगे।[^1]\n\n## KCC कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: composite facility, 6 साल; short-term हिस्सा revolving cash credit; ₹2 लाख तक collateral-free (tie-up में ₹3 लाख); Flexi KCC ₹10,000–₹50,000; सीमांत ≤1 ha, छोटा 1–2 ha; नए Directions 1.1.2027 से। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "cbdc",
+      "term": "CBDC",
+      "aliases": [
+        "Digital Rupee",
+        "e₹",
+        "e₹-W",
+        "डिजिटल रुपया",
+        "Central Bank Digital Currency",
+        "Programmable CBDC",
+        "Wholesale CBDC",
+        "Retail CBDC"
+      ],
+      "full": "Central Bank Digital Currency · RBI का जारी किया digital रुपया (e₹)",
+      "fullEn": "Central Bank Digital Currency (Digital Rupee, e₹)",
+      "group": "भुगतान",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। RBI के Digital Rupee (e₹) FAQs (1 अक्टूबर 2026 तक updated) से जाँचा।"
+        }
+      ],
+      "one": "CBDC यानी Central Bank Digital Currency। भारत का CBDC Digital Rupee या e₹ है: रुपये का digital रूप, जिसे RBI जारी करता है और जो नोट के बराबर (at par) है। RBI के मुताबिक e₹ अभी pilot में है: retail (आम लोग) और wholesale (bank और संस्थाएँ) दोनों हिस्सों में। यह आपके मोबाइल के e₹ wallet में रहता है।",
+      "facts": [
+        {
+          "k": "जारी करने वाला",
+          "v": "RBI",
+          "s": "RBI की देनदारी"
+        },
+        {
+          "k": "Legal tender",
+          "v": "हाँ",
+          "s": "RBI Act धारा 26"
+        },
+        {
+          "k": "Retail pilot",
+          "v": "दिसंबर 2022 से",
+          "s": "चुने हुए bank / non-bank"
+        },
+        {
+          "k": "Wallet पर ब्याज",
+          "v": "नहीं",
+          "s": "नक़द जैसा"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "RBI e₹ बनाता है",
+            "s": "नोट जैसी व्यवस्था"
+          },
+          {
+            "t": "Bank / non-bank तक",
+            "s": "electronically"
+          },
+          {
+            "t": "आपके e₹ wallet में",
+            "s": "P2P, P2M भुगतान"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "जारी",
+            "s": ""
+          },
+          {
+            "b": "wallet खुलवाना",
+            "s": "bank account से"
+          }
+        ],
+        "note": "RBI के मुताबिक e₹ बनाने और जारी करने का तरीक़ा physical currency जैसा है; banks और non-banks ग्राहकों के e₹ wallet खुलवाते हैं। CBDC QR पर wallet-से-wallet भुगतान तुरंत settle होता है, bank खाते से गुज़रे बिना।"
+      },
+      "myths": [
+        {
+          "m": "\"e₹ और UPI एक ही चीज़ है।\"",
+          "f": "नहीं। RBI के मुताबिक e₹ रुपये का digital रूप है, जबकि UPI भुगतान का एक तरीक़ा है। e₹ 'store of value' भी है, यानी आप उसे bank खाते से निकालकर अलग wallet में रख सकते हैं।[^1]"
+        },
+        {
+          "m": "\"फ़ोन खो गया, तो e₹ भी गया।\"",
+          "f": "नहीं। RBI के मुताबिक फ़ोन खोने पर भी wallet का e₹ सुरक्षित रहता है; उसी फ़ोन नंबर / SIM से नए फ़ोन पर wallet वापस पाया जा सकता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Digital Rupee आसान भाषा में क्या है?",
+          "a": "जेब के नोट का digital रूप। RBI के मुताबिक e₹ RBI जारी करता है, यह physical रुपये के बराबर है, और नक़द जैसी ख़ूबियाँ देता है, जैसे RBI की guarantee और settlement की finality।[^1]"
+        },
+        {
+          "q": "e₹ इस्तेमाल करने के लिए क्या चाहिए?",
+          "a": "RBI के मुताबिक pilot वाले bank / non-bank का e₹ app, Play Store या App Store से। अभी wallet खोलना ज़्यादातर बचत खाते से जुड़ा है; सरकारी DBT जैसे programmable CBDC के कुछ मामलों में mobile / Aadhaar से onboarding भी है।[^1]"
+        },
+        {
+          "q": "कोई fee या minimum balance?",
+          "a": "RBI के मुताबिक e₹ या e₹ wallet के इस्तेमाल पर कोई charge नहीं, और कोई minimum balance नहीं। e₹ 24 घंटे, सातों दिन load / redeem हो सकता है।[^1]"
+        },
+        {
+          "q": "Programmable CBDC क्या है?",
+          "a": "RBI के मुताबिक इसमें देने वाली संस्था (सरकार / corporate) तय कर सकती है कि पैसा सिर्फ़ तय काम में लगे, जैसे expiry date, जगह, या दुकान के प्रकार की शर्त।[^1]"
+        },
+        {
+          "q": "Wholesale CBDC क्या है?",
+          "a": "RBI के मुताबिक e₹-W bank और वित्तीय संस्थाओं के लिए है, जैसे सरकारी securities के सौदों का settlement, call money, और Certificates of Deposit / Corporate Bonds का tokenised issue। इसके pilot में अभी 16 participant हैं।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "UPI"
+        },
+        {
+          "t": "Wallet"
+        },
+        {
+          "t": "QR Code"
+        },
+        {
+          "t": "RBI Act"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "Government Securities"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Digital Rupee (e₹) – FAQs (01.10.2026 तक updated; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/FAQDisplay.aspx?Id=169",
+          "issued": "2026-10-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना; प्रश्न 1–3, 6",
+              "c": "retail और wholesale pilot; e₹ = CBDC, RBI जारी, at par; wallet; जारी करने का तरीक़ा; retail दिसंबर 2022 से"
+            },
+            {
+              "ref": "प्रश्न 4, 10, 11, 15, 17, 18, 19",
+              "c": "फ़ोन खोने पर सुरक्षित; minimum balance नहीं; बचत खाते से जुड़ाव, DBT में mobile / Aadhaar; charge नहीं; ब्याज नहीं; RBI Act धारा 26, legal tender, RBI की देनदारी; UPI से फ़र्क़, store of value"
+            },
+            {
+              "ref": "प्रश्न 9, 21",
+              "c": "24×7 load / redeem; 19 bank wallet दे रहे"
+            },
+            {
+              "ref": "प्रश्न 22, 25, 27, 28",
+              "c": "programmability; e₹-W; 16 participant; चार use case"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nCBDC यानी Central Bank Digital Currency। RBI के मुताबिक Digital Rupee या e₹ भारत का CBDC है: भारत की physical currency, रुपये (₹), का digital रूप, जिसे RBI digital रूप में जारी करता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **नक़द जैसा, पर फ़ोन में:** wallet पर ब्याज नहीं मिलता, और इस्तेमाल पर कोई charge नहीं।[^1]\n- **अभी pilot:** RBI के मुताबिक अभी चुने हुए bank / non-bank के ग्राहक ही e₹ इस्तेमाल कर सकते हैं।[^1]\n\n## e₹ कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: e₹ = भारत का CBDC; legal tender (RBI Act धारा 26), RBI की देनदारी; retail pilot दिसंबर 2022 से; wallet पर ब्याज नहीं; retail और wholesale (e₹-W) दोनों; programmable CBDC; CAT Sandbox। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "nabard",
+      "term": "NABARD",
+      "aliases": [
+        "National Bank for Agriculture and Rural Development",
+        "NABARD Act",
+        "नाबार्ड",
+        "राष्ट्रीय कृषि और ग्रामीण विकास बैंक"
+      ],
+      "full": "National Bank for Agriculture and Rural Development · खेती और गाँव के विकास के लिए क़ानून से बना development bank",
+      "fullEn": "National Bank for Agriculture and Rural Development",
+      "group": "बैंकिंग",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। India Code पर NABARD Act, 1981 की प्रस्तावना और धारा 3, 21, 24, 25, 38 के पाठ से, और RBI के PSL Master Directions से जाँचा।"
+        }
+      ],
+      "one": "NABARD (नाबार्ड) संसद के NABARD Act, 1981 से बना एक development bank है। Act की प्रस्तावना के मुताबिक इसका काम खेती, सूक्ष्म-लघु-मध्यम उद्यम, कुटीर और ग्रामोद्योग, हथकरघा, हस्तशिल्प और गाँव के दूसरे कामों के लिए क़र्ज़ और दूसरी सुविधाएँ देना और उनका नियमन (regulate) करना है, ताकि गाँवों का एकीकृत विकास हो। यह आम तौर पर सीधे लोगों को नहीं, बल्कि co-operative banks, Regional Rural Banks जैसी संस्थाओं को refinance देता है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "NABARD Act, 1981",
+          "s": "Act No. 61, 30.12.1981"
+        },
+        {
+          "k": "मुख्यालय",
+          "v": "मुंबई",
+          "s": "धारा 3(3)"
+        },
+        {
+          "k": "मुख्य तरीक़ा",
+          "v": "Refinance",
+          "s": "bank / संस्थाओं को"
+        },
+        {
+          "k": "Refinance की अधिकतम अवधि",
+          "v": "25 साल",
+          "s": "धारा 25(1)(a)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "NABARD",
+            "s": "development bank"
+          },
+          {
+            "t": "Co-operative bank, RRB, scheduled bank",
+            "s": "refinance पाते हैं"
+          },
+          {
+            "t": "किसान, कारीगर, गाँव के उद्यम",
+            "s": "इन banks से क़र्ज़"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Refinance",
+            "s": "धारा 21, 24, 25"
+          },
+          {
+            "b": "क़र्ज़",
+            "s": ""
+          }
+        ],
+        "note": "धारा 21 के मुताबिक NABARD 18 महीने तक की अवधि के लिए खेती, फ़सल की बिक्री, कारीगरों और ग्रामीण उद्योगों के production / marketing के लिए refinance दे सकता है; धारा 24 के तहत 18 महीने से 7 साल, और धारा 25 के तहत 25 साल तक का।"
+      },
+      "myths": [
+        {
+          "m": "\"NABARD गाँव में आम bank की तरह खाता खोलता है।\"",
+          "f": "Act के मुताबिक NABARD का मुख्य काम दूसरे banks और संस्थाओं (State co-operative banks, central co-operative banks, RRB आदि) को refinance और loans देना है।[^1]"
+        },
+        {
+          "m": "\"NABARD सिर्फ़ खेती के लिए है।\"",
+          "f": "नहीं। Act की प्रस्तावना में खेती के साथ सूक्ष्म-लघु-मध्यम उद्यम, कुटीर और ग्रामोद्योग, हथकरघा, हस्तशिल्प और गाँव के दूसरे आर्थिक काम भी हैं।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "NABARD आसान भाषा में क्या करता है?",
+          "a": "यह 'banks का bank' जैसा काम करता है गाँव के क़र्ज़ के लिए: जो bank किसानों और गाँव के उद्यमों को क़र्ज़ देते हैं, NABARD उन्हें पैसा (refinance) देता है, ताकि वे और क़र्ज़ दे सकें।[^1]"
+        },
+        {
+          "q": "NABARD के और क्या काम हैं?",
+          "a": "धारा 38 के मुताबिक ग्रामीण क़र्ज़ देने वाली संस्थाओं का तालमेल, खेती और ग्रामीण विकास की समस्याओं पर अध्ययन, केंद्र, RBI और राज्य सरकारों को सलाह, training, research और surveys, और consultancy।[^1]"
+        },
+        {
+          "q": "PSL से NABARD का क्या रिश्ता है?",
+          "a": "RBI के PSL Directions के मुताबिक जो bank priority sector target से पीछे रहते हैं, उन्हें कमी की रक़म NABARD के पास Rural Infrastructure Development Fund (RIDF) और दूसरे fund में देनी होती है।[^2]"
+        },
+        {
+          "q": "NABARD का मुख्यालय कहाँ है?",
+          "a": "धारा 3(3) के मुताबिक मुंबई में, या जहाँ केंद्र सरकार notification से तय करे।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Regional Rural Bank"
+        },
+        {
+          "t": "Co-operative Bank"
+        },
+        {
+          "t": "Priority Sector Lending"
+        },
+        {
+          "t": "Kisan Credit Card"
+        },
+        {
+          "t": "MSME"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The National Bank for Agriculture and Rural Development Act, 1981 (Act No. 61 of 1981; प्रस्तावना, धारा 3, 21, 24, 25 और 38 का पाठ; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/8b1293d6-9144-4e40-aca5-b7aa96e748ca",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना",
+              "c": "Act No. 61 of 1981, 30.12.1981; development bank; खेती, MSME, कुटीर / ग्रामोद्योग, हथकरघा, हस्तशिल्प, ग्रामीण शिल्प; एकीकृत ग्रामीण विकास"
+            },
+            {
+              "ref": "धारा 3",
+              "c": "body corporate; मुख्यालय मुंबई"
+            },
+            {
+              "ref": "धारा 21, 24, 25(1)(a)",
+              "c": "18 महीने तक refinance (State / central co-operative banks, RRB); 18 महीने–7 साल; 25 साल तक"
+            },
+            {
+              "ref": "धारा 38",
+              "c": "तालमेल, अध्ययन, सलाह, training, research, consultancy"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Master Directions: Reserve Bank of India (Priority Sector Lending – Targets and Classification) Directions, 2025 (FIDD.CO.PSD.BC.13/04.09.001/2024-25, 24.03.2025; 11.09.2026 तक updated; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12799",
+          "issued": "2025-03-24",
+          "effective": "2025-04-01",
+          "used": [
+            {
+              "ref": "पैरा 29(i)",
+              "c": "PSL कमी पर RIDF और NABARD / NHB / SIDBI / MUDRA के fund"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNABARD यानी National Bank for Agriculture and Rural Development। NABARD Act, 1981 की प्रस्तावना के मुताबिक यह एक development bank है, जो खेती और गाँव के उद्योग-धंधों के लिए क़र्ज़ और दूसरी सुविधाएँ देता और उनका नियमन करता है, ताकि गाँवों का एकीकृत विकास और समृद्धि हो।[^1]\n\n## NABARD कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: NABARD Act, 1981 (Act No. 61, 30.12.1981); मुख्यालय मुंबई (धारा 3); refinance: 18 महीने तक (धारा 21), 18 महीने–7 साल (धारा 24), 25 साल तक (धारा 25); PSL की कमी RIDF में। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "sidbi",
+      "term": "SIDBI",
+      "aliases": [
+        "Small Industries Development Bank of India",
+        "SIDBI Act",
+        "सिडबी",
+        "भारतीय लघु उद्योग विकास बैंक"
+      ],
+      "full": "Small Industries Development Bank of India · छोटे उद्योगों के लिए क़ानून से बनी मुख्य वित्तीय संस्था",
+      "fullEn": "Small Industries Development Bank of India",
+      "group": "बैंकिंग",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। India Code पर SIDBI Act, 1989 की प्रस्तावना और धारा 3, 13 के पाठ से, और RBI के PSL Master Directions से जाँचा।"
+        }
+      ],
+      "one": "SIDBI संसद के SIDBI Act, 1989 से बनी संस्था है। Act के मुताबिक यह छोटे (small-scale) उद्योगों को बढ़ावा देने, उनकी financing और विकास के लिए मुख्य (principal) वित्तीय संस्था है, और इस काम में लगी दूसरी संस्थाओं के बीच तालमेल भी करती है। इसका एक बड़ा काम दूसरे banks और राज्य की वित्तीय संस्थाओं को छोटे उद्योगों के क़र्ज़ के लिए refinance देना है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "SIDBI Act, 1989",
+          "s": "Act No. 39, 25.10.1989"
+        },
+        {
+          "k": "मुख्यालय",
+          "v": "लखनऊ",
+          "s": "धारा 3(3)"
+        },
+        {
+          "k": "भूमिका",
+          "v": "Principal financial institution",
+          "s": "small-scale sector"
+        },
+        {
+          "k": "Refinance",
+          "v": "25 साल तक के क़र्ज़",
+          "s": "धारा 13(1)(i)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "SIDBI",
+            "s": "मुख्य वित्तीय संस्था"
+          },
+          {
+            "t": "Scheduled bank, State Financial Corporation आदि",
+            "s": "refinance पाते हैं"
+          },
+          {
+            "t": "छोटे उद्योग",
+            "s": "इनसे क़र्ज़"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Refinance",
+            "s": "धारा 13"
+          },
+          {
+            "b": "क़र्ज़",
+            "s": ""
+          }
+        ],
+        "note": "धारा 13(1) के मुताबिक SIDBI State Financial Corporation, State Industrial Development Corporation, State Small Industries Corporation, scheduled bank, State Co-operative Bank या Board की मंज़ूर दूसरी संस्थाओं को, छोटे उद्योगों को दिए 25 साल तक के क़र्ज़ पर refinance दे सकता है, और bills की discounting भी कर सकता है।"
+      },
+      "myths": [
+        {
+          "m": "\"SIDBI और NABARD एक ही काम करते हैं।\"",
+          "f": "नहीं। SIDBI Act के मुताबिक SIDBI छोटे उद्योगों (small-scale sector) के लिए मुख्य संस्था है; NABARD Act के मुताबिक NABARD खेती और ग्रामीण विकास के लिए।[^1]"
+        },
+        {
+          "m": "\"SIDBI का मुख्यालय मुंबई में है।\"",
+          "f": "नहीं। SIDBI Act की धारा 3(3) के मुताबिक मुख्यालय लखनऊ में है, या जहाँ केंद्र सरकार notification से तय करे।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "SIDBI आसान भाषा में क्या करता है?",
+          "a": "छोटे उद्योगों को क़र्ज़ देने वाले banks और संस्थाओं को SIDBI पैसा (refinance) देता है, ताकि छोटे उद्योगों तक ज़्यादा क़र्ज़ पहुँचे; साथ ही इस क्षेत्र की संस्थाओं में तालमेल करता है।[^1]"
+        },
+        {
+          "q": "SIDBI कब बना?",
+          "a": "SIDBI Act, 1989 (Act No. 39 of 1989) 25 अक्टूबर 1989 को बना।[^1]"
+        },
+        {
+          "q": "PSL से SIDBI का क्या रिश्ता है?",
+          "a": "RBI के PSL Directions के मुताबिक priority sector target से पीछे रहने वाले banks की कमी की रक़म NABARD, NHB, SIDBI, MUDRA Ltd. के fund में जा सकती है, जैसा RBI तय करे।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "MSME"
+        },
+        {
+          "t": "Mudra Loan"
+        },
+        {
+          "t": "Priority Sector Lending"
+        },
+        {
+          "t": "NABARD"
+        },
+        {
+          "t": "Term Loan"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Small Industries Development Bank of India Act, 1989 (Act No. 39 of 1989; प्रस्तावना, धारा 3 और 13 का पाठ; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/98d35d00-9564-4632-b3fc-8b3cedd6c04a",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना",
+              "c": "Act No. 39 of 1989, 25.10.1989; small-scale sector के लिए principal financial institution; तालमेल"
+            },
+            {
+              "ref": "धारा 3",
+              "c": "body corporate; मुख्यालय लखनऊ"
+            },
+            {
+              "ref": "धारा 13(1)(i), (ii)",
+              "c": "SFC, SIDC, SSIC, scheduled bank, State Co-operative Bank को 25 साल तक के क़र्ज़ पर refinance; bills discounting"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Master Directions: Reserve Bank of India (Priority Sector Lending – Targets and Classification) Directions, 2025 (FIDD.CO.PSD.BC.13/04.09.001/2024-25, 24.03.2025; 11.09.2026 तक updated; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12799",
+          "issued": "2025-03-24",
+          "effective": "2025-04-01",
+          "used": [
+            {
+              "ref": "पैरा 29(i)",
+              "c": "PSL कमी पर NABARD / NHB / SIDBI / MUDRA के fund"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSIDBI यानी Small Industries Development Bank of India। SIDBI Act, 1989 की प्रस्तावना के मुताबिक यह small-scale sector के उद्योगों को बढ़ावा देने, उनकी financing और विकास के लिए principal financial institution है, और इस काम में लगी संस्थाओं का तालमेल करता है।[^1]\n\n## SIDBI कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: SIDBI Act, 1989 (Act No. 39, 25.10.1989); मुख्यालय लखनऊ (धारा 3); small-scale sector की principal financial institution; refinance 25 साल तक के क़र्ज़ पर (धारा 13)। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "ibc",
+      "term": "IBC",
+      "aliases": [
+        "Insolvency and Bankruptcy Code",
+        "Insolvency and Bankruptcy Code, 2016",
+        "CIRP",
+        "Corporate Insolvency Resolution Process",
+        "दिवाला और शोधन अक्षमता संहिता"
+      ],
+      "full": "Insolvency and Bankruptcy Code, 2016 · क़र्ज़ न चुका पाने वाली कंपनियों और लोगों के मामलों को तय समय में सुलझाने का क़ानून",
+      "fullEn": "Insolvency and Bankruptcy Code, 2016",
+      "group": "क़र्ज़",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। India Code पर Insolvency and Bankruptcy Code, 2016 की प्रस्तावना और धारा 4, 7, 10, 12, 14, 60, 188, 196 के पाठ से जाँचा।"
+        }
+      ],
+      "one": "IBC यानी Insolvency and Bankruptcy Code, 2016। प्रस्तावना के मुताबिक यह कंपनियों, partnership firms और व्यक्तियों के पुनर्गठन (reorganisation) और insolvency resolution से जुड़े क़ानूनों को एक जगह लाता है, ताकि मामले तय समय में निपटें और संपत्ति की क़ीमत ज़्यादा-से-ज़्यादा बचे। कंपनी के मामले में क़र्ज़ न चुकाने (default) पर NCLT के पास 'corporate insolvency resolution process' (CIRP) शुरू करने की अर्ज़ी दी जा सकती है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "Act No. 31 of 2016",
+          "s": "28 मई 2016"
+        },
+        {
+          "k": "कंपनी के लिए न्यूनतम default",
+          "v": "₹1 करोड़",
+          "s": "धारा 4"
+        },
+        {
+          "k": "CIRP की समय-सीमा",
+          "v": "180 दिन",
+          "s": "एक बार 90 दिन तक बढ़ सकती है"
+        },
+        {
+          "k": "Adjudicating Authority (कंपनी)",
+          "v": "NCLT",
+          "s": "धारा 60"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "कंपनी ने default किया",
+            "s": "कम-से-कम ₹1 करोड़"
+          },
+          {
+            "t": "NCLT में अर्ज़ी",
+            "s": "financial creditor या कंपनी ख़ुद"
+          },
+          {
+            "t": "CIRP",
+            "s": "180 दिन; moratorium"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "धारा 7 / 10",
+            "s": ""
+          },
+          {
+            "b": "अर्ज़ी मंज़ूर",
+            "s": "insolvency commencement"
+          }
+        ],
+        "note": "धारा 14 के मुताबिक insolvency commencement की तारीख़ पर NCLT moratorium का आदेश देता है: कंपनी के ख़िलाफ़ मुक़दमे, उसकी संपत्ति बेचना और SARFAESI समेत security interest की वसूली उस दौरान रुकती है।"
+      },
+      "myths": [
+        {
+          "m": "\"IBC में मामला सालों खिंच सकता है, कोई सीमा नहीं।\"",
+          "f": "धारा 12 के मुताबिक CIRP अर्ज़ी मंज़ूर होने से 180 दिन में पूरा होना है; committee of creditors के 66% वोट पर NCLT एक बार, ज़्यादा-से-ज़्यादा 90 दिन बढ़ा सकता है; और insolvency commencement से 330 दिन में अनिवार्य रूप से पूरा होना है (मुक़दमेबाज़ी का समय मिलाकर)।[^1]"
+        },
+        {
+          "m": "\"छोटे-से default पर भी कंपनी IBC में चली जाती है।\"",
+          "f": "नहीं। धारा 4 के मुताबिक कंपनियों वाला हिस्सा तभी लागू होता है, जब default कम-से-कम ₹1 करोड़ का हो।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "IBC आसान भाषा में क्या है?",
+          "a": "जब कोई कंपनी अपना क़र्ज़ नहीं चुका पाती, तो उसे बचाने (resolution) या आख़िर में बंद करके (liquidation) क़र्ज़ देने वालों में बाँटने का तय-समय वाला तरीक़ा। IBC व्यक्तियों और partnership firms के लिए भी है।[^1]"
+        },
+        {
+          "q": "CIRP कौन शुरू कर सकता है?",
+          "a": "धारा 7 के मुताबिक financial creditor (अकेले या दूसरों के साथ), default होने पर; और धारा 10 के मुताबिक default करने वाली कंपनी ख़ुद (corporate applicant)। Operational creditor के लिए Code में अलग धारा है।[^1]"
+        },
+        {
+          "q": "NCLT का क्या रोल है?",
+          "a": "धारा 60 के मुताबिक कंपनियों (और उनके personal guarantors) के insolvency और liquidation मामलों में Adjudicating Authority वह National Company Law Tribunal है, जिसके इलाक़े में कंपनी का registered office है।[^1]"
+        },
+        {
+          "q": "IBBI क्या है?",
+          "a": "धारा 188 के मुताबिक Insolvency and Bankruptcy Board of India, जिसका मुख्यालय National Capital Region में है। धारा 196 के मुताबिक यह insolvency professionals, उनकी agencies और information utilities को register और regulate करता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "NPA"
+        },
+        {
+          "t": "SARFAESI Act"
+        },
+        {
+          "t": "Wilful Defaulter"
+        },
+        {
+          "t": "Collateral"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Insolvency and Bankruptcy Code, 2016 (Act No. 31 of 2016; प्रस्तावना, धारा 4, 7, 10, 12, 14, 60, 188 और 196 का पाठ; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/37c94edf-7892-4c4f-a284-0c24613a4bf5",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना",
+              "c": "Act No. 31 of 2016, 28.5.2016; corporate persons, partnership firms, व्यक्ति; तय समय; संपत्ति की क़ीमत; IBBI की स्थापना"
+            },
+            {
+              "ref": "धारा 4",
+              "c": "Part II न्यूनतम default ₹1 करोड़"
+            },
+            {
+              "ref": "धारा 7, 10",
+              "c": "financial creditor की अर्ज़ी; corporate applicant की अर्ज़ी"
+            },
+            {
+              "ref": "धारा 12",
+              "c": "180 दिन; CoC 66% वोट; एक बार 90 दिन तक; 330 दिन अनिवार्य"
+            },
+            {
+              "ref": "धारा 14",
+              "c": "moratorium: मुक़दमे, संपत्ति transfer, SARFAESI समेत security interest की वसूली पर रोक"
+            },
+            {
+              "ref": "धारा 60, 188, 196",
+              "c": "NCLT Adjudicating Authority; IBBI, मुख्यालय NCR; IBBI के काम"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIBC यानी Insolvency and Bankruptcy Code, 2016। Insolvency का मतलब है क़र्ज़ न चुका पाने की हालत। Code की प्रस्तावना के मुताबिक यह कंपनियों, partnership firms और व्यक्तियों के पुनर्गठन और insolvency resolution से जुड़े क़ानूनों को एक जगह लाता और बदलता है, ताकि मामले तय समय में निपटें, संपत्ति की क़ीमत ज़्यादा-से-ज़्यादा बचे, उद्यम और क़र्ज़ की उपलब्धता बढ़े, और सभी पक्षों के हितों में संतुलन रहे।[^1]\n\n## Insolvency process कैसे चलती है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: IBC 2016 (Act No. 31, 28.5.2016); कंपनी के लिए न्यूनतम default ₹1 करोड़ (धारा 4); धारा 7 financial creditor, धारा 10 कंपनी ख़ुद; CIRP 180 दिन + एक बार 90 दिन, कुल 330 दिन अनिवार्य (धारा 12); moratorium धारा 14; NCLT धारा 60; IBBI धारा 188। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "pfrda",
+      "term": "PFRDA",
+      "aliases": [
+        "Pension Fund Regulatory and Development Authority",
+        "PFRDA Act",
+        "PFRDA Act, 2013",
+        "पेंशन निधि विनियामक और विकास प्राधिकरण"
+      ],
+      "full": "Pension Fund Regulatory and Development Authority · NPS और pension funds का नियामक",
+      "fullEn": "Pension Fund Regulatory and Development Authority",
+      "group": "सरकारी योजनाएँ",
+      "created": "2026-10-17",
+      "verified": "2026-10-17",
+      "history": [
+        {
+          "d": "2026-10-17",
+          "t": "पन्ना बना। India Code पर PFRDA Act, 2013 की प्रस्तावना और धारा 3, 14, 20 के पाठ से जाँचा।"
+        }
+      ],
+      "one": "PFRDA संसद के PFRDA Act, 2013 से बना नियामक (regulator) है। Act की प्रस्तावना के मुताबिक इसका काम pension funds को बनाकर, बढ़ाकर और regulate करके बुढ़ापे की आय की सुरक्षा (old age income security) को बढ़ावा देना, और pension योजनाओं के subscribers (सदस्यों) के हितों की रक्षा करना है। National Pension System (NPS) इसी के नियमन में है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "PFRDA Act, 2013",
+          "s": "Act No. 23, 18.9.2013"
+        },
+        {
+          "k": "मुख्यालय",
+          "v": "National Capital Region",
+          "s": "धारा 3(3)"
+        },
+        {
+          "k": "मुख्य ज़िम्मेदारी",
+          "v": "NPS का नियमन",
+          "s": "धारा 14"
+        },
+        {
+          "k": "NPS कब से",
+          "v": "1 जनवरी 2004",
+          "s": "धारा 20(1)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "PFRDA",
+            "s": "नियामक"
+          },
+          {
+            "t": "Pension funds, CRA, PoP आदि",
+            "s": "intermediaries, registration"
+          },
+          {
+            "t": "Subscriber (आप)",
+            "s": "individual pension account"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "Regulate",
+            "s": "धारा 14"
+          },
+          {
+            "b": "सेवा",
+            "s": ""
+          }
+        ],
+        "note": "धारा 14 के मुताबिक PFRDA NPS और उन pension schemes को regulate करता है, जिन पर Act लागू है: योजनाएँ और निवेश के norms मंज़ूर करना, intermediaries को register और regulate करना, subscribers के योगदान की सुरक्षा, और शिकायत निवारण की व्यवस्था।"
+      },
+      "myths": [
+        {
+          "m": "\"PFRDA ख़ुद आपका पैसा निवेश करता है।\"",
+          "f": "नहीं। Act के मुताबिक PFRDA नियामक है: वह pension funds और दूसरे intermediaries को register और regulate करता है, और निवेश के norms तय करता है; NPS में subscriber के पास कई pension funds और schemes का विकल्प होता है।[^1]"
+        },
+        {
+          "m": "\"NPS 2013 के Act से शुरू हुआ।\"",
+          "f": "नहीं। धारा 20(1) के मुताबिक वित्त मंत्रालय की 22 दिसंबर 2003 की notification वाली contributory pension system 1 जनवरी 2004 से National Pension System मानी जाती है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "PFRDA आसान भाषा में क्या है?",
+          "a": "जैसे शेयर बाज़ार के लिए SEBI है, वैसे NPS और pension funds के लिए PFRDA नियामक है: नियम बनाता है, संस्थाओं को register करता है, और subscribers के हितों की रक्षा करता है।[^1]"
+        },
+        {
+          "q": "PFRDA के मुख्य काम क्या हैं?",
+          "a": "धारा 14 के मुताबिक: NPS और लागू pension schemes का नियमन; योजनाएँ और निवेश के norms मंज़ूर करना; intermediaries का registration और नियमन; subscribers के योगदान की सुरक्षा और ख़र्च को किफ़ायती रखना; और शिकायत निवारण की व्यवस्था।[^1]"
+        },
+        {
+          "q": "NPS की बुनियादी बातें Act में क्या हैं?",
+          "a": "धारा 20(2) के मुताबिक हर subscriber का अपना individual pension account; record-keeping central recordkeeping agency करती है; कई pension funds और schemes का विकल्प; और subscriber चाहे तो पूरा पैसा सरकारी securities में लगा सकता है। आंशिक निकासी नियमों (regulations) की शर्तों के साथ।[^1]"
+        },
+        {
+          "q": "PFRDA का मुख्यालय कहाँ है?",
+          "a": "धारा 3(3) के मुताबिक National Capital Region में।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "NPS"
+        },
+        {
+          "t": "APY"
+        },
+        {
+          "t": "Pension (पेंशन)"
+        },
+        {
+          "t": "SEBI"
+        },
+        {
+          "t": "IRDAI"
+        },
+        {
+          "t": "Government Securities"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Pension Fund Regulatory and Development Authority Act, 2013 (Act No. 23 of 2013; प्रस्तावना, धारा 3, 14 और 20 का पाठ; 17 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/act/19926ab3-053a-48e3-9948-30731c2eaffe",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना",
+              "c": "Act No. 23 of 2013, 18.9.2013; old age income security; pension funds; subscribers के हित"
+            },
+            {
+              "ref": "धारा 3",
+              "c": "body corporate; मुख्यालय NCR"
+            },
+            {
+              "ref": "धारा 14(1), (2)",
+              "c": "NPS का नियमन; schemes और निवेश norms; intermediaries का registration; योगदान की सुरक्षा; किफ़ायती ख़र्च; शिकायत निवारण"
+            },
+            {
+              "ref": "धारा 20(1), (2)",
+              "c": "22.12.2003 की notification वाली system 1.1.2004 से NPS; individual pension account; निकासी regulations से; CRA; कई funds / schemes; 100% G-Sec विकल्प"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPFRDA यानी Pension Fund Regulatory and Development Authority। PFRDA Act, 2013 की प्रस्तावना के मुताबिक इसे pension funds बनाकर, बढ़ाकर और regulate करके बुढ़ापे की आय की सुरक्षा को बढ़ावा देने, और pension fund योजनाओं के subscribers के हितों की रक्षा के लिए बनाया गया।[^1]\n\n## PFRDA कैसे काम करता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: PFRDA Act, 2013 (Act No. 23, 18.9.2013); मुख्यालय NCR (धारा 3); काम धारा 14; NPS 1.1.2004 से (धारा 20); NPS में individual pension account, CRA, कई pension funds, 100% G-Sec विकल्प। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
