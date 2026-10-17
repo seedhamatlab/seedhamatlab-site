@@ -146,6 +146,7 @@ function renderBody(text) {
     const ln = raw.trim();
     if (!ln) { flushPara(); flushList(); continue; }
     if (ln.startsWith("## ")) { flushPara(); flushList(); html += `<h2>${esc(ln.slice(3))}</h2>`; }
+    else if (ln.startsWith("### ")) { flushPara(); flushList(); html += `<h3>${esc(ln.slice(4))}</h3>`; }
     else if (ln.startsWith("- ")) { flushPara(); list = (list || "") + `<li>${inline(ln.slice(2))}</li>`; }
     else { flushList(); para.push(ln); }
   }
@@ -203,6 +204,39 @@ button{font:inherit;color:inherit}
 .site-menu a{display:block;background:rgba(255,255,255,.06);border-radius:11px;padding:10px 13px;text-decoration:none;color:var(--on-dark);font-weight:600;font-size:14.5px}
 .site-menu a:hover,.site-menu a:focus-visible{background:rgba(255,255,255,.15)}
 .bandpad{padding-bottom:18px}
+/* ---- Pariksha: menu ke neeche patti + exam boxes ---- */
+.exambar{display:flex;align-items:center;gap:12px;margin:0 0 14px;padding:10px 14px 10px 10px;border:1px solid rgba(120,160,255,.55);border-radius:14px;background:linear-gradient(100deg,rgba(66,110,240,.22),rgba(66,110,240,.06));text-decoration:none;color:var(--on-dark)}
+.exambar:hover,.exambar:focus-visible{border-color:#9DB6FF;background:linear-gradient(100deg,rgba(66,110,240,.34),rgba(66,110,240,.10))}
+.exambar .eb-ic{flex:none;display:grid;place-items:center;width:46px;height:40px;border-radius:10px;background:#16245A;color:#BFD0FF}
+.exambar .eb-t{flex:1;min-width:0;line-height:1.3}
+.exambar .eb-t b{display:block;font-size:16.5px;font-weight:800;letter-spacing:-.01em}
+.exambar .eb-t b i{font-style:normal;color:#9DB6FF;font-weight:400;margin:0 6px 0 2px}
+.exambar .eb-t span{display:block;font-size:13px;color:var(--on-dark-2)}
+.exambar .eb-go{flex:none;font-size:13.5px;font-weight:700;color:#BFD0FF;white-space:nowrap}
+@media(max-width:400px){.exambar .eb-go{display:none}}
+.exgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr));gap:16px;margin:8px 0 30px}
+.excard{position:relative;overflow:hidden;min-width:0;padding:20px 20px 16px;border-radius:16px;color:var(--on-dark);isolation:isolate;background:linear-gradient(152deg,#0E1116 0%,#13262A 58%,#124038 100%)}
+.excard:after{content:"";position:absolute;right:-45px;top:-55px;width:190px;height:190px;border-radius:50%;border:24px solid rgba(255,255,255,.055);z-index:-1}
+.excard[data-c="upsc"]{background:linear-gradient(152deg,#0D1020 0%,#16224A 58%,#1E3478 100%)}
+.excard[data-c="psc"]{background:linear-gradient(152deg,#0E1116 0%,#13262A 58%,#124038 100%)}
+.excard[data-c="rbi"]{background:linear-gradient(152deg,#140F06 0%,#2A2210 58%,#4A3A12 100%)}
+.excard[data-c="sbi"]{background:linear-gradient(152deg,#07121A 0%,#0C2A3E 58%,#0D4466 100%)}
+.excard[data-c="ibps"]{background:linear-gradient(152deg,#130D1A 0%,#2A1838 58%,#45215C 100%)}
+.excard .ex-eb{display:block;font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.excard h3{margin:6px 0 4px;font-size:clamp(20px,3.4vw,25px);line-height:1.25;letter-spacing:-.02em;color:#fff}
+.excard .ex-sub{margin:0 0 12px;font-size:14px;color:var(--on-dark-2);line-height:1.5}
+.excard .ex-line{margin:0 0 14px;padding:12px 0 0;border-top:1px solid rgba(255,255,255,.12)}
+.excard .ex-line h4{margin:0 0 4px;font:600 12.5px var(--sans);color:#D9E2EE;letter-spacing:.01em}
+.excard .ex-line q{display:block;margin:0 0 8px;font-size:13.5px;line-height:1.55;color:#B9C4D2;font-style:italic;quotes:"“" "”"}
+.excard ul{display:flex;gap:6px;flex-wrap:wrap;padding:0;margin:0;list-style:none}
+.excard li a{display:inline-block;padding:5px 11px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);font-size:13px;line-height:1.4;color:#fff;text-decoration:none}
+.excard li a:hover,.excard li a:focus-visible{background:rgba(255,255,255,.22)}
+.excard .ex-note{margin:0 0 12px;font-size:13.5px;line-height:1.55;color:#FFD7A0}
+.excard .ex-src{display:block;margin-top:6px;font-family:var(--mono);font-size:10.5px;line-height:1.6;color:var(--on-dark-2)}
+.excard .ex-src a{color:#D9E2EE}
+.excard details{margin:0 0 12px}
+.excard summary{cursor:pointer;font-size:14px;font-weight:700;color:#fff}
+.excard details ul{margin-top:10px}
 /* ---- Shabdkosh: menu ke bahar patti + homepage box + SM mascot ---- */
 .koshbar{display:flex;align-items:center;gap:12px;margin:0 0 14px;padding:10px 14px 10px 10px;border:1px solid rgba(233,185,73,.55);border-radius:14px;background:linear-gradient(100deg,rgba(233,185,73,.16),rgba(233,185,73,.05));text-decoration:none;color:var(--on-dark)}
 .koshbar:hover,.koshbar:focus-visible{border-color:var(--gold);background:linear-gradient(100deg,rgba(233,185,73,.26),rgba(233,185,73,.08))}
@@ -598,9 +632,10 @@ ${published ? `<meta property="article:published_time" content="${esc(published)
   <div class="header-actions"><a class="contact-top" href="mailto:${esc(SITE.email)}">Contact</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Menu खोलें">☰ <span>Menu</span></button></div>
 </header>
 <nav id="site-menu" class="site-menu" aria-label="मुख्य menu" hidden>
-  <a href="/">Home</a><a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/pariksha/">परीक्षा के लिए</a><a href="/about/">About</a><a href="/#contact">Contact</a>
+  <a href="/">Home</a><a href="/#articles">Scam Alerts / Articles</a><a href="/how-to-check/">अभी क्या करें</a><a href="/faq/">FAQ</a><a href="/about/">About</a><a href="/#contact">Contact</a>
 </nav>
 ${TERM_LINKS.re && !home && canonical !== `${SITE.url}/shabdkosh/` ? `<a class="koshbar" href="/shabdkosh/"><span class="kb-ic" aria-hidden="true"><img src="/shabdkosh-emblem.webp" width="96" height="75" alt=""></span><span class="kb-t"><b>शब्दकोश <i>|</i> Shabdkosh</b><span>पैसे के ज़रूरी शब्दों का सीधा मतलब</span></span><span class="kb-go">खोलिए →</span></a>` : ""}
+${canonical !== `${SITE.url}/pariksha/` ? `<a class="exambar" href="/pariksha/"><span class="eb-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/><path d="M22 9v6"/></svg></span><span class="eb-t"><b>परीक्षा के लिए<i>।</i>For Examination</b><span>UPSC, राज्य PSC और Banking परीक्षाओं के Economy / Banking शब्द</span></span><span class="eb-go">खोलिए →</span></a>` : ""}
 ${hero}
 </div>
 </div>
@@ -794,7 +829,7 @@ function searchIndex(posts, terms) {
   const page = (slug, title, desc, text) => idx.push({
     k: "s", u: `/${slug}/`, t: title, s: desc, g: "पन्ना", x: [title, desc, md(text)].join(" ").toLowerCase(),
   });
-  PAGES.forEach((pg) => page(pg.slug, pg.title, pg.desc, pg.body));
+  PAGES.forEach((pg) => page(pg.slug, pg.title, pg.desc, [pg.body, pg.body2 || ""].join(" ")));
   HUBS.forEach((h) => page(h.slug, h.title, h.desc, h.lead));
   page("faq", "सवाल-जवाब", "जो सवाल सबसे ज़्यादा आते हैं, उनके सीधे जवाब।", FAQ.map((f) => `${f.q} ${f.a}`).join(" "));
   return idx;
@@ -1344,7 +1379,7 @@ function renderTermIndex(terms) {
 </main>
 <script>${XSEARCH_JS}${TERM_LIST_JS}</script>` + foot();
 }
-function renderPage({ slug, title, desc, body }) {
+function renderPage({ slug, title, desc, body, cards, body2 }) {
   return head({
     title: `${title} — ${SITE.name}`,
     desc,
@@ -1357,7 +1392,7 @@ function renderPage({ slug, title, desc, body }) {
       <h1>${esc(title)}</h1>
       <p class="standfirst">${esc(desc)}</p>
     </header>
-    <div class="prose">${renderBody(body)}</div>
+    <div class="prose">${renderBody(body)}</div>${cards ? `\n    ${cards}` : ""}${body2 ? `\n    <div class="prose">${renderBody(body2)}</div>` : ""}
     <div class="postfoot"><a class="btn" href="/">सारे पोस्ट देखें</a></div>
   </article>
 </main>` + foot();
@@ -1599,47 +1634,76 @@ const PK_PSC = [
   ["तेलंगाना", "https://www.tgpsc.gov.in/"], ["त्रिपुरा", "https://tpsc.tripura.gov.in/"], ["उत्तर प्रदेश", "https://uppsc.up.nic.in/"],
   ["उत्तराखंड", "https://psc.uk.gov.in/"], ["पश्चिम बंगाल", "https://psc.wb.gov.in/"],
 ];
+const PK_EXAMS = [
+  { c: "upsc", eb: "UPSC · Civil Services", h: "UPSC सिविल सेवा परीक्षा", sub: "Prelims और Mains (GS-II, GS-III) में Economy से जुड़ी official पंक्तियाँ, और उनसे जुड़े शब्द।",
+    lines: [
+      { h: "Prelims · General Studies Paper I (पन्ना 32)", q: "Economic and Social Development-Sustainable Development, Poverty, Inclusion, Demographics, Social Sector Initiatives, etc.", ids: ["gdp", "gva", "inflation", "cpi", "financial-inclusion", "dbt", "pmjdy", "apy", "nps", "pmjjby", "pmsby"] },
+      { h: "Mains · GS-II (पन्ना 34–35)", q: "Statutory, regulatory and various quasi-judicial bodies", ids: ["rbi", "sebi", "irdai", "pfrda", "ibbi", "uidai", "trai", "nabard", "sidbi"] },
+      { h: "Mains · GS-II (पन्ना 34–35)", q: "Welfare schemes for vulnerable sections of the population by the Centre and States...", ids: ["pmjdy", "dbt", "apy", "pmjjby", "pmsby", "sukanya-samriddhi", "mudra-loan"] },
+      { h: "Mains · GS-III (पन्ना 35)", q: "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.", ids: ["mospi", "gdp", "gva", "monetary-policy", "repo-rate", "inflation", "wpi", "balance-of-payments", "current-account-deficit", "fdi-fpi"] },
+      { h: "Mains · GS-III (पन्ना 35)", q: "Inclusive growth and issues arising from it.", ids: ["financial-inclusion", "priority-sector-lending", "lead-bank-scheme", "kisan-credit-card", "mudra-loan", "msme", "microfinance", "business-correspondent"] },
+      { h: "Mains · GS-III (पन्ना 35)", q: "Government Budgeting.", ids: ["union-budget", "fiscal-deficit", "gst", "income-tax", "government-securities"] },
+      { h: "Mains · GS-III (पन्ना 35)", q: "Issues related to direct and indirect farm subsidies and minimum support prices...", ids: ["msp", "kisan-credit-card", "nabard"] },
+      { h: "Mains · GS-III (पन्ना 35)", q: "Investment models.", ids: ["fdi-fpi", "bond", "mutual-fund", "sebi"] },
+      { h: "Mains · GS-III (पन्ना 36)", q: "...basics of cyber security; money-laundering and its prevention.", ids: ["pmla", "fiu-ind", "fatf", "cert-in", "i4c", "kyc", "mule-account"] },
+    ],
+    src: ["UPSC — CSE 2026 Notification (Notice No. 05/2026-CSE, 04.02.2026)", "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf"] },
+  { c: "psc", eb: "State PSC · सभी राज्य", h: "राज्य लोक सेवा आयोग", sub: "हर राज्य का syllabus अलग है और बदलता रहता है, इसलिए यहाँ किसी राज्य के syllabus पर कोई दावा नहीं है। अपनी परीक्षा का syllabus अपने आयोग की official website पर मिलाइए।",
+    lines: [
+      { h: "अर्थव्यवस्था और banking के बुनियादी शब्द (हमारी सूची)", ids: ["gdp", "inflation", "union-budget", "fiscal-deficit", "gst", "rbi", "monetary-policy", "financial-inclusion", "msp", "nabard", "regional-rural-bank", "pmjdy", "dbt"] },
+    ],
+    psc: true,
+    src: ["UPSC — State Public Service Commissions (सूची)", "https://www.upsc.gov.in/external-links/state-public-service-commissions"] },
+  { c: "rbi", eb: "RBI · Grade B (DR)", h: "RBI Grade B अधिकारी", sub: "Reserve Bank of India की Officers in Grade ‘B’ (DR) भर्ती — Panel Year 2026।",
+    note: "इस परीक्षा का official syllabus हम अभी अपने स्रोत-नियम से नहीं जाँच पाए, क्योंकि RBI की भर्ती site सुरक्षा-जाँच (CAPTCHA) माँगती है। इसलिए यहाँ syllabus की कोई पंक्ति नहीं दी है; नीचे के शब्द RBI के कामकाज से जुड़ी हमारी अपनी सूची हैं।",
+    lines: [
+      { h: "RBI के कामकाज से जुड़े शब्द (हमारी सूची)", ids: ["rbi", "rbi-act", "monetary-policy", "mpc", "repo-rate", "reverse-repo", "sdf", "msf", "laf", "omo", "crr", "slr", "capital-adequacy-ratio", "priority-sector-lending", "lead-bank-scheme", "financial-inclusion", "cbdc"] },
+    ],
+    src: ["RBI — Advt. No. RBISB/DA/01/2026-27 (29.04.2026)", "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4997"] },
+  { c: "sbi", eb: "SBI · Probationary Officer", h: "SBI PO", sub: "State Bank of India की Probationary Officer भर्ती 2026-27।",
+    lines: [
+      { h: "Main परीक्षा का test (विज्ञापन पन्ना 7)", q: "General Awareness / Economy/ Banking Knowledge", ids: ["rbi", "monetary-policy", "repo-rate", "crr", "slr", "npa", "sarfaesi", "ibc", "capital-adequacy-ratio", "priority-sector-lending", "kisan-credit-card", "nabard", "sidbi", "dicgc", "kyc", "upi", "neft", "rtgs", "imps", "cbdc", "gdp", "inflation", "union-budget", "gst"] },
+    ],
+    src: ["SBI — Advt. No. CRPD/PO/2026-27/09", "https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1"] },
+  { c: "ibps", eb: "IBPS · PO/MT", h: "IBPS PO/MT (CRP-XVI)", sub: "IBPS की Probationary Officer / Management Trainee भर्ती, notification 30.06.2026।",
+    lines: [
+      { h: "Main परीक्षा का test (notification पन्ना 15)", q: "General/ Economy/ Banking Awareness / Digital/ Financial Awareness including RBI circulars", ids: ["rbi", "monetary-policy", "repo-rate", "basis-point", "npa", "capital-adequacy-ratio", "priority-sector-lending", "lead-bank-scheme", "regional-rural-bank", "small-finance-bank", "payments-bank", "gdp", "inflation", "fiscal-deficit"] },
+      { h: "उसी test का Digital / Financial हिस्सा", ids: ["upi", "upi-lite", "cbdc", "neft", "rtgs", "imps", "nach", "aeps", "rupay", "account-aggregator", "zero-liability", "rbi-ombudsman", "kyc", "v-cip"] },
+    ],
+    src: ["IBPS — CRP PO/MT-XVI Notification (30.06.2026)", "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf"] },
+];
+const PK_CHIPS = (ids) => `<ul>${ids.map((id) => `<li><a href="/shabdkosh/${id}/">${esc(TERM_TITLE[id] || id)}</a></li>`).join("")}</ul>`;
 const PARIKSHA = {
   slug: "pariksha",
   title: "परीक्षा के लिए: Economy और Banking",
   desc: "UPSC, राज्य PSC और Banking परीक्षाओं के Economy / Banking हिस्से से जुड़े शब्द — हर syllabus पंक्ति official notification से, हर शब्द का अपना पन्ना।",
-  get body() {
-    return `## यह पन्ना किसके लिए
+  body: `## यह पन्ना किसके लिए
 
-यह पन्ना उन विद्यार्थियों के लिए है, जो UPSC, राज्य लोक सेवा आयोग या Banking परीक्षाओं के **Economy और Banking** हिस्से की तैयारी कर रहे हैं। नीचे हर परीक्षा के official syllabus की पंक्ति है, और उससे जुड़े शब्दकोश के पन्ने। हर शब्द-पन्ने पर RBI, NPCI, सरकार या संबंधित संस्था का मूल स्रोत दिया है।
+यह पन्ना उन विद्यार्थियों के लिए है, जो UPSC, राज्य लोक सेवा आयोग या Banking परीक्षाओं के **Economy और Banking** हिस्से की तैयारी कर रहे हैं। नीचे हर परीक्षा का अपना box है: उसमें official syllabus की पंक्ति (मूल अंग्रेज़ी में, पन्ना नंबर के साथ), और उससे जुड़े शब्दकोश के पन्ने। हर शब्द-पन्ने पर RBI, सरकार या संबंधित संस्था का मूल स्रोत दिया है।
 
 यह coaching नहीं है, और हम परीक्षा में आने वाले सवालों का अनुमान नहीं लगाते। Syllabus हर साल बदल सकता है — अपनी परीक्षा का ताज़ा notification आयोग या संस्था की official website पर ज़रूर देखिए।
 
-## UPSC (सिविल सेवा परीक्षा)
+## परीक्षा के हिसाब से`,
+  get cards() {
+    return `<div class="exgrid">${PK_EXAMS.map((e) => `<section class="excard" data-c="${e.c}" aria-label="${esc(e.h)}">
+<span class="ex-eb">${esc(e.eb)}</span>
+<h3>${esc(e.h)}</h3>
+<p class="ex-sub">${esc(e.sub)}</p>
+${e.note ? `<p class="ex-note">${esc(e.note)}</p>` : ""}${e.lines.map((l) => `<div class="ex-line"><h4>${esc(l.h)}</h4>${l.q ? `<q lang="en">${esc(l.q)}</q>` : ""}${PK_CHIPS(l.ids)}</div>`).join("")}
+${e.psc ? `<details><summary>सभी ${PK_PSC.length} राज्य लोक सेवा आयोगों की official website</summary><ul>${PK_PSC.map(([st, u]) => `<li><a href="${esc(u)}" rel="noopener" target="_blank">${esc(st)}</a></li>`).join("")}</ul></details>` : ""}
+<small class="ex-src">स्रोत: <a href="${esc(e.src[1])}" rel="noopener" target="_blank">${esc(e.src[0])}</a> · 17 अक्टूबर 2026 को जाँचा</small>
+</section>`).join("\n")}</div>`;
+  },
+  get body2() {
+    return `## विषय के हिसाब से सारे शब्द
 
-UPSC के Civil Services Examination 2026 के notification (Notice No. 05/2026-CSE, 04.02.2026) में Economy से जुड़ी पंक्तियाँ:
-
-- **Prelims, General Studies Paper I (पन्ना 32):** "Economic and Social Development-Sustainable Development, Poverty, Inclusion, Demographics, Social Sector Initiatives, etc."
-- **Mains GS-II (पन्ना 34–35):** "Statutory, regulatory and various quasi-judicial bodies" और "Welfare schemes for vulnerable sections of the population by the Centre and States..."
-- **Mains GS-III (पन्ना 35):** "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment", "Inclusive growth and issues arising from it", "Government Budgeting" और "Investment models"
-- **Mains GS-III (पन्ना 36):** "...basics of cyber security; money-laundering and its prevention"
-
-मूल notification: [UPSC — CSE 2026 Notification (PDF)](https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf)
-
-## राज्य लोक सेवा आयोग (सभी राज्य)
-
-हर राज्य का syllabus अलग है, और समय-समय पर बदलता है, इसलिए यहाँ किसी राज्य के syllabus पर कोई दावा नहीं किया गया है। भारतीय अर्थव्यवस्था और banking के बुनियादी शब्द नीचे की सूची में हैं; अपनी परीक्षा का syllabus अपने आयोग की official website पर मिलाइए।
-
-सभी आयोगों की सूची UPSC के पन्ने [State Public Service Commissions](https://www.upsc.gov.in/external-links/state-public-service-commissions) से ली गई है। हर link 17 अक्टूबर 2026 को खोलकर जाँचा गया; जहाँ आयोग की site सुरक्षित (https) पते पर खुलती है, वही पता दिया है। कर्नाटक का UPSC सूची वाला पुराना पता नहीं खुला, इसलिए वहाँ आयोग की मौजूदा official site दी है।
-
-${PK_PSC.map(([s, u]) => `- [${s} लोक सेवा आयोग](${u})`).join("\n")}
-
-## Banking परीक्षाएँ
-
-- **IBPS PO/MT (CRP PO/MT-XVI, notification 30.06.2026, पन्ना 15):** Main परीक्षा का एक test "General/ Economy/ Banking Awareness / Digital/ Financial Awareness including RBI circulars" है। [IBPS notification (PDF)](https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf)
-- **SBI PO (Advt. No. CRPD/PO/2026-27/09, पन्ना 7):** Main परीक्षा का test "General Awareness / Economy/ Banking Knowledge" है। [SBI विज्ञापन (PDF)](https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1)
-
-${PK_GROUPS.map((g) => `## ${g.h}\n\n**Syllabus से मेल:** ${g.tag}\n\n${PK_T(g.ids)}`).join("\n\n")}
+${PK_GROUPS.map((g) => `### ${g.h}\n\n**Syllabus से मेल:** ${g.tag}\n\n${PK_T(g.ids)}`).join("\n\n")}
 
 ## ध्यान रखें
 
-- यहाँ हर syllabus पंक्ति ऊपर लिखे official notification से ली गई है, 17 अक्टूबर 2026 को जाँची गई।
-- शब्दों को topic में रखना हमारी अपनी व्यवस्था है, आयोग की नहीं।
+- हर box में syllabus की पंक्ति ऊपर लिखे official notification से ली गई है, 17 अक्टूबर 2026 को जाँची गई।
+- शब्दों को किसी परीक्षा या topic के box में रखना हमारी अपनी व्यवस्था है, आयोग या संस्था की नहीं।
+- राज्य लोक सेवा आयोगों की सूची UPSC के पन्ने से ली गई है; हर link खोलकर जाँचा गया, और जहाँ आयोग की site सुरक्षित (https) पते पर खुलती है, वही पता दिया है। कर्नाटक का UPSC सूची वाला पुराना पता नहीं खुला, इसलिए वहाँ आयोग की मौजूदा official site दी है।
 - नियम और दरें बदलती रहती हैं; हर शब्द-पन्ने पर "स्रोत से जाँचा" की तारीख़ देखिए।`;
   },
 };
@@ -1966,6 +2030,7 @@ function main() {
   setTermLinks(terms);
   terms.forEach((t) => { TERM_TITLE[t.id] = t.term; });
   for (const g of PK_GROUPS) for (const id of g.ids) if (!seenIds.has(id)) throw new Error(`Pariksha: unknown term id ${id}`);
+  for (const e of PK_EXAMS) for (const l of e.lines) for (const id of l.ids) if (!seenIds.has(id)) throw new Error(`Pariksha exam box: unknown term id ${id}`);
   const mwPath = path.join(__dirname, "data", "mascot-welcome.json");
   if (fs.existsSync(mwPath)) {
     MW = JSON.parse(fs.readFileSync(mwPath, "utf8"));
