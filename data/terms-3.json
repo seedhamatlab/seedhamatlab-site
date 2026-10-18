@@ -28996,6 +28996,610 @@
         }
       ],
       "body": "## मतलब\n\nWorld Bank के मुताबिक International Development Association (IDA) World Bank का हिस्सा है, जो दुनिया के 75 सबसे ग़रीब देशों के लिए मदद का एक बड़ा स्रोत है और grants व कम ब्याज वाले loans देकर ग़रीबी घटाने पर काम करता है। IDA 1960 में बना।[^1] IBRD और IDA मिलकर World Bank कहलाते हैं।[^2]\n\n## World Bank में जगह | जगह\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** गाँव की एक सहकारी समिति के दो काउंटर हैं: पहला उन किसानों को ठीक-ठाक ब्याज पर loan देता है, जो चुका सकते हैं (IBRD जैसा); दूसरा सबसे ग़रीब परिवारों को बहुत कम ब्याज पर या कभी-कभी मुफ़्त मदद (grant) देता है (IDA जैसा)। दोनों काउंटर मिलकर पूरी समिति (World Bank) बनाते हैं।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: IDA: 1960; 75 सबसे ग़रीब देश; grants और कम ब्याज के loans; IBRD + IDA = World Bank। UPSC Prelims 2025 का सवाल 67 इससे जुड़ा था। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-18",
+      "verified": "2026-10-18",
+      "id": "frbm-act",
+      "term": "FRBM Act",
+      "aliases": [
+        "FRBM",
+        "Fiscal Responsibility and Budget Management Act",
+        "Fiscal Responsibility and Budget Management Act, 2003",
+        "FRBM Act, 2003"
+      ],
+      "full": "Fiscal Responsibility and Budget Management Act, 2003 · राजकोषीय उत्तरदायित्व और बजट प्रबंधन क़ानून",
+      "fullEn": "Fiscal Responsibility and Budget Management Act, 2003",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-18",
+          "t": "पन्ना बना। Budget 2026-27 के साथ संसद में रखे 'Statements of Fiscal Policy under the FRBM Act, 2003' से जाँचा।"
+        }
+      ],
+      "one": "FRBM Act, 2003 वह क़ानून है, जो केंद्र सरकार को अपने घाटे और क़र्ज़ पर लगाम रखने की ज़िम्मेदारी देता है, ताकि आज का ख़र्च आने वाली पीढ़ियों पर बोझ न बने। इसके तहत सरकार हर Budget के साथ संसद में राजकोषीय नीति के बयान (statements) रखती है।",
+      "facts": [
+        {
+          "k": "लागू",
+          "v": "5 जुलाई 2004 से",
+          "s": "Act और Rules"
+        },
+        {
+          "k": "घाटे का लक्ष्य",
+          "v": "GDP का 3%",
+          "s": "31.3.2021 तक"
+        },
+        {
+          "k": "क़र्ज़ का लक्ष्य",
+          "v": "केंद्र 40%, कुल 60%",
+          "s": "31.3.2025 तक"
+        },
+        {
+          "k": "2026-27 का अनुमान",
+          "v": "Fiscal deficit 4.3%",
+          "s": "GDP का"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "FRBM Act, 2003",
+            "s": "क़ानून"
+          },
+          {
+            "t": "हर Budget के साथ statements",
+            "s": "संसद में"
+          },
+          {
+            "t": "घाटा और क़र्ज़ का रास्ता",
+            "s": "लक्ष्य, कारण"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "ज़रूरी करता है",
+            "s": ""
+          },
+          {
+            "b": "बताते हैं",
+            "s": ""
+          }
+        ],
+        "note": "FRBM statements 2026-27 के मुताबिक लक्ष्य से हटने के कारण बताने वाला Statement of deviation भी Act की धारा 4 और 7(3)(b) के तहत रखा गया है।"
+      },
+      "myths": [
+        {
+          "m": "\"FRBM के लक्ष्य हमेशा पूरे होते हैं।\"",
+          "f": "नहीं। FRBM ढाँचा 31.3.2021 तक fiscal deficit GDP के 3% तक लाने को कहता है, जबकि 2025-26 (RE) का लक्ष्य 4.4% और 2026-27 का अनुमान 4.3% है; इसीलिए सरकार लक्ष्य से हटने (deviation) का बयान भी रखती है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आगे का लक्ष्य क्या है?",
+          "a": "FRBM statements 2026-27 के मुताबिक मध्यम अवधि का लक्ष्य FY 2030-31 तक केंद्र का debt-to-GDP 50±1% लाना है; BE 2026-27 में यह 55.6% अनुमानित है।[^1]"
+        },
+        {
+          "q": "FRBM Act क्यों बना?",
+          "a": "Statements की प्रस्तावना के मुताबिक इसका मक़सद केंद्र सरकार पर राजकोषीय प्रबंधन में पीढ़ियों के बीच न्याय (inter-generational equity) और लंबी अवधि की आर्थिक स्थिरता की ज़िम्मेदारी डालना है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Fiscal Deficit"
+        },
+        {
+          "t": "Fiscal Policy"
+        },
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "Primary Deficit"
+        }
+      ],
+      "sources": [
+        {
+          "label": "वित्त मंत्रालय — Statements of Fiscal Policy under the FRBM Act, 2003 (फ़रवरी 2026) (18 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/frbm1.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Preface",
+              "c": "Act का मक़सद; Act और 2004 के Rules 5.7.2004 से लागू; FD 3% (31.3.2021 तक); General Govt debt 60%, Central Govt debt 40% (31.3.2025 तक); RE 2025-26 में FD 4.4%; 2026-27 में 4.3%; deviation statement (धारा 4, 7(3)(b))"
+            },
+            {
+              "ref": "पैरा 37",
+              "c": "FY 2030-31 तक debt-to-GDP 50±1%; BE 2026-27 में 55.6%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nBudget 2026-27 के साथ रखे FRBM statements की प्रस्तावना के मुताबिक Fiscal Responsibility and Budget Management Act, 2003 केंद्र सरकार पर राजकोषीय प्रबंधन में पीढ़ियों के बीच न्याय और लंबी अवधि की आर्थिक स्थिरता की ज़िम्मेदारी डालने के लिए बना। Act और FRBM Rules, 2004 5 जुलाई 2004 से लागू हुए।[^1]\n\n## कैसे काम करता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** घर का मुखिया तय करता है कि हर साल कमाई से ज़्यादा ख़र्च करके उधार एक हद से ज़्यादा नहीं लेगा, और हर साल परिवार के सामने हिसाब रखेगा कि वादा निभा या नहीं, और नहीं निभा तो क्यों। FRBM Act सरकार के लिए ऐसा ही 'घर का नियम' है: घाटे और क़र्ज़ की हद तय करना, और हर Budget के साथ संसद (परिवार) को हिसाब देना।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: FRBM Act, 2003 (लागू 5.7.2004); FD 3% और debt (केंद्र 40%, कुल 60%) के लक्ष्य; 2026-27 FD 4.3%; FY 2030-31 तक debt 50±1%। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-18",
+      "verified": "2026-10-18",
+      "id": "fiscal-policy",
+      "term": "Fiscal Policy",
+      "aliases": [
+        "राजकोषीय नीति",
+        "Fiscal Policy Strategy"
+      ],
+      "full": "Fiscal Policy · सरकार की टैक्स, ख़र्च और उधार की नीति",
+      "fullEn": "Fiscal Policy",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-18",
+          "t": "पन्ना बना। 'Statements of Fiscal Policy under the FRBM Act, 2003' (फ़रवरी 2026) से जाँचा।"
+        }
+      ],
+      "one": "Fiscal policy (राजकोषीय नीति) सरकार की वह नीति है, जिसमें वह तय करती है कि कितना टैक्स ले, कितना और कहाँ ख़र्च करे, और कितना उधार ले। यह सरकार (वित्त मंत्रालय) चलाती है; ब्याज दरों वाली monetary policy RBI चलाता है।",
+      "facts": [
+        {
+          "k": "कौन चलाता है",
+          "v": "सरकार",
+          "s": "वित्त मंत्रालय"
+        },
+        {
+          "k": "तीन औज़ार",
+          "v": "टैक्स, ख़र्च, उधार",
+          "s": "FRBM statements"
+        },
+        {
+          "k": "2026-27 की रणनीति",
+          "v": "Capex पर ज़ोर",
+          "s": "पैरा 38"
+        },
+        {
+          "k": "उल्टा",
+          "v": "Monetary policy",
+          "s": "RBI"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "टैक्स",
+            "s": "कमाई"
+          },
+          {
+            "t": "ख़र्च",
+            "s": "योजनाएँ, capex"
+          },
+          {
+            "t": "उधार",
+            "s": "घाटा पूरा करना"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+",
+            "s": ""
+          },
+          {
+            "b": "+",
+            "s": ""
+          }
+        ],
+        "note": "FRBM statements के मुताबिक Fiscal Policy Strategy Statement में आने वाले वित्त वर्ष के लिए टैक्स, ख़र्च, बाज़ार से उधार और दूसरी देनदारियों से जुड़ी सरकार की रणनीतियाँ बताई जाती हैं।"
+      },
+      "myths": [
+        {
+          "m": "\"Fiscal policy RBI तय करता है।\"",
+          "f": "नहीं। Fiscal policy सरकार की टैक्स, ख़र्च और उधार की रणनीति है, जिसे वित्त मंत्री FRBM Act के तहत संसद में रखती हैं।[^1] RBI monetary policy चलाता है।"
+        }
+      ],
+      "faq": [
+        {
+          "q": "2026-27 की fiscal policy रणनीति क्या है?",
+          "a": "FRBM statements के मुताबिक debt के तय रास्ते पर चलना (FY 2030-31 तक debt-to-GDP 50±1%), और capital expenditure पर लगातार ज़ोर देकर विकास को सहारा देना।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Monetary Policy"
+        },
+        {
+          "t": "FRBM Act"
+        },
+        {
+          "t": "Fiscal Deficit"
+        },
+        {
+          "t": "Union Budget"
+        }
+      ],
+      "sources": [
+        {
+          "label": "वित्त मंत्रालय — Statements of Fiscal Policy under the FRBM Act, 2003 (फ़रवरी 2026) (18 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/frbm1.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Preface",
+              "c": "Statements में आने वाले साल के लिए टैक्स, ख़र्च, बाज़ार उधार और दूसरी देनदारियों की रणनीति"
+            },
+            {
+              "ref": "पैरा 37–38",
+              "c": "2026-27 की रणनीति: debt glide path, FY 2030-31 तक 50±1%; capex पर लगातार ज़ोर"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nBudget 2026-27 के साथ संसद में रखे FRBM statements की प्रस्तावना के मुताबिक इनमें अर्थव्यवस्था की संभावनाओं का आकलन और आने वाले वित्त वर्ष के लिए टैक्स, ख़र्च, बाज़ार से उधार और दूसरी देनदारियों से जुड़ी सरकार की रणनीतियाँ होती हैं — यही सरकार की fiscal policy है।[^1]\n\n## तीन औज़ार | औज़ार\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** घर में तय होता है: कमाई कितनी (टैक्स जैसा), किस पर कितना ख़र्च — राशन, पढ़ाई, नया कमरा (ख़र्च जैसा), और कमी पड़ी तो कितना उधार (उधार जैसा)। सरकार के लिए यही तीन फ़ैसले मिलकर fiscal policy हैं। Bank का ब्याज ऊपर-नीचे करना घर के हाथ में नहीं — वैसे ही देश में ब्याज दरों वाली monetary policy RBI के हाथ में है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Fiscal policy = सरकार की टैक्स + ख़र्च + उधार की नीति; monetary policy = RBI। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-18",
+      "verified": "2026-10-18",
+      "id": "subsidy",
+      "term": "Subsidy",
+      "aliases": [
+        "सब्सिडी",
+        "Major Subsidies"
+      ],
+      "full": "Subsidy · सरकारी सहायता से सस्ता करना",
+      "fullEn": "Subsidy",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-18",
+          "t": "पन्ना बना। FRBM statements (फ़रवरी 2026) और Key to Budget Documents 2026-27 से जाँचा।"
+        }
+      ],
+      "one": "Subsidy वह रक़म है, जो सरकार किसी चीज़ या सेवा को लोगों के लिए सस्ता करने के लिए अपनी जेब से देती है — जैसे सस्ता अनाज, सस्ती खाद। Budget में subsidy revenue expenditure मानी जाती है। 2026-27 में केंद्र की बड़ी subsidies (खाद्य, खाद, petroleum) ₹4.11 लाख करोड़ अनुमानित हैं।",
+      "facts": [
+        {
+          "k": "BE 2026-27 कुल",
+          "v": "₹4.11 लाख करोड़",
+          "s": "बड़ी subsidies"
+        },
+        {
+          "k": "Food",
+          "v": "₹2.28 लाख करोड़",
+          "s": ""
+        },
+        {
+          "k": "Fertiliser",
+          "v": "₹1.71 लाख करोड़",
+          "s": ""
+        },
+        {
+          "k": "Petroleum",
+          "v": "₹0.12 लाख करोड़",
+          "s": ""
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "असली लागत",
+            "s": "बाज़ार भाव"
+          },
+          {
+            "t": "− सरकारी subsidy",
+            "s": "Budget से"
+          },
+          {
+            "t": "लोगों का दाम",
+            "s": "कम"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "में से",
+            "s": ""
+          },
+          {
+            "b": "=",
+            "s": ""
+          }
+        ],
+        "note": "FRBM statements 2026-27 के मुताबिक बड़ी subsidies GDP का 1.0% और revenue expenditure का लगभग 10% हैं (BE 2026-27)।"
+      },
+      "myths": [
+        {
+          "m": "\"Subsidy से सरकार की संपत्ति बनती है, इसलिए यह capital ख़र्च है।\"",
+          "f": "नहीं। Key to Budget Documents 2026-27 के मुताबिक subsidies देना revenue expenditure में आता है।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "सबसे बड़ी subsidy कौन-सी है?",
+          "a": "BE 2026-27 में food subsidy ₹2.28 लाख करोड़, उसके बाद fertiliser ₹1.71 लाख करोड़ और petroleum ₹0.12 लाख करोड़।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Revenue Expenditure"
+        },
+        {
+          "t": "DBT"
+        },
+        {
+          "t": "MSP"
+        },
+        {
+          "t": "Union Budget"
+        }
+      ],
+      "sources": [
+        {
+          "label": "वित्त मंत्रालय — Statements of Fiscal Policy under the FRBM Act, 2003 (फ़रवरी 2026) (18 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/frbm1.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 27",
+              "c": "BE 2026-27: बड़ी subsidies ₹4.11 लाख करोड़ (food 2.28, fertiliser 1.71, petroleum 0.12); GDP का 1.0%; revenue expenditure का लगभग 10%"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — Key to Budget Documents 2026-27, पन्ना 11 (18 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/Key_to_Budget_Document_2026.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "(v) Revenue Budget",
+              "c": "Revenue expenditure में subsidies देना शामिल"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nFRBM statements 2026-27 (पैरा 27) के मुताबिक केंद्र की बड़ी subsidies — food (₹2.28 लाख करोड़), fertiliser (₹1.71 लाख करोड़) और petroleum (₹0.12 लाख करोड़) — BE 2026-27 में कुल ₹4.11 लाख करोड़ अनुमानित हैं, जो GDP का 1.0% और revenue expenditure का लगभग 10% है।[^1] Key to Budget Documents के मुताबिक subsidies देना revenue expenditure में आता है।[^2]\n\n## कैसे काम करती है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** एक बोरी खाद बनाने और पहुँचाने की असली लागत मान लीजिए ₹1,500 है, पर किसान को वह ₹300 में मिलती है — बीच के ₹1,200 सरकार अपने Budget से कंपनी को देती है; यही subsidy है। Ration की दुकान पर बहुत कम दाम में मिलने वाला अनाज भी ऐसा ही है। (ये आँकड़े सिर्फ़ समझाने के लिए हैं, किसी असली खाद के दाम नहीं।)\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: बड़ी subsidies BE 2026-27: ₹4.11 लाख करोड़ (food 2.28, fertiliser 1.71, petroleum 0.12); revenue expenditure। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-18",
+      "verified": "2026-10-18",
+      "id": "ppp",
+      "term": "Public Private Partnership",
+      "aliases": [
+        "PPP Project",
+        "PPP Projects",
+        "PPPs",
+        "PPP model",
+        "सार्वजनिक-निजी भागीदारी",
+        "Viability Gap Funding"
+      ],
+      "full": "Public Private Partnership (PPP) · सरकार और निजी कंपनी की साझेदारी",
+      "fullEn": "Public Private Partnership (PPP)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-18",
+          "t": "पन्ना बना। DEA के Viability Gap Funding दिशानिर्देश (07.12.2020) और pppinindia.gov.in के VGF पन्ने से जाँचा।"
+        }
+      ],
+      "one": "Public Private Partnership (PPP) में सरकार और एक निजी कंपनी के बीच समझौता (contract या concession) होता है, जिसमें निजी कंपनी सड़क, पानी जैसी कोई infrastructure सेवा देती है और उसके बदले लोगों से user charge (जैसे toll) लेती है। जो project अपने दम पर मुनाफ़े लायक़ नहीं होते, उन्हें सरकार 'Viability Gap Funding' (VGF) से अनुदान देती है।",
+      "facts": [
+        {
+          "k": "दो पक्ष",
+          "v": "सरकार + निजी कंपनी",
+          "s": "contract / concession"
+        },
+        {
+          "k": "कमाई",
+          "v": "User charges",
+          "s": "जैसे toll"
+        },
+        {
+          "k": "VGF (आम project)",
+          "v": "Total Project Cost का 20% तक",
+          "s": "केंद्र से"
+        },
+        {
+          "k": "Social sector",
+          "v": "60% तक (30%+30%)",
+          "s": "केंद्र + राज्य"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "सरकार",
+            "s": "project का मालिक"
+          },
+          {
+            "t": "निजी कंपनी",
+            "s": "बनाती और चलाती है"
+          },
+          {
+            "t": "लोग",
+            "s": "user charge देते हैं"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "समझौता",
+            "s": ""
+          },
+          {
+            "b": "सेवा",
+            "s": ""
+          }
+        ],
+        "note": "VGF दिशानिर्देशों के मुताबिक Viability Gap Funding एक बार या किस्तों में दिया जाने वाला अनुदान है, जिसका मक़सद project को commercially viable बनाना है।"
+      },
+      "myths": [
+        {
+          "m": "\"PPP में सरकार कोई पैसा नहीं लगाती।\"",
+          "f": "ज़रूरी नहीं। जो project आर्थिक रूप से ज़रूरी पर अपने दम पर मुनाफ़े लायक़ नहीं, उन्हें सरकार VGF के रूप में अनुदान दे सकती है।[^1][^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "VGF की सीमा कितनी है?",
+          "a": "दिशानिर्देशों के मुताबिक आम eligible sectors में केंद्र से Total Project Cost का अधिकतम 20%, और प्रायोजक मंत्रालय/राज्य अपने Budget से अधिकतम 20% और दे सकता है।[^1] pppinindia के मुताबिक पानी, कचरा, स्वास्थ्य, शिक्षा जैसे social sectors में 60% तक (केंद्र और राज्य अधिकतम 30%-30%)।[^2]"
+        },
+        {
+          "q": "VGF scheme कब से है?",
+          "a": "pppinindia.gov.in के मुताबिक CCEA ने 25 जुलाई 2005 को यह scheme मंज़ूर की; 11.11.2020 को नई (revamped) scheme मंज़ूर हुई और DEA ने 07.12.2020 को दिशानिर्देश जारी किए।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "Disinvestment"
+        }
+      ],
+      "sources": [
+        {
+          "label": "वित्त मंत्रालय (DEA) — Scheme for Financial Support to PPPs in Infrastructure (Viability Gap Funding) के दिशानिर्देश, OM No. 10/3/2018-PPP (18 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pppinindia.gov.in/report/vgf-guideline_1691500048.pdf",
+          "issued": "2020-12-07",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Clause 2 (Definitions)",
+              "c": "PPP Project = सरकार/statutory entity और निजी कंपनी का contract या concession, infrastructure सेवा, user charges; VGF = project को commercially viable बनाने का अनुदान"
+            },
+            {
+              "ref": "VGF की सीमा वाला हिस्सा (PDF पन्ना 12)",
+              "c": "आम eligible sectors: केंद्र से Total Project Cost का अधिकतम 20%; प्रायोजक से अधिकतम 20% और"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — pppinindia.gov.in: Viability Gap Funding Scheme (18 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pppinindia.gov.in/vgfguidelines",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "VGF Guidelines पन्ना",
+              "c": "CCEA मंज़ूरी 25.07.2005; Central Sector Scheme, DEA चलाता है; revamped scheme 11.11.2020, दिशानिर्देश 07.12.2020; social sectors में 60% तक (30%+30%)"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nDEA के Viability Gap Funding दिशानिर्देशों (clause 2) के मुताबिक PPP Project वह project है, जो एक तरफ़ सरकार या statutory entity और दूसरी तरफ़ निजी कंपनी के बीच contract या concession agreement पर आधारित हो, और जिसमें user charges लेकर कोई infrastructure सेवा दी जाए।[^1]\n\n## कैसे चलता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** Highway पर लगा toll plaza सोचिए: सरकार ने सड़क बनाने और चलाने का ठेका एक निजी कंपनी को दिया। कंपनी पैसा लगाकर सड़क बनाती है और तय सालों तक गाड़ियों से toll लेकर अपना ख़र्च और मुनाफ़ा निकालती है। अगर किसी गाँव वाली सड़क पर गाड़ियाँ कम हैं और toll से ख़र्च नहीं निकलता, तो सरकार शुरू में कुछ अनुदान (VGF) देकर project को चलने लायक़ बनाती है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: PPP = सरकार + निजी कंपनी का contract, user charges; VGF: आम project में केंद्र से 20% तक; social sector में 60% तक। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-18",
+      "verified": "2026-10-18",
+      "id": "multidimensional-poverty",
+      "term": "Multidimensional Poverty Index",
+      "aliases": [
+        "MPI",
+        "Multidimensional Poverty",
+        "बहुआयामी ग़रीबी",
+        "बहुआयामी गरीबी"
+      ],
+      "full": "Multidimensional Poverty Index (MPI) · बहुआयामी ग़रीबी सूचकांक",
+      "fullEn": "Multidimensional Poverty Index",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-18",
+          "t": "पन्ना बना। NITI Aayog के discussion paper 'Multidimensional Poverty in India since 2005-06' से जाँचा।"
+        }
+      ],
+      "one": "Multidimensional Poverty Index (MPI) ग़रीबी को सिर्फ़ आमदनी से नहीं, बल्कि कई कमियों से नापता है — जैसे पोषण, पढ़ाई, साफ़ पानी, बिजली, पक्का घर, bank खाता। NITI Aayog का National MPI 12 संकेतकों (indicators) पर बना है। NITI Aayog के अनुमान के मुताबिक भारत में बहुआयामी ग़रीबी 2013-14 के 29.17% से घटकर 2022-23 में 11.28% रही।",
+      "facts": [
+        {
+          "k": "संकेतक",
+          "v": "12 (National MPI)",
+          "s": "Global MPI में 10"
+        },
+        {
+          "k": "2013-14 (अनुमानित)",
+          "v": "29.17%",
+          "s": "NITI Aayog"
+        },
+        {
+          "k": "2022-23 (अनुमानित)",
+          "v": "11.28%",
+          "s": ""
+        },
+        {
+          "k": "बाहर निकले",
+          "v": "लगभग 24.82 करोड़ लोग",
+          "s": "9 साल में"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "स्वास्थ्य",
+            "s": "पोषण, मृत्यु दर…"
+          },
+          {
+            "t": "शिक्षा",
+            "s": "पढ़ाई के साल, उपस्थिति"
+          },
+          {
+            "t": "जीवन स्तर",
+            "s": "पानी, बिजली, घर, bank खाता…"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+",
+            "s": ""
+          },
+          {
+            "b": "+",
+            "s": ""
+          }
+        ],
+        "note": "NITI Aayog के मुताबिक Global MPI तीन क्षेत्रों — स्वास्थ्य, शिक्षा और जीवन स्तर — के 10 संकेतकों पर है; National MPI में 12 संकेतक हैं (इनमें maternal health और bank account भी)।"
+      },
+      "myths": [
+        {
+          "m": "\"ग़रीबी सिर्फ़ आमदनी से नापी जाती है।\"",
+          "f": "नहीं। NITI Aayog के मुताबिक आमदनी ज़रूरी है पर काफ़ी नहीं; MPI पोषण, शिक्षा, पानी, बिजली जैसी कई कमियों को साथ नापता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "29.17% और 11.28% पक्के आँकड़े हैं?",
+          "a": "NITI Aayog ने इन्हें NFHS सर्वे के बीच के रुझान से निकाला अनुमान (projected) बताया है।[^1]"
+        },
+        {
+          "q": "किस राज्य में सबसे ज़्यादा लोग बाहर निकले?",
+          "a": "NITI Aayog के मुताबिक उत्तर प्रदेश (5.94 करोड़), फिर बिहार (3.77 करोड़) और मध्य प्रदेश (2.30 करोड़)।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "PLFS"
+        },
+        {
+          "t": "MoSPI"
+        },
+        {
+          "t": "Financial Inclusion"
+        },
+        {
+          "t": "Middle Income Country"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NITI Aayog — Discussion Paper: Multidimensional Poverty in India since 2005-06 (दस्तावेज़ पर तारीख़ नहीं; NITI की site पर 2024-01 फ़ोल्डर में) (18 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Abstract (पन्ना 1)",
+              "c": "National MPI में 12, Global MPI में 10 संकेतक; 29.17% (2013-14) से 11.28% (2022-23); लगभग 24.82 करोड़ लोग बाहर; UP 5.94, बिहार 3.77, MP 2.30 करोड़"
+            },
+            {
+              "ref": "Introduction (पन्ना 2), पन्ना 4",
+              "c": "आमदनी वाले माप की सीमाएँ; Global MPI के 3 क्षेत्र; 2013-14 और 2022-23 के आँकड़े रुझान से निकाले अनुमान"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nNITI Aayog के discussion paper के मुताबिक National Multidimensional Poverty Index, Alkire-Foster पद्धति पर 12 संकेतकों से बना है (Global MPI में 10)। इसके अनुमान के मुताबिक भारत में बहुआयामी ग़रीबी 2013-14 के 29.17% से घटकर 2022-23 में 11.28% रही, और लगभग 24.82 करोड़ लोग इससे बाहर निकले; ये दोनों आँकड़े रुझान से निकाले गए अनुमान (projected) हैं।[^1]\n\n## तीन क्षेत्र | क्षेत्र\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** दो परिवारों की आमदनी बराबर है। पहले परिवार के घर में बिजली, साफ़ पानी, शौचालय है और बच्चे school जाते हैं; दूसरे के घर में इनमें से कई चीज़ें नहीं हैं और बच्चा कुपोषित है। सिर्फ़ आमदनी देखें तो दोनों बराबर लगेंगे, पर MPI बताएगा कि दूसरा परिवार कई तरह से वंचित (deprived) है। यही 'बहुआयामी' का मतलब है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: National MPI: 12 संकेतक; 2013-14 में 29.17% → 2022-23 में 11.28% (अनुमानित); लगभग 24.82 करोड़ लोग बाहर। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
