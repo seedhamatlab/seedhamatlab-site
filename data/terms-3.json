@@ -30842,6 +30842,751 @@
         }
       ],
       "body": "## मतलब\n\nDEA के मुताबिक Department of Economic Affairs (वित्त मंत्रालय) का Economic Division सालाना Economic Survey निकालने का काम संभालता है, जो Union Budget से पहले संसद में रखा जाता है।[^1] Economic Survey 2025-26 के Acknowledgment के मुताबिक इसकी core team में Economic Division और Chief Economic Adviser (CEA) का दफ़्तर था, और यह जनवरी 2026 में छपा।[^2] PIB के मुताबिक 2025-26 का Survey 29 जनवरी 2026 को संसद में रखा गया।[^3]\n\n## Survey कैसे बनता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** जैसे साल के अंत में school हर बच्चे का report card देता है — किस विषय में अच्छा किया, कहाँ सुधार चाहिए — वैसे ही Economic Survey देश की अर्थव्यवस्था के साल भर के हाल का report card जैसा है। और जैसे report card देखकर घर वाले अगले साल की योजना बनाते हैं, वैसे ही यह Union Budget से पहले संसद में रखा जाता है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Economic Survey: DEA का Economic Division (CEA के दफ़्तर के साथ); Union Budget से पहले संसद में; 2025-26 वाला 29.01.2026 को रखा गया। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "exim-bank",
+      "term": "EXIM Bank",
+      "aliases": [
+        "Exim Bank",
+        "Export-Import Bank of India"
+      ],
+      "full": "Export-Import Bank of India",
+      "fullEn": "Export-Import Bank of India (EXIM Bank)",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-19",
+          "t": "पन्ना बना। India Code पर Export-Import Bank of India Act, 1981 के पाठ और EXIM Bank की website के About Us पन्ने से जाँचा।"
+        }
+      ],
+      "one": "EXIM Bank (Export-Import Bank of India) एक निगम (corporation) है, जिसे exporters और importers को वित्तीय मदद देने के लिए Export-Import Bank of India Act, 1981 से बनाया गया। इसकी पूरी issued capital केंद्र सरकार ने ली है, और इसने मार्च 1982 में काम शुरू किया।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "EXIM Bank Act, 1981",
+          "s": "Act 28 of 1981, 11.9.1981"
+        },
+        {
+          "k": "Act लागू",
+          "v": "1 जनवरी 1982",
+          "s": "धारा 26 छोड़कर"
+        },
+        {
+          "k": "काम शुरू",
+          "v": "मार्च 1982",
+          "s": "EXIM Bank के मुताबिक"
+        },
+        {
+          "k": "मालिक",
+          "v": "केंद्र सरकार",
+          "s": "पूरी issued capital (धारा 4(2))"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "EXIM Bank",
+            "s": "Act की धारा 10"
+          },
+          {
+            "t": "Loans और advances",
+            "s": "भारत में या बाहर, export या import के लिए"
+          },
+          {
+            "t": "तालमेल",
+            "s": "export-import को पैसा देने वाली संस्थाओं के काम में"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "Act की धारा 10(1) के मुताबिक EXIM Bank ख़ुद या किसी bank/वित्तीय संस्था के साथ मिलकर, भारत में या बाहर, export या import के लिए loans और advances दे सकता है; और यह export-import को पैसा देने वाली संस्थाओं के काम में तालमेल करने वाली मुख्य वित्तीय संस्था (principal financial institution) का काम भी करता है।"
+      },
+      "myths": [
+        {
+          "m": "\"EXIM Bank सिर्फ़ export करने वालों के लिए है।\"",
+          "f": "नहीं। Act के long title में exporters और importers दोनों को वित्तीय मदद की बात है, और धारा 10(1) में export या import, दोनों के लिए loans और advances की बात है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "EXIM Bank का मालिक कौन है?",
+          "a": "Act की धारा 4(2) के मुताबिक EXIM Bank की issued capital पूरी तरह केंद्र सरकार ने ली (subscribe की) है।[^1]"
+        },
+        {
+          "q": "EXIM Bank कब बना?",
+          "a": "EXIM Bank के मुताबिक Act सितंबर 1981 में पास हुआ और bank ने मार्च 1982 में काम शुरू किया।[^2] India Code के पाठ के मुताबिक Act 1 जनवरी 1982 से लागू हुआ (धारा 26 को छोड़कर, जो 1 मार्च 1982 से लागू हुई)।[^1]"
+        },
+        {
+          "q": "क्या EXIM Bank दूसरे banks को भी पैसा देता है?",
+          "a": "हाँ। धारा 10(2)(a) के मुताबिक यह scheduled bank, या केंद्र सरकार द्वारा notify किए गए bank या वित्तीय संस्था को, export या import के लिए उनके दिए loans का refinance दे सकता है।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Foreign Trade Policy"
+        },
+        {
+          "t": "SIDBI"
+        },
+        {
+          "t": "NABARD"
+        },
+        {
+          "t": "NHB"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Export-Import Bank of India Act, 1981 (Act 28 of 1981; पाठ में आख़िरी संशोधन Act 11 of 2012) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/server/api/core/bitstreams/63947235-debf-47fd-af44-b4bb79822b36/content",
+          "issued": "1981-09-11",
+          "effective": "1982-01-01",
+          "used": [
+            {
+              "ref": "long title",
+              "c": "exporters और importers को वित्तीय मदद; export-import को पैसा देने वाली संस्थाओं में तालमेल की principal financial institution"
+            },
+            {
+              "ref": "धारा 1(3), फ़ुटनोट 1",
+              "c": "1.1.1982 से लागू (धारा 26 छोड़कर); धारा 26 1.3.1982 से"
+            },
+            {
+              "ref": "धारा 4(2)",
+              "c": "issued capital पूरी तरह केंद्र सरकार की"
+            },
+            {
+              "ref": "धारा 10(1)",
+              "c": "भारत में या बाहर export या import के लिए loans और advances; तालमेल"
+            },
+            {
+              "ref": "धारा 10(2)(a)",
+              "c": "scheduled bank / notified bank या संस्था को refinance"
+            }
+          ]
+        },
+        {
+          "label": "EXIM Bank — About Us: Who We Are (पन्ने पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.eximbankindia.in/about-us",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Who We Are, आख़िरी हिस्सा",
+              "c": "Act सितंबर 1981 में पास; bank ने मार्च 1982 में काम शुरू किया"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIndia Code पर दिए Export-Import Bank of India Act, 1981 (Act 28 of 1981) के long title के मुताबिक यह Act एक निगम बनाने के लिए है, जो exporters और importers को वित्तीय मदद दे, और देश के अंतरराष्ट्रीय व्यापार को बढ़ाने के लिए export-import को पैसा देने वाली संस्थाओं के काम में तालमेल करने वाली मुख्य वित्तीय संस्था का काम करे। धारा 4(2) के मुताबिक इसकी issued capital पूरी तरह केंद्र सरकार ने ली है।[^1] EXIM Bank के मुताबिक Act सितंबर 1981 में पास हुआ और bank ने मार्च 1982 में काम शुरू किया।[^2]\n\n## EXIM Bank क्या करता है | काम\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए आपके शहर की एक छोटी कंपनी को दूसरे देश से मशीनें बनाने का बड़ा order मिला। order पूरा करने के लिए उसे पहले कच्चा माल ख़रीदना है, पर विदेशी ख़रीदार पैसा बाद में देगा। ऐसे export या import के काम के लिए loan देना EXIM Bank के कामों में से एक है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: EXIM Bank: Act 28 of 1981 (11.9.1981); Act 1.1.1982 से लागू; काम मार्च 1982 से; issued capital पूरी केंद्र सरकार की (धारा 4(2)); exporters और importers दोनों को वित्त। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "nhb",
+      "term": "NHB",
+      "aliases": [
+        "National Housing Bank",
+        "राष्ट्रीय आवास बैंक"
+      ],
+      "full": "National Housing Bank · राष्ट्रीय आवास बैंक",
+      "fullEn": "National Housing Bank (NHB)",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-19",
+          "t": "पन्ना बना। India Code पर National Housing Bank Act, 1987 के पाठ और NHB की website के About Us पन्ने से जाँचा।"
+        }
+      ],
+      "one": "NHB (National Housing Bank, राष्ट्रीय आवास बैंक) housing finance institutions को बढ़ावा देने और उन्हें वित्तीय व दूसरी मदद देने वाली मुख्य एजेंसी है। यह National Housing Bank Act, 1987 के तहत 9 जुलाई 1988 को बना। NHB के मुताबिक इसकी ₹1,450 करोड़ की authorised capital अब पूरी तरह भारत सरकार की है।",
+      "facts": [
+        {
+          "k": "बना",
+          "v": "9 जुलाई 1988",
+          "s": "NHB Act, 1987 के तहत"
+        },
+        {
+          "k": "क़ानून",
+          "v": "NHB Act, 1987",
+          "s": "Act 53 of 1987, 23.12.1987"
+        },
+        {
+          "k": "Capital",
+          "v": "₹1,450 करोड़",
+          "s": "पूरी भारत सरकार की (NHB के मुताबिक)"
+        },
+        {
+          "k": "HFC regulation",
+          "v": "RBI के पास",
+          "s": "9 अगस्त 2019 से"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "NHB",
+            "s": "धारा 14 के तहत कारोबार"
+          },
+          {
+            "t": "Housing finance institutions, scheduled banks",
+            "s": "housing के लिए loans और वित्तीय मदद (धारा 14(b))"
+          },
+          {
+            "t": "Housing activities",
+            "s": "घर से जुड़े काम"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "NHB की website के मुताबिक Union Budget 2019-20 की घोषणा के बाद Act में संशोधन से housing finance companies (HFCs) पर NHB की regulatory powers (registration समेत) 9 अगस्त 2019 से RBI को चली गईं; NHB के objectives में Act के तहत HFCs की supervision शामिल है।"
+      },
+      "myths": [
+        {
+          "m": "\"Housing finance company को registration NHB देता है।\"",
+          "f": "अब नहीं। NHB के मुताबिक 9 अगस्त 2019 से registration समेत HFCs पर regulatory powers RBI के पास हैं।[^2] Act की धारा 29A(2) के मुताबिक housing finance institution (कंपनी) registration के लिए Reserve Bank को आवेदन करती है।[^1]"
+        },
+        {
+          "m": "\"NHB आज भी RBI का है।\"",
+          "f": "NHB के मुताबिक शुरू में RBI ने इसकी पूरी paid-up capital दी थी, पर अब इसकी ₹1,450 करोड़ की authorised capital पूरी तरह भारत सरकार की है।[^2] Act की धारा 4(3) में RBI की दी हुई ₹1,450 करोड़ की subscribed capital केंद्र सरकार को transfer होने का प्रावधान है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "NHB क्या-क्या करता है?",
+          "a": "Act की धारा 14 के मुताबिक इसके कारोबार में शामिल है: housing finance institutions को बढ़ावा देना, बनाना और उनकी मदद करना (धारा 14(a)); और housing activities के लिए housing finance institutions, scheduled banks, state co-operative agricultural and rural development banks या notify की गई दूसरी संस्थाओं को loans, advances या दूसरी वित्तीय मदद देना (धारा 14(b))।[^1]"
+        },
+        {
+          "q": "NHB का head office कहाँ है?",
+          "a": "Act की धारा 3(3) के मुताबिक New Delhi में, या ऐसी दूसरी जगह जो केंद्र सरकार notify करे।[^1] NHB के मुताबिक इसका head office New Delhi में है।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Home Loan"
+        },
+        {
+          "t": "NBFC"
+        },
+        {
+          "t": "RBI"
+        },
+        {
+          "t": "EXIM Bank"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The National Housing Bank Act, 1987 (Act 53 of 1987; पाठ में Act 18 of 2023 तक के संशोधन) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/server/api/core/bitstreams/ac896e9a-867d-420d-ad88-1ffd21aa06b4/content",
+          "issued": "1987-12-23",
+          "effective": "1988-07-09",
+          "used": [
+            {
+              "ref": "long title",
+              "c": "housing finance institutions को बढ़ावा देने और वित्तीय व दूसरी मदद देने वाली principal agency"
+            },
+            {
+              "ref": "धारा 1(3), फ़ुटनोट 1",
+              "c": "9.7.1988 से लागू (Chapter V और धारा 49(3) छोड़कर)"
+            },
+            {
+              "ref": "धारा 3(3)",
+              "c": "head office New Delhi या केंद्र सरकार की notify की गई जगह"
+            },
+            {
+              "ref": "धारा 4(3)",
+              "c": "RBI की ₹1,450 करोड़ subscribed capital केंद्र सरकार को transfer"
+            },
+            {
+              "ref": "धारा 14(a), 14(b)",
+              "c": "HFIs को बढ़ावा; HFIs, scheduled banks आदि को housing के लिए loans"
+            },
+            {
+              "ref": "धारा 29A(2)",
+              "c": "HFI कंपनी registration के लिए Reserve Bank को आवेदन करे"
+            }
+          ]
+        },
+        {
+          "label": "NHB — About Us: Genesis, Objectives (पन्ने पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.nhb.org.in/about-us/",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Genesis",
+              "c": "9 जुलाई 1988 को NHB Act, 1987 के तहत बना; RBI ने पूरी paid-up capital दी थी; 9.8.2019 से HFCs पर regulatory powers RBI को; authorised capital ₹1,450 करोड़, पूरी भारत सरकार की; head office New Delhi"
+            },
+            {
+              "ref": "Objectives",
+              "c": "Act के तहत HFCs की supervision"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIndia Code पर दिए National Housing Bank Act, 1987 (Act 53 of 1987) के long title के मुताबिक NHB इसलिए बना कि वह local और regional स्तर पर housing finance institutions को बढ़ावा देने वाली मुख्य एजेंसी (principal agency) का काम करे और उन्हें वित्तीय व दूसरी मदद दे।[^1] NHB के मुताबिक यह 9 जुलाई 1988 को इस Act के तहत बना। शुरू में RBI ने इसकी पूरी paid-up capital दी थी; अब इसकी ₹1,450 करोड़ की authorised capital पूरी तरह भारत सरकार की है।[^2]\n\n## NHB कैसे काम करता है | काम\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** जैसे किसी school में एक बड़ा 'library fund' हो, जो हर class की छोटी library को किताबें ख़रीदने के लिए पैसा देता है, ताकि बच्चों तक किताबें पहुँचें। वैसे ही NHB, housing finance institutions और banks को housing के कामों के लिए loan और दूसरी वित्तीय मदद देता है, ताकि वे आगे घर से जुड़े कामों के लिए पैसा दे सकें।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: NHB: Act 53 of 1987 (23.12.1987); 9.7.1988 को बना; head office New Delhi; capital ₹1,450 करोड़, पूरी भारत सरकार की; 9.8.2019 से HFC regulation RBI के पास, NHB supervision करता है। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "nabfid",
+      "term": "NaBFID",
+      "aliases": [
+        "National Bank for Financing Infrastructure and Development"
+      ],
+      "full": "National Bank for Financing Infrastructure and Development",
+      "fullEn": "National Bank for Financing Infrastructure and Development (NaBFID)",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-19",
+          "t": "पन्ना बना। India Code पर NaBFID Act, 2021 के पाठ और NaBFID की website से जाँचा।"
+        }
+      ],
+      "one": "NaBFID (National Bank for Financing Infrastructure and Development) एक development financial institution है, जो NaBFID Act, 2021 से बना। इसका मक़सद infrastructure के लिए लंबी अवधि की financing को बढ़ावा देना और infrastructure projects में पैसा लगाना (lend या invest करना) है।",
+      "facts": [
+        {
+          "k": "क़ानून",
+          "v": "NaBFID Act, 2021",
+          "s": "Act 17 of 2021, 28.3.2021"
+        },
+        {
+          "k": "शुरुआत",
+          "v": "19 अप्रैल 2021",
+          "s": "NaBFID के मुताबिक"
+        },
+        {
+          "k": "Head office",
+          "v": "Mumbai",
+          "s": "धारा 3(3)"
+        },
+        {
+          "k": "केंद्र सरकार का हिस्सा",
+          "v": "कम से कम 26% shares",
+          "s": "हर समय (धारा 5(3))"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Developmental उद्देश्य",
+            "s": "सरकारों, regulators, निवेशकों से तालमेल; bonds और derivatives बाज़ार (धारा 4(2))"
+          },
+          {
+            "t": "Financial उद्देश्य",
+            "s": "infrastructure projects में lend या invest (धारा 4(3))"
+          },
+          {
+            "t": "मक़सद",
+            "s": "भारत में sustainable आर्थिक विकास"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+",
+            "s": ""
+          },
+          {
+            "b": "=",
+            "s": ""
+          }
+        ],
+        "note": "Act की धारा 5(3) के मुताबिक NaBFID के shares केंद्र सरकार, multilateral institutions, sovereign wealth funds, pension funds, insurers, financial institutions, banks और तय की गई दूसरी संस्थाएँ रख सकती हैं, बशर्ते केंद्र सरकार के पास हर समय कम से कम 26% shares रहें।"
+      },
+      "myths": [
+        {
+          "m": "\"NaBFID में केंद्र सरकार अपना पूरा हिस्सा बेच सकती है।\"",
+          "f": "नहीं। Act की धारा 5(3) के proviso के मुताबिक केंद्र सरकार के पास हर समय कम से कम 26% shares रहने चाहिए।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "NaBFID क्यों बनाया गया?",
+          "a": "Act के साथ छपे Statement of Objects and Reasons के मुताबिक infrastructure को लंबी अवधि की financing चाहिए, जबकि banks ज़्यादातर short-term liabilities पर निर्भर रहते हैं, जिससे उनकी balance-sheet में asset-liability mismatch होता है; और भारत का corporate bond market इतना गहरा और परिपक्व नहीं कि यह ज़रूरत पूरी कर सके।[^1]"
+        },
+        {
+          "q": "NaBFID कब बना?",
+          "a": "India Code के मुताबिक Act 28 मार्च 2021 का है, और इसके ज़्यादातर प्रावधान 19 अप्रैल 2021 से लागू हुए (notification S.O. 1657(E), 16.04.2021)।[^1] NaBFID के मुताबिक यह 19 अप्रैल 2021 को शुरू (founded) हुआ।[^3]"
+        }
+      ],
+      "related": [
+        {
+          "t": "EXIM Bank"
+        },
+        {
+          "t": "NHB"
+        },
+        {
+          "t": "Bond (बॉन्ड)"
+        },
+        {
+          "t": "SIDBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The National Bank for Financing Infrastructure and Development Act, 2021 (Act 17 of 2021) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/server/api/core/bitstreams/0d733c76-bb87-459a-b11b-d32056d1f7b9/content",
+          "issued": "2021-03-28",
+          "effective": "2021-04-19",
+          "used": [
+            {
+              "ref": "धारा 1(3), फ़ुटनोट 1",
+              "c": "19.4.2021 से धारा 2, 3(1),(2),(4), 4-14 आदि लागू; S.O. 1657(E), 16.4.2021"
+            },
+            {
+              "ref": "धारा 3(1), 3(3)",
+              "c": "development financial institution के रूप में स्थापना; head office Mumbai"
+            },
+            {
+              "ref": "धारा 4(2), 4(3)",
+              "c": "developmental और financial उद्देश्य"
+            },
+            {
+              "ref": "धारा 5(3)",
+              "c": "कौन shares रख सकता है; proviso: केंद्र सरकार हर समय कम से कम 26%"
+            },
+            {
+              "ref": "Statement of Objects and Reasons",
+              "c": "लंबी अवधि की financing; banks की short-term liabilities; asset-liability mismatch; corporate bond market गहरा नहीं"
+            }
+          ]
+        },
+        {
+          "label": "NaBFID — About Us (पन्ने पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://nabfid.org/about-us",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहले दो पैरा",
+              "c": "specialized development finance institution; 2021 में संसद के Act से बना"
+            }
+          ]
+        },
+        {
+          "label": "NaBFID — website का मुख्य पन्ना (पन्ने पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://nabfid.org/",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहली लाइन",
+              "c": "Development Finance Institution, founded on April 19, 2021"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIndia Code पर दिए NaBFID Act, 2021 (Act 17 of 2021) की धारा 3(1) के मुताबिक National Bank for Financing Infrastructure and Development एक development financial institution के रूप में बनाया गया है। धारा 4(2) के मुताबिक इसका developmental उद्देश्य है केंद्र और राज्य सरकारों, regulators, financial institutions और निवेशकों के साथ तालमेल करके भारत में लंबी अवधि की non-recourse infrastructure financing (जिसमें देश के bonds और derivatives बाज़ार भी शामिल हैं) को बढ़ावा देना; धारा 4(3) के मुताबिक financial उद्देश्य है infrastructure projects में सीधे या परोक्ष रूप से lend या invest करना और निजी व institutional निवेशकों का निवेश खींचना।[^1] NaBFID के मुताबिक यह 2021 में संसद के Act से बना।[^2]\n\n## दो उद्देश्य | उद्देश्य\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए आपके मोहल्ले में पुल बनना है, जिसकी कमाई (toll) 20-25 साल में धीरे-धीरे आएगी। मोहल्ले का दुकानदार, जो रोज़ के लेन-देन पर चलता है, इतने लंबे समय के लिए पैसा नहीं फँसा सकता। ऐसे लंबे समय वाले infrastructure कामों के लिए पैसा देने और निवेशक जुटाने के लिए NaBFID जैसी संस्था बनाई गई।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: NaBFID: Act 17 of 2021 (28.3.2021); 19.4.2021 से; development financial institution; head office Mumbai; केंद्र सरकार हर समय कम से कम 26% shares। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "money-market",
+      "term": "Money Market",
+      "aliases": [
+        "Money Markets",
+        "मुद्रा बाज़ार",
+        "Money Market Instruments",
+        "Money Market Instrument"
+      ],
+      "full": "Money Market · मुद्रा बाज़ार",
+      "fullEn": "Money Market",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-19",
+          "t": "पन्ना बना। India Code पर RBI Act, 1934 की धारा 45U और 45W, और SEBI की Beginner's Guide to the Capital Markets से जाँचा।"
+        }
+      ],
+      "one": "Money market (मुद्रा बाज़ार) वह बाज़ार है, जहाँ एक साल तक की अवधि वाले क़र्ज़ के instruments का लेन-देन होता है। RBI Act, 1934 की धारा 45U(b) के मुताबिक money market instruments में call या notice money, term money, repo, reverse repo, certificate of deposit, commercial usance bill, commercial paper और RBI द्वारा बताए गए ऐसे दूसरे debt instruments आते हैं, जिनकी मूल अवधि एक साल तक हो।",
+      "facts": [
+        {
+          "k": "परिभाषा",
+          "v": "RBI Act, 1934",
+          "s": "धारा 45U(b)"
+        },
+        {
+          "k": "अवधि",
+          "v": "एक साल तक",
+          "s": "मूल या शुरुआती maturity"
+        },
+        {
+          "k": "Instruments",
+          "v": "Call money, repo, CD, CP…",
+          "s": "धारा 45U(b)"
+        },
+        {
+          "k": "Directions",
+          "v": "RBI",
+          "s": "धारा 45W(1)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Instrument",
+            "s": "call/notice/term money, repo, CD, CP"
+          },
+          {
+            "t": "अवधि",
+            "s": "मूल maturity एक साल तक"
+          },
+          {
+            "t": "RBI",
+            "s": "धारा 45W के तहत directions दे सकता है"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "RBI Act की धारा 45W(1) के मुताबिक RBI जनहित में, या देश की वित्तीय व्यवस्था को उसके फ़ायदे के लिए regulate करने के लिए, interest rate से जुड़ी नीति तय कर सकता है और securities, money market instruments, foreign exchange, derivatives वग़ैरह में लेन-देन करने वाली agencies को directions दे सकता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Money market मतलब share बाज़ार।\"",
+          "f": "नहीं। RBI Act की धारा 45U(b) के मुताबिक money market instruments एक साल तक की मूल अवधि वाले debt instruments हैं।[^1] Shares (equity) SEBI की guide के मुताबिक capital market के products हैं।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Repo क्या है?",
+          "a": "RBI Act की धारा 45U(c) के मुताबिक repo पैसा उधार लेने का ऐसा instrument है, जिसमें securities बेची जाती हैं और आपस में तय भविष्य की तारीख़ पर तय क़ीमत पर उन्हें वापस ख़रीदने का समझौता होता है; उस क़ीमत में उधार लिए पैसे का ब्याज़ शामिल होता है। धारा 45U(d) के मुताबिक reverse repo इसका उल्टा है, यानी securities ख़रीदकर पैसा उधार देना।[^1]"
+        },
+        {
+          "q": "Money market में RBI की क्या भूमिका है?",
+          "a": "RBI Act की धारा 45W(1) के मुताबिक RBI, जनहित में या देश के financial system को regulate करने के लिए, ब्याज़ दरों या interest rate products से जुड़ी नीति तय कर सकता है, और इस बारे में securities, money market instruments, foreign exchange, derivatives वग़ैरह में लेन-देन करने वाली agencies को directions दे सकता है। पर ये directions मान्यता प्राप्त stock exchanges पर होने वाले सौदों के execution या settlement की प्रक्रिया से जुड़ी नहीं हो सकतीं (धारा 45W(1) का proviso)।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Call Money"
+        },
+        {
+          "t": "Treasury Bill"
+        },
+        {
+          "t": "Commercial Paper"
+        },
+        {
+          "t": "Certificate of Deposit"
+        },
+        {
+          "t": "Capital Market"
+        }
+      ],
+      "sources": [
+        {
+          "label": "India Code — The Reserve Bank of India Act, 1934 (Act 2 of 1934), Chapter IIID (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/server/api/core/bitstreams/e159cd99-2be8-4f80-b2f5-7c2fe3974829/content",
+          "issued": "1934-03-06",
+          "effective": "2007-01-09",
+          "used": [
+            {
+              "ref": "Chapter IIID",
+              "c": "Act 26 of 2006 से जोड़ा गया, 9.1.2007 से"
+            },
+            {
+              "ref": "धारा 45U(b)",
+              "c": "money market instruments: call/notice money, term money, repo, reverse repo, CD, commercial usance bill, CP, और RBI के बताए एक साल तक के debt instruments"
+            },
+            {
+              "ref": "धारा 45U(c), 45U(d)",
+              "c": "repo और reverse repo की परिभाषा"
+            },
+            {
+              "ref": "धारा 45W(1)",
+              "c": "जनहित में या financial system के लिए interest rates / interest rate products की नीति तय करना और securities, money market instruments, forex, derivatives में लेन-देन करने वाली agencies को उस बारे में directions; proviso: stock exchange के सौदों की execution/settlement प्रक्रिया नहीं"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Beginner's Guide to the Capital Markets (दस्तावेज़ पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://investor.sebi.gov.in/pdf/reference-material/beginners.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Investment Related Products",
+              "c": "capital market में equity, debt, hybrid instruments और mutual fund schemes"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nIndia Code पर दिए Reserve Bank of India Act, 1934 की धारा 45U(b) के मुताबिक money market instruments में call या notice money, term money, repo, reverse repo, certificate of deposit, commercial usance bill, commercial paper, और ऐसे दूसरे debt instruments शामिल हैं जिनकी मूल या शुरुआती maturity एक साल तक हो और जिन्हें RBI समय-समय पर बताए। यह परिभाषा Act के Chapter IIID में है, जो 9 जनवरी 2007 से जुड़ा।[^1] इन्हीं instruments के लेन-देन के बाज़ार को money market कहते हैं।\n\n## कैसे काम करता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए किसी दुकानदार के पास आज ज़्यादा नक़द है, और पड़ोसी दुकानदार को कल माल ख़रीदने के लिए सिर्फ़ एक-दो दिन के लिए पैसा चाहिए। पहला दुकानदार थोड़े ब्याज़ पर एक-दो दिन के लिए पैसा दे देता है। Banks और बड़ी संस्थाएँ भी आपस में ऐसे ही कुछ दिनों से लेकर एक साल तक के लिए पैसा लेती-देती हैं — call money, repo, CD, CP जैसे instruments के ज़रिए। यही money market है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Money market instruments: RBI Act धारा 45U(b) — call/notice/term money, repo, reverse repo, CD, commercial usance bill, CP; मूल maturity एक साल तक; RBI directions (धारा 45W)। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "capital-market",
+      "term": "Capital Market",
+      "aliases": [
+        "Capital Markets",
+        "पूँजी बाज़ार",
+        "पूंजी बाजार"
+      ],
+      "full": "Capital Market · पूँजी बाज़ार",
+      "fullEn": "Capital Market",
+      "group": "निवेश",
+      "history": [
+        {
+          "d": "2026-10-19",
+          "t": "पन्ना बना। SEBI की Beginner's Guide to the Capital Markets और Financial Education Booklet (नवंबर 2020) से जाँचा।"
+        }
+      ],
+      "one": "SEBI के मुताबिक capital market (पूँजी बाज़ार) वे संस्थाएँ, लोग (players) और तरीक़े हैं, जो पूँजी देने वालों और पूँजी इस्तेमाल करने वालों को मिलाते हैं। इसके दो हिस्से हैं: primary market, जहाँ कंपनियाँ जनता से पैसा जुटाती हैं, और secondary market, जहाँ पहले से जारी shares stock exchange पर ख़रीदे-बेचे जाते हैं।",
+      "facts": [
+        {
+          "k": "Primary market",
+          "v": "कंपनी जनता से पैसा जुटाती है",
+          "s": "जैसे IPO"
+        },
+        {
+          "k": "Secondary market",
+          "v": "Stock exchange पर ख़रीद-बिक्री",
+          "s": "BSE, NSE"
+        },
+        {
+          "k": "Products",
+          "v": "Equity, debt, hybrid, mutual funds",
+          "s": "SEBI guide"
+        },
+        {
+          "k": "निगरानी",
+          "v": "SEBI",
+          "s": ""
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "बचत करने वाले",
+            "s": "पूँजी देने वाले निवेशक"
+          },
+          {
+            "t": "Capital market",
+            "s": "primary + secondary market, intermediaries"
+          },
+          {
+            "t": "कंपनियाँ",
+            "s": "पूँजी इस्तेमाल करने वाले"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "SEBI की guide के मुताबिक secondary market में shares बेचकर निवेशक अपना पैसा वापस ले सकता है, और ऐसे सौदों से कंपनी की पूँजी न घटती है, न बदलती है।"
+      },
+      "myths": [
+        {
+          "m": "\"Share ख़रीदो तो पैसा हमेशा कंपनी के पास जाता है।\"",
+          "f": "नहीं। SEBI के मुताबिक primary market में कंपनी सीधे निवेशकों को securities allot करती है, जबकि secondary market में निवेशक अपने stock broker के ज़रिए मौजूदा निवेशकों से securities ख़रीदते हैं[^2], और ऐसे सौदों से कंपनी की पूँजी नहीं बदलती।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Primary market में पैसा कैसे जुटता है?",
+          "a": "SEBI की Financial Education Booklet के मुताबिक जब कोई कंपनी पहली बार जनता को नए shares और bonds जारी करती है, तो यह primary market में होता है; कई बार यह initial public offer (IPO) के रूप में होता है।[^2]"
+        },
+        {
+          "q": "Bonds और debentures capital market में कैसे आते हैं?",
+          "a": "SEBI की guide के मुताबिक debentures या bonds ऐसे debt instruments हैं, जो अपनी अवधि में ब्याज़ देते हैं, और कंपनियाँ इनसे मध्यम या लंबी अवधि की debt capital जुटाती हैं।[^1]"
+        },
+        {
+          "q": "भारत के बड़े stock exchanges कौन-से हैं?",
+          "a": "SEBI की Financial Education Booklet के मुताबिक SEBI से मान्यता प्राप्त बड़े stock exchanges BSE Ltd. (पहले Bombay Stock Exchange Ltd.) और National Stock Exchange of India Ltd. (NSE) हैं।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "IPO"
+        },
+        {
+          "t": "Equity Share"
+        },
+        {
+          "t": "Bond (बॉन्ड)"
+        },
+        {
+          "t": "SEBI"
+        },
+        {
+          "t": "Sensex और Nifty"
+        },
+        {
+          "t": "Money Market"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SEBI — Beginner's Guide to the Capital Markets (दस्तावेज़ पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://investor.sebi.gov.in/pdf/reference-material/beginners.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "An overview of capital market",
+              "c": "primary markets और secondary markets का मतलब; secondary सौदों से कंपनी की पूँजी नहीं बदलती; bonds/debentures से मध्यम या लंबी अवधि की debt capital; capital market की परिभाषा; निगरानी SEBI"
+            },
+            {
+              "ref": "Investment Related Products",
+              "c": "equity, debt, hybrid instruments, mutual fund schemes"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Financial Education Booklet (नवंबर 2020) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://investor.sebi.gov.in/pdf/downloadable-documents/Financial%20Education%20Booklet%20-%20English.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना 24",
+              "c": "primary में कंपनी सीधे allot करती है; secondary में मौजूदा निवेशकों से stock broker के ज़रिए"
+            },
+            {
+              "ref": "पन्ना 25, Primary Market",
+              "c": "नए shares और bonds पहली बार जारी; कई बार IPO"
+            },
+            {
+              "ref": "पन्ना 26, Secondary Market",
+              "c": "बड़े stock exchange: BSE Ltd. और NSE"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSEBI की Beginner's Guide to the Capital Markets के मुताबिक पूँजी देने वालों और इस्तेमाल करने वालों को साथ लाने वाली संस्थाएँ, लोग और तरीक़े मिलकर capital market कहलाते हैं; यह बचत को securities के ज़रिए उद्यमियों तक पहुँचाता है। जिस तरीक़े से कंपनियाँ जनता से पैसा जुटाती हैं, उसे primary market कहते हैं; और stock exchange के ज़रिए shares ख़रीदने-बेचने के तरीक़े को secondary market कहते हैं। इस बाज़ार की निगरानी SEBI करता है।[^1]\n\n## पैसा कैसे घूमता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए आपके कस्बे में एक कंपनी नई फ़ैक्ट्री लगाना चाहती है। वह IPO लाकर आप जैसे हज़ारों लोगों को shares बेचती है और पैसा सीधे कंपनी के पास जाता है — यह primary market है। दो साल बाद आपको पैसों की ज़रूरत पड़ी, तो आप वही shares stock exchange पर किसी दूसरे निवेशक को बेच देते हैं; अब पैसा कंपनी के पास नहीं, उस ख़रीदार से आपके पास आता है — यह secondary market है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Capital market: primary market (कंपनी जनता से पैसा जुटाती है, जैसे IPO) + secondary market (stock exchange पर ख़रीद-बिक्री; कंपनी की पूँजी नहीं बदलती); निगरानी SEBI। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
