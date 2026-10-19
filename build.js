@@ -16,7 +16,7 @@ const SITE = {
   x: "https://x.com/seedhamatlab",
   youtube: "https://www.youtube.com/@seedhamatlab",
   whatsapp: "https://whatsapp.com/channel/0029Vb9DXQb3gvWW4lRkkq3r",
-  email: "seedhamatlab@gmail.com",
+  email: "hello@seedhamatlab.com",
   // Cloudflare Web Analytics "automatic setup" se chalu hai — Cloudflare khud beacon
   // lagata hai. ISE KHAALI HI RAHNE DIJIYE, warna gintee do baar hogi.
   cfAnalytics: "",
