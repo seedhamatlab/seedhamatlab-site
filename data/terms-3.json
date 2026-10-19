@@ -30193,6 +30193,655 @@
         }
       ],
       "body": "## मतलब\n\nIndian Economic Service की Arthapedia के मुताबिक demographic dividend तब होता है, जब कुल आबादी में काम करने वाले लोगों का अनुपात ऊँचा हो, क्योंकि इसका मतलब है ज़्यादा लोग उत्पादक होकर अर्थव्यवस्था की बढ़त में योगदान दे सकते हैं। कम जन्म दर से 14 साल से कम उम्र वालों पर ख़र्च घटता है, और बढ़ती उम्र-सीमा से आबादी का बड़ा हिस्सा 15-59 साल (कामकाजी उम्र) में रहता है।[^1]\n\n## कैसे बनता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** एक परिवार में 6 लोग हैं: पहले 2 कमाने वाले और 4 छोटे बच्चे थे, तो कमाई मुश्किल से चलती थी। दस साल बाद बच्चे बड़े होकर 4 कमाने वाले बन गए और सिर्फ़ 2 लोग (दादा-दादी) आश्रित रहे — घर की बचत और तरक़्क़ी तेज़ हो सकती है। पर यह तभी होगा, जब बच्चों को अच्छी पढ़ाई, सेहत और नौकरी मिली हो; वरना 4 बेरोज़गार जवान फ़ायदे की जगह बोझ बन सकते हैं।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Demographic dividend: कामकाजी उम्र (15-59) वालों का हिस्सा ज़्यादा; dependency ratio = ग़ैर-कामकाजी ÷ कामकाजी; शिक्षा-स्वास्थ्य-रोज़गार के बिना फ़ायदा नहीं। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "wto",
+      "term": "WTO",
+      "aliases": [
+        "World Trade Organization",
+        "World Trade Organisation",
+        "विश्व व्यापार संगठन"
+      ],
+      "full": "World Trade Organization · विश्व व्यापार संगठन",
+      "fullEn": "World Trade Organization (WTO)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-19",
+          "t": "पन्ना बना। WTO की website के 'What is the WTO?', 'India and the WTO' और 'Members and Observers' पन्नों से जाँचा।"
+        }
+      ],
+      "one": "WTO (World Trade Organization, विश्व व्यापार संगठन) देशों के बीच व्यापार के नियमों से जुड़ी एकमात्र अंतरराष्ट्रीय संस्था है। यह 1 जनवरी 1995 को बनी और Geneva (Switzerland) में है। भारत 1 जनवरी 1995 से इसका सदस्य है।",
+      "facts": [
+        {
+          "k": "बना",
+          "v": "1 जनवरी 1995",
+          "s": "Uruguay Round (1986-94) से"
+        },
+        {
+          "k": "सदस्य",
+          "v": "166",
+          "s": "विश्व व्यापार का 98%"
+        },
+        {
+          "k": "जगह",
+          "v": "Geneva, Switzerland",
+          "s": ""
+        },
+        {
+          "k": "भारत सदस्य",
+          "v": "1 जनवरी 1995 से",
+          "s": "GATT में 8 जुलाई 1948 से"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "WTO agreements",
+            "s": "देशों ने बातचीत करके तय किए"
+          },
+          {
+            "t": "सदस्य देश",
+            "s": "नियम मानते हैं, नीतियों की निगरानी"
+          },
+          {
+            "t": "झगड़ा हो तो",
+            "s": "WTO में trade disputes संभाले जाते हैं"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "WTO की website के मुताबिक इसके काम हैं: WTO समझौतों को लागू कराना, व्यापार की बातचीत का मंच, व्यापारिक झगड़े (trade disputes) संभालना, देशों की व्यापार नीतियों की निगरानी, विकासशील देशों को तकनीकी मदद और प्रशिक्षण, और दूसरी अंतरराष्ट्रीय संस्थाओं से सहयोग।"
+      },
+      "myths": [
+        {
+          "m": "\"WTO और GATT एक ही हैं, और भारत 1948 से WTO में है।\"",
+          "f": "नहीं। WTO के India पन्ने के मुताबिक भारत 8 जुलाई 1948 से GATT का सदस्य है, जबकि WTO का सदस्य 1 जनवरी 1995 से है।[^2] WTO ख़ुद 1 जनवरी 1995 को Uruguay Round की बातचीत (1986-94) से बना।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "WTO के कितने सदस्य हैं?",
+          "a": "WTO की website के मुताबिक 166 सदस्य, जो विश्व व्यापार का 98 प्रतिशत हैं।[^1] 'Members and Observers' पन्ने के मुताबिक यह संख्या 30 अगस्त 2024 से है।[^3]"
+        },
+        {
+          "q": "WTO का मूल मक़सद क्या है?",
+          "a": "WTO की website के मुताबिक इसकी स्थापना वाले समझौते में लिखा मूल लक्ष्य है: व्यापार के ज़रिए लोगों का जीवन स्तर सुधारना, बेहतर नौकरियाँ बनाना और sustainable development को बढ़ावा देना।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Foreign Trade Policy"
+        },
+        {
+          "t": "World Bank (IBRD)"
+        },
+        {
+          "t": "Balance of Payments"
+        },
+        {
+          "t": "Exchange Rate"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WTO — What is the WTO? (पन्ने पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.wto.org/english/thewto_e/whatis_e/whatis_e.htm",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "देशों के बीच व्यापार के नियमों से जुड़ी एकमात्र अंतरराष्ट्रीय संस्था; WTO agreements; मूल लक्ष्य: जीवन स्तर, बेहतर नौकरियाँ, sustainable development"
+            },
+            {
+              "ref": "Fact File",
+              "c": "Geneva, Switzerland; 1 जनवरी 1995; Uruguay Round (1986-94); 166 सदस्य, विश्व व्यापार का 98%"
+            },
+            {
+              "ref": "Functions",
+              "c": "समझौते लागू कराना, बातचीत का मंच, trade disputes, नीतियों की निगरानी, तकनीकी मदद, सहयोग"
+            }
+          ]
+        },
+        {
+          "label": "WTO — India and the WTO: Member information (पन्ने पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.wto.org/english/thewto_e/countries_e/india_e.htm",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "भारत 1 जनवरी 1995 से WTO का और 8 जुलाई 1948 से GATT का सदस्य"
+            }
+          ]
+        },
+        {
+          "label": "WTO — Members and Observers (पन्ने पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/org6_e.htm",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहली लाइन",
+              "c": "166 सदस्य, 30 अगस्त 2024 से"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nWTO की website के मुताबिक World Trade Organization (WTO) देशों के बीच व्यापार के नियमों से जुड़ी एकमात्र अंतरराष्ट्रीय संस्था है। इसके केंद्र में WTO agreements हैं, जिन पर दुनिया के ज़्यादातर व्यापार करने वाले देशों ने बातचीत करके हस्ताक्षर किए और अपनी संसदों में उनकी पुष्टि (ratify) की। WTO 1 जनवरी 1995 को Uruguay Round की बातचीत (1986-94) से बना और Geneva (Switzerland) में है।[^1] भारत 1 जनवरी 1995 से WTO का और 8 जुलाई 1948 से GATT का सदस्य है।[^2]\n\n## WTO कैसे काम करता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मोहल्ले के क्रिकेट मैच में अगर हर टीम अपने अलग नियम चलाए, तो रोज़ झगड़ा होगा। इसलिए सब टीमें मिलकर नियम लिख लेती हैं, और झगड़ा होने पर उसे सुलझाने का एक तरीक़ा तय कर लेती हैं। देशों के बीच सामान और सेवाओं की ख़रीद-बिक्री के लिए WTO के समझौते वही 'लिखे हुए नियम' हैं, और व्यापारिक झगड़े संभालना WTO के कामों में से एक है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: WTO: 1.1.1995 को बना; Geneva; Uruguay Round (1986-94); 166 सदस्य (30.8.2024 से); भारत 1.1.1995 से सदस्य (GATT में 8.7.1948 से)। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "foreign-trade-policy",
+      "term": "Foreign Trade Policy",
+      "aliases": [
+        "Foreign Trade Policy 2023",
+        "FTP 2023",
+        "FTP-2023",
+        "विदेश व्यापार नीति"
+      ],
+      "full": "Foreign Trade Policy · विदेश व्यापार नीति",
+      "fullEn": "Foreign Trade Policy (FTP) 2023",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-19",
+          "t": "पन्ना बना। DGFT की website पर FTP 2023 के Chapter 1 और DGFT की Notifications सूची से जाँचा।"
+        }
+      ],
+      "one": "Foreign Trade Policy (FTP, विदेश व्यापार नीति) में सामान और सेवाओं के export-import के प्रावधान होते हैं। अभी की FTP 2023, 1 अप्रैल 2023 से लागू है और तब तक लागू रहेगी, जब तक अलग से न बताया जाए या इसमें संशोधन न हो।",
+      "facts": [
+        {
+          "k": "लागू",
+          "v": "1 अप्रैल 2023 से",
+          "s": "पैरा 1.01"
+        },
+        {
+          "k": "क़ानूनी आधार",
+          "v": "FT (D&R) Act, 1992",
+          "s": "धारा 5 (पैरा 1.00)"
+        },
+        {
+          "k": "DGFT",
+          "v": "वाणिज्य और उद्योग मंत्रालय",
+          "s": "Hand Book of Procedures जारी करता है"
+        },
+        {
+          "k": "Export/import के लिए",
+          "v": "IEC ज़रूरी",
+          "s": "पैरा 1.13"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "केंद्र सरकार",
+            "s": "FT (D&R) Act की धारा 5 के तहत FTP notify करती है"
+          },
+          {
+            "t": "DGFT",
+            "s": "Public Notice से Hand Book of Procedures"
+          },
+          {
+            "t": "Exporter / importer",
+            "s": "IEC लेकर इन नियमों के हिसाब से व्यापार"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "FTP 2023 के पैरा 1.02 के मुताबिक केंद्र सरकार जनहित में notification से FTP में संशोधन कर सकती है। DGFT की Notifications सूची में (19 अक्टूबर 2026 को देखी) FTP-2023 के किसी पैरा का सबसे नया संशोधन Notification 42/2026-27 (09.10.2026) है, जो पैरा 4.49 में है।"
+      },
+      "myths": [
+        {
+          "m": "\"FTP 2023 एक तय साल पर अपने-आप ख़त्म हो जाएगी।\"",
+          "f": "FTP 2023 के पैरा 1.01 के मुताबिक यह 1 अप्रैल 2023 से लागू है और तब तक लागू रहेगी, जब तक अलग से न बताया जाए या संशोधन न हो।[^1]"
+        },
+        {
+          "m": "\"FTP में बदलाव के लिए नई नीति आने का इंतज़ार करना पड़ता है।\"",
+          "f": "नहीं। पैरा 1.02 के मुताबिक केंद्र सरकार notification से संशोधन कर सकती है।[^1] DGFT की सूची में 2026 में भी ऐसे notification हैं, जैसे 33/2026-27 (21.08.2026, पैरा 1.25) और 42/2026-27 (09.10.2026, पैरा 4.49)।[^2]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Export-import शुरू करने के लिए क्या ज़रूरी है?",
+          "a": "FTP 2023 के पैरा 1.13 के मुताबिक भारत से export या भारत में import के लिए Importer Exporter Code (IEC) ज़रूरी है। DGFT इसे electronic रूप (e-IEC) में देता है, और इसके लिए आवेदन DGFT की website (dgft.gov.in) पर होता है।[^1]"
+        },
+        {
+          "q": "नीति बदल जाए, तो पहले हो चुके export-import का क्या होगा?",
+          "a": "पैरा 1.05(b) के मुताबिक किसी item का import/export उसी policy से तय होता है, जो import/export की तारीख़ पर लागू थी (import के लिए Bill of Lading और export के लिए Shipping Bill मुख्य दस्तावेज़ हैं)। अगर किसी item की policy 'free' से 'restricted/prohibited' जैसी हो जाए, तो उस तारीख़ से पहले हो चुका import/export उससे प्रभावित नहीं होता (high sea sales वाले import को यह छूट नहीं)। पैरा 1.01 के मुताबिक 31.03.2023 तक हुए export-import उस समय की संबंधित FTP से चलेंगे, जब तक अलग से न बताया जाए।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "WTO"
+        },
+        {
+          "t": "Balance of Payments"
+        },
+        {
+          "t": "Current Account Deficit"
+        },
+        {
+          "t": "Exchange Rate"
+        }
+      ],
+      "sources": [
+        {
+          "label": "DGFT — Foreign Trade Policy 2023, Chapter 1: Legal Framework and Trade Facilitation (Revised, v1.2.2; दस्तावेज़ पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://content.dgft.gov.in/Website/Chapter_1_Revised_FTP_v1.2.2.pdf",
+          "issued": "",
+          "effective": "2023-04-01",
+          "used": [
+            {
+              "ref": "पैरा 1.00",
+              "c": "FT (D&R) Act, 1992 की धारा 5 के तहत केंद्र सरकार notify करती है"
+            },
+            {
+              "ref": "पैरा 1.01",
+              "c": "export-import के प्रावधान; 1.4.2023 से लागू, जब तक अलग से न बताया जाए या संशोधन न हो; 31.03.2023 तक के export-import पुरानी FTP से"
+            },
+            {
+              "ref": "पैरा 1.02",
+              "c": "notification से संशोधन"
+            },
+            {
+              "ref": "पैरा 1.05(b)",
+              "c": "item की policy import/export की तारीख़ वाली; 'free' से restricted होने पर पहले हो चुका import/export प्रभावित नहीं (high sea sales छोड़कर)"
+            },
+            {
+              "ref": "पैरा 1.03",
+              "c": "DGFT, Public Notice से Hand Book of Procedures notify करता है"
+            },
+            {
+              "ref": "पैरा 1.13",
+              "c": "IEC ज़रूरी; DGFT e-IEC देता है; आवेदन dgft.gov.in पर"
+            }
+          ]
+        },
+        {
+          "label": "DGFT — Notifications सूची (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.dgft.gov.in/CP/?opt=notification",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "क्रम 3",
+              "c": "Notification 42/2026-27, 09.10.2026: Amendment to Para 4.49 of FTP-2023"
+            },
+            {
+              "ref": "क्रम 12",
+              "c": "Notification 33/2026-27, 21.08.2026: Amendment in Para 1.25 of FTP, 2023"
+            }
+          ]
+        },
+        {
+          "label": "DGFT — website का मुख्य पन्ना (footer) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.dgft.gov.in/CP/",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "footer",
+              "c": "Directorate General of Foreign Trade, Ministry of Commerce and Industry, Government of India"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nDGFT की website पर दी गई Foreign Trade Policy (FTP) 2023 के पैरा 1.00 के मुताबिक केंद्र सरकार इसे Foreign Trade (Development & Regulation) Act, 1992 की धारा 5 के तहत notify करती है। पैरा 1.01 के मुताबिक FTP 2023 में सामान और सेवाओं के export-import के प्रावधान हैं; यह 1 अप्रैल 2023 से लागू है और तब तक लागू रहेगी, जब तक अलग से न बताया जाए या संशोधन न हो। पैरा 1.03 के मुताबिक इसके तहत export-import की प्रक्रिया वाली Hand Book of Procedures, Directorate General of Foreign Trade (DGFT) Public Notice से जारी करता है।[^1] DGFT की website के मुताबिक यह वाणिज्य और उद्योग मंत्रालय (Ministry of Commerce and Industry), भारत सरकार का Directorate General of Foreign Trade है।[^3]\n\n## नीति कैसे चलती है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए आपकी माँ घर पर अचार बनाती हैं और आप उसे दुबई के एक दुकानदार को बेचना चाहते हैं। जैसे स्कूल की परीक्षा से पहले उसकी नियमावली पढ़नी पड़ती है, वैसे ही देश से बाहर माल भेजने के नियम Foreign Trade Policy और उसकी Hand Book of Procedures में हैं। इन्हीं में लिखा एक ज़रूरी काम है DGFT की website से IEC (Importer Exporter Code) लेना।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: FTP 2023: 1.4.2023 से लागू, जब तक अलग से न बताया जाए या संशोधन न हो; FT (D&R) Act, 1992 की धारा 5; DGFT (वाणिज्य और उद्योग मंत्रालय); IEC ज़रूरी। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "exchange-rate",
+      "term": "Exchange Rate",
+      "aliases": [
+        "Exchange Rates",
+        "विनिमय दर",
+        "USD/INR"
+      ],
+      "full": "Exchange Rate · विनिमय दर",
+      "fullEn": "Exchange Rate (जैसे USD/INR)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-19",
+          "t": "पन्ना बना। RBI की 04.07.2018 की press release, RBI के Reference Rate पन्ने, FBIL की 19.11.2024 की press release और RBI Annual Report 2025-26 (Chapter V) से जाँचा।"
+        }
+      ],
+      "one": "Exchange rate (विनिमय दर) बताता है कि एक मुद्रा (currency) के बदले दूसरी मुद्रा कितनी मिलेगी, जैसे 1 US dollar के बदले कितने रुपये। USD/INR और दूसरी बड़ी मुद्राओं का reference rate 10 जुलाई 2018 से FBIL (Financial Benchmarks India Private Limited) निकालता है; उससे पहले यह काम RBI करता था।",
+      "facts": [
+        {
+          "k": "Reference rate",
+          "v": "FBIL",
+          "s": "10 जुलाई 2018 से"
+        },
+        {
+          "k": "पहले",
+          "v": "RBI",
+          "s": "आख़िरी release 9 जुलाई 2018"
+        },
+        {
+          "k": "मुद्राएँ",
+          "v": "USD, GBP, EUR, JPY",
+          "s": "INR के मुक़ाबले (FBIL, 19.11.2024)"
+        },
+        {
+          "k": "RBI का दख़ल",
+          "v": "बहुत ज़्यादा उतार-चढ़ाव रोकने के लिए",
+          "s": "Annual Report 2025-26, पैरा V.20"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Forex market",
+            "s": "विदेशी मुद्रा की ख़रीद-बिक्री"
+          },
+          {
+            "t": "FBIL",
+            "s": "reference rate जारी करता है"
+          },
+          {
+            "t": "RBI",
+            "s": "ज़्यादा उतार-चढ़ाव पर बाज़ार में दख़ल"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "RBI Annual Report 2025-26 (पैरा V.20) के मुताबिक 2025-26 में geopolitical तनाव और tariff से जुड़ी अनिश्चितता के बीच rupee में बीच-बीच में उतार-चढ़ाव आया; RBI ने बाज़ार में व्यवस्थित हालात (orderly market conditions) बनाए रखने और exchange rate में बहुत ज़्यादा उतार-चढ़ाव (excessive volatility) रोकने के लिए forex market में दख़ल दिया।"
+      },
+      "myths": [
+        {
+          "m": "\"Rupee-dollar का reference rate आज भी RBI रोज़ जारी करता है।\"",
+          "f": "नहीं। RBI की 04.07.2018 की press release के मुताबिक RBI की Reference Rate वाली रोज़ की press release 9 जुलाई 2018 के बाद बंद हो गई, और 10 जुलाई 2018 से यह काम FBIL करता है।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "आज का reference rate कहाँ देखें?",
+          "a": "RBI के Reference Rate पन्ने के मुताबिक 10 जुलाई 2018 से यह FBIL देता है, और वह पन्ना www.fbil.org.in का link देता है।[^2] FBIL की 19.11.2024 की press release के मुताबिक FBIL, USD/INR, GBP/INR, EUR/INR और JPY/INR का reference rate हर Mumbai Business Day पर लगभग 1:00 PM IST पर जारी करता है (6 जनवरी 2025 से, अगले आदेश तक)।[^3]"
+        },
+        {
+          "q": "RBI का आख़िरी reference rate क्या था?",
+          "a": "RBI के Reference Rate पन्ने के मुताबिक 9 जुलाई 2018 को RBI का US dollar का reference rate ₹68.6573 था।[^2]"
+        },
+        {
+          "q": "Exchange rate को लेकर RBI क्या करता है?",
+          "a": "RBI Annual Report 2025-26 के मुताबिक RBI ने 2025-26 में exchange rate में बहुत ज़्यादा उतार-चढ़ाव रोकने के लिए forex market में दख़ल दिया (पैरा V.20), और 2026-27 के लक्ष्यों में भी USD/INR exchange rate में बहुत ज़्यादा उतार-चढ़ाव रोकने के लिए foreign exchange operations शामिल हैं (पैरा V.22)।[^4]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Foreign Exchange Reserves"
+        },
+        {
+          "t": "Balance of Payments"
+        },
+        {
+          "t": "Current Account Deficit"
+        },
+        {
+          "t": "RBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Press Release 2018-2019/35: Computation and Dissemination of Reference Rate - Taking Over by Financial Benchmarks India Private Limited (FBIL) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44393",
+          "issued": "2018-07-04",
+          "effective": "2018-07-10",
+          "used": [
+            {
+              "ref": "पूरी release",
+              "c": "FBIL ने 10.7.2018 से USD/INR और दूसरी बड़ी मुद्राओं का reference rate संभाला; RBI की रोज़ की press release 9.7.2018 के बाद बंद"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reference Rate पन्ना (उस पर आख़िरी release 09.07.2018 की) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/BS_DisplayReferenceRate.aspx",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ने की पहली लाइन",
+              "c": "10.7.2018 से FBIL; www.fbil.org.in का link"
+            },
+            {
+              "ref": "Press Release 2018-2019/76",
+              "c": "9.7.2018 को US dollar का reference rate ₹68.6573"
+            }
+          ]
+        },
+        {
+          "label": "FBIL — Press Release 06/2024-25: Revised Time for Publication of FBIL Reference Rate (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.fbil.org.in/uploads/Press_Release_Revised_Time_of_Publication_of_FBIL_Reference_Rate_39972819e0.pdf",
+          "issued": "2024-11-19",
+          "effective": "2025-01-06",
+          "used": [
+            {
+              "ref": "पूरी release",
+              "c": "USD/INR, GBP/INR, EUR/INR, JPY/INR; हर Mumbai Business Day लगभग 1:00 PM IST; 6.1.2025 से, अगले आदेश तक"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Annual Report 2025-26, Chapter V: Financial Markets and Foreign Exchange Management (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/AnnualReportPublications.aspx?Id=1465",
+          "issued": "2026-05-29",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा V.20",
+              "c": "rupee में उतार-चढ़ाव; RBI ने orderly market conditions और excessive volatility रोकने के लिए forex market में दख़ल दिया"
+            },
+            {
+              "ref": "पैरा V.22",
+              "c": "2026-27: USD/INR में excessive volatility रोकने के लिए foreign exchange operations"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nExchange rate यानी एक मुद्रा के बदले दूसरी मुद्रा कितनी मिलेगी। जैसे RBI के Reference Rate पन्ने के मुताबिक 9 जुलाई 2018 को US dollar का RBI reference rate ₹68.6573 था, यानी उस दिन के reference rate के हिसाब से 1 dollar = ₹68.6573।[^2] RBI की 4 जुलाई 2018 की press release के मुताबिक पहले RBI रोज़ USD/INR का reference rate और दूसरी बड़ी मुद्राओं की exchange rate निकालता और जारी करता था; 10 जुलाई 2018 से यह ज़िम्मेदारी Financial Benchmarks India Private Limited (FBIL) ने संभाल ली।[^1]\n\n## Rate कैसे बनता और जारी होता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए (आँकड़े सिर्फ़ समझाने के लिए) पिछले साल 1 dollar के लिए ₹80 देने पड़ते थे और इस साल ₹90 देने पड़ते हैं। तो विदेश में पढ़ रहे भाई को 1,000 dollar भेजने के लिए पापा को (charges छोड़कर) ₹80,000 की जगह ₹90,000 देने होंगे — इसे कहते हैं dollar के मुक़ाबले rupee का कमज़ोर होना। उल्टा, अगर 1 dollar ₹75 का हो जाए, तो rupee मज़बूत हुआ और वही 1,000 dollar ₹75,000 में भेजे जा सकेंगे।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Reference rate: 10.7.2018 से FBIL (पहले RBI; आख़िरी 9.7.2018); USD, GBP, EUR, JPY बनाम INR; RBI बहुत ज़्यादा उतार-चढ़ाव रोकने के लिए forex market में दख़ल देता है (Annual Report 2025-26, पैरा V.20)। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^3][^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "economic-survey",
+      "term": "Economic Survey",
+      "aliases": [
+        "Economic Survey 2025-26",
+        "आर्थिक समीक्षा",
+        "आर्थिक सर्वेक्षण"
+      ],
+      "full": "Economic Survey · आर्थिक समीक्षा",
+      "fullEn": "Economic Survey (Ministry of Finance)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-19",
+          "t": "पन्ना बना। DEA के Economic Division पन्ने, Economic Survey 2025-26 (शुरुआती पन्ने और Chapter 5), indiabudget.gov.in और PIB की 29.01.2026 की release से जाँचा।"
+        }
+      ],
+      "one": "Economic Survey (आर्थिक समीक्षा) वित्त मंत्रालय का सालाना दस्तावेज़ है, जो Union Budget से पहले संसद में रखा जाता है। इसे Department of Economic Affairs (DEA) का Economic Division, Chief Economic Adviser (CEA) के दफ़्तर के साथ तैयार करता है।",
+      "facts": [
+        {
+          "k": "तैयार करता है",
+          "v": "DEA का Economic Division",
+          "s": "CEA के दफ़्तर के साथ"
+        },
+        {
+          "k": "कब",
+          "v": "Union Budget से पहले",
+          "s": "संसद में रखा जाता है"
+        },
+        {
+          "k": "2025-26 वाला",
+          "v": "29 जनवरी 2026",
+          "s": "संसद में रखा गया"
+        },
+        {
+          "k": "उदाहरण: CPI महँगाई",
+          "v": "1.7%",
+          "s": "2025-26, दिसंबर तक (पैरा 5.8)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Economic Division, DEA",
+            "s": "CEA के दफ़्तर के साथ तैयार"
+          },
+          {
+            "t": "संसद",
+            "s": "Budget से पहले रखा जाता है"
+          },
+          {
+            "t": "Union Budget",
+            "s": "उसके बाद"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "DEA के मुताबिक Economic Division सालाना Economic Survey के अलावा Monthly Economic Review भी निकालता है।"
+      },
+      "myths": [
+        {
+          "m": "\"Economic Survey और Union Budget एक ही दस्तावेज़ है।\"",
+          "f": "नहीं। DEA के मुताबिक Economic Survey, Union Budget से पहले संसद में रखा जाता है।[^1] 2025-26 का Survey 29 जनवरी 2026 को संसद में रखा गया।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Economic Survey 2025-26 कब रखा गया?",
+          "a": "PIB की 29 जनवरी 2026 की release के मुताबिक केंद्रीय वित्त मंत्री ने उसी दिन इसे संसद में रखा।[^3]"
+        },
+        {
+          "q": "इसमें किन विषयों पर बात होती है?",
+          "a": "indiabudget.gov.in के मुताबिक 2025-26 के Survey में अर्थव्यवस्था की हालत, सरकारी वित्त (fiscal), मौद्रिक प्रबंधन, external sector, महँगाई, कृषि, सेवाएँ, उद्योग, निवेश और infrastructure, रोज़गार, AI और शहरीकरण जैसे अध्याय हैं।[^5]"
+        },
+        {
+          "q": "इसमें किस तरह के आँकड़े होते हैं?",
+          "a": "जैसे 2025-26 के Survey के Chapter 5 (पैरा 5.8) के मुताबिक CPI से मापी गई औसत खुदरा महँगाई 2022-23 के 6.7% से घटकर 2024-25 में 4.6% और 2025-26 (दिसंबर तक) में 1.7% रही।[^4]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Union Budget"
+        },
+        {
+          "t": "Fiscal Deficit"
+        },
+        {
+          "t": "Inflation"
+        },
+        {
+          "t": "GDP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Department of Economic Affairs — Economic Division पन्ना (पन्ने पर तारीख़ नहीं) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://dea.gov.in/economic-division",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Introduction",
+              "c": "Economic Division सालाना Economic Survey निकालने का काम संभालता है, जो Union Budget से पहले संसद में रखा जाता है; Monthly Economic Review भी"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — Economic Survey 2025-26: शुरुआती पन्ने (Title, Preface, Acknowledgment; जनवरी 2026) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/epreface.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Title पन्ना",
+              "c": "भारत सरकार, वित्त मंत्रालय, Department of Economic Affairs, Economic Division; जनवरी 2026"
+            },
+            {
+              "ref": "Acknowledgment",
+              "c": "core team: Economic Division और Office of the CEA; हस्ताक्षर: Chief Economic Adviser, वित्त मंत्रालय"
+            }
+          ]
+        },
+        {
+          "label": "PIB (वित्त मंत्रालय) — From Stability to Strength: Growth Accelerates along with Lower Inflation, Release ID 2220004 (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2220004",
+          "issued": "2026-01-29",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "Economic Survey 2025-26 आज (29.01.2026) केंद्रीय वित्त मंत्री ने संसद में रखा"
+            }
+          ]
+        },
+        {
+          "label": "वित्त मंत्रालय — Economic Survey 2025-26, Chapter 5: Inflation: Tamed and Anchored (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/echap05.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 5.8",
+              "c": "CPI औसत महँगाई: 2022-23 में 6.7%, 2024-25 में 4.6%, 2025-26 (दिसंबर तक) में 1.7%"
+            }
+          ]
+        },
+        {
+          "label": "indiabudget.gov.in — Economic Survey पन्ना (2025-2026) (19 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/index.php",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Content सूची",
+              "c": "2025-26 Survey के 16 अध्यायों के नाम"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nDEA के मुताबिक Department of Economic Affairs (वित्त मंत्रालय) का Economic Division सालाना Economic Survey निकालने का काम संभालता है, जो Union Budget से पहले संसद में रखा जाता है।[^1] Economic Survey 2025-26 के Acknowledgment के मुताबिक इसकी core team में Economic Division और Chief Economic Adviser (CEA) का दफ़्तर था, और यह जनवरी 2026 में छपा।[^2] PIB के मुताबिक 2025-26 का Survey 29 जनवरी 2026 को संसद में रखा गया।[^3]\n\n## Survey कैसे बनता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** जैसे साल के अंत में school हर बच्चे का report card देता है — किस विषय में अच्छा किया, कहाँ सुधार चाहिए — वैसे ही Economic Survey देश की अर्थव्यवस्था के साल भर के हाल का report card जैसा है। और जैसे report card देखकर घर वाले अगले साल की योजना बनाते हैं, वैसे ही यह Union Budget से पहले संसद में रखा जाता है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Economic Survey: DEA का Economic Division (CEA के दफ़्तर के साथ); Union Budget से पहले संसद में; 2025-26 वाला 29.01.2026 को रखा गया। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
