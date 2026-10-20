@@ -31587,6 +31587,491 @@
         }
       ],
       "body": "## मतलब\n\nSEBI की Beginner's Guide to the Capital Markets के मुताबिक पूँजी देने वालों और इस्तेमाल करने वालों को साथ लाने वाली संस्थाएँ, लोग और तरीक़े मिलकर capital market कहलाते हैं; यह बचत को securities के ज़रिए उद्यमियों तक पहुँचाता है। जिस तरीक़े से कंपनियाँ जनता से पैसा जुटाती हैं, उसे primary market कहते हैं; और stock exchange के ज़रिए shares ख़रीदने-बेचने के तरीक़े को secondary market कहते हैं। इस बाज़ार की निगरानी SEBI करता है।[^1]\n\n## पैसा कैसे घूमता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए आपके कस्बे में एक कंपनी नई फ़ैक्ट्री लगाना चाहती है। वह IPO लाकर आप जैसे हज़ारों लोगों को shares बेचती है और पैसा सीधे कंपनी के पास जाता है — यह primary market है। दो साल बाद आपको पैसों की ज़रूरत पड़ी, तो आप वही shares stock exchange पर किसी दूसरे निवेशक को बेच देते हैं; अब पैसा कंपनी के पास नहीं, उस ख़रीदार से आपके पास आता है — यह secondary market है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Capital market: primary market (कंपनी जनता से पैसा जुटाती है, जैसे IPO) + secondary market (stock exchange पर ख़रीद-बिक्री; कंपनी की पूँजी नहीं बदलती); निगरानी SEBI। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-20",
+      "verified": "2026-10-20",
+      "id": "corporate-governance",
+      "term": "Corporate Governance",
+      "aliases": [
+        "कॉरपोरेट गवर्नेंस",
+        "कॉर्पोरेट गवर्नेंस"
+      ],
+      "full": "Corporate Governance · कॉरपोरेट गवर्नेंस (कंपनी चलाने के नियम-क़ायदे)",
+      "fullEn": "Corporate Governance",
+      "group": "निवेश",
+      "history": [
+        {
+          "d": "2026-10-20",
+          "t": "पन्ना बना। SEBI के LODR Regulations, 2015 (14 जुलाई 2026 तक संशोधित पाठ; 14 अक्टूबर 2026 का Third Amendment भी देखा) और India Code पर Companies Act, 2013 की धारा 149 से जाँचा।"
+        }
+      ],
+      "one": "Corporate governance (कॉरपोरेट गवर्नेंस) यानी कंपनी का board कैसा बने, shareholders के हक़ कैसे बचें और जानकारी समय पर कैसे बताई जाए, इसके नियम। Listed companies के लिए SEBI के LODR Regulations, 2015 में regulation 17 से 27 जैसे \"corporate governance provisions\" हैं, और Companies Act, 2013 की धारा 149 board और independent directors की बुनियादी शर्तें तय करती है।",
+      "facts": [
+        {
+          "k": "Non-executive directors",
+          "v": "board के कम से कम 50%",
+          "s": "LODR reg. 17(1)(a)"
+        },
+        {
+          "k": "Woman director",
+          "v": "कम से कम 1",
+          "s": "top 1000 में independent woman director"
+        },
+        {
+          "k": "Independent directors",
+          "v": "board का 1/3 या 1/2",
+          "s": "chairperson कौन है, उस पर निर्भर (reg. 17(1)(b))"
+        },
+        {
+          "k": "Board meetings",
+          "v": "साल में कम से कम 4",
+          "s": "दो meetings में 120 दिन से ज़्यादा का फ़ासला नहीं"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "नियम",
+            "s": "LODR Chapter IV, Companies Act धारा 149"
+          },
+          {
+            "t": "Board of directors",
+            "s": "independent directors के साथ"
+          },
+          {
+            "t": "Stock exchange को report",
+            "s": "हर तिमाही"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "LODR के regulation 27(2)(a) के मुताबिक listed entity हर तिमाही corporate governance पर compliance report stock exchange को भेजती है।"
+      },
+      "myths": [
+        {
+          "m": "\"ये नियम हर listed कंपनी पर एक जैसे लागू होते हैं।\"",
+          "f": "नहीं। LODR के regulation 15(2) के मुताबिक regulation 17 से 27 जैसे corporate governance provisions उस listed entity पर लागू नहीं होते, जिसकी पिछले वित्त वर्ष के आख़िरी दिन paid-up equity share capital ₹10 करोड़ तक **और** net worth ₹25 करोड़ तक हो, और SME Exchange पर listed entity पर भी नहीं। शर्त: ये provisions बाद में लागू हो जाएँ तो छह महीने में पालन करना होता है; और SME Exchange वाली entity की capital ₹10 करोड़ से या net worth ₹25 करोड़ से ज़्यादा हो, तो उस पर 1 अप्रैल 2025 से regulation 23 लागू है। Companies Act, 2013 के प्रावधान फिर भी लागू रहते हैं।[^1]"
+        },
+        {
+          "m": "\"बाहर का कोई भी व्यक्ति independent director बन सकता है।\"",
+          "f": "नहीं। LODR के regulation 16(1)(b) के मुताबिक independent director non-executive director होता है (*nominee director* नहीं), जो board की राय में ईमानदार हो और जिसके पास ज़रूरी विशेषज्ञता हो; वह promoter न हो, न promoters या directors का रिश्तेदार हो, और कम से कम 21 साल का हो। ऐसी ही शर्तें Companies Act की धारा 149(6) में भी हैं।[^1][^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Companies Act के मुताबिक listed company में कितने independent directors?",
+          "a": "धारा 149(4) के मुताबिक हर listed public company में कुल directors के कम से कम एक-तिहाई independent directors होने चाहिए; एक-तिहाई गिनने में भिन्न (fraction) आए तो उसे एक माना जाता है।[^3]"
+        },
+        {
+          "q": "Independent director कितने साल रह सकता है?",
+          "a": "धारा 149(10) और (11) के मुताबिक एक term लगातार पाँच साल तक की होती है; special resolution पास करके और Board's report में बताकर दोबारा नियुक्ति हो सकती है। लगातार दो terms से ज़्यादा नहीं; उसके बाद तीन साल बीतने पर फिर नियुक्ति हो सकती है, पर उन तीन सालों में वह कंपनी से किसी और रूप में नहीं जुड़ सकता।[^3]"
+        },
+        {
+          "q": "Board में कुल कितने directors?",
+          "a": "धारा 149(1) के मुताबिक public company में कम से कम 3, private company में 2 और One Person Company में 1 director, और ज़्यादा से ज़्यादा 15; special resolution से 15 से ज़्यादा रखे जा सकते हैं। LODR के regulation 17(1)(c) के मुताबिक top 2000 listed entities के board में कम से कम छह directors होने चाहिए।[^3][^1]"
+        },
+        {
+          "q": "75 साल से ज़्यादा उम्र का non-executive director?",
+          "a": "LODR के regulation 17(1A) के मुताबिक 75 साल की उम्र पार कर चुके व्यक्ति को non-executive director तभी बनाया या बनाए रखा जा सकता है, जब special resolution पास हो और notice के explanatory statement में इसका कारण (justification) लिखा हो।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "SEBI"
+        },
+        {
+          "t": "Listed Company"
+        },
+        {
+          "t": "BRSR"
+        },
+        {
+          "t": "ESG"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SEBI — Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, No. SEBI/LAD-NRO/GN/2015-16/013 (14 जुलाई 2026 तक संशोधित पाठ) (20 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/legal/regulations/jul-2026/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-last-amended-on-july-14-2026-_102974.html",
+          "issued": "2015-09-02",
+          "effective": "",
+          "used": [
+            {
+              "ref": "reg. 4(2)",
+              "c": "Chapter IV के corporate governance provisions इन सिद्धांतों के लिए: shareholders के हक़, समय पर जानकारी, सबसे बराबरी का बर्ताव, stakeholders की भूमिका, disclosure और transparency, board की ज़िम्मेदारियाँ"
+            },
+            {
+              "ref": "reg. 15(2), 15(3)",
+              "c": "₹10 करोड़ paid-up equity और ₹25 करोड़ net worth तक वाली और SME Exchange वाली entity पर reg. 17–27 आदि लागू नहीं; छह महीने वाली शर्त; SME पर 1.4.2025 से reg. 23; Companies Act लागू रहता है"
+            },
+            {
+              "ref": "reg. 16(1)(b)",
+              "c": "independent director: non-executive, nominee नहीं; integrity और expertise; promoter नहीं; promoters/directors से संबंधित नहीं; कम से कम 21 साल"
+            },
+            {
+              "ref": "reg. 17(1)(a), (b), (c), 17(1A)",
+              "c": "कम से कम एक woman director, 50% non-executive; top 1000 में independent woman director; non-executive chairperson पर 1/3, वरना 1/2 independent; top 2000 में कम से कम 6 directors; 75 साल पर special resolution"
+            },
+            {
+              "ref": "reg. 17(2), 27(2)(a)",
+              "c": "साल में कम से कम चार board meetings, 120 दिन का अधिकतम फ़ासला; हर तिमाही corporate governance compliance report"
+            }
+          ]
+        },
+        {
+          "label": "SEBI — Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026, No. SEBI/LAD-DOP/2026/329 (12.10.2026; Gazette 14.10.2026) (20 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-third-amendment-regulations-2026_105330.html",
+          "issued": "2026-10-12",
+          "effective": "2026-10-14",
+          "used": [
+            {
+              "ref": "पैरा 2, 3",
+              "c": "Gazette में छपने के दिन से लागू; सिर्फ़ regulation 62A बदला, इस पन्ने वाले regulations 4, 15, 16, 17, 27 नहीं (latest जाँच)"
+            }
+          ]
+        },
+        {
+          "label": "India Code — The Companies Act, 2013 (Act No. 18 of 2013), Ministry of Corporate Affairs (20 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://indiacode.gov.in/server/api/core/bitstreams/df47fd71-4078-42b6-8836-c058e60fee27/content",
+          "issued": "2013-08-29",
+          "effective": "",
+          "used": [
+            {
+              "ref": "धारा 149(1), (4)",
+              "c": "public 3, private 2, OPC 1, अधिकतम 15 directors; listed public company में कम से कम 1/3 independent directors, fraction को एक माना जाता है"
+            },
+            {
+              "ref": "धारा 149(6), (10), (11)",
+              "c": "independent director की शर्तें; पाँच साल तक की term, special resolution से दोबारा; दो लगातार terms के बाद तीन साल का अंतर"
+            },
+            {
+              "ref": "latest जाँच",
+              "c": "India Code के पाठ में धारा 149 में आख़िरी बदलाव Act 29 of 2020 से (149(9) का proviso, 18.3.2021 से); Jan Vishwas (Amendment of Provisions) Act, 2026 भी पढ़ा, उसमें Companies Act का संशोधन नहीं मिला"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nSEBI के LODR Regulations के regulation 4(2) के मुताबिक listed entity को Chapter IV के corporate governance provisions ऐसे लागू करने होते हैं कि ये सिद्धांत पूरे हों: shareholders के हक़ की रक्षा, उन्हें समय पर पूरी जानकारी, minority और विदेशी shareholders समेत सबसे बराबरी का बर्ताव, stakeholders के हक़ का सम्मान, सभी ज़रूरी बातों का समय पर और सही disclosure, और board की ज़िम्मेदारियाँ।[^1] Board कैसा हो, यह LODR का regulation 17 और Companies Act, 2013 की धारा 149 बताती है।[^1][^3] 14 अक्टूबर 2026 से लागू Third Amendment सिर्फ़ regulation 62A (debt securities की listing) बदलता है, इन नियमों को नहीं।[^2]\n\n## नियम कैसे लागू होते हैं | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए आपके मोहल्ले की housing society का पैसा एक committee संभालती है। अगर committee में सिर्फ़ अध्यक्ष के रिश्तेदार हों, हिसाब किसी को न दिखाया जाए और meeting कभी न हो, तो सदस्यों का भरोसा टूटेगा। अगर committee में कुछ ऐसे लोग भी हों जिनका किसी से निजी फ़ायदा नहीं जुड़ा, साल में कई बार meeting हो और हिसाब सबको दिखे, तो गड़बड़ी पकड़ना आसान होगा। Listed company में यही काम corporate governance के नियम करते हैं: independent directors, नियमित board meetings और समय पर disclosure।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: LODR reg. 17: कम से कम 1 woman director, 50% non-executive; independent directors कम से कम 1/3 (chairperson non-executive हो; पर वह promoter से जुड़ा हो तो 1/2) या 1/2 (regular non-executive chairperson न हो); साल में कम से कम 4 board meetings, 120 दिन का अधिकतम फ़ासला। Companies Act धारा 149(4): listed public company में कम से कम 1/3 independent directors; धारा 149(10)-(11): 5 साल की term, लगातार दो terms तक। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-20",
+      "verified": "2026-10-20",
+      "id": "human-development-index",
+      "term": "Human Development Index (HDI)",
+      "aliases": [
+        "Human Development Index",
+        "HDI",
+        "मानव विकास सूचकांक"
+      ],
+      "full": "Human Development Index · मानव विकास सूचकांक",
+      "fullEn": "Human Development Index (HDI)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-20",
+          "t": "पन्ना बना। UNDP (hdr.undp.org) के HDI पन्ने और Human Development Report 2025 की Table 1 से जाँचा। 20 अक्टूबर 2026 तक UNDP की site पर HDR 2025 ही सबसे नई report है।"
+        }
+      ],
+      "one": "Human Development Index (HDI, मानव विकास सूचकांक) UNDP का एक सूचकांक है, जो किसी देश में तीन बातों में औसत उपलब्धि मापता है: लंबी और स्वस्थ ज़िंदगी, पढ़ाई-लिखाई (ज्ञान), और ठीक-ठाक जीवन-स्तर। Human Development Report 2025 के मुताबिक 2023 में भारत का HDI 0.685 और रैंक 130 था।",
+      "facts": [
+        {
+          "k": "भारत का HDI (2023)",
+          "v": "0.685",
+          "s": "HDR 2025, Table 1"
+        },
+        {
+          "k": "भारत का रैंक",
+          "v": "130",
+          "s": "Bangladesh के साथ बराबर"
+        },
+        {
+          "k": "श्रेणी",
+          "v": "Medium human development",
+          "s": "HDI 0.550–0.699"
+        },
+        {
+          "k": "जीवन-प्रत्याशा (2023)",
+          "v": "72.0 साल",
+          "s": "जन्म के समय"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "तीन पैमाने",
+            "s": "सेहत, शिक्षा, जीवन-स्तर"
+          },
+          {
+            "t": "हर पैमाने का index",
+            "s": "normalized; आय का logarithm"
+          },
+          {
+            "t": "HDI",
+            "s": "तीनों का geometric mean"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "UNDP के मुताबिक सेहत को जन्म के समय जीवन-प्रत्याशा से, शिक्षा को 25 साल और उससे ऊपर के लोगों की औसत स्कूली पढ़ाई के साल और स्कूल जाने की उम्र के बच्चों की अपेक्षित पढ़ाई के साल से, और जीवन-स्तर को प्रति व्यक्ति GNI से मापा जाता है।"
+      },
+      "myths": [
+        {
+          "m": "\"HDI सिर्फ़ आमदनी या GDP देखता है।\"",
+          "f": "नहीं। UNDP के मुताबिक HDI इसीलिए बना कि देश के विकास को आँकने की आख़िरी कसौटी लोग और उनकी क्षमताएँ हों, सिर्फ़ आर्थिक वृद्धि नहीं; इसमें आय के साथ सेहत और शिक्षा भी है।[^1]"
+        },
+        {
+          "m": "\"HDI से किसी देश के विकास की पूरी तस्वीर मिल जाती है।\"",
+          "f": "नहीं। UNDP के मुताबिक HDI मानव विकास के सिर्फ़ एक हिस्से को पकड़ता है; यह असमानता, ग़रीबी, मानव सुरक्षा और सशक्तीकरण (empowerment) जैसी बातें नहीं दिखाता।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "भारत के बाक़ी आँकड़े क्या हैं?",
+          "a": "HDR 2025 की Table 1 के मुताबिक 2023 में भारत में जन्म के समय जीवन-प्रत्याशा 72.0 साल, अपेक्षित स्कूली पढ़ाई 13.0 साल, औसत स्कूली पढ़ाई 6.9 साल, और प्रति व्यक्ति GNI 9,047 (2021 PPP $) थी।[^2]"
+        },
+        {
+          "q": "रैंक बराबर क्यों होते हैं?",
+          "a": "HDR 2025 के Readers guide के मुताबिक तीन दशमलव तक एक जैसे HDI वाले देशों को एक ही (बराबर) रैंक दिया जाता है; इसीलिए भारत और Bangladesh दोनों 130 पर हैं।[^2]"
+        },
+        {
+          "q": "Report कब आई और इसमें किस साल के आँकड़े हैं?",
+          "a": "UNDP के press release के मुताबिक Human Development Report 2025 6 मई 2025 को जारी हुई।[^3] इसमें देशों का रैंक 2023 के HDI के आधार पर है।[^2]"
+        },
+        {
+          "q": "HDI की श्रेणियाँ क्या हैं?",
+          "a": "HDR 2025 के मुताबिक 0.550 से कम low, 0.550–0.699 medium, 0.700–0.799 high, और 0.800 या ज़्यादा very high human development।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Multidimensional Poverty Index"
+        },
+        {
+          "t": "GDP"
+        },
+        {
+          "t": "Inclusive Growth"
+        },
+        {
+          "t": "Demographic Dividend"
+        }
+      ],
+      "sources": [
+        {
+          "label": "UNDP (HDRO) — Human Development Index (HDI), hdr.undp.org Data Center (पन्ने पर तारीख़ नहीं) (20 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://hdr.undp.org/data-center/human-development-index",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पूरा पन्ना",
+              "c": "तीन आयाम; geometric mean; जीवन-प्रत्याशा, schooling के साल, प्रति व्यक्ति GNI, आय का logarithm; लोग और क्षमताएँ कसौटी; असमानता, ग़रीबी, मानव सुरक्षा, empowerment नहीं दिखाता"
+            }
+          ]
+        },
+        {
+          "label": "UNDP — Human Development Report 2025: A matter of choice: People and possibilities in the age of AI (20 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://hdr.undp.org/system/files/documents/global-report-document/hdr2025reporten.pdf",
+          "issued": "2025-05-06",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Table 1",
+              "c": "भारत (2023): रैंक 130, HDI 0.685, जीवन-प्रत्याशा 72.0, अपेक्षित schooling 13.0, औसत schooling 6.9, GNI प्रति व्यक्ति 9,047 (2021 PPP $); medium human development; Bangladesh भी 130, 0.685"
+            },
+            {
+              "ref": "Readers guide",
+              "c": "2023 HDI से रैंक; तीन दशमलव पर बराबर HDI वाले देशों का बराबर रैंक; श्रेणियों की cutoff (0.550, 0.700, 0.800)"
+            },
+            {
+              "ref": "latest जाँच",
+              "c": "20.10.2026 को hdr.undp.org पर सबसे नई report HDR 2025; 2026 report का पन्ना \"Towards 2026 HDR\" है, report नहीं"
+            }
+          ]
+        },
+        {
+          "label": "UNDP — Press release: Human Development progress slows to a 35-year low (Brussels, 6 May 2025) (20 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://hdr.undp.org/sites/default/files/2025_HDR/HDR25_PR_EN.pdf",
+          "issued": "2025-05-06",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "report 6 मई 2025 को जारी"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nUNDP के मुताबिक Human Development Index (HDI) मानव विकास के तीन मुख्य आयामों में औसत उपलब्धि का एक संक्षिप्त पैमाना है: लंबी और स्वस्थ ज़िंदगी, जानकार होना (शिक्षा), और ठीक-ठाक जीवन-स्तर। तीनों आयामों के normalized index निकालकर उनका geometric mean लिया जाता है; आमदनी का logarithm लिया जाता है, ताकि GNI बढ़ने के साथ आय की घटती अहमियत दिखे।[^1] Human Development Report 2025 की Table 1 के मुताबिक 2023 में भारत का HDI 0.685 था, रैंक 130, और भारत \"medium human development\" श्रेणी में है।[^2]\n\n## HDI कैसे बनता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए किसी school में बच्चे का report card सिर्फ़ गणित के नंबर से बने, तो तस्वीर अधूरी होगी। HDI भी ऐसा ही report card है, पर देश का: इसमें तीन \"विषय\" हैं — लोग कितना लंबा और स्वस्थ जीते हैं, कितने साल पढ़ते हैं, और औसत आमदनी कितनी है। किसी देश की आमदनी ज़्यादा हो पर लोग कम पढ़े हों, तो उसका HDI उतना ऊँचा नहीं होगा।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: HDI = सेहत (जन्म के समय जीवन-प्रत्याशा) + शिक्षा (औसत और अपेक्षित schooling के साल) + जीवन-स्तर (प्रति व्यक्ति GNI) का geometric mean; जारी करता है UNDP; HDR 2025: भारत 130वाँ, HDI 0.685 (2023), medium श्रेणी। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-20",
+      "verified": "2026-10-20",
+      "id": "liberalisation",
+      "term": "Liberalisation (1991 के आर्थिक सुधार)",
+      "aliases": [
+        "1991 के आर्थिक सुधार",
+        "1991 reforms",
+        "Statement on Industrial Policy, 1991",
+        "New Industrial Policy, 1991"
+      ],
+      "full": "Liberalisation · उदारीकरण (1991 के आर्थिक सुधार)",
+      "fullEn": "Liberalisation (1991 economic reforms)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-20",
+          "t": "पन्ना बना। DPIIT की site पर Statement on Industrial Policy, 24 July 1991 (Industrial Policy Highlights, Exhibit No.5) और Economic Survey 2022-23 के Chapter 2 से जाँचा।"
+        }
+      ],
+      "one": "Liberalisation (उदारीकरण) यानी अर्थव्यवस्था पर सरकारी रोक-टोक घटाना। Economic Survey 2022-23 के मुताबिक balance of payments संकट के बाद 1991 में trade और investment को उदार बनाया गया। 24 जुलाई 1991 की Statement on Industrial Policy ने एक छोटी सूची छोड़कर industrial licensing ख़त्म की और high priority industries में 51% तक विदेशी equity को मंज़ूरी का रास्ता खोला।",
+      "facts": [
+        {
+          "k": "Statement on Industrial Policy",
+          "v": "24 जुलाई 1991",
+          "s": "Ministry of Industry"
+        },
+        {
+          "k": "Industrial licensing",
+          "v": "छोटी सूची छोड़कर ख़त्म",
+          "s": "Annex II वाली industries में जारी"
+        },
+        {
+          "k": "विदेशी निवेश",
+          "v": "51% तक foreign equity को मंज़ूरी",
+          "s": "high priority industries (Annex III)"
+        },
+        {
+          "k": "पृष्ठभूमि",
+          "v": "Balance of payments संकट",
+          "s": "Economic Survey 2022-23"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "1991 का संकट",
+            "s": "ऊँचा घाटा, महँगाई, बड़ा CAD"
+          },
+          {
+            "t": "Industrial Policy, 24.7.1991",
+            "s": "licensing, विदेशी निवेश, technology, public sector, MRTP"
+          },
+          {
+            "t": "असर",
+            "s": "growth और विदेश व्यापार बढ़ा"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "",
+            "s": ""
+          },
+          {
+            "b": "",
+            "s": ""
+          }
+        ],
+        "note": "Statement के पैरा 19 के मुताबिक सरकार ने पाँच क्षेत्रों में कदम उठाए: Industrial Licensing, Foreign Investment, Foreign Technology Agreements, Public Sector Policy और MRTP Act; small और tiny sector का package अलग से घोषित होना था।"
+      },
+      "myths": [
+        {
+          "m": "\"1991 में हर industry से licensing पूरी तरह हटा दी गई।\"",
+          "f": "नहीं। Statement के पैरा 23 के मुताबिक licensing सभी industries के लिए ख़त्म हुई, सिवाय उन तय industries (Annex II) के, जहाँ सुरक्षा और रणनीतिक चिंताएँ, सामाजिक कारण, सुरक्षा (safety), पर्यावरण, ख़तरनाक products या elitist consumption की चीज़ें थीं। पैरा 39 के मुताबिक small scale sector के लिए reserved industries भी reserved रहीं।[^1]"
+        },
+        {
+          "m": "\"1991 के सुधारों ने public sector ख़त्म कर दिया।\"",
+          "f": "नहीं। Statement के फ़ैसलों (पैरा 39) के मुताबिक जहाँ सुरक्षा और रणनीतिक चिंताएँ हावी हैं, वे क्षेत्र public sector के लिए reserved रहे (Annex I); public sector को strategic, high-tech और ज़रूरी infrastructure पर केंद्रित करने के लिए portfolio की समीक्षा होनी थी, और public sector उन क्षेत्रों में भी आ सकता था जो उसके लिए reserved नहीं थे।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "क्या 1991 में सरकारी हिस्सेदारी बेचने (disinvestment) की बात थी?",
+          "a": "हाँ। Statement के पैरा 34 के मुताबिक चुनी हुई public enterprises में सरकार की equity का एक हिस्सा disinvest किया जाना था, ताकि उनके कामकाज पर बाज़ार का अनुशासन बने। पैरा 39 के फ़ैसलों में लिखा है कि संसाधन जुटाने और जनता की भागीदारी बढ़ाने के लिए सरकारी हिस्सेदारी का एक भाग mutual funds, financial institutions, आम जनता और कामगारों को दिया जाएगा।[^1]"
+        },
+        {
+          "q": "MRTP Act में क्या बदलना था?",
+          "a": "Statement के पैरा 37 और 39 के मुताबिक बड़ी (MRTP) कंपनियों को नई इकाई लगाने, विस्तार, merger, amalgamation और takeover के लिए केंद्र सरकार की पहले से मंज़ूरी की ज़रूरत हटनी थी, और ज़ोर एकाधिकार वाले (monopolistic), प्रतिबंधात्मक और अनुचित व्यापार तरीक़ों के नियंत्रण और नियमन पर होना था।[^1]"
+        },
+        {
+          "q": "इन सुधारों का असर क्या हुआ?",
+          "a": "Economic Survey 2022-23 के मुताबिक असली (real) growth 1980s के औसत 5.5% से बढ़कर FY93 से FY2000 तक 6.3% हुई, और goods और services के व्यापार का GDP से अनुपात 1990 के 17.2% से बढ़कर 2000 में 30.6% हो गया।[^2]"
+        },
+        {
+          "q": "Exchange rate और rupee में क्या बदला?",
+          "a": "Economic Survey 2022-23 के मुताबिक इन सुधारों में exchange rate को flexible बनाया गया और ज़रूरत के हिसाब से गिरने दिया गया; rupee को चालू खाते (*current account*) पर पूरी तरह और पूँजी खाते (*capital account*) पर आंशिक रूप से convertible बनाया गया।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Disinvestment"
+        },
+        {
+          "t": "FDI और FPI"
+        },
+        {
+          "t": "Balance of Payments"
+        },
+        {
+          "t": "Economic Survey"
+        }
+      ],
+      "sources": [
+        {
+          "label": "DPIIT — Statement on Industrial Policy, July 24, 1991 (Industrial Policy Highlights, Chapter I, Exhibit No.5; source: Department of Industrial Development, Ministry of Industry; प्रकाशन पर तारीख़ नहीं) (20 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.dpiit.gov.in/static/uploads/2025/07/51cb252d5e39c9c2afd70515623b8ebb.pdf",
+          "issued": "1991-07-24",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 19",
+              "c": "पाँच क्षेत्र: Industrial Licensing, Foreign Investment, Foreign Technology Agreements, Public Sector Policy, MRTP Act; small और tiny sector का package अलग"
+            },
+            {
+              "ref": "पैरा 23, 25",
+              "c": "Annex II छोड़कर industrial licensing ख़त्म; high priority industries में 51% तक foreign equity वाले direct foreign investment को मंज़ूरी"
+            },
+            {
+              "ref": "पैरा 34, 37",
+              "c": "चुनी हुई public enterprises में सरकारी equity का हिस्सा disinvest; MRTP companies के investment फ़ैसलों की pre-entry scrutiny ख़त्म"
+            },
+            {
+              "ref": "पैरा 39 (A, B, D, E)",
+              "c": "small scale reserved industries reserved रहीं; security/strategic क्षेत्र public sector के लिए reserved (Annex I); 51% foreign equity (Annex III); सरकारी हिस्सेदारी mutual funds, FIs, जनता, कामगारों को; MRTP में prior approval की ज़रूरत हटनी थी"
+            }
+          ]
+        },
+        {
+          "label": "Ministry of Finance — Economic Survey 2022-23, Chapter 2: India's Medium-Term Growth Outlook: With Optimism and Hope (दस्तावेज़ पर तारीख़ नहीं) (20 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/budget2023-24/economicsurvey/doc/eschapter/echap02.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2.3",
+              "c": "BoP संकट (ऊँचा घाटा, महँगाई, बड़ा CAD); 1991 में trade और investment liberalise; exchange rate flexible, rupee current account पर पूरी तरह, capital account पर आंशिक convertible; growth 5.5% से 6.3%; trade/GDP 17.2% से 30.6%"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nEconomic Survey 2022-23 के मुताबिक 1980s के आख़िर और 1990s की शुरुआत में केंद्र और राज्यों का ऊँचा घाटा, बढ़ती महँगाई और बड़ा current account deficit balance of payments संकट बन गए; इसके जवाब में 1991 में trade और investment को liberalise (उदार) किया गया।[^2] Industry के लिए 24 जुलाई 1991 की Statement on Industrial Policy आई। इसके पैरा 23 के मुताबिक industrial licensing तय सूची (Annex II) को छोड़कर सभी industries के लिए ख़त्म की गई, और पैरा 25 के मुताबिक high priority industries में 51% तक foreign equity वाले direct foreign investment को मंज़ूरी देने का फ़ैसला हुआ।[^1]\n\n## 1991 में क्या हुआ | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए आपके कस्बे में नई दुकान खोलने से पहले हर बार सरकारी दफ़्तर से अलग इजाज़त लेनी पड़ती हो और यह भी तय हो कि आप कितना माल बेच सकते हैं। फिर नियम बदलता है: कुछ ख़ास चीज़ों (जैसे ख़तरनाक रसायन) को छोड़कर अब इजाज़त की ज़रूरत नहीं। अब ज़्यादा लोग दुकानें खोलेंगे और मुक़ाबला बढ़ेगा। 1991 में industry के लिए licensing ख़त्म करके कुछ ऐसा ही बदलाव किया गया था।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Statement on Industrial Policy: 24 जुलाई 1991; Annex II छोड़कर industrial licensing ख़त्म (पैरा 23); high priority industries में 51% तक foreign equity (पैरा 25); पाँच क्षेत्र: licensing, foreign investment, foreign technology, public sector, MRTP (पैरा 19); पृष्ठभूमि: balance of payments संकट (Economic Survey 2022-23)। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
