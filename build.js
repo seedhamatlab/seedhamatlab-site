@@ -1323,9 +1323,11 @@ function renderTerm(t, posts) {
   <div class="one"><span class="l"><img src="/sm-mascot.webp" width="240" height="257" alt="">एक लाइन में</span><p>${esc(t.one)}</p></div>
 </header>`;
 
+  const base = String(t.term).replace(/\s*\([^()]*\)\s*$/, "").trim() || t.term;
+
   return head({
-    title: `${t.term} का मतलब क्या है? ${t.fullEn ? t.fullEn + " — " : ""}${SITE.name}`,
-    desc: t.one,
+    title: `${base} meaning in Hindi — ${t.term} का मतलब क्या है? | ${SITE.name}`,
+    desc: `${base} meaning in Hindi: ${t.one}`,
     canonical: url,
     type: "article",
     published: t.created,
