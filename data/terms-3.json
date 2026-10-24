@@ -32270,6 +32270,898 @@
         }
       ],
       "body": "## मतलब\n\n**आसान शब्दों में:** credit risk यानी ऋण जोखिम वह ख़तरा है कि जिसे उधार दिया गया, वह पैसा वापस न लौटाए। (यह समझाने के लिए आसान बात है, RBI की परिभाषा नहीं।)\n\nRBI के Credit Risk Management Directions, 2025 के मुताबिक commercial banks पैसे के लेन-देन में बीच की कड़ी (financial intermediation) बनते हुए कई तरह के वित्तीय और ग़ैर-वित्तीय जोखिम उठाते हैं, और इनमें credit risk सबसे अहम जोखिमों में से एक है। इसे ठीक से न संभाला जाए, तो इसका असर दूसरे जोखिमों पर भी पड़ सकता है।[^1]\n\n## Bank credit risk कैसे संभालते हैं | कैसे\n\n::flow\n\n- **Board की policy:** हर bank को credit risk management की Board से मंज़ूर एक व्यापक policy रखनी है। इसमें related parties को lending, country risk, *unhedged foreign currency exposures*, property valuation (valuers का empanelment समेत) और current व CC/OD accounts खोलने जैसे विषय शामिल हों। यह पैरा 1 अप्रैल 2026 से नए रूप में लागू है।[^1][^4]\n- **Guidance Note:** bank को RBI के 'Guidance Note on Credit Risk Management' का सख़्ती से पालन करना है।[^1]\n- **अपना appraisal:** हर मामले में bank अपना स्वतंत्र और निष्पक्ष credit appraisal करे, बाहरी consultants की reports पर निर्भर न रहे।[^1]\n- **Unsecured consumer credit पर limits:** सभी unsecured consumer credit exposures के लिए limits तय होनी हैं। इनका सख़्ती से पालन हो और Risk Management Committee लगातार इन पर नज़र रखे।[^1]\n- **पूँजी:** credit risk का capital charge standardised approach से गिना जाता है। Central Government पर fund-based और non-fund-based, दोनों तरह के claims का risk weight शून्य है।[^2]\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मोहल्ले की किराने की दुकान कई परिवारों को महीने भर उधार पर सामान देती है। महीने के आख़िर में हर परिवार पैसे लौटा ही देगा, यह पक्का नहीं है। यही credit risk है। समझदार दुकानदार हर ग्राहक की उधारी की एक हद तय करता है, किसी और के कहने पर नहीं बल्कि ख़ुद देखकर तय करता है कि किसे कितना उधार देना है, और कुछ पैसे अलग रखता है ताकि कोई पैसा न लौटाए तो दुकान न डूबे। Bank भी बड़े पैमाने पर यही करता है: limits, अपना credit appraisal और पूँजी।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Credit Risk Management Directions, 2025 (28.11.2025; BR Act की धारा 20, 21, 35A); Board-approved policy (पैरा 5); अपना credit appraisal (पैरा 7); unsecured consumer credit पर limits (पैरा 10); न्यूनतम Pillar 1 CRAR 9% (पैरा 9); capital charge: standardised approach (पैरा 30); Central Government claims पर शून्य risk weight (पैरा 31); नए Standardised Approach Directions, 2026: 1 अप्रैल 2027 से। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-24",
+      "verified": "2026-10-24",
+      "id": "national-income",
+      "term": "National Income (राष्ट्रीय आय)",
+      "aliases": [
+        "Per Capita Income",
+        "प्रति व्यक्ति आय",
+        "Per Capita Net National Income",
+        "GNI"
+      ],
+      "full": "राष्ट्रीय आय · GNI, NNI और प्रति व्यक्ति आय",
+      "fullEn": "National Income (Gross National Income, Net National Income)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-24",
+          "t": "पन्ना बना। MoSPI की नई series (base year 2022-23) की 27.02.2026 की press note के formulae, और 31.08.2026 को जारी National Accounts Statistics 2026 (Statement 8.17.1) के updated Provisional Estimates 2025-26 से जाँचा।"
+        }
+      ],
+      "one": "आसान शब्दों में, National Income (राष्ट्रीय आय) बताती है कि एक साल में देश के निवासियों ने कुल मिलाकर कितनी आय कमाई। MoSPI के formula में GNI = GDP + बाक़ी दुनिया से मिली net primary income, और NNI = GNI − CFC। MoSPI 'Per Capita Income' को Per Capita NNI कहता है: 31 अगस्त 2026 के updated अनुमान के मुताबिक 2025-26 में यह मौजूदा दामों पर ₹2,08,501 रही।",
+      "facts": [
+        {
+          "k": "Per Capita NNI 2025-26",
+          "v": "₹2,08,501",
+          "s": "मौजूदा दाम; वृद्धि 7.7% (PE)"
+        },
+        {
+          "k": "स्थिर दाम (2022-23) पर",
+          "v": "₹1,95,524",
+          "s": "Per Capita NNI; वृद्धि 7.0%"
+        },
+        {
+          "k": "GNI 2025-26",
+          "v": "₹341.06 लाख करोड़",
+          "s": "मौजूदा दाम (PE)"
+        },
+        {
+          "k": "NNI 2025-26",
+          "v": "₹296.20 लाख करोड़",
+          "s": "मौजूदा दाम (PE)"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "GDP",
+            "s": "देश के अंदर का उत्पादन"
+          },
+          {
+            "t": "GNI",
+            "s": "Gross National Income"
+          },
+          {
+            "t": "NNI",
+            "s": "Net National Income"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "+ net primary income",
+            "s": "बाक़ी दुनिया (ROW) से"
+          },
+          {
+            "b": "− CFC",
+            "s": "स्थिर पूँजी की खपत"
+          }
+        ],
+        "note": "Statement 8.17.1 में 2025-26 की NNI और आबादी (1,420.6 million) दोनों दी गई हैं; मौजूदा दामों की NNI को इस आबादी से भाग देने पर Per Capita NNI ₹2,08,501 ही आती है।"
+      },
+      "myths": [
+        {
+          "m": "\"GNI और GDP एक ही हैं।\"",
+          "f": "नहीं। MoSPI के formula में GNI = GDP + बाक़ी दुनिया (ROW) से net primary income (receipts में से payments घटाकर)।[^1] 2025-26 में मौजूदा दामों पर GDP ₹345.37 लाख करोड़ और GNI ₹341.06 लाख करोड़ आँकी गई, यानी इस साल GNI, GDP से कम रही।[^3]"
+        },
+        {
+          "m": "\"5 जून 2026 को आए 2025-26 के आँकड़े ही आख़िरी हैं।\"",
+          "f": "नहीं। 31 अगस्त 2026 को National Accounts Statistics 2026 में 2025-26 के Provisional Estimates updated किए गए; जैसे स्थिर दामों पर GDP की वृद्धि 7.7% से 7.8% हुई।[^2] मौजूदा दामों पर Per Capita NNI 5 जून की press note में ₹2,08,090 थी[^5], जो updated अनुमान में ₹2,08,501 है।[^3] MoSPI के मुताबिक आगे भी revision हो सकते हैं।[^4]"
+        },
+        {
+          "m": "\"Per Capita Income किसी एक व्यक्ति की असली कमाई बताती है।\"",
+          "f": "नहीं। यह पूरे देश की NNI को आबादी से भाग देकर निकला आँकड़ा है (ऊपर का हिसाब देखिए), इसलिए यह किसी एक व्यक्ति या परिवार की कमाई नहीं बताता।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "GDP और GNI में क्या फ़र्क़ है?",
+          "a": "MoSPI के formula के मुताबिक GNI = GDP + बाक़ी दुनिया (Rest of the World, ROW) से net primary income। Primary income में कर्मचारियों का मेहनताना (CE) और property व entrepreneurial income आती है।[^1]"
+        },
+        {
+          "q": "NNI क्या है?",
+          "a": "MoSPI के formula में NDP/NNI = GDP/GNI − CFC, यानी GNI में से Consumption of Fixed Capital (CFC) घटाने पर NNI आती है।[^1][^2]"
+        },
+        {
+          "q": "Per Capita Income किसे कहते हैं?",
+          "a": "MoSPI की 27 फ़रवरी 2026 की press note में लिखा है: \"Per Capita Income i.e. Per Capita Net National Income\" — यानी Per Capita Income का मतलब Per Capita NNI है।[^1]"
+        },
+        {
+          "q": "मौजूदा दाम और स्थिर दाम का क्या मतलब है?",
+          "a": "Statement 8.17.1 में आँकड़े दो तरह से दिए हैं: मौजूदा (current) दामों पर और स्थिर (constant, 2022-23) दामों पर। 2025-26 में Per Capita NNI मौजूदा दामों पर ₹2,08,501 (वृद्धि 7.7%) और स्थिर दामों पर ₹1,95,524 (वृद्धि 7.0%) है।[^3]"
+        },
+        {
+          "q": "Base year क्या है?",
+          "a": "27 फ़रवरी 2026 से MoSPI की नई series का base year 2022-23 है; इसने 2011-12 वाली series की जगह ली।[^1]"
+        },
+        {
+          "q": "अगला update कब आएगा?",
+          "a": "MoSPI के मुताबिक अनुमान आगे revise हो सकते हैं; अगली तिमाही (Q2, 2026-27) की GDP release 30 नवंबर 2026 को तय है।[^4]"
+        }
+      ],
+      "related": [
+        {
+          "t": "GDP"
+        },
+        {
+          "t": "GVA"
+        },
+        {
+          "t": "MoSPI"
+        },
+        {
+          "t": "Poverty Line (ग़रीबी रेखा)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "MoSPI (PIB के ज़रिए) — New Series of Gross Domestic Product (GDP) Estimates with Base Year 2022-23, Release ID 2233518, 27 फ़रवरी 2026 (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2233518&reg=3&lang=1",
+          "issued": "2026-02-27",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "नई series base year 2022-23, जो 2011-12 वाली series की जगह लेती है"
+            },
+            {
+              "ref": "Part B, Per Capita Estimates",
+              "c": "\"Per Capita Income i.e. Per Capita Net National Income\""
+            },
+            {
+              "ref": "FORMULAE 4, 5, 6",
+              "c": "NDP/NNI = GDP/GNI − CFC; GNI = GDP + Net primary income from ROW; Primary Incomes = CE + Property and Entrepreneurial Income"
+            }
+          ]
+        },
+        {
+          "label": "MoSPI — Press Release: National Accounts Statistics - 2026 Publication, 31 August 2026 (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://mospi.gov.in/uploads/latestReleases/latest_release_1788171660220_f2a7f5ed-3ce3-45cc-a5b2-eebc84623a01_Final_Press_Release_on_NAS_2026.pdf",
+          "issued": "2026-08-31",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3",
+              "c": "publication में 2025-26 के updated Provisional Estimates"
+            },
+            {
+              "ref": "पैरा 6",
+              "c": "Consumption of Fixed Capital (CFC) का ज़िक्र"
+            },
+            {
+              "ref": "पैरा 10 (table)",
+              "c": "2025-26 (PE): GDP मौजूदा दाम ₹3,46,35,638 → ₹3,45,36,796 करोड़; स्थिर दाम वृद्धि 7.7% → 7.8%"
+            }
+          ]
+        },
+        {
+          "label": "MoSPI — National Accounts Statistics 2026, Statement 8.17.1: Provisional Estimates of National Income and Other Macro Economic Aggregates, 2025-26 (xlsx; फ़ाइल पर तारीख़ नहीं, publication 31.08.2026 को जारी) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.mospi.gov.in/uploads/publications_reports/NAS-2026-Statements/8.17.1.xlsx",
+          "issued": "2026-08-31",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Sl. No. 3, 23, 24 (मौजूदा दाम)",
+              "c": "2025-26: GDP 3,45,36,796; GNI 3,41,06,077; NNI 2,96,20,398 करोड़ (दशमलव हटाकर)"
+            },
+            {
+              "ref": "Sl. No. 25 (स्थिर दाम वाला भाग)",
+              "c": "आबादी 1,420.639 million"
+            },
+            {
+              "ref": "Sl. No. 29 (मौजूदा) / 28 (स्थिर)",
+              "c": "Per Capita NNI ₹2,08,501 (7.66%) / ₹1,95,524 (6.99%)"
+            }
+          ]
+        },
+        {
+          "label": "MoSPI (PIB के ज़रिए) — Quarterly Estimates of GDP for the First Quarter (April-June) of 2026-27, Release ID 2304949, 31 अगस्त 2026 (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2304949&reg=3&lang=1",
+          "issued": "2026-08-31",
+          "effective": "",
+          "used": [
+            {
+              "ref": "KEY HIGHLIGHTS से पहले के पैरा",
+              "c": "2025-26 के Provisional Estimates NAS publication में updated"
+            },
+            {
+              "ref": "II का आख़िरी पैरा",
+              "c": "अनुमानों में आगे revision संभव; Q2 release 30 नवंबर 2026 को तय"
+            }
+          ]
+        },
+        {
+          "label": "MoSPI (PIB के ज़रिए) — Provisional Estimates of Annual GDP for 2025-26, Release ID 2269286, 5 जून 2026 (साथ लगी PDF press note) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269286&reg=3&lang=1",
+          "issued": "2026-06-05",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Statement 2, Sl. No. 29",
+              "c": "5 जून वाला अनुमान: Per Capita NNI (मौजूदा दाम) 2025-26 ₹2,08,090"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nआसान शब्दों में, National Income (राष्ट्रीय आय) बताती है कि एक साल में देश के निवासियों ने कुल मिलाकर कितनी आय कमाई। भारत में इसके अनुमान सांख्यिकी मंत्रालय (MoSPI) जारी करता है।[^1]\n\nMoSPI के formula के मुताबिक **GNI (Gross National Income) = GDP + बाक़ी दुनिया (ROW) से net primary income** (receipts में से payments घटाकर); primary income में कर्मचारियों का मेहनताना (CE) और property व entrepreneurial income आती है। फिर **NNI (Net National Income) = GNI − CFC** (Consumption of Fixed Capital)। MoSPI 'Per Capita Income' का मतलब Per Capita NNI बताता है।[^1]\n\n31 अगस्त 2026 के updated Provisional Estimates के मुताबिक 2025-26 में मौजूदा दामों पर GNI ₹3,41,06,077 करोड़, NNI ₹2,96,20,398 करोड़ और Per Capita NNI ₹2,08,501 रही; स्थिर (2022-23) दामों पर Per Capita NNI ₹1,95,524 रही।[^2][^3]\n\n## GDP से NNI तक | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए एक परिवार की दुकान से साल भर में ₹5,00,000 की कमाई होती है (यह परिवार का 'घरेलू उत्पादन' है)। परिवार को विदेश की एक company में जमा पैसे पर ₹50,000 ब्याज मिलता है, और विदेश से लिए एक क़र्ज़ पर वह ₹20,000 ब्याज चुकाता है। तो परिवार की आय कुल मिलाकर ₹5,30,000 हुई — यह GNI जैसा है। दुकान के fridge और मशीनों की साल भर की घिसाई ₹30,000 घटाइए, तो बचे ₹5,00,000 — यह NNI जैसा है। परिवार में 5 लोग हैं, तो प्रति व्यक्ति आय ₹1,00,000। (सारे आँकड़े सिर्फ़ समझाने के लिए हैं।)\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: GNI = GDP + net primary income from ROW; NNI = GNI − CFC; Per Capita Income = Per Capita NNI; base year 2022-23; 2025-26 (updated PE, 31.08.2026): Per Capita NNI ₹2,08,501 (मौजूदा दाम), ₹1,95,524 (स्थिर दाम)। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-24",
+      "verified": "2026-10-24",
+      "id": "poverty-line",
+      "term": "Poverty Line (ग़रीबी रेखा)",
+      "aliases": [
+        "गरीबी रेखा",
+        "ग़रीबी रेखा",
+        "BPL"
+      ],
+      "full": "ग़रीबी रेखा · प्रति व्यक्ति प्रति महीने उपभोग ख़र्च (MPCE) की सीमा",
+      "fullEn": "Poverty Line",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-24",
+          "t": "पन्ना बना। Planning Commission की Press Note on Poverty Estimates, 2011-12 (22 जुलाई 2013, NITI Aayog की site पर) और Rangarajan Report पर PIB की 7 अगस्त 2014 की release से जाँचा।"
+        }
+      ],
+      "one": "Poverty Line (ग़रीबी रेखा) प्रति व्यक्ति हर महीने के उपभोग ख़र्च की वह सीमा है, जिससे कम ख़र्च वाले लोग ग़रीबी रेखा से नीचे गिने जाते हैं। Planning Commission की 22 जुलाई 2013 की press note के मुताबिक 2011-12 में Tendulkar तरीक़े से यह गाँवों में ₹816 और शहरों में ₹1,000 प्रति व्यक्ति प्रति महीना थी, और देश की 21.9% आबादी इससे नीचे थी।",
+      "facts": [
+        {
+          "k": "गाँव, 2011-12",
+          "v": "₹816",
+          "s": "प्रति व्यक्ति प्रति महीना"
+        },
+        {
+          "k": "शहर, 2011-12",
+          "v": "₹1,000",
+          "s": "प्रति व्यक्ति प्रति महीना"
+        },
+        {
+          "k": "Poverty ratio, 2011-12",
+          "v": "21.9%",
+          "s": "गाँव 25.7%, शहर 13.7%"
+        },
+        {
+          "k": "रेखा से नीचे",
+          "v": "लगभग 27 करोड़ लोग",
+          "s": "2004-05 में लगभग 40.7 करोड़"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "NSSO सर्वे",
+            "s": "घरों का उपभोग ख़र्च (2011-12)"
+          },
+          {
+            "t": "MPCE",
+            "s": "घर का ख़र्च ÷ सदस्य"
+          },
+          {
+            "t": "Poverty line से तुलना",
+            "s": "कम = रेखा से नीचे"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "लगभग 1.20 लाख घर",
+            "s": "NSS 68th round"
+          },
+          {
+            "b": "Tendulkar तरीक़ा",
+            "s": "Mixed Reference Period"
+          }
+        ],
+        "note": "Press note के मुताबिक poverty line राज्य-दर-राज्य अलग होती है, क्योंकि राज्यों में दाम अलग हैं (पैरा 7); हर राज्य की लाइन press note की Table 1 में है।"
+      },
+      "myths": [
+        {
+          "m": "\"₹816 पूरे परिवार की महीने की सीमा है।\"",
+          "f": "नहीं। ₹816 (गाँव) और ₹1,000 (शहर) प्रति व्यक्ति प्रति महीना है। Press note के मुताबिक पाँच लोगों के परिवार के लिए यह लगभग ₹4,080 (गाँव) और ₹5,000 (शहर) प्रति महीना बनती है।[^1]"
+        },
+        {
+          "m": "\"पूरे देश में एक ही poverty line है।\"",
+          "f": "नहीं। ₹816 / ₹1,000 all India लाइन है; राज्यों की लाइनें अलग हैं। जैसे Table 1 में 2011-12 की ग्रामीण लाइन Odisha में ₹695 और Nagaland में ₹1,270 है।[^1]"
+        },
+        {
+          "m": "\"Poverty line और Multidimensional Poverty Index एक ही चीज़ हैं।\"",
+          "f": "नहीं। यह poverty line उपभोग ख़र्च (MPCE) पर बनी है।[^1] NITI Aayog का Multidimensional Poverty Index ग़रीबी को पोषण, पढ़ाई, बिजली, पक्का घर जैसी कई कमियों से नापता है; उसकी बात उसके अपने पन्ने पर है।"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Poverty line कैसे तय हुई?",
+          "a": "Press note के मुताबिक NSSO लगभग 1.20 लाख घरों का उपभोग ख़र्च दर्ज करता है; घर के ख़र्च को सदस्यों से भाग देकर Monthly Per Capita Consumption Expenditure (MPCE) निकलता है। Tendulkar तरीक़े में poverty line Mixed Reference Period (MRP) वाले MPCE में बताई जाती है (पैरा 6)।[^1]"
+        },
+        {
+          "q": "Tendulkar Committee कब बनी?",
+          "a": "Planning Commission ने दिसंबर 2005 में Prof. Suresh D. Tendulkar की अध्यक्षता में Expert Group बनाया; उसने दिसंबर 2009 में report दी (पैरा 2)।[^1]"
+        },
+        {
+          "q": "2004-05 से 2011-12 तक ग़रीबी कितनी घटी?",
+          "a": "Press note के मुताबिक poverty ratio 2004-05 के 37.2% से घटकर 2011-12 में 21.9% रहा; रेखा से नीचे के लोग 407 million से घटकर 270 million रहे (पैरा 9)। सालाना औसत गिरावट 1993-94 से 2004-05 में 0.74 और 2004-05 से 2011-12 में 2.18 percentage points रही (पैरा 10)।[^1]"
+        },
+        {
+          "q": "Rangarajan Committee क्या है?",
+          "a": "Press note के मुताबिक Tendulkar line को बहुत कम बताने वाले कई representations आने पर Planning Commission ने जून 2012 में Dr. C. Rangarajan की अध्यक्षता में Expert Group बनाया (पैरा 3)।[^1] PIB की 7 अगस्त 2014 की release के मुताबिक इस Group ने 30 जून 2014 को report दी, जिसमें 2011-12 की poverty line गाँवों में ₹972 और शहरों में ₹1,407 प्रति व्यक्ति प्रति महीना आँकी गई।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Multidimensional Poverty Index"
+        },
+        {
+          "t": "National Income (राष्ट्रीय आय)"
+        },
+        {
+          "t": "Inclusive Growth"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Planning Commission — Press Note on Poverty Estimates, 2011-12 (PIB, New Delhi: 22 July, 2013; NITI Aayog की site पर) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.niti.gov.in/sites/default/files/2020-05/press-note-poverty-2011-12-23-08-16.pdf",
+          "issued": "2013-07-22",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2, 3",
+              "c": "Tendulkar Expert Group: दिसंबर 2005 में बना, दिसंबर 2009 में report; Rangarajan Group जून 2012 में"
+            },
+            {
+              "ref": "पैरा 5, 6",
+              "c": "all India line, poverty ratio से; NSSO के लगभग 1.20 लाख घर; MPCE, MRP"
+            },
+            {
+              "ref": "पैरा 7",
+              "c": "\"Rs. 816 per capita per month\" गाँव, Rs. 1,000 शहर; पाँच के परिवार ~Rs. 4,080 / 5,000; राज्यवार अलग"
+            },
+            {
+              "ref": "पैरा 9, 10",
+              "c": "2011-12: 25.7% / 13.7% / 21.9%; 270 million (2004-05: 407 million); गिरावट 0.74 और 2.18 points/साल"
+            },
+            {
+              "ref": "Table 1",
+              "c": "राज्यवार लाइनें: Odisha ग्रामीण ₹695, Nagaland ग्रामीण ₹1,270"
+            }
+          ]
+        },
+        {
+          "label": "PIB (Planning Commission) — Rangarajan Report on Poverty, 07 अगस्त 2014 (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=108291",
+          "issued": "2014-08-07",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "Expert Group (Rangarajan) ने 30 जून 2014 को report दी; Rajya Sabha में लिखित जवाब"
+            },
+            {
+              "ref": "पैरा 2 (vi)",
+              "c": "2011-12 की नई line: ग्रामीण Rs.972, शहरी Rs.1,407 प्रति व्यक्ति प्रति महीना"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nPlanning Commission की 22 जुलाई 2013 की press note के मुताबिक all India poverty line प्रति व्यक्ति प्रति महीने का वह ख़र्च है, जो all India poverty ratio से मेल खाता है; यह Monthly Per Capita Consumption Expenditure (MPCE) में बताई जाती है।[^1]\n\n2011-12 के लिए Tendulkar तरीक़े से national poverty line गाँवों में **₹816** और शहरों में **₹1,000 प्रति व्यक्ति प्रति महीना** आँकी गई। इसके मुताबिक 2011-12 में गाँवों की 25.7%, शहरों की 13.7% और पूरे देश की 21.9% आबादी ग़रीबी रेखा से नीचे थी (पैरा 7, 9)।[^1]\n\n## Poverty line कैसे लगती है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए गाँव के एक घर में 5 लोग हैं और पूरे घर का महीने का ख़र्च (खाना, कपड़ा, किराया, आना-जाना आदि) ₹3,500 है। तो प्रति व्यक्ति ख़र्च हुआ ₹3,500 ÷ 5 = ₹700। 2011-12 की ग्रामीण all India लाइन ₹816 थी, इसलिए इस हिसाब से यह घर ग़रीबी रेखा से नीचे गिना जाता। (आँकड़े सिर्फ़ समझाने के लिए हैं; असल में हर राज्य की अपनी लाइन है।)\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 2011-12 (Tendulkar, MRP): गाँव ₹816, शहर ₹1,000 प्रति व्यक्ति प्रति महीना; poverty ratio 25.7% / 13.7% / 21.9%; Press Note 22.07.2013 (Planning Commission); Rangarajan report (30.06.2014): ₹972 / ₹1,407। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-24",
+      "verified": "2026-10-24",
+      "id": "globalisation",
+      "term": "Globalisation (वैश्वीकरण)",
+      "aliases": [
+        "Globalization",
+        "वैश्वीकरण"
+      ],
+      "full": "वैश्वीकरण · व्यापार, निवेश और पूँजी के ज़रिए देशों की अर्थव्यवस्थाओं का आपस में जुड़ना",
+      "fullEn": "Globalisation (Globalization)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-24",
+          "t": "पन्ना बना। Economic Survey 2025-26 (Chapter 3 और 4), Economic Survey 2022-23 (Chapter 2) और WTO के India पन्ने से जाँचा।"
+        }
+      ],
+      "one": "आसान शब्दों में, Globalisation (वैश्वीकरण) यानी व्यापार, निवेश और पूँजी के लेन-देन से देशों की अर्थव्यवस्थाओं का आपस में जुड़ना। भारत में 1991 में trade और investment को उदार बनाया गया, और भारत 1 जनवरी 1995 से WTO का सदस्य है। Economic Survey 2025-26 के मुताबिक दुनिया अब बेरोक-टोक जुड़ाव से 'geostrategic globalisation' की ओर जा रही है।",
+      "facts": [
+        {
+          "k": "1991",
+          "v": "trade और investment उदार",
+          "s": "Economic Survey 2022-23"
+        },
+        {
+          "k": "WTO सदस्य",
+          "v": "1 जनवरी 1995 से",
+          "s": "GATT में 8 जुलाई 1948 से"
+        },
+        {
+          "k": "Trade / GDP",
+          "v": "17.2% → 30.6%",
+          "s": "1990 से 2000"
+        },
+        {
+          "k": "कुल export, FY25",
+          "v": "USD 825.3 billion",
+          "s": "माल + सेवाएँ"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "1991 के सुधार",
+            "s": "trade और investment उदार"
+          },
+          {
+            "t": "दुनिया से जुड़ाव",
+            "s": "व्यापार, निवेश, पूँजी"
+          },
+          {
+            "t": "आज",
+            "s": "'geostrategic globalisation'"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "1995",
+            "s": "WTO सदस्य"
+          },
+          {
+            "b": "2025-26",
+            "s": "सुरक्षा और भरोसे की चिंता"
+          }
+        ],
+        "note": "Economic Survey 2025-26 के मुताबिक भारत के external sector में अंतरराष्ट्रीय व्यापार, निवेश, capital flows और external debt आते हैं, और यह global economy से भारत के जुड़ाव को आकार देता है (पैरा 4.4)।"
+      },
+      "myths": [
+        {
+          "m": "\"Globalisation का मतलब सिर्फ़ विदेश से सामान ख़रीदना-बेचना है।\"",
+          "f": "नहीं। Economic Survey 2025-26 (पैरा 4.4) में global economy से जुड़ाव के हिस्से के तौर पर व्यापार के साथ निवेश, capital flows और external debt भी गिने गए हैं।[^1]"
+        },
+        {
+          "m": "\"Globalisation में सिर्फ़ फ़ायदा है।\"",
+          "f": "Economic Survey 2025-26 (पैरा 3.2) के मुताबिक globalised finance से उधार की लागत घटी और पूँजी तक पहुँच बेहतर हुई; पर तेज़ geopolitical बिखराव में financial sector दुनिया के झटकों को देश तक पहुँचाने का रास्ता भी बन गया है।[^2]"
+        },
+        {
+          "m": "\"Globalisation हमेशा एक जैसा रहता है।\"",
+          "f": "नहीं। Economic Survey 2025-26 (पैरा 4.1) के मुताबिक बेरोक-टोक globalisation और trade liberalisation वाले दौर का उतार दिख रहा है; पैरा 4.7 में इसे 'geostrategic globalisation' कहा गया है, जहाँ देश जुड़े रहते हैं पर सोच-समझकर तय करते हैं कि किससे व्यापार करें और किस पर निर्भर रहें।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "भारत में 1991 में क्या बदला?",
+          "a": "Economic Survey 2022-23 (पैरा 2.3) के मुताबिक balance of payments संकट के जवाब में 1991 में trade और investment उदार किए गए: लगभग सभी intermediate inputs और capital goods पर import licensing हटाई गई, 51% तक FDI की automatic approval शुरू हुई, और rupee चालू खाते (balance of payments वाले) पर पूरी तरह convertible बना।[^3]"
+        },
+        {
+          "q": "क्या भारत का व्यापार बढ़ा?",
+          "a": "Economic Survey 2022-23 (पैरा 2.3) के मुताबिक माल और सेवाओं का कुल व्यापार 1990 में GDP का 17.2% था, जो 2000 में 30.6% हो गया।[^3] Economic Survey 2025-26 (पैरा 4.20) के मुताबिक FY25 में भारत का कुल export (माल + सेवाएँ) USD 825.3 billion रहा।[^1]"
+        },
+        {
+          "q": "'Geostrategic globalisation' क्या है?",
+          "a": "Economic Survey 2025-26 (पैरा 4.7) के मुताबिक यह ऐसी दुनिया है, जहाँ देश आपस में जुड़े रहते हैं, पर यह सोचकर चलते हैं कि किससे व्यापार करें, सामान कहाँ से लें और किन साझेदारों पर निर्भर रहें।[^1]"
+        },
+        {
+          "q": "WTO से भारत का क्या रिश्ता है?",
+          "a": "WTO के मुताबिक भारत 1 जनवरी 1995 से WTO का और 8 जुलाई 1948 से GATT का सदस्य है।[^4]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Liberalisation (1991 के आर्थिक सुधार)"
+        },
+        {
+          "t": "Disinvestment"
+        },
+        {
+          "t": "WTO"
+        },
+        {
+          "t": "FDI और FPI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ministry of Finance — Economic Survey 2025-26, Chapter 4: External Sector: Playing the Long Game (Survey की प्रस्तावना पर 'January, 2026'; अध्याय पर तारीख़ नहीं) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/echap04.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 4.1",
+              "c": "\"the ebb of an era marked by seamless globalisation\""
+            },
+            {
+              "ref": "पैरा 4.4",
+              "c": "external sector: trade, investment, capital flows, external debt; global economy से जुड़ाव"
+            },
+            {
+              "ref": "पैरा 4.7",
+              "c": "unfettered integration से 'geostrategic globalisation' की ओर"
+            },
+            {
+              "ref": "पैरा 4.20",
+              "c": "FY25 में कुल export USD 825.3 billion"
+            }
+          ]
+        },
+        {
+          "label": "Ministry of Finance — Economic Survey 2025-26, Chapter 3: Monetary Management and Financial Intermediation (अध्याय पर तारीख़ नहीं) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/echap03.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 3.2",
+              "c": "globalised finance: कम उधार लागत, पूँजी तक पहुँच; पर global झटकों का रास्ता भी"
+            }
+          ]
+        },
+        {
+          "label": "Ministry of Finance — Economic Survey 2022-23, Chapter 2: India's Medium-Term Growth Outlook: With Optimism and Hope (दस्तावेज़ पर तारीख़ नहीं) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/budget2023-24/economicsurvey/doc/eschapter/echap02.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 2.3",
+              "c": "1991 में trade और investment liberalise; import licensing हटी; 51% तक FDI automatic; trade/GDP 17.2% (1990) से 30.6% (2000)"
+            }
+          ]
+        },
+        {
+          "label": "WTO — India - Member information (पन्ने पर तारीख़ नहीं) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.wto.org/english/thewto_e/countries_e/india_e.htm",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला पैरा",
+              "c": "\"India has been a WTO member since 1 January 1995\"; GATT में 8 जुलाई 1948 से"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nआसान शब्दों में, Globalisation (वैश्वीकरण) यानी व्यापार, निवेश और पूँजी के लेन-देन से देशों की अर्थव्यवस्थाओं का आपस में जुड़ना। Economic Survey 2025-26 के मुताबिक भारत के external sector में अंतरराष्ट्रीय व्यापार, निवेश, capital flows और external debt आते हैं, और यही global economy से भारत के जुड़ाव को आकार देता है (पैरा 4.4)।[^1]\n\nभारत में यह रास्ता 1991 के सुधारों से खुला: Economic Survey 2022-23 के मुताबिक balance of payments संकट के जवाब में 1991 में trade और investment उदार किए गए (पैरा 2.3)।[^3] भारत 1 जनवरी 1995 से WTO का सदस्य है।[^4] अब Economic Survey 2025-26 के मुताबिक बेरोक-टोक globalisation का दौर ढल रहा है और दुनिया 'geostrategic globalisation' की ओर जा रही है (पैरा 4.1, 4.7)।[^1]\n\n## भारत का सफ़र | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए आपके कस्बे की एक दुकान पहले सिर्फ़ आस-पास के गाँवों से माल लेकर उन्हीं को बेचती थी। फिर रास्ते खुले: अब वह दूसरे देशों से भी सस्ता या बेहतर माल मँगा सकती है, बाहर के ग्राहकों को भी बेच सकती है, और बाहर से कोई उसकी दुकान में पैसा भी लगा सकता है। पर अब दूसरे देश में कोई गड़बड़ हो, तो उसका असर इस दुकान तक भी पहुँच सकता है। देशों का इसी तरह आपस में जुड़ना globalisation है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: 1991: trade और investment उदार (Economic Survey 2022-23, पैरा 2.3); trade/GDP 17.2% (1990) → 30.6% (2000); WTO सदस्य 1.1.1995 से; Economic Survey 2025-26: 'geostrategic globalisation' (पैरा 4.7)। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^3][^4]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-24",
+      "verified": "2026-10-24",
+      "id": "external-debt",
+      "term": "External Debt (विदेशी क़र्ज़)",
+      "aliases": [
+        "बाहरी ऋण",
+        "विदेशी कर्ज़",
+        "विदेशी क़र्ज़",
+        "India's External Debt"
+      ],
+      "full": "विदेशी क़र्ज़ · देश के निवासियों पर non-residents का बकाया क़र्ज़",
+      "fullEn": "External Debt",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-24",
+          "t": "पन्ना बना। RBI की 30.09.2026 की press release (India's External Debt as at the end of June 2026) और वित्त मंत्रालय (DEA) की India's External Debt: A Status Report 2025-26 से जाँचा।"
+        }
+      ],
+      "one": "External Debt (विदेशी क़र्ज़) देश के निवासियों (residents) की वह बकाया देनदारी है, जो उन्हें non-residents को चुकानी है और जिस पर आगे मूलधन और/या ब्याज चुकाना है। RBI के मुताबिक end-June 2026 में भारत का external debt US$ 778.2 billion था, जो GDP का 20.8% है।",
+      "facts": [
+        {
+          "k": "कुल, end-June 2026",
+          "v": "US$ 778.2 billion",
+          "s": "मार्च 2026 से US$ 15.4 billion ज़्यादा"
+        },
+        {
+          "k": "GDP से अनुपात",
+          "v": "20.8%",
+          "s": "मार्च 2026 में 20.9%"
+        },
+        {
+          "k": "Short-term (original maturity)",
+          "v": "19.7%",
+          "s": "long-term US$ 624.7 billion"
+        },
+        {
+          "k": "US dollar में",
+          "v": "54.8%",
+          "s": "Indian rupee में 29.8%"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "भारत के residents",
+            "s": "सरकार, बैंक, कंपनियाँ"
+          },
+          {
+            "t": "Non-residents से उधार",
+            "s": "loans, deposits, trade credit, bonds"
+          },
+          {
+            "t": "चुकाना",
+            "s": "मूलधन और ब्याज"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "क़र्ज़",
+            "s": "विदेश से"
+          },
+          {
+            "b": "debt service",
+            "s": "आगे की तारीख़ों पर"
+          }
+        ],
+        "note": "RBI के मुताबिक end-June 2026 में debt service (मूलधन की वापसी और ब्याज) current receipts का 5.6% था, जितना end-March 2026 में था।"
+      },
+      "myths": [
+        {
+          "m": "\"External debt सिर्फ़ सरकार का क़र्ज़ है।\"",
+          "f": "नहीं। RBI के मुताबिक end-June 2026 में सबसे बड़ा हिस्सा non-financial corporations का (36.1%) था; फिर deposit-taking corporations (central bank छोड़कर) 26.2%, general government 22.4% और other financial corporations 10.2%।[^1]"
+        },
+        {
+          "m": "\"सारा विदेशी क़र्ज़ dollar में है।\"",
+          "f": "नहीं। RBI के मुताबिक end-June 2026 में US dollar वाला क़र्ज़ 54.8% था; Indian rupee में 29.8%, Yen में 6.9%, SDR में 4.1% और Euro में 3.5%।[^1]"
+        },
+        {
+          "m": "\"Short-term debt 19.7% है, तो अगले एक साल में बस इतना ही चुकाना है।\"",
+          "f": "नहीं। 19.7% original maturity (एक साल तक) वाला हिस्सा है। RBI के मुताबिक residual maturity के हिसाब से — यानी long-term क़र्ज़ का अगले 12 महीनों में देय हिस्सा जोड़कर — short-term debt कुल external debt का 43.4% था।[^1]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "External debt की परिभाषा क्या है?",
+          "a": "DEA की Status Report (Annexure I) में IMF की 2003 की guide के हवाले से: residents की वे वास्तविक, मौजूदा (contingent नहीं) देनदारियाँ, जो उन्हें non-residents को चुकानी हैं और जिन पर आगे मूलधन और/या ब्याज चुकाना है। Gross external debt किसी एक तारीख़ पर नापा जाने वाला stock है।[^2]"
+        },
+        {
+          "q": "Long-term और short-term debt में क्या फ़र्क़ है?",
+          "a": "DEA की report के मुताबिक long-term debt की original maturity एक साल से ज़्यादा होती है; short-term debt वह है, जो माँगने पर चुकाना हो या जिसकी original maturity एक साल या उससे कम हो।[^2] RBI के मुताबिक end-June 2026 में long-term debt US$ 624.7 billion था।[^1]"
+        },
+        {
+          "q": "विदेशी क़र्ज़ किस रूप में है?",
+          "a": "RBI के मुताबिक end-June 2026 में loans 34.3%, currency और deposits 22.2%, trade credit और advances 19.1%, और debt securities 16.5% थे।[^1]"
+        },
+        {
+          "q": "Dollar के मज़बूत होने का असर?",
+          "a": "RBI के मुताबिक end-June 2026 की तिमाही में Yen और Euro जैसी मुद्राओं के मुक़ाबले US dollar मज़बूत होने से US$ 0.9 billion का valuation gain हुआ; इसे हटाएँ तो debt US$ 15.4 की जगह US$ 16.4 billion बढ़ता।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Balance of Payments"
+        },
+        {
+          "t": "Current Account Deficit"
+        },
+        {
+          "t": "Foreign Exchange Reserves"
+        },
+        {
+          "t": "Public Debt (सरकारी क़र्ज़)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Press Release: India's External Debt as at the end of June 2026, Press Release 2026-2027/1220, 30 सितंबर 2026; Highlights के बिंदुओं पर नंबर नहीं, ऊपर से गिने (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63700",
+          "issued": "2026-09-30",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Highlights, बिंदु 1-2",
+              "c": "US$ 778.2 billion (+15.4); GDP का 20.8% (मार्च 2026: 20.9%)"
+            },
+            {
+              "ref": "Highlights, बिंदु 3-6",
+              "c": "valuation gain 0.9; long-term 624.7; short-term 19.7%; residual 43.4%"
+            },
+            {
+              "ref": "Highlights, बिंदु 7",
+              "c": "USD 54.8%, INR 29.8%, Yen 6.9%, SDR 4.1%, Euro 3.5%"
+            },
+            {
+              "ref": "Highlights, बिंदु 9-11",
+              "c": "sector हिस्से 36.1/26.2/22.4/10.2%; loans 34.3%; debt service 5.6%"
+            }
+          ]
+        },
+        {
+          "label": "Ministry of Finance (DEA) — India's External Debt: A Status Report 2025-26 (दस्तावेज़ पर 'September 2026') (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://dea.gov.in/files/external_debt_documents/IED.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Annexure I, 1",
+              "c": "परिभाषा: non-residents की वास्तविक, मौजूदा देनदारियाँ (IMF guide, 2003); stock variable"
+            },
+            {
+              "ref": "Annexure I, 3",
+              "c": "long-term: original maturity एक साल से ज़्यादा; short-term: माँग पर या एक साल तक"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nDEA की Status Report के मुताबिक external debt residents की वे वास्तविक, मौजूदा (contingent नहीं) देनदारियाँ हैं, जो उन्हें non-residents को चुकानी हैं और जिन पर आगे किसी तारीख़ पर मूलधन और/या ब्याज चुकाना है।[^2]\n\nRBI की 30 सितंबर 2026 की press release के मुताबिक end-June 2026 में भारत का external debt **US$ 778.2 billion** था, जो end-March 2026 से US$ 15.4 billion ज़्यादा है; external debt और GDP का अनुपात 20.8% रहा।[^1]\n\n## क़र्ज़ कैसे बनता और चुकता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए आपके मोहल्ले की एक दुकान ने विदेश में रहने वाले एक रिश्तेदार से माल ख़रीदने के लिए उधार लिया, और एक दूसरी दुकान ने विदेश की company से माल लेकर पैसे तीन महीने बाद देने का वादा किया (trade credit)। मोहल्ले के बाहर वालों का जो कुल बकाया इन दुकानों पर है, वह मोहल्ले का 'विदेशी क़र्ज़' जैसा है। इसमें से जो अगले एक साल में चुकाना है, वह short-term हिस्सा है।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: End-June 2026 (RBI, 30.09.2026): US$ 778.2 billion; GDP का 20.8%; short-term (original) 19.7%, residual 43.4%; USD 54.8%, INR 29.8%; debt service 5.6% of current receipts। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-24",
+      "verified": "2026-10-24",
+      "id": "public-debt",
+      "term": "Public Debt (सरकारी क़र्ज़)",
+      "aliases": [
+        "Government Debt",
+        "सरकारी कर्ज़",
+        "लोक ऋण"
+      ],
+      "full": "सरकारी क़र्ज़ · केंद्र सरकार का अंदरूनी (internal) और विदेशी (external) क़र्ज़",
+      "fullEn": "Public Debt (Central Government)",
+      "group": "पैसे की बुनियाद",
+      "history": [
+        {
+          "d": "2026-10-24",
+          "t": "पन्ना बना। वित्त मंत्रालय (DEA) की Public Debt Management Quarterly Report, April-June 2026, और Union Budget 2026-27 के FRBM Statements व Budget Speech से जाँचा।"
+        }
+      ],
+      "one": "Public Debt (सरकारी क़र्ज़) केंद्र सरकार का वह क़र्ज़ है, जो देश के अंदर (internal debt, जैसे dated securities और Treasury Bills) और विदेश से (external debt) लिया गया है। वित्त मंत्रालय (DEA) की report के मुताबिक end-June 2026 में यह ₹1,85,40,659 करोड़ (provisional) था। Budget 2026-27 के मुताबिक FRBM परिभाषा वाला Central Government debt BE 2026-27 में GDP का 55.6% रहने का अनुमान है।",
+      "facts": [
+        {
+          "k": "Public Debt, end-June 2026",
+          "v": "₹185.41 लाख करोड़",
+          "s": "provisional"
+        },
+        {
+          "k": "कुल gross liabilities में",
+          "v": "90.9%",
+          "s": "कुल ₹203.86 लाख करोड़"
+        },
+        {
+          "k": "Central Govt debt / GDP",
+          "v": "55.6% (BE 2026-27)",
+          "s": "RE 2025-26 में 56.1%"
+        },
+        {
+          "k": "लक्ष्य",
+          "v": "50±1% of GDP",
+          "s": "2030-31 तक"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Fiscal deficit",
+            "s": "ख़र्च, कमाई से ज़्यादा"
+          },
+          {
+            "t": "उधार",
+            "s": "G-Sec, NSSF, external assistance"
+          },
+          {
+            "t": "Public debt",
+            "s": "बकाया क़र्ज़"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "घाटा भरना",
+            "s": "borrowings से"
+          },
+          {
+            "b": "जमा होता",
+            "s": "चुकाने तक बकाया"
+          }
+        ],
+        "note": "Budget 2026-27 के मुताबिक debt को लक्ष्य की ओर ले जाने का एक मुख्य operational औज़ार fiscal deficit है (Budget Speech, पैरा 94)।"
+      },
+      "myths": [
+        {
+          "m": "\"Public debt और FRBM वाला 'Central Government debt' एक ही हैं।\"",
+          "f": "नहीं। DEA की Table 4.1 में Public Debt = internal debt + external debt (₹1,85,40,659 करोड़, end-June 2026)।[^1] FRBM Statement के मुताबिक Central Government Debt में external public debt (मौजूदा exchange rate पर), Public Account की सारी बकाया देनदारियाँ — जिनमें NSSF के तहत States की special securities में निवेश भी है — और EBR देनदारियाँ भी शामिल हैं।[^2]"
+        },
+        {
+          "m": "\"सरकार का ज़्यादातर क़र्ज़ विदेश से है।\"",
+          "f": "नहीं। FRBM Statement (पैरा 33) के मुताबिक केंद्र सरकार की देनदारियाँ ज़्यादातर देश के अंदर की हैं; कुल देनदारियों (book value) का सिर्फ़ 3.3% external sector से है।[^2] DEA की report में end-June 2026 का internal debt ₹1,75,46,093 करोड़ और external debt (मौजूदा exchange rate पर) ₹9,94,566 करोड़ है।[^1]"
+        },
+        {
+          "m": "\"FRBM ढाँचे में debt की सीमा पक्की थी और पूरी हो गई।\"",
+          "f": "FRBM Statement की प्रस्तावना के मुताबिक FRBM ढाँचे में केंद्र सरकार को 31 मार्च 2025 तक Central Government Debt GDP के 40% और General Government Debt 60% तक सीमित करने की 'कोशिश' (endeavour) करनी थी।[^2] Budget 2026-27 के मुताबिक RE 2025-26 में Central Government debt GDP का 56.1% है।[^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Public debt में क्या-क्या आता है?",
+          "a": "DEA की Table 4.1 के मुताबिक end-June 2026 में internal debt में marketable securities (dated securities ₹1,24,33,181 करोड़, Treasury Bills ₹7,98,628 करोड़) और non-marketable securities (जैसे small savings के बदले securities ₹35,79,045 करोड़) थीं; external debt ₹9,94,566 करोड़ था।[^1]"
+        },
+        {
+          "q": "Debt-to-GDP का लक्ष्य क्या है?",
+          "a": "Budget Speech 2026-27 (पैरा 92-93) के मुताबिक केंद्र सरकार का लक्ष्य 2030-31 तक debt-to-GDP 50±1% तक लाना है; यह BE 2026-27 में 55.6% और RE 2025-26 में 56.1% आँका गया है।[^3]"
+        },
+        {
+          "q": "सरकार 2026-27 में कितना उधार लेगी?",
+          "a": "FRBM Statement (पैरा 31) के मुताबिक BE 2026-27 में dated securities (G-Sec) से gross उधार ₹17.20 लाख करोड़ (GDP का 4.4%) और net उधार ₹11.73 लाख करोड़ (GDP का 3.0%) आँका गया है।[^2]"
+        },
+        {
+          "q": "सरकारी bonds पर औसत ब्याज और अवधि कितनी है?",
+          "a": "DEA की report (पैरा 4.2) के मुताबिक end-June 2026 में बकाया dated securities का weighted average coupon 7.17% और weighted average maturity 13.77 साल थी।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Fiscal Deficit"
+        },
+        {
+          "t": "FRBM Act"
+        },
+        {
+          "t": "Government Securities"
+        },
+        {
+          "t": "Treasury Bill"
+        },
+        {
+          "t": "External Debt (विदेशी क़र्ज़)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ministry of Finance (DEA, Budget Division) — Public Debt Management Quarterly Report, April-June 2026 (DEA की सूची पर तारीख़ 01.10.2026; PDF पर तारीख़ नहीं) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://dea.gov.in/files/public_debt_management_documents/Q.pdf",
+          "issued": "2026-10-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 4.1",
+              "c": "कुल gross liabilities ₹203.86 लाख करोड़ (end-June 2026, provisional); public debt 90.9%"
+            },
+            {
+              "ref": "Table 4.1",
+              "c": "A. Public Debt (A1 + A2) 1,85,40,659; A1 internal 1,75,46,093; A2 external 9,94,566 करोड़"
+            },
+            {
+              "ref": "पैरा 4.2",
+              "c": "weighted average coupon 7.17%; weighted average maturity 13.77 साल"
+            }
+          ]
+        },
+        {
+          "label": "Ministry of Finance — Statements of Fiscal Policy under the FRBM Act, 2003 (Union Budget 2026-27; दस्तावेज़ पर 'February, 2026') (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/frbm1.pdf",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "प्रस्तावना",
+              "c": "endeavour: General Government Debt 60%, Central Government Debt 40% of GDP, 31 मार्च 2025 तक"
+            },
+            {
+              "ref": "Statement 2, table के notes",
+              "c": "Central Govt Debt 56.1 (RE 2025-26), 55.6 (BE 2026-27); इसमें क्या-क्या शामिल"
+            },
+            {
+              "ref": "Statement 2, पैरा 31, 33",
+              "c": "उधार: G-Sec, NSSF, external assistance; gross 17.20, net 11.73 लाख करोड़; external 3.3%"
+            }
+          ]
+        },
+        {
+          "label": "Ministry of Finance — Budget 2026-2027: Speech of the Minister of Finance, February 1, 2026 (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/doc/Budget_Speech.pdf",
+          "issued": "2026-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 92-93",
+              "c": "लक्ष्य 2030-31 तक debt-to-GDP 50±1%; BE 2026-27 55.6%, RE 2025-26 56.1%"
+            },
+            {
+              "ref": "पैरा 94",
+              "c": "\"One of the main operational instruments for debt targeting is the fiscal deficit\""
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nवित्त मंत्रालय (DEA) की Public Debt Management Quarterly Report की Table 4.1 में केंद्र सरकार का **Public Debt = internal debt + external debt** दिखाया गया है। End-June 2026 में यह ₹1,85,40,659 करोड़ (provisional) था, जो सरकार की कुल gross liabilities (₹203.86 लाख करोड़) का 90.9% है।[^1]\n\nFRBM Statement के मुताबिक केंद्र सरकार अपना fiscal deficit उधार से भरती है — dated securities (G-Sec), NSSF, external assistance आदि से (पैरा 31)।[^2] Budget 2026-27 के मुताबिक FRBM परिभाषा वाला Central Government debt RE 2025-26 में GDP का 56.1% और BE 2026-27 में 55.6% आँका गया है, और लक्ष्य 2030-31 तक 50±1% है।[^2][^3]\n\n## क़र्ज़ कैसे बढ़ता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए एक परिवार की महीने की कमाई ₹40,000 है, पर ख़र्च ₹45,000 है। ₹5,000 की कमी (यह 'घाटा' है) भरने के लिए वह कुछ पैसा मोहल्ले के लोगों से और थोड़ा विदेश में रहने वाले रिश्तेदार से उधार लेता है। हर महीने ऐसा हो, तो बकाया क़र्ज़ जुड़ता जाता है। सरकार के लिए अंदर से लिया उधार internal debt और बाहर से लिया external debt है; दोनों मिलकर public debt। (आँकड़े सिर्फ़ समझाने के लिए हैं।)\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Public Debt = internal + external (DEA Table 4.1); end-June 2026: ₹185.41 लाख करोड़ (provisional), कुल gross liabilities का 90.9%; Central Govt debt (FRBM): RE 2025-26 56.1%, BE 2026-27 55.6% of GDP; लक्ष्य 50±1% (2030-31)। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
