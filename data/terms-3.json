@@ -17455,14 +17455,18 @@
       "fullEn": "Gross Domestic Product",
       "group": "पैसे की बुनियाद",
       "created": "2026-10-17",
-      "verified": "2026-10-17",
+      "verified": "2026-10-24",
       "history": [
         {
           "d": "2026-10-17",
           "t": "पन्ना बना। MoSPI की नई GDP series (base year 2022-23, 27 फ़रवरी 2026) और 2025-26 के Provisional Estimates (5 जून 2026) की press release से जाँचा।"
+        },
+        {
+          "d": "2026-10-24",
+          "t": "2025-26 के आँकड़े MoSPI के 31 अगस्त 2026 के updated Provisional Estimates (NAS 2026) से बदले: Real GDP 7.8%, Nominal GDP 8.6%।"
         }
       ],
-      "one": "GDP (Gross Domestic Product) यानी एक तय अवधि में देश के अंदर बने अंतिम (final) सामान और सेवाओं का कुल मूल्य। भारत में इसे सांख्यिकी मंत्रालय (MoSPI) जारी करता है। 27 फ़रवरी 2026 से नई series आई है, जिसका base year 2022-23 है; उसके मुताबिक 2025-26 में Real GDP 7.7% बढ़ा।",
+      "one": "GDP (Gross Domestic Product) यानी एक तय अवधि में देश के अंदर बने अंतिम (final) सामान और सेवाओं का कुल मूल्य। भारत में इसे सांख्यिकी मंत्रालय (MoSPI) जारी करता है। 27 फ़रवरी 2026 से नई series आई है, जिसका base year 2022-23 है; 31 अगस्त 2026 के updated अनुमान के मुताबिक 2025-26 में Real GDP 7.8% बढ़ा।",
       "facts": [
         {
           "k": "कौन जारी करता है",
@@ -17476,13 +17480,13 @@
         },
         {
           "k": "Real GDP 2025-26",
-          "v": "₹323.12 लाख करोड़",
-          "s": "वृद्धि 7.7% (Provisional)"
+          "v": "₹324.70 लाख करोड़",
+          "s": "वृद्धि 7.8% (Provisional, 31.8.2026)"
         },
         {
           "k": "Nominal GDP 2025-26",
-          "v": "₹346.36 लाख करोड़",
-          "s": "वृद्धि 8.9% (Provisional)"
+          "v": "₹345.37 लाख करोड़",
+          "s": "वृद्धि 8.6% (Provisional, 31.8.2026)"
         }
       ],
       "flow": {
@@ -17515,7 +17519,7 @@
       "myths": [
         {
           "m": "\"Real GDP और Nominal GDP एक ही हैं।\"",
-          "f": "नहीं। MoSPI के मुताबिक Nominal GDP मौजूदा दामों (current prices) पर है, और Real GDP स्थिर दामों (constant prices, base year 2022-23 के दाम) पर। इसलिए महँगाई का असर हटाकर असली बढ़त Real GDP से दिखती है। जैसे 2025-26 में Nominal GDP 8.9% बढ़ा, Real GDP 7.7%।[^2]"
+          "f": "नहीं। MoSPI के मुताबिक Nominal GDP मौजूदा दामों (current prices) पर है, और Real GDP स्थिर दामों (constant prices, base year 2022-23 के दाम) पर। इसलिए महँगाई का असर हटाकर असली बढ़त Real GDP से दिखती है। जैसे 2025-26 में Nominal GDP 8.6% बढ़ा, Real GDP 7.8% (31 अगस्त 2026 के updated अनुमान)।[^5]"
         },
         {
           "m": "\"GDP में हर ख़रीद-बिक्री जोड़ दी जाती है।\"",
@@ -17537,7 +17541,7 @@
         },
         {
           "q": "2025-26 में GDP कितना रहा?",
-          "a": "MoSPI के Provisional Estimates (5 जून 2026) के मुताबिक Real GDP ₹323.12 लाख करोड़ (वृद्धि 7.7%) और Nominal GDP ₹346.36 लाख करोड़ (वृद्धि 8.9%)। ये अनुमान आगे revise हो सकते हैं।[^2]"
+          "a": "MoSPI के 31 अगस्त 2026 के updated Provisional Estimates के मुताबिक Real GDP ₹324.70 लाख करोड़ (वृद्धि 7.8%) और Nominal GDP ₹345.37 लाख करोड़ (वृद्धि 8.6%)।[^5] 5 जून 2026 के पहले अनुमान में ये ₹323.12 लाख करोड़ (7.7%) और ₹346.36 लाख करोड़ (8.9%) थे।[^2] ये अनुमान आगे भी revise हो सकते हैं।"
         },
         {
           "q": "GDP कितनी बार आता है?",
@@ -17614,9 +17618,21 @@
               "c": "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment"
             }
           ]
+        },
+        {
+          "label": "MoSPI (PIB के ज़रिए) — Press Release: National Accounts Statistics - 2026 Publication, 31 अगस्त 2026 (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc_9748_20260831_15530601.pdf",
+          "issued": "2026-08-31",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 10 (table)",
+              "c": "2025-26 (PE) updated: Real GDP ₹3,23,12,034 → ₹3,24,70,100 करोड़ (7.7% → 7.8%); Nominal GDP ₹3,46,35,638 → ₹3,45,36,796 करोड़ (8.9% → 8.6%)"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\nGDP यानी Gross Domestic Product (सकल घरेलू उत्पाद)। सरकार की परिभाषा में, एक तय अवधि में देश के अंदर बने अंतिम (final) सामान और सेवाओं का कुल मूल्य।[^3] भारत में इसे सांख्यिकी मंत्रालय (MoSPI) जारी करता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **अर्थव्यवस्था की सेहत:** GDP बढ़ने का मतलब है कि देश में पहले से ज़्यादा सामान और सेवाएँ बनीं।[^3]\n- **विकास दर:** MoSPI ने 2025-26 के लिए Real GDP की वृद्धि दर 7.7% बताई है (Provisional)।[^2]\n\n## GDP कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> UPSC Mains GS-III में \"growth, development and employment\" लिखा है।[^4] याद रखने लायक़: नई series 27 फ़रवरी 2026 से, base year 2022-23 (पहले 2011-12); Real = constant prices, Nominal = current prices; 2025-26 (Provisional): Real 7.7%, Nominal 8.9%। बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nGDP यानी Gross Domestic Product (सकल घरेलू उत्पाद)। सरकार की परिभाषा में, एक तय अवधि में देश के अंदर बने अंतिम (final) सामान और सेवाओं का कुल मूल्य।[^3] भारत में इसे सांख्यिकी मंत्रालय (MoSPI) जारी करता है।[^1]\n\n## इसका मतलब आपके लिए क्या है | आपके लिए\n\n- **अर्थव्यवस्था की सेहत:** GDP बढ़ने का मतलब है कि देश में पहले से ज़्यादा सामान और सेवाएँ बनीं।[^3]\n- **विकास दर:** MoSPI के 31 अगस्त 2026 के updated अनुमान में 2025-26 के लिए Real GDP की वृद्धि दर 7.8% है (Provisional)।[^5]\n\n## GDP कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> UPSC Mains GS-III में \"growth, development and employment\" लिखा है।[^4] याद रखने लायक़: नई series 27 फ़रवरी 2026 से, base year 2022-23 (पहले 2011-12); Real = constant prices, Nominal = current prices; 2025-26 (Provisional, updated 31.08.2026): Real 7.8%, Nominal 8.6%। बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर।[^1][^5]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "id": "union-budget",
@@ -20509,7 +20525,7 @@
     },
     {
       "created": "2026-10-17",
-      "verified": "2026-10-17",
+      "verified": "2026-10-24",
       "id": "gva",
       "term": "GVA",
       "aliases": [
@@ -20525,19 +20541,23 @@
         {
           "d": "2026-10-17",
           "t": "पन्ना बना। MoSPI के 5 जून 2026 के Provisional Estimates (PIB) और नई GDP series के FAQ से जाँचा।"
+        },
+        {
+          "d": "2026-10-24",
+          "t": "2025-26 के आँकड़े MoSPI के 31 अगस्त 2026 के updated Provisional Estimates (NAS 2026, Statement 8.17.1) से बदले: real GVA 7.9%, nominal GVA 8.8%।"
         }
       ],
       "one": "GVA (Gross Value Added) का शाब्दिक मतलब है 'कुल जोड़ा गया मूल्य': खेती, उद्योग और सेवाओं जैसे क्षेत्रों ने अपने काम से कितना मूल्य जोड़ा। MoSPI हर बार GDP के साथ GVA भी जारी करता है, क्षेत्रवार (sector-wise)। नई series का base year 2022-23 है।",
       "facts": [
         {
           "k": "Real GVA 2025-26",
-          "v": "₹294.91 लाख करोड़",
-          "s": "growth 7.9% (PE)"
+          "v": "₹295.90 लाख करोड़",
+          "s": "growth 7.9% (PE, 31.8.2026)"
         },
         {
           "k": "Nominal GVA 2025-26",
-          "v": "₹314.87 लाख करोड़",
-          "s": "growth 9.1% (PE)"
+          "v": "₹313.95 लाख करोड़",
+          "s": "growth 8.8% (PE, 31.8.2026)"
         },
         {
           "k": "Base year",
@@ -20580,7 +20600,7 @@
       "myths": [
         {
           "m": "\"GVA और GDP एक ही आँकड़ा है।\"",
-          "f": "नहीं। MoSPI दोनों अलग जारी करता है: 2025-26 में real GDP ₹323.12 लाख करोड़ (7.7%) और real GVA ₹294.91 लाख करोड़ (7.9%) अनुमानित है।[^1]"
+          "f": "नहीं। MoSPI दोनों अलग जारी करता है: 31 अगस्त 2026 के updated अनुमान में 2025-26 का real GDP ₹324.70 लाख करोड़ (7.8%) और real GVA ₹295.90 लाख करोड़ (7.9%) है।[^3]"
         },
         {
           "m": "\"ये आँकड़े पक्के हैं।\"",
@@ -20594,7 +20614,7 @@
         },
         {
           "q": "Real और Nominal GVA में फ़र्क़?",
-          "a": "Nominal मौजूदा दामों पर, Real स्थिर (base year 2022-23) दामों पर। MoSPI के मुताबिक 2025-26 में nominal GVA ₹314.87 लाख करोड़ (9.1%) और real ₹294.91 लाख करोड़ (7.9%)।[^1]"
+          "a": "Nominal मौजूदा दामों पर, Real स्थिर (base year 2022-23) दामों पर। MoSPI के 31 अगस्त 2026 के updated अनुमान के मुताबिक 2025-26 में nominal GVA ₹313.95 लाख करोड़ (8.8%) और real ₹295.90 लाख करोड़ (7.9%)।[^3]"
         },
         {
           "q": "नई series कब आई?",
@@ -20643,9 +20663,21 @@
               "c": "base year 2011-12 से 2022-23"
             }
           ]
+        },
+        {
+          "label": "MoSPI — National Accounts Statistics 2026, Statement 8.17.1: Provisional Estimates of National Income and Other Macro Economic Aggregates, 2025-26 (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.mospi.gov.in/uploads/publications_reports/NAS-2026-Statements/8.17.1.xlsx",
+          "issued": "2026-08-31",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Sl. No. 1 और 3 (स्थिर और मौजूदा दाम)",
+              "c": "2025-26 (PE): real GVA ₹2,95,90,329 करोड़ (7.91%), nominal GVA ₹3,13,94,691 करोड़ (8.84%); real GDP ₹3,24,70,100 करोड़ (7.82%)"
+            }
+          ]
         }
       ],
-      "body": "## मतलब\n\nGVA यानी Gross Value Added (सकल मूल्य वर्धन)। MoSPI GDP के साथ GVA के अनुमान भी जारी करता है, क्षेत्रवार, स्थिर (2022-23) और मौजूदा दामों पर।[^1]\n\n## GVA कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: GVA क्षेत्रवार (Primary / Secondary / Tertiary); 2025-26 PE: real GVA 7.9%, nominal 9.1%; base year 2022-23 (27.2.2026 से)।[^1] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+      "body": "## मतलब\n\nGVA यानी Gross Value Added (सकल मूल्य वर्धन)। MoSPI GDP के साथ GVA के अनुमान भी जारी करता है, क्षेत्रवार, स्थिर (2022-23) और मौजूदा दामों पर।[^1]\n\n## GVA कैसे बनता है | कैसे\n\n::flow\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: GVA क्षेत्रवार (Primary / Secondary / Tertiary); 2025-26 PE (updated 31.08.2026): real GVA 7.9%, nominal 8.8%; base year 2022-23 (27.2.2026 से)।[^1][^3] इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     },
     {
       "created": "2026-10-17",
