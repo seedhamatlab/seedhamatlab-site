@@ -32072,6 +32072,204 @@
         }
       ],
       "body": "## मतलब\n\nEconomic Survey 2022-23 के मुताबिक 1980s के आख़िर और 1990s की शुरुआत में केंद्र और राज्यों का ऊँचा घाटा, बढ़ती महँगाई और बड़ा current account deficit balance of payments संकट बन गए; इसके जवाब में 1991 में trade और investment को liberalise (उदार) किया गया।[^2] Industry के लिए 24 जुलाई 1991 की Statement on Industrial Policy आई। इसके पैरा 23 के मुताबिक industrial licensing तय सूची (Annex II) को छोड़कर सभी industries के लिए ख़त्म की गई, और पैरा 25 के मुताबिक high priority industries में 51% तक foreign equity वाले direct foreign investment को मंज़ूरी देने का फ़ैसला हुआ।[^1]\n\n## 1991 में क्या हुआ | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए आपके कस्बे में नई दुकान खोलने से पहले हर बार सरकारी दफ़्तर से अलग इजाज़त लेनी पड़ती हो और यह भी तय हो कि आप कितना माल बेच सकते हैं। फिर नियम बदलता है: कुछ ख़ास चीज़ों (जैसे ख़तरनाक रसायन) को छोड़कर अब इजाज़त की ज़रूरत नहीं। अब ज़्यादा लोग दुकानें खोलेंगे और मुक़ाबला बढ़ेगा। 1991 में industry के लिए licensing ख़त्म करके कुछ ऐसा ही बदलाव किया गया था।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Statement on Industrial Policy: 24 जुलाई 1991; Annex II छोड़कर industrial licensing ख़त्म (पैरा 23); high priority industries में 51% तक foreign equity (पैरा 25); पाँच क्षेत्र: licensing, foreign investment, foreign technology, public sector, MRTP (पैरा 19); पृष्ठभूमि: balance of payments संकट (Economic Survey 2022-23)। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "created": "2026-10-24",
+      "verified": "2026-10-24",
+      "id": "credit-risk",
+      "term": "Credit Risk",
+      "aliases": [
+        "credit risk management",
+        "ऋण जोखिम"
+      ],
+      "full": "Credit Risk · ऋण जोखिम",
+      "fullEn": "Credit Risk",
+      "group": "बैंकिंग",
+      "history": [
+        {
+          "d": "2026-10-24",
+          "t": "पन्ना बना। RBI के Commercial Banks – Credit Risk Management Directions, 2025 (1 अक्टूबर 2026 तक updated), Commercial Banks - Prudential Norms on Capital Adequacy Directions, 2025 (7 अक्टूबर 2026 तक updated) और Commercial Banks - Capital Charge for Credit Risk – Standardised Approach Directions, 2026 से जाँचा।"
+        }
+      ],
+      "one": "आसान शब्दों में, credit risk (ऋण जोखिम) यह ख़तरा है कि जिसे उधार दिया गया, वह पैसा वापस न लौटाए। RBI के मुताबिक commercial banks के सामने जितने जोखिम हैं, उनमें credit risk सबसे अहम जोखिमों में से एक है। इसीलिए bank को credit risk management की Board से मंज़ूर policy रखनी होती है और credit risk के लिए capital charge भी गिनना होता है।",
+      "facts": [
+        {
+          "k": "न्यूनतम CRAR",
+          "v": "9%",
+          "s": "Pillar 1; capital buffers अलग"
+        },
+        {
+          "k": "Capital charge",
+          "v": "Standardised approach",
+          "s": "credit risk के लिए"
+        },
+        {
+          "k": "Central Government पर claim",
+          "v": "0% risk weight",
+          "s": "fund और non-fund दोनों"
+        },
+        {
+          "k": "नए SA Directions",
+          "v": "1 अप्रैल 2027 से",
+          "s": "27 अप्रैल 2026 को जारी"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "Board की policy",
+            "s": "credit risk management"
+          },
+          {
+            "t": "अपना credit appraisal",
+            "s": "बाहरी consultant पर निर्भर नहीं"
+          },
+          {
+            "t": "Capital charge",
+            "s": "standardised approach"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "फिर",
+            "s": ""
+          },
+          {
+            "b": "और",
+            "s": ""
+          }
+        ],
+        "note": "Credit Risk Management Directions, 2025 के पैरा 5 और 7, और Capital Adequacy Directions, 2025 के पैरा 30 के मुताबिक।"
+      },
+      "myths": [
+        {
+          "m": "\"Credit risk का असर सिर्फ़ उसी loan तक रहता है।\"",
+          "f": "नहीं। RBI के मुताबिक credit risk को ठीक से न संभाला जाए, तो इसका असर दूसरे तरह के जोखिमों पर भी पड़ सकता है।[^1]"
+        },
+        {
+          "m": "\"Loan देने से पहले bank borrower के consultant की appraisal report पर भरोसा कर सकता है।\"",
+          "f": "नहीं। Bank को हर मामले में अपना स्वतंत्र और निष्पक्ष credit appraisal करना है। वह बाहरी consultants, ख़ासकर borrower के in-house consultants, की बनाई appraisal reports पर निर्भर नहीं रह सकता।[^1]"
+        },
+        {
+          "m": "\"Credit risk का capital charge हमेशा Capital Adequacy Directions, 2025 से ही निकलेगा।\"",
+          "f": "नहीं। 1 अप्रैल 2027 से Capital Charge for Credit Risk – Standardised Approach Directions, 2026 लागू होंगे, और तब Capital Adequacy Directions, 2025 के इससे जुड़े प्रावधान repeal हो जाएँगे। तब तक capital charge Capital Adequacy Directions, 2025 के standardised approach से ही गिना जाएगा।[^2][^3]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Credit Risk Management Directions किन banks पर लागू हैं?",
+          "a": "Commercial banks पर: banking companies (Small Finance Banks, Payments Banks और Local Area Banks को छोड़कर), corresponding new banks और State Bank of India। ये Directions 28 नवंबर 2025 को जारी होते ही लागू हो गए थे।[^1]"
+        },
+        {
+          "q": "1 अप्रैल 2027 से क्या बदलेगा?",
+          "a": "Basel Committee ने December 2017 में final Basel III framework जारी किया था, जिसमें credit risk की पूँजी गिनने के दो तरीक़े हैं: Standardised Approach (SA) और Internal Ratings Based approach (IRB)। RBI ने SA लागू करने का फ़ैसला किया है। इसके लिए 27 अप्रैल 2026 के Directions 1 अप्रैल 2027 से commercial banks के banking book exposures पर लागू होंगे।[^3]"
+        },
+        {
+          "q": "Counterparty Credit Risk क्या है?",
+          "a": "RBI की परिभाषा के मुताबिक यह वह जोखिम है कि किसी transaction का दूसरा पक्ष (counterparty), उस transaction के cash flows का आख़िरी settlement होने से पहले ही default कर दे।[^2]"
+        },
+        {
+          "q": "Credit risk और CRAR का क्या रिश्ता है?",
+          "a": "Bank को Pillar 1 के तहत कम-से-कम 9% CRAR (capital buffers के अलावा) लगातार बनाए रखना है। Credit risk का capital charge standardised approach से गिना जाता है, यानी RBI से accredited external credit rating agencies की ratings या Directions में तय risk weights से।[^2]"
+        }
+      ],
+      "related": [
+        {
+          "t": "NPA"
+        },
+        {
+          "t": "Capital Adequacy Ratio"
+        },
+        {
+          "t": "Credit Rating Agency"
+        },
+        {
+          "t": "Collateral"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Risk Management) Directions, 2025 (RBI/DOR/2025-26/157, DOR.CRE.REC.76/07-02-001/2025-26, 28.11.2025; 01.10.2026 तक updated) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/157MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "2025-11-28",
+          "used": [
+            {
+              "ref": "भूमिका (Introduction)",
+              "c": "credit risk सबसे अहम जोखिमों में से एक; ठीक से न संभले तो दूसरे जोखिमों पर भी असर; BR Act की धारा 20, 21, 35A के तहत जारी"
+            },
+            {
+              "ref": "पैरा 2, 3",
+              "c": "जारी होते ही लागू; commercial banks (SFB, PB, LAB छोड़कर banking companies, corresponding new banks, SBI)"
+            },
+            {
+              "ref": "पैरा 5 (1.4.2026 से substituted)",
+              "c": "Board-approved credit risk management policy: related parties को lending, country risk, unhedged foreign currency exposures, property valuation और valuers का empanelment, current और CC/OD accounts"
+            },
+            {
+              "ref": "पैरा 6, 7",
+              "c": "'Guidance Note on Credit Risk Management' का सख़्ती से पालन; हर मामले में अपना स्वतंत्र और निष्पक्ष credit appraisal, बाहरी/in-house consultants की reports पर निर्भर नहीं"
+            },
+            {
+              "ref": "पैरा 10",
+              "c": "सभी unsecured consumer credit exposures के लिए limits; उनका सख़्ती से पालन और Risk Management Committee की लगातार निगरानी"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Directions, 2025 (RBI/DOR/2025-26/151, DOR.CAP.REC.70/21-01-002/2025-26, 28.11.2025; 07.10.2026 तक updated) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/151MD.PDF",
+          "issued": "2025-11-28",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 4 (परिभाषा 6)",
+              "c": "Counterparty Credit Risk: transaction के cash flows के आख़िरी settlement से पहले counterparty के default का जोखिम"
+            },
+            {
+              "ref": "पैरा 9",
+              "c": "Pillar 1 न्यूनतम पूँजी, Pillar 2 SREP, Pillar 3 market discipline; न्यूनतम Pillar 1 CRAR 9% लगातार (capital buffers के अलावा)"
+            },
+            {
+              "ref": "पैरा 30, 31",
+              "c": "credit risk के capital charge के लिए standardised approach: RBI-accredited external credit rating agencies की ratings या तय risk weights; Central Government पर fund और non-fund claims का risk weight शून्य"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks - Capital Charge for Credit Risk – Standardised Approach) Directions, 2026 (RBI/DOR/2026-27/397, DOR.CRE.REC 5/21.06.201/2026-27, 27.04.2026) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/397MD7DCC951F9F014A738C60E0FBC1A73D70.PDF",
+          "issued": "2026-04-27",
+          "effective": "2027-04-01",
+          "used": [
+            {
+              "ref": "पैरा 1",
+              "c": "Basel Committee का final Basel III framework (December 2017); दो तरीक़े SA और IRB; RBI SA लागू करेगा"
+            },
+            {
+              "ref": "पैरा 2(2), 3(1)",
+              "c": "1 अप्रैल 2027 से लागू; commercial banks के banking book exposures पर"
+            },
+            {
+              "ref": "पैरा 40",
+              "c": "लागू होने पर Capital Adequacy Directions, 2025 के इससे जुड़े प्रावधान repeal"
+            }
+          ]
+        },
+        {
+          "label": "RBI — Reserve Bank of India (Commercial Banks – Credit Risk Management) – Amendment Directions, 2026 (RBI/2025-26/173, DOR.CRE.REC.374/07-02-001/2025-26, 05.01.2026) (24 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13249&Mode=0",
+          "issued": "2026-01-05",
+          "effective": "2026-04-01",
+          "used": [
+            {
+              "ref": "पैरा 3(2), 4",
+              "c": "Chapter II का पैरा 5 (Board-approved credit risk management policy) बदला गया; 1 अप्रैल 2026 से लागू"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\n**आसान शब्दों में:** credit risk यानी ऋण जोखिम वह ख़तरा है कि जिसे उधार दिया गया, वह पैसा वापस न लौटाए। (यह समझाने के लिए आसान बात है, RBI की परिभाषा नहीं।)\n\nRBI के Credit Risk Management Directions, 2025 के मुताबिक commercial banks पैसे के लेन-देन में बीच की कड़ी (financial intermediation) बनते हुए कई तरह के वित्तीय और ग़ैर-वित्तीय जोखिम उठाते हैं, और इनमें credit risk सबसे अहम जोखिमों में से एक है। इसे ठीक से न संभाला जाए, तो इसका असर दूसरे जोखिमों पर भी पड़ सकता है।[^1]\n\n## Bank credit risk कैसे संभालते हैं | कैसे\n\n::flow\n\n- **Board की policy:** हर bank को credit risk management की Board से मंज़ूर एक व्यापक policy रखनी है। इसमें related parties को lending, country risk, *unhedged foreign currency exposures*, property valuation (valuers का empanelment समेत) और current व CC/OD accounts खोलने जैसे विषय शामिल हों। यह पैरा 1 अप्रैल 2026 से नए रूप में लागू है।[^1][^4]\n- **Guidance Note:** bank को RBI के 'Guidance Note on Credit Risk Management' का सख़्ती से पालन करना है।[^1]\n- **अपना appraisal:** हर मामले में bank अपना स्वतंत्र और निष्पक्ष credit appraisal करे, बाहरी consultants की reports पर निर्भर न रहे।[^1]\n- **Unsecured consumer credit पर limits:** सभी unsecured consumer credit exposures के लिए limits तय होनी हैं। इनका सख़्ती से पालन हो और Risk Management Committee लगातार इन पर नज़र रखे।[^1]\n- **पूँजी:** credit risk का capital charge standardised approach से गिना जाता है। Central Government पर fund-based और non-fund-based, दोनों तरह के claims का risk weight शून्य है।[^2]\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मोहल्ले की किराने की दुकान कई परिवारों को महीने भर उधार पर सामान देती है। महीने के आख़िर में हर परिवार पैसे लौटा ही देगा, यह पक्का नहीं है। यही credit risk है। समझदार दुकानदार हर ग्राहक की उधारी की एक हद तय करता है, किसी और के कहने पर नहीं बल्कि ख़ुद देखकर तय करता है कि किसे कितना उधार देना है, और कुछ पैसे अलग रखता है ताकि कोई पैसा न लौटाए तो दुकान न डूबे। Bank भी बड़े पैमाने पर यही करता है: limits, अपना credit appraisal और पूँजी।\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Credit Risk Management Directions, 2025 (28.11.2025; BR Act की धारा 20, 21, 35A); Board-approved policy (पैरा 5); अपना credit appraisal (पैरा 7); unsecured consumer credit पर limits (पैरा 10); न्यूनतम Pillar 1 CRAR 9% (पैरा 9); capital charge: standardised approach (पैरा 30); Central Government claims पर शून्य risk weight (पैरा 31); नए Standardised Approach Directions, 2026: 1 अप्रैल 2027 से। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
