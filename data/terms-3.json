@@ -33194,6 +33194,245 @@
         }
       ],
       "body": "## मतलब\n\nवित्त मंत्रालय (DEA) की Public Debt Management Quarterly Report की Table 4.1 में केंद्र सरकार का **Public Debt = internal debt + external debt** दिखाया गया है। End-June 2026 में यह ₹1,85,40,659 करोड़ (provisional) था, जो सरकार की कुल gross liabilities (₹203.86 लाख करोड़) का 90.9% है।[^1]\n\nFRBM Statement के मुताबिक केंद्र सरकार अपना fiscal deficit उधार से भरती है — dated securities (G-Sec), NSSF, external assistance आदि से (पैरा 31)।[^2] Budget 2026-27 के मुताबिक FRBM परिभाषा वाला Central Government debt RE 2025-26 में GDP का 56.1% और BE 2026-27 में 55.6% आँका गया है, और लक्ष्य 2030-31 तक 50±1% है।[^2][^3]\n\n## क़र्ज़ कैसे बढ़ता है | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए एक परिवार की महीने की कमाई ₹40,000 है, पर ख़र्च ₹45,000 है। ₹5,000 की कमी (यह 'घाटा' है) भरने के लिए वह कुछ पैसा मोहल्ले के लोगों से और थोड़ा विदेश में रहने वाले रिश्तेदार से उधार लेता है। हर महीने ऐसा हो, तो बकाया क़र्ज़ जुड़ता जाता है। सरकार के लिए अंदर से लिया उधार internal debt और बाहर से लिया external debt है; दोनों मिलकर public debt। (आँकड़े सिर्फ़ समझाने के लिए हैं।)\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Public Debt = internal + external (DEA Table 4.1); end-June 2026: ₹185.41 लाख करोड़ (provisional), कुल gross liabilities का 90.9%; Central Govt debt (FRBM): RE 2025-26 56.1%, BE 2026-27 55.6% of GDP; लक्ष्य 50±1% (2030-31)। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^3]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
+    },
+    {
+      "id": "stand-up-india",
+      "term": "Stand-Up India (स्टैंड-अप इंडिया)",
+      "aliases": [
+        "Stand Up India",
+        "स्टैंड-अप इंडिया",
+        "स्टैंडअप इंडिया"
+      ],
+      "full": "Stand-Up India Scheme · SC/ST और महिला उद्यमियों के लिए bank loan की योजना (31.03.2025 को बंद)",
+      "fullEn": "Stand-Up India Scheme (SUPI)",
+      "group": "सरकारी योजनाएँ",
+      "created": "2026-10-25",
+      "verified": "2026-10-25",
+      "history": [
+        {
+          "d": "2026-10-25",
+          "t": "पन्ना बना। DFS के Stand Up India Scheme (SUPI) पन्ने, SIDBI के Stand-Up India portal (scheme features और FAQ), PIB की 5.4.2025 और 17.12.2025 की releases और Budget Speech 2025-26 से जाँचा। योजना 31.03.2025 को बंद होने की बात portal, DFS और Rajya Sabha जवाब, तीनों से मिलाई।"
+        }
+      ],
+      "one": "Stand-Up India एक सरकारी योजना थी, जिसमें bank शाखाओं से SC/ST और महिला उद्यमियों को नया (greenfield) उद्यम लगाने के लिए ₹10 लाख से ₹1 करोड़ तक का loan मिलता था। यह 5 अप्रैल 2016 को शुरू हुई और 31 मार्च 2025 को बंद हो गई।",
+      "facts": [
+        {
+          "k": "Loan",
+          "v": "₹10 लाख–₹1 करोड़",
+          "s": "composite: term loan + working capital"
+        },
+        {
+          "k": "कौन",
+          "v": "SC/ST और/या महिला",
+          "s": "18 साल से ऊपर, सिर्फ़ नया (greenfield) उद्यम"
+        },
+        {
+          "k": "हर bank branch",
+          "v": "कम से कम 1 SC/ST + 1 महिला",
+          "s": "borrower का लक्ष्य"
+        },
+        {
+          "k": "स्थिति",
+          "v": "31.03.2025 को बंद",
+          "s": "SIDBI portal और DFS के मुताबिक"
+        }
+      ],
+      "flow": {
+        "nodes": [
+          {
+            "t": "उद्यमी",
+            "s": "SC/ST या महिला, 18 साल से ऊपर"
+          },
+          {
+            "t": "Bank शाखा",
+            "s": "Scheduled Commercial Bank"
+          },
+          {
+            "t": "नया उद्यम",
+            "s": "manufacturing, services, trading, agri-allied"
+          }
+        ],
+        "arrows": [
+          {
+            "b": "आवेदन",
+            "s": "standupmitra.in या jansamarth.in"
+          },
+          {
+            "b": "Composite loan",
+            "s": "₹10 लाख–₹1 करोड़"
+          }
+        ],
+        "note": "यह तरीक़ा 31.03.2025 तक का है; उसके बाद योजना बंद हो चुकी है।"
+      },
+      "myths": [
+        {
+          "m": "\"Stand-Up India में आज भी नए loan के लिए आवेदन हो सकता है।\"",
+          "f": "नहीं। SIDBI का portal बताता है कि योजना 31.03.2025 को बंद हो चुकी है,[^2] और DFS के मुताबिक भी योजना 31.03.2025 तक ही थी।[^1]"
+        },
+        {
+          "m": "\"पहले से चल रहे कारोबार को बढ़ाने के लिए भी यह loan मिलता था।\"",
+          "f": "नहीं। Loan सिर्फ़ greenfield project के लिए था, यानी लाभार्थी का पहली बार का उद्यम।[^2]"
+        },
+        {
+          "m": "\"Stand-Up India और Mudra Loan एक ही योजना है।\"",
+          "f": "नहीं। Stand-Up India में ₹10 लाख से ₹1 करोड़ का loan सिर्फ़ SC/ST और महिला उद्यमियों को, नया उद्यम लगाने के लिए, Scheduled Commercial Banks से मिलता था।[^1][^2] Pradhan Mantri MUDRA Yojana micro enterprises के लिए है; उसमें ₹20 लाख तक का loan (₹10 लाख से ऊपर सिर्फ़ उन्हें, जिन्होंने Tarun का पिछला loan चुका दिया हो) banks, NBFC और MFI देते हैं।[^7]"
+        }
+      ],
+      "faq": [
+        {
+          "q": "यह loan कौन ले सकता था और कौन नहीं?",
+          "a": "SC/ST और/या महिला उद्यमी, जिनकी उम्र 18 साल से ज़्यादा हो और जो पहली बार उद्यम लगा रहे हों। Company या firm हो, तो 51% shareholding और controlling stake SC/ST और/या महिला उद्यमी के पास होना ज़रूरी था। किसी bank या वित्तीय संस्था का defaulter यह loan नहीं ले सकता था।[^2]"
+        },
+        {
+          "q": "इस योजना में कितना loan मिला?",
+          "a": "वित्त मंत्रालय की 5 अप्रैल 2025 की PIB release के मुताबिक शुरू से 17 मार्च 2025 तक कुल ₹61,020.41 करोड़ sanctioned हुए। इसी release के मुताबिक नवंबर 2024 तक महिला उद्यमियों के 1,90,844 खाते (₹43,984.10 करोड़), SC के 46,248 खाते (₹9,747.11 करोड़) और ST के 15,228 खाते (₹3,244.07 करोड़) थे।[^5]"
+        },
+        {
+          "q": "अब Stand-Up India की जगह क्या है?",
+          "a": "Budget 2025-26 के पैरा 32 में 5 लाख महिला, SC और ST पहली बार के उद्यमियों के लिए नई योजना की घोषणा हुई, जिसमें अगले 5 साल में ₹2 करोड़ तक के term loan मिलेंगे।[^6] DFS के पन्ने पर लिखा है कि इसका EFC note तैयार किया जा रहा है।[^1] नई योजना शुरू हुई या नहीं, यह DFS या PIB की ताज़ा सूचना से ही पक्का कीजिए।"
+        },
+        {
+          "q": "आवेदन कैसे होता था?",
+          "a": "DFS के मुताबिक online portal standupmitra.in training से लेकर loan आवेदन भरने तक मार्गदर्शन देता था, और jansamarth.in portal पर भी loan के लिए आवेदन हो सकता था।[^1] Portal के FAQ के मुताबिक यह portal SIDBI ने Stand-Up India के लिए बनाया था।[^3]"
+        },
+        {
+          "q": "इसकी घोषणा कब हुई थी?",
+          "a": "Portal के FAQ के मुताबिक \"Start-up India Stand-Up India\" पहल की घोषणा प्रधानमंत्री ने 15 अगस्त 2015 को देश के नाम संबोधन में की थी।[^3] योजना 5 अप्रैल 2016 को शुरू हुई।[^1]"
+        }
+      ],
+      "related": [
+        {
+          "t": "Mudra Loan"
+        },
+        {
+          "t": "MSME"
+        },
+        {
+          "t": "Financial Inclusion"
+        },
+        {
+          "t": "SIDBI"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Department of Financial Services (वित्त मंत्रालय) — Stand Up India Scheme (SUPI) का पन्ना (पन्ने पर अलग तारीख़ नहीं; site के निचले हिस्से में \"Last Updated On: 05.02.2026\") (25 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://financialservices.gov.in/stand-india-scheme-supi",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला वाक्य",
+              "c": "5 अप्रैल 2016 को SC/ST और महिलाओं में उद्यमिता बढ़ाने के लिए शुरू"
+            },
+            {
+              "ref": "Features",
+              "c": "₹10 लाख से ₹1 करोड़ का loan SCBs से; greenfield project; standupmitra.in पर मार्गदर्शन; jansamarth.in पर भी आवेदन"
+            },
+            {
+              "ref": "Progress के बाद वाला हिस्सा",
+              "c": "SUPI योजना 31.03.2025 तक, 15वें वित्त आयोग के हिसाब से; Budget 2025-26 की नई योजना का EFC note तैयार हो रहा है"
+            }
+          ]
+        },
+        {
+          "label": "SIDBI — Stand-Up India portal: STANDUP INDIA SCHEME FEATURES पन्ना (पन्ना खुलते ही सूचना: \"Stand-Up India scheme has closed on 31.03.2025.\"; पन्ने पर तारीख़ नहीं) (25 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.standupmitra.in/Home/SUISchemes",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पन्ना खुलने पर सूचना",
+              "c": "Stand-Up India scheme has closed on 31.03.2025."
+            },
+            {
+              "ref": "Eligibility",
+              "c": "SC/ST और/या महिला, 18+; सिर्फ़ greenfield (पहली बार उद्यम); गैर-व्यक्ति उद्यम में 51% shareholding और controlling stake; defaulter न हो"
+            },
+            {
+              "ref": "Nature / Size of Loan",
+              "c": "composite loan ₹10 लाख से ₹100 लाख; लागत का 85%, 15% से ज़्यादा अंशदान पर यह शर्त नहीं"
+            },
+            {
+              "ref": "Interest Rate, Security, Repayment",
+              "c": "उस rating श्रेणी की bank की सबसे कम लागू दर, जो (base rate (MCLR) + 3% + tenor premium) से ज़्यादा न हो; primary security के अलावा collateral या CGFSIL guarantee; 7 साल में चुकाना, जिसमें 18 महीने तक moratorium"
+            },
+            {
+              "ref": "Margin Money",
+              "c": "15% margin, योजनाओं से मिल सकता है; कम से कम 10% ख़ुद का अंशदान"
+            }
+          ]
+        },
+        {
+          "label": "SIDBI — Stand-Up India portal: General FAQs (पन्ने पर तारीख़ नहीं) (25 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.standupmitra.in/Home/FAQs",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला जवाब",
+              "c": "\"Start-up India Stand-Up India\" की घोषणा 15 अगस्त 2015 को प्रधानमंत्री के संबोधन में"
+            },
+            {
+              "ref": "Objective वाला सवाल",
+              "c": "हर bank branch कम से कम एक SC/ST और एक महिला borrower"
+            },
+            {
+              "ref": "Other benefits वाला सवाल",
+              "c": "portal SIDBI ने Stand-Up India के लिए बनाया"
+            }
+          ]
+        },
+        {
+          "label": "PIB (Ministry of Skill Development and Entrepreneurship) — Support For Women Entrepreneurs, Rajya Sabha में लिखित जवाब (17 दिसंबर 2025) (25 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2205172",
+          "issued": "2025-12-17",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Stand-Up India वाला पैराग्राफ़",
+              "c": "The Scheme was valid/operational till March 2025."
+            }
+          ]
+        },
+        {
+          "label": "PIB (Ministry of Finance) — 9 Years of Stand-Up India (5 अप्रैल 2025) (25 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2119045",
+          "issued": "2025-04-05",
+          "effective": "",
+          "used": [
+            {
+              "ref": "Achievements वाला हिस्सा",
+              "c": "शुरू से 17 मार्च 2025 तक ₹61,020.41 करोड़ sanctioned; नवंबर 2018 से नवंबर 2024: SC 46,248 खाते (₹9,747.11 करोड़), ST 15,228 (₹3,244.07 करोड़), महिला 1,90,844 (₹43,984.10 करोड़)"
+            }
+          ]
+        },
+        {
+          "label": "Ministry of Finance — Budget 2025-2026, Speech of the Finance Minister (1 फ़रवरी 2025) (25 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://www.indiabudget.gov.in/budget2025-26/doc/budget_speech.pdf",
+          "issued": "2025-02-01",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पैरा 32 (Scheme for First-time Entrepreneurs)",
+              "c": "5 लाख महिला, SC, ST पहली बार के उद्यमी; अगले 5 साल में ₹2 करोड़ तक term loan; Stand-Up India के सबक़"
+            }
+          ]
+        },
+        {
+          "label": "Department of Financial Services (वित्त मंत्रालय) — Pradhan Mantri MUDRA Yojana (PMMY) का पन्ना (पन्ने पर अलग तारीख़ नहीं; site के निचले हिस्से में \"Last Updated On: 05.02.2026\") (25 अक्टूबर 2026 को पढ़ा)",
+          "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+          "issued": "",
+          "effective": "",
+          "used": [
+            {
+              "ref": "पहला वाक्य, Categories, MLIs",
+              "c": "micro enterprises; Tarun Plus ₹10 लाख से ₹20 लाख, Tarun loan चुकाने वालों को; banks, NBFC, MFI"
+            }
+          ]
+        }
+      ],
+      "body": "## मतलब\n\nStand-Up India एक सरकारी योजना थी, जिसमें Scheduled Commercial Banks (SCBs) से SC/ST और महिला उद्यमियों को नया उद्यम (greenfield project) लगाने के लिए ₹10 लाख से ₹1 करोड़ तक का loan मिलता था। यह 5 अप्रैल 2016 को शुरू हुई थी।[^1]\n\n**अभी की स्थिति:** यह योजना 31 मार्च 2025 को बंद हो चुकी है। SIDBI का Stand-Up India portal (standupmitra.in) खुलते ही यही सूचना देता है: \"Stand-Up India scheme has closed on 31.03.2025.\"[^2] वित्त मंत्रालय के Department of Financial Services (DFS) के पन्ने के मुताबिक यह योजना 15वें वित्त आयोग के हिसाब से 31.03.2025 तक थी।[^1] Rajya Sabha में 17 दिसंबर 2025 को दिए गए जवाब में भी कहा गया कि योजना मार्च 2025 तक valid/operational थी।[^4]\n\nUnion Budget 2025-26 (पैरा 32) में 5 लाख महिला, SC और ST पहली बार के उद्यमियों के लिए एक नई योजना की घोषणा हुई, जो अगले 5 साल में ₹2 करोड़ तक के term loan देगी और Stand-Up India के सबक़ अपनाएगी।[^6] DFS के पन्ने पर लिखा है कि इस नई योजना का EFC note तैयार किया जा रहा है; पन्ने पर इस बात की अलग तारीख़ नहीं है।[^1]\n\n## योजना कैसे चलती थी | कैसे\n\n::flow\n\n## रोज़ की ज़िंदगी का उदाहरण | उदाहरण\n\n> **उदाहरण (समझाने के लिए):** मान लीजिए 2023 में, जब योजना चल रही थी, सीमा पहली बार अपनी सिलाई की यूनिट लगाना चाहती थीं, जिसकी पूरी लागत ₹20 लाख थी। Stand-Up India में bank लागत का 85% यानी ₹17 लाख तक का loan दे सकता था। बचे ₹3 लाख (15% margin) में से कम से कम ₹2 लाख (10%) सीमा को ख़ुद लगाने होते; बाक़ी किसी पात्र सरकारी योजना की मदद से आ सकता था। (आँकड़े सिर्फ़ समझाने के लिए हैं; यह योजना 31.03.2025 को बंद हो चुकी है।)\n\n## योजना की मुख्य शर्तें | शर्तें\n\n- **कौन:** SC/ST और/या महिला उद्यमी, जिनकी उम्र 18 साल से ज़्यादा हो।[^2]\n- **सिर्फ़ नया उद्यम:** loan सिर्फ़ greenfield project के लिए था। Portal के मुताबिक greenfield का मतलब है लाभार्थी का manufacturing, services, agri-allied या trading में पहली बार उद्यम लगाना।[^2]\n- **Company या firm:** व्यक्ति के अलावा किसी उद्यम में 51% shareholding और controlling stake SC/ST और/या महिला उद्यमी के पास होना चाहिए था।[^2]\n- **Default नहीं:** उधार लेने वाला किसी bank या वित्तीय संस्था का defaulter न हो।[^2]\n- **Loan:** composite loan (term loan और working capital मिलाकर), ₹10 लाख से ₹100 लाख तक, परियोजना लागत का 85% तक। 85% वाली शर्त तब लागू नहीं होती थी, जब उधार लेने वाले का अपना पैसा और दूसरी योजनाओं की मदद मिलाकर लागत के 15% से ज़्यादा हो।[^2]\n- **Margin money:** 15%, जो पात्र केंद्र/राज्य योजनाओं से मिल सकता था; पर हर हाल में उधार लेने वाले को लागत का कम से कम 10% ख़ुद लगाना होता था।[^2]\n- **ब्याज:** उस rating श्रेणी के लिए bank की सबसे कम लागू दर, जो (base rate (MCLR) + 3% + tenor premium) से ज़्यादा न हो।[^2]\n- **चुकाना:** 7 साल में, जिसमें ज़्यादा से ज़्यादा 18 महीने की मोहलत (moratorium) शामिल थी।[^2]\n- **Security:** primary security के अलावा, bank के फ़ैसले के मुताबिक collateral या Stand-Up India loans की credit guarantee योजना की गारंटी।[^2]\n- **हर bank branch का लक्ष्य:** कम से कम एक SC या ST borrower और कम से कम एक महिला borrower।[^3]\n\n## आम ग़लतफ़हमी | ग़लतफ़हमी\n\n::myths\n\n## परीक्षा के लिए\n\n> याद रखने लायक़: Stand-Up India — 5 अप्रैल 2016 को शुरू; SC/ST और/या महिला उद्यमी (18 साल से ऊपर); सिर्फ़ greenfield project; ₹10 लाख से ₹1 करोड़ composite loan; हर branch कम से कम एक SC/ST और एक महिला borrower; 7 साल (18 महीने तक moratorium); 31.03.2025 को बंद; शुरू से 17 मार्च 2025 तक ₹61,020.41 करोड़ sanctioned। Budget 2025-26 पैरा 32: 5 लाख पहली बार के उद्यमियों के लिए नई योजना, ₹2 करोड़ तक term loan। इस तरह के बाक़ी शब्द [परीक्षा के लिए](/pariksha/) पन्ने पर हैं।[^1][^2][^3][^5][^6]\n\n## सवाल-जवाब\n\n::faq\n\n## जुड़े शब्द | -\n\n::related"
     }
   ]
 }
