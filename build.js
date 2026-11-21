@@ -1642,7 +1642,6 @@ const DISCLAIMER = {
 const PK_T = (ids) => ids.map((id) => `[${TERM_TITLE[id] || id}](/shabdkosh/${id}/)`).join(" · ");
 const TERM_TITLE = {};
 const PK_GROUPS = [
-  { h: "पैसे की बुनियाद", tag: "व्यक्तिगत वित्त की बुनियादी शब्दावली", ids: ["net-worth", "financial-goals"] },
   { h: "अर्थव्यवस्था के पैमाने: GDP और महँगाई", tag: "UPSC Prelims · GS-III · IBPS / SBI", ids: ["mospi", "gdp", "gva", "iip", "plfs", "inflation", "cpi", "wpi", "money-supply", "basis-point", "balance-of-payments", "current-account-deficit", "fdi-fpi", "exchange-rate", "human-development-index", "liberalisation", "national-income", "globalisation", "external-debt"] },
   { h: "मौद्रिक नीति, RBI और बैंकिंग ढाँचा", tag: "UPSC GS-III · IBPS / SBI", ids: ["monetary-policy", "rbi", "rbi-act", "mpc", "repo-rate", "bank-rate", "msf", "sdf", "reverse-repo", "laf", "omo", "call-money", "government-securities", "treasury-bill", "certificate-of-deposit", "commercial-paper", "crr", "slr", "ndtl", "eblr", "mclr", "banking-regulation-act", "bank-nationalisation", "commercial-bank", "co-operative-bank", "regional-rural-bank", "small-finance-bank", "payments-bank", "local-area-bank", "nbfc", "dicgc", "exim-bank", "nhb", "nabfid"] },
   { h: "क़र्ज़, NPA और वसूली", tag: "UPSC GS-III · IBPS / SBI", ids: ["npa", "sarfaesi", "ibc", "ibbi", "arc", "capital-adequacy-ratio", "credit-risk", "wilful-defaulter", "collateral", "term-loan", "cash-credit", "overdraft", "personal-loan", "home-loan", "gold-loan", "kfs", "penal-charges", "digital-lending", "credit-bureau", "cibil"] },
@@ -1681,7 +1680,7 @@ const PK_EXAMS = [
     src: ["UPSC — CSE 2026 Notification (Notice No. 05/2026-CSE, 04.02.2026)", "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf"] },
   { c: "psc", eb: "State PSC · सभी राज्य", h: "राज्य लोक सेवा आयोग", sub: "हर राज्य का syllabus अलग है और बदलता रहता है, इसलिए यहाँ किसी राज्य के syllabus पर कोई दावा नहीं है। अपनी परीक्षा का syllabus अपने आयोग की official website पर मिलाइए।",
     lines: [
-      { h: "अर्थव्यवस्था और banking के बुनियादी शब्द (हमारी सूची)", ids: ["net-worth", "financial-goals", "gdp", "inflation", "union-budget", "fiscal-deficit", "gst", "rbi", "monetary-policy", "financial-inclusion", "msp", "nabard", "regional-rural-bank", "pmjdy", "dbt", "finance-commission", "niti-aayog", "pm-kisan", "self-help-group"] },
+      { h: "अर्थव्यवस्था और banking के बुनियादी शब्द (हमारी सूची)", ids: ["gdp", "inflation", "union-budget", "fiscal-deficit", "gst", "rbi", "monetary-policy", "financial-inclusion", "msp", "nabard", "regional-rural-bank", "pmjdy", "dbt", "finance-commission", "niti-aayog", "pm-kisan", "self-help-group"] },
     ],
     psc: true,
     src: ["UPSC — State Public Service Commissions (सूची)", "https://www.upsc.gov.in/external-links/state-public-service-commissions"] },
