@@ -525,6 +525,10 @@
         {
           "d": "2026-10-08",
           "t": "पन्ना बना। India Code पर भारत के संविधान (अनुच्छेद 233–236) और Indian Succession Act, 1925 (\"As on the 19th June, 2026\") के पाठ से जाँचा।"
+        },
+        {
+          "d": "2026-11-23",
+          "t": "India Code का स्रोत-link नए पते (indiacode.gov.in) पर बदला; पाठ वही।"
         }
       ],
       "one": "Indian Succession Act के मुताबिक District Judge प्रधान सिविल अदालत (Principal Civil Court of original jurisdiction) का जज है। वसीयत और विरासत के मामलों में probate, letters of administration और succession certificate देने का अधिकार Indian Succession Act में District Judge को दिया गया है, और उसके आदेश के ख़िलाफ़ High Court में appeal होती है।",
@@ -654,7 +658,7 @@
         },
         {
           "label": "India Code — The Indian Succession Act, 1925 (Act No. 39 of 1925), पाठ \"As on the 19th June, 2026\"",
-          "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/2385/1/a192539.pdf",
+          "url": "https://indiacode.gov.in/act/c8260f60-2f57-4114-8bd4-5f23cea534fb",
           "used": [
             {
               "ref": "धारा 2(bb)",
