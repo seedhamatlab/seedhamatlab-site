@@ -39,7 +39,7 @@ const CARDS = {
   "online-fraud-kya-kare": { label: "EMERGENCY GUIDE", icon: "!", headline: "Fraud ho gaya?", points: ["Bank को तुरंत बताएं", "1930 पर report करें", "UTR और proof रखें"] },
   "digital-arrest": { label: "SCAM ALERT", icon: "✦", headline: "Video call पर arrest?", points: ["Call काटें", "पैसे या OTP न दें", "1930 पर report करें"] },
   "golden-hour-3-din": { label: "QUICK ACTION", icon: "↗", headline: "पैसे कटे? अभी ये करें", points: ["Bank को तुरंत बताएं", "Complaint number रखें", "Cyber fraud: 1930"] },
-  "free-look-30-din": { label: "KNOW YOUR RIGHT", icon: "✓", headline: "Life policy: 30-day free look", points: ["1 साल+ की policy", "Document मिलने से गिनें", "Company को लिखित request"] },
+  "free-look-30-din": { label: "KNOW YOUR RIGHT", icon: "✓", headline: "Life/health policy: 30-day free look", points: ["1 साल+ की जीवन या नई व्यक्तिगत स्वास्थ्य पॉलिसी", "Document मिलने से 30 दिन", "Claim न किया हो तो रद्द"] },
   "epf-e-nomination": { label: "FAMILY CHECK", icon: "◎", headline: "EPF nominee check करें", points: ["Official member portal", "Details verify करें", "e-nomination पूरा करें"] },
   "consumer-1915": { label: "CONSUMER HELP", icon: "→", headline: "Product में problem?", points: ["Seller से लिखित बात", "Proof संभालकर रखें", "NCH: 1915"] },
   "fake-customer-care": { label: "NUMBER CHECK", icon: "☎", headline: "Search वाला helpline?", points: ["Ad number पर भरोसा नहीं", "Official site से number", "Screen share कभी नहीं"] },
@@ -1913,7 +1913,7 @@ const FAQ = [
   },
   {
     q: "बीमा पॉलिसी गलत बताकर बेच दी गई — वापस हो सकती है?",
-    a: "एक साल या उससे लंबी **जीवन बीमा पॉलिसी** पर दस्तावेज़ मिलने के बाद **30 दिन** का फ्री-लुक समय है। शर्तें मंज़ूर न हों तो रद्द करने का अनुरोध किया जा सकता है; तय कटौतियाँ लागू होती हैं। [विस्तार से](/p/free-look-30-din/)।",
+    a: "कम से कम एक साल की **जीवन या नई व्यक्तिगत स्वास्थ्य बीमा पॉलिसी** पर दस्तावेज़ (इलेक्ट्रॉनिक भी) मिलने से **30 दिन** का फ़्री-लुक समय है। कोई दावा न किया हो तो कारण बताकर रद्द करने का अनुरोध दें — यह अनुरोध 30 दिन के भीतर बीमा कंपनी को मिल जाना चाहिए। रिफंड से सिर्फ़ कवर की अवधि का आनुपातिक जोखिम प्रीमियम, प्रस्तावक की मेडिकल जाँच पर कंपनी का वास्तविक ख़र्च (अगर हुआ हो) और स्टांप शुल्क कट सकते हैं; लिंक्ड पॉलिसी में यूनिटें रद्द होने की तारीख़ की NAV पर वापस ख़रीदी जाती हैं। बीमा कंपनी को अनुरोध मिलने से 7 दिन के भीतर रद्दीकरण निपटाना और पैसा लौटाना होता है। [विस्तार से](/p/free-look-30-din/)।",
   },
   {
     q: "EPF में नॉमिनेशन नहीं भरा है तो क्या होगा?",

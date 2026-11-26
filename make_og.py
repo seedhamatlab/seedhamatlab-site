@@ -16,7 +16,7 @@ COPY={
 'online-fraud-kya-kare':('Online fraud ho gaya?','Bank ko batayein. 1930 par report karein.'),
 'digital-arrest':('Video call par arrest?','Call kaat dein. Alag se verify karein.'),
 'golden-hour-3-din':('Paise kat gaye?','Bank ko turant batayein.'),
-'free-look-30-din':('Life policy free-look?','Pehle policy documents check karein.'),
+'free-look-30-din':('Life ya nayi individual health policy?','Policy ki avadhi kam se kam 1 saal ho to document milne se 30 din ka free-look.'),
 'epf-e-nomination':('EPF nominee check kiya?','Official portal par details dekhein.'),
 'consumer-1915':('Product mein problem?','Proof rakhein. Official help route dekhein.'),
 'fake-customer-care':('Search wala helpline?','Number official website se verify karein.'),
